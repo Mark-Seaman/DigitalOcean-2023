@@ -1,0 +1,99 @@
+{% extends "theme.html" %}
+
+
+{% block content %}
+
+<div class="container m-5">
+
+    <h1>History for {{ month }}</h1>
+
+    <h2>Days</h2>
+    <ul>
+        {% for d in days %}
+        <li>
+            <a href="/history/{{ d }}">{{ d }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <hr>
+
+    <h2>Tasks</h2>
+    <pre>{{ tasks }}</pre>
+
+    <ul>
+        {% for g in tasks %}
+        <li>
+            {{ g.name }}
+            <ul>
+                {% for n in g.notes %}
+                <li>
+                    {{ n }}
+                </li>
+                {% endfor %}
+            </ul>
+
+
+        </li>
+        {% endfor %}
+
+    </ul>
+
+    <hr>
+    <div class="container m-5">
+
+        {% if tabs %}
+
+        <h2>Time Spent</h2>
+
+        <ul class="nav nav-tabs" role="tablist">
+
+            {% for t in tabs %}
+            <li class="nav-item">
+                <a class="nav-link {{ t.active }}" id="{{ t.name }}-tab" data-bs-toggle="tab" href="#{{ t.name }}">
+                    {{ t.tab }}
+                </a>
+            </li>
+            {% endfor %}
+
+        </ul>
+
+        <div class="tab-content">
+
+            {% for table in tabs %}
+
+            <div class="tab-pane bg-light text-dark p-5 {{ table.active }} {{ table.show }} fade" id="{{ table.name }}">
+
+                {% include 'time_table.html' %}
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+        {% endif %}
+
+        {% if incomplete %}
+
+        <div class="card m-5">
+            <div class="card-header">
+                Incomplete Daily Log
+            </div>
+            <div class="card-body">
+                <ul>
+                    {% for day in incomplete %}
+                    <li><b>{{ day.0 }}</b> - Logged {{ day.1 }} hours</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        {% endif %}
+
+
+    </div>
+
+
+</div>
+
+{% endblock content %}

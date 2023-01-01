@@ -1,0 +1,84 @@
+{% extends 'theme.html' %}
+
+{% block title %}
+    Hammer Test
+{% endblock title %}
+
+
+{% block content %}
+
+<div>
+{#    <a href="/probe/add" class="btn btn-success m-5">Add New Test</a>#}
+    <a href="/test/run" class="btn btn-success m-5">Run All Tests</a>
+    <a href="/test/reset" class="btn btn-success m-5">Reset All Tests</a>
+    <a href="/test/like" class="btn btn-success m-5">Like All Tests</a>
+
+</div>
+
+<div class="container m-5">
+
+    <div class="card m-3">
+        <div class="card-header card-padding bg-danger text-light text-center p-3">
+            <h3>Failing Tests</h3>
+        </div>
+        <div class="card-body card-padding">
+            <table class="table table-hover">
+                <tr>
+                    <th>Test</th>
+                    <th>Python Source Code</th>
+                    <th>Status</th>
+                    <th>Edit</th>
+                </tr>
+
+                {% for test in failing %}
+                <tr>
+                    <td><a href="/test/{{ test.pk }}" class="btn btn-danger">{{ test.name }}</a></td>
+                    <td>
+                        {{ test.source }}
+                    </td>
+                    <td>
+                        {% if test.passed %}PASS{% else %}FAIL{% endif %}
+                    </td>
+                    <td><a href="/test/{{ test.pk }}/" class="btn btn-danger">Edit</a></td>
+                </tr>
+                {% endfor %}
+
+            </table>
+        </div>
+
+    </div>
+
+    <div class="card m-3">
+        <div class="card-header card-padding bg-success text-light text-center p-3">
+            <h3>Passing Tests</h3>
+        </div>
+        <div class="card-body card-padding">
+            <table class="table table-hover">
+                <tr>
+                    <th>Test</th>
+                    <th>Python Source Code</th>
+                    <th>Status</th>
+                    <th>Edit</th>
+                </tr>
+
+                {% for test in passing %}
+                <tr>
+                    <td><a href="/test/{{ test.pk }}" class="btn btn-success">{{ test.name }}</a></td>
+                    <td>
+                        {{ test.source }}
+                    </td>
+                    <td>
+                        {% if test.passed %}PASS{% else %}FAIL{% endif %}
+                    </td>
+                    <td><a href="/test/{{ test.pk }}/" class="btn btn-success">Edit</a></td>
+                </tr>
+                {% endfor %}
+
+            </table>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock content %}

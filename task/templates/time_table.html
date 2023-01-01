@@ -1,0 +1,25 @@
+<h2>{{ table.period }}</h2>
+<p>{{ table.description }}</p>
+
+<table class="table table-hover p-20">
+
+    {% for label in table.labels %}
+        <th>{{ label }}</th>
+    {% endfor %}
+
+    <tr>
+        <td><strong>Total</strong></td>
+        <td><strong>{{ table.total }} Hours</strong></td>
+    </tr>
+
+    {% for row in table.table %}
+        <tr>
+            <td>{{ row.0 }}</td>
+            <td>{{ row.1 }} hours</td>
+            {% if row.2 %}
+                <td>{{ row.2 }}%</td>
+            {% endif %}
+        </tr>
+    {% endfor %}
+
+</table>

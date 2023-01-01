@@ -1,0 +1,20 @@
+<section>
+    <section class="section divider" data-background-image="{{ divider }}">
+        <h2>{% autoescape off %}{{ title }}{% endautoescape %}</h2>
+    </section>
+
+
+    {% if slides %}
+        {% for slide in slides %}
+            <section data-background-image="{{ background }}" data-markdown data-separator="\n### ">
+
+                <textarea data-template>{% autoescape off %}{{ slide }}{% endautoescape %}
+                </textarea>
+
+            </section>
+        {% endfor %}
+
+    {% endif %}
+
+
+</section>

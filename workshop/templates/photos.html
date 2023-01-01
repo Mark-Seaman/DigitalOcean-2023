@@ -1,0 +1,23 @@
+{% extends 'theme.html' %}
+
+
+
+{% block content %}
+
+<div class="row bg-dark text-light">
+    <h1>{{ title }}</h1>
+
+    {% for photo in photos %}
+
+    <div class="col-3 p-5">
+
+        <a href="/views/photo/{{ gallery }}/{{ photo.id }}">
+            <img class="img-fluid rounded" src="/{{ photo.file }}">
+        </a>
+        <!-- <p class="p-0">{{ photo.name }}</p> -->
+
+    </div>
+
+    {% endfor %}
+</div>
+{% endblock content %}

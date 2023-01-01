@@ -1,0 +1,197 @@
+#!/bin/bash
+# Linux Shell Contexts
+
+# Path Context
+syspath="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+pyenv=/Users/seaman/.pyenv/versions/3.10.4/bin
+brew=/opt/homebrew/bin:/opt/homebrew/sbin
+sublime="/Applications/Sublime Text.app/Contents/SharedSupport/bin"
+vscode1="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+vscode2="/private/var/folders/ch/23b6bkbj5t90h339h0pjyvh80000gn/T/AppTranslocation/*/d/Visual Studio Code 2.app/Contents/Resources/app/bin"
+export PATH="$pyenv:$brew:$sublime:$vscode1:$vscode2:$syspath"
+
+
+# Variables
+export p=~/Hammer
+export d=$p/Documents
+export g=$HOME/Github
+export c=$d/shrinking-world.com/bacs350
+export a=$HOME/Archive
+export i=$d/markseaman.info
+export m="$a/rcp/mbw"
+export n=$a/ntsh
+export s=$d/seamanslog.com/sampler/12
+export t=$i/history/2022/12
+export w=$d/seamansguide.com/webapps
+export course=$c
+export slog=$s
+export blog=$d/shrinking-world.com/blog
+export book=$d/seamansguide.com
+export PS1="%3~ : "
+export EDITOR="subl -w"
+
+
+# Project Context
+alias e='subl'
+alias ea='subl ~/Hammer/config/zshrc'
+alias hammer="source ~/.zshrc && code $p"
+alias book='subl $book'
+alias course='subl $course'
+alias slog='subl $slog'
+alias blog='subl $blog'
+alias docs='subl Documents'
+alias demo='code $g/PythonWebApps'
+alias task='subl $t'
+alias cprc='cp ~/Hammer/config/zshrc ~/.zshrc && . ~/.zshrc'
+
+# Workflow
+alias todo='pm todo'
+alias build='d && pm build'
+alias epub='d $w && open textbook.epub'
+alias dropbox='cp $w/textbook.epub ~/Dropbox/Stacie-Mark/PythonWebApps'
+alias m='e Documents/mastodon'
+
+# Linux command context
+alias g='grep --color=auto'
+alias l='ls -al'
+alias u='d ..'
+alias host=hostname
+alias h='history 100'
+alias p=python
+
+# Git aliases
+alias s='git status'
+alias gh='d $g'
+alias gl='git log --name-only'
+alias gd='git diff'
+alias ga='git add -A . && git commit -m'
+alias gco='git checkout'
+alias vc='cd $p && pm vc'
+alias pull='pm vc pull'
+alias push='pm vc push'
+alias deploy='pm vc deploy'
+
+# Django aliases
+alias pm='python manage.py'
+alias serve='pm runserver 8000'
+alias dt='pm test'
+alias migrate='pm makemigrations && pm migrate'
+alias mm='pm makemigrations'
+alias web='open http://markseaman.info'
+alias w='open http://markseaman.info'
+
+# Servers
+alias imac='ssh seaman@marks-imac.local'
+alias macbook='ssh markseaman@marks-macbook.local'
+alias ntsh='. $n/zshrc'
+alias unpack='pm pack open'
+alias pack='pm pack close'
+alias imager='pm imager'
+
+# Test aliases
+alias tst='pm tst run'
+alias tlike='pm tst like && tst'
+alias tres='pm tst results | less'
+alias treset='pm tst reset'
+alias qt='pm tst quick'
+
+
+
+# Linux functions
+function d {
+    directory=$1
+    [ -z "$1" ] && directory="$p"
+    [ -z "$1" ] || echo $directory && cd $directory && l
+}
+
+# Big commit on current directory
+function c {
+    git pull           &&
+    git add -A .       &&
+    git commit -m "$*" &&
+    git push
+    git status
+}
+
+# Copy a file tree
+function cptree {
+    rsync -auv "$1/" "$2"
+}
+
+# Create a post on mastodon
+function post {
+    msg=`cat Documents/mastodon/$1`
+    echo toot post \"$msg\"
+}
+
+# List the path in readable form
+function path {
+    echo $PATH | perl -pe s/:/\\n/g
+}
+
+# Show the Python setup
+function py {
+    echo "Python environment"
+    echo PYTHON_PATH = `which python`
+    echo PYENV = `pyenv which python`
+    echo "Python Packages"
+    pip freeze
+}
+
+
+
+# Demo Code
+
+export b3=$HOME/Github/PythonWebApps
+export s=$b3/Superhero
+export p1=$b3/01/ProfileApp
+export p2=$b3/02/ProfileApp
+export p3=$b3/03/Superhero
+export p4=$b3/04/Gallery
+export p5=$b3/05/Notes
+export p6=$b3/06/Blog
+export p7=$b3/07/News
+export p8=$b3/08/Messenger
+export p9=$b3/09/ViewWorkshop
+export p10=$b3/10/Album
+export p11=$b3/11/Book
+export p12=$b3/12/CourseBuilder
+export p13=$b3/13/CodeBuilder
+export p14=$b3/14/SoftwarePlanner
+
+alias p1='cd $p1 && l'
+alias p2='cd $p2 && l'
+alias p3='cd $p3 && l'
+alias p4='cd $p4 && l'
+alias p5='cd $p5 && l'
+alias p6='cd $p6 && l'
+alias p7='cd $p7 && l'
+alias p8='cd $p8 && l'
+alias p9='cd $p9 && l'
+alias p10='cd $p10 && l'
+alias p11='cd $p11 && l'
+alias p12='cd $p12 && l'
+alias p13='cd $p13 && l'
+alias p14='cd $p14 && l'
+
+alias superuser='pm createsuperuser --no-input  --email "me@here.us"'
+
+# DocEnv
+export DJANGO_SUPERUSER_USERNAME='seaman'
+export DJANGO_SUPERUSER_PASSWORD='seaman'
+export DJANGO_SUPERUSER_EMAIL='seaman'
+
+
+# Banner
+figlet Hammer Time
+
+
+# # Node environment
+# export NVM_DIR="$HOME/.nvm"
+# [[ -s "$NVM_DIR/nvm.sh" ]] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [[ -s "$NVM_DIR/bash_completion" ]] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# export PYENV_ROOT="$HOME/.pyenv"
+# command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init -)"
+

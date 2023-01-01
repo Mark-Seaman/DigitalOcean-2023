@@ -1,0 +1,61 @@
+{% extends 'textbook_theme.html' %}
+
+
+
+{% block css %}
+<link href="/static/css/textbook.css" rel="stylesheet">
+{% endblock css %}
+
+
+
+{% block content %}
+
+<div class="container-fluid p-5">
+
+    <p>{{ words }} words in book</p>
+
+    {% for w in chapters %}
+
+    <div>
+        <h4>
+            <a href="{{ w.url }}">{{ w.chapter.title }}</a>
+        </h4>
+        <p>
+            {{ w.words }} words in chapter
+        </p>
+    </div>
+
+    <div class="row">
+
+
+        <div class="col-lg-3 card m-3 p-3">
+            <p>
+                <a href="{{ w.chapter.url }}">{{ w.chapter.title }}</a> ({{ w.chapter.words }} words)
+            </p>
+        </div>
+        <div class="col-lg-3  card m-3 p-3">
+            <ul>
+                {% for s in w.skills %}
+                <p>
+                    <a href="{{ s.url }}">{{ s.title }}</a> ({{ s.words }} words)
+                </p>
+                {% endfor %}
+            </ul>
+
+        </div>
+        <div class="col-lg-3 card m-3 p-3">
+            <p>
+                <a href="{{ w.demo.url }}">{{ w.demo.title }}</a> ({{ w.demo.words }} words)
+            </p>
+            <p>
+                <a href="{{ w.project.url }}">{{ w.project.title }}</a> ({{ w.project.words }} words)
+            </p>
+        </div>
+    </div>
+
+    {% endfor %}
+
+
+</div>
+
+{% endblock content %}

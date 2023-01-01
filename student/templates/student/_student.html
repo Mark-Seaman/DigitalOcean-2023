@@ -1,0 +1,40 @@
+<div class="col-lg">
+
+    <div class="card m-5">
+        <div class="card-header bg-primary text-light">
+            Server Settings
+        </div>
+        <div class="card-body">
+
+            <table class="table">
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <a href="/course/bacs350/student/{{ student.pk }}/">
+                            {{ student.name }}
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Github</td>
+                    <td>
+                        <a href="{{ student.github }}" target="server">
+                            {{ student.github }}</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Server</td>
+                    <td>
+                        <a href="{{ student.server }}" target="server">
+                            {{ student.server }}</a>
+                    </td>
+                </tr>
+            </table>
+
+            <p>
+                <a href="/course/bacs350/student/{{ student.pk }}/" class="btn btn-success">Edit Settings</a>
+            </p>
+        </div>
+
+    </div>
+</div>

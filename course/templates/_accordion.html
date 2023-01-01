@@ -1,0 +1,77 @@
+{% if accordion %}
+
+<div class="container">
+
+    <div class="accordion bg-light text-dark" id="accordionExample">
+
+        {% for card in accordion %}
+
+        <div class="accordion-item">
+
+            <h2 class="accordion-header bg-success" id="heading-{{ card.id }}">
+
+                <button class="accordion-button {{ card.collapsed }} green" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse-{{ card.id }}" aria-expanded="{{ card.aria }}"
+                    aria-controls="collapse-{{ card.id }}">
+
+                    {{ card.title }}
+
+                </button>
+
+            </h2>
+
+            <div id="collapse-{{ card.id }}" class="accordion-collapse collapse {{ card.show }}"
+                aria-labelledby="heading-{{ card.id }}" data-bs-parent="#accordionExample">
+
+                <div class="accordion-body row">
+
+                    {% for x in card.data.lessons %}
+
+                    <div class="col-lg-4">
+                        <div class="card-lesson">
+                            <div class="card-header blue">
+                                {{ x.title }}
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li><a href="{{ x.slides }}" target="slides">Slides</a></li>
+                                    <li><a href="{{ x.notes }}" target="notes">Notes</a></li>
+                                    {% if x.video %}
+                                    <li><a href="{{ x.video }}" target="video">Video</a></li>
+                                    {% endif %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    {% endfor %}
+
+                    <div class="col-lg-4">
+                        <div class="card-lesson">
+                            <div class="card-header yellow">
+                                Project
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    {% for x in card.data.practice %}
+                                    <li><a href="{{ x.url }}" target="notes">{{ x.title }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        {% endfor %}
+    </div>
+
+</div>
+
+
+{% endif %}

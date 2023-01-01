@@ -1,0 +1,15 @@
+{% extends 'textbook_theme.html' %}
+
+
+
+{% block content %}
+
+    <div class="container p-5">
+
+        {% autoescape off %}
+            {{ html }}
+        {% endautoescape %}
+
+    </div>
+
+{% endblock content %}

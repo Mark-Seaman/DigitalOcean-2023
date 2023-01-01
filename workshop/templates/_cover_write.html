@@ -1,0 +1,61 @@
+<!-- Render the Book Cover with Titles -->
+
+<style>
+
+    .cover-image {
+        width: 300px;
+        height: 880px
+    }
+
+    .title-overlay {
+        position: absolute;
+        display: block;
+        top: 400px;
+        left: 400px;
+        width: 500px;
+        height: 200px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 2em;
+        border-radius: 0px 50px 0px 50px;
+    }
+
+    .title-overlay h1 {
+        color: black;
+        font: 400% Arial;
+        text-shadow: 2px 2px 5px gray;
+    }
+
+    .title-overlay h2 {
+        color: black;
+        font: 200% Arial;
+    }
+
+    .title-overlay h3 {
+        position: relative;
+        top: 600px;
+        left: -400px;
+        color: white;
+        font: 300% Arial;
+        text-shadow: 2px 2px 5px black;
+    }
+
+</style>
+
+<div class="cover-image">
+
+    <div class="title-overlay">
+
+        {% if cover_title %}
+            <h1>{{ site_title }}</h1><br>
+            <h2>{{ site_subtitle }}</h2>
+        {% endif %}
+        <h3>by {{ author }}</h3>
+
+    </div>
+
+    <img src="/static/images/CoverArtwork/write.jpg">
+</div>
+
+
+

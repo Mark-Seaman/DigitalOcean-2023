@@ -1,0 +1,57 @@
+<div class="container p-5">
+
+    <div class="row">
+
+        <div class="chapter-panel" id="{{ chapter.id }}">
+
+            <div class="chapter_break">
+                Chapter {{ chapter.chapter }}
+            </div>
+            <h1>{{ chapter.title }}</h1>
+
+            {% autoescape off %}
+                {{ chapter.html }}
+            {% endautoescape %}
+
+            <div class="section_break"></div>
+
+            {% for s in skills %}
+
+                <div class="skill-panel" id="{{ s.id }}">
+                    {% autoescape off %}
+                        {{ s.html }}
+                    {% endautoescape %}
+
+                    <div class="section_break"></div>
+
+                </div>
+
+            {% endfor %}
+
+            {% if demo %}
+
+                <div class="project-panel" id="{{ demo.id }}">
+                    {% autoescape off %}
+                        {{ demo.html }}
+                    {% endautoescape %}
+                </div>
+
+                <div class="section_break"></div>
+
+            {% endif %}
+
+            {% if project %}
+
+                <div class="project-panel" id="{{ project.id }}">
+                    {% autoescape off %}
+                        {{ project.html }}
+                    {% endautoescape %}
+                </div>
+
+            {% endif %}
+
+        </div>
+    </div>
+    <hr>
+
+</div>

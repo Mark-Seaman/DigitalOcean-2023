@@ -1,0 +1,50 @@
+{% extends 'course_theme.html' %}
+
+
+{% block navbar %}
+{% endblock navbar %}
+
+
+{% block header %}
+<header class="p-1 p-lg-3">
+    <h1 class="ml-1 ml-lg-5">
+        <a href="/course/bacs350">Python Web Apps</a>
+    </h1>
+    <h2 class="ml-1 ml-lg-5">Intermediate Web Dev</h2>
+</header>
+{% endblock header %}
+
+
+{% block content %}
+
+<h2 class="ml-1 ml-lg-5">{{ site_subtitle }}</h2>
+<div class="container m-5" style="width: 50%;margin: 500px">
+    <div class="card">
+        <div class="card-header">
+            <h2 class="">Log In</h2>
+        </div>
+        <div class="card-body">
+            <p>
+                Login as a student of BACS 350 at UNC. This will give you access to to your Github account and your Web
+                Application Server
+                at Digital Ocean.
+            </p>
+            <p>
+                Login with the user ID and password that you registered. If you have any problems then email
+                "Mark.Seaman@unco.edu".
+            </p>
+            {% load crispy_forms_tags %}
+            <form method="post" class="m-5">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <button type="submit" class="btn btn-primary m-5">Log In</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+
+{% block footer %}
+{% endblock footer %}

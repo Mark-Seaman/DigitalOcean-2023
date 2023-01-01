@@ -1,0 +1,67 @@
+{% extends 'textbook_theme.html' %}
+
+
+
+{% block css %}
+    <link href="textbook.css" rel="stylesheet">
+{% endblock css %}
+
+
+
+{% block content %}
+
+    <div class="container-fluid p-5">
+
+        <h1>{{ title }}</h1>
+
+        <div>
+            <a href="{{ intro.url }}" target="chapter" id="introduction">
+                {{ intro.title }}
+            </a>
+            <br><br>
+        </div>
+
+        {% for c in chapters %}
+
+            <div>
+                <h4>
+                    <a href="textbook.html#{{ c.chapter.id }}" target="chapter">
+                        {{ c.chapter.title }}
+                    </a>
+                </h4>
+
+                <ul>
+                    <li>
+                        <a href="textbook.html#{{ c.chapter.id }}" target="chapter">{{ c.chapter.title }}</a>
+                        - {{ c.chapter.words }} words -
+                        <a href="{{ c.chapter.edit }}" target="edit">Edit</a>
+                    </li>
+                    {% for skill in c.skills %}
+                        <li>
+                            <a href="textbook.html#{{ skill.id }}" target="chapter">{{ skill.title }}</a>
+                            - {{ skill.words }} words -
+                            <a href="{{ skill.edit }}" target="edit">Edit</a>
+                        </li>
+                    {% endfor %}
+                    <li>
+                        <a href="textbook.html#{{ c.demo.id }}" target="chapter">{{ c.demo.title }}</a>
+                        - {{ c.demo.words }} words -
+                        <a href="{{ c.demo.edit }}" target="edit">Edit</a>
+                    </li>
+                    <li>
+                        <a href="textbook.html#{{ c.project.id }}" target="chapter">{{ c.project.title }}</a>
+                        - {{ c.project.words }} words -
+                        <a href="{{ c.project.edit }}" target="edit">Edit</a>
+                    </li>
+                </ul>
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+{% endblock content %}
+
+
+{% block footer %}
+{% endblock footer %}

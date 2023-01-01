@@ -1,0 +1,89 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+databases:
+- engine: PG
+  name: db
+  num_nodes: 1
+  size: db-s-dev-database
+  version: "12"
+domains:
+- domain: markseaman.org
+  type: PRIMARY
+  zone: markseaman.org
+- domain: markseaman.info
+  type: ALIAS
+  zone: markseaman.info
+- domain: seamanfamily.org
+  type: ALIAS
+  zone: seamanfamily.org
+- domain: seamanslog.com
+  type: ALIAS
+  zone: seamanslog.com
+- domain: spiritual-things.org
+  type: ALIAS
+  zone: spiritual-things.org
+- domain: seamansguide.com
+  type: ALIAS
+  zone: seamansguide.com
+- domain: shrinking-world.com
+  type: ALIAS
+  zone: shrinking-world.com
+name: hammer-app
+region: nyc
+services:
+- environment_slug: python
+  envs:
+  - key: DATABASE_ENGINE
+    scope: RUN_AND_BUILD_TIME
+    value: django.db.backends.sqlite3
+  - key: DATABASE_NAME
+    scope: RUN_AND_BUILD_TIME
+    value: config/hammer.db
+  - key: DISABLE_COLLECTSTATIC
+    scope: RUN_AND_BUILD_TIME
+    value: "1"
+  - key: DATABASE_URL
+    scope: RUN_TIME
+    value: ${db.DATABASE_URL}
+  - key: POSTGRES_DB
+    scope: RUN_AND_BUILD_TIME
+    value: ${db.DATABASE}
+  - key: POSTGRES_HOST
+    scope: RUN_AND_BUILD_TIME
+    value: ${db.HOSTNAME}
+  - key: POSTGRES_USER
+    scope: RUN_AND_BUILD_TIME
+    value: ${db.USERNAME}
+  - key: POSTGRES_PASSWORD
+    scope: RUN_AND_BUILD_TIME
+    value: ${db.PASSWORD}
+  - key: POSTGRES_PORT
+    scope: RUN_AND_BUILD_TIME
+    value: ${db.PORT}
+  github:
+    branch: production
+    deploy_on_push: true
+    repo: Mark-Seaman/DigitalOcean
+  http_port: 8080
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  name: hammer-app
+  routes:
+  - path: /
+  run_command: |
+    python manage.py migrate --no-input
+    python manage.py build courses
+    python manage.py build data
+    gunicorn --worker-tmp-dir /dev/shm config.wsgi
+  source_dir: /
+static_sites:
+- environment_slug: html
+  github:
+    branch: production
+    deploy_on_push: true
+    repo: Mark-Seaman/DigitalOcean
+  name: hammer-app-static
+  routes:
+  - path: /static
+  source_dir: /static

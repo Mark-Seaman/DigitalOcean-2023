@@ -1,0 +1,23 @@
+<table class="table table-hover">
+    <tr>
+        <th>ID</th>
+        <th>Student</th>
+        <th>Github</th>
+        <th>Server</th>
+    </tr>
+
+    {% for student in students %}
+    <tr>
+        <td>{{ student.pk }}</td>
+        <td><a href="/course/bacs350/student/{{ student.pk }}" target="student">{{ student.name }}</a></td>
+        <td><a href="{{ student.github }}" target="student">{{ student.github }}</a></td>
+        <td><a href="{{ student.server }}" target="student">{{ student.server }}</a></td>
+        <td>{{ student.body }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+<p>
+    <a href="/accounts/add" class="btn btn-success m-5">Add New Student</a>
+</p>

@@ -1,0 +1,90 @@
+# Monthly Objectives - June 2019
+
+* [Invent](/info/Invent.md) - [Time](/task/Work)
+
+    * Improve Brain App and MyBook app
+        * Build stand-alone Brain App
+        * Simplify and generalize
+        * Simplify CSS
+        * Rebuild task views
+        * Rebuild mybook doc logic
+        * Rebuild page redirect logic
+        * Rebuild menu logic and setup custom menus
+        * Rebuild task export logic
+        * Build Writers Scorecard (work counter)
+        * Create File and Directory Browser
+        * Brain viewers for display of all docs
+        * Integrate Brain app into MyBook app
+    * Shrinking World Websites
+        * Sensei - UNC & SW Training, Presenter
+        * Aspire - Time Accounting
+        * Spiritual Things
+        * Mark Seaman
+        * Seaman's Log
+        * Seaman's Guide
+    * Server conversion to new server
+        * Build new droplet (SenseiServer) at Digital Ocean
+        * Setup Linux 18.04, Python 3.7, Django 2.2
+        * Debug letsencrypt on seamanfamily.org
+        * Build markdown doc viewer
+        
+* [Write](/info/Write/Index.md) - [Time](/task/Work)
+
+    * Process of Writing
+    * Writers Scorecard 
+        * Shrinking World - 86,000 words
+        * UNC - 44,000 words
+        * Spiritual Things - 29,000 words
+        * Seaman's Guide - 26,000 words
+        * Seaman's Log - 17,000 words
+        * Mark Seaman
+    * Build Seaman's Guide website
+    * Create initial outline for Software Engineering course
+    * Create initial outline for Python Apps course
+    * Update Mark Seaman.org
+
+* [Teach](/info/Teach/Index.md) - [Time](/task/Work)
+
+    * UNC Courses
+        * BACS 200
+            * Create initial Canvas website
+            * Create initial Zybooks assignments
+            * Create initial lesson plan
+            * Build scheduling spreadsheet
+        * BACS 350
+            * Create initial Canvas website
+            * Create initial Zybooks assignments
+            * Create initial lesson plan
+            * Build scheduling spreadsheet
+    * Shrinking World Training Courses
+        * HTML Apps
+        * PHP Apps
+        * Python Apps
+        * Angular Apps
+        * Software Engineering - Principles & Practices
+
+* [Learn](/info/Learn.md) - [Time](/task/Grow)
+
+    * Video course on Angular
+    * Record daily creativity breakthroughs
+    * Get reimbursement for Safari books
+    * Learn Django skills
+        * Inheritance and View classes
+        * CSS skills for buttons and tabs
+        * Template inheritance
+        * Rendering data in Template or Python
+    
+* [Plan](/info/Plan/Index.md) - [Time](/task/Grow)
+
+    * Creative Madness - daily creative routine
+    * Weekly Review - Sunday morning
+    * Build plan for [summer schedule](/info/Teach/SummerSchedule.md)
+    * Personal Journal
+    * Manage investments
+
+* [Fun](/info/Fun.md) - [Time](/task/Fun)
+
+    * Blues from the Top
+    * Friday fest
+    * Trip to South Dakota
+

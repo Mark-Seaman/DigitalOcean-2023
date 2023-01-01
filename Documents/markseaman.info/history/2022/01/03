@@ -1,0 +1,27 @@
+Monday
+
+Grow 0
+
+    5, 5, 3, 3
+
+Tools 10
+
+    build probe_pages.py
+    consolidate doc, hammer, config, workshop to match Digital Ocean
+    build test levels
+    deploy code at Digital Ocean
+        - Clone Documents-2022
+        - Clone hammer-2022 repo at  Digital Ocean
+        - Capture Droplet Snapshot Image
+        - Swap files
+        - Migrate dev database
+        - Swap out git repo (Hammer-2022)
+        - Restart server
+        - Setup BACS 200/300 repos
+        - Import courses and books
+
+Fun 4
+
+    Eureka
+    SNG
+    

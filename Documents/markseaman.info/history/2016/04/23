@@ -1,0 +1,24 @@
+Sat, April 23,2016
+
+Sign 8
+
+    interactive debug with 
+    echo subscription code in status
+    invoke chargify api to get all subscriptions
+    use the auth key withing the Chargify API call
+    return the active status code
+    set the UNVERIFIED status for new users
+    pass through customer reference value
+    improve logging
+    write initial request user function
+    debugging on user auth
+
+Grow 4
+
+    night reading Nowen(nature,time,people)
+    discuss with Stacie
+
+Fun 2
+
+    Quantico, Amazing Race
+

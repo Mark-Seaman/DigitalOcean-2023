@@ -1,0 +1,683 @@
+# Tasks History     2017-04
+
+## Accomplishments
+
+
+
+Sat, 04-01
+
+    Church 3
+    
+            Men's Breakfast
+            church leadership dashboard
+    Fun 5
+    
+            Looking Glass, library, Dec. of Indep.
+    Grow 2
+    
+            think about life goals
+            4, 3, 3, 2
+    
+    Tools 4
+    
+            set up seamanslog and spiritual websites
+            set up navigation between sites
+
+Sun, 04-02
+
+    Grow 2
+    
+            personal review
+            4, 3, 3, 4
+    Church 6
+    
+            lunch at Rio with Warrens and Potters
+    People 2
+    
+            Andrew and Carcasonne
+    Fun 4
+    
+            Emma, Last Crusade
+        
+
+Mon, 04-03
+
+    Grow 3
+    
+            think about writing goals
+            learn about American Revolution
+            think about family history
+            4, 3, 3, 4
+    
+    People 3
+    
+            lunch with Tristan to discuss his career
+    Hire 8
+    
+            learn how to create PDF file
+            install Latex on ubuntu servers
+            attempt to setup Latex on Macs
+            build Markdown file for report (title only)
+            convert Markdown to PDF
+            display PDF file in Who2Hire application
+            manage who2hire branch merges
+
+Tue, 04-04
+
+    Hire 5
+    
+            build report content for an opening
+            work on logic for assigning questions to interviewers
+            enable payments for testing
+    Tools 4
+    
+            create new code generator for views
+            debug code templates
+            build mybook/author
+            build mybook/book
+            build reusable context
+    Grow 1
+    
+            reading and writing about America and Freedom
+            Amber cleaning & work at library
+            4, 3, 2, 2
+    Church 4
+    
+            small group potluck
+    
+
+Wed, 04-05
+
+    Hire 6
+    
+            fix question assignments
+            send notifications to proper recipients
+            learn about Stripe email receipts
+    Church 4
+    
+            SoKM
+    
+    Tools 3
+    
+            extend My Book main menu
+            show author views
+            show book views
+            website navigation
+    Grow 1
+    
+            personal reflection
+            5, 3, 2, 2
+
+Thu, 04-06
+
+    Tools 4
+    
+            rebuild mybook logic for registration and auth
+            login view
+            rework personal websites
+            debug image resize script
+            standardize menus and titles for all websites
+    Grow 2
+    
+            personal planning & creativity
+            5, 2,
+    Hire 6
+    
+            branch merges with who2hire & master
+            fix minor issues
+            build landing page
+            create new artwork for landing page
+            work with Stacie on open issues
+    Fun 2
+    
+            Shield
+    
+
+Fri, 04-07
+
+    People 5
+    
+            Shrinking World Celebration dinner at Melting Pot
+    
+    Tools 0
+    
+            work on aspire redirect
+            remove aspire logic; use mybook doc formatter
+            build plan script
+    Grow 1
+    
+            build up personal goal review notes
+            5, 2, 1, 4
+    Hire 8
+    
+            release 2017-03-07
+            testing on production server
+            create new project directory structure
+            create new git repo
+            debug Who2Hire application code
+
+Sat, 04-08
+
+    Hire 6
+    
+            delete old used repos at Github
+            create new Who2Hire repo at Github
+            create recipe for building application from git repo
+            debug app install on macbook
+    Grow 2
+    
+            nap
+            3, 1, 4, 1
+            food: 1800
+                granola, kifer, sandwich, trail mix
+                hot dog-quesadilla, cottage cheese, ice cream
+    Fun 6
+    
+            Iron Fist, Timeless, Three Musketeers
+    
+
+Sun, 04-09
+
+    Tools 2
+    
+            enable MyBook doc display UI
+    Church 4
+    
+            Brain McLees
+    People 2
+    
+            Julio & Jackie
+    Fun 5
+    
+            Choice, Recruit
+            Sign Their Lives Away
+    Grow 1
+    
+            personal reflection
+            5, 2, 3, 3
+    
+
+Mon, 04-10
+
+    Hire 4
+    
+            deploy new repo on staging server
+            build document UI
+            testing on staging server
+            build recipe for Who2Hire server from repo
+    Aspire 4
+    
+            debug UI of mybook: book,author
+            debug UI of aspire: project,client
+            debug on new production server of MyBook
+            create book objects for mybook
+    People 2
+    
+            first home made pizza
+    Fun 3
+    
+            Madam Sec
+    Grow 1
+    
+            5, 4, 2, 4
+    
+
+Tue, 04-11
+
+    Tools 5
+    
+            update OS on macbook
+            build chapters list on mybook
+            create Chapters to define reading order
+            fix numerous small issues
+            extend book and author views on mybook
+            save data from production
+    Grow 0
+    
+            5, 3, 3, 3
+    Hire 1
+    
+            network problems at Digital Ocean
+            fix problem with sending messages on staging server
+    Write 4
+    
+            WorkMindsets
+            1000 Goals
+            develop content for Leverage website
+            create menu for Leverage book
+            build content for MarkSeaman.org 
+    People 2
+    
+            dinner with Diane and Greg McFleebe
+    Fun 2
+    
+            Crown, Fraiser
+    
+
+Wed, 04-12
+
+    Aspire 6
+    
+            update document files for Aspire
+            simplify AspireDoc view logic
+            reset database on MyBook server
+            debug Role views and UX
+            rework routing for aspire docs 
+            rework permissions checking for doc loading
+    Fun 1
+    
+            Legends, DS9
+    Grow 1
+    
+            walk
+            5, 3, 3, 3
+    
+    Hire 6
+    
+            repair send mechanism
+            remove extra app code and scripts from Who2Hire
+            simplify bashrc-django 
+            Issue 119. Disable notifications from staging
+            Issue 120. Landing page background color and other improvements
+            discuss User Guide with Stacie
+
+Thu, 04-13
+
+    Aspire 5
+    
+            fix anonymous user experience
+            create better landing page
+            improve routing of AspireDoc pages
+            build dynamic menu logic
+            debug roles and projects views
+    Hire 5
+    
+            fix production payment system
+            experiment with PDF doc creation
+            evaluate wkhtmltopdf tool
+            debug on local machine
+            failed attempt to create PDF on servers
+    Grow 1
+    
+            walk with Stacie
+            5, 3, 4, 4
+    Fun 3
+    
+            Crown, Good Place
+    
+
+Fri, 04-14
+
+    Hire 5
+    
+            fix issue with payment keys on production
+            fix margins on PDF
+            deploy new repo on production server
+            create release branch for 2017-04-14
+            clean up old files from production server
+    Fun 4
+    
+            Good Place
+    
+    Aspire 4
+    
+            total hours to invest
+            create container design pattern for related view sets
+            create RoleView redirect
+            display nested roles and projects
+            fix project delete
+            deploy and test
+            role totals
+    Grow 1
+    
+            get haircut
+            5, 3,
+
+Sat, 04-15
+
+    Hire 1
+    
+            fix payments
+    Grow 6
+    
+            watch Requiem to the American Dream
+            read Design Your Life
+            walk to library
+            suffering from alergies
+            discuss church attitudes with Stacie
+            nap
+            5, 3, 3, 4
+    Aspire 4
+    
+            build Goal data type
+            create AspireDocEdit view
+            use RedirectView
+            clean up user sequence
+    Fun 3
+    
+            IQ, Electra
+    
+
+Sun, 04-16
+
+    Grow 0
+    
+            3, 4, 1, 3
+    People 6
+    
+            Easter at Garcia's
+            walk with Rachel
+            Rachel and Andrews cat
+    Fun 4
+    
+            Timelapse, Kimmy, Fraiser, Iron Fist
+    
+    
+    Church 4
+    
+            Easter
+
+Mon, 04-17
+
+    Aspire 9
+    
+            debug online editor
+            convert single topic to folder 
+            deploy to MyBook server
+            test/fix cycle between MyBook and iMac
+            build content on Aspire
+            sync docs automatically from server
+            improve landing page
+            create new Aspire projects
+            create new files with Aspire Edit feature
+            refactor Aspire views
+    Fun 4
+    
+            Good Place, explore
+    
+    Grow 1
+    
+            hide inside to avoid allergies
+            5, 2, 2, 1
+
+Tue, 04-18
+
+    Church 4
+    
+            attend home group
+    Hire 6
+    
+            add flag for is_active to opening
+            build view to send opening to archive
+            build view to display archived openings
+            deploy on staging
+            create menu for archive view
+            update issues and milestones
+            add manager notes
+    Fun 2
+    
+            Enterprise, Elektra
+    Aspire 2
+    
+            build content for Aspire project plans
+            build Software DevWorkflow
+    Grow 0
+    
+            3, 1, 2, 1
+    
+
+Wed, 04-19
+
+    WAM 1
+    
+            review system logs to track mysteries
+    Grow 2
+    
+            nap
+            2, 1, 3, 2
+    Aspire 7
+    
+            build directory listing with two levels
+            create project list for AspireDoc page
+            create role list for AspireDoc Home page
+            improve site navigation
+            restructure Aspire project goals content 
+            improve automatic doc versioning
+    Church 4
+    
+            SoKM
+    
+
+Thu, 04-20
+
+    Grow 0
+    
+            3, 2, 2, 2
+    Hire 8
+    
+            build candidate setting into archive view
+            refactor archive view code
+            add info to job report
+            select chosen candidate from list of candidates
+            add view to send job to archive
+            add form error processing
+    Tools 2
+    
+            create simple doc app in MyBook
+            build complete data views for doc
+    Fun 4
+    
+            Goldbergs, Enterprise, Elektra
+    
+
+Fri, 04-21
+
+    Tools 8
+    
+            create list of tasks for Aspire and MyBook
+            move doc when renaming
+            show page after edit
+            think about commercialization of MyBook
+            add directory to Aspire site
+            isolate doc as application
+            debug document browser
+    People 3
+    
+            Fleebees party
+    Grow 1
+    
+            think about personal journey
+            3, 3, 4, 1
+    Fun 2
+    
+            Tesla
+    
+
+Sat, 04-22
+
+    Write 2
+    
+            Lesson 7 - Page Turners
+    Tools 4
+    
+            create doc index page
+            test and fix on web sites
+            security on doc/* pages
+    Grow 2
+    
+            3, 4, 3, 3
+    Fun 2
+    
+            explore
+    People 4
+    
+            library with Lucy
+            play Carcasonne with Lucy
+    
+
+Sun, 04-23
+
+    Church 4
+    
+            attend church
+    People 1
+    
+            Stacie and Lucy leave
+    Grow 1
+    
+            think about life goals
+            5, 4, 3, 3
+    Fun 8
+    
+            The Americans
+    
+    
+
+Mon, 04-24
+
+    Grow 3
+    
+            think about life goals
+            problems with back pain
+            3, 3, 2, 3
+    Church 3
+    
+            lunch at Albertos with Todd and Jenny
+    Fun 8
+    
+            Homeland
+    
+
+Tue, 04-25
+
+    Grow 0
+    
+            5, 2, 3, 3
+    Hire 4
+    
+            build team views: List, Add, Edit, Delete
+    Tools 4
+    
+            dynamic menus
+            create new vision for software architecture
+            develop plans for MyBook business
+    Fun 6
+    
+            Americans
+        
+
+Wed, 04-26
+
+    Aspire 5
+    
+            learn how to create a data table using the ORM
+            build view for Time Summary
+            create views for time and days
+            clean up time data on production
+    Grow 0
+    
+            3, 2, 3, 3
+    Hire 5
+    
+            setup Christine on testing
+            update test logic
+            compare project comparison code to track changes
+            repair user inactivation
+    Church 4
+    
+            SoKM
+    
+
+Thu, 04-27
+
+    Grow 0
+    
+            3, 2, 3, 3
+    Tools 8
+    
+            debug page robot
+            improve page tester
+            deploy and test
+            build view for monthly time invested
+            learn about Django ORM annotation and grouping
+            build workshop app
+            remove dead code and refactor
+            start working with Blessings and Bootstraps
+    Hire 2
+    
+            calculate time investment for project
+    People 2
+    
+            visit with Stacie
+    Fun 2
+    
+            Madam Sec, Gallavant
+    
+
+Fri, 04-28
+
+    Tools 3
+    
+            extend page robot testing
+            mybook implementation plan
+            update mybook aspire docs
+            analyze work time over past year
+            work on public/private page architecture
+            refactoring of MyBook views
+    Hire 2
+    
+            review changes on who2hire
+            create 2017-04-28 software release
+    Church 3
+    
+            church board meeting
+    People 2
+    
+            Pelegrini's with Stacie
+    Grow 2
+    
+            5, 2, 2, 2
+            analysis of time spent for work and leisure 
+    Fun 2
+    
+            Good Place, SHIELD
+    
+
+Sat, 04-29
+
+    Fun 5
+    
+            Fraiser, Southside (Barak & Michelle)
+    
+    People 3
+    
+            call Dad
+            lunch at Cables
+    Church 4
+    
+            discuss and pray about ministry
+            pray for Garcias
+            pray for Beilmans
+    Hire 2
+    
+            fix botched release
+    Grow 0
+    
+            3, 2, 2, 3
+
+Sun, 04-30
+
+    Grow 2
+    
+            nap
+            5, 2, 
+    Church 6
+    
+            attend church
+            grill burgers at church
+    People 4
+    
+            visit with Kelli and Dee Dee at Fredrick
+    Fun 2
+    
+            Good Place, Fraiser

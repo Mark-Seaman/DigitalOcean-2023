@@ -1,0 +1,18 @@
+Wed, February 24,2016
+
+Sign 10
+
+    Business on all three subsystems: Notifications, Registration, Payments
+    Testing on product code
+    Fix numerous problems with user registration and activation
+    Build unit tests to cover product (all three subsystems)
+    Debug user registration system
+    Figure out how to test Rest API
+    Restructure and clean up product code
+    Some unit testing is still in process
+    Some debug is still required before pushing the MVP-364 branch to master
+
+Church 4
+
+    FPU
+

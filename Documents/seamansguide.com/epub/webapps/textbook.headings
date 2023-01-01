@@ -1,0 +1,138 @@
+# Introduction
+### Who is this Book For?
+### Learning Progression
+### College Class vs. Personal Learning
+### Pair Programming
+# Chapter 1 - Development Tools
+### Web Servers and Clients
+### Building Web Apps
+### Common Components of Web Apps
+### Front-end/Back-end
+### Tool Stack
+### Web Frameworks
+### Development Tools
+### Django Projects
+### Setting Up Development Tools
+### Code Sharing
+# Chapter 2 - Application Hosting
+### Web Hosting Technology
+### Virtual Machines
+### Hosting Web Pages
+### Extending Static Pages
+### Hosting Provider
+### Docker
+### Digital Ocean
+### App Platform
+### App Platform Costs
+### Django App Hosting
+### Static Web Server
+### Single Page Apps
+### Static Site Generators
+### Content Delivery Network
+# Chapter 3 - Basic Application
+### Programming Environment
+### Development Workflow
+### Setup your development environment
+### Make changes
+### Testing Web Pages
+### How Does Django Work?
+# Chapter 4 - Views
+### Expand from the Basics
+### Applications = Views + Data + Tests
+### views.py
+### urls.py
+### templates
+### Beyond Simple Views
+### View Inheritance eliminates duplication
+### HTML Templates
+# Chapter 5 - Data
+### Applications = Data + Views + Tests
+### Database
+### CRUD Operations
+### Object Relational Mapper (ORM)
+### Update the Database
+### Operations on Every Model
+### Data Design 
+### Example of Data Models
+### Visit the Django website
+# Chapter 6 - Data views
+### Building Model Views
+### Data CRUD Views Design Pattern
+### Database Migration
+### Make Migrations
+### Database Deployment
+### Production Database
+### Data Fixtures
+### Save Data From Database
+### Load Data Into Database
+# Chapter 7 - Users
+### User Authentication
+### Password Encryption
+### User Object
+### Author Objects
+### User Login Flow
+### User Authorization
+# Chapter 8 - Testing
+### Types of Testing
+### Test-Driven Development
+### Interactive system testing
+### Test scripts
+### Basic User Test
+### Unit testing
+### Test Database
+### SimpleTestCase
+### TestCase
+### Asserts
+### Unit Testing of Data
+### CRUD Test
+### Setting a Data State
+### Unit Testing of Views
+### Automated Page Testing
+# Chapter 9 - Complex Views
+### Building Views
+### Page Theme View
+### Defining the Content Block
+### Simple Views
+### Complex Views
+# Chapter 10 - Images
+### Working With Images
+### Photo Album Demo Code
+### Superhero Images Project
+# Chapter 11 - Files and Documents
+### Overview
+### File Formats
+### Working with Text Files
+### Document File Formats
+### Exporting Data
+### Spreadsheets
+### Markdown Documents 
+### Save and Restore Objects
+# Chapter 12 - Development Process
+### Overview
+### Gathering Requirements
+### Initial Design
+### Design as You Go
+### Balance Coding Tasks
+### Test-Driven Development (TDD)
+### Summary of Development Loop
+### Build out all layers
+# Chapter 13 - Software Release 
+### Overview
+### Combine Development and Operations
+### Just Enough Process
+### Software Reuse
+### Refactoring
+### Application Frameworks
+### Rules to Live By
+# Chapter 14 - Software Engineering
+### Overview
+### Design Patterns
+### Software Lifecycle
+### Waterfall Lifecycle
+### Agile Manifesto
+### The New Lifecycle
+### Incremental Development
+### Linear progress
+### Milestones
+### Proficiency
+# About the Author

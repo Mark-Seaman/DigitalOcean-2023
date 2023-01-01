@@ -1,0 +1,746 @@
+# Tasks History     2016-10
+
+## Accomplishments
+
+
+
+Sat, 10-01
+
+    People 3
+
+        Barnes and Noble
+        Rachel and Andrew Kobe Sushi
+
+    Fun 3
+
+        movie Ms Peregrin, weight loss documentary
+
+    Grow 2
+
+        create health score script
+        sleep: -1, weight: 207.8, eat: 1600, exercise: 2 miles (4,3,5,3)
+
+    Hire 6
+
+        build hire todo command
+        deploy new code
+        test user login
+        add user info to all views
+        move data between server and dev
+        create better scripts for Company, Manager, User management
+
+
+
+Sun, 10-02
+
+    Church 6
+
+        create Church Scorecard
+
+    People 1
+
+        Carl's Junior with Christine
+        Christine went to church
+        assemble CD racks
+
+    Grow 2
+
+        nap
+        sleep: -2, weight: 208.6, eat: 2200, exercise: 1 miles (3,2,2,2)
+
+    Fun 5
+
+        Continuum, House of Cards, 1st Command, MadMen
+
+
+
+Mon, 10-03
+
+    Sign 1
+
+        create plan for delayed cancel
+
+    Church 5
+
+        Emotional Transformation
+        send church scorecard to Todd and Jenny
+        build budgeting variance calculator
+        watch Vineyard Missions Conference
+
+    People 1
+
+        hear back from Oli Hills
+
+    Fun 2
+
+        A vs. X, 1st Command
+
+    Hire 0
+
+        get remote tests to pass
+
+    Grow 5
+
+        walk 2.5 miles
+        register time in harvest
+        monthly objectives
+        weekly review and plan
+        organize brain tags
+        update health score daily
+        sleep: 0, weight: 207.8, eat: 1350, exercise: 2.5 miles (5,3,5,3)
+
+
+
+Tue, 10-04
+
+    Hire 6
+
+        debug view for company registration
+        debug views for company add
+        debug views for manager add
+        debug views for company edit
+        debug views for manager edit
+        work with Stacie on look-and-feel
+
+    Church 5
+
+        small group with Daryl and Heather
+        helped alcoholic neighbor
+
+    People 2
+
+        discuss work with Stacie
+        video with Cassie's birthday
+
+    Grow 1
+
+        sleep in
+        review of emotional health and satisfaction
+        [4] - exercise = 6K - 60 minutes - 3 miles
+        [5] - 1400 calories
+        sleep: -1, weight: 207.8, eat: 1400, exercise: 3 miles (4,3,5,4)
+
+
+
+Wed, 10-05
+
+    Hammer 2
+
+        debug test across all three platforms
+        budget hours and score script
+        create summary for each month of 2016
+        update time history for 2016 Jan-May
+        move TODO_DIR to MarkSeaman/history
+
+    Tools 2
+
+        debug test across all three platforms
+        budget hours and score script
+        create summary for each month of 2016
+        update time history for 2016 Jan-May
+        move TODO_DIR to MarkSeaman/history
+
+    Fun 2
+
+
+
+    Church 6
+
+        watch SoKM with Andrew
+        pray with Andrew
+        build vision for Church Leadership Tool
+        create church.py script
+        create church budget command
+
+    People 2
+
+        lunch at Cafe Athens
+
+    Grow 2
+
+        schedule auto glass
+        cleaning
+        sleep: -1, weight: 206.6, eat: 1500 c, ex: 1.5 mi (4,4,5,2)
+
+
+
+Thu, 10-06
+
+    Sign 6
+
+        email Tom
+        write design guide for Delayed Cancel
+        design period event mechanism
+        create user clean up rules
+        design for when to remove users
+        design when to send notifications
+
+    Hire 4
+
+        park Who2Hire.net
+        DNS for Who2Hire.net
+        setup Who2Hire.net domain router on website
+        hook up hiring-guru.net
+        refactor hire.py
+
+    People 4
+
+        Candelite Dinner Theater
+
+    Tools 0
+
+        test code on all servers
+        fix issues with data test
+        save data from MyBookOnline.org
+
+    Grow 0
+
+        sleep till 9:20
+        sleep: 0, weight: 205.8, eat: 1600 c, ex: 1 mi (5,5,5,2)
+
+
+
+Fri, 10-07
+
+    Hire 6
+
+        work with Stacie on user flow
+        build skills editor
+        create import of skills
+        parse skills file
+        create master list of skills
+
+    Tools 2
+
+        create moving average for health score
+
+    Grow 1
+
+        sleep: -2, weight: 205.4, eat: 1900, exer: 3 mi  (3,5,3,4)
+
+    People 2
+
+        High Hops
+
+    Fun 3
+
+        Castle
+
+    Sign 0
+
+        send design info to Tom
+
+
+
+Sat, 10-08
+
+    Tools 1
+
+        support "Tools" in hours script
+
+    Church 3
+
+        prep for dev team meeting
+        dev team meeting
+
+    People 5
+
+        plan trip
+        create cards for trip events
+        Hearth & Nana Bea's
+
+    Grow 1
+
+        update health score and data feed
+        sleep 0, weight 205.4, eat 2100, 1 mi  (5,5,2,2)
+
+    Fun 4
+
+        browse internet
+        article on demographics
+        digital books from library using Overdrive
+        buy Stacie a Kindle Fire
+        investigate Kindle Unlimited and Am Prime
+        get Castle from library
+
+
+
+Sun, 10-09
+
+    Church 4
+
+
+
+    Hire 1
+
+        update user stories
+
+    People 2
+
+        Cazadores with Stacie
+
+    Grow 1
+
+        sleep 0, weight 206.6, eat 2200, 2.5 mi  (5,2,2,3)
+
+    Fun 6
+
+        presidential debate
+        NCIS, Mad Men
+        1st Command
+
+
+
+Mon, 10-10
+
+    Sign 6
+
+        discuss work with Tom
+        document test scenario
+        testing for  MVP-519 - incomplete cancel
+        execute django scripts on dev server
+        begin work on periodic task
+        undo new changes
+
+    Hire 2
+
+        update user stories for review
+        organize Hiring Guru documentation
+
+    Write 1
+
+        write to Focus on the Family
+
+    People 4
+
+        send trip itinerary
+        Andrew birthday party
+
+    Grow 1
+
+        organize brain
+        update personal info and plan
+        walk through the golf course
+        sleep 0, weight 207.8, eat 1800, 5 mi  (5, 3, 4, 5)
+
+
+
+Tue, 10-11
+
+    Write 3
+
+        Write Transformation notes
+        writing plan for politics
+        Jesus and Politics
+        Politics and Outrage
+
+    Sign 2
+
+        meet with Geoff
+        briefing on technology
+        collaborate with Tom on user record cleanup
+
+    Grow 2
+
+        long walk  - 3 miles
+        process inbox
+        sleep -3, weight 207.0, eat 1300, 3 mi  (2, 3, 5, 4)
+
+    Church 4
+
+        follow up on Dev team
+
+    Fun 3
+
+        buy books
+        investigate Amazon Prime and Unlimited
+
+
+
+Wed, 10-12
+
+    People 7
+
+        drive to Kansas City (12 hours clock time)
+        visit with Leslie, Kelli, Lucy
+
+    Fun 6
+
+        listen to Out of the Silent Planet
+        start Heat Wave
+        discuss writing project
+
+    Grow 1
+
+        sleep 0, weight 206.0, eat 1300, 3 mi  (5, 4, 5, 4)
+
+
+
+Thu, 10-13
+
+    People 13
+
+        drive to Nashville
+        transport Lucy to Laurie's
+        visit with Laurie's family
+        listen to Perelandra
+        condo in Nashville
+
+    Grow 1
+
+        sleep 0, weight -, eat 1300, 2 mi  (5, 5, 5, 3)
+
+
+
+Fri, 10-14
+
+    Write 5
+
+        time in solitude
+        organize written content
+        post on Facebook
+        write Life - chapter 1
+
+    People 8
+
+        rehearsal dinner 
+        trolley
+        tour of Nashville
+
+    Grow 1
+
+        sleep 0, weight -, eat 2600, 1 mi  (5, 5, 1, 2)
+
+
+
+Sat, 10-15
+
+    People 8
+
+        Calvin's wedding
+
+    Church 4
+
+        discuss church life with Eric
+
+    Grow 2
+
+        sleep 0, weight -, eat 2600, 2 mi  (3, 3, 1, 3)
+
+
+
+Sun, 10-16
+
+    People 8
+
+        visit at Lehman's house
+        family BBQ
+        talk with Eric, Jim
+
+    Fun 5
+
+        investigate trip plan (Chattanooga/Gatlinburg)
+
+    Grow 1
+
+        sleep 0, weight -, eat 2500, 2 mi  (4, 2, 1, 3)
+
+
+
+Mon, 10-17
+
+    Write 2
+
+        Life: Work
+        Facebook posting
+
+    People 5
+
+        Portofinos
+        drive to Chattanooga
+
+    Fun 7
+
+        tour Andrew Jackson estate
+
+    Grow 0
+
+        5, 1, 3, 2
+
+
+
+Tue, 10-18
+
+    People 5
+
+        St Elmore Deli
+
+    Fun 7
+
+        tour Lookout Mountain
+        tour Chicamauga battlefield
+        read about Civil War
+
+    Church 2
+
+        Physical Transformation
+
+    Grow 0
+
+        5, 1, 3, 4
+
+
+
+Wed, 10-19
+
+    Write 2
+
+        post on Facebook
+        write Work
+
+    People 6
+
+        drive to Gatlinburg
+        deli lunch at St. Elmo's
+
+    Fun 6
+
+        visit Rock City
+        third presidential debate
+
+    Grow 0
+
+        5, 1, 3, 5
+
+
+
+Thu, 10-20
+
+    Write 2
+
+        post on Facebook
+        write about Freedom
+
+    People 6
+
+        drive through Smoky Mountains
+
+    Fun 6
+
+        visit Lake Junaluska
+
+    Grow 0
+
+        5, 1, 1, 2
+
+
+
+Fri, 10-21
+
+    Write 2
+
+        post on Facebook
+
+    People 12
+
+        drive to Knoxville
+        Sunsphere and Tomatohead
+        drive to Nicholasville
+        visit with David Ditto
+
+    Grow 0
+
+        create bars for health metrics
+        4, 1, 2, 3 
+
+
+
+Sat, 10-22
+
+    People 14
+
+        visit Wilmore
+        visit with Aunt Fran
+        meet Lyndsey & Mark
+        Chinese food
+
+    Grow 0
+
+        5, 1, 3, 2
+
+
+
+Sun, 10-23
+
+    People 14
+
+        church with Fran and David
+        Wesley Village
+        visit Doug and Karen on farm
+        tour Danville and Stanford
+        eat at Cheddars
+
+    Grow 0
+
+        5, 1, 3, 2
+
+
+
+Mon, 10-24
+
+    Fun 7
+
+
+
+    People 7
+
+        drive to Washington, DC
+        see Fredricksburg, Wilderness, Chancellorville
+
+    Grow 0
+
+        5, 1, 4, 2
+
+
+
+Tue, 10-25
+
+    People 7
+
+        VRE to Washington
+        meet Rachel at Capital
+
+    Fun 7
+
+        tour of Capital
+        Big Bus tour of DC
+        Korean Memorial
+        Vietnam Memorial
+        Lincoln Memorial
+
+    Grow 0
+
+        5, 1, 3, 5
+
+
+
+Wed, 10-26
+
+    People 7
+
+        drive to Greenbelt
+        metro to DC
+        wait for Big Bus
+        drive to Columbia
+        visit Ruth Ann
+        post on Facebook
+
+    Fun 7
+
+        tour Smithsonian
+        Imax
+        stay at Vantage House
+
+    Grow 0
+
+        5, 2, 4, 5
+
+
+
+Thu, 10-27
+
+    People 13
+
+        stay at Vantage House
+        visit with Ruth, Harry, Nancy, Martha, Wayne
+        play pool with Harry
+        dinner out with Harry, Ruth, Wayne
+
+    Write 1
+
+        post on Facebook
+
+    Grow 0
+
+        5, 3, 1, 4
+
+
+
+Fri, 10-28
+
+    Write 2
+
+        post on Facebook
+
+    People 6
+
+        drive to Uniontown
+
+    Fun 6
+
+        tour Connellsville
+        see Inferno
+
+    Grow 0
+
+        5, 2, 5, 3
+
+
+
+Sat, 10-29
+
+    Fun 7
+
+
+
+    People 7
+
+        drive to Indianapolis
+        order pizza
+
+    Grow 0
+
+        4, 3, 1, 4
+
+
+
+Sun, 10-30
+
+    Fun 7
+
+
+
+    People 7
+
+        drive to Kansas City
+        visit with Kelli & Rick
+        feeling sick
+
+    Grow 0
+
+        4, 2, 5, 2
+
+
+
+Mon, 10-31
+
+    People 11
+
+        tour of farm with Rick
+        visit with Rick and Kelli
+        trick or tree with kids
+
+    Write 2
+
+        write about Work
+        outline for Growth
+        outline for Experience
+
+    Grow 1
+
+        nap
+        5, 3, 3, 4
+# Tasks History     November 2016
+    
+## Accomplishments
+

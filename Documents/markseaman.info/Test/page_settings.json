@@ -1,0 +1,9 @@
+{
+    "site_title": "Shrinking World Training",
+    "site_subtitle": "Software development skills",
+    "page_title": "Shrinking World",
+    "icon": "/static/favicon.ico",
+    "document": "Index.md",
+    "css": "/static/css/shrinking-world.css",
+    "settings": "page_settings.json"
+}

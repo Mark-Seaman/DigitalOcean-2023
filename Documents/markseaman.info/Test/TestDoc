@@ -1,0 +1,11 @@
+# Markdown Test Doc
+
+[Test Page](http://home.com) this text [Another Page](http://test.com) more words
+
+
+<a href="http://shrinking-world.com/2" target="this">Another Page</a> Random words <a href="http://shrinking-world.com/1" target="that">First Page</a> more words
+
+![Sad Face](img/sad4.jpg)
+
+<img src="img/sad4.jpg" alt="Sad">
+

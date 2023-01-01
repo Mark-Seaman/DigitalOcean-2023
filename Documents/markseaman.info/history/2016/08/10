@@ -1,0 +1,19 @@
+Wed, August 10,2016
+
+People 5
+
+    family photo shoot
+
+Sign 9
+
+    test production chargify public page
+    test registration workflow on production
+    setup production command script
+    debug production server context
+    analyze log for registration
+    improve logging in chargify.py
+    improve log.py script to work on production
+    test registration workflow on dev
+    simplify error handling in registration.py
+    simplify error handling in chargify.py
+

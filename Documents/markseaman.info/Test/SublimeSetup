@@ -1,0 +1,50 @@
+# Sublime Text Setup
+
+## sublime license key
+
+----- BEGIN LICENSE -----
+Mark Seaman
+Single User License
+EA7E-973011
+11BCF4B3 9335B35E AC219F2C 938F50B6
+837C7973 4D7A68A9 9EE1D3E6 4DBE78E2
+44348487 D5702C59 957DE862 FF44F52A
+5449487B 8EDB667A FC130E86 CB2618E1
+05B0402C CA3B7111 F26CE837 F54E3222
+BE4FCD23 281FB6A0 FA9AF604 6C6D241E
+678FBA2C DE976DAC 780D2E71 0AEA2AF4
+64DBF763 809EB12A 42A69DEF 62D6DB7A
+------ END LICENSE ------	
+
+
+## Sublime Text Preferences
+
+* [sublime-settings](Preferences.sublime-settings)
+* commands for settings
+
+
+**View changes**
+
+    cd ~/Sensei/Documents/info/Test
+
+    diff Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+    
+    diff Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
+
+**Save my changes**
+
+    cd ~/Sensei/Documents/info/Test
+
+    cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings Preferences.sublime-settings 
+
+    cp ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap Default\ \(OSX\).sublime-keymap 
+
+**Update my settings from repo**
+
+    cd ~/Sensei/Documents/info/Test
+
+    cp Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
+
+    cp Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Default\ \(OSX\).sublime-keymap
+
+

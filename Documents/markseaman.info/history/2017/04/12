@@ -1,0 +1,29 @@
+Wed, April 12,2017
+
+Aspire 6
+
+    update document files for Aspire
+    simplify AspireDoc view logic
+    reset database on MyBook server
+    debug Role views and UX
+    rework routing for aspire docs 
+    rework permissions checking for doc loading
+
+Hire 6
+
+    repair send mechanism
+    remove extra app code and scripts from Who2Hire
+    simplify bashrc-django 
+    Issue 119. Disable notifications from staging
+    Issue 120. Landing page background color and other improvements
+    discuss User Guide with Stacie
+
+Fun 1
+
+    Legends, DS9
+
+Grow 1
+
+    walk
+    5, 3, 3, 3
+

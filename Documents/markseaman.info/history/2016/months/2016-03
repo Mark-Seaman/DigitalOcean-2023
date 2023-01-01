@@ -1,0 +1,727 @@
+# Tasks History     2016-03
+
+## Accomplishments
+
+
+
+Tue, 03-01
+
+    Sign 8
+
+        meet with Tom & Stacie about testing
+        investigate password management
+        create tests for change of password
+        meet with Brandon on user config
+        finish tests for new user config
+
+    People 4
+
+        Stacie, Rachel, Christine, Andrew attend Caucus
+
+    Fun 2
+
+        Mad Men
+        
+
+
+
+Wed, 03-02
+
+    Church 4
+
+
+
+    Sign 5
+
+        create tests for email
+        research password validation
+        merge MVP-364 to master branch
+        investigate user administration solutions
+        test - user registers (request, activate)
+        test - change email (request, act)
+        test - change password (request, act)
+        test - notification send
+        merge code
+
+    Business 2
+
+        meet with Diane, Eric, Stacie
+        financial plan using info from Personal Capital
+
+    WAM 1
+
+        Work on SMTP config
+
+    People 2
+
+        lunch with Stacie @ Coyotes
+
+
+
+Thu, 03-03
+
+    Sign 6
+
+        write test plan
+        create outline of functional requirements
+        investigate user administration
+        investigate testing of Rest API
+        scrum meeting 
+
+    WAM 2
+
+        testing on SMTP setup
+        testing on WAM 2.0 code
+        create plan for deploying WAM 2.0
+
+    Business 2
+
+        setup categories for spending in Personal Capital
+        pay bills
+        review finances
+
+    Fun 4
+
+        Agent Carter, Iliad
+
+
+
+Fri, 03-04
+
+    WAM 9
+
+        import active data from WAM 1.2
+        create new view for successful submission of app
+        review logic for notifications
+        send message to user for information change
+        build new logic to change username, password, name, email
+        create test plan for acceptance testing
+        build new users on production site
+        remove old data from production system
+        testing on production server
+
+    People 2
+
+        dinner at Pelagrini
+
+    Church 2
+
+        leadership meeting
+
+    Fun 1
+
+        Iliad
+
+
+
+Sat, 03-05
+
+    Business 5
+
+        March budget
+        time and task planning
+        financial planning
+
+    WAM 1
+
+        fix print font size
+        fix sort of case list
+        fix wording on buttons
+
+    People 4
+
+        WeldWerks with Stacie
+        Play Carcasonne with Rachel & Andrew
+
+    Sign 4
+
+        investigate activation URL
+        meeting with Hamed to learn about SignSpan DevOps
+        meeting with Thomas about testing
+        meeting with Tom about design and integration
+
+
+
+Sun, 03-06
+
+    Church 4
+
+
+
+    Fun 3
+
+        Tomorrow People
+        House of Cards
+
+    People 1
+
+        Noodles with Andrew & Rachel
+
+    WAM 3
+
+        remove old data
+        fix minor bugs
+        write rollout plan
+        final testing on WAM 2.0
+
+    Grow 3
+
+        take nap
+        budget work
+
+
+
+Mon, 03-07
+
+    Grow 2
+
+        read about Discipline of Organizing
+        read God's Strategy in History
+
+    Fun 4
+
+        Flash
+
+    Business 2
+
+        develop better budget tools
+
+    WAM 6
+
+        setup redirect from greeleywAm.org to wam.weldwAm.org
+        delete unwanted database records from testing
+        turn on email test mode to allow real email logic
+        solve bug preventing email
+        reword notification for profile change
+        create initial superuser records
+        work with Stacie on testing
+
+
+
+Tue, 03-08
+
+    WAM 2
+
+        investigate and fix notification delivery
+
+    Sign 8
+
+        write confluence docs: 
+            Team Schedule, Project Priorities, Job Assignments
+            Engineering Log, Project Coordination, DevOps
+        send email about new coordination docs
+        coordinate with Thomas on testing
+        attempt to debug new user activation (not yet successful)
+        get login info for EC2
+        explore AWS setup
+
+    Fun 4
+
+        Grammys, Amazing Race
+
+
+
+Wed, 03-09
+
+    Church 4
+
+
+
+    Business 5
+
+        analyze expenses for Jan
+        create budget for Jan
+        create model for exceptions
+        calculate trip cost
+        visit bank for credit card info
+        download all Business VIsa statements
+
+    WAM 3
+
+        solve problem with notifications
+        plan releases and features 2.0.1 2.0.2
+
+    Grow 2
+
+        haircut
+        lunch at Senior Jalapenos
+        think about work/life balance
+
+
+
+Thu, 03-10
+
+    Sign 8
+
+        start on Debugging on Dev Portal doc
+        update JIRA request for SSH access
+        write Meetings doc
+        fix hostname in activation message
+        fix Response paths in server
+        merge Mark branch into master
+        work on getting new user API connection working properly
+        learn about Bamboo builds
+        create test view to fire for all notifications
+
+    WAM 1
+
+        fix issue with notifications on new app
+
+    Fun 5
+
+        House of Cards, Scorpion, Amazing Race
+
+
+
+Fri, 03-11
+
+    Sign 1
+
+        Meet with Thomas
+
+    WAM 8
+
+        update release plans for 2.0.1 and 2.0.2
+        gather and prioritize tasks from Stacie
+        add case number to all notifications
+        improve all notification code
+        build test harness of exercising code
+        display voters in voting view
+        fix issue with required fields
+
+    Fun 5
+
+        TV: Flash, Amazing Race
+
+
+
+Sat, 03-12
+
+    Sign 6
+
+        build command-line tool to work with user records
+        build functional test infrastructure
+        create scriptor to execute user commands
+        build out notification and payment interfaces
+        update code on master branch
+        build qt script for quick test loop
+        test scriptor commands for payments, users, notifications
+
+    People 2
+
+        Stacie to Republican caucus
+        Matt and Erin Fonken
+
+    Fun 6
+
+        Elementary, Scorpion, Shield, Madam Sec
+
+
+
+Sun, 03-13
+
+    Church 6
+
+        lunch with Jenifer and John Honeycutt
+
+    People 4
+
+        video with Josiah
+        Roots wine bar with food truck
+
+    Fun 4
+
+        TV: NCIS LA, 
+        Cancel CBS All Access
+        House of Cards
+        read
+
+
+
+Mon, 03-14
+
+    Fun 6
+
+        Elementary
+
+    WAM 8
+
+        promote code to production server
+        investigate emails that are not delivered
+        sign up for paid Mandrill account
+        build staging server
+        create process for acceptance testing
+        log all outstanding issues
+        prioritize remaining work
+        add case number links to all notifications
+        make all Status fields optional when editing
+        voting view - Display users who voted
+
+
+
+Tue, 03-15
+
+    Sign 1
+
+        plan for integration day
+
+    WAM 9
+
+        build bookkeeper view of requests in voting
+        debug redacted info in views
+        solve problem of gathering form data
+        build search view
+        refactor view code
+        testing on staging server
+        assign milestones to all issues
+        investigate saving the data for notes during edit
+        clean up issues within code
+        fix mobile device display of edit fields
+
+    Fun 4
+
+        Carcassonne on Tablet
+        Winter World
+
+
+
+Wed, 03-16
+
+    Business 10
+
+        prepare tax records
+        calculate business expenses
+        work with Stacie to create records
+        update family budget
+
+    Church 4
+
+        FPU
+
+
+
+Thu, 03-17
+
+    Sign 9
+
+        propose idea of integration day
+        streamline todo list
+        ssh to dev
+        create dev script
+        create mac script
+        rsync deploy to dev
+        create run-ui script to launch portal
+        run ssp on iMac
+        commit changes to master
+        update engineering log and progress report
+        weekly Scrum
+
+    People 5
+
+        St Patricks party at Hiratas'
+
+
+
+Fri, 03-18
+
+    Business 8
+
+        meet with Dianne Alexander
+        gathered all finances files
+        organize paper files
+        summary of retirement plans and history
+        calculate ROI for investments
+
+    People 2
+
+        brunch at Greeley
+
+    Fun 4
+
+        House of Cards
+
+
+
+Sat, 03-19
+
+    Sign 9
+
+        run django scripts on iMac
+        create user commands for register and activate
+        create user command self test scenario
+        debug user registration sequence
+        solve migration problem with database
+        meeting with Tom and Thomas
+
+    People 2
+
+        Rachel hosts party for birthday
+        Watch Cassie for Rachel's party
+        visit with Josiah
+        Josiah and Sam visit from CO Springs
+
+    Fun 3
+
+        Winter World
+        X-Force
+    
+
+
+
+Sun, 03-20
+
+    Grow 2
+
+        Nap
+
+    Church 4
+
+        Rick Knable 
+        Todd and Jenny (Rachel and Andrew) at Whiteout
+
+    People 8
+
+        Visit with Josiah & Sam
+
+
+
+Mon, 03-21
+
+    Sign 1
+
+
+
+    Business 5
+
+        prepare talk for PyNoCo
+        present Best Practices talk at PyNoCo
+
+    People 4
+
+        Austin's with Stacie
+        Late night talk with Josiah & Same
+
+    WAM 4
+
+        create process for resetting database contents
+        reset staging server database
+        test application on staging
+        update production server with WAM 2.0.2 (a)
+
+
+
+Tue, 03-22
+
+    People 2
+
+
+
+    Fun 4
+
+
+
+    Sign 8
+
+        document layout for POSTED data (profile, password, plan, payment)
+        Sync up the repos to recover from git issues on 3-19
+        Create better error messages for user activation failures
+        Build new API for profile, payment, status, plan 
+        Discuss design of new APIs with Tom
+        Start on integrating Java User API
+        Build tests for profile, payment, plan, status
+        Worked on local debug
+
+
+
+Wed, 03-23
+
+    Sign 3
+
+        read Harry Percival's book
+        learn about creating embedded Functional Tests 
+
+    People 2
+
+        visit with Andrew and Rachel
+        cancel FPU for big snow
+        Stacie gets a cold
+
+    Fun 4
+
+        Father of Lights
+
+    WAM 5
+
+        Fix issue with saving notes
+        Improve search function
+        Allow bookkeeper to view closed case file (fix bug with Close)
+        Rewording on view
+        Display search view for correct users
+        Learn about postgres commands
+        Testing on staging server
+        Deploy 2.0.2 (b)
+
+
+
+Thu, 03-24
+
+    Sign 8
+
+        meeting at 10:00
+        learn how to modify code on dev server
+        investigate invoking the UserAPI on the dev server from localhost
+        do iterative builds on dev server
+        investigate why builds were not triggering
+        debug password reset user flow
+        debug user activation user flow
+        scrum meeting
+        get new code for ssp
+        interactive testing of dev server (for faster dev loop)
+        learn about Bamboo for build and deploy
+        explore code on dev server
+
+    Fun 4
+
+        Shield, Psych
+
+    Grow 2
+
+        deal with frustration on SignSpan project
+        Stacie sick in bed
+
+
+
+Fri, 03-25
+
+    Sign 6
+
+        learn how to build automated functional tests
+        apply concepts from TDD with Python
+        build structure for Functional Tests, Unit Tests, Quick Test
+        plan out debug day on 3-28
+
+    WAM 1
+
+        turn on notifications by rebooting the server
+
+    People 4
+
+        grocery shopping with Stacie
+        dinner at Cables Pub
+
+    Fun 3
+
+        think about viewer app
+
+
+
+Sat, 03-26
+
+    Grow 7
+
+        update time & tasks
+        review last two weeks
+        work hours dashboard
+        budget dashboard
+        time dashboard
+        work on filing papers and clean up
+
+    People 7
+
+        go to library with Cassie
+
+
+
+Sun, 03-27
+
+    Church 7
+
+        Easter service
+        Passover meal in evening
+
+    People 7
+
+        lunch of Matsa ball soup
+        games with 13 guests
+
+
+
+Mon, 03-28
+
+    Sign 10
+
+        spent day with Tom on integration
+
+    Church 4
+
+        board meeting
+
+
+
+Tue, 03-29
+
+    WAM 8
+
+        discover issue with old PYC files
+        investigate updating to Django 1.9.4
+        update production server with new code
+        work with Stacie to debug the deployment issues
+
+    Church 4
+
+        worship team meeting
+
+    Fun 2
+
+        comic books
+
+
+
+Wed, 03-30
+
+    People 4
+
+        Allegiant at Carmike Bistro
+        Alley Cat coffee shop
+
+    Grow 6
+
+        write Cost Model note
+        write Investments update (NW: 1.13)
+        login to Raymond James
+        write Work Goals note
+        discuss work issues with Stacie
+        work on personal issues
+
+    Church 4
+
+        FPU
+
+
+
+Thu, 03-31
+
+    Fun 5
+
+        
+# Tasks History     April 2016
+## April Objectives 2016
+    Balance with Work & Life (100-120 billable hours)
+    Family budget
+    HELOC (22,000 by 5-1)
+    Content with life
+    
+## Accomplishments
+
+    WAM 8
+
+        investigate not being able to save notes
+        figure out how to save notes longer than 100 characters
+        create process for resetting the database
+        test database reset on staging
+        business planning for technology management
+
+    Sign 1
+
+        scrum meeting
+

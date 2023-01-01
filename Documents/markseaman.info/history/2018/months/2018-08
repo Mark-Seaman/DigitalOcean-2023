@@ -1,0 +1,971 @@
+# Tasks History     2018-08
+
+## Accomplishments
+
+
+
+Wed, 08-01
+
+    Fun 2
+
+    Black
+    Trip log - day by day
+
+    People 2
+
+    visit with Cassie
+
+    Grow 1
+
+    4, 1, 3, 5
+    weight: 207.8
+    sleep in
+    organize
+    
+
+    Church 3
+
+    baptism and picnic
+
+    UNC 6
+
+    plan tasks before class
+    install NetBeans on Mac
+    use XAMPP on Mac
+    start building example code for 350
+
+
+
+Thu, 08-02
+
+    WAM 1
+
+    restart WAM staging server
+    reset admin passwords for testing
+
+    Fun 4
+
+    nts 2
+    Black
+
+    Grow 1
+
+    5, 3, 3, 3
+    weight: 207.8
+    Grumpy Old Man
+
+    UNC 6
+
+    build slide show application
+    use slides from Spring as model
+    copy images for BACS 200 in spring
+    debug image loading
+    
+
+    People 2
+
+    time with Cassie
+    steaks for dinner with Stacie & Cassie
+
+
+
+Fri, 08-03
+
+    UNC 3
+
+    move office
+    talk with Mehrgan
+    talk with Anne
+ 
+
+    Grow 1
+
+    5, 4, 4, 3
+    weight: 206.8
+    Ray Dalio's 1937 Article
+
+    WAM 4
+
+    Basic testing
+    Fix issue with Login style
+    Fix issue with Director view not linking to correct case views
+    Improve overall spacing and borders for better appearance
+    Relayout tables in views to be more consistent
+
+    Business 2
+
+    Car repair
+    Haircut
+
+    Fun 1
+
+    Black
+    
+
+    People 3
+
+    Andrew & Rachel - Carcassonne
+    cook steaks
+    visit with Cassie
+
+
+
+Sat, 08-04
+
+    Fun 3
+
+    Black
+    Americans
+
+    People 3
+
+    subway sandwich
+    Andrew & Rachel - take out from Sol de Jalisco
+
+    WAM 8
+
+    save data from production
+    turn off old server
+    clone staging server
+    configure server
+    attempt to get SSL certificate
+    test server & data
+    release 2.2.1
+    
+
+    Grow 0
+
+    5, 4, 4, 3
+    weight: 206.4
+
+
+
+Sun, 08-05
+
+    Grow 3
+
+    5, 4, 4, 3
+    weight: 206.6
+    nap
+    research investment strategies
+    walk to Boardwalk Lake
+
+    Fun 3
+
+    Americans
+    Black
+    
+
+    People 4
+
+    lunch at Rio with Webbs, Balls, Garcias, Cassie
+    time with Cassie
+ 
+
+    Church 4
+
+    Mike Webb teaching
+
+
+
+Mon, 08-06
+
+    Grow 2
+
+    3, 4, 1, 5
+    weight: 206.6
+    13,000 steps
+
+    Tools 2
+
+    restructure info views
+    build out UI for class website
+
+    Fun 3
+
+    Black
+    Americans
+
+    UNC 4
+
+    rework lesson display
+    create viable slide show
+    build menu for class views
+    Digital Measures
+    invite Mehrgan to dinner
+    check on computer setup
+    process UNC email
+    
+
+    People 3
+
+    time with Stacie
+    Cassie to Windsor Lake with Andrew & Rachel
+    Stacie - meet with Todd & Jenny, W2W program team
+
+    Business 0
+
+    IRS letter Raymond James 2017/2016
+
+
+
+Tue, 08-07
+
+    Grow 1
+
+    5, 5, 2, 5
+    weight: 206.0
+    3,000 steps + carryover of exercise stars
+    browse Amazon wish list
+    start Whole New Mind
+
+    Fun 2
+
+    organize brain 
+    nts 
+    
+
+    People 2
+
+    Cassie, Christine, and Stacie go to movie
+    schedule Bill Hayes lunch
+
+    UNC 4
+
+    update lesson slides & class web site
+    rebuild & refine guide theme
+    add bear logo to every page
+    merge and test changes
+    create proper class menus
+    create tabs for lessons
+    
+
+    WAM 2
+
+    call GoDaddy to learn how to get SSL
+    conference in Julie to get pin
+    think through next steps to debug SLL
+
+    Church 3
+
+    Church leaders meet at Beilmans
+
+
+
+Wed, 08-08
+
+    UNC 6
+
+    relayout schedule views for classes
+    build templates code views
+    work on UNCO-BACS.ORG website structure
+    show code templates source and live code
+    clean up dead code
+    
+
+    Business 2
+
+    grout shower
+
+    Fun 2
+
+    Black, 10% Happier
+
+    People 3
+
+    lunch with Bill Hayes at Roma's
+    Cassie goes to kid's movie with Christine
+    Stacie and Cassie go for trike ride
+
+    Grow 1
+
+    2, 3, 1, 4
+    weight: 207.2
+    coughing in night; sleep face-down
+    sleep in
+
+
+
+Thu, 08-09
+
+    Grow 0
+
+    4, 3, 2, 3
+    weight: 207.8
+
+    Tools 1
+
+    reduce git repos (Php, Html, Python, Teaching)
+
+    Fun 2
+
+    nts 2
+
+    Business 2
+
+    IRS forms for 2016/2017
+    Financial Review
+    discuss finances with Stacie
+
+    People 3
+
+    Josiah arrives from London
+    visit with Josiah
+    walk to park with Josiah and Cassie
+
+    UNC 6
+
+    add style to demo website
+    build navigation rules for demo code
+    add logo to website
+    clean up extra files
+    fix tests
+    
+
+
+
+Fri, 08-10
+
+    Grow 1
+
+    3, 2, 3, 2
+    weight: 208.2
+    10% Happiness
+    awake from 4-6; sleep till 9
+
+    Fun 3
+
+    finish Black start Red
+    nts 2
+
+    People 4
+
+    dinner with Mehrgan & Josiah
+    Bryan comes to Ft Collins
+
+    Business 1
+
+    cancel Host Gator account
+    clean house
+    grout sealer
+
+    UNC 5
+
+    create special template views (show both HTML and PHP code)
+    build first few demos on website
+    PHP directory listing
+    create variable injection in PHP
+    
+
+
+
+Sat, 08-11
+
+    UNC 2
+
+    find Syllabus files
+    
+
+    Grow 0
+
+    5, 3, 1, 3
+    weight: 208.8
+
+    Fun 2
+
+    Red
+    
+
+    People 10
+
+    inflate Unicorn
+    mount Unicorn at lake
+    Andrew & Rachel visit
+
+
+
+Sun, 08-12
+
+    Grow 0
+
+    5, 2, 3, 5
+    weight: 208.8
+    
+
+    Fun 1
+
+    Red
+
+    People 9
+
+    Cazadore's with Josiah & Cassie
+    lake day with Unicorn and swimming
+    Andrew & Rachel
+    Nick Vujicic - Overcoming Hopelessness
+
+    Church 4
+
+    Becky Olmstead
+    Josiah & Cassie
+
+
+
+Mon, 08-13
+
+    People 8
+
+    talk with Josiah
+    pancakes
+    Cassie and swimming
+    Josiah goes to CSU
+    discuss careers with Josiah
+    time with Stacie
+
+    UNC 6
+
+    edit syllabi for 350 and 200
+    get Stacie to help with syllabi
+    build class lesson content
+    screen shots for bluehost.com
+
+    Grow 0
+
+    3, 3, 3, 4
+    weight: 207.8
+    sleep in till 9
+
+
+
+Tue, 08-14
+
+    Fun 3
+
+    Dance
+    ER
+    Elementary
+    
+
+    People 4
+
+    Josiah & Cassie return to London
+    breakfast with Josiah & Cassie
+    dinner at Pelican Lakes with Stacie & Christine
+    neighbors use Unicorn float
+
+    Grow 0
+
+    5, 2, 3, 2
+
+    UNC 7
+
+    finalize syllabi for 200 & 350
+    sign contract
+    visit new office
+    setup office
+    setup new computer system
+    copy files from existing system
+    talk with Vish & Dan
+    email Robert & Noah
+    
+
+
+
+Wed, 08-15
+
+    UNC 6
+
+    lesson content for HTML 1-3, PHP 1
+    copy files from Uncle Ed to OneDrive
+    create script to edit lesson files
+    debug 'pe' script
+    implement Next, Prev lesson buttons
+    setup images for PHP class
+    
+
+    Grow 0
+
+    5, 2, 3, 2
+
+    People 3
+
+    Chicken on patio with Stacie
+    deflate Unicorn float
+    Stacie massage
+
+    Fun 5
+
+    nts 1
+    Hawaii 50, Dance, ER, Librarians
+    
+
+
+
+Thu, 08-16
+
+    Grow 1
+
+    5, 2, 2, 5
+    long walk
+
+    People 1
+
+    talk to Stacie
+
+    UNC 9
+
+    build Canvas structure
+    create 350 images
+    create Exercises and content for PHP Lesson 2-3
+    
+
+    Fun 3
+
+    Dance, Librarians
+    
+
+
+
+Fri, 08-17
+
+    UNC 5
+
+    faculty staff meeting at UNC
+    
+
+    People 3
+
+    dinner with Stacie
+
+    Fun 4
+
+    Ant Man with Stacie
+    Red
+    
+
+    Grow 2
+
+    4, 3, 3, 4
+    Activate your Brain
+    think about coaching
+
+
+
+Sat, 08-18
+
+    Grow 4
+
+    3, 3, 3, 3
+    weight: 207.8
+    walk
+    nap
+    Activate your brain
+    wake up at 4am
+    discuss coaching with Stacie
+    capture ideas
+
+    UNC 2
+
+    create graphics for Canvas
+    publish classes in Canvas
+    install GIMP & learn to use it
+    meet with Chris Harris about CS350
+
+    Tools 3
+
+    work with regular expressions in python
+    rewrite text.py and text_test.py
+
+    Fun 5
+
+    copy Photos for Stacie
+    Bridge to Far
+    
+
+
+
+Sun, 08-19
+
+    People 4
+
+    Shrimp boil with Carmen & Jackie
+    time with Stacie
+    
+
+    Grow 1
+
+    5, 3, 3, 3
+    weight: 207.8
+    nap
+
+    Fun 3
+
+    Dance, ER
+    
+
+    Tools 3
+
+    work on text.py and text_test.py
+
+    Church 3
+
+    Angel Flores
+
+
+
+Mon, 08-20
+
+    UNC 8
+
+    first day of classes
+    final run-through of class materials
+    Kendall-Tobey
+    settle into office
+    BACS 200
+    BACS 350
+    meet with Robert & Noah
+    meet office mate - Oil & Gas Man
+    
+
+    People 4
+
+    Hearth with Stacie
+    discuss finances and household projects
+
+    Grow 0
+
+    4, 3, 3, 3
+
+    Fun 2
+
+    Dance, Profit
+    
+
+
+
+Tue, 08-21
+
+    WAM 2
+
+    setup SSL on Web Server
+    generate SSL
+    read article outlining server setup
+    customize to our needs
+
+    UNC 7
+
+    help students with assignment 1
+    announcement - Where's my server
+    announcement - lesson 1 change
+    20 emails
+    update lessons 1 and 2
+    
+
+    Grow 0
+
+    4, 3, 4, 2
+    weight: 207.2
+
+    Fun 4
+
+    Hawaii 50, ER, Fraiser, Librarians
+    
+
+    People 1
+
+    dinner with Stacie
+
+
+
+Wed, 08-22
+
+    People 2
+
+    dinner at Fonta's with Stacie
+
+    UNC 9
+
+    grade Lesson 1
+    improve Lesson 2
+    create Lesson 4
+    Chrome UNC login and bookmarks
+    Student name tags
+    teach Lesson 2
+    help 8 students
+    Stacie visit (meet Dan, Moe, Vish)
+    
+
+    Grow 0
+
+    4, 4, 3, 4
+    weight: 206.6
+
+    Fun 3
+
+    Profit, Resident
+    
+
+
+
+Thu, 08-23
+
+    Grow 0
+
+    4, 3, 2, 2
+    weight: 207.8
+    wake up at 5
+
+    UNC 5
+
+    grading on Lesson 1,2
+    get helper for 200
+    plan Lesson 4
+    prep Lesson 3
+    provide info for Directed Study
+
+    Fun 1
+
+    Dance
+
+    People 3
+
+    dinner with Potters at Parry's Pizza and visit home
+
+    WAM 5
+
+    get GoDaddy CRT
+    install on Digital Ocean web server
+    tighten security on server
+    request SSL certificate using CSR
+    document SSL setup
+    install SSL in NGINX config
+    debug web server config
+    make web server secure
+    minor UI improvements
+    capture log of engineering activities
+
+
+
+Fri, 08-24
+
+    UNC 10
+
+    grade Lesson 2
+    build Quiz 1
+    write Pat about 422
+    set up directed study
+    Lesson 3
+    help Sean Miller
+    
+
+    Grow 0
+
+    5, 2, 3, 4
+    weight: 208.2
+
+    Fun 3
+
+    ER, Dance, Fraiser
+    
+
+    People 1
+
+    discuss classes with Stacie
+
+
+
+Sat, 08-25
+
+    Grow 0
+
+    4, 2, 4, 2
+    weight: 208.2
+
+    People 3
+
+    Andrew & Rachel BBQ
+
+    Fun 2
+
+    Profit, ER, Fraiser
+    
+
+    UNC 5
+
+    create script for guide outline, create
+    investigate teaching SQL
+    build outline for 350 - Lesson 4
+    grade quizzes and assigments
+    
+
+    Business 4
+
+    visit Ace hardware
+    Stacie deflates Unicorn
+    grout project
+
+
+
+Sun, 08-26
+
+    UNC 2
+
+    slides for 350-Lesson 4
+    
+
+    Fun 4
+
+    Tomb Raider, Fantastic Beasts
+    Red
+    
+
+    People 3
+
+    Chris & Elaine
+    time with Stacie
+
+    Church 4
+
+    Arrows
+    talk to Matt Isborn about business
+
+    Grow 1
+
+    5, 3, 4, 3
+    weight: 207.8
+    nap
+
+
+
+Mon, 08-27
+
+    UNC 11
+
+    Lesson 4
+    Eleazar for office hours
+    meet with Chris Vegter about OneDrive
+    
+
+    Grow 0
+
+    4, 3, 4, 4
+    weight: 207.4
+
+    Fun 2
+
+    Star Trek
+    ER
+    
+
+    People 1
+
+    discuss students with Stacie
+    discuss Greg M. with Stacie
+
+
+
+Tue, 08-28
+
+    UNC 8
+
+    build Tips & Tricks page
+    document top 16 tips
+    Quiz 1 - grades
+    Announcement for OneDrive
+    Announcement for Quiz retake
+    Lesson 5 prep
+    learn about PHP forms
+    email about Adjunct Qualifications
+    
+
+    Fun 4
+
+    Anthony Bordain, ER, Fraiser
+    
+
+    People 2
+
+    lunch at Sand Bar with Christine, Rachel
+
+    Grow 0
+
+    3, 3, 3, 3
+    weight: 207.4
+    thinking at night (tips and tricks for 200)
+
+
+
+Wed, 08-29
+
+    Grow 0
+
+    4, 3, 3, 3
+    awake at night
+    think about credentials email from Anne and future at UNC
+
+    UNC 8
+
+    teach Lesson 5 
+    technical problems with Bluehost File Manager
+    slides for Form posting
+    forgot Canvas links
+    get Bluehost working at UNC (login)
+    
+
+    Fun 4
+
+    ER, Fraiser, Dance
+    
+
+    People 2
+
+    Rudy BBQ take out
+    discuss UNC with Stacie
+
+
+
+Thu, 08-30
+
+    Fun 4
+
+    ER, Fraiser
+    
+
+    Grow 2
+
+    5, 3, 5, 5
+    long walk (8000 steps)
+    10,000 steps
+
+    UNC 8
+
+    Announcement Drop Deadline
+    lessons - 350/200  6-10
+    grade 200 05
+    outline 200 06
+    CRUD in PHP
+    URL Quiz for 200
+    
+
+
+
+Fri, 08-31
+
+    Fun 4
+
+    Americans (next to last episodes)
+
+    Grow 2
+
+    5, 4, 2, 5
+    Albertos dinner and think time
+
+    UNC 8
+
+    breakfast with Moe
+    350 Lesson 6 - Database connection basic operations
+    200 Lesson 6 - Reading URLs
+    Chris Newby - graduation requirements
+    350 - Class conflict with Registrar office
+    discuss university conflicts with Stacie, Andrew, and Rachel
+    
+

@@ -1,0 +1,35 @@
+Fri, September 30,2016
+
+Sign 9
+
+    test cancel
+    start server
+    register user
+    verify registration with scripts
+    chargify cancel
+    verify login behavior
+    verify cancel with scripts
+    test delete user record
+    communicate results
+    verify setting of cancel_at_end_of_period
+
+Hire 2
+
+    reset the database
+    build out data scripts and tests
+
+Church 2
+
+    develop design for interactive church scorecard
+    build four key measures:  connect, lead, give, invest
+
+Fun 1
+
+# Tasks History     October 2016
+    
+## Accomplishments
+
+Grow 0
+
+    sleep: -2, weight: 207.6, eat: 2000, exercise: - miles (3,4,2,4)
+

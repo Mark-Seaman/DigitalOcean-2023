@@ -1,0 +1,744 @@
+# Tasks History     2016-02
+
+## Accomplishments
+
+
+
+Mon, 02-01
+
+    People 13
+
+        Fly with Don
+        Breakfast at airport diner
+        Visit April & Jim's new house
+        Dinner at Edwards
+
+    Business 1
+
+        Business meeting with Jim Edwards
+
+
+
+Tue, 02-02
+
+    People 9
+
+        Breakfast at hotel
+        Fly home after vacation
+
+    Fun 2
+
+        Black Widow
+
+    Grow 3
+
+        Personal reflection
+
+
+
+Wed, 02-03
+
+    Sign 9
+
+        Setup new repos
+        Build automation script
+        Build test infrastructure
+        Debug package install and Python setup for dev
+
+    Church 4
+
+        Financial Peace University - Lesson #1 - Pizza
+        Subway is robbed
+
+    Fun 1
+
+        Finish Black Widow book
+
+
+
+Thu, 02-04
+
+    Sign 10
+
+        Define application architecture
+        Build application cookbook
+        Setup Django Droplet on Digital Ocean
+        Write up version control recommendations
+        Plan SignMaster Django app
+        Build document viewer
+        Prep for team meeting
+        Meet with team 10-12
+
+    People 3
+
+        Breakfast with Rachel & Christine & Stacie
+        House cleaning
+
+    Fun 1
+
+        Chuck
+        
+
+
+
+Fri, 02-05
+
+    WAM 8
+
+        Fix numerous issues with UI
+        Investigate setting up email
+        End frustrated
+
+    People 4
+
+        Lunch with Stacie at Senior Jalapeno
+        Visit Juan and Lynn
+
+    Fun 2
+
+        X-23
+
+
+
+Sat, 02-06
+
+    Business 4
+
+        Discuss career with Stacie
+        Order iMac computer
+
+    Grow 2
+
+        Quiet time
+
+    Church 4
+
+        Watch War Room at church
+
+    Fun 4
+
+        X-23, Mad Men, Winter World
+        
+
+
+
+Sun, 02-07
+
+    Church 4
+
+        Baptism
+
+    Grow 2
+
+        Prayer time
+        Develop ideas about work hours
+
+    Fun 8
+
+        Connect CBS Sports
+        Superbowl
+
+
+
+Mon, 02-08
+
+    Business 4
+
+        Monthly meeting with Stacie & Eric
+
+    People 4
+
+        Tomoko and Greg over for dinner
+
+    Grow 1
+
+        Quiet time
+
+    Fun 1
+
+        X-23
+
+    WAM 4
+
+        Setup email at greeleyW2w.org
+        Setup Mandrill account
+        Debug email sending
+        Setup wam.w2Wgreeley.org domain
+        Hook up notifications to email sending
+
+
+
+Tue, 02-09
+
+    People 3
+
+        Business with Stacie
+
+    Grow 1
+
+        Quiet time
+
+    WAM 10
+
+        Stacie meets to review code with WAM 
+        Stacie delivers code with WAM 
+        Stacie's demo to project team
+        Create importer for both types of legacy data
+        Reset all case data on production server
+        Fix button issue with Safari
+        Fix issue with form submittal
+        Create email forwarding addresses at w2wweld.org
+        Setup new w2wweld.org domain
+        Convert Mandrill account to use wam@w2wweld.org
+        Create subdomain wam.w2wweld.org for hosting of app at Digital Ocean
+        Setup domain to work with Mandrill
+        Setup proper details of email text attributes
+        Test notification system
+
+
+
+Wed, 02-10
+
+    WAM 4
+
+        Acceptance testing with WAM
+        Develop requirements for email
+        Add workflow buttons to edit page
+        Edit when appstatus = 0 or 5 or 3
+        Change button to "Accepted Complete"  (from "Accept and Close")
+        Display "Notes for Voters" on vote page
+        Add report capability to Admin Director
+        Display case ID number
+        Change voting redirect
+
+    Business 4
+
+        Review all linked in contacts
+        Create email for book promotion
+        Update linked in contacts
+        Send out 100 emails promoting book
+        Reply to 20 emails
+        Update posts on Google+
+
+    Church 4
+
+        Financial Peace Univ
+
+    People 1
+
+        Time with Stacie
+
+    Grow 1
+
+        Quiet time
+
+
+
+Thu, 02-11
+
+    Sign 8
+
+        Create local dev machine (front-end)
+        Debug local dev machine (back-end)
+        Setup PyCharm for Sign
+        Review JIRA tickets
+        Design Payment and Notify systems
+        Meet with Tom & Brandon
+
+    Business 3
+
+        Send out emails for book promotion
+        Review stats on Amazon  (Best Seller System Analysis & Design)
+
+    Grow 1
+
+        Quiet time
+
+    Fun 2
+
+        Madam Sec, Last Man
+
+
+
+Fri, 02-12
+
+    Fun 4
+
+        Scrubs, Arrow, Madam Sec
+
+    People 2
+
+        Time with Stacie
+
+    Sign 8
+
+        Setup code sharing with Sign team (push, branches)
+        Build script execution engine
+        Create command script for User
+        Create command script for Notify
+        Create command script for Chargify
+        Investigate design alternatives for Mandrill and Chargify
+        Debug and testing for command scripts
+        Create virtualenv for Python 3.4
+        Build script to set up new dev machine
+        Install django-extensions scripts
+
+
+
+Sat, 02-13
+
+    Sign 9
+
+        Build users script
+        Build notify script
+        Build chargify script
+        Investigate Mandrill email notifier
+        Investigate Chargify service logic
+        Meet with Tom to work on business requirements and design
+        Review all JIRA issues assigned to Mark
+        Create plan for resolving issues
+
+    People 4
+
+        Visit Fire & Ice Festival
+
+    Fun 1
+
+        Last Man
+    
+
+
+
+Sun, 02-14
+
+    Church 4
+
+
+
+    People 5
+
+        Valentine's Day
+        Lunch with Rachel and Andrew
+        Fire & Ice Festival
+
+    Fun 5
+
+        Relax
+        Sherlock, Enterprise
+        Read AngularJS, Bootstrap
+
+
+
+Mon, 02-15
+
+    Business 4
+
+        daily plan
+        update time and tasks
+        Christine scans receipts
+        work hours
+        family finances
+        book stats (181 books sold)
+        setup music on iMac
+
+    Sign 4
+
+        setup iMac system
+            sublime text
+            Documents
+            node.js
+            brew
+            evernote
+            libreoffice
+            dropbox
+            keepass
+            source tree
+
+    Grow 4
+
+        Improve personal planning process
+        think about life
+        grapple with depression
+
+    Fun 2
+
+        try to watch Grammy Awards
+        watch Roosevelts
+
+
+
+Tue, 02-16
+
+    Sign 3
+
+        iMac tools
+            Install PyCharm
+            Python Setup 2.7
+            Install virtualenv for Python 2.7 on Mac
+            Debug Python 2.7
+            Debug Redis install
+            Get testing running
+
+    WAM 7
+
+        create project planning template
+        develop planning strategy
+        create WAM 2.1 project plan
+        create WAM 2.1 project milestones
+        create WAM 2.1 product definition
+        review project plan with Stacie
+
+    Church 3
+
+        create planning template for church budget
+        board meeting
+
+    Grow 1
+
+        Cornbread chart template
+        high: budget process with cornbread, iMac setup
+        low: board meeting, WAM 2.1 hours
+
+
+
+Wed, 02-17
+
+    Tools 1
+
+        decide on using "Learning" task in Harvest
+        respond to Michael Uschold
+
+    Church 4
+
+        FPU
+
+    Grow 1
+
+        Late night worry
+        
+
+    Sign 8
+
+        iMac tools
+            setup and debug Python 3.4 Virtualenv
+            setup and debug Tox
+            setup Node.JS
+            run Sign UI on iMac
+            debug ssp
+            create run-ui script
+            fix Sublime settings on iMac
+            fix window opacity
+        testing baseline
+            fix tst (2.7)
+            debug all system tests
+
+
+
+Thu, 02-18
+
+    Grow 2
+
+        talk about work life
+        thinking about expectations
+
+    People 2
+
+        dinner at Palominos
+
+    Fun 2
+
+        TV
+
+    Sign 8
+
+        setup iMac email to point to mark@signspan.com
+        organize documents for Confluence
+        process email
+        update JIRA issues status
+        MVP-352 - Fix issue with activate URL
+        setup iMac on VPN
+        write Payment System definition doc
+        write Payment System design doc
+        write User Administration requirements doc
+        update Subscriber Status doc with state machine
+        update Notification messages doc
+        learn about Mandrill templates
+        Scrum meeting
+
+
+
+Fri, 02-19
+
+    Fun 4
+
+        TV
+        
+
+    Sign 10
+
+        update product requirements with Tom
+        learn about notifications within Sign
+        finish initial pull request for MVP-352
+        MySql install and usage
+        PyCharm usage: static analysis, debug tools 
+        pip & package dependency management
+        Python 3.4 & Django 1.9 
+
+
+
+Sat, 02-20
+
+    Business 8
+
+        family finances
+        create cornbread charts
+
+    People 2
+
+        Josiah and Sam
+        apologize to Todd & Jenny
+
+    Fun 3
+
+        X-Men First Class
+
+    Grow 1
+
+        personal growth
+        walk to park
+
+
+
+Sun, 02-21
+
+    Church 4
+
+
+
+    People 2
+
+        Lunch at Noodles with Potters and Garcias
+
+    Fun 2
+
+        Heroes
+
+    Grow 6
+
+        Thinking through personal issues with being distracted at work
+        Build simple app for cornbread charts
+        Think about dashboard
+        Discussed work issues with Stacie
+        Read Integrity book
+
+
+
+Mon, 02-22
+
+    Fun 4
+
+        Mad Men
+        Winter World
+
+    Sign 10
+
+        read and experiment with forgot my password code
+        create change email logic to be patterned after the forgot my password (request, and change api calls)
+        build new Mandrill templates for Email Reset and Email Changed 
+        create new notifier logic for sending email messages
+        convert change password logic to use simplified code
+        debug all new logic
+        run static analysis and fix all problems
+        create MVP-364 branch (10 new commits)
+
+
+
+Tue, 02-23
+
+    Grow 2
+
+        Conceptual model for balanced project work
+        Weekly review of results
+
+    People 2
+
+        lunch with Stacie at Sand Bar
+
+    Fun 4
+
+        Heroes
+
+    Sign 6
+
+        Wrote progress report
+        Debug MySQL connection on iMac
+        Debug Services (sss)
+
+
+
+Wed, 02-24
+
+    Sign 10
+
+        Business on all three subsystems: Notifications, Registration, Payments
+        Testing on product code
+        Fix numerous problems with user registration and activation
+        Build unit tests to cover product (all three subsystems)
+        Debug user registration system
+        Figure out how to test Rest API
+        Restructure and clean up product code
+        Some unit testing is still in process
+        Some debug is still required before pushing the MVP-364 branch to master
+
+    Church 4
+
+        FPU
+
+
+
+Thu, 02-25
+
+    WAM 4
+
+        Debug issue with Domain transfer
+        Setup email records at GoDaddy
+        Debug issues at Wix
+        Test and setup email for notifications
+
+    Sign 6
+
+        write tests for MVP-364
+        work on user activation (new user record)
+        fix all application issues
+        merge code into master
+        prep for meeting
+        scrum meeting
+
+    People 1
+
+        Talk with Stacie
+
+    Fun 3
+
+        Grammys
+
+
+
+Fri, 02-26
+
+    WAM 4
+
+        setup email SMTP server for notifications
+        testing of email config
+        setup SMTP server for user email at GoDaddy
+        update plan for WAM 2.0 release
+        record all service provider information
+
+    People 3
+
+        Lunch at Garbanzos
+        talk with Stacie about business breakthrough
+
+    Grow 3
+
+        think about work and life balance
+
+    Fun 4
+
+        fix Marvel subscription
+        Amazing Race
+
+
+
+Sat, 02-27
+
+    Sign 3
+
+        write test plan for Sign
+        meet with Tom
+
+    Business 4
+
+        discuss financial tasks with Stacie
+        setup Personal Capital
+        read reviews for money software 
+        connect to accounts: first tech, cap one, chase
+        get summary of money
+
+    Grow 2
+
+        work/life balance
+        organize evernotes
+
+    Fun 5
+
+        Madam Sec, Agent Carter
+
+
+
+Sun, 02-28
+
+    Fun 2
+
+
+
+    Church 3
+
+
+
+    Business 2
+
+        organize Evernotes
+        figure out export from Evernote
+
+    People 6
+
+        Andrew & Rachel at Tres Margaritas
+        video with Josiah
+        Juan & Lynn over to house
+
+    Grow 1
+
+        walk around the park
+        time planning
+
+
+
+Mon, 02-29
+
+    Business 4
+
+        organize info
+        weekly review
+        create business objectives
+        Revenue Statement for Dec-March
+
+    Sign 2
+
+        Django user admin and password management
+
+    WAM 2
+
+        Follow up from meeting with WAM
+
+    Church 1
+
+        meet Todd for lunch
+
+    Grow 1
+
+        think about life
+
+    Fun 4
+
+        Chuck
+# Tasks History     March 2016
+## March Objectives 2016
+    * 160 billable hours in March & book April time 
+    * Support WAM 2.0 & start on WAM 2.1
+    * Setup MVP for SignSpan
+    * File taxes
+    * Manage family budget through March
+    
+## Accomplishments
+

@@ -1,0 +1,890 @@
+# Tasks History     2016-12
+
+## Accomplishments
+
+
+
+Thu, 12-01
+
+    Business 4
+
+        develop retirement analysis
+        apply for loan on HELOC
+
+    Write 3
+
+        create Facebook group for Seaman's Log
+        grow membership of Spiritual Things to 23 people
+        post articles on Facebook
+        organize brain topics
+
+    Church 1
+
+        update Reflections in Spiritual Things
+
+    Fun 1
+
+        White Queen
+
+    Grow 4
+
+        5, 4, 3, 2
+        bible study
+        2000 years of Charisma
+        prioritize projects - monthly objectives
+
+    Tools 1
+
+        hours add script
+        create list of days for month
+        create import filter
+
+    People 0
+
+        dinner with Courtney Peters
+
+
+
+Fri, 12-02
+
+    Business 5
+
+        develop Household Economics
+        create general spreadsheet for Budget, Investment, House
+        create simplified budget review process
+        discuss family finance with Stacie
+        resolve gross/net budget
+        build spreadsheet for tracking investments
+
+    Write 1
+
+        organize brain
+
+    Fun 5
+
+        Madam Sec.
+        Scrubs
+        House of Cards
+
+    Tools 3
+
+        build monthly summary for tasks
+        learn about advanced queries in Django
+        deploy Task Master on production
+        import all 2016 months into Task Master
+
+    Grow 0
+
+        3, 4, 4, 3
+        prayer during night
+
+
+
+Sat, 12-03
+
+    Tools 5
+
+        investigate character encoding
+        remove all bad characters from documents
+        plan out next phase of projects
+        improve command "ce"
+        improve Spiritual Send
+
+    People 2
+
+        meet with Josiah
+
+    Fun 3
+
+        Librarians
+        SHIELD
+
+    Grow 2
+
+        think about project goals
+        organize notes
+        5, 5, 5, 2
+
+    Write 2
+
+        post on Facebook
+        write Scoring Creativity
+
+
+
+Sun, 12-04
+
+    People 4
+
+        Rio with Rachel and Andrew
+        Hang Christmas lights with Stacie
+
+    Fun 5
+
+        create notes for Wars of the Roses
+        Big Bang
+        Jungle Book
+
+    Church 5
+
+        fix issue with Event and Budget records
+        talked to Kyle about marketing
+
+
+
+Mon, 12-05
+
+    Tools 1
+
+        review project priorities
+
+    People 2
+
+        help Andrew set up investments
+        talk to Rachel about house
+
+    Write 5
+
+        post on Facebook
+        teach Andrew about investments
+        write ideas about Household economics
+        research investment break even and accumulation times
+
+    Grow 1
+
+        walk to Bungalow
+        5, 5, 3, 4
+
+    Fun 2
+
+        Castle, Madam Sec.
+
+    Hire 3
+
+        design interviewer selection
+        work with Stacie on design of interview assignments
+        discuss direction of project
+
+
+
+Tue, 12-06
+
+    Hire 7
+
+        refine ideas about panel interviews
+        update data model diagram
+        build job menu items
+        load production data onto Macbook
+        create session configuration view
+        create a table to display skills and interviewers
+        select many-to-many skills/interviewers
+
+    Church 4
+
+        home group party
+        write prophecy message for Todd
+
+    Business 1
+
+        apply for HELOC
+
+    Tools 1
+
+        create project plan for ComSys
+        build tool for app function signatures
+
+    People 1
+
+        lunch with Stacie at Nana Bea's
+
+    Grow 0
+
+        5, 5, 4, 3
+
+
+
+Wed, 12-07
+
+    Church 4
+
+        SoKM
+
+    Hire 3
+
+        work on interviewer assignment view
+
+    Grow 2
+
+        dermatologist
+        5, 5, 5, 2
+
+    People 4
+
+        tour house with Andrew and Rachel
+        lunch with Stacie at Doug's Diner
+        dinner at Noodles
+
+    Fun 1
+
+        Marvel comics
+
+
+
+Thu, 12-08
+
+    Business 1
+
+        loan application process
+        write Tom Yip about SignSpan involvement
+
+    Church 5
+
+        test out church dashboard
+        meet with Kyle
+        add ChurchScore to Events and Budget records
+        small improvements to presentation layer
+        configure ChurchLeader records
+
+    Hire 5
+
+        create sessions views
+        split sessions from possible interviewers
+        fix bugs and improve workflow
+        learn about ManyToMany ORM logic
+        learn about Forms processing
+
+    People 2
+
+        Rachel and Andrew experience turmoil over house purchase
+        Stacie helps with Garcia's house discussion
+
+    Fun 1
+
+        Big Bang
+
+    Grow 0
+
+        3, 5, 4, 2
+
+
+
+Fri, 12-09
+
+    People 2
+
+        Rachel and Andrew made and got confirmation of house offer
+
+    Fun 2
+
+        Star Trek
+
+    Grow 0
+
+        4, 5, 4, 1
+
+    Hire 10
+
+        create session records
+        convert existing data models
+        create views for sessions
+        assign interviewers to each session
+        interviewer assignments view
+        refactor session and interview code
+        learn how to set data directly from a form
+        expand on hacks for direct data debug
+        refine user story for interview configuration
+
+
+
+Sat, 12-10
+
+    Tools 4
+
+        create goals and notes for Task Master
+        deploy new code
+        rename docs for Seaman's Log
+        rebuild Seaman's log website
+        change title on Seaman's Log
+
+    Write 2
+
+        post on Facebook
+        think about Inventor Meetup and professional networking
+        build index of Project Notes
+
+    People 4
+
+        Big Fat Pastor party
+        Hearth with Rachel
+
+    Fun 4
+
+        Librarians, SHIELD
+
+    Grow 0
+
+        4, 5, 4, 2
+
+
+
+Sun, 12-11
+
+    Grow 8
+
+        sick in the night
+        skip church
+        sleep late
+        reflect on life
+        read Dad's book
+        1, 5, 5, 1
+
+    People 2
+
+        meet Josiah
+
+    Fun 4
+
+        Central Intelligence
+
+
+
+Mon, 12-12
+
+    Church 9
+
+        church board meeting
+        create plan for capital spending and borrowing
+        create 4 proposals for board meeting
+        create goals for capital spending team
+        create outline for 2017 budget
+
+    Business 4
+
+        family finance: long-term planning
+        analysis of net worth 2016
+
+    Fun 1
+
+        Spider man
+
+    Grow 0
+
+        5, 5, 5, 2
+
+
+
+Tue, 12-13
+
+    Church 2
+
+        send apology for board meeting
+
+    Business 2
+
+        finish financial plan for long-term
+
+    Write 4
+
+        organize notes
+        write Economics: Investment
+        write Economics: Budget
+
+    Grow 2
+
+        update weekly goals and monthly objectives
+        moment of self awareness about board meeting
+        discuss personal growth with Stacie
+        3, 5, 5, 1
+
+    Fun 4
+
+        Librarians, Madam Sec
+
+
+
+Wed, 12-14
+
+    Church 6
+
+        meet with Todd on Dev Team
+        update invested time record
+        fix spending deviation calculation
+        minor improvements to dashboard
+        discuss church leadership with Todd
+
+    Hire 6
+
+        enable selection of attributes based on requesting user
+        fix issue with menu items for job opening
+        create new test company
+        debug user creation
+        streamline menu for Job Opening
+        improve skills view
+
+    Tools 2
+
+        update Mac OS/X
+        create script for posting from Seaman's Log content
+
+    Grow 0
+
+        3, 5, 4, 2
+
+
+
+Thu, 12-15
+
+    Tools 4
+
+        enable daily backup of database
+        debug issues with doc code
+        improve scoring for documents
+        create reusable hourly task
+
+    Hire 6
+
+        update menu logic and icons
+        create workflow in views
+        build opening skills configuration view
+        debug sequence of views during configuration
+        display all questions on skills view
+
+    Church 4
+
+        Christmas party
+
+    Grow 0
+
+        4, 5, 3, 1
+        
+
+
+
+Fri, 12-16
+
+    Tools 6
+
+        update plan for task manager
+        create monthly display of tasks
+        create weekly summary for tasks
+        simplify task queries using ORM
+        create task tests
+        build task dashboard
+        WAM message post
+        upgrade operating system on Mac
+        renew Goddady domains
+
+    Church 4
+
+        create five star rating display
+        figure out layout of pages using bootstrap layouts
+        create better score details page 
+        improve scorecard view
+
+    Fun 2
+
+        Castle
+
+    Grow 2
+
+        wake up at 4 AM
+        nap
+        3, 4, 4, 3
+
+
+
+Sat, 12-17
+
+    People 4
+
+        breakfast with Juan and Lynn
+        neighborhood party
+
+    Grow 4
+
+        read Dad's book
+        5, 4, 4, 2
+
+    Tools 2
+
+        update score script
+        fix word counting script
+        expand editing tools for Seaman's Log
+
+    Write 4
+
+        publish Life that Matters in Seaman's Log
+        publish Creativity Score
+        publish InControl
+        organize notes
+
+
+
+Sun, 12-18
+
+    Church 3
+
+        church service
+
+    Write 3
+
+        write Now is the Time
+        write Let Darkness Come
+        write Biggest Idea this Year
+        organize brain
+
+    Tools 2
+
+        develop plans for Software Master
+        develop plans for Writing Master
+        develop brain space ideas
+
+    People 2
+
+        Papa Murphy pizza with Rachel
+
+    Fun 3
+
+        Star Wars movie
+        Star Trek Beyond
+
+    Grow 1
+
+        wake up at 4:45
+        3, 4, 3, 2
+
+
+
+Mon, 12-19
+
+    Write 3
+
+        Spiritual Things home page
+        organize brain
+        write notes for Brain Spaces (Goal, Learn, Teach, Build)
+
+    Tools 4
+
+        design for Score Master application 
+        Score Master (stories, data, views, scripts)
+        create outline for building new applications
+        reusable development process
+
+    Hire 3
+
+        relayout Interviewers view with bootstrap layouts
+
+    Fun 4
+
+        Supergirl, Madam Sec
+        
+
+    Grow 0
+
+        5, 4, 3, 2
+
+
+
+Tue, 12-20
+
+    Fun 3
+
+
+
+    Write 2
+
+        Facebook - read and post
+
+    Tools 4
+
+        update Writing Master user stories
+
+    Hire 3
+
+        rewrite Interviewer admin
+        rewrite Session admin
+
+    Grow 2
+
+        task planning
+        sign up for Banner portal
+        renew meds
+        5, 3, 3, 2
+
+
+
+Wed, 12-21
+
+    Hire 4
+
+        add definitions to skill list
+        debug skill library manager
+        update master skill list
+        debug skill selection
+        implement skill selector view
+
+    Write 4
+
+        write Building a Business is an Investment
+
+    Business 2
+
+        analyze family finances
+        discuss finances and business opportunity with Stacie
+
+    Fun 4
+
+        Murray Christmas
+
+    Grow 0
+
+        3, 4, 3, 2
+
+
+
+Thu, 12-22
+
+    Business 6
+
+        review Eric's reimbursement spreadsheet
+        images of receipts
+        create spreadsheet and Evernotes of receipts
+        file for reimbursement
+
+    Grow 2
+
+        read Bootstraps and Blessings
+        3, 3, 3, 1
+
+    Fun 4
+
+        Supergirl
+
+    Write 2
+
+        create concept for Healthy, Wealthy, Wise
+        work out details of investment growth rates and formulas
+
+
+
+Fri, 12-23
+
+    Write 1
+
+        Healthy, Wealthy, Wise
+
+    Tools 4
+
+        Software Master - application builder
+        Software Dev Project Template
+        project investment growth simulator 
+
+    People 3
+
+        shopping in Greeley with Stacie
+        wrap presents
+
+    Fun 3
+
+        Poldark
+
+    Grow 3
+
+        read Bootstraps and Blessings
+        4, 3, 3, 2
+
+
+
+Sat, 12-24
+
+    Write 6
+
+        author scorecard
+        Writing Workbench
+        organize brain
+        publish Projects articles
+        publish Brain Spaces (Goal, Learn, Teach, Build)
+        Processing Ideas
+        Tools for Thinking
+        publish Project list
+        create Software/BestPractice
+
+    People 6
+
+        Christmas Eve Service
+        Royal Nepal Christmas celebration dinner
+        open presents
+
+    Grow 2
+
+        read Blessings & Bootstraps
+        4, 3, 1, 2
+
+
+
+Sun, 12-25
+
+    People 12
+
+        Christmas day
+        open gifts
+        Julio & Jackie
+        play games
+        meet with Josiah & Sam
+
+    Grow 2
+
+        think about life goals
+        4, 3, 1, 1
+
+
+
+Mon, 12-26
+
+    Tools 4
+
+        automatic import of health scores from task file
+        reformat health score display
+        display five-star ratings
+
+    People 4
+
+        visit with Andrew, Rachel, and Christine
+
+    Fun 6
+
+        Blast from the Past, Back to the Future II & III
+
+    Grow 0
+
+        3, 1, 4, 2
+
+
+
+Tue, 12-27
+
+    Write 4
+
+        Facebook
+        Power of Genetics
+        Writing Stages
+        My Story
+        Processing Ideas
+
+    Church 6
+
+        add leader views
+        build datatype creator
+        create general table display
+        create church login pages
+
+    Fun 4
+
+        Everest
+
+    Grow 0
+
+        5, 2, 2, 3
+
+
+
+Wed, 12-28
+
+    People 9
+
+        lunch with Stacie at Mimi's
+        shopping for new office chair
+        game night with Leader family
+
+    Church 5
+
+        work on church dashboard app
+        Dev Team meeting with Todd & Jenny
+        streamline display  of score detail
+        simplify event view
+        application refactoring
+
+    Grow 0
+
+        4, 1, 3, 2
+
+
+
+Thu, 12-29
+
+    People 4
+
+        Anniversary celebration at Greeley Chophouse with Garcias
+        follow up with Dale, David, and Rachel Ditto
+
+    Business 6
+
+        Family Finance 
+            Scorecard
+            Cash flow
+            Snapshot process
+            Budget
+            process for periodic review
+
+    Tools 2
+
+        assemble new office chair
+
+    Grow 2
+
+        create list of aspirations for Software Projects
+        create list of aspirations for Writing Projects
+        4, 2,
+
+
+
+Fri, 12-30
+
+    Hire 5
+
+        build automatic layout for views
+        design and implement skill selector
+        update skill analysis views
+        discuss landing page
+
+    Write 3
+
+        investment planning simulator/advisor
+
+    Grow 2
+
+        start using new shaver
+        4, 1, 2, 1
+
+    Fun 4
+
+        Last Man, Sliders
+
+
+
+Sat, 12-31
+
+    People 6
+
+        New Years party - Moras, Claudine, Rachel
+
+    Fun 4
+
+
+
+    Tools 4
+
+        remove .md suffix from spiritual/prayers files
+        project plan for Software Guru
+        project plan for Writing Guru
+        project plan for My Book Online
+        project plan for Brain
+
+    Write 0
+
+        organize notes
+
+    Grow 0
+
+        3, 2, 2, 2
+

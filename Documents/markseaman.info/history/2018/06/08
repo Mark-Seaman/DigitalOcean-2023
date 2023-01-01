@@ -1,0 +1,30 @@
+Fri, June 08,2018
+
+Grow 4
+
+    5, 5, 3, 5
+    walk 5.5 miles
+    13,000 steps
+    Habits
+
+WAM 4
+
+    From Backup MyBook-2018-05-17 build Droplet WAM.2.2
+    ssh  django@206.189.67.111
+    git clone git@github.com:Mark-Seaman/Women2Women.git
+    create WAM 2.2 code branch
+    setup .bashrc
+    setup vc.py for version management
+    update tests to new server
+    fix failing tests
+    debug database connection
+
+People 6
+
+    house cleaning
+    Anthony Bordain death
+    prepare grill for Andrew
+    transport grill to Andrew's
+    Cazadores
+    Davey and the Blue Dogs
+

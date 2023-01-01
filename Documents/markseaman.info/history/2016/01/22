@@ -1,0 +1,19 @@
+Fri, January 22,2016
+
+WAM 9
+
+    Add user status of Inactive
+    Finish design for selection of users by user role
+    Clean up of inactive users
+    Testing on user roles
+    Hook up real counters on dashboard page
+    Refactor the source files
+    Add edit cases for Program Directors
+    Category, DisburseInstruct, Notes
+    Edit ProgDir view to add ability to edit Accepted Pending cases
+    Add print button to edit case
+
+Fun 3
+
+    Sherlock
+

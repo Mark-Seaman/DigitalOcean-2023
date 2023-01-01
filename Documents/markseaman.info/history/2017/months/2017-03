@@ -1,0 +1,629 @@
+# Tasks History     2017-03
+
+## Accomplishments
+
+
+
+Wed, 03-01
+
+    Grow 0
+    
+            4, 2, 2, 2
+    Tools 2
+    
+            create days.py command script
+            reset monthly history file
+            improve display of test results (web test)
+    Hire 6
+    
+            solve problem with ALLOWED_HOSTS
+            update deployment to new server
+            use SSL to implement secure server
+            automatic redirect to secure server
+            testing and deployment of new code
+    Church 4
+    
+            SoKM
+    Fun 2
+    
+            Rick Steves
+            book hotel and train in Paris
+    
+
+Thu, 03-02
+
+    Write 2
+    
+            post What You Say
+            Classical Greece
+    Hire 5
+    
+            move database from MyBookOnline.org to Who2Hire.co
+            create who2hire branch in git
+            enable daily backup on MyBookOnline.org
+            test data save and data backup on who2hire.co
+            create release plan for who2hire  2017-03-03
+            back out superuser login code
+    People 2
+    
+            Summit with Stacie
+            library
+    Church 3
+    
+            board meeting
+    Fun 2
+    
+            Star Trek, Watchmen
+    Grow 0
+    
+            4, 3, 3, 2
+    
+
+Fri, 03-03
+
+    Hire 8
+    
+            review and update plan for Customer Release 1.0
+            setup cron tasks
+            create who2hire prompt
+            create hire promote
+            fix problem with company_list
+            fix problem with company_detail
+            testing on who2hire server
+            release decision
+    Fun 4
+    
+            Timeless, This is Us, Last Man
+    Grow 2
+    
+            think about life goals
+            nap
+            4, 3, 3, 2
+    
+
+Sat, 03-04
+
+    Grow 2
+    
+            nap
+            walk to library
+            5, 3, 3, 2
+    Church 4
+    
+            fix user login on macbook
+            fix aspire todo Church
+            update plan for Church work
+            decide on user experience of Church report
+    Aspire 3
+    
+            think about design patterns to use on Aspire
+            design 8 levels of structure for data nodes
+            create views for nodes
+    Fun 5
+    
+            Interstellar, Dragonfly
+    
+
+Sun, 03-05
+
+    Church 6
+    
+            lunch with Clint and Mary
+    Aspire 2
+    
+            think about design patterns to use on Aspire
+            think about test strategy
+    Grow 1
+    
+            4, 3, 3, 2
+            nap
+    Fun 5
+    
+            Enterprise, Dragonfly, Timeless
+    
+
+Mon, 03-06
+
+    Aspire 4
+    
+            think about design patterns to use on Aspire
+            update documents for Back-end construction
+            create Node data scripts
+            build tests and debug node logic
+    Hire 6
+    
+            recreate database from old production system
+            save Who2Hire server as Docker Image
+            create who2hire-staging from Image
+            document Server Image (how to create servers)
+            deploy and test new production code
+            update operations scripts
+    Grow 0
+    
+            4, 3, 4, 2
+    Church 1
+    
+            pray for Daryl Howell
+    Fun 3
+    
+            Madam Sec, Crown, Fraiser
+    
+
+Tue, 03-07
+
+    Hire 7
+    
+            test existing server setup
+            refine operations policies
+            test for switches and settings code
+            improve scripts for server management
+            update ops script to access all servers
+            add title to staging server web pages
+    Fun 7
+    
+            Jimi Hendrix concert
+    Grow 0
+    
+            4, 4, 4, 4
+    
+
+Wed, 03-08
+
+    Hire 9
+    
+            debug proxied user views
+            create reusable solution for superuser proxies
+            create menu items for superuser proxy
+            deploy user proxy code to staging server
+            testing of new UI with Stacie
+            color coding for proxied users
+            reset production database
+    Business 1
+    
+            sign tax documents for Shrinking World
+    Church 4
+    
+            SoKM
+    Grow 0
+    
+            3, 2, 3, 2
+    
+
+Thu, 03-09
+
+    People 1
+    
+            homemade pizza
+    Fun 4
+    
+            Crown, Fraiser
+    Grow 0
+    
+            2, 3, 3, 1
+    
+    Hire 9
+    
+            Issue 49. Multiple managers
+            Issue 70. Superuser access pages
+            Issue 79. Remove scorecard view
+            Issue 75. Constrain score
+            my_company needs spoofing
+            debug interview record
+            Issue 53. Terms of Usage
+            Issue 53. Privacy policy
+            Issue 63. Add candidate score
+            Issue 73. Delete button for candidates
+            reroute Who2Hire.US url
+            Test Customer Release 1
+
+Fri, 03-10
+
+    People 3
+    
+            Fat Pastor
+    Church 2
+    
+            discuss prophesy and church leadership with Stacie
+            get books on prophesy
+    
+    Hire 8
+    
+            ops release 
+            create 2017-03-10 branch 
+            update Django to 1.9.4
+            testing on who2hire server
+            quiet testing on five servers
+            build hiring admin view
+            server automation scripting
+    Business 1
+    
+            discuss Creative Leap
+
+Sat, 03-11
+
+    Fun 14
+    
+            pack for Hawaii trip
+            travel to Kona
+            read Edge of Eternity
+    
+
+Sun, 03-12
+
+    Write 2
+    
+            Mauna Kea at first light
+    People 8
+    
+            lunch at food court
+            dinner at condo
+            nap & pool
+            walk around golf course
+    Fun 4
+    
+            Passengers
+            Edge of Eternity
+    
+    
+
+Mon, 03-13
+
+    People 6
+    
+            A. Bay beach day
+            evening walk with Stacie
+            discuss article about Peter Thiel
+    Aspire 2
+    
+            build Markdown reader logic (outline parser)
+    Fun 6
+    
+            Furious 7
+            Edge of Eternity
+    
+
+Tue, 03-14
+
+    People 6
+    
+            Hapuna beach (picnic lunch)
+            dinner for Vito and Christine
+    Aspire 4
+    
+            build Outline Reader and Formatter
+            round trip: Markdown --> Outline Tree --> Markdown
+    Fun 4
+    
+            Furious 7
+            Force Awakens
+    
+
+Wed, 03-15
+
+    People 8
+    
+            swimming at Kailua Suites
+            lunch at Lava Lava
+            BBQ steaks
+    Write 2
+    
+            creative non-fiction - Lesson 3
+    Fun 4
+    
+            Force Awakens
+            Dr Strange
+    
+
+Thu, 03-16
+
+    People 4
+    
+            BBQ chicken
+            Lava Lava and sunset
+            walk around fish ponds
+            walk to King's Land
+    Fun 4
+    
+            Dr Strange
+            Jackie
+    Write 4
+    
+            Revolution
+            Under the Fireball
+    Tools 2
+    
+            Fix tests
+    
+
+Fri, 03-17
+
+    Fun 12
+    
+            debate going to Hilton 
+            learn about Volcanoes
+    Write 2
+    
+            create Index for Freedom book
+    
+
+Sat, 03-18
+
+    Fun 14
+    
+            drive to Kiluea
+            Eat at Kona Brewing Company and Cafe Pesto
+    
+
+Sun, 03-19
+
+    Business 2
+    
+            unpack
+            lost suitcase
+    Grow 4
+    
+            nap after trip
+            personal reflection
+    Fun 8
+    
+            return from Hawaii
+    
+
+Mon, 03-20
+
+    Hire 6
+    
+            update to Django 1.9.4
+            update who2hire branch
+            test on production server
+            create document display logic
+            document Release Notes, Engineering Log, Design Patterns
+            learn about Stripe
+            make first test charge
+    Fun 5
+    
+            Madam Sec, Dragonfly
+    
+    Grow 3
+    
+            develop ideas about Thought Patterns
+            set goals for personal plans
+            hand-drawn tables for Writing, Software, Life
+            record all food eaten
+            5, 1, 5, 4
+
+Tue, 03-21
+
+    Grow 1
+    
+            difficulty sleeping through night
+            4, 1, 3, 1
+    Hire 4
+    
+            Issue 83. Main menu disappears on small window
+            Issue 34. Help link on banner
+            Refactor template code for theme
+    Tools 4
+    
+            build new MyBook Server
+            build new cookbook for MyBook server
+            update tests on all servers
+            host exteriorbrain.com and mybookonline.org
+    Business 1
+    
+            post blog article
+            discuss Creative Leap with Stacie
+    Church 3
+    
+            Small group
+    Fun 1
+    
+            comic books
+    
+
+Wed, 03-22
+
+    Tools 4
+    
+            fix failing tests
+            build map of domain setup (22 domains)
+            create map of domains
+            move all domains to new server
+            enable security
+            turn off old server
+    Grow 2
+    
+            refill meds
+            walk
+            3, 1, 3, 4
+    Hire 4
+    
+            learn more about Stripe
+            create interactive payment
+            build form to submit payment to Stripe
+            debug payment amounts (not yet complete)
+    Fun 4
+    
+            This is Us
+    
+
+Thu, 03-23
+
+    Tools 3
+    
+            write Landing Page
+            create map of Web Services
+            document Domains to build out
+    Hire 5
+    
+            solve issue with posting of payments
+            create User Guide - starter page
+            Issue 39. Payment system: workflow, payment, account page
+            work with Stacie on user experience
+            figure out gunicorn restart needed
+            System log failure
+    Church 3
+    
+            SoKM video at home
+    Fun 2
+    
+            comic book
+    Grow 1
+    
+            walk
+            4, 2, 3, 3
+    
+
+Fri, 03-24
+
+    Grow 0
+    
+            5, 3, 1, 2
+    Fun 4
+    
+            This is Us
+    
+    Hire 10
+    
+            roll Django to 1.9.4 and back
+            change DEBUG flag to True
+            review project progress with Stacie
+            work with Christine & Stacie on test issues
+            redesign payment scenario
+            fix issue with login on Django 1.10.6
+            Issue 80. First interview session
+            Release 2017-03-24
+
+Sat, 03-25
+
+    Grow 0
+    
+            5, 2, 2, 1
+    Tools 8
+    
+            review operational status
+            build demo views 1-5
+            document Reusable Apps Back-end code
+            create MyBook application
+            learn about login management
+            rework application templates
+            build new header structure
+    People 4
+    
+            Rachel's birthday party
+    Fun 2
+    
+            Electra, Voyager
+    
+
+Sun, 03-26
+
+    Business 6
+    
+            drive to Boulder to meet with Greg McGutchan
+    Fun 4
+    
+            Rick Steves, Crown
+    Grow 0
+    
+            3, 1, 2, 2
+    
+    Church 4
+    
+            attend church
+
+Mon, 03-27
+
+    Hire 12
+    
+            learn about CSS
+            build demo views 5-6
+            create new Shrinking World Page Layout template
+            solve problems with main menu and page header
+            build general login
+            debug general logout
+            fix Issue 34 - blemish on banner 
+            fix Issue 97 - interview for templates
+            fix Issue 96 - clean up production data
+            fix Issue 89 - DEBUG on who2hire
+            fix Issue 90 - Django 1.10.6
+            fix Issue 82 - rewrite Opening Edit view
+            Superuser page security
+            Learn about LoginRequiredMixin, and UserPermissionRequiredMixin
+    Fun 2
+    
+            This is Us
+    
+
+Tue, 03-28
+
+    Grow 0
+    
+            2, 2, 
+    
+    Tools 8
+    
+            create landing pages and page routing for all websites
+            deploy new web apps
+            testing of church app on production server
+            create dynamic titles on websites
+            create dynamic menus on websites
+    Church 4
+    
+            church board meeting
+    Hire 2
+    
+            Issue 95. Staging database cleanup
+            Issue 96. Production database cleanup
+
+Wed, 03-29
+
+    Tools 2
+    
+            build pages and menus for Software website
+            create Leverage pages
+            create Web Dev pages
+            create Best Practices pages
+    Church 4
+    
+            SoKM
+    
+    Hire 8
+    
+            Issue 74. Asks each question once (first interviewer, deselect old)
+            Rebuild session list view
+            Remove code from mybook app
+            Remove tests from mybook app
+
+Thu, 03-30
+
+    Hire 6
+    
+            build notification messages
+            figure out user experience for payments
+            debug payment code
+            clean up user experience
+    Tools 4
+    
+            restructure web services code
+            debug alternatives for different domains
+    People 4
+    
+            discuss work anxiety related to work modes
+            visit Rachel & Andrew
+    
+
+Fri, 03-31
+
+    Hire 6
+    
+            build release 2017-03-31
+            roll production Django to 1.10.6
+            turn off DEBUG flag
+            review all issues
+    People 2
+    
+            Nordy's with Stacie
+    Fun 6
+    
+            Shack, Beauty & Beast

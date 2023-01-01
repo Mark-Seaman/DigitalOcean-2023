@@ -1,0 +1,24 @@
+# Seaman's Guide Test Page
+
+
+## Server Root
+
+* [System Test](/Test)
+* [Test MarkSeaman](/Test/MarkSeaman.org)
+* [Mark Seaman](/MarkSeaman)
+
+
+## Seaman's Guide
+
+* [MarkSeaman.org](https://MarkSeaman.org)
+* [Test](http://MarkSeaman.org/Test/MarkSeaman.org)
+* [MarkSeaman](http://MarkSeaman.org/guide)
+* [Index](http://MarkSeaman.org/Index)
+
+
+## Local Host
+
+* [localhost:8000/](http://localhost:8000/MarkSeaman)
+* [Test](http://localhost:8000/Test/MarkSeaman.org)
+* [Index](http://localhost:8000/MarkSeaman/Index)
+

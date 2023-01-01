@@ -1,0 +1,193 @@
+# Work In Process
+
+Blog articles to tweet
+
+
+---
+
+**Read More**
+
+* [Discovering Teaching](https://shrinking-world.com/blog/Teaching)
+
+---
+
+## Doubling down
+
+By the sixth week I was able to cut back my time investment to about 50 hours. Things were starting
+to get routine and somewhat predictable. I remember telling my wife that now I was ready to reduce
+my time to about forty hours weekly. 
+
+On Friday, I got a call from the university. There had been a car accident involving the professor
+of the Software Engineering class. In trying to find someone qualified to teach this class, two
+independent sources recommended that they contact me. 
+
+
+# Teaching Software Engineering
+
+Because engineering is my background and professional love, I agreed to take on the class. On Monday
+I started teaching the class and finished the semester. I was able to bring decades of experience
+in the software industry into the classroom and teach practical engineering skills.
+
+The next few weeks were a whirlwind of activity and intensity. I was awakened to the reality that I
+care deeply about teaching practical skills for students to thrive in the workplace. And I have
+little regard for knowledge that will not help students succeed.
+
+
+## Striving and Succeeding
+
+It was difficult to start on the road to teaching. The university did not really have any way to
+integrate new teachers into the process. It requires a certain kind of person to manage themselves
+with no support, but I knew at the time that I was walking into a crisis. I have learned that I
+actually thrive in intense challenges that will sink most people.
+
+Fortunately, I had many years of web development and software engineering to draw from. I knew the
+subject matter extremely well; I just needed to learn the process of teaching. 
+
+I was also willing to pay the steep price to create materials, grade assignments, create and deliver
+lectures, and mentor students. I suspect that few others would be willing to pay this price.
+
+Early on, I adopted the posture of a learner. Everything I did was viewed as an experiment. The
+things that worked I standardized and what didn't work was never repeated. Over a brief time this
+yielded practical methods for teaching students the skills they need. This constant improvement
+paradigm is thoroughly ingrained in the software industry and was now employed in the classroom as
+well.
+
+That first semester was a crash course in teaching. Within seven weeks I had responded to two
+emergency startups with no previous preparation time. This taught me that it is possible to learn
+and teach at the same time and that everything is a grand experiment anyway. I have incorporated
+these key lessons into my life philosophy.
+
+
+## Answering Life's Call
+
+My career has been filled with intense challenges. I have learned that a tough challenge met can
+turn into the greatest fulfillment. Teaching was a huge challenge at the beginning. This was the
+most difficult professional task faced, both intellectually and emotionally. But the reward in
+personal growth has been equally huge.
+
+In my career of twenty-six years at Hewlett Packard, my most rewarding times were when I was
+teaching other engineers. As a software developer I was the person that would evaluate new
+technologies and integrate them into our workflow. This requires teaching each person on the team
+how to use the technology appropriately. Now I am able to bring that to my students.
+
+My time at UNC has shown me that I have always been a teacher. Years ago I adopted the personal
+mission statement "To Learn and Teach Best Practices" as my motto. This is in my bones and it is
+who I am. In a sense this is a key part of my destiny.
+
+
+---
+
+**Read More**
+
+* [Building Python Web Apps](https://shrinking-world.com/blog/training/PythonWebApps)
+
+---
+
+# Writing a Textbook
+
+A textbook should teach you how to build web applications efficiently. It should not assume any
+programming experience beyond the ability to read code. If you can read Python, then you can learn
+to write it by studying the example code in each chapter.
+
+
+# Building a Course
+
+I wrote a textbook on building web apps and then began immediately to produce an online course that
+matches the content of the book.  This is a powerful pairing because both media cater to different
+parts of the brain.  The book allows for study and reflection while the video focuses on live
+coding demos. Students can watch, pause the video, and code along with me.
+
+
+# What you learn
+
+During my online course, you will learn everything you need to know about the tools and techniques
+that are needed to build and deploy a commercial web application. We will start by installing
+development tools and creating projects using a powerful web framework (Django) and deploying these
+to a web hosting service.
+
+
+# 50 Skills of Web Development
+
+There are about 50 skills that are required to build an application. Each of the 14 chapters
+introduces new skills. Each project is based on learning these skills. Each time you apply a skill
+it gets easier. Each project is scoped to require and verify the learning as you go.
+
+
+# Projects are the fastest way to learn
+
+Programming is taught by doing projects, not by listening to someone talk about programming. The
+skills learned for one project will carry forward to all the later projects. This builds automatic
+responses and reinforces learning. By the end of the course, you will have lots of practice in
+doing the routine tasks that you learned early on. These activities will be automatic and will
+require very little conscious thought.
+
+
+# My Online Course is based on 14 projects
+
+Each project builds on the previous ones. All projects will work together to produce a medium-sized
+commercial web application.  Each project focuses on a technical aspect that is common to most web
+apps.
+
+
+# College Class vs. Personal Learning
+
+This course requires about 100 hours of concentrated effort and focused practice. Investing that
+amount of energy will enable you to build apps on your own successfully. Additional time is
+required to get quicker at the skills and get stuck less often, but this course will prepare you to
+write commercial apps professionally.
+
+This textbook is also ideal for personal learning outside the classroom. Anyone that invests 100
+hours will learn the skills to build a modern web app. This could be used for On-The-Job Training
+or professional development.
+
+The internet is full of excellent free resources to help you in specific situations. There are links
+throughout this textbook for additional learning content.
+
+
+### Pair Programming
+
+I recommend that you team up with someone else to learn this together. Learning goes faster with a
+buddy. It gives you someone to discuss confusing issues with and someone to help you when you get
+stuck.
+
+In the real world, pair programming is common. Two people write one chunk of code and discuss it as
+they go. Bugs get squashed before they make it into the code and the peer pressure naturally
+increases the quality and quantity of the work.
+
+---
+
+## About the Author
+
+<img src="/static/images/shrinking-world.com/training/Mark-Seaman-400.jpg" width="300" alt="Mark
+Seaman" />
+
+
+Mark Seaman has spent a lifetime learning how to produce high-quality software effectively. During
+his career, he has worked in many different types of software development organizations and
+projects. Some of that knowledge has been encapsulated in this textbook so it can be directly
+applied to your next development project.
+
+
+# 40 years of software development experience
+
+* HP – software developer - worked in the software lab designing Cameras, Scanners, PCs, Printers,
+  All-in-Ones, OCR, and disc drives. Mentored and trained other developers on tools and
+  technology. 
+    * Holds 12 software patents, 22 patent applications, and 44 invention disclosures.
+* Founder of Shrinking World Solutions - creating software services, web applications, and training
+  courses.
+* Adjunct Professor at the University of Northern Colorado - teaching web development and software
+  engineering. 
+* Author of books
+    * "The Leverage Principle: A Software Architect's Guide to Optimizing Development and
+    Operations”
+    * "Building Python Web Apps: A Classroom-tested approach with 14 Projects and 42 Design Patterns"
+
+
+
+## View Book at Amazon Kindle Store
+
+* [Building Python Web Apps](https://www.amazon.com/dp/B0BB1LPCQ9)
+
+
+

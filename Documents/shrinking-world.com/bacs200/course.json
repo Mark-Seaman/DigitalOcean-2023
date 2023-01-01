@@ -1,0 +1,20 @@
+{
+    "site_title": "UNC BACS 200",
+    "site_subtitle": "Web Pages with HTML/CSS",
+    "site_url": "/course/bacs200",
+    "course": "bacs200",
+    "course_title": "BACS 200 - Fall 2022",
+    "instructor": "Mark Seaman",
+    "organization": "University of Northern Colorado",
+    "page_title": "Web Pages with HTML/CSS",
+    "logo": "/static/images/shrinking-world.com/bacs200/Bear.png",
+    "cover": "/static/images/shrinking-world.com/bacs200/peaking.800.jpg",
+    "icon": "https://shrinking-world.com/static/favicon.ico",
+    "images": "static/images/shrinking-world.com/bacs200",
+    "image_path": "/static/images/shrinking-world.com/bacs200/peaking.800.jpg",
+    "css": "/static/css/unc.css",
+    "github": "https://github.com/Mark-Seaman/UNC-BACS200-2022-Fall.git",
+    "week": 1,
+    "week_label": "Week ",
+    "num_weeks": 15
+}

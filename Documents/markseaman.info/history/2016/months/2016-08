@@ -1,0 +1,762 @@
+# Tasks History     2016-08
+
+## Accomplishments
+
+
+
+Mon, 08-01
+
+    Tools 4
+
+        Update todo.py script
+        Analysis of work done recently
+        create hourly script
+        create client script
+        setup spiritual things sender
+        select random notes for email
+
+    WAM 8
+
+        Investigate password reset
+        Add password change form
+        Set password when creating agents
+        Password change form
+        Design workflow for registration
+        Send agency signup to program directors
+        Workflow for registration
+        Fix agent notification
+        Send actual password
+
+    People 2
+
+        lunch with Stacie at Romas
+
+
+
+Tue, 08-02
+
+    People 2
+
+        bike ride with Stacie
+
+    Grow 2
+
+        sleepless night
+
+    Business 2
+
+        create notes for Software Training
+        project proposal for Creative Leap Technologies
+
+    Sign 8
+
+        start up dev server
+        test coupons on dev server
+        test coupons on production server
+        read JIRA ticket
+        test Discount code on Sandbox
+        send tech support email
+        work on suspended user behavior
+
+
+
+Wed, 08-03
+
+    People 14
+
+        drive to CO Springs
+        lunch with Josiah family at Tuscanos
+        bring Cassie to Windsor
+
+
+
+Thu, 08-04
+
+    Sign 2
+
+        scrum meeting
+        newline meeting
+
+    People 8
+
+        watch Cassie
+        Stacie met with Agency reps for WAM
+
+    Tools 4
+
+        add new command scripts (faceblog, seamanslog, spiritual)
+        improve hourly test
+        add client command
+        start sending email with Spiritual Things
+
+
+
+Fri, 08-05
+
+    Tools 8
+
+        add instrumentation to hammer
+        improve page redirect mechanism
+        general purpose display_document 
+        encapsulate page redirect logic
+        create specialized views
+        debug Spiritual Things site
+        debug Seamans Log site
+        create Seaman Tech plan
+
+    People 6
+
+        Cassie visit library
+
+
+
+Sat, 08-06
+
+    Sign 1
+
+        meeting with Tom to work on Chargify
+
+    People 9
+
+        Josiah's farewell party
+        party visits house
+        Andrew 
+        get pizza
+
+    Grow 2
+
+        think about life
+
+    Fun 2
+
+        Winter World
+
+
+
+Sun, 08-07
+
+    Church 5
+
+        Josiah & Sam
+        improve Spiritual Things web site
+
+    People 4
+
+        El Cielo with Josiah clan
+        boat ride with Cassie
+
+    Fun 2
+
+        Uncanny X-Men
+
+    Tools 3
+
+        add document summary script
+        document summary test
+        document workflow
+        add collab web
+
+
+
+Mon, 08-08
+
+    Fun 2
+
+
+
+    Tools 4
+
+        debug page redirects
+        extract common menu function 
+        improve page logging
+        consolidate view logic
+
+    Sign 4
+
+        start up dev server
+        run through registration scenarios
+        revert code to test registration
+        work on Payment Gateway error
+
+    People 4
+
+        bike ride with Cassie
+        Stacie and Cassie go swimming
+        Josiah & Sam closing apartment in CO Springs
+
+
+
+Tue, 08-09
+
+    Business 4
+
+        Greg McCutchen & Josiah
+
+    People 4
+
+        boat ride with Cassie
+        visit with Josiah & Same
+
+    Tools 6
+
+        build all application menus
+        remove dead code
+        debug the page redirect
+        write business docs for Clients
+        improve footer 
+        standardize doc viewer
+
+
+
+Wed, 08-10
+
+    People 5
+
+        family photo shoot
+
+    Sign 9
+
+        test production chargify public page
+        test registration workflow on production
+        setup production command script
+        debug production server context
+        analyze log for registration
+        improve logging in chargify.py
+        improve log.py script to work on production
+        test registration workflow on dev
+        simplify error handling in registration.py
+        simplify error handling in chargify.py
+
+
+
+Thu, 08-11
+
+    Sign 1
+
+        scrum meeting
+
+    Grow 8
+
+        GLS
+
+    People 5
+
+        Johnny Carinos with Josiah & Cassie
+
+
+
+Fri, 08-12
+
+    Grow 9
+
+        GLS
+
+    People 2
+
+        Josiah & Sam leave
+
+    Fun 3
+
+        Half-blood Prince
+
+
+
+Sat, 08-13
+
+    Business 8
+
+        Greg McCutchen
+
+    Grow 2
+
+        purchase Present Over Perfect, 4DX
+
+    Fun 4
+
+        Deathly Hallows I & II
+
+
+
+Sun, 08-14
+
+    Fun 4
+
+        TV - Mormon movie
+
+    Church 0
+
+        skip church for personal retreat
+
+    People 0
+
+        Stacie sick
+
+    Grow 10
+
+        Present Over Perfect (3 chapters)
+        Present Over Perfect book notes
+        4DX (3 chapters)
+        4DW (book notes)
+
+
+
+Mon, 08-15
+
+    WAM 9
+
+        Release Plan for WAM 2.1.0
+        Capture all production data
+        Load data on staging server
+        Fix all agency data on staging server
+        Fix redirect to new page
+        Final testing on staging server
+        Reload production database
+        Final testing on production database
+        Support Stacie in Program Directors training
+
+    People 1
+
+        discuss WAM project with Stacie
+
+    Grow 1
+
+        think about life
+
+    Fun 3
+
+        Mad Men, Fixer upper
+
+
+
+Tue, 08-16
+
+    Tools 7
+
+        fix console prompt
+        test todo command
+        extend hourly script to send my todo list and spiritual email
+        move Today, 2016-08 docs
+        review structure of documents
+        plan web presence baseline
+        deploy and test new docs and code
+        test for web presence baseline
+        test domain root pages
+
+    WAM 2
+
+        Follow up on release issues
+        Fixes issues found during release 
+
+    People 4
+
+        time with Stacie
+        dinner at PF Chang's
+        discuss SWS business
+
+    Fun 1
+
+        AVX
+
+
+
+Wed, 08-17
+
+    Fun 3
+
+
+
+    Tools 6
+
+        save test results from each test run
+        clean all docs in tree
+
+    WAM 2
+
+        Document Production Release Process
+        Document shell tricks for maintenance of WAM on production server
+
+    People 1
+
+        discuss volunteer work with Boise Vineyard
+
+    Grow 2
+
+        develop personal scorecard
+        work with tags in brain
+        organize articles in brain
+        walk to Sr Jalapeno to lunch
+
+
+
+Thu, 08-18
+
+    WAM 6
+
+        work on support issues for Joe Ortiz
+        investigate notifications on new cases
+        investigate handling of dates on different browsers
+        review system logs on production
+        do not allow notifications on staging
+        fix date formatting issue
+
+    Sign 4
+
+        outlined work for Geoff
+        create doc to help get Geoff set up
+        scrum meeting
+        help Thomas with shell scripts on dev
+
+    People 2
+
+        Rachel got bad news about her school schedule and work
+        Rachel and Andrew for dinner
+
+    Grow 2
+
+        ideas instead of sleep
+    
+
+
+
+Fri, 08-19
+
+    Tools 3
+
+        create text processing script
+        implement text select
+        implement text match, no-match
+        implement text replace
+        test for text functionality
+        create general purpose text mapping tool
+        create text converter utility
+        convert Hammer web site to use new code
+
+    Fun 1
+
+
+
+    Grow 1
+
+        think about personal scorecard
+
+    People 1
+
+        Rachel & Andrew (Carcasonne)
+
+    WAM 8
+
+        investigate missing agencies
+        create tools to map agencies to proper names
+        fix agencies in cases on production server
+        work with Stacie to find source of missing agencies
+        fix issues with login on production
+        testing of agencies
+        create list of emails for all agencies
+        decide on mapping for email addresses
+
+
+
+Sat, 08-20
+
+    People 2
+
+        talk with Stacie
+
+    Grow 4
+
+        bike ride with Stacie
+        watch videos from GLS
+        think through personal goals
+
+    Fun 5
+
+        listen to Usual Suspects in Berthoud
+        Amazing Race
+    
+
+    Tools 3
+
+        create hours script
+        create personal scorecard
+        create new doc summary format
+        build summaries for:
+            seamanslog, spiritual-things, collab, client, doc
+
+
+
+Sun, 08-21
+
+    Fun 1
+
+
+
+    Tools 3
+
+        create hours activity script
+        extract time summary from monthly data
+
+    Church 6
+
+        discuss leading small groups
+        write notes about budgeting process
+
+    People 2
+
+        discussions with Stacie
+        Daruma with Rachel and Andrew
+
+    Grow 2
+
+        install GLSNext on tablet
+        watch videos from GLS
+        nap
+
+
+
+Mon, 08-22
+
+    Grow 2
+
+        weekly review
+        personal planning system
+
+    Fun 3
+
+        Sliders
+
+    WAM 9
+
+        user stories and requirements for editing agency info
+        design for editing agency info
+        create view for edit of agency
+        create view for edit of agent
+        create security model for directors and managers
+        investigate how to insert data into a form
+        validation of form data
+        testing on staging
+
+
+
+Tue, 08-23
+
+    WAM 8
+
+        user stories and requirements for editing agency info
+        design for editing agency info
+        lost user data when attempting to reset a user entry
+        capture data as JSON
+        reconstruct agency data
+        build tools for manipulating the data directly
+        verify agency info on staging
+        reconstruct data on production
+
+    Church 6
+
+        church board prayer meeting
+        think through ministry opportunities
+
+    Grow 0
+
+        read about 4DX
+        refine personal scorecard
+        terrible struggle with WAM agency configuration debug
+
+
+
+Wed, 08-24
+
+    Fun 3
+
+        Sliders
+
+    WAM 8
+
+        check on confirmation page link
+        test production WAM
+        investigate notifications for new cases
+        enable notifications
+        clean up typos in agency records
+        fix problems with create agency
+        fix problems with create agent
+        log exceptions in agent view
+
+    Grow 3
+
+        think about personal life goals
+        focus on sleep habits
+
+
+
+Thu, 08-25
+
+    WAM 2
+
+        fix problem with accepted pending
+        ghost agencies crash
+        alphabetize the agency list
+        clean up Jefferson high school
+
+    Grow 2
+
+        develop WIG and lead measures
+        develop scorecard
+
+    Fun 4
+
+        Sliders
+
+    Tools 6
+
+        add tests for app and cmd
+        refactor shell.show_files
+        improve doc summary
+        create app summary
+        update score
+        fix environment var on server
+
+
+
+Fri, 08-26
+
+    WAM 6
+
+        investigate notifications on new submissions
+        add date and time to log entries
+        save production data
+        design for reporting forms errors
+        send automatic notifications of errors
+        log all form data submitted
+        Update form help
+        Update data from production server
+        Fix case notifications and autofill
+        Send automatic report for form submission errors
+        add restart notification
+
+    Grow 2
+
+        study and apply 4DX
+        write about brain
+
+    People 4
+
+        Andrew & Rachel (encouraging news on jobs)
+
+    Fun 2
+
+        Sliders
+
+
+
+Sat, 08-27
+
+    Grow 6
+
+        write about brain
+        restructure Mark Seaman web site
+        Facebook posting and history
+        visit library
+        capture book notes for 4DX
+        study book on Execution
+        extract book notes
+        begin developing writing scorecard
+
+    People 4
+
+        Bryan and Corina get cats
+
+    Fun 4
+
+        Castle
+
+
+
+Sun, 08-28
+
+    Church 4
+
+
+
+    People 4
+
+        Andrew & Rachel (new salmon dish)
+
+    Grow 2
+
+        nap
+        work on score.py
+
+    Fun 4
+
+        pack for trip
+        Castle
+        Winter of the World
+
+
+
+Mon, 08-29
+
+    People 8
+
+        visit Multnomah Falls
+        drive to Nardins
+        dinner with Nardins
+        visit with Nardins
+
+    Fun 6
+
+        travel to Portland
+        Winter of the World
+
+
+
+Tue, 08-30
+
+    WAM 2
+
+        extend scripts to fix issues on production server
+        fix bad agency records in production
+
+    Grow 4
+
+        relax and be refreshed
+        personal revitalization
+        enjoy being in Forest Grove
+        walk around neighborhood
+
+    People 4
+
+        visit with Mark & Jen
+        McMenimans
+
+    Fun 4
+
+        Ben Hur
+        Winter of the World
+
+
+
+Wed, 08-31
+
+    Grow 2
+
+        write facebook post
+        set up scorecard (Docs, Notes, Scripts)
+
+    People 4
+
+        visit with Mark Nardin
+        visit with Ruth and Truett 
+
+    Church 4
+
+        visit with Ruth and Truett about church leadership
+
+    Fun 4
+
+        drive to Bend
+# Tasks History     September 2016
+## September Objectives 2016
+From 500 articles published (docs 430, code 78) to 600 articles by end of Sep.
+    
+## Accomplishments
+

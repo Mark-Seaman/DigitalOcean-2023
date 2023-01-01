@@ -1,0 +1,778 @@
+# Tasks History     2016-04
+
+## Accomplishments
+
+
+
+Fri, 04-01
+
+    WAM 9
+
+        build three test cycles: qt, ft, ut
+        create server script
+        invoke command tests from system_test
+        install git on Digital Ocean
+        automated deployment
+        recreate database on WAM
+        testing for WAM 2.0.3 deployment
+
+    Fun 5
+
+        House of Cards
+        Winter World
+
+
+
+Sat, 04-02
+
+    Grow 3
+
+        Personal retreat
+        think about life goals and relationships
+        write notes
+            Life I Want
+            Band of Brothers
+
+    Sign 9
+
+        Work with Tom and Brandon
+
+    People 2
+
+        Janey Ball - reception
+
+
+
+Sun, 04-03
+
+    People 5
+
+        lunch at El Cielo with Potters and Garcias
+        plan trip to Portland with Stacie
+
+    Church 4
+
+        interact with Darrell and his wife
+
+    Grow 3
+
+        sign up for PyCon tutorials
+        think through personal goals
+        late nap
+
+    Fun 2
+
+        Arrow
+
+
+
+Mon, 04-04
+
+    Business 4
+
+        review financial results
+        company meeting with Eric and Stacie
+        review projects with Eric
+        discuss taxes, receipts, ownership
+
+    People 2
+
+        lunch with Stacie and Eric at Sand Bar
+
+    Fun 8
+
+        Winter World
+        Arrow, Star Trek Enterprise
+
+
+
+Tue, 04-05
+
+    Sign 4
+
+        learn about Chargify
+        design for SignSpan payment system
+        think through workflows for:
+            register Chargify user account
+            setup payment
+            track status
+            email notifications
+            integration with portal
+        testing to production transition
+
+    Grow 4
+
+        read TDD with Python
+        learn about logger
+        experiment with functional tests
+
+    Fun 6
+
+        Winter World
+        House of Cards
+
+
+
+Wed, 04-06
+
+    Sign 5
+
+        create Chargify test page
+        design API connections for all workflows
+            register user
+            setup payment
+            track status
+        debug API calls
+        scrum meeting to present Chargify info
+
+    Grow 3
+
+        work on debugging scenarios
+
+    Church 4
+
+        last class of FPU
+
+    Fun 2
+
+        Chuck
+
+
+
+Thu, 04-07
+
+    Business 2
+
+        evaluate SignSpan business relationship
+        decide on offering 33% discount to Tom
+        discuss marketing ideas
+
+    Sign 2
+
+        fix issue with email links
+        try to test new code on production serve
+
+    WAM 4
+
+        create design pattern for upgrading Django to 1.9.4
+        create design pattern for management command scripts
+
+    People 1
+
+        visit with Stacie, Christine, Rachel
+        Rachel got a job with King Soopers
+
+    Grow 2
+
+        long walk to enjoy the beautiful day
+        Margarita's and grilling
+
+    Fun 3
+
+        Elementary
+        sign up for Hulu commercial-free
+
+
+
+Fri, 04-08
+
+    People 4
+
+        time with Stacie
+
+    Fun 6
+
+        virtual Saturday
+        My Big Fat Greek Wedding
+        visit Barnes and Noble
+
+    Grow 4
+
+        write up Retirement Funding Agreement
+        analyze revenue from Q1
+        calculate hourly rate for Q1
+        pay bills
+
+
+
+Sat, 04-09
+
+    Sign 7
+
+        debug with Tom & Brandon
+        work on forgot password
+        work on register
+        work on activate
+        build code for Chargify integration
+
+    People 3
+
+        discuss money concerns with Stacie
+
+    Fun 4
+
+        Big Lebowski
+        Arrow
+
+
+
+Sun, 04-10
+
+    Church 5
+
+        church service
+        Darrell & Kaitlin
+
+    Grow 4
+
+        nap
+        time with God
+
+    Fun 4
+
+        Black List, Chuck
+
+    People 1
+
+        Josiah family
+
+
+
+Mon, 04-11
+
+    Sign 6
+
+        figure out URL redirect on success
+        create nine product pages
+        spin up dev server
+        push new code
+        test registration flow
+        debug on failing user registration
+
+    Business 2
+
+        review tax return
+        discuss money with Stacie
+
+    Church 4
+
+        Heidi and Tim Miller over for dinner
+
+    Grow 2
+
+        time with God
+        walk on Poudre river trail
+
+
+
+Tue, 04-12
+
+    Sign 3
+
+        verify that user record can be saved by posting existing JSON record
+        work on debugging process
+        document failure to add a new organization record
+
+    Grow 2
+
+        time with God
+        personal reflection
+
+    Fun 4
+
+        Battlestar Gallactica, Flash
+        Winter World
+
+    Tools 5
+
+        plan for technology assets
+        create scriptor.py (with dispatcher)
+        debug user command scripts
+
+
+
+Wed, 04-13
+
+    Tools 6
+
+        simplify user command scripts
+        debug data command scripts
+        convert tests for user and data
+        upgrade Django to 1.9.4 on WAM Staging server
+        rebuild tables on staging
+        deploy new code to staging
+
+    People 2
+
+        Todd at Coyotes
+        Grill and visit with Stacie
+
+    Fun 2
+
+        Battlestar Gallactica, Castles
+
+    Grow 4
+
+        read Integrity
+        discuss SignSpan project with Stacie
+        middle of night prayer and reflection
+        walk to large lake
+
+
+
+Thu, 04-14
+
+    People 1
+
+        lunch at Romas
+
+    Sign 1
+
+        scrum meeting 
+
+    Business 4
+
+        implement scriptor in hammer app
+        convert hammer app to 1.9.4
+        move command scripts to management commands
+
+    Fun 4
+
+        Chuck
+
+    Grow 4
+
+        think about personal growth
+        decide to invest in writing regularly about spiritual growth
+        understanding my life
+        walk in park
+        sort through old papers
+        process business receipts
+
+
+
+Fri, 04-15
+
+    People 4
+
+        Garcias to Hearth
+        offered to cover payoff of Christine's student loan
+
+    Fun 2
+
+        Battlestar Galactica
+
+    Tools 8
+
+        copy ~/Projects/archive to iMac
+        build Hammer project from scratch
+        create Django app
+        create functional test framework
+        debug automation scripts
+        create document handling logic
+
+
+
+Sat, 04-16
+
+    Business 2
+
+        update project planning (ToDo.md)
+
+    Fun 12
+
+        binge-watch Turn, Quantico
+
+
+
+Sun, 04-17
+
+    Grow 6
+
+        time with God
+        discuss fear of failure with Stacie
+        excerpts from Integrity
+        process personal growth issues
+        organize Brain
+        weekly review
+
+    People 4
+
+        lunch with Rachel at Egg & I
+        dinner with Stacie
+        meet with Josiah family
+
+    Fun 4
+
+        Quantico, Arrested Dev, Psych
+
+
+
+Mon, 04-18
+
+    Sign 8
+
+        coordinate with Tom on Chargify integration and setup
+        test user registration
+        build product configs in production Chargify account
+        fix issues with sandbox Chargify account
+        delete extra products in Sandbox
+        write and debug the dynamic URLs for Chargify plans
+        test complete path on user registration
+        implement simple logger
+        work on command-line django tools
+
+    People 2
+
+        time with Stacie
+
+    Fun 4
+
+        Quantico, Kimmy Schmidt, Last Man
+
+
+
+Tue, 04-19
+
+    Sign 1
+
+        meet with Tom to discuss Chargify integration
+
+    Business 8
+
+        FCIP
+        money management and planning
+        financial review with Will Tyschen
+        set goals for retirement
+        calculate retirement finances
+
+    People 3
+
+        lunch at Doug's Dinner in Loveland
+
+    Fun 2
+
+        Arrow
+
+
+
+Wed, 04-20
+
+    Fun 3
+
+        Madam Sec, SHIELD
+
+    People 3
+
+        BBQ
+        Rachel came over before work
+
+    Sign 8
+
+        Test add user scenario
+        Investigate return URL from Chargify
+        Query Chargify for list of active customers
+        Work with Tom to debug code deployment problem
+        Verify that new users are properly added to Chargify
+        Resolve issue with credit card acceptance on Chargify
+        Implement query of Chargify API to get subscription info
+        Implement status route which always returns active
+        Simplified control and data flow in setup of payments
+        Convert all payment plans to pass out subscription_id
+
+
+
+Thu, 04-21
+
+    Sign 1
+
+        scrum meeting (and follow up)
+
+    Grow 1
+
+        walk in park
+
+    People 3
+
+        Romas with Rachel
+
+    Fun 1
+
+        Winter World
+
+    Tools 8
+
+        Better feedback for Scriptor errors
+        Refactor functional test code
+        Extend scriptor to deal with logs
+        raw document display
+        test for pandoc
+        URL routes for docs
+        load pages from template
+        format output using pandoc
+        page tester
+        build layout page for common look
+
+
+
+Fri, 04-22
+
+    Fun 1
+
+        Last man
+
+    Grow 2
+
+        walk in park
+        apply for disability insurance
+
+    People 3
+
+        Forgotten Roots
+
+    Tools 8
+
+        create doc edit
+        build cmd script
+        refactor cmd & doc logic into shell
+        create server script
+        implement server commands (console, deploy, command)
+        create Droplet at Digital Ocean
+        setup rsync to server
+        create command context on remote server
+        pull code from Digital Ocean
+        install git on remote server
+        set up ssh keys on django user
+
+
+
+Sat, 04-23
+
+    Grow 4
+
+        night reading Nowen(nature,time,people)
+        discuss with Stacie
+
+    Fun 2
+
+        Quantico, Amazing Race
+
+    Sign 8
+
+        interactive debug with 
+        echo subscription code in status
+        invoke chargify api to get all subscriptions
+        use the auth key withing the Chargify API call
+        return the active status code
+        set the UNVERIFIED status for new users
+        pass through customer reference value
+        improve logging
+        write initial request user function
+        debugging on user auth
+
+
+
+Sun, 04-24
+
+    People 4
+
+        Wayne Ball heart attack
+        Potters to Breakfast Grill
+        Josiah and Same
+
+    Fun 2
+
+        Kimmy, Last man
+
+    Church 4
+
+        Todd featured Stacie & I in sermon
+
+    Grow 4
+
+        nap
+        night thinking: Nowen (nature, time, people)
+        write about Mind Renewal
+        Retirement budget
+
+
+
+Mon, 04-25
+
+    Tools 3
+
+        re-purpose existing Digital Ocean Droplet to Hammer host
+        setup git repo and pandoc on Droplet
+        reassign floating IP
+
+    People 1
+
+
+
+    Grow 2
+
+        think about life attitudes
+
+    Fun 2
+
+        Flash, Scrubs
+
+    Sign 6
+
+        debugging on auth for org lookup
+        map auth header to user claims
+        map claims to user
+        get chargify state for subscription
+        return proper subscription state to caller
+
+
+
+Tue, 04-26
+
+    People 4
+
+        pick up Lucy from airport
+
+    Grow 2
+
+        meditation and rest
+        blood draw for insurance
+        meet with Mike Hefty
+
+    Tools 8
+
+        create remote_tests.py to test:
+            hostname
+            python and django version
+            pip list
+        test for pages on remote server
+        build simplest app on Digital Ocean single-click install
+        setup PyCharm to work with Hammer
+        setup git on remote server
+        deploy code using git
+
+
+
+Wed, 04-27
+
+    Grow 1
+
+
+
+    Sign 7
+
+        add exception handling to all Rest API calls
+        implement organizational lookup
+        use existing organizations in registration
+        add URL routes for cancel, payment, 
+        fix bugs in changeplan logic
+        fix bugs in changepassword API
+        test all API calls to support accounts page panels
+        streamline organization creation   
+
+    People 2
+
+        nice dinner with Lucy
+
+    Fun 4
+
+        Psych, Carcasone  
+
+
+
+Thu, 04-28
+
+    Business 3
+
+
+
+    People 5
+
+        software training with Jackie
+        nice dinner with Andrew and Lucy
+        play Carcassone with Andrew
+
+    Tools 6
+
+        debug Hammer (simple site 1.9.4)
+        setup git on remote server
+        debug setup of simple.py
+        strip out extra files on remote server
+        improve remote command context
+        debug install of full app
+        pass remote_tests.py
+        deploy full app
+        rename app from django_project to hammer
+        create process for updating Django to 1.9.4
+
+    Business 3
+
+        meeting with Mike Hefty
+        discuss money management with Stacie
+        long-term care meeting
+
+
+
+Fri, 04-29
+
+    Tools 6
+
+        create todo list tool
+        move doc.py, cmd.py, tool.py server.py to bin
+        scriptor help and command dispatch
+        pass all functional tests
+        convert server.py script
+        create tool/log.py & bin/log.py
+
+    Business 2
+
+        clean up google password settings
+        cancel Aweber service
+        decide on investment strategy with Stacie
+        fix monthly,weekly,hourly
+        discuss money strategy with Stacie
+
+    Fun 6
+
+        investigate rcp
+        Turn, House of Cards, Mad Men
+
+
+
+Sat, 04-30
+
+    Grow 3
+
+        personal and spiritual growth
+# Tasks History     May 2016
+## May Objectives 2016
+    Portland Trip
+    Setup Personal Capital (1.3M, SEPP)
+    Disability insurance
+
+    Grow 0
+
+    
+## Accomplishments
+
+    People 0
+
+        Stacie & Lucy in Colorado Springs
+
+    Sign 11
+
+        investigate new organization failure
+        restore code to reuse 
+        debug the organization lookup
+        fix up exception handling
+        simplify update_java_user
+        debug update_java_user
+        fix problems caused by instrumentation
+        return better responses for errors
+        investigate setting the email address during update
+        create local script to invoke UserAPI
+        debug update_java_user with qt.py
+        integrate code changes into restration.py
+        verify old password during change
+        debug reset password
+

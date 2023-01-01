@@ -1,0 +1,28 @@
+Mon, April 25,2016
+
+People 1
+
+None
+
+Grow 2
+
+    think about life attitudes
+
+Fun 2
+
+    Flash, Scrubs
+
+Sign 6
+
+    debugging on auth for org lookup
+    map auth header to user claims
+    map claims to user
+    get chargify state for subscription
+    return proper subscription state to caller
+
+Tools 3
+
+    re-purpose existing Digital Ocean Droplet to Hammer host
+    setup git repo and pandoc on Droplet
+    reassign floating IP
+

@@ -1,0 +1,36 @@
+Fri, August 19,2016
+
+WAM 8
+
+    investigate missing agencies
+    create tools to map agencies to proper names
+    fix agencies in cases on production server
+    work with Stacie to find source of missing agencies
+    fix issues with login on production
+    testing of agencies
+    create list of emails for all agencies
+    decide on mapping for email addresses
+
+Tools 3
+
+    create text processing script
+    implement text select
+    implement text match, no-match
+    implement text replace
+    test for text functionality
+    create general purpose text mapping tool
+    create text converter utility
+    convert Hammer web site to use new code
+
+People 1
+
+    Rachel & Andrew (Carcasonne)
+
+Grow 1
+
+    think about personal scorecard
+
+Fun 1
+
+None
+

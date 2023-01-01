@@ -1,0 +1,30 @@
+{
+  "site_title": "Seaman's Guides",
+  "site_subtitle": "Practical advice for a better life",
+  "site_url": "/blog/seamansguide.com",
+  "title": "Seaman's Guides",
+  "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
+  "css": "/static/css/seamansguide.css",
+  "menu": {
+    "title": [
+      "Seaman Guides",
+      "/"
+    ],
+    "items": [
+      [
+        "Books",
+        "https://seamansguide.com"
+      ],
+      [
+        "Blog",
+        "https://seamanslog.com"
+      ],
+      [
+        "Mark Seaman",
+        "https://markseaman.org"
+      ]
+    ]
+  },
+  "books": ["journey", "quest", "poem"],
+  "blogs": ["seamanslog.com", "spiritual-things.org"]
+}

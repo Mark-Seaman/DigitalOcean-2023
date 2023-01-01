@@ -1,0 +1,823 @@
+# Tasks History     2016-09
+
+## Accomplishments
+
+
+
+Thu, 09-01
+
+    Church 3
+
+
+
+    People 11
+
+        Pilot Butte with Schillings
+        coffee shop with Ruth and Truett
+        drive from Bend to Hillsboro
+        Masala restaurant with Nardins
+
+
+
+Fri, 09-02
+
+    Sign 3
+
+        meet with Geoff
+        turn over MailChimp login to Geoff
+
+    People 10
+
+        drive to Tillamook and Canon Beach
+        Tillamook Cheese Factory
+
+    Grow 1
+
+        record time spent
+
+
+
+Sat, 09-03
+
+    Sign 2
+
+        configure SignSpan VPN
+        investigate tom user login issue
+
+    Grow 2
+
+        work on brain docs
+        update Harvest info
+
+    People 8
+
+        dinner at pub before church
+
+    Church 2
+
+        visit SonRise
+         
+
+
+
+Sun, 09-04
+
+    People 12
+
+        visit Pittick Mansion
+        Jory restaurant with Jen & Mark
+        drive to downtown Portland
+        Josiah and Sam meet up with PDS in London
+        Josiah calls to talk about house
+
+    Grow 2
+
+        read Present Over Perfect
+        write ideas
+        
+
+
+
+Mon, 09-05
+
+    Fun 10
+
+        visit Powell's City of Books
+        bus tour of Portland
+        drive to airport
+        turn in car
+        dinner at airport hotel
+
+    People 4
+
+        time with Stacie
+        discuss life goals and philosophy
+
+
+
+Tue, 09-06
+
+    Grow 4
+
+        household catch up
+        walk
+
+    Fun 8
+
+        travel to airport
+        return home 
+        Castle
+
+    People 2
+
+        discuss life goals and aspiration
+        discuss business issues and billing
+        explore new job opportunity
+
+
+
+Wed, 09-07
+
+    People 3
+
+        talk with Stacie
+        
+
+    Sign 4
+
+        review all JIRA issues
+        route issues to testing and to Geoff for fixes
+        solve problem with Forgot password failure
+        testing of basic user flows in SignSpan
+
+    Grow 7
+
+        walk 
+        write notes on Enjoying Life
+        create idea for Facebook Philosopher
+        write on Facebook
+        download calorie counter
+        sleep: 0, weight: 210.8, cal: 1300, exercise: 45 min
+
+
+
+Thu, 09-08
+
+    Sign 1
+
+        weekly meeting
+
+    Hire 4
+
+        requirements development with Stacie
+        plan initial user story: Create Job Opening
+        develop data models for database ORM
+        plan views for Job Opening
+
+    People 1
+
+        lunch at Nana Bees
+
+    Church 1
+
+        think about church leadership
+
+    Grow 3
+
+        annual physical
+        count calories
+        walk home from library with books
+        celebrate at Dunkin Donuts
+        sleep: 0, weight: 210.2, cal: 1300, exercise: 60 min
+
+    Fun 4
+
+        visit library
+        1356, Dr Who, 1st Commandment, Good Hunting
+
+
+
+Fri, 09-09
+
+    Grow 1
+
+        health monitoring
+        sleep: -2, weight: 211.6, cal: 1600, exercise: 0
+
+    People 1
+
+        talk with Stacie
+
+    Fun 4
+
+        Pacific
+        Good Hunting
+        Now you see me 2
+
+    Hire 8
+
+        create design with hire data models
+        create design for hire views
+        implement hire.py script
+        implement hire_test.py script
+        update design of app/hire code
+        create view with multiple panes for opening
+        build logic to create database records
+        deploy and test on production server
+
+
+
+Sat, 09-10
+
+    Hire 4
+
+        create detailed design for Opening Views
+        create detailed design for Skill Views
+        review view design with Stacie
+        build client portal for Hiring Guru
+
+    People 3
+
+        dinner date at Pelegrini's
+
+    Grow 3
+
+        refill medicine
+        visit GoDaddy urls
+        investigate phone screening
+        installed Call Control
+        40 minute bike ride with Stacie
+        sleep: 0, weight: 209.6, cal: 2000, exercise: 40 bike
+
+    Fun 4
+
+        Vikings, Quantico, 
+
+
+
+Sun, 09-11
+
+    Church 4
+
+        lunch at Rio with Clint and Mary
+
+    People 2
+
+        facebook posts
+        facebook connection and reading others posts
+
+    Grow 2
+
+        set 109 for goal weight
+        sleep: 0, weight: 208.2, cal: - , exercise: -
+
+    Fun 6
+
+        Hawaii 50, NCIS, Sliders, Last Man
+        1st Command, Good Hunting
+
+
+
+Mon, 09-12
+
+    Hire 4
+
+        investigate class-based views
+        build Openings list and delete pages
+        build Openings add and edit pages
+        build Openings details page
+
+    Church 3
+
+        think through leadership team goals
+        document proposed Board roles
+        schedule lunch with Todd
+
+    Grow 3
+
+        communications
+        weekly review
+        create weight management policy
+        five mile walk (10000 steps)
+        sleep: 0, weight: 207.8, cal: -, exercise: -
+
+    Fun 4
+
+        Meet the Parents
+        Enterprise, Psych
+
+
+
+Tue, 09-13
+
+    Hire 3
+
+        improve views for Openings
+        build views for Skills
+
+    Business 2
+
+        write doc about EstimatingProjects
+        discuss Spectrobotics with Stacie
+
+    Church 3
+
+        meet with Daryl and Heather about small group
+
+    People 3
+
+        discuss vacation plans with Stacie
+        investigate repositioning cruises
+        calculate travel costs from recent trips
+        talk with Christine about career choices
+
+    Grow 1
+
+        think about life, career, and retirement
+        think about upcoming vacations
+        sleep: -2, weight: 208.2, cal: -, exercise: -
+
+    Fun 2
+
+        1st Command
+
+
+
+Wed, 09-14
+
+    Sign 7
+
+        reproduce issue with Tom+0912@signspan.com
+        add timestamp to log
+        build better instrumentation
+        fix bug with no Chargify subscription
+        test fix for Tom+0912@signspan.com login
+        experiment with User record missing a subscription
+        document design decisions
+        weekly meeting
+
+    Business 2
+
+        family finances
+        file business reciepts
+
+    Church 4
+
+        Ministry school
+
+    Grow 1
+
+        personal refection
+        sleep: -, weight: 208.2, cal: -, exercise: 2 miles
+
+
+
+Thu, 09-15
+
+    Hire 8
+
+        improve opening views (5 views)
+        complete skill UI (6 views)
+        add new questions
+        unify titles and labels on all views
+        review UI with Stacie
+        move text from docs to templates
+        solve design issue with skill.question_set.all()
+        setup icons for menu selection
+        extend test page
+
+    Church 2
+
+        lunch with Todd
+        decided to launch Develop Team
+
+    Grow 1
+
+        sleep: -2, weight: 209.2, cal: -, exercise: 2 miles
+
+    Fun 3
+
+        1st Command
+
+
+
+Fri, 09-16
+
+    Sign 1
+
+        write up test scenario
+
+    Hire 8
+
+        build GUI for interviews
+        create InterviewResponse
+        send tests when differences
+        create Interviewer object model
+        create Interview object model
+        create Interview Record view
+        create Interview Assignment view
+        design for scorecard
+
+    Grow 1
+
+        sleep: 0, weight: 208.8, cal: -, exercise: 2 miles
+
+    Fun 4
+
+        Marvel Civil War movie
+
+
+
+Sat, 09-17
+
+    Grow 5
+
+        take magazines to library
+        Mega Trends 2010
+        Impact
+        organize brain
+        post on facebook
+        sleep: 0, weight: 208.2, cal: -, exercise: 1 mile
+
+    People 1
+
+        call with Josiah & Sam
+        order pizza & gyros
+
+    Church 3
+
+        write about Church Development Team
+        create plans for kickoff meeting
+
+    Fun 5
+
+        visit library
+        watch documentary about Beatles
+        1st Command
+
+
+
+Sun, 09-18
+
+    Fun 3
+
+        Star Trek NG
+        A vs. X
+
+    Church 6
+
+        write Transformation article
+        write SpiritualTransformation article
+        email Todd and Jenny about teaching notes
+
+    People 2
+
+        Andrew and Rachel
+
+    Grow 3
+
+        think about writing Life that Matters
+        think about Microbooks strategy
+        quiet time
+        walk
+        read Impact
+        sleep: -1, weight: 208.2, cal: -, exercise: 1 mile
+
+
+
+Mon, 09-19
+
+    Hire 8
+
+        fix problem with cut and paste of questions
+        deploy code for Stacie to test
+        changes from Stacie's review
+        add http://hire/score page
+        design for scoring
+        create screen shots for presentation
+        improve look & feel
+        debug and test all features in app
+
+    People 4
+
+        Don and Kathy Miller
+
+    Grow 2
+
+        Life that Matters
+        tool to send test results
+        create a daily task to send spiritual things to others
+        sleep: 0, weight: 207.6, cal: -, exercise: 1 mile (5,3,3,2)
+
+
+
+Tue, 09-20
+
+    Hire 10
+
+        update project plan
+        fix redirect after adding a response
+        deploy existing code
+        convert scorecard to "Interviews"
+        remove extra fields from InterviewResponse
+        improve presentation of Interview scores
+        build Interviews for Opening screen with scorecard
+        attend Ft Collins IP
+
+    People 2
+
+        celebrate with Stacie
+
+    Grow 2
+
+        quiet time
+        sleep: 0, weight: 207.6, cal: -, exercise: 1 mile (5,3,3,2)
+
+
+
+Wed, 09-21
+
+    Hire 5
+
+        review data model
+        update data model
+        create datatype script
+        build factory for datatypes on core app
+        debug Company (5-views)
+
+    Sign 2
+
+        meet with Eric for project briefing
+
+    Business 1
+
+        meet with Greg 
+
+    Grow 2
+
+        quiet time
+        sleep: 0, weight: 208.2, cal: -, exercise: 1 mile (5,2,3,2)
+
+    Church 4
+
+        School of Kingdom Ministry
+
+
+
+Thu, 09-22
+
+    Fun 2
+
+
+
+    Sign 5
+
+        work on registration of users
+        investigate chargify errors
+        investigate database errors (related to CORS headers)
+        build interactive debug capability on dev server
+        weekly meeting
+
+    Hire 4
+
+        create Company record
+        create Manager record
+        migrate database
+        investigate fix for corrupt hire_company
+
+    People 2
+
+        lunch with Stacie 
+
+    Grow 1
+
+        build weekly highlight notes
+        review activities for Aug and Sep
+        document weekly and monthly activities in Aug-Sep
+        sleep: 0(m), weight: 207.6, cal: -, exercise: 3 mile
+
+
+
+Fri, 09-23
+
+    Fun 2
+
+
+
+    Sign 4
+
+        fix defects
+            dup email
+            change email
+            organization
+        work with Geoff on DB setup and Django scripting
+
+    Hire 2
+
+        fix database issue
+        finish Company & Manager
+
+    Church 4
+
+        prep for kickoff Dev Team
+        kickoff meeting for Dev Team
+
+    Grow 2
+
+        build weekly highlight notes
+        sleep: -2(-m), weight: 208.4, cal: -, exercise: 2 miles
+
+
+
+Sat, 09-24
+
+    Tools 2
+
+        time management scripts
+
+    Hammer 2
+
+        time management scripts
+
+    Write 4
+
+        plan out writing goals
+        get started on publishing Reusable Apps
+        organize publishing evernotes
+
+    People 4
+
+        walk around sculpture garden
+        dinner at Carino's
+        get connected with David Ditto
+        visit with Rachel
+
+    Grow 1
+
+        start health log
+        sleep: 0(m), weight: 208.4, cal: -, exercise: 4 miles (5,2,2,3)
+
+    Fun 3
+
+        movie: Sulley
+
+
+
+Sun, 09-25
+
+    People 2
+
+
+
+    Church 4
+
+        Transformation notes for church
+        think about Dev Team
+
+    Write 2
+
+        Life That Matters
+
+    Grow 3
+
+        weekly review
+        update health log
+        develop health scorecard
+        walk park & inner path
+        sleep: -1(m), weight: 208.4, cal: -, exercise: 3 miles (4,2,2,4)
+
+    Fun 3
+
+        Quauntico, House of Cards, Brit Problems
+        
+
+
+
+Mon, 09-26
+
+    Business 2
+
+        discuss business with Stacie
+
+    Write 6
+
+        create cmd script for reuse
+        create outline of Reusable Apps content
+        create schedule for Reusable Apps
+        build deep outline for Chapter 1
+        edit files to reflect content outline
+
+    Church 1
+
+        follow up on Dev Team
+        schedule for board & dev team
+
+    People 4
+
+        lunch at Summit with Stacie
+        presidential debate
+
+    Grow 1
+
+        walk to library
+        develop health scoring system and health log
+        sleep: 0, weight: 207.6, eat: 2000, exercise: 2.5 miles (4,3,2,3)
+
+
+
+Tue, 09-27
+
+    Write 8
+
+        write about CareerTransformation
+        add scriptures to spiritual things
+        review notes in brain
+        interactions on facebook
+        build book structure for Life
+        build life script
+        write 50 Tricks page
+
+    Church 5
+
+        develop outline of treasurer job
+        roles of board, staff, dev team
+        meet with Kyle to discuss Treasurer issues
+        board meeting
+
+    Grow 1
+
+        health log
+        sleep: -1, weight: 209.2, eat: 1900, exercise: 2 miles (4,1,2,3)
+
+
+
+Wed, 09-28
+
+    Fun 1
+
+
+
+    Hire 2
+
+        create user login
+        link company to user
+        link opening to company
+
+    Church 9
+
+        create Budget Spreadsheet
+        participate in pastor payment discussion
+        second meeting of Dev Team
+        design for key metrics (Attendance, Leaders)
+        SoKM meeting
+        meet with Kyle on budget
+
+    Grow 2
+
+        read Getting Things Done
+        walk to library
+        sleep: 5, weight: 208.4, eat: 1600, exercise: 3 miles (5,2,5,4)
+
+
+
+Thu, 09-29
+
+    Hire 3
+
+        solve database issues
+        build user datatype
+        create user scripts
+
+    Sign 1
+
+        scrum meeting 
+
+    Grow 2
+
+        build new projects list
+        build to actions list
+        sleep: 0, weight: 206.6, eat: 1900, exercise: 4 miles (5,4,3,5)
+
+    People 8
+
+        vacation to Rocky Mtn Park
+        hike to Alberta Falls
+        dinner at Baba's Gyros
+
+
+
+Fri, 09-30
+
+    Sign 9
+
+        test cancel
+        start server
+        register user
+        verify registration with scripts
+        chargify cancel
+        verify login behavior
+        verify cancel with scripts
+        test delete user record
+        communicate results
+        verify setting of cancel_at_end_of_period
+
+    Hire 2
+
+        reset the database
+        build out data scripts and tests
+
+    Church 2
+
+        develop design for interactive church scorecard
+        build four key measures:  connect, lead, give, invest
+
+    Fun 1
+
+# Tasks History     October 2016
+    
+## Accomplishments
+
+    Grow 0
+
+        sleep: -2, weight: 207.6, eat: 2000, exercise: - miles (3,4,2,4)
+

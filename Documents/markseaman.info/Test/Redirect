@@ -1,0 +1,49 @@
+# Redirect Test
+
+Create a design pattern for handling page redirects in MyBook app.
+
+## System Log
+* <a href="http://MarkSeaman.info/superuser/log" target="_blank">System Log (new tab)</a>
+* [System Log](http://MarkSeaman.info/superuser/log)
+
+
+## Test Cases
+
+* Top level domains -
+<a href="http://shrinking-world.com" target="_blank">http://shrinking-world.com</a>
+- Should redirect to **shrinkingworld/Index**
+
+* All pages should redirect to "domain-dir" -
+<a href="https://seamanslog.com/HabitualChange" target="_blank">https://seamanslog.com/HabitualChange</a>
+- Should go to **https://seamanslog.com/seamanslog/HabitualChange**
+
+* Index pages should not redirect -
+<a href="https://seamanslog.com/seamanslog/Index" target="_blank">https://seamanslog.com/seamanslog/Index</a>
+- Should go to **https://seamanslog.com/seamanslog/Index**
+
+* Directory selectors should pick a random doc -
+<a href="https://seamanslog.com" target="_blank">https://seamanslog.com</a>
+- Should go to **https://seamanslog.com/seamanslog/some-article**
+
+* Missing docs should bring up a special page -
+<a href="https://seamanslog.com/seamanslog/Missing-Document" target="_blank">https://seamanslog.com/seamanslog/Missing-Document</a>
+- Should go to **https://seamanslog.com/seamanslog/Missing**
+
+* Domain Redirect -
+<a href="http://shrinking-world.com/Leverage/Index" target="_blank">http://shrinking-world.com/Leverage/Index</a>
+- Should go to **http://shrinking-world.com/Leverage/Missing**
+
+* Directory URL -
+<a href="http://shrinking-world.com/shrinkingworld/Leverage/" target="_blank">http://shrinking-world.com/shrinkingworld/Leverage/</a>
+- Should go to **http://shrinking-world.com/shrinkingworld/Leverage/Index**
+
+* Directory Document -
+<a href="http://shrinking-world.com/shrinkingworld/Leverage" target="_blank">http://shrinking-world.com/shrinkingworld/Leverage</a>
+- Should go to **http://shrinking-world.com/shrinkingworld/Leverage/Index**
+
+
+## Types of redirect
+* domain redirect - no page listed
+* missing domdir - page does not include matching domain subdirectory
+* directory - page ends with “/“
+* random - page ends with Random

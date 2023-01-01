@@ -1,0 +1,19 @@
+Wed, January 06,2016
+
+WAM 11
+
+    Update CSS for better style
+    Build forms error feedback
+    Add hidden fields to forms for non-settable variables
+    Sync data for production and dev server
+    Investigate issue with data sync
+    Upgrade Django library versions
+    Create script for User administration
+    Add User administration view with form for new users
+    Update style for site
+    Build import list for users
+
+Fun 3
+
+    Black Widow
+

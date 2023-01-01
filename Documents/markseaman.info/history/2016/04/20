@@ -1,0 +1,24 @@
+Wed, April 20,2016
+
+Sign 8
+
+    Test add user scenario
+    Investigate return URL from Chargify
+    Query Chargify for list of active customers
+    Work with Tom to debug code deployment problem
+    Verify that new users are properly added to Chargify
+    Resolve issue with credit card acceptance on Chargify
+    Implement query of Chargify API to get subscription info
+    Implement status route which always returns active
+    Simplified control and data flow in setup of payments
+    Convert all payment plans to pass out subscription_id
+
+Fun 3
+
+    Madam Sec, SHIELD
+
+People 3
+
+    BBQ
+    Rachel came over before work
+

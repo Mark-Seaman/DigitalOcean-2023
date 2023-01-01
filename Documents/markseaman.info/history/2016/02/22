@@ -1,0 +1,18 @@
+Mon, February 22,2016
+
+Sign 10
+
+    read and experiment with forgot my password code
+    create change email logic to be patterned after the forgot my password (request, and change api calls)
+    build new Mandrill templates for Email Reset and Email Changed 
+    create new notifier logic for sending email messages
+    convert change password logic to use simplified code
+    debug all new logic
+    run static analysis and fix all problems
+    create MVP-364 branch (10 new commits)
+
+Fun 4
+
+    Mad Men
+    Winter World
+

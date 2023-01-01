@@ -1,0 +1,671 @@
+# Tasks History     2016-05
+
+## Accomplishments
+
+
+
+Sun, 05-01
+
+    Church 6
+
+        potluck
+
+    People 2
+
+        Stacie & Lucy to visit Mary
+        Josiah in England
+
+    Grow 3
+
+        think about life
+
+    Fun 3
+
+        Turn, House of Cards
+
+
+
+Mon, 05-02
+
+    Grow 2
+
+        monthly objectives
+        think through life goals
+
+    People 4
+
+        visit with Stacie & Lucy
+        dinner with Andrew and Rachel 
+
+    Tools 8
+
+        investigate stylesheets at HTML5UP
+        hook up CSS and static assets
+        create separate docs for each ToDo list (7 functional areas)
+        build document display logic for new style
+        create layout.html template
+        automatic test for collecting pages
+        simplify design of command scripts
+        move to aliases from scripts
+
+
+
+Tue, 05-03
+
+    Tools 8
+
+        update project plan and documents
+        build basic test runner
+        create database entries for diff tests
+        calculate test output differences from expected
+        show all failing test results
+        build data script for save, load, migrate
+        restructure command aliases 
+        approve current test output (using tlike)
+        develop data management scripts
+
+    Fun 6
+
+        Homeland
+
+
+
+Wed, 05-04
+
+    Tools 8
+
+        Create view to list the tasks
+        Build simplest possible view for tasks
+        Build task command script
+        Add tasks app to Hammer
+        Build functional test under tst
+        build tasks app in Django
+        Add task list and details views
+
+    Fun 6
+
+        Quantico
+
+
+
+Thu, 05-05
+
+    Tools 6
+
+        debug setting of styles in CSS
+        build tasks app in django
+        debug edit, add, and delete views
+        create reusable views
+        full user experience for tasks
+
+    Business 2
+
+        create project estimator
+        build 7 systems x 7 problems for project planning
+        discuss opportunities with Stacie
+        business query for OCR
+
+    People 2
+
+        talk to Greg McCutchen
+
+    Fun 4
+
+        Homeland
+
+    Business 0
+
+        decide on setting up Personal Capital account 
+
+
+
+Fri, 05-06
+
+    People 2
+
+        think about Greg McCutchen
+        talk to Stacie about Mike, Greg, Oli
+
+    Fun 4
+
+        Scandal, Mad Men
+        Roku
+
+    Sign 8
+
+        Cancel subscription from UI (first draft)
+        debugging on user registration workflow
+        build user.py script
+        build charify.py script
+        move code from registration.py to chargify.py
+        debug API for cancel subscription
+        debug API for update plan
+        work around for venue type setup bug
+
+
+
+Sat, 05-07
+
+    People 3
+
+        learn about Josiah's London trip
+        think about Greg McCutchen
+        Write to Michael
+        Talk with Stacie
+
+    Grow 2
+
+        massive storm
+        haircut
+        think about life goals
+        time and task
+
+    Fun 2
+
+        1215 King John
+
+    Business 2
+
+        sign up for Personal Capital IRA (schedule funding meeting)
+        Shut down AWS server
+
+    Sign 5
+
+        cancel subscription
+        change plan
+        change payment
+
+
+
+Sun, 05-08
+
+    Church 4
+
+
+
+    People 4
+
+        talk with Stacie
+        facebook
+        Alberto's with Andrew and Rachel
+
+    Grow 2
+
+        nap
+
+    Fun 4
+
+        Scandal, Mad Men
+
+
+
+Mon, 05-09
+
+    Tools 8
+
+        create App Master web app
+        create initial doc content files for App Master
+        5-views: list, detail, add, edit, delete
+        clone generic app structure
+        plug in custom CSS
+
+    Business 2
+
+        meet with Oli Hills
+
+    People 1
+
+        talk with Stacie
+        facebook
+
+    Fun 3
+
+        Scandal, Vikings
+
+
+
+Tue, 05-10
+
+    Business 3
+
+        controlling project scope
+        connect with people on LinkedIn
+        update project lists
+
+    Sign 5
+
+        solve issue with update payment details
+        debug SHA1 algorithm for creating API token
+        build code in Rest API to update plan
+
+    People 2
+
+        Stacie returns from SD trip
+        facebook
+
+    Grow 1
+
+        think about life goals
+        end of Flouracil treatments
+
+    Fun 3
+
+        lunch at Sol de Jalisco
+
+
+
+Wed, 05-11
+
+    Tools 8
+
+        theme & fonts for PyCharm
+        update deployment of MyBook
+        save current data
+        destroy DB
+        upgrade MyBook online to Django 1.9.4
+        rebuild tables
+        test & debug application settings
+        debug Gunicorn configuration
+        test deployment
+
+    Grow 2
+
+        meet with Mike Hefty on SEPP and transfer
+        gather Fidelity statement
+        decide on funds to transfer
+
+    People 2
+
+        Andrew and Rachel
+        Stacie to lunch at Sr Jalapeno
+
+    Fun 2
+
+        Agents of SHIELD
+
+
+
+Thu, 05-12
+
+    Fun 2
+
+        Madam Sec, Flash
+
+    Grow 4
+
+        work on organizing brain
+        build new Evernote folders
+
+    Tools 8
+
+        create new git project
+        create clone of Hammer for MyBook
+        move in old code from existing MyBook project
+        create project context
+        successful deployment to Digital Ocean
+        debugging of pandoc path
+        simplified MyBook business logic
+        debugging on new business logic
+        move across MyBook stylesheet
+
+    Business 0
+
+        Stacie met with Ron Z
+
+    Business 0
+
+        stop and restart transfer
+        authorize transfer of funds
+
+
+
+Fri, 05-13
+
+    People 4
+
+        help Jackie Garcia
+        Forgotten Roots with Julio & Jackie
+
+    Fun 2
+
+        read
+
+    Tools 8
+
+        remove Aweber sign up off of Shrinking World
+        build notes for Hammer Core
+        build notes for Hammer Extension Apps
+        debug MyBook Apps
+        fix issues with CSS
+        separate different application demos
+        build extended page tester
+
+
+
+Sat, 05-14
+
+    Fun 3
+
+
+
+    People 2
+
+        time with Stacie
+
+    Grow 9
+
+        unplugged retreat
+
+
+
+Sun, 05-15
+
+    Grow 2
+
+
+
+    Church 4
+
+        neighboring
+
+    People 8
+
+        Ambrosia with Andrew & Potters
+        Greg & Kate McCutchen
+        Hearth with McCutchens
+
+
+
+Mon, 05-16
+
+    Business 7
+
+        meet with Greg McCuthchen to discuss opportunities
+
+    People 2
+
+        build connections with Greg
+
+    Fun 3
+
+        Arrow, Quantico
+
+    Tools 2
+
+        learn about Edge of IoT
+        upgrade to Ubuntu 16.04
+
+
+
+Tue, 05-17
+
+    WAM 8
+
+        apply Hammer advancements to WAM
+
+    Business 5
+
+        attend meetup of FCIP
+
+    People 1
+
+        time with Stacie
+
+
+
+Wed, 05-18
+
+    WAM 8
+
+        debug scripting changes
+
+    Business 2
+
+        discuss Hire App with Stacie
+        pay bills
+
+    People 4
+
+        lunch with Todd
+        McCutchen (thanks & IoT)
+
+
+
+Thu, 05-19
+
+    Grow 2
+
+        Dentist
+
+    Fun 4
+
+        1/2 Price Paradise, SHIELD
+
+    WAM 8
+
+        Deployment on Staging Server
+        Test deployment to staging server
+        Consolidate docs on configuration
+        Automate web page loading
+        Rebuild PyCharm project
+        Revamped processing of switches of test acceleration
+        Create qt for export
+        Build an export script for cases to CSV
+        Create import of cases from CSV
+        Test round trip of data
+        Refactor case.py and case_script.py
+        Automated test of case logic
+
+
+
+Fri, 05-20
+
+    WAM 9
+
+        Test production and staging servers
+        Create production.py
+        Setup django user & git
+        Set git deployment on production server
+        Push 203 code to production
+        Implement case clear command
+        Import all cases
+        Debugging of import script
+        Export SQL and CSV data from production
+        Add export code to production app
+
+    Business 1
+
+        business planning and marketing activities with Stacie
+        contact Tom & Eric about DevOps
+
+    People 4
+
+        Josiah and Garcias
+
+
+
+Sat, 05-21
+
+    People 8
+
+        Dinner at Fontas
+        Visit with Josiah clan
+
+    Tools 6
+
+        Build initial project plan
+        Understand business requirements
+        Draft essential data model
+        Setup Bootstrap theme with UX demo
+        Outline essential view structure
+        Initial draft of questions for interviews
+
+
+
+Sun, 05-22
+
+    Church 4
+
+
+
+    Tools 2
+
+        Setup Gliffy for diagramming
+        Draw data model diagram
+
+    People 8
+
+        Mother's Day celebration (with everyone)
+
+
+
+Mon, 05-23
+
+    Business 5
+
+        Business Partners Meeting
+        Prepare for meeting
+        Help with liability insurance app
+
+    WAM 4
+
+        Add new fields to case data model: age, disabled, monthlyIncome, incomeSource
+        Extend import and export utilities
+        Perform data migration on staging server
+        Testing of new features
+
+    People 2
+
+        Time with Stacie
+
+    Fun 3
+
+        Arrow
+    
+
+
+
+Tue, 05-24
+
+    Tools 3
+
+        Build up technology showcase
+        Develop automated testing
+        Move app location for Home
+        Create Hire app ideas
+
+    Grow 2
+
+        Preparation for PyCon trip
+
+    Church 4
+
+        Vineyard board meeting
+
+    Sign 2
+
+        notifications
+        cancelation workflow
+
+    WAM 3
+
+        Solve problem with template loading on staging server
+        Rebuild database on staging server
+        Testing on staging
+
+
+
+Wed, 05-25
+
+    Grow 14
+
+        Leave for PyCon (drive to Brigham City)
+        listen to Blue Highway
+
+
+
+Thu, 05-26
+
+    Grow 14
+
+        Appendectomy Surgery
+
+
+
+Fri, 05-27
+
+    Grow 14
+
+        Check out of hospital
+        1st day after surgery
+
+
+
+Sat, 05-28
+
+    Grow 14
+
+        Drive to Boise
+        Heal & rest
+        Sleep
+
+
+
+Sun, 05-29
+
+    Grow 4
+
+        Think through life issues and motivations
+        Start reading Good Soil
+        Shower
+
+    Church 3
+
+        Boise Vineyard
+
+    People 4
+
+        Sockeye Brewery with Stacie
+        The Counter
+        Visit with Hunts
+
+    Fun 3
+
+        Captain America - Civil War
+
+
+
+Mon, 05-30
+
+    Grow 8
+
+        Read Good Soil (intro)
+        Think about life transitions
+
+    People 6
+
+        Learn about making beer from Gary
+        Meals together
+        Watch YouTube together
+        Joel for dinner
+
+
+
+Tue, 05-31
+
+    Grow 7
+
+        Start reading Revolutionary Leadership
+        Rest
+        Walk to library
+
+    People 7
+
+        visit with Hunts
+# Tasks History     June 2016
+## June Objectives 2016
+    Music festival
+    21 days of Personal Transformation
+    
+## Accomplishments
+

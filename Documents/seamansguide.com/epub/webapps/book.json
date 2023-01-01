@@ -1,0 +1,12 @@
+{
+    "name": "webapps",
+    "site_title": "Building Web Apps in Python",
+    "site_subtitle": "Learn 14 Projects & 42 Design Patterns",
+    "site_url": "https://seamansguide.com/book/webapps",
+    "author": "Mark Seaman",
+    "title": "Web Apps in Python",
+    "description": "",
+    "cover_title": false,
+    "cover_image": "/static/images/seamansguide.com/webapps/cover.png",
+    "images": "static/images/seamansguide.com/webapps"
+}

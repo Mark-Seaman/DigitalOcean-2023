@@ -1,0 +1,39 @@
+Fri, June 07,2019
+
+Grow 0
+
+    4, 1, 1, 1
+    weight: 209.4
+
+Teach 0
+
+    
+    
+
+People 4
+
+    Rio with Potter and Ball
+    Coffee shop
+
+Fun 2
+
+    Kara Grainger
+    hoopla
+
+Tools 8
+
+    update todo list
+    add pages to curl test (seamanfamily.org/brain/Index)
+    Redirect from dir to dir/Index
+    Load doc.md
+    List documents in folder
+    Show Index text in folder
+    Static server on iMac
+    Debug styles locally
+    Link to folder in doc view
+    Auto CSS reload
+    Handle redirects better
+    Refactor common features of views
+    Test for missing doc handling
+    Export time records (fix export)
+

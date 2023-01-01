@@ -1,0 +1,759 @@
+# Tasks History     2017-01
+
+## Accomplishments
+
+
+
+Sun, 01-01
+
+    Tools 2
+    
+            automate all web page creation
+    Teach 4
+    
+            build first three lessons for BACS 200
+            create standard lesson and ex layout
+    Work 3
+    
+            develop idea of writing scorecard
+            build initial scorecard snapshot 2016-12-30
+            write Web App Dimensions
+            App Development - project catalog
+    Business 3
+    
+            develop idea of writing scorecard
+            build initial scorecard snapshot 2016-12-30
+            write Web App Dimensions
+            App Development - project catalog
+    Church 6
+    
+            baptism service
+            lunch with Matt & Amber Isborn at Royal Nepal
+    People 1
+    
+            meet with Josiah
+    Fun 3
+    
+            Perfect Pitch 2, Maze Runner
+            Mystery of Roanoke
+    
+    Grow 1
+    
+            nap
+            4, 2, 2, 2
+
+Mon, 01-02
+
+    Hire 6
+    
+            implemented interviewer role in app
+            select each interview session (by candidate)
+            remove menu for interviewers
+            update skill selection pages
+            work on removing alert menu from banner
+            create interviewer mode and permissions 
+    Grow 3
+    
+            think about social dysfunction
+            discuss business constraints with Stacie
+            4, 1, 3, 2
+    Fun 4
+    
+            Maze Runner II
+    
+    Write 1
+    
+            update task history content
+
+Tue, 01-03
+
+    Church 4
+    
+            discussed church budget process with Stacie
+            home group at Howell's
+    Fun 2
+    
+            finish That Hideous Strength
+    
+    Hire 6
+    
+            investigate file upload
+            build form to select file to upload
+            create resume file on server
+            design static server solution for resumes
+            testing on uploading files
+            fix document encoding problems
+            create To Do list for actions
+    Write 2
+    
+            Facebook & Email
+            create drafts from ideas
+            capture patterns for software development
+            select notes to work on
+    Grow 0
+    
+            talk with Stacie about future ideas
+            visit library
+            Pelican Lakes for lunch
+            5, 2, 3, 3
+
+Wed, 01-04
+
+    Hire 5
+    
+            Build candidate document view
+                upload UI
+                upload back-end
+                view docs UI 
+                static server access to docs
+                show doc in browser
+                deploy
+                test
+    Write 4
+    
+            organize notes (create Write folder in Evernote)
+            create outline for Seaman's Guides
+            gather notes for writing projects
+            post invitation to Seaman's Log
+    Grow 1
+    
+            5, 3, 2, 3
+    Fun 4
+    
+            Hot Pursuit, Kingdom Strange
+    
+
+Thu, 01-05
+
+    Write 4
+    
+            A New Paradigm for Writers
+            create index of Ideas for Writing
+            clean up scripts and document structure
+            build World Class Software website
+            move tech docs to tech structure (tech/Index)
+            remove showcase files
+            create BestPractices Index
+            refactor Leverage & Projects content
+    Grow 1
+    
+            wake up at 5:00 and start working
+            nap at 9:00
+            3, 2, 2, 3
+    Fun 4
+    
+            Super Girl, Enterprise
+    
+    Hire 5
+    
+            investigate upload on production server
+            solve problem with copying client-files
+            custom workflow for interviewers
+            rebuild client document uploader
+
+Fri, 01-06
+
+    Write 5
+    
+            build writing workflow
+            investigate software development productivity 2014-2016
+            write article on productivity
+            Convert Dreams to Reality
+            Aspire Project Plan
+            update App Development Projects
+            Software Development Planning
+            The Twenty-day Software Project
+    Grow 0
+    
+            5, 2, 2, 2
+    Fun 4
+    
+            Spectre, Fraiser
+    
+    Hire 5
+    
+            work with Stacie on workflow
+            relayout team list and add views
+            deploy new code
+            build general display view with field table
+            add password to files
+            add question selector view
+            update Hiring Guru release plan
+            update Hiring Guru documentation
+
+Sat, 01-07
+
+    Write 5
+    
+            review weekly progress
+            author script
+            outline for Computer Tools for Writing
+            outline Staying on Track with Writing
+            build on ideas for Aspire system
+            update writing scorecard
+    Tools 4
+    
+            build author script
+            develop scoring for writing projects
+            capture writing scorecard
+            learn about regular expressions in Python
+    Grow 0
+    
+            5, 3, 3, 2
+    People 4
+    
+            play games with Leaders
+    Fun 1
+    
+            visit library
+    
+
+Sun, 01-08
+
+    People 3
+    
+            lunch with Potters and Garcias
+            meet with Josiah & Sam
+            talk with Stacie about Courtney
+    Grow 0
+    
+            fix door knob in study
+            5, 3, 3, 3
+    Write 2
+    
+            write Shrinking World News
+            create model for Software Development investment by phase
+    Fun 5
+    
+            Social Network
+            White Queen
+            The Realm
+    
+    Church 4
+    
+            attend
+
+Mon, 01-09
+
+    Hire 8
+    
+            select questions for each interviewer
+            rebuild interactive interview page
+            update session list
+            build script to list sessions
+            update Interview Response objects
+            build interview data model
+            debug issue with business logic
+    Write 2
+    
+            Facebook posts
+            send Shrinking World News
+            update notes on Planning Process
+    Fun 4
+    
+            This is us, Madam Sec
+    Grow 0
+    
+            4, 2, 4, 2
+    
+
+Tue, 01-10
+
+    Church 2
+    
+            Fix defect with date on event
+            Planning for church leadership dashboard
+    Aspire 2
+    
+            Project planning template
+            create Aspire Data model
+    Hire 6
+    
+            restyle registration page
+            relayout login controls
+            build new landing page
+            investigate CSS form styles and layouts
+            investigate data problems with session linking
+            simplify code for sessions
+            post PDF for skill analysis
+            rebuild login sequence
+    Business 1
+    
+            get approval for HELOC 
+            send out newsletter
+    Grow 0
+    
+            5, 4, 3, 1
+    Fun 3
+    
+            DS9, Sliders, Fraiser
+    
+
+Wed, 01-11
+
+    Business 1
+    
+            sign papers for HELOC
+    Church 6
+    
+            meet with Todd & Jenny
+            SoKM
+    People 1
+    
+            Stacie dinner
+    Aspire 2
+    
+            project planning - Data Model, Views, UX,
+            create initial messages for Dispatcher
+            build list of desired projects
+            create idea for Goal Scripts and Message Schedule
+    Hire 4
+    
+            fix missing interview sessions
+            work on super user logic
+            styling on views
+            testing on server
+            improve login/logout logic and style
+            application refactoring
+    Grow 0
+    
+            5, 4, 3, 3
+    
+
+Thu, 01-12
+
+    Hire 5
+    
+            broken list of companies
+            redirect from super user home
+            Super user for Company and Skills
+            fix display of sessions for interviewers
+            Redirect after session delete
+            style for company add view
+            hide candidate application from interviewers
+    Aspire 5
+    
+            build concept of Objectives
+            Glossary of Concepts
+            Terminology
+            organize project notes
+            build Objective for Aspire
+            build Objective for Hiring Guru
+    Fun 4
+    
+            Palaminos for Christine's birthday
+            Circ Du Sole
+    Grow 0
+    
+            5, 4, 3, 3
+    
+
+Fri, 01-13
+
+    Hire 4
+    
+            Sort Performance skills
+            Remove menu icons for sub-menu
+            Activate sub-menu items
+            Rework main menu
+    Aspire 6
+    
+            lunch with Todd to discuss Aspire
+            Aspire - SW Dev - #1, #2
+            create data model diagram
+            write marketing pitch
+            develop template for Guide
+    Fun 4
+    
+            Sherlock, Enterprise
+    Grow 0
+    
+            5, 4, 3, 3
+    
+
+Sat, 01-14
+
+    Aspire 5
+    
+            begin building aspire system
+            create Django app
+            create document storage structure for user data
+            simplify material template theme
+            build user data for real projects
+    People 2
+    
+            Macaroni Grill with Stacie
+    Fun 7
+    
+            Arrival, Dragonfly in Amber
+    Grow 0
+    
+            4, 5, 4, 3
+            
+
+Sun, 01-15
+
+    People 2
+    
+            Andrew & Rachel move
+            Josiah
+    Aspire 2
+    
+            update writing scorecard
+            document implementation process
+    Fun 4
+    
+            Ike
+    Grow 0
+    
+            5, 5, 4, 3
+    
+    Church 6
+    
+            church service
+            work on church board issues
+            plan next steps for dashboard
+            document budgeting rules
+            long-term debt policy and net worth calculator
+            develop scoring system for church dashboard
+            build template for weekly report
+
+Mon, 01-16
+
+    Aspire 4
+    
+            count aspire documents (39 docs, 5K words)
+            track hours for Aspire projects
+            track files for Aspire projects
+            create report of all projects
+    People 6
+    
+            help Andrew and Rachel move
+    Fun 4
+    
+            This is Us, Scrubs
+    Grow 0
+    
+            5, 5, 4, 5
+    
+
+Tue, 01-17
+
+    Hire 6
+    
+            Build production server
+            Create notes for building future servers
+            Rename droplet and create console access
+            Build code directories and version control
+            Debug automation and tests
+            Setup web server and static server
+    Business 4
+    
+            FCIP
+    Grow 0
+    
+            5, 5, 3, 2
+    
+    Aspire 2
+    
+            Add info to report for Aspire
+            Build structure for cloning basic projects
+            Decide to create one new project profile each day
+    Church 2
+    
+            Build Aspire project for Church
+            Create plan for Church activities 
+
+Wed, 01-18
+
+    Aspire 5
+    
+            create history linked to reports
+            fix failing tests after setting up staging server
+            continue building project profiles and reports
+            formatted links in reports
+            simplify URL patterns
+    Hire 4
+    
+            begin building script to list response objects
+            update release planning
+            test out staging server
+            debug code on staging
+            extend company script
+    Church 4
+    
+            SoKM
+    Grow 0
+    
+            4, 3, 3, 1
+    Fun 1
+    
+            Dragonfly
+    
+
+Thu, 01-19
+
+    Aspire 2
+    
+            send reports daily
+            create Write project in Aspire
+            setup writing history and to do list
+    Hire 6
+    
+            Delete an interviewer from session
+            Links on master skills
+            Clean up data
+            Session detail menu
+            Interviewers can not view opening (remove link)
+            Build staging server
+    Write 1
+    
+            buy Creative Nonfiction
+            listen to Creative Nonfiction - lesson 1
+    Grow 0
+    
+            3, 3, 4, 4
+    Fun 5
+    
+            House of Cards, Dragonfly
+    
+
+Fri, 01-20
+
+    Tools 2
+    
+            build devops command script
+            build 'cmd function' scripting
+    Write 3
+    
+            create plan for The Perils of Leadership
+            discuss book idea with Stacie
+            create outline of book project
+    Aspire 2
+    
+            measure progress on Aspire objectives
+            measure hours invested on Aspire objectives
+            improve Aspire Report
+    Hire 5
+    
+            update documents for Hiring Guru project
+            design for post-backs of checkboxes
+            rebuild skill selector
+            post project info in Aspire/Who2Hire
+            build hours/docs/words to 301/13/4753
+    Fun 2
+    
+            This is Us, Voyager
+    Grow 0
+    
+            5, 4, 4, 3
+    
+
+Sat, 01-21
+
+    People 2
+    
+            HOA
+    Write 4
+    
+            think of new ideas for writing projects
+            build 'author blog' command script
+            post Business Is an Investment article on Shrinking World
+            build list of writing projects
+    Aspire 3
+    
+            simplify Aspire Report
+                client, date, hours, score, history
+    Fun 5
+    
+            Golden Globe, Shield, Sherlock, Last Man
+    Grow 0
+    
+            4, 5, 3, 2
+    
+
+Sun, 01-22
+
+    People 2
+    
+            lunch with Garcias and Potters
+            take down Christmas lights
+    Write 2
+    
+            start writing A Seaman's Guide to Personal Reinvention 
+    Aspire 2
+    
+            fix links in Aspire report
+            write Aspire Projects notes
+            write Developing Aspire Guides - user guide for new Guides
+            write Aspire Guides - note discussing how Guides work
+    Fun 4
+    
+            celebration of success
+            watch La La Land
+    Grow 0
+    
+            4, 5, 3, 3
+    
+    Church 4
+    
+            attend
+
+Mon, 01-23
+
+    Business 10
+    
+            leadership meeting with Stacie and Eric
+            Hiring Guru pricing ideas
+            develop pricing model spreadsheet
+            sales projections for Hiring Guru
+            financial model for Hiring Guru
+    Grow 2
+    
+            haircut
+            go to bed early
+            5, 3, 3, 2
+    Fun 2
+    
+            Supergirl, Legends
+    
+
+Tue, 01-24
+
+    Church 5
+    
+            send message about board meeting
+            board meeting
+    Hire 8
+    
+            develop model for sales volume and finances
+            review progress for project
+            draft Table of Contents for User's Guide
+            learn about tabbed views with Material template
+            learn about wizard code
+            rebuild interview template as a wizard
+    Aspire 1
+    
+            improve hours gathering from text files
+    Grow 0
+    
+            4, 3, 2, 2
+    
+
+Wed, 01-25
+
+    Hire 2
+    
+            restore files for Hiring Guru for Interview Views
+    People 10
+    
+            pack to go to Phoenix
+            travel to Arizona
+            visit with April's family
+            Barnes & Noble with Stacie
+    Aspire 2
+    
+            review progress
+            fix banner layout for Aspire website
+    Grow 0
+    
+            3, 2, 3, 4
+    
+
+Thu, 01-26
+
+    Grow 0
+    
+            5, 2, 1, 3
+    People 12
+    
+            visit with Dad
+            recommend publishing 4 books for PDS
+            watch kids while April gets Christine from airport
+            have fun with Edwards kids
+            buy clothes at Kohl's
+            lunch with PDS at Friendship Village
+            discuss life decisions with April
+    Aspire 2
+    
+            update user experience planning
+            build sign up process code
+    
+
+Fri, 01-27
+
+    People 12
+    
+            visit with Edwards family
+            visit Greg and Kate McGutchen
+    Aspire 2
+    
+            build client data model
+            create new clients for Aspire
+    Grow 0
+    
+            5, 1, 1, 3   
+    
+
+Sat, 01-28
+
+    People 12
+    
+            85th birthday
+            visit with Edwards family
+    Aspire 2
+    
+            streamline forms and field display in views
+            create clients in Aspire
+    Grow 0
+    
+            5, 1, 1, 3   
+    
+
+Sun, 01-29
+
+    People 14
+    
+            church with April and Jim
+            lunch at Joe's Farm
+            attempt to watch movie
+            watch Lego movie
+            dinner with Don & Kathy Miller
+            watch show on Eighties
+    Grow 0
+    
+            4, 1, 2, 3   
+    
+
+Mon, 01-30
+
+    People 10
+    
+            visit with Edwards family
+            visit with Nancy in afternoon
+            visit with Dad & Carol in evening
+    Fun 4
+    
+            work jigsaw puzzle
+            use VR Headset
+            watch RED with Jim & April
+    Grow 0
+    
+            5, 1, 2, 3
+    
+
+Tue, 01-31
+
+    People 9
+    
+            visit with Edwards
+            visit with Rachel
+            unpack after trip
+    Fun 4
+    
+            travel home
+            Shield, Madam Sec
+    Grow 1
+    
+            walk
+            5, 1

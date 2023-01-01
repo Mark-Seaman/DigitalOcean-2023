@@ -1,0 +1,15 @@
+{
+  "title": "UNC Course Slides",
+  "event": "BACS 200 Slides",
+  "course": "bacs200",
+  "author": "Steven Sanchez",
+  "organization": "University of Northern Colorado",
+  "cover": "/static/images/course/bacs200/autumn-leaves.jpg",
+  "logo": "/static/images/course/bacs200/Bear.png",
+  "theme": "beige.css",
+  "stylesheet": "/static/slides.css",
+  "images": "/static/images/course/bacs200/lesson",
+  "divider": "/static/images/course/bacs200/peaking.800.jpg",
+  "background": "/static/images/course/bacs200/paper.jpg",
+  "intro": false
+}

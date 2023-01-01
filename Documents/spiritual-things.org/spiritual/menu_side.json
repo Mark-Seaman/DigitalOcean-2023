@@ -1,0 +1,36 @@
+{
+  "url": "/spiritual/Index",
+  "label": "Spiritual Things",
+  "menu_items": [
+    {
+      "url": "/spiritual/Index",
+      "label": "Home",
+      "page": "x"
+    },
+    {
+      "url": "/spiritual/reflect/random",
+      "label": "Reflect",
+      "page": "spiritual/reflect"
+    },
+    {
+      "url": "/spiritual/bible/random",
+      "label": "Meditate",
+      "page": "spiritual/bible"
+    },
+    {
+      "url": "/spiritual/prayers/random",
+      "label": "Pray",
+      "page": "spiritual/prayers"
+    },
+    {
+      "url": "/spiritual/nlt/random",
+      "label": "Bible",
+      "page": "spiritual/nlt"
+    },
+    {
+      "url": "/spiritual/vineyard/teaching/Index",
+      "label": "Discuss",
+      "page": "spiritual/vineyard/teaching"
+    }
+  ]
+}

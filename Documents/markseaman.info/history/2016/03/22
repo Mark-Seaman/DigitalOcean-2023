@@ -1,0 +1,21 @@
+Tue, March 22,2016
+
+Sign 8
+
+    document layout for POSTED data (profile, password, plan, payment)
+    Sync up the repos to recover from git issues on 3-19
+    Create better error messages for user activation failures
+    Build new API for profile, payment, status, plan 
+    Discuss design of new APIs with Tom
+    Start on integrating Java User API
+    Build tests for profile, payment, plan, status
+    Worked on local debug
+
+People 2
+
+None
+
+Fun 4
+
+None
+

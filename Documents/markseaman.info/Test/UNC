@@ -1,0 +1,98 @@
+# UNC Website Test Page
+
+## Quick Test
+
+* [UNC](https://shrinking-world.com/unc)
+
+* [BACS 200](https://shrinking-world.com/unc/bacs200)
+* [BACS 350](https://shrinking-world.com/unc/bacs350)
+
+* [System Log](https://markseaman.info/superuser/log)
+
+---
+
+## Development Workflow
+
+### Fix Known Problem
+
+Non-responsive images in http://127.0.0.1:8000/unc/bacs350/lesson/02
+
+
+### Test All Features
+
+Done
+
+* All menu features
+    * Lessons
+    * Lesson Detail
+    * Projects
+    * Project Detail
+    * Resources
+    * Documents
+    * Schedule
+    * Test
+
+Tests needed
+
+
+---
+
+## Test Links
+
+### Shrinking World
+
+* [https://shrinking-world.com](https://shrinking-world.com)
+* [UNC](https://shrinking-world.com/unc)
+* [BACS 200](https://shrinking-world.com/unc/bacs200)
+
+
+### BACS 200
+
+* [/unc/bacs200](/unc/bacs200)
+* [/unc/bacs200/](/unc/bacs200/)
+* [/unc/bacs200/lesson/](/unc/bacs200/lesson/)
+* [/unc/bacs200/student/](/unc/bacs200/student/)
+* [/unc/bacs200/project/](/unc/bacs200/project/)
+
+
+### BACS 350
+
+* [/unc/bacs350](/unc/bacs350)
+* [/unc/bacs350/](/unc/bacs350/)
+
+
+## Redirect Test
+
+### Test Cases
+
+* Top level domains -
+<a href="http://shrinking-world.com" target="_blank">http://shrinking-world.com</a>
+- Should redirect to **shrinkingworld/Index**
+
+* /unc --> /unc/Index
+<a href="https://seamanslog.com/unc" target="_blank">https://seamanslog.com/unc</a>
+- Should go to **https://seamanslog.com/unc/Index**
+
+* /unc/bacs350 --> /unc/bacs350/Index
+<a href="https://seamanslog.com/unc/bacs350" target="_blank">https://seamanslog.com/unc/bacs350</a>
+- Should go to **https://seamanslog.com/unc/bacs350/Index**
+
+
+* /unc/bacs200/docs --> /unc/bacs200/docs/Index
+<a href="https://seamanslog.com/unc/bacs200/docs" target="_blank">https://seamanslog.com/unc/bacs200/docs</a>
+- Should go to **https://seamanslog.com/unc/bacs200/docs/Index**
+
+* /unc/bacs200/lesson/ --> /unc/bacs200/lesson/
+<a href="https://seamanslog.com/unc/bacs200/lesson/" target="_blank">https://seamanslog.com/unc/bacs200/lesson/</a>
+- Should go to **https://seamanslog.com/unc/bacs200/lesson**
+
+* /unc/bacs200/lesson/10 --> /unc/bacs200/lesson/10
+<a href="https://seamanslog.com/unc/bacs200/lesson/10" target="_blank">https://seamanslog.com/unc/bacs200/lesson/10</a>
+- Should go to **https://seamanslog.com/unc/bacs200/lesson/10**
+
+
+## Types of redirect
+* domain redirect - no page listed
+* missing domdir - page does not include matching domain subdirectory
+* directory - page ends with “/“
+* random - page ends with Random

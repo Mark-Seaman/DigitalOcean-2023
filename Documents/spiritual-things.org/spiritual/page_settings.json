@@ -1,0 +1,9 @@
+{
+    "site_title": "Spiritual Things",
+    "site_subtitle": "Daily Inspiration",
+    "site_url": "/spiritual",
+    "page_title": "Spiritual Things",
+    "icon": "/static/favicon.ico",
+    "css": "/static/css/spiritual.css",
+    "settings": "spiritual/page_settings.json"
+}

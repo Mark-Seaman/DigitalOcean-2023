@@ -1,0 +1,35 @@
+{
+    "site_title": "Shrinking World Solutions",
+    "site_subtitle": "Practical Software Training",
+    "site_url": "https://shrinking-world.com/training/Index.md",
+    "title": "Shrinking World Solutions",
+    "css": "/static/css/shrinking-world.css",
+    "menu": {
+    "title": [
+      "Shrinking World Tech Notes",
+      "/blog/Index"
+    ],
+    "items": [
+      [
+        "Training",
+        "/course/"
+      ],
+      [
+        "Projects",
+        "/blog/projects/Index"
+      ],
+      [
+        "Books",
+        "https://seamansguide.com"
+      ],
+      [
+        "Blog",
+        "https://seamanslog.com"
+      ], 
+      [
+        "Contact",
+        "/blog/training/ContactMe"
+      ]
+    ]
+  }
+}

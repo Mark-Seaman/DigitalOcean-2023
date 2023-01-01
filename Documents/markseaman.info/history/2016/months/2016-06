@@ -1,0 +1,651 @@
+# Tasks History     2016-06
+
+## Accomplishments
+
+
+
+Wed, 06-01
+
+    Grow 7
+
+        heal from surgery
+        walk around neighborhood
+
+    People 7
+
+        Carcassone
+        visit with Hunts
+
+
+
+Thu, 06-02
+
+    Church 6
+
+        meet with Boise Vineyard pastors (Jesse, Ian)
+        attend I61 meeting
+
+    People 8
+
+        board game: Japanese travel game
+        Boise Fry company
+
+
+
+Fri, 06-03
+
+    People 14
+
+        visit Greek Festival
+        run into Jim Kazakoff
+        board game:  Forbidden Island
+        Garden City pub crawl
+        dinner at Hunts
+        walk along river with Stacie
+
+
+
+Sat, 06-04
+
+    Grow 14
+
+        enjoy Blue Highway book
+        drive from Boise to DuBois
+        picnic at Craters of the Moon
+        dinner at Genvieve's in Jackson        
+
+
+
+Sun, 06-05
+
+    Fun 2
+
+        Arrow
+
+    People 12
+
+        drive from DuBois to Windsor
+        finish Blue Highway
+
+
+
+Mon, 06-06
+
+    WAM 8
+
+        fix issue with age default
+        build export for legacy records
+        verify import of case records
+        test and fix the features in WAM 2.0.3
+        solve problem of importing users
+        work on database auto-increment during case import
+
+    Church 2
+
+        think about church involvement
+
+    Grow 2
+
+        Personal Transformation
+
+    Fun 2
+
+        Flash, Good Bad Ugly
+
+
+
+Tue, 06-07
+
+    Business 4
+
+        retrospective on WAM 2.0 project
+        build ideal project template
+        build project plan for Hire app
+        tie up loose ends & follow up with marketing contacts
+        contact Oli Hills & schedule meeting
+
+    WAM 4
+
+        new export of legacy records from production
+        import users from production system
+        pass all tests
+        fix issue with age setting on form submit
+        update code on staging
+
+    Grow 4
+
+        resolve misc biz issues
+        LTC interview
+        Net Worth > 1.8 M
+
+    People 2
+
+        Andrew flagged for medicare fraud
+
+
+
+Wed, 06-08
+
+    Grow 2
+
+
+
+    Fun 4
+
+
+
+    Tools 8
+
+        improve vc command
+        consolidate shell variables
+        update task command
+        prune old tests
+        streamline command automation
+
+
+
+Thu, 06-09
+
+    Sign 1
+
+
+
+    Business 4
+
+        meet with Oli to discuss project (tech difficulties)
+        discuss working with Oli
+        attend Healthcare group at Innosphere
+
+    Fun 3
+
+        Amazing Race, Chuck
+
+    WAM 6
+
+        solve issue with database incrementing of case records
+        redact sensitive data from casevote view
+        improve data reset process
+        reset database on staging server
+        rebuild users and cases from scratch
+        clean up migrations
+        move database data intact
+
+
+
+Fri, 06-10
+
+    Grow 1
+
+
+
+    Business 6
+
+        project plan for Oli
+        project plan for Hire
+
+    WAM 3
+
+        production roll for 2.0.3
+
+    Fun 4
+
+        Fixer Upper, Librarians
+
+
+
+Sat, 06-11
+
+    Fun 13
+
+        Greeley Blues Jam
+
+    Grow 1
+
+        quiet time
+
+
+
+Sun, 06-12
+
+    Church 4
+
+        Todd & Jenny in Mexico
+
+    People 8
+
+        pick up Lucy in Fredrick
+        Nardins visit
+        Rio with Stacie
+
+    Grow 2
+
+        quiet time
+
+
+
+Mon, 06-13
+
+    Business 8
+
+        build development project template and timetable
+        project proposal for Oli Hills
+        meet with Oli Hills
+        project proposal for Mike Kobneck
+        investigate product definition of Harbinger Board
+
+    People 1
+
+        dinner together
+
+    Grow 3
+
+        walk around park
+        quiet time
+        Boise Vineyard
+
+    Fun 2
+
+        Carcassone
+
+
+
+Tue, 06-14
+
+    Sign 8
+
+        implement delayed cancel behavior
+        implement notifications for six new conditions
+        review Mandrill templates
+
+    Business 2
+
+        meet with Mike Kobneck
+        discuss potential clients with Stacie
+
+    Fun 4
+
+        Mad Men, House of Cards
+
+    Tools 0
+
+        setup Kiwi & Wunderlist
+
+
+
+Wed, 06-15
+
+    Tools 6
+
+        review with Stacie
+        create hire app with Django
+        select Material theme
+        create simple view with Material
+        update project plan
+
+    Grow 2
+
+        organize goals
+
+    People 3
+
+        breakfast with Nardins
+        discussions with Stacie
+
+    Fun 3
+
+        Librarians
+        
+
+
+
+Thu, 06-16
+
+    Tools 8
+
+        create design for consolidation of front-end logic
+        build hire_home.html template
+        create cards in page layout
+        create main menu structure
+        load fake data into all views
+        create descriptions for workflow
+        build display for listing questions, interviewers, candidates
+        deploy to production server
+        create initial user experience
+
+    People 2
+
+        dinner with Lucy, DeDee and Suzie
+
+    Grow 1
+
+        quiet time
+        walk
+
+    Fun 3
+
+        x-Force
+        
+
+
+
+Fri, 06-17
+
+    People 4
+
+        Rachel's curtains (first attempt)
+        dinner at Cazadores
+        Lucy has problems with temp crown
+
+    Fun 2
+
+        Psych, Librarians
+
+    Tools 4
+
+        build generalized app structure
+        create general UI driven with cards
+        build out MyBook apps with new UI design
+        create general template for Hire app
+
+    Sign 4
+
+        investigate discounts
+        investigate tool to get info from Chargify
+        testing on dev server
+
+
+
+Sat, 06-18
+
+    People 8
+
+        Josiah & Sam visit
+        Kentucky Fried Chicken
+        Ice cream at Nana Bee's
+
+    Grow 2
+
+        nap
+
+    Tools 4
+
+        work on building views based on cards
+        prototype of object list and details
+        think through issues of generic views (LEADS)
+        work on view structure and behavior
+
+
+
+Sun, 06-19
+
+    Church 6
+
+        Father's Day
+        everyone at church
+        discussed church building sale and finances
+
+    People 6
+
+        Father's Day
+        Julio, Andrew, Josiah clans
+        campfire on patio
+
+    Grow 2
+
+        nap
+
+
+
+Mon, 06-20
+
+    People 3
+
+        saw lady catch a fish
+
+    Fun 3
+
+        rip Davy Knowles cds
+
+    WAM 8
+
+        build 5 day plan
+        create design for view structure
+        create URLs for agency, agent, case, history
+        create view logic for all four view types
+        build main menu structure
+        hook up material template and layout code
+        add logic to select each data type with URL
+        debug all view logic
+
+
+
+Tue, 06-21
+
+    WAM 8
+
+        create Agency data model
+        create Agent data model
+        create script to add and list existing agencies
+        create script to add and list agents
+        create list of current Agencies in WAM
+        decide on strategy for creating Agency records in WAM 2.1
+        build UI for showing Agency list
+        extend agency and agent tests
+
+    People 2
+
+        Theo's gyros
+
+    Grow 2
+
+        hook up fitbit
+
+    Fun 2
+
+        setup pandora
+
+
+
+Wed, 06-22
+
+    Fun 1
+
+
+
+    WAM 8
+
+        extract agencies used in existing cases
+        create script to correct agency names
+        apply correction map to agency names
+        list names of agents from case files
+        create script to correct agent names
+        build Agency objects for 46 Agency
+        work on structure of Agent information in database
+        rebuild database on dev
+
+    People 4
+
+        Noodles with Andrew,Rachel,Lucy
+        Hang curtains at Rachel's 
+
+    Grow 1
+
+        walk
+        use fitbit
+
+
+
+Thu, 06-23
+
+    Fun 3
+
+
+
+    WAM 8
+
+        decide on Agents for historical cases
+        discuss WAM 2.1 design constraints with Stacie
+        testing on macbook
+        rebuild user reset, user import, and user export
+        build agency csv, list, import, export
+        create tests for agency script
+        UI to create agencies and agents
+        test all new logic
+
+    Sign 1
+
+        meeting with team
+
+    People 2
+
+        last night with Lucy
+
+
+
+Fri, 06-24
+
+    WAM 8
+
+        create cards using dictionary of data elements
+        refactor all view code
+        switch from case data for agencies and agents to database records
+        build panes for Case listing
+        build logic to show selected case
+        build logic to display one agency
+        solve problem of interface modality
+        testing of all new logic
+
+    Fun 6
+
+        drive to Winter Park
+
+
+
+Sat, 06-25
+
+    Fun 14
+
+        Blues from the Top
+
+
+
+Sun, 06-26
+
+    Fun 13
+
+        Blues from the Top
+
+    Grow 1
+
+        destroy wasp nests
+
+
+
+Mon, 06-27
+
+    WAM 8
+
+        automatic task selector
+        goal space brainstorm
+        update project plan
+        setup src script to manage source updates
+        move log to tool
+        manage connections between projects
+        create source compare tool
+
+    Grow 4
+
+        Good Soil
+        register for Leadership conference
+        prayer time
+        write about personal transformation
+        walk
+
+    People 2
+
+        BBQ with Stacie
+        clean up wasp nests
+
+
+
+Tue, 06-28
+
+    WAM 8
+
+        build general menu tool
+        create unified agency portal HTML file
+        build cards using JSON data
+        add tool directory to W2W project
+        create page tester
+        debug page master
+        track expected text from pages
+
+    Business 2
+
+        Darci marketing discussion
+        Discuss business strategy with Stacie
+
+    Fun 3
+
+        Chuck
+
+    Grow 1
+
+        walk
+
+
+
+Wed, 06-29
+
+    Fun 3
+
+
+
+    WAM 8
+
+        review high-level design with Stacie
+        apply pink color to interface
+        redesign menu structure
+        redesign view structure and workflow
+        define new URLs
+        implement new menu structure
+        build 16 unique views
+        test and debug
+
+    Grow 3
+
+        night prayer
+
+
+
+Thu, 06-30
+
+    WAM 8
+
+        experiment with introspection for finding tests
+        build automatic test runner
+        save results in Test records
+        commands to approve unexpected test results
+        debug test infrastructure
+        manage all tests for WAM 2.1
+        expand available tests
+        update design documents to reflect new thinking
+
+    People 2
+
+        PB & Potts
+
+    Grow 1
+
+        night prayer
+
+    Fun 3
+
+        X-Men Apocalypse
+# Tasks History     July 2016
+## July Objectives 2016
+    Finish WAM 2.1
+    Study Good Soil
+    
+## Accomplishments
+

@@ -1,0 +1,850 @@
+# Tasks History     2016-11
+
+## Accomplishments
+
+
+
+Tue, 11-01
+
+    Fun 7
+
+        Out of the Silent Planet
+        lost tablet
+
+    People 7
+
+        drive to Home
+
+    Grow 0
+
+        2, 3, 3, 2
+
+
+
+Wed, 11-02
+
+    Church 5
+
+        SoKM
+
+    People 3
+
+        talk with Stacie
+
+    Grow 6
+
+        unpack and organize
+        review time investment
+        think about business future
+        research tablets
+        found tablet
+        plan out work
+        8000 steps (library and park)
+        combine months in hours summary
+        4, 1, 5, 5
+
+
+
+Thu, 11-03
+
+    People 1
+
+        schedule meeting with Kyle
+        posting on Facebook
+
+    WAM 8
+
+        pass all tests on dev
+        create automatic backup on production
+        adjust timezone setting on server
+        create hourly maintenance task with log
+        scripts to work with database
+
+    Sign 2
+
+        review pending issues
+        weekly meeting 
+
+    Write 1
+
+        write Quiet Time
+
+    Fun 2
+
+        Hawaii 50 on Kindle Fire
+        Madam Secretary
+
+    Grow 0
+
+        5, 1, 3, 5
+
+
+
+Fri, 11-04
+
+    Tools 4
+
+        fix issue with tests
+        add doc search
+        display task history files as web pages
+        remove old history files
+        send spiritual email only from server
+
+    Write 2
+
+        write Big Ideas & Game Changers
+        add notes from notebook into Evernote
+
+    People 2
+
+        business discussion with Stacie
+
+    Grow 0
+
+        4, 1, 5, 2
+
+    Church 6
+
+        lunch with Kyle at Doug's Diner
+        Big Fat Pastor's event
+        create data models for Church Leadership Dashboard
+
+
+
+Sat, 11-05
+
+    People 2
+
+        Stacie and Christine go to movie
+        chili cooking for church potluck
+
+    Fun 4
+
+        Mad Men
+        Citizen Four
+        Heat Wave
+
+    Church 6
+
+        plan for Church Dashboard
+        create basic website
+
+    Write 2
+
+        organize notes
+
+    Grow 0
+
+        time change
+        4, 1, 3, 3
+
+
+
+Sun, 11-06
+
+    Church 7
+
+        write Overcoming Anxiety
+        chili cook-off
+
+    Fun 5
+
+        Madam Secretary, Shield
+
+    Grow 2
+
+        sleep in
+        organize week
+        time change
+        hurt inside of ear (antibiotic)
+        3, 2, 2, 4
+
+
+
+Mon, 11-07
+
+    Write 1
+
+        Think about publishing paragraphs on Faceblog
+        write list of projects to pursue
+
+    Fun 3
+
+        Legends of Tomorrow
+
+    People 1
+
+        dinner with Stacie
+
+    Grow 1
+
+        put on new mattress pad
+        think about Work projects and priorities
+        5, 1, 5, 4
+
+    Hire 8
+
+        debug setup of users on server
+        move production data to dev server
+        baseline testing and review
+        document user stories
+        document test progress
+        refactor views in view types
+        tie openings to companies
+        require passwords to see views
+        review progress with Stacie
+        create test page for access to all views
+
+
+
+Tue, 11-08
+
+    Hire 8
+
+        Hiring App core work flow
+        debug python console on dev server
+        create backup utility
+        assign openings to Test Manager
+        update design for Skills
+        test import  of production data
+        test create Opening
+
+    Fun 5
+
+        follow election coverage
+
+    Grow 1
+
+        restless sleep
+        post on Facebook
+        3, 3, 1, 4
+
+
+
+Wed, 11-09
+
+    Church 9
+
+        meeting with Todd and Jenny
+        create basic workflow for Church Dashboard
+        School of Kingdom Ministry
+
+    People 1
+
+        meeting with Kyle and Stacie about business
+
+    Fun 1
+
+        organize photos
+
+    Grow 3
+
+        nap
+        mourn for USA
+        1, 3, 5, 2
+
+
+
+Thu, 11-10
+
+    People 5
+
+        dinner at Palominos with Andrew, Rachel and Lucy 
+        discussion with Stacie and Rachel about our country and recent events
+
+    Sign 4
+
+        fix issue with duplicate email
+        weekly meeting
+
+    Write 3
+
+        think about ideas for My Book Online
+        update outlines on Expectations, Values, Experiences, Time & Place
+
+    Grow 2
+
+        walk to library
+        process thoughts from SoKM
+        read bible Ezekiel
+        5, 5, 1, 3
+
+
+
+Fri, 11-11
+
+    People 2
+
+        visit with Lucy & Christine
+
+    Write 3
+
+        Stages of Totalitarianism
+
+    Church 4
+
+        create data model & views for ChurchScore
+
+    Grow 3
+
+        go to bed early
+        discuss state of world with Stacie
+        finish AVX series
+        2, 2, 5, 2
+
+    Fun 2
+
+        visit library to read
+        read about government security programs
+
+
+
+Sat, 11-12
+
+    People 4
+
+        discuss life and stress with Stacie
+
+    Fun 4
+
+        finish 1st Commandment
+        comics
+        visit library
+
+    Church 4
+
+        ChurchEvent views
+
+    Grow 2
+
+        investigate tools for web protection services
+        5, 2, 3, 2
+
+
+
+Sun, 11-13
+
+    Fun 3
+
+        Agatha Christie
+        investigate travel to New Zealand and London
+        investigate house swapping services
+        earthquake in Christchurch NZ
+
+    Church 4
+
+        skip church due to lack of sleep
+        SoKM lesson with Stacie
+        create ChurchBudget views
+        debug ChurchEvent views
+
+    Grow 3
+
+        Destiny
+        sleeping problems due to PESD - post election stress disorder
+        1, 2, 3, 4
+
+    People 4
+
+        Rachel & Andrew for BBQ
+        Dick's BBQ take out
+
+
+
+Mon, 11-14
+
+    Business 3
+
+        business meeting for Shrinking World
+        lunch together
+
+    Hire 6
+
+        backup data on server
+        deploy & test changes
+        clean up perf/tech skills
+        update project plan
+        debug interview scorecard
+        debug interview recording view
+
+    Church 2
+
+        erased Mac Mini
+        set up to donate computer
+
+    Fun 3
+
+        Poldark
+
+    Grow 0
+
+        4, 3, 2, 2
+
+
+
+Tue, 11-15
+
+    Church 4
+
+        small group
+
+    Write 4
+
+        The 20-Day Project
+        Organizing Information
+        post Software Dev Phases
+
+    Tools 4
+
+        create ChurchBudget data model
+        create ChurchBudget views
+        extend datatype code
+        improve style for all apps
+
+    Grow 2
+
+        review health score
+        long walk - 9600 steps
+        5, 3, 5, 5
+
+
+
+Wed, 11-16
+
+    Church 9
+
+        meet with Todd and Jenny
+        discuss future of America
+        pray together
+        Thirst night
+
+    Hire 4
+
+        clean up bad companies
+        add security for Company records and views
+        review progress with Stacie
+        update project plan
+        improve style of all views
+        better workflow
+
+    Grow 1
+
+        long walk - 8100 steps
+        5, 4, 4, 5
+
+    Tools 0
+
+        create HealthScore app, data model, import
+        improve CSS for hire, church, etc.
+
+
+
+Thu, 11-17
+
+    Church 4
+
+        refine ChurchBudget look and feel
+        build new table formatter
+
+    Grow 2
+
+        personal review and planning
+        3, 3, 4, 3
+
+    Fun 4
+
+        Dr. Strange
+
+    Business 4
+
+        car maintenance
+        investigate HELOC
+        review family finance
+
+
+
+Fri, 11-18
+
+    Business 1
+
+        send Kyle marketing info
+
+    Tools 3
+
+        simplify menu on company website
+        show todo page on MarkSeaman website
+        create health pages on MarkSeaman site
+        build general template for clonable list table
+
+    Hire 6
+
+        create new Interviewer data model
+        debug Interviewer records
+        build Interviewer admin page
+        create Add Interviewer view
+
+    Write 1
+
+        update plan for publishing
+
+    Fun 3
+
+        Poldark
+
+    Grow 0
+
+        4, 4, 3, 2
+
+
+
+Sat, 11-19
+
+    Fun 4
+
+        Heat Wave
+        Ms. Marvel
+
+    People 3
+
+        date with Stacie @ Biagi's
+        Josiah & Sam
+        visit with Lucy
+
+    Hire 7
+
+        fix interviewers page (opening ID)
+        deploy hire/church/health    
+        data backup on server
+        build hacks.py scripts
+
+    Grow 0
+
+        5, 4, 2, 2
+
+
+
+Sun, 11-20
+
+    Church 4
+
+
+
+    People 3
+
+        lunch with Christine, Lucy, Rachel, Andrew at Tres Marg
+
+    Tools 2
+
+        build time summary over multiple months
+        plan hours data import and views
+
+    Fun 3
+
+        Ms. Marvel
+        Heat Wave
+        Poldark
+
+    Grow 2
+
+        review time summary for last quarter
+        make decisions about current time investments
+        nap
+        4, 3, 3, 1
+
+
+
+Mon, 11-21
+
+    Write 3
+
+        write Being Light
+        create Spiritual Things Facebook Group
+        ideas of inspiration
+        post info on Facebook
+
+    Church 7
+
+        Rewrite Spiritual Things page router
+        import events from CSV
+        deploy new code
+        build workflow for Church Events
+        write Dashboard page
+        select weeks to work on for meetings
+        score the meetings
+
+    Grow 1
+
+        bible reading
+        4, 3, 4, 5
+
+    Fun 3
+
+        Heat Wave
+        Poldark
+
+
+
+Tue, 11-22
+
+    Write 1
+
+        post on Facebook
+
+    Grow 2
+
+        dentist
+        5, 4, 2, 2
+
+    Church 11
+
+        church board meeting
+            demo of Church Dashboard
+            discuss Todd full time
+        create main menu
+        build Dashboard view
+        build Overview view
+        build Meetings and Meetings detail view
+        build Budget and Budget detail view
+        create automatic scoring
+        debug editing of records
+        data backup
+        create budget import mechanism
+
+
+
+Wed, 11-23
+
+    Church 8
+
+        fix issues with Church app
+        meet with Todd and Jenny
+        update meeting times for events week of 11-19
+        meet with Kyle
+        update budget with numbers from Icon
+        extract November budget info from Icon
+        add users for Todd, Jenny, Kyle
+        new design ideas for create weekly score record and reports
+
+    Fun 6
+
+        Continuum
+        Man in the High Castle
+
+    Grow 0
+
+        3, 3, 3, 2
+
+
+
+Thu, 11-24
+
+    Write 6
+
+        write Cultivating Gratitude
+        post on Facebook
+        create ideas for Brain Spaces and corresponding details
+        Where Ideas Come From
+        capture quotes from Impact
+
+    People 6
+
+        Thanksgiving dinner
+
+    Fun 2
+
+        make list of 101 Amazon Kindle books
+        finish Heat Wave
+
+    Grow 0
+
+        walk
+        5, 3, 1, 3
+
+
+
+Fri, 11-25
+
+    Write 3
+
+        publish Justice, Mercy, and Humility
+        write outline for Kingdom of God
+        update bible verses
+        organize books and reading lists
+
+    Church 3
+
+        create meeting with known dates
+
+    People 4
+
+        Jenny Beilman birthday
+
+    Grow 1
+
+        walk
+        read bible
+        5, 3, 1, 4
+
+    Fun 3
+
+        Wars of the Roses
+        visit library
+        Librarians
+
+
+
+Sat, 11-26
+
+    Grow 1
+
+        walk
+        3, 2, 3, 3
+
+    Church 4
+
+        create score records
+        create budget and meeting records with fixed dates
+        optimize UX for dashboard
+        send messages to Kyle and Beilmans
+        meet with Darryl @ Egg & I
+
+    People 2
+
+        Meet with Josiah
+        visit with Lucy
+
+    Fun 7
+
+        White Queen
+        Wars of the Roses
+        Fantastic Beasts
+        Librarians
+
+
+
+Sun, 11-27
+
+    Church 5
+
+        write articles Pessimism, Repentance
+
+    People 3
+
+        talk with Stacie and Lucy
+
+    Grow 3
+
+        read Integrity
+        nap
+        3, 2, 4, 2
+
+    Fun 3
+
+        Wars of the Roses
+
+
+
+Mon, 11-28
+
+    Tools 2
+
+        create import of tasks from file
+        build task views
+        create task style
+
+    Hire 8
+
+        testing of app
+        fix data on production server
+        create ManyToMany relationship with Interviewer & Opening
+        attach interviewers to opening
+        serialize interview session
+        improve UX of questionnaire
+        build tabbed view
+
+    Church 2
+
+        Steve Scifres @ Egg & I
+
+    Fun 2
+
+        Poldark
+
+    Grow 0
+
+        3, 4, 2, 1
+
+
+
+Tue, 11-29
+
+    Tools 2
+
+        clean up office (desk, shelf, closet)
+
+    Business 6
+
+        sort through inbox
+        family finance
+        record family budget Sep-Nov
+        estimate 2017 spending and income
+        create cornbread chart of spending
+        define categories: 
+            Basics-45%, Lifestyle-25%, Health-20%, Giving-10%, [Tax-40%]
+
+    Write 2
+
+        creativity brainstorm
+        Leading Your Church to Grow
+        writing ideas -- headlines for new topics
+
+    People 4
+
+        goodbye dinner for Lucy at Cafe Athens
+        visit with Andrew & Rachel
+
+    Grow 0
+
+        5, 3, 2, 2
+
+
+
+Wed, 11-30
+
+    Business 4
+
+        2016 spending
+        follow up on house payment
+
+    Grow 3
+
+        walk in cold
+        personal planning
+        schedule Skin Doc
+        monthly objectives  
+        5, 2, 4, 2
+
+    Church 2
+
+        SoKM video
+        pray with Christine
+
+    Write 1
+
+        post Facebook articles
+        post blog article
+        publishing commitments
+
+    People 1
+
+        Lucy travels to Austin
+
+    Fun 3
+
+        Wars of the Roses
+        return library books
+        White Queen
+# Tasks History     December 2016
+    
+## Accomplishments
+

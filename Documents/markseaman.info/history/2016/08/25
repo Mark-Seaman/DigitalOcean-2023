@@ -1,0 +1,27 @@
+Thu, August 25,2016
+
+WAM 2
+
+    fix problem with accepted pending
+    ghost agencies crash
+    alphabetize the agency list
+    clean up Jefferson high school
+
+Tools 6
+
+    add tests for app and cmd
+    refactor shell.show_files
+    improve doc summary
+    create app summary
+    update score
+    fix environment var on server
+
+Grow 2
+
+    develop WIG and lead measures
+    develop scorecard
+
+Fun 4
+
+    Sliders
+

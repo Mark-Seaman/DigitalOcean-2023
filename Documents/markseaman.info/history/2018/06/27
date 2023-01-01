@@ -1,0 +1,29 @@
+Wed, June 27,2018
+
+Grow 2
+
+    3, 5, 3, 5
+    10,000 steps
+
+WAM 5
+
+    Digital Ocean new Droplet from WAM-2.2 Snapshot (with SSH key)
+    Hostname  WAM-2.2 (change from wam-2.2)
+    Park w2wweld.org
+    nslookup w2wweld.org
+    ssh django@w2wweld.org
+    modify db.py for hostname
+    data migrate
+    tst (approve all)
+    fix all tests
+    configure web servers
+    debug page loading 
+
+Fun 5
+
+    Profit, ER, Dragonfly
+
+People 2
+
+    talk with Stacie
+

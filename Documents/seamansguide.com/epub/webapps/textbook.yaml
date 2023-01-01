@@ -1,0 +1,15 @@
+---
+title:
+- type: main
+  text: Building Python Web Apps
+- type: subtitle
+  text: A Classroom-tested approach with 14 Projects and 42 Design Patterns
+creator:
+- role: author
+  text: Mark D. Seaman
+rights: © Copyright 2022 - All rights reserved.
+  \n\n
+  No portion of this book may be reproduced in any form without written permission from the author, 
+  except as permitted by U.S. copyright law.”
+cover-image: img/PythonWebApps.jpg
+---

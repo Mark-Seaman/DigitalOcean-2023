@@ -1,0 +1,23 @@
+{
+  "site_title": "Seaman Family",
+  "site_subtitle": "News and Insights",
+  "site_url": "/blog/Index.md",
+  "title": "Seaman Family",
+  "css": "/static/css/seamanfamily.css",
+  "menu": {
+    "title": [
+      "Seaman Family",
+      "/blog/Index.md"
+    ],
+    "items": [
+      [
+        "Seaman's Log",
+        "https://seamanslog.com"
+      ],
+      [
+        "Mark Seaman",
+        "https://MarkSeaman.org"
+      ]
+    ]
+  }
+}

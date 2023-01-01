@@ -1,0 +1,9 @@
+{
+    "site_title": "New Living Translation - New Testament",
+    "site_subtitle": "Bootleg Version",
+    "page_title": "Table of Contents",
+    "logo": "/static/images/SWS_Logo_200.jpg",
+    "icon": "/static/favicon.ico",
+    "css": "/static/css/spiritual.css",
+    "settings": "page_settings.json"
+}

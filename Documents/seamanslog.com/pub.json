@@ -1,0 +1,40 @@
+{
+    "name": "seamanslog",
+    "site_title": "Seaman's Log",
+    "site_subtitle": "Blog Farm",
+    "url": "https://seamanslog.com",
+    "title": "Seaman's Log - Blog Farm",
+    "image_path": "/static/images/seamanslog.com",
+    "description": "I am writing daily for a number of different publishing venues.  This blog\nprovides you will a sampling of the content that I am writing.  Each day I will\npublish a snippet of content from one of the websites that I have created.\nA short sample message will be followed with a hyperlink to read the full\narticle in detail.\n\nThis is a great way to see what I am working on without being swamped with\ninformation in your inbox.  The messages can easily be retweeted or posted on\nother social media.",
+    "background-image": "/static/images/SWS_Logo_200.jpg",
+    "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
+    "css": "/static/css/seamanslog.css",
+    "doc_path": "Documents/seamanslog.com",
+    "cover_title": true,
+    "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
+    "author": "Mark Seaman",
+    "menu": {
+        "title": [
+            "Seaman's Log",
+            "/publish"
+        ],
+        "items": [
+            [
+                "Mark Seaman",
+                "https://markseaman.org"
+            ],
+            [
+                "Books",
+                "https://seamansguide.com/book"
+            ],
+            [
+                "Blogs",
+                "/publish/"
+            ],
+            [
+                "Shrinking World",
+                "https://shrinking-world.com"
+            ]
+        ]
+    }
+}

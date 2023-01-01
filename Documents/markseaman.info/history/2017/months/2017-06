@@ -1,0 +1,687 @@
+# Tasks History     2017-06
+
+## Accomplishments
+
+
+
+Thu, 06-01
+
+    Grow 0
+    
+            4, 2, 2, 3
+    Hire 7
+    
+            learn about Domains and encryption
+            rebuild who2hire.wordpress droplet
+            enable https://who2hire.us
+            create wordpress command script
+            document recipe for creating wordpress site
+            work on encryption for Who2Hire.us
+    Business 2
+    
+            meet with Greg
+            discuss business goals
+    Church 3
+    
+            church board meeting
+    Fun 2
+    
+            Enterprise
+    
+
+Fri, 06-02
+
+    Tools 5
+    
+            organize brain
+            create booknotes for EQ, Next100Years, Perfect, Requiem
+            build shrinking-world.com website
+    Grow 0
+    
+            5, 2, 3, 2
+    Hire 2
+    
+            who2hire.us website security
+            fix email at shrinking-world.com
+    People 3
+    
+            deep talk with Stacie
+            Cafe Athens
+    Fun 4
+    
+            Wonder Woman
+            Barnes and Noble
+    
+
+Sat, 06-03
+
+    Grow 1
+    
+            5, 3, 2, 3
+            publish booknotes excerpts
+    People 9
+    
+            HOA board BBQ
+            help Andrew build workbench
+    Fun 4
+    
+            Vikings
+            Niki Heat
+    
+
+Sun, 06-04
+
+    Grow 4
+    
+            5, 2, 2, 3
+            walk
+            pray for others
+            nap
+    Church 6
+    
+            service
+            lunch with Chris and Elaine at El Cielo
+    Fun 4
+    
+            Return of the King 
+            Niki Heat
+    
+
+Mon, 06-05
+
+    Grow 0
+    
+            5, 2, 3, 4
+            walk to library
+    Tools 2
+    
+            fix tests
+    People 2
+    
+            meet with Jayden Howell
+    Hire 6
+    
+            debug who2hire.us security settings for letsencrypt
+            update server setup notes
+    Write 2
+    
+            add booknotes for EQ and Integrity
+            post on Facebook
+    Fun 2
+    
+            Homeland
+    
+
+Tue, 06-06
+
+    Grow 3
+    
+            5, 3, 3, 5
+            read EQ
+            read Essentialist
+            two long walks
+    Tools 3
+    
+            improve booknotes
+            clean up websites
+            build rcp scripts
+            move docs around
+    Hire 5
+    
+            Stacie meets with John Klassen
+            discuss meeting and next steps
+    Fun 3
+    
+            Madam Sec
+    
+
+Wed, 06-07
+
+    Fun 2
+    
+            Flash
+    
+    People 1
+    
+            lunch at Sandbar
+    Hire 8
+    
+            integrate djrill library into source code
+            send basic email message using Djrill
+            debug sending template
+            fix issue with login
+            flatten urls (remove /hire)
+    Grow 1
+    
+            3, 4, 4, 5
+            walk
+    Tools 2
+    
+            clean up time data (write task_rename script)
+            improve tech, shrinking-world, mybook sites
+
+Thu, 06-08
+
+    People 3
+    
+            visit Rachel & Andrew
+            Jayden Howell yard work
+            mount flag on Stacie's trike
+    Grow 1
+    
+            3, 4, 2, 4
+            walk
+    Fun 2
+    
+            Fraiser
+            Homeland
+    
+    Hire 8
+    
+            create standalone email sender
+            debug send text, HTML, templates
+            investigate password reset
+            implement password reset views
+            implement John Klassen account logic
+            reconcile code changes with src command
+
+Fri, 06-09
+
+    Grow 0
+    
+            4, 2, 2, 5
+            walk
+    Tools 3
+    
+            restructure menu loading across all domains
+            rebuild workshop app
+    Hire 6
+    
+            create production release 2017-06-09
+            test release
+            convert all email code to use DJRILL
+            setup Who2Hire email records on server
+    Fun 3
+    
+            Austin Young concert
+    
+    People 2
+    
+            dinner with Howells at Blues Jam
+            Stacie's visit to dermatologist
+
+Sat, 06-10
+
+    Grow 1
+    
+            5, 2, 2, 5
+            sleep in
+    Write 1
+    
+            creative writing class
+    Hire 2
+    
+            build general email functions for text, html, templates
+    Fun 10
+    
+            Greeley Blues Jam
+    
+
+Sun, 06-11
+
+    Grow 5
+    
+            3, 1, 2, 3
+            nap
+            reflection and thinking
+            EQ
+            Essentialism
+    Church 4
+    
+            church service
+            Gabe and Luke from Campus Crusade
+    People 2
+    
+            Egginomics
+    Fun 3
+    
+            Homeland
+    
+
+Mon, 06-12
+
+    Grow 1
+    
+            2, 1, 2, 4
+            walk
+    People 3
+    
+            Stacie surgery on arm
+            Nordy's BBQ
+    Tools 6
+    
+            thot outline reader (iterative and recursive designs)
+            create recipe for setup of PyCharm debugger
+    Fun 4
+    
+            TV
+    
+    
+
+Tue, 06-13
+
+    Grow 2
+    
+            3, 2, 1, 2
+            sleepless night worrying about Mandrill issue
+            visit library
+            write about public web presence
+            decide on making services private
+    Hire 5
+    
+            work on Mandrill email SMTP outage
+    People 4
+    
+            visit surgery center for bleeding
+            last night with Luke and Gabe
+    Fun 3
+    
+            Amazing Grace
+    
+
+Wed, 06-14
+
+    Grow 1
+    
+            5, 1, 2, 5
+            long walk
+    People 5
+    
+            Stacie sick in bed all day
+            cancel visit with Arlyn and Lynn
+    Hire 6
+    
+            investigate tools for transactional email
+            decide to replace Mandrill
+            replace email from Mandrill with SendGrid
+            repair web services
+            configure SMTP service for Stacie & Mark @ Shrinking World
+            setup two-factor auth at Digital Ocean
+    Fun 2
+    
+            Hawaii 50
+    
+
+Thu, 06-15
+
+    Grow 2
+    
+            5, 2, 3, 5
+            write Daily Work Objectives
+            long walk
+    Tools 4
+    
+            testing and consolidation of email changes
+            create ThotView and ThotBookView logic
+            handle urls for thot/42 and thotbook/Work
+            build thot outline for web development of thot application
+            setup menu and site title for thot
+    Hire 3
+    
+            build templates for notifications
+            send new notification messages
+    People 2
+    
+            discuss Josiah thesis change with Stacie
+    Fun 3
+    
+            Sherlock
+    
+
+Fri, 06-16
+
+    Fun 4
+    
+            plan San Diego trip
+            SHIELD
+    
+    Grow 2
+    
+            5, 3, 2, 5 
+            renew medicine
+            nap
+    Tools 4
+    
+            debug selenium tests
+            use chromedriver
+            setup db.py on macbook
+            clean up and test menus, site titles, landing pages
+            Building_Software thot map
+    Hire 4
+    
+            setup Stacie to test
+            resize Who2HIRE.200.png
+            use Who2HIRE.200.png
+            delete Eric Stanley
+            only send notifications from production
+            promote code
+
+Sat, 06-17
+
+    Tools 4
+    
+            show outline with grandkids
+            build document manager - storage & display
+            build Thot Viewer
+    People 5
+    
+            small group party
+            meet RoiYou
+            games & beach
+    Grow 3
+    
+            5, 2, 2, 5
+            walk
+            nap
+    Fun 2
+    
+            Niki Heat
+    
+
+Sun, 06-18
+
+    Grow 2
+    
+            5, 1, 2, 2
+            nap
+    Church 4
+    
+            church service
+    People 2
+    
+            Father's Day celebration at Rio
+            call Dad
+            talk to Josiah
+    Fun 6
+    
+            Me Before You
+            Ocean's 11
+            Niki Heat
+    
+
+Mon, 06-19
+
+    Grow 1
+    
+            5, 1, 3, 5
+            walk
+    Tools 8
+    
+            restructure ThotBook code
+            improve outline reader
+            build better ThotView
+    Fun 5
+    
+            Hawaii 50, Sherlock
+    
+
+Tue, 06-20
+
+    Tools 4
+    
+            first working version of Thot Recorder
+            debug ThotBook links
+            debug ThotDocEdit
+            improve doc.doc.py logic
+    Hire 4
+    
+            improve login view
+            teach Stacie about SendGrid
+            remove Who2Hire links on all Shrinking World sites
+            rebuild WebDev content within Thot
+            review encryption renewals
+    Grow 0
+    
+            4, 2, 3, 2
+    People 4
+    
+            FCIP
+    Fun 2
+    
+            Supergirl
+    
+
+Wed, 06-21
+
+    Grow 0
+    
+            3, 2, 3, 5
+            walk to Robin's Nest
+            decide to get counseling
+    People 2
+    
+            discuss hurts and dysfunction with Stacie
+            lunch with Stacie - Robin's Nest
+    Tools 4
+    
+            update plans for Aspire based on Thot work
+            work on data models and views for Aspire
+    Hire 4
+    
+            convert aspire documentation to thot/Who2Hire/Index
+            release notes for 2017-06-16
+    Church 4
+    
+            church board meeting
+            Todd discussed Rachel Dawson
+    
+
+Thu, 06-22
+
+    Grow 0
+    
+            5, 2, 3, 2
+    Hire 2
+    
+            create Who2Hire release notes
+            create Who2Hire Thotbook
+    Tools 6
+    
+            build workshop view for email
+            build workshop view for file upload
+            create workshop/app/SimpleApp
+            create workshop/views/RedirectView
+            create workshop/views/FormView
+            create workshop/views/TemplateView
+            restructured workshop code
+    People 4
+    
+            Palominos & Sams
+    Fun 2
+    
+            Castle
+            
+
+Fri, 06-23
+
+    Grow 0
+    
+            5, 2, 3, 2
+    Hire 6
+    
+            software release 2017-06-23
+            learn about view-class inheritance
+            create file uploader
+            create email request for support
+    Tools 2
+    
+            build Material template base view
+            extract File Upload logic from Material
+            debug file uploader
+    People 3
+    
+            grill
+    Fun 3
+    
+            Flash, Star Trek
+            
+
+Sat, 06-24
+
+    Grow 3
+    
+            5, 2, 3, 5
+            walk over to 257
+            walk on beach and hurt feet
+            write about emotional health
+    Church 1
+    
+            pray for church
+    Fun 6
+    
+            Niki Heat
+            relax
+    People 4
+    
+            visit with Stacie
+            Stacie & Christine to Women's breakfast
+            go to store with Stacie
+    
+
+Sun, 06-25
+
+    People 4
+    
+            Royal Nepal with Andrew and Rachel
+            Stacie and Christine to Toby Mac concert
+            plan trip to San Diego, Anaheim, and Flagstaff
+    Fun 3
+    
+            Hawaii 50
+            visit library
+    Church 5
+    
+            paint lines on parking lot
+            invited to Pastors' Conference in Anaheim
+    
+    
+    Grow 2
+    
+            5, 2, 1, 5
+            work on emotional growth
+            walk to library
+
+Mon, 06-26
+
+    Grow 1
+    
+            think about life and ministry
+            5, 1, 1, 2
+    People 2
+    
+            lunch at Wild Wings with Stacie
+            dermatology checkin
+    Fun 4
+    
+            Amazing Race
+    
+    
+    Tools 7
+    
+            remove extra CSS template libraries from MyBook
+            explore UI elements and techniques in Material
+            workshop views
+                template_derived
+                template_columns
+                template_content
+            create view to load custom templates
+            write ThotBook on Creativity
+            simplify plan.py and todo.py
+            plan new features for Time views
+            consolidate 1000Goals and ThotBook: Goals
+
+Tue, 06-27
+
+    Grow 2
+    
+            4, 1, 4, 1
+            score mental well-being: appreciation, creativity, destiny, connection
+    Hire 6
+    
+            update production server to release 2017-06-23
+            testing on candidate PDF
+            create notifications log
+            view notification log
+            send request for assistance
+    Tools 3
+    
+            fix issue with blank root parent
+            improve Thot UX
+            debug thot import
+    Fun 3
+    
+            setup new phone
+            Amazing Race
+    
+
+Wed, 06-28
+
+    Grow 2
+    
+            long walk
+            3, 3, 3, 5
+            reflect on joy/pain
+    Tools 8
+    
+            learn about view subclassing with Mixins
+            build workshop views: Redirect, Template, Mixins
+            isolate pandoc_html_text
+            create card data converter
+            create universal page logger
+            eliminate dead code
+            heavy app refactoring
+    Fun 4
+    
+            Sherlock
+    
+
+Thu, 06-29
+
+    Grow 2
+    
+            3, 3, 3, 2
+            personal reflections
+            think about wellbeing
+    Fun 4
+    
+            Amazing Race, Castle
+            
+    Tools 8
+    
+            clean up task view
+            start on Advisor
+            move doc links on MarkSeaman page
+            debug tasks in Aspire
+            fix domain redirector
+            create base class for Aspire views
+            remove dead code
+
+Fri, 06-30
+
+    Grow 2
+    
+            5, 4, 3, 5
+            walk to lunch
+            appreciate life
+    Tools 8
+    
+            create simple summary for app design: Wellbeing, Money, Aspire, MyBook
+            rework menu loading for all sites
+            remove dead code
+            start work on money app
+    People 2
+    
+            lunch with Stacie at Senior Jalapeno
+    Fun 2
+    
+            Aeon Flux

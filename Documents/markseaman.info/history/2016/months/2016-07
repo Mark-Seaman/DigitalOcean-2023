@@ -1,0 +1,777 @@
+# Tasks History     2016-07
+
+## Accomplishments
+
+
+
+Fri, 07-01
+
+    Church 5
+
+        leaders meeting at Beilman's
+
+    Grow 1
+
+        night prayer
+
+    WAM 8
+
+        measure output from each test
+        build automatic page tester with output compare
+        remove unneeded code
+        move tests into tests directory
+        improve handling of initial test results
+        build new automatic test runner
+        debug test enumerator
+        experiment with Generic Class Views
+
+
+
+Sat, 07-02
+
+    People 2
+
+
+
+    Grow 2
+
+        create dream box (with daily suggestion)
+        enjoy lakeside view
+        sleep in
+        wasps
+
+    Fun 10
+
+        read
+
+
+
+Sun, 07-03
+
+    Tools 2
+
+        build collab views
+        develop outline of collab docs
+
+    Church 4
+
+
+
+    People 4
+
+        Qboba with Andrew, Rachel, Christine
+
+    Grow 4
+
+        walk/ride with Stacie
+        Good Soil
+
+
+
+Mon, 07-04
+
+    People 6
+
+        July 4th celebration at Garcia's
+        nap
+
+    Grow 2
+
+        long walk/ride with Stacie
+        Good Soil
+        wasps
+
+    Fun 4
+
+        The Librarian 1
+
+    Tools 2
+
+        create generic views
+        build doc structure
+
+
+
+Tue, 07-05
+
+    Tools 8
+
+        build collaborator application tool
+        add collab routes to Hammer Showcase
+        create menu for: Project, UX, Front, Back, Hosting, Auto, Test
+        build page master script
+        create general Project management tools
+        custom logic for document views
+        display document in directory folder
+        deploy changes on production server
+
+    Grow 1
+
+
+
+    People 1
+
+
+
+    Fun 3
+
+
+
+    Sign 1
+
+        meet with Tom 
+
+
+
+Wed, 07-06
+
+    People 1
+
+
+
+    Grow 1
+
+
+
+    Business 2
+
+        meet with Greg McCutchen
+
+    Fun 2
+
+        The Librarian 2
+
+    WAM 8
+
+        create test users
+        deploy on staging server
+        add logic to suppress test notifications (check recipient & server)
+        expand tests
+        think about acceptance test planning
+        rebuild staging database
+        assign Agency to every case
+        add icons to page navigation menu
+
+
+
+Thu, 07-07
+
+    Grow 2
+
+
+
+    People 2
+
+
+
+    WAM 8
+
+        filter queries by agency
+        debug views to match business requirements
+        refactor tests to remove duplication
+        fix failing tests
+        update text in views
+        show unique menu items for manager, agent, and director
+        require authentication to see agency pages
+        test page restrictions
+
+    Fun 2
+
+        Young Indie
+
+
+
+Fri, 07-08
+
+    People 1
+
+
+
+    Grow 2
+
+
+
+    Fun 3
+
+        Zootopia
+
+    Sign 8
+
+        investigate immediate vs. delayed cancel
+        setup meeting with Thomas
+        test chargify script
+        build document to show how to use chargify.py
+        setup meeting with Brandon
+        implement immediate cancel for non-production hosts
+        research Discount codes
+        implement ALWAYSFREE and 99PERCENTOFF coupons on sandbox
+        wrote Tom about production login
+
+
+
+Sat, 07-09
+
+    People 2
+
+
+
+    Tools 4
+
+        implement page tests
+        build out spiritual things site
+        think of new project ideas
+        create collab logic
+
+    Grow 3
+
+        long walk (dog park, library)
+
+    Fun 5
+
+        read
+        RED
+
+
+
+Sun, 07-10
+
+    People 3
+
+        El Cielo with Andrew, Rachel, Christine
+        discuss life with Stacie
+
+    Church 7
+
+        Cables Pub with Beilmans
+
+    Grow 4
+
+        watch PyCon videos
+        read Good Soil
+        think about life goals
+
+
+
+Mon, 07-11
+
+    WAM 8
+
+        baseline testing
+        refactor view logic for agency views
+        debug all views
+        test all code
+        start work on request submission form
+        build logic for permission rules based on roles
+        fix page redirects
+        bind all cases to an agency
+        create better list of cases (by status)
+
+    Fun 4
+
+        Quantico
+        Bridge of Spies
+
+    Tools 2
+
+        Build out collaborator docs
+        Setup Front-end, Back-end, Test, Automation
+
+
+
+Tue, 07-12
+
+    WAM 9
+
+        deploy to staging
+        interactive testing on staging
+        restructure top banner of WAM Agency Portal
+        update menu selections
+        implement logic for case and view selection based on role
+        create new submission form for requests
+        create templates for each page type
+        move templates to w2w
+
+    Grow 2
+
+        walk
+
+    Fun 3
+
+        Amazing Race
+        Quantico
+
+
+
+Wed, 07-13
+
+    People 1
+
+
+
+    Grow 1
+
+
+
+    Fun 4
+
+
+
+    WAM 8
+
+        update project task list
+        discover and investigation server malfunction at Digital Ocean
+        add demographics to report
+            city
+            ethnicity
+            amount awarded
+            category
+            submitting agency
+            disability
+            monthly income
+            age
+        rework configuration of test users
+
+
+
+Thu, 07-14
+
+    WAM 8
+
+        Setup Christine on Issue tracking
+        Log initial issues list (16 open issues)
+        Coordinate with Stacie on issue tracking
+        Extend test plan for Agency Portal
+        Fix 57 United Way Agency info
+        Fix 56 Active Requests not showing
+        Fix 58 Super User view all
+        Fix 51 Button for List of Agencies
+
+    Sign 2
+
+        meet with Thomas about testing payment system
+        weekly Scrum
+
+    People 4
+
+        Palaminos with Stacie's Banner friends
+    
+
+
+
+Fri, 07-15
+
+    WAM 8
+
+        test agency pages using Selenium
+        build page grabber script
+        investigate Digital Ocean access issues
+        streamline deploy to staging server
+        improve automation for code release
+        separate out data sets for each server
+        improve automatic tests
+
+    Sign 2
+
+        meet with Thomas for training on chargify.py script
+        define test approach 
+
+    People 4
+
+        Rio & Tea House with Balls
+
+
+
+Sat, 07-16
+
+    Grow 3
+
+        sort out business issues
+
+    Sign 3
+
+        setup discount codes on Chargify
+        meet with Brandon on remaining code issues
+        write progress report for Tom
+
+    People 8
+
+        Stacie's birthday
+
+
+
+Sun, 07-17
+
+    Church 4
+
+
+
+    People 8
+
+        Josiah & Sam visit
+        BBQ 
+        hear about Discover conference
+        walk to park
+
+    Grow 2
+
+        nap
+
+
+
+Mon, 07-18
+
+    Business 3
+
+        prepare for meeting
+        leadership meeting
+
+    People 2
+
+        lunch at Pelican lakes
+
+    Fun 5
+
+        Quantico & Amazing Race
+
+    WAM 4
+
+        develop edit view of cases
+        fix submit issues on form
+        hide agency list from Agents
+        improve automation command scripts
+        set age on new reports
+        allow database to have blank agency
+        disable anonymous submit
+        clean up staging users for testing
+
+
+
+Tue, 07-19
+
+    Tools 8
+
+        major refactoring on all hammer websites
+        rebuild all views
+        debug domain selector
+        change folder structure for documents
+        create menu for hammer showcase
+        create menu for collaboration
+        build site navigation
+        debug template loading
+
+    People 3
+
+
+
+    Grow 2
+
+
+
+    Fun 1
+
+
+
+
+
+Wed, 07-20
+
+    Grow 1
+
+        walk
+
+    WAM 8
+
+        fix report and agency menu items
+        build reports with Date Range
+        build search view for agencies 
+        solve issues with editing
+        fix issues with redirects
+        fix issue with permission for agency list
+        fix new button in WAM 2.0 
+
+    Sign 1
+
+        review progress with Tom
+
+    People 2
+
+        discuss business with Stacie
+        Shrinking World salary idea
+
+    Fun 2
+
+        The Librarian: Curse of Chalice
+
+
+
+Thu, 07-21
+
+    WAM 2
+
+        review progress on WAM with Stacie
+        create roll-out plan
+
+    Grow 2
+
+        10000 Steps!
+
+    Fun 4
+
+        Star Trek Movie
+
+    Tools 6
+
+        break out Hammer-Documents repo
+        change all tools to use new repo
+        design task codes
+        debug ssh connections for all computers
+        debug issues with style on websites
+        simplify logging facility
+
+
+
+Fri, 07-22
+
+    WAM 8
+
+        Review all open issues
+        Fix 64 new cases should go to active
+        Fix 69 remove autofill on form
+        Fix 65 title on hold cases view
+        Fix 45 Editing of cases on hold
+        Fix 67 hide edit for archived cases
+        Fix 49 Manager can edit all cases
+        Fix 72 post upgrade message on production
+        Fix 48 Notify new agents
+
+    People 3
+
+        discuss politics and kingdom dynamics with Stacie
+        discuss invoicing on W2W project
+
+    Grow 3
+
+        think about inspiration
+
+
+
+Sat, 07-23
+
+    People 3
+
+        grocery shopping
+
+    Grow 3
+
+        sleepless night
+
+    Fun 8
+
+        Bourne Movies (3)
+        
+
+
+
+Sun, 07-24
+
+    Church 4
+
+
+
+    Tools 3
+
+        build email sender
+        create vision for general purpose sending system
+        create Informant project plan
+
+    People 4
+
+        Andrew & Rachel
+
+    Grow 1
+
+        walk
+
+    Fun 2
+
+        read
+
+
+
+Mon, 07-25
+
+    Grow 6
+
+        depression
+ 
+
+    Sign 8
+
+        review changes by Brandon for Media Approval/Rejected
+        update dev server
+        fix recursive call on checking for suspended users
+        build script for testing user table
+        improve script for testing chargify
+        build script for testing org
+        bench testing of registration workflow on dev
+        test notification messages for approved and rejected      
+
+
+
+Tue, 07-26
+
+    Tools 8
+
+        EB - create doc send command script
+        EB - create doc html command script
+        PP - document Front-end tricks in collaborator
+        FU - improve interaction with collab app
+        PP - apply task codes
+        IB - remove dead code and refactor
+        IH - deploy new website
+
+    Grow 2
+
+        depression
+
+    Church 4
+
+        board meeting
+
+
+
+Wed, 07-27
+
+    WAM 9
+
+        Fix 74 menu does not display
+        Fix 77 agency menu not highlighting
+        Fix 76 denied menu not highlighting
+        Fix 75 denied menu not highlighting
+        Fix 73, 53 Notes to Agency
+        Fix 66 lost fields during edit
+        Fix 80 case in hold gets error message
+        create test user.csv for staging server
+        Fix input buttons on forms
+        Fix numbering of cases 
+
+    Church 4
+
+        baptism
+
+    Grow 1
+
+        wake up at 3:00 and cannot sleep
+
+
+
+Thu, 07-28
+
+    Sign 1
+
+        Scrum meeting
+
+    People 2
+
+        dinner at Palominos
+        Amber cleaning
+
+    Grow 3
+
+        hear from God about how I measure success
+        talk with Stacie
+
+    Tools 8
+
+        work at Farr library
+        Implement hammer_page
+        Update hammer_theme and hammer_doc
+        Deal with redirect for directories
+        Build better doc display and start on client portal
+        Improve spiritual layout
+        Build new template files for theme demo
+        Fix responsive design
+        Bring back new doc formatter
+        Update Hammer theme
+
+
+
+Fri, 07-29
+
+    Fun 3
+
+
+
+    Sign 9
+
+        test cancel through UI on dev server
+        met with Thomas to work on testing the payment system
+        interactive testing on the dev server for cancel
+        coordinate test process of cancel testing
+        create user tool for Dev, Production, QA
+        create chargify tool for Production
+        gather user info from Dev, Production, QA
+        solve problem with Auth key
+        write progress report
+
+    People 2
+
+        talk with Stacie
+
+
+
+Sat, 07-30
+
+    Tools 6
+
+        create viewer project from scratch
+        Initiate development of Viewer project
+        setup VirtualEnv for Python 3.4
+        create project context
+        create git Repo
+        create PyCharm project
+        create project goals
+        create project milestones
+        create budget
+
+    People 4
+
+        lunch at Rodizio grill
+        Andrew offered day shift
+
+    Fun 4
+
+        Ghostbusters
+
+
+
+Sun, 07-31
+
+    Tools 2
+
+        Build comm system automation
+        Add document selections
+        Hook up spiritual things email
+
+    Church 5
+
+        potluck
+
+    People 3
+
+        fun with Stacie
+
+    Grow 1
+
+        bike ride (first in years, through the golf course)
+
+    Fun 3
+
+        Winter of the World
+# Tasks History     August 2016
+## August Objectives 2016
+    Hammer Showcase application build out
+    Josiah and Sam visit
+    
+## Accomplishments
+

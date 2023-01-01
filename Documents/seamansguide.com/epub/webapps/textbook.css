@@ -1,0 +1,30 @@
+body {
+    font-family: Palatino, serif;
+}
+
+h1 {
+    margin-bottom: 1em;
+    color: dodgerblue;
+    border-bottom: 1px solid black;
+}
+
+img {
+    max-width: 100%
+}
+
+pre {
+    background-color: #eee;
+    padding: 1em;
+    margin: 1em 2em;
+    font-family: monospace;
+}
+
+.section_break {
+    background-image: url('img/Section.jpg');
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+

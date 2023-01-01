@@ -1,0 +1,618 @@
+# Tasks History     2016-01
+
+## Accomplishments
+
+
+
+Fri, 01-01
+
+    Grow 6
+
+        Personal retreat
+
+    Fun 6
+
+        Star Trek - Red Matter
+        Star Wars - Attack of the Clones
+
+    Tools 2
+
+        Setup ocean bin scripts
+        Implement data push and data pull
+
+
+
+Sat, 01-02
+
+    Business 5
+
+        Business plan for economics and time investments
+        Build monthly plan for January
+        Build weekly plan structure
+
+    Fun 7
+
+        Star Wars - Force Awakens
+        Star Wars - Revenge of the Sith
+
+    People 2
+
+        Kress film showing and lunch at Moody's with Rachel & Stacie
+
+
+
+Sun, 01-03
+
+    Church 4
+
+        Training on new Icon system
+
+    People 7
+
+        Lunch with Rachel at Noodles
+        Jurassic Exhibition at Island Grove
+        Old Chicago with Josiah's family
+
+    Fun 3
+
+        Star Trek - Into Darkness
+
+
+
+Mon, 01-04
+
+    Business 4
+
+        Create plan for week with goal tracking
+        Work with Stacie on business goals
+        Discuss marketing strategy with Todd
+        Create ideas for Hammer Showcase
+        2015 Financial Analysis
+
+    Church 2
+
+        Meet Todd for lunch
+
+    Fun 4
+
+        New Hope
+        Black Widow - Red Forever
+
+    Tools 4
+
+        Investigate Mandrill for email notifications
+        Investigate using Wrap Bootstrap
+        Fix issue with Dropbox sync
+        Capture canonical scripts and views
+
+
+
+Tue, 01-05
+
+    Fun 6
+
+        Mission Impossible
+
+    WAM 8
+
+        Investigate sending email with Mandrill
+        Build simple email using SES
+        Create notify command script
+        Build form validation logic for new cases
+        Fix Bootstrap library issues
+        Simplify layout of all pages
+        Improve banner for web pages
+        Start of creating records for new cases
+
+
+
+Wed, 01-06
+
+    WAM 11
+
+        Update CSS for better style
+        Build forms error feedback
+        Add hidden fields to forms for non-settable variables
+        Sync data for production and dev server
+        Investigate issue with data sync
+        Upgrade Django library versions
+        Create script for User administration
+        Add User administration view with form for new users
+        Update style for site
+        Build import list for users
+
+    Fun 3
+
+        Black Widow
+
+
+
+Thu, 01-07
+
+    WAM 8
+
+        Update User Guide with current info
+        Update data models to reflect user roles
+        Investigate Date input on forms
+        Create feature list for future project options
+        Rebuild hosting for app at Digital Ocean
+        Build better style for banner, navbar, title, page content
+        Fix issue with static content server
+        Build user login/logout experience
+
+    Fun 4
+
+        TV: Last Man, Scrubs, Chuck
+
+
+
+Fri, 01-08
+
+    Business 3
+
+        Create new financial models
+
+    WAM 5
+
+        Create security rules for pages
+        Build views for administration
+        Solve problem with Django 1.8.1 upgrade
+        Improve navbar logic
+        Solve problem with caseDate not being set
+
+    People 3
+
+        Talk with Stacie about life and business
+
+    Fun 3
+
+        Empire Strikes Back
+
+
+
+Sat, 01-09
+
+    Fun 14
+
+        watch movies: Number Station, MI-5, Return of Jedi, Iron Clad
+
+
+
+Sun, 01-10
+
+    Church 4
+
+        Help at church
+        Talk with Daniel Peller
+
+    Business 3
+
+        Review 2015/2016 finances
+        Prepare for business meeting
+
+    People 3
+
+        John & Jennifer Honeycutt lunch
+
+    Fun 4
+
+        Heroes, Chuck
+
+
+
+Mon, 01-11
+
+    People 4
+
+        Stacie becomes Shrinking World partner
+        Lunch with Eric at Sol de Jalisco
+
+    Fun 4
+
+        Madam Secretary, Chuck
+
+    Business 6
+
+        Board meeting to discuss business plan for 2016
+        Meet with Tom Yip
+        Follow up from meeting
+
+
+
+Tue, 01-12
+
+    Fun 3
+
+        Enterprise, Last Man
+
+    WAM 11
+
+        Create capability matrix for permissions
+        Build dynamic menus for each role
+        Implement page level security
+        Solve problem with saving form data
+        Test email notifications from Digital Ocean
+        Update todo and done lists for first and second release
+        Add view for bookkeeper
+        Show new cases when needed
+
+
+
+Wed, 01-13
+
+    People 2
+
+        Palaminos with Stacie
+
+    WAM 10
+
+        Debug form to add new users
+        Clean up code
+        Build script to send 5 types of notifications
+        Query for proper recipients for each notification
+        Build notification log
+        Refine logic for sending notifications
+        Add new capabilities for user roles
+        Debug voting logic and display rules
+        Update logic for handling new cases
+        Update CSS and HTML layout code
+
+
+
+Thu, 01-14
+
+    WAM 4
+
+        Display counters on accordion groups
+        Fix numerous UI issues
+        Count the demographics for cases
+        Implement print ready view
+        Improve styles on control in new view
+        Prepare for delivery of 2.0 release
+
+    Business 2
+
+        Project planning
+
+    Grow 2
+
+        Personal review and reflection
+
+    Fun 2
+
+        Sherlock Holmes
+
+
+
+Fri, 01-15
+
+    Tools 6
+
+        Update 2016 project goals
+        Update Time.xlsx record for 2015 & 2016
+        Build goals for Hammer project
+        Clean up CSS for web sites
+        Debug data load and data store
+
+    Fun 6
+
+        Black Widow
+        Star Wars Graphic Novels
+
+    People 2
+
+        Time with Stacie
+
+
+
+Sat, 01-16
+
+    Fun 12
+
+        Watch TV all day long
+            Flash Point, Tomorrow People, Mad Men, Sherlock Holmes
+
+    People 2
+
+        Lunch with Christine
+
+
+
+Sun, 01-17
+
+    Business 3
+
+        Stephanie Farrell (marketing meeting)
+
+    Church 4
+
+        Lunch with Heidi & Tim
+
+    Grow 2
+
+        Personal review
+
+    People 3
+
+        Talk with Stacie
+
+    Fun 2
+
+        Star Wars
+
+
+
+Mon, 01-18
+
+    Sign 8
+
+        First day working for Sign Span
+        Setup all user accounts
+        Pull down code repos
+        Create map of code to understand design
+        Create Engineering log
+        Meet with Tom for assignments
+
+    People 4
+
+        Rachel and Andrew (watch wedding video)
+        Christine's birthday party
+
+    Fun 2
+
+        Star Wars (GV)
+
+
+
+Tue, 01-19
+
+    Sign 8
+
+        Write new developer doc
+        Review JIRA issues
+        Setup Vagrant
+        Setup local version of Python 3.5 stack on mini
+        Build local virtualenv
+
+    Grow 1
+
+        Year end financial summary
+
+    Fun 5
+
+        Sherlock, Star Wars, Madam Sec., Heroes
+
+    Business 0
+
+        Invoice WAM
+
+
+
+Wed, 01-20
+
+    Business 9
+
+        Develop schedule for work hours (Jan-Feb);
+        Update marketing info;
+        Create updated financial plan for client work;
+        Meet with Nate and Heidi Webb (3 hours)
+
+    WAM 4
+
+        Implement email using Mandrill;
+        Register and verify domain for sending notifications;
+        Build prototype of sender script;
+        Debug email sending and plan for WAM integration;
+
+    Sign 1
+
+        Meet with Tom & Brandon
+
+
+
+Thu, 01-21
+
+    Sign 9
+
+        Setup code sharing on all computers;
+        Debug package setup;
+        Create base virtualenv on all computers;
+        Build Sign Master base code setup;
+        Implement command testing;
+        Create project context;
+
+    People 1
+
+        Time with Stacie
+
+    Fun 4
+
+        Sherlock Holmes, Chuck
+            
+
+
+
+Fri, 01-22
+
+    WAM 9
+
+        Add user status of Inactive
+        Finish design for selection of users by user role
+        Clean up of inactive users
+        Testing on user roles
+        Hook up real counters on dashboard page
+        Refactor the source files
+        Add edit cases for Program Directors
+        Category, DisburseInstruct, Notes
+        Edit ProgDir view to add ability to edit Accepted Pending cases
+        Add print button to edit case
+
+    Fun 3
+
+        Sherlock
+
+
+
+Sat, 01-23
+
+    Tools 4
+
+        Install Pycharm 5.0.3 on all three computers
+        Update Linux computer to run Ubuntu 15.10
+        Debug system tests on 15.10
+        Build sysnew and sysold command scripts
+        Build editing workflow for renaming thots
+
+    People 4
+
+        HOA annual meeting
+        Pack for AZ trip
+
+    Grow 2
+
+        Take nap
+        Have quiet time
+
+    Fun 4
+
+        Firefly, X-force 
+
+
+
+Sun, 01-24
+
+    People 14
+
+        Travel to AZ
+        Eat at bakery shop downtown
+        Drive to Sedona
+        Happy hour at Bella Vita
+        Grocery shopping
+
+
+
+Mon, 01-25
+
+    People 6
+
+        Talk about emotions with Stacie
+
+    Fun 4
+
+        Sherlock Holmes
+        Star Wars
+
+    Tools 4
+
+        Build form input for 4 thot app (rename, move, add node)
+        Debug thot app
+        Build content for Thots
+
+
+
+Tue, 01-26
+
+    Business 4
+
+        Analyze 2015 spending
+        Update investment history
+        Measure ROI for investments
+        Develop model for revenue and income
+
+    People 6
+
+        Visit Red Rock State Park
+        Dinner at Javalina Cafe
+
+    Fun 4
+
+        Sherlock Holmes
+        Black Widow
+        X-Force
+        Star Wars
+
+
+
+Wed, 01-27
+
+    People 14
+
+        Drive to Flagstaff
+        Lunch at Taverna
+        Drive around Flagstaff
+        NAU bookstore
+
+
+
+Thu, 01-28
+
+    Business 6
+
+        Project retrospective for Women 2 Women project
+        Review time spent on different tasks for WAM 2.0
+        Visit library
+
+    People 4
+
+        Time with Stacie
+
+    Fun 4
+
+        Comics: X-force
+        TV
+
+
+
+Fri, 01-29
+
+    People 4
+
+        Dinner at Famous Pizza
+
+    Fun 4
+
+        Comics, TV
+
+    Business 6
+
+        Create project task estimate for WAM 2.1
+        Build ideal project profile for new project
+        Work on pricing strategy with Stacie
+        Create financial projections for 2016 Q1 
+        Submit estimate for WAM 2.1 to Women 2 Women
+
+
+
+Sat, 01-30
+
+    Grow 4
+
+        Self-evaluation and discussion with Stacie
+
+    People 10
+
+        Drive to Phoenix
+        Lunch in Rock Springs
+        Dinner with Don and Kathy Miller
+
+
+
+Sun, 01-31
+
+    People 12
+
+        Dad's 84th birthday celebration
+        Dinner with Edwards family
+# Tasks History     February 2016
+## February Objectives 2016
+    * 120 billable hours
+    * Book time through March
+    * Deliver Women 2 Women App
+    * Prepare tax info 
+    
+## Accomplishments
+
+    Church 2
+
+        Church at Gilbert Vineyard
+

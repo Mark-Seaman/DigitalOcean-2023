@@ -1,0 +1,125 @@
+Software Development Process
+
+    Requirements
+        Project Goals
+        Product Milestones
+        Requirements document
+        Sprint Planning Summary
+        Issues List
+
+    Design
+        Technology Plan
+        Architecture
+        Detailed Design
+        Prototype - Running Code
+
+    Code
+        Test-driven Development
+        Version Control
+        Code Editing
+        Velocity
+        Technical Tricks
+        Tools
+
+    Test
+        Unit Tests
+        System Tests
+        Acceptance Tests
+        Devops
+
+Tech Tricks
+
+    Core
+        PHP extends HTML
+        Development Workflow
+        Single file app
+        Intro to Views
+        Intro to Data
+        Software Development Process
+        Design Patterns
+
+    Views
+
+        Page Rendering
+            page
+            header
+            footer
+            menu
+            main
+
+        Containers
+            card
+            box
+            tab
+            accordion
+            carousel
+
+        Content Format
+            markdown
+            csv
+            page index
+            slides
+
+    Data
+
+        CRUD
+            Create
+            Read
+            Update
+            Delete
+
+        Data Views
+            list
+            detail
+            add
+            edit
+            delete
+
+    Apps
+
+        App Logic
+            Authentication
+            Export/Import
+            Pandoc
+            Reveal JS
+            Bootstrap
+            Logging
+            Testing strategies
+
+        Common Apps
+            Data Forms App
+            Wiki
+            Social Networking
+            Photo Gallery
+            Notifications
+            Web Services
+
+Tools
+
+    Bluehost
+    Filezilla
+    Brackets
+    Github
+    XAMPP
+    Trello
+    Repl.it
+    Gliffy
+
+Projects
+
+    Setup Bluehost - student profile page
+    Page Template - includes and render function
+    Page View - render page function with template
+    Test Page - iframe and validator
+    Document Page - markdown formatter
+    Forms Input - testing checklist form
+    Table Formatter - project page index
+    Database Records - notes with add, list
+    Notes App - CRUD views
+    Music Manager - Records: title, description, buy, listen, artwork
+    Slide Shows - notes and slide show
+    Brain - multiple apps: Documents, Notes, Music, Slides, Contacts
+    Wiki - users create articles and comments
+    Photo Gallery - upload images
+    Grand Finale - blog
+

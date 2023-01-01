@@ -1,0 +1,33 @@
+{
+    "name": "spiritual",
+    "site_title": "Daily Meditations",
+    "site_subtitle": "Scripture and Prayers for Each Day",
+    "url": "https://spiritual-things.org/spiritual",
+    "author": "Mark Seaman",
+    "description": "Daily selections of scripture and prayer.  Time Alone with God is the most worthwhile endeavor possible.\n\nBut it is often neglected as our time is filled with busy activities.\n\nDaily Meditations gives you some resources to make your time more enjoyable, inspiring, and meaningful.\n\nEach day presents you with some scriptures to meditate on and a prayer to apply the\ntruth to your life today.\n",
+    "css": "/static/css/spiritual-things.css",
+    "cover_title": false,
+    "cover_image": "/static/images/spiritual-things.org/spiritual-cover-400.png",
+    "doc_path": "Documents/spiritual-things.org/daily",
+    "image_path": "static/images/spiritual-things.org",
+    "menu": {
+        "title": [
+            "Spiritual Things",
+            "https://spiritual-things.org"
+        ],
+        "items": [
+            [
+                "Daily Meditations",
+                "https://spiritual-things.org/spiritual/Index"
+            ],
+            [
+                "Today",
+                "https://spiritual-things.org"
+            ],
+            [
+                "Mark Seaman",
+                "https://markseaman.org"
+            ]
+        ]
+    }
+}

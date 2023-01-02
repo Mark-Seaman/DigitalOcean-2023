@@ -23,3 +23,4 @@ other social media.
 * [September](/sampler/09-Index.md)
 * [October](/sampler/10-Index.md)
 * [November](/sampler/11-Index.md)
+* [December](/sampler/12-Index.md)

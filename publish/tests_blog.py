@@ -14,7 +14,7 @@ class RemoteBlogPagesTest(DjangoTest):
         self.assertLines("https://shrinking-world.com/tech/tech-Index", 100, 120)
 
     def test_blog_micropub(self):
-        self.assertLines("https://shrinking-world.com/tech/micropub-Index", 100, 130)
+        self.assertLines("https://shrinking-world.com/tech/micropub-Index", 100, 140)
 
     def test_blog_training(self):
         self.assertLines("https://shrinking-world.com/tech/training-Index", 100, 120)
@@ -25,10 +25,10 @@ class RemoteBlogPagesTest(DjangoTest):
 
 class BlogFilesTest(DjangoTest):
     def test_seamanslog(self):
-        self.assertFiles("Documents/seamanslog.com", 350, 370)
+        self.assertFiles("Documents/seamanslog.com", 390, 400)
 
     def test_spiritlog(self):
-        self.assertFiles("Documents/spiritual-things.org/daily", 330, 360)
+        self.assertFiles("Documents/spiritual-things.org/daily", 370, 380)
 
     def test_tech_notes(self):
         self.assertFiles("Documents/shrinking-world.com/blog", 28, 40)

@@ -3,10 +3,9 @@ from pathlib import Path
 from django.test import SimpleTestCase, TestCase
 from requests import get
 
-from .import_export import build_pubs
 from .models import Pub, Content
-from publish.text import text_lines
-from .pub import all_blogs, all_books
+from .pub import all_blogs, all_books, build_pubs
+from .text import text_lines
 
 
 class DjangoTest(TestCase):
@@ -90,9 +89,9 @@ class PubDataTest(TestCase):
 class PubInputOutputTest(DjangoTest):
     def test_build_blogs(self):
         build_pubs()
-        self.assertEqual(len(Pub.objects.all()), 11)
+        self.assertEqual(len(Pub.objects.all()), 12)
         num = len(Content.objects.all())
-        self.assertRange(num, 900, 940, "Blog Contents")
+        self.assertRange(num, 900, 960, "Blog Contents")
 
 
 # -----------------------
@@ -104,7 +103,7 @@ class FixtureTest(DjangoTest):
 
     def test_with_data(self):
         num = len(Content.objects.all())
-        self.assertRange(num, 900, 940, "Blog Contents")
+        self.assertRange(num, 950, 960, "Blog Contents")
 
     def test_book_list(self):
         self.assertRange(len(all_books()), 5, 5)

@@ -113,6 +113,12 @@ function c {
     git status
 }
 
+# Small commit on current directory
+function gc {
+    git add -A .       &&
+    git commit -m "$*"
+}
+
 # Copy a file tree
 function cptree {
     rsync -auv "$1/" "$2"

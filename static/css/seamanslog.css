@@ -1,0 +1,93 @@
+body {
+    background-image: url(/static/images/seamanslog.com/water.jpg);
+    font-family: Libre Franklin, sans-serif;
+}
+
+header h1,
+header h2,
+header a {
+    color: yellow;
+    text-shadow: 2px 2px 5px black;
+}
+
+.dark {
+    background-color: rgb(33, 37, 41);
+    color: rgb(248, 249, 250);
+}
+
+.light {
+    background-color: rgb(248, 249, 250);
+    color: rgb(33, 37, 41);
+}
+
+.card-header a {
+    color: white;
+}
+
+.bg-light-gray {
+    background-color: #ddd;
+    opacity: 50%;
+    border: 1px solid black;
+}
+
+.bg-light-gray a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.card-header {
+    background-color: #28a745;
+    font-size: 24px;
+    color: yellow !important;
+    text-align: center;
+    /* padding: 0.5rem 3rem; */
+}
+
+.container.content {
+    border-radius: 20px;
+    background-color: #eee;
+}
+
+
+pre {
+    background-color: #eee;
+    border: 1px solid #888;
+    border-left: 4px solid dodgerblue;
+    padding: 2em;
+}
+
+pre.outline {
+    border: 1px solid #28a745;
+    border-left: 3px solid #28a745;
+    border-right: 3px solid #28a745;
+    background-color: #f8f9fa;
+    margin: 1em;
+    padding: 10px 20px;
+}
+
+h1 {
+    color: #28a745;
+}
+
+h2 {
+    color: #007bff;
+}
+
+h3 {
+    color: #444;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    float: right;
+    width: 150px;
+    border-radius: 50px;
+}

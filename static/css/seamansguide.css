@@ -1,0 +1,46 @@
+body {
+    background-image: url(/static/images/seamanslog.com/water.jpg);
+}
+
+/*.container.content {*/
+/*    border-radius: 20px;*/
+/*    background-color: #eee;*/
+/*}*/
+
+.description {
+    padding: 2em;
+}
+
+.listing {
+    background-color: white;
+    border-radius: 50px;
+    margin: 3em 0em;
+}
+
+.cover {
+    padding: 3em;
+}
+
+.cover img {
+    box-shadow: 2px 2px 5px black;
+    max-width: 100%;
+}
+
+h1 {
+    color: #28a745;
+}
+
+h2 {
+    color: #007bff;
+}
+
+h3 {
+    color: #444;
+}
+
+header h1, header h2, header a {
+    color: yellow;
+    text-shadow: 2px 2px 5px black;
+}
+
+

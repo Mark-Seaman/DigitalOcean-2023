@@ -1,0 +1,25 @@
+body * {
+    font-family: Palatino, serif;
+}
+
+h1 {
+    color: dodgerblue;
+    border-top: 1px solid black;
+}
+
+img {
+    max-width: 100%
+}
+
+pre {
+    background-color: #eee;
+    padding: 1em;
+    margin: 1em 2em;
+}
+
+.section_break {
+    background-image: url('img/Section.jpg');
+    width: 441px;
+    height: 42px;
+    margin: 50% 4em;
+}

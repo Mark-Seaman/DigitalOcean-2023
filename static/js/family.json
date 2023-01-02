@@ -1,0 +1,17 @@
+{
+    "name": "family",
+    "site_title": "Seaman Family News",
+    "site_subtitle": "Memories from our life together",
+    "url": "/family",
+    "title": "Seaman Family News",
+    "description": "Videos and stories from the Mark Seaman tribe.",
+    "background-image": "/static/images/SWS_Logo_200.jpg",
+    "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
+    "css": "/static/css/seamanslog.css",
+    "doc_path": "Documents/seamanslog.com/family",
+    "image_path": "/static/images/seamanslog.com",
+    "cover_title": true,
+    "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
+    "author": "Mark Seaman",
+    "menu": "static/js/nav_blog.json"
+}

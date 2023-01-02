@@ -1,0 +1,16 @@
+{
+    "name": "private",
+    "site_title": "Secret Pages",
+    "site_subtitle": "Private Notes",
+    "url": "https://markseamans.info",
+    "description": "Private notes of Mark Seaman.",
+    "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
+    "css": "/static/css/seamanslog.css",
+    "doc_path": "Documents/markseaman.info/private",
+    "image_path": "/static/images/seamanslog.com",
+    "pub_type": "private",
+    "cover_title": true,
+    "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
+    "author": "Mark Seaman",
+    "menu": "static/js/nav_blog.json"
+}

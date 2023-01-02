@@ -1,0 +1,14 @@
+{
+    "name": "projects",
+    "site_title": "Software Projects",
+    "site_subtitle": "Technology and Tools",
+    "url": "/projects",
+    "css": "/static/css/shrinking-world.css",
+    "description": "Learn tips and tricks for software development, writing, and publishing.",
+    "doc_path": "Documents/shrinking-world.com/blog/projects",
+    "image_path": "static/images/projects",
+    "pub_type": "private",
+    "words": 0,
+    "cover_image": null,
+    "menu": "static/js/nav_sw.json"
+}

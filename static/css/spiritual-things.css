@@ -1,0 +1,82 @@
+/*  C O L O R S  */
+
+.blue {
+    background-color: rgb(13, 110, 253);
+    color: white;
+}
+
+.green {
+    background-color: rgb(25, 135, 84);
+    color: white;
+}
+
+.red {
+    background-color: rgb(220, 53, 69);
+    color: white;
+}
+
+.yellow {
+    background-color: rgb(255, 193, 7);
+    color: black;
+}
+
+.dark {
+    background-color: rgb(33, 37, 41);
+    color: rgb(248, 249, 250);
+}
+
+.light {
+    background-color: rgb(248, 249, 250);
+    color: rgb(33, 37, 41);
+}
+
+
+
+/*  E L E M E N T S  */
+
+body {
+    background-image: url(/static/images/spiritual-things.org/spiritual.jpg);
+}
+
+header .logo {
+    background-image: url(/static/images/spiritual-things.org/spiritual.jpg);
+}
+
+.cover {
+    width: 400px;
+    height: auto;
+}
+
+.cover img {
+    max-width: 100%;
+    box-shadow: 3px 3px 6px black;
+}
+
+header h1,
+header h2,
+header a {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+h1 {
+    color: #28a745;
+}
+
+h2 {
+    color: #007bff;
+}
+
+h3 {
+    color: #ffc107;
+}
+
+
+/*  C L A S S E S  */
+
+.card {
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+    padding: 0em;
+    border-radius: 30px;
+}

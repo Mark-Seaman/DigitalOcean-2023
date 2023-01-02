@@ -1,0 +1,30 @@
+{
+    "menu": {
+        "title": [
+            "Shrinking World",
+            "/tech"
+        ],
+        "items": [
+            [
+                "Courses",
+                "/course"
+            ],
+            [
+                "Training",
+                "/tech/training-Index"
+            ],
+            [
+                "Books",
+                "/publish/book"
+            ],
+            [
+                "Blogs",
+                "/publish/blog"
+            ],
+            [
+                "Contact",
+                "/tech/shrinkingworld-ContactMe"
+            ]
+        ]
+    }
+}

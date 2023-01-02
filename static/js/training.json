@@ -1,0 +1,14 @@
+{
+    "name": "training",
+    "site_title": "Shrinking World Training",
+    "site_subtitle": "Technology and Tools",
+    "url": "/training",
+    "css": "/static/css/shrinking-world.css",
+    "description": "This blog focuses on tips and tricks for writing and publishing.",
+    "doc_path": "Documents/shrinking-world.com/blog/training",
+    "image_path": "static/images/shrinking-world.com/blog/training",
+    "words": 0,
+    "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
+    "pub_type": "private",
+    "menu": "static/js/nav_sw.json"
+}

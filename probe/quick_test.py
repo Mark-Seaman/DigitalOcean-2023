@@ -3,15 +3,12 @@ from django.utils.timezone import make_aware, localdate
 from pathlib import Path
 
 from course.course import get_course, weekly_content
-from course.lesson import prepare_lesson
-from publish.days import tomorrow
 from publish.import_export import import_pub
-from publish.pub import build_pubs, get_pub, get_pub_contents, show_pubs
+from publish.pub import build_pubs, get_pub, get_pub_contents
 from publish.models import Content, Pub
 from course.course import accordion_data
-from publish.seamanslog import extract_message, random_article, random_post
+from publish.seamanslog import random_post
 from publish.toc import table_of_contents
-from task.todo import edit_blog_files, edit_review_file, edit_todo_list, edit_toot_file
 
 import toot
 

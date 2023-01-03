@@ -5,7 +5,7 @@ from course.import_export import import_all_courses
 from course.textbook import generate_textbook
 from publish.import_export import load_data
 from publish.pub import build_pubs
-from task.todo import edit_review_file
+from publish.seamanslog import review_file
 from workshop.imager import build_images, build_logos
 
 
@@ -38,7 +38,7 @@ class Command(BaseCommand):
             print("BUILD PUBS")
             print(build_pubs())
         elif cmd == "review":
-            edit_review_file()
+            review_file()
         elif cmd == "user":
             get_user_model().objects.get(username="seaman").delete()
             user_args = dict(

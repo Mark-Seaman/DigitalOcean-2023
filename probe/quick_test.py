@@ -4,19 +4,19 @@ from pathlib import Path
 
 from course.course import get_course, weekly_content
 from publish.import_export import import_pub
-from publish.pub import build_pubs, get_pub, get_pub_contents
+from publish.pub import build_pubs, get_pub, get_pub_contents, show_pub_content, show_pubs
 from publish.models import Content, Pub
 from course.course import accordion_data
 from publish.seamanslog import random_post
-from publish.toc import table_of_contents
+from publish.toc import content_file, read_content_csv, table_of_contents, write_content_csv
 
 import toot
 
 
 def quick_test():
     # print("No quick test defined")
-    # pubs()
-    todo()
+    pubs()
+    # todo()
 
 
 def todo():
@@ -32,12 +32,34 @@ def todo():
 
 def pubs():
     print("Build Pubs")
-    p = get_pub("tech")
-    import_pub(p)
-    contents = get_pub_contents(p)
-    print(table_of_contents(p, contents))
-    # build_pubs()
-    # print(show_pubs())
+
+    # import_pub(p)
+    # contents = get_pub_contents(p)
+    # create_sampler_index()
+    # print(contents)
+    # #
+    # # build_pubs()
+    # print(show_pub_content(p))
+    display_toc()
+
+
+def display_toc():
+    pub = get_pub("sampler")
+    contents = get_pub_contents(pub)
+    print(table_of_contents(pub, contents))
+
+
+def create_sampler_index():
+    def create_content_file(pub):
+        content = content_file(pub)
+        if not content.exists():
+            write_content_csv(pub)
+
+    pub = get_pub("sampler")
+    create_content_file(pub)
+    print(read_content_csv(pub))
+
+    contents = get_pub_contents(pub)
 
 
 def write_webapps_contents():

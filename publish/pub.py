@@ -30,7 +30,7 @@ def all_pubs():
 
 
 def build_pubs():
-    delete_pubs()
+    # delete_pubs()
     log = create_pubs()
     import_pubs()
     create_index_files()
@@ -127,11 +127,13 @@ def random_doc_page(path):
 
 
 def show_pub_content(pub):
+    text = f'PUB CONTENT - {pub.title}\n\n'
     folders = get_pub_contents(pub)
     for f in folders:
-        print("\nFOLDER", f.get("path"))
+        text += f"\nFOLDER {f.get('path')}\n"
         for d in f.get("documents"):
-            print(d)
+            text += f"\n     {d}\n"
+    return text
 
 
 def select_blog_doc(host, blog, doc):

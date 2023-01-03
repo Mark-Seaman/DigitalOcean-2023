@@ -9,27 +9,27 @@ from .text import text_join
 from .models import Pub, Content
 
 
-def build_index_files(pub):
-    def create_index_files(pub, folders):
-        for f in folders:
-            print(f"FOLDER: {f}")
-            path = Path(pub.doc_path) / f
-            index = path / "Index.md"
-            if not index.exists():
-                print(f"CREATE: {path}")
-                create_index_file(path, index)
-                # create_folder_index(path, index)
+# def build_index_files(pub):
+#     def create_index_files(pub, folders):
+#         for f in folders:
+#             print(f"FOLDER: {f}")
+#             path = Path(pub.doc_path) / f
+#             index = path / "Index.md"
+#             if not index.exists():
+#                 print(f"CREATE: {path}")
+#                 create_index_file(path, index)
+#                 # create_folder_index(path, index)
 
-    # def create_folder_index(path, index):
-    #     text = "# Index of content\n\n"
-    #     for f in sorted(path.iterdir()):
-    #         d = path.name
-    #         text += f"* [{document_title(f)}]({d}-{f.name})\n"
-    #     index.write_text(text)
-    #     print(f"Index: {path} - {index}")
+#     def create_folder_index(path, index):
+#         text = "# Index of content\n\n"
+#         for f in sorted(path.iterdir()):
+#             d = path.name
+#             text += f"* [{document_title(f)}]({d}-{f.name})\n"
+#         index.write_text(text)
+#         print(f"Index: {path} - {index}")
 
-    folders = Content.objects.filter(blog=pub, doctype="folder").order_by("order")
-    create_index_files(pub, folders)
+#     folders = Content.objects.filter(blog=pub, doctype="folder").order_by("order")
+#     create_index_files(pub, folders)
 
 
 def content_file(pub):
@@ -114,6 +114,7 @@ def write_content_csv(pub):
             if str(d).endswith(".md"):
                 content += f"{d.name},{i+1}\n"
         elif d.is_dir():
+            content += f"{d.name}/Index.md,{i+1}\n"
             for j, f in enumerate(sorted(d.iterdir())):
                 print(f)
                 if str(f).endswith(".md"):

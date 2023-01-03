@@ -48,7 +48,7 @@ def edit_todo_list():
     edit_task_files()
     edit_spirit_files()
     edit_blog_files()
-    edit_file([create_toot_file()])
+    edit_file(create_toot_file())
 
 
 def edit_task_files():

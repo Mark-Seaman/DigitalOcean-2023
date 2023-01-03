@@ -79,10 +79,10 @@ def create_toot_file():
     article = random_article()
     message = random_message(article)
     if message:
-        edit_file(article["doc"])
+        edit_file([article["doc"]])
         print(path, message)
         path.write_text(message)
-        return path
+        return [path]
 
 
 def extract_post(path):

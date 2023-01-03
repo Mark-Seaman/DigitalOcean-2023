@@ -37,6 +37,10 @@ def article_url(pub, doc):
     return f"{pub.domain}{pub.url}/{doc}"
 
 
+def create_history_file(date):
+    return render_to_string("history.md", {"day": f'{date.strftime("%A")}'})
+
+
 def create_sampler_file(date=None):
     def blog_daily_post(date):
         post = random_post("journey")
@@ -59,19 +63,26 @@ def create_sampler_file(date=None):
 
     if not date:
         date = localdate()
-    # day = f'{localdate().strftime("%a, %B %d")}'
     if date.strftime("%a") == "Sun":
         return blog_weekly_post(date)
     else:
         return blog_daily_post(date)
 
 
-def create_history_file(date):
-    return render_to_string("history.md", {"day": f'{date.strftime("%A")}'})
-
-
 def create_spirit_file(date):
     return render_to_string("spirit.md", {"day": f'{date.strftime("%B %-d")}'})
+
+
+def create_toot_file():
+    date = localdate()
+    path = Path("Documents/mastodon/mdseaman") / date.strftime("_%m%d")
+    article = random_article()
+    message = random_message(article)
+    if message:
+        edit_file([article["doc"]])
+        print(path, message)
+        path.write_text(message)
+        return [path]
 
 
 def extract_post(path):
@@ -86,17 +97,11 @@ def extract_message(path, url):
     paragraphs = article_paragraphs(text)
     if paragraphs:
         text = choice(paragraphs)
-        return text + f"... \n\nRead more - {url}"
+        text = text.replace("\n", " ")
+        return text + f"\n... \n\nRead more - {url}"
 
 
 def random_article(pub=None):
-    # def blog_data(pub, doc):
-    #     url = article_url(pub, doc)
-    #     doc_path = article_path(pub, doc)
-    #     title = document_title(doc_path)
-    #     text = document_body(read_file(doc_path))
-    #     return dict(pub=pub, url=url, doc=doc_path, title=title, text=text)
-
     pub = random_pub(pub)
     content = choice(list_content(pub))
     # return blog_data(pub, Path(content.path).name)
@@ -106,6 +111,13 @@ def random_article(pub=None):
     title = document_title(doc_path)
     text = document_body(read_file(doc_path))
     return dict(pub=pub, url=url, doc=doc_path, title=title, text=text)
+
+
+def random_message(article):
+    for i in range(5):
+        text = extract_message(article["doc"], article["url"])
+        if text:
+            return text
 
 
 def random_post(pub):
@@ -131,17 +143,10 @@ def random_pub(pub):
     return get_pub(pub)
 
 
-# def create_sampler_post(date=None):
-#     def write_post(date, text):
-#         path = Path("Documents/seamanslog.com/sampler")
-#         if not date:
-#             date = localdate()
-#         today = date.strftime("%m/%d") + ".md"
-#         post_path = path / today
-#         # day = f'{localdate().strftime("%a, %B %d")}'
-#         if not post_path.exists():
-#             post_path.write_text(text)
-#             return post_path
-
-#     text = create_sampler_file(date)
-#     write_post(date, text)
+def review_file(path):
+    if not path:
+        article = random_article()
+        path = article["doc"]
+    edit_file([path])
+    print(f"REVIEW: {article['doc']}")
+    return path

@@ -38,9 +38,9 @@ def build_pubs(pub=None):
     return log
 
 
-def create_index_files():
-    for pub in all_pubs():
-        create_pub_index(pub, get_pub_contents(pub))
+# def create_index_files():
+#     for pub in all_pubs():
+#         create_pub_index(pub, get_pub_contents(pub))
 
 
 def delete_pubs():

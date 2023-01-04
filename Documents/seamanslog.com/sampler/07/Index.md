@@ -32,5 +32,5 @@
 * [Tierra del Fuego](07-29.md)
 * [Gift of Today](07-30.md)
 * [Seaman&#x27;s Log Weekly](07-31.md)
-* [[Month 07-Index.md](url(path))](07-Index.md)
+* [[Month 07](07-Index.md)](07-Index.md)
  

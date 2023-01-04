@@ -32,5 +32,5 @@
 * [Viet Nam](08-29.md)
 * [Key Roles](08-30.md)
 * [Experience is Reality](08-31.md)
-* [[Month 08-Index.md](url(path))](08-Index.md)
+* [[Month 08](08-Index.md)](08-Index.md)
  

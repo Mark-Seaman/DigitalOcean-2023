@@ -11,63 +11,33 @@ from .models import Pub, Content
 
 
 def create_pub_index(pub, content_tree):
-    #     def create_index_files(pub, folders):
-    #         for f in folders:
-    #             print(f"FOLDER: {f}")
-    #             path = Path(pub.doc_path) / f
-    #             index = path / "Index.md"
-    #             if not index.exists():
-    #                 print(f"CREATE: {path}")
-    #                 create_index_file(path, index)
-    #                 # create_folder_index(path, index)
+    def url(path):
+        path = Path(path)
+        return f"{path.parent.name}-{path.name}"
 
-    def create_folder_index(folder):
-        print(f"Folder INDEX PUB: {folder['path']}")
-        return render_index(folder)
+    def link(doc):
+        return f"[{doc['title']}]({url(doc['path'])})"
 
-    #         text = "# Index of content\n\n"
-    #         for f in sorted(path.iterdir()):
-    #             d = path.name
-    #             text += f"* [{document_title(f)}]({d}-{f.name})\n"
-    #         index.write_text(text)
-    #         print(f"Index: {path} - {index}")
+    def folder_index_text(folder):
+        path = folder.get("path")
+        docs = []
+        for doc in folder.get("documents"):
+            docs.append(link(doc))
+        title = f"[Month {Path(path).parent.name}]({url(path)})"
+        data = dict(title=title, docs=docs)
+        return render_to_string("pub/pub_index.md", data)
 
-    def render_index(content):
-        d = Path(content["path"]).parent.name
+    def folder_index(folder):
+        text = folder_index_text(folder)
+        path = Path(folder.get("path"))
+        path.write_text(text)
 
-        # print(f'INDEX {content["path"]} {d}')
-        return render_to_string("pub/pub_index.md", content)
-
-    for folder in content_tree:
-        # folders = Content.objects.filter(blog=pub, doctype="folder").order_by("order")
-        # for folder in folders:
-        # print(f"INDEX PUB: {pub.name}, FOLDER {folder['title']}")
-        create_folder_index(folder)
-    # create_index_files(pub, folders)
+    for f in content_tree:
+        folder_index(f)
 
 
 def content_file(pub):
     return Path(pub.doc_path) / "_content.csv"
-
-
-# def create_index_file(path, index):
-#     text = "# Index of content\n\n"
-#     for f in sorted(path.iterdir()):
-#         d = path.name
-#         text += f"* [{document_title(f)}]({d}-{f.name})\n"
-#     index.write_text(text)
-#     # print(f"Index: {path} - {index}")
-
-
-# def create_pub_index(pub, content_tree):
-#     if pub.pub_type == "book" or pub.name == "tech":
-#         write_toc_index(pub, content_tree)
-#     if pub.name == "spiritual":
-#         p = Path(pub.doc_path) / "12"
-#         create_index_file(
-#             p,
-#             p / "Index.md",
-#         )
 
 
 def pub_contents(pub):

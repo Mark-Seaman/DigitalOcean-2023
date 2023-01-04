@@ -31,5 +31,5 @@
 * [Key Roles](06-28.md)
 * [Deep and Wide](06-29.md)
 * [Renewed Vows](06-30.md)
-* [[Month 06-Index.md](url(path))](06-Index.md)
+* [[Month 06](06-Index.md)](06-Index.md)
  

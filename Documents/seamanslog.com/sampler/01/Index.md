@@ -58,5 +58,5 @@
 * [20 Things I Have Learned](01-29.md)
 * [Seaman&#x27;s Log Weekly](01-30.md)
 * [Dad&#x27;s 90th Birthday](01-31.md)
-* [[Month 01-Index.md](url(path))](01-Index.md)
+* [[Month 01](01-Index.md)](01-Index.md)
  

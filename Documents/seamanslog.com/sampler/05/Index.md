@@ -32,5 +32,5 @@
 * [Seaman&#x27;s Log Weekly](05-29.md)
 * [Mr. Dawson - coolest teacher ever](05-30.md)
 * [Day on the Volcano](05-31.md)
-* [[Month 05-Index.md](url(path))](05-Index.md)
+* [[Month 05](05-Index.md)](05-Index.md)
  

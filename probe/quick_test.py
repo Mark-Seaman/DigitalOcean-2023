@@ -51,40 +51,6 @@ def pubs():
 
     pub = get_pub("sampler")
     print(pub_index(pub))
-    # print(import_pubs(pub))
-
-    # print(contents)
-    # #
-    #
-    # print(show_pub_content(p))
-    # display_toc()
-
-
-def pub_index(pub):
-    def url(path):
-        path = Path(path)
-        return f"{path.parent.name}-{path.name}"
-
-    def link(doc):
-        return f"[{doc['title']}]({url(doc['path'])})"
-
-    def folder_index_text(folder):
-        path = folder.get("path")
-        docs = []
-        for doc in folder.get("documents"):
-            docs.append(link(doc))
-        title = f"[Month {Path(path).parent.name}]({url(path)})"
-        data = dict(title=title, docs=docs)
-        return render_to_string("pub/pub_index.md", data)
-
-    def folder_index(folder):
-        text = folder_index_text(folder)
-        path = Path(folder.get("path"))
-        path.write_text(text)
-
-    folders = get_pub_contents(pub)
-    for f in folders:
-        print(folder_index(f))
 
 
 def test_pub_import():

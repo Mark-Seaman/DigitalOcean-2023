@@ -31,5 +31,5 @@
 * [To DO and To BE](04-28.md)
 * [Trying Something New](04-29.md)
 * [When the World Burned](04-30.md)
-* [[Month 04-Index.md](url(path))](04-Index.md)
+* [[Month 04](04-Index.md)](04-Index.md)
  

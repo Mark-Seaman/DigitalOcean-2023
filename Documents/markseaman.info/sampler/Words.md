@@ -1,7 +1,7 @@
 # Seaman's Log
 
 
-## [Index of content](/sampler/01-Index.md) - 122 words
+## [[Month 01](01-Index.md)](/sampler/01-Index.md) - 252 words
 
 * [Daily Meditation - January 30](/sampler/01-05.md) - 147 words
 * [Seaman's Log Weekly ](/sampler/01-01.md) - 61 words
@@ -60,9 +60,9 @@
 * [20 Things I Have Learned](/sampler/01-29.md) - 123 words
 * [Seaman's Log Weekly](/sampler/01-30.md) - 69 words
 * [Dad's 90th Birthday](/sampler/01-31.md) - 567 words
-* [Index of content](/sampler/01-Index.md) - 122 words
+* [[Month 01](01-Index.md)](/sampler/01-Index.md) - 252 words
 
-## [Index of content](/sampler/02-Index.md) - 129 words
+## [[Month 02](02-Index.md)](/sampler/02-Index.md) - 131 words
 
 * [Mauna Kea at First Light](/sampler/02-01.md) - 122 words
 * [Daily Meditations](/sampler/02-02.md) - 287 words
@@ -92,9 +92,9 @@
 * [A New Phase of Life](/sampler/02-26.md) - 126 words
 * [Seaman's Log Weekly](/sampler/02-27.md) - 65 words
 * [My Superpower](/sampler/02-28.md) - 176 words
-* [Index of content](/sampler/02-Index.md) - 129 words
+* [[Month 02](02-Index.md)](/sampler/02-Index.md) - 131 words
 
-## [Index of content](/sampler/03-Index.md) - 141 words
+## [[Month 03](03-Index.md)](/sampler/03-Index.md) - 143 words
 
 * [Seasons of Life](/sampler/03-01.md) - 109 words
 * [Twelve Days of Valentine](/sampler/03-02.md) - 93 words
@@ -127,9 +127,9 @@
 * [The Need to be King](/sampler/03-29.md) - 87 words
 * [Seasons](/sampler/03-30.md) - 76 words
 * [Writing My Story](/sampler/03-31.md) - 193 words
-* [Index of content](/sampler/03-Index.md) - 141 words
+* [[Month 03](03-Index.md)](/sampler/03-Index.md) - 143 words
 
-## [Index of content](/sampler/04-Index.md) - 130 words
+## [[Month 04](04-Index.md)](/sampler/04-Index.md) - 132 words
 
 * [The Cycles of History](/sampler/04-01.md) - 146 words
 * [Daily Meditations](/sampler/04-02.md) - 116 words
@@ -161,9 +161,9 @@
 * [To DO and To BE](/sampler/04-28.md) - 69 words
 * [Trying Something New](/sampler/04-29.md) - 92 words
 * [When the World Burned](/sampler/04-30.md) - 122 words
-* [Index of content](/sampler/04-Index.md) - 130 words
+* [[Month 04](04-Index.md)](/sampler/04-Index.md) - 132 words
 
-## [Index of content](/sampler/05-Index.md) - 136 words
+## [[Month 05](05-Index.md)](/sampler/05-Index.md) - 138 words
 
 * [Seaman's Log Weekly](/sampler/05-01.md) - 65 words
 * [The Internet (1990s)](/sampler/05-02.md) - 154 words
@@ -196,9 +196,9 @@
 * [Seaman's Log Weekly](/sampler/05-29.md) - 65 words
 * [Mr. Dawson - coolest teacher ever](/sampler/05-30.md) - 109 words
 * [Day on the Volcano](/sampler/05-31.md) - 128 words
-* [Index of content](/sampler/05-Index.md) - 136 words
+* [[Month 05](05-Index.md)](/sampler/05-Index.md) - 138 words
 
-## [Index of content](/sampler/06-Index.md) - 122 words
+## [[Month 06](06-Index.md)](/sampler/06-Index.md) - 124 words
 
 * [Pure Water](/sampler/06-01.md) - 150 words
 * [Experience is Reality](/sampler/06-02.md) - 126 words
@@ -230,9 +230,9 @@
 * [Key Roles](/sampler/06-28.md) - 267 words
 * [Deep and Wide](/sampler/06-29.md) - 147 words
 * [Renewed Vows](/sampler/06-30.md) - 124 words
-* [Index of content](/sampler/06-Index.md) - 122 words
+* [[Month 06](06-Index.md)](/sampler/06-Index.md) - 124 words
 
-## [Index of content](/sampler/07-Index.md) - 130 words
+## [[Month 07](07-Index.md)](/sampler/07-Index.md) - 132 words
 
 * [Trying Something New](/sampler/07-01.md) - 203 words
 * [Life and Liberty](/sampler/07-02.md) - 142 words
@@ -265,9 +265,9 @@
 * [Tierra del Fuego](/sampler/07-29.md) - 78 words
 * [Gift of Today](/sampler/07-30.md) - 128 words
 * [Seaman's Log Weekly](/sampler/07-31.md) - 60 words
-* [Index of content](/sampler/07-Index.md) - 130 words
+* [[Month 07](07-Index.md)](/sampler/07-Index.md) - 132 words
 
-## [Index of content](/sampler/08-Index.md) - 124 words
+## [[Month 08](08-Index.md)](/sampler/08-Index.md) - 126 words
 
 * [Day on the Volcano](/sampler/08-01.md) - 181 words
 * [Search for Meaning](/sampler/08-02.md) - 191 words
@@ -300,9 +300,9 @@
 * [Viet Nam](/sampler/08-29.md) - 171 words
 * [Key Roles](/sampler/08-30.md) - 267 words
 * [Experience is Reality](/sampler/08-31.md) - 69 words
-* [Index of content](/sampler/08-Index.md) - 124 words
+* [[Month 08](08-Index.md)](/sampler/08-Index.md) - 126 words
 
-## [Index of content](/sampler/09-Index.md) - 131 words
+## [[Month 09](09-Index.md)](/sampler/09-Index.md) - 133 words
 
 * [Transactions with Others](/sampler/09-01.md) - 161 words
 * [Solving the Riddle of Life](/sampler/09-02.md) - 110 words
@@ -333,9 +333,9 @@
 * [Intellectual Growth](/sampler/09-27.md) - 149 words
 * [My Kingdom Come](/sampler/09-28.md) - 258 words
 * [Seaman's Log - Fri, September 30](/sampler/09-30.md) - 14 words
-* [Index of content](/sampler/09-Index.md) - 131 words
+* [[Month 09](09-Index.md)](/sampler/09-Index.md) - 133 words
 
-## [Index of content](/sampler/10-Index.md) - 118 words
+## [[Month 10](10-Index.md)](/sampler/10-Index.md) - 135 words
 
 * [Seaman's Log - Sat, October 01](/sampler/10-01.md) - 14 words
 * [Seaman's Log Weekly](/sampler/10-02.md) - 57 words
@@ -368,7 +368,7 @@
 * [My Mission](/sampler/10-29.md) - 129 words
 * [Seaman's Log Weekly](/sampler/10-30.md) - 60 words
 * [Lasting legacy](/sampler/10-31.md) - 304 words
-* [Index of content](/sampler/10-Index.md) - 118 words
+* [[Month 10](10-Index.md)](/sampler/10-Index.md) - 135 words
 
 ## [Seaman's Log ](/sampler/Index.md) - 123 words
 
@@ -403,5 +403,72 @@
 * [Sunset](/sampler/11-29.md) - 233 words
 * [The Beast](/sampler/11-30.md) - 185 words
 
-## [Seaman's Log ](/sampler/Index.md) - 123 words
+## [[Month 11](11-Index.md)](/sampler/11-Index.md) - 124 words
+
+* [All Growth is Spiritual](/sampler/11-01.md) - 271 words
+* [Gift of Today](/sampler/11-02.md) - 128 words
+* [Ben Franklin](/sampler/11-03.md) - 268 words
+* [Traditional Publishing](/sampler/11-04.md) - 174 words
+* [Nurturing Roles](/sampler/11-05.md) - 236 words
+* [Seaman's Log Weekly](/sampler/11-06.md) - 62 words
+* [Quest for Belonging](/sampler/11-07.md) - 186 words
+* [Rule of Life](/sampler/11-08.md) - 200 words
+* [Give and Receive](/sampler/11-09.md) - 180 words
+* [Bible Translation](/sampler/11-10.md) - 913 words
+* [First Day of Class](/sampler/11-11.md) - 169 words
+* [Richest of Men](/sampler/11-12.md) - 275 words
+* [Seaman's Log Weekly ](/sampler/11-13.md) - 61 words
+* [I Have a Dream](/sampler/11-14.md) - 150 words
+* [The Magic of Flagstaff](/sampler/11-15.md) - 241 words
+* [Search for Meaning](/sampler/11-16.md) - 195 words
+* [My Work Day](/sampler/11-17.md) - 96 words
+* [Principles of Happiness](/sampler/11-18.md) - 589 words
+* [7,666 Shopping Days Left ](/sampler/11-19.md) - 131 words
+* [Seaman's Log Weekly ](/sampler/11-20.md) - 69 words
+* [Emotional Health](/sampler/11-21.md) - 145 words
+* [Pure Water](/sampler/11-22.md) - 148 words
+* [Personal Transformation](/sampler/11-23.md) - 109 words
+* [Gratitude Changed My Life](/sampler/11-24.md) - 78 words
+* [Developing a Rule of Life](/sampler/11-25.md) - 173 words
+* [Micro-publishing](/sampler/11-26.md) - 151 words
+* [Seaman's Log Weekly ](/sampler/11-27.md) - 63 words
+* [Seasons of Life](/sampler/11-28.md) - 79 words
+* [Sunset](/sampler/11-29.md) - 233 words
+* [The Beast](/sampler/11-30.md) - 185 words
+
+## [[Month 12](12-Index.md)](/sampler/12-Index.md) - 131 words
+
+* [What is a Mother?](/sampler/12-01.md) - 160 words
+* [Key Role of Technology](/sampler/12-02.md) - 163 words
+* [What makes an adult?](/sampler/12-03.md) - 189 words
+* [Seaman's Log Weekly ](/sampler/12-04.md) - 65 words
+* [Days We Live](/sampler/12-05.md) - 152 words
+* [When the Church Goes Dark](/sampler/12-06.md) - 159 words
+* [Writing My Story](/sampler/12-07.md) - 187 words
+* [Spiritual Fruit](/sampler/12-08.md) - 148 words
+* [Transactions with Others](/sampler/12-09.md) - 225 words
+* [Edge of Reality](/sampler/12-10.md) - 167 words
+* [Seaman's Log Weekly ](/sampler/12-11.md) - 66 words
+* [Lord of the Amazon](/sampler/12-12.md) - 138 words
+* [I Don't Believe It](/sampler/12-13.md) - 127 words
+* [Culture](/sampler/12-14.md) - 162 words
+* [The First Ones](/sampler/12-15.md) - 205 words
+* [Travel Stories](/sampler/12-16.md) - 256 words
+* [Daily Writing](/sampler/12-17.md) - 191 words
+* [Seaman's Log Weekly ](/sampler/12-18.md) - 62 words
+* [Deep and Wide](/sampler/12-19.md) - 145 words
+* [Richest of Men](/sampler/12-20.md) - 268 words
+* [Winter Season - Old Age (ages 60-80)](/sampler/12-21.md) - 315 words
+* [Eric Curtis](/sampler/12-22.md) - 161 words
+* [John Wycliffe](/sampler/12-23.md) - 234 words
+* [The Season](/sampler/12-24.md) - 194 words
+* [Seaman's Log Weekly ](/sampler/12-25.md) - 66 words
+* [House Building](/sampler/12-26.md) - 102 words
+* [Red Rocks Crisis](/sampler/12-27.md) - 172 words
+* [True Confessions](/sampler/12-28.md) - 241 words
+* [Small Works](/sampler/12-29.md) - 210 words
+* [Moving to Flagstaff](/sampler/12-30.md) - 292 words
+* [In Danger](/sampler/12-31.md) - 193 words
+
+## [[Month sampler](sampler-Index.md)](/sampler/Index.md) - 4 words
 

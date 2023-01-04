@@ -29,5 +29,4 @@
 * [A New Phase of Life](02-26.md)
 * [Seaman&#x27;s Log Weekly](02-27.md)
 * [My Superpower](02-28.md)
-* [Month 02](02-Index.md)
  

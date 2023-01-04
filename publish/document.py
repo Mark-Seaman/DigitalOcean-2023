@@ -78,9 +78,10 @@ def get_document(path, image_path=None):
     md = Path(f"{path}.md")
     if md.exists():
         return get_document(md, image_path)
-    title = "Document not found"
-    html = f"<h1>Missing Document</h1><p>This document could not be found.  Sorry!</p><p>Document not found - {path}</p>"
-    return dict(title=title, html=html, words=0)
+    else:
+        title = "Document not found"
+        html = f"<h1>Missing Document</h1><p>This document could not be found.  Sorry!</p><p>Document not found - {path}</p>"
+        return dict(title=title, html=html, words=0)
 
 
 def title(text):

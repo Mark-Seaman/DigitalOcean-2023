@@ -30,5 +30,4 @@
 * [Intellectual Growth](09-27.md)
 * [My Kingdom Come](09-28.md)
 * [Seaman&#x27;s Log - Fri, September 30](09-30.md)
-* [Month 09](09-Index.md)
  

@@ -32,5 +32,4 @@
 * [My Mission](10-29.md)
 * [Seaman&#x27;s Log Weekly](10-30.md)
 * [Lasting legacy](10-31.md)
-* [Month 10](10-Index.md)
  

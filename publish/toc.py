@@ -22,14 +22,15 @@ def create_pub_index(pub, content_tree):
         path = folder.get("path")
         docs = []
         for doc in documents:
-            docs.append(link(doc))
+            if not doc["path"].endswith("Index.md"):
+                # print(doc)
+                docs.append(link(doc))
         title = f"Month {Path(path).parent.name}"
         data = dict(title=title, docs=docs)
         return render_to_string("pub/pub_index.md", data)
 
     def top_index_text(content_tree):
         docs = [link(f) for f in content_tree]
-        # docs = [f"[{f['title']}]({url(f['path'])})" for f in content_tree]
         data = dict(title="Table of Contents", docs=docs)
         return render_to_string("pub/pub_index.md", data)
 
@@ -40,7 +41,7 @@ def create_pub_index(pub, content_tree):
 
     for f in content_tree:
         folder_index(f)
-    print(top_index_text(content_tree))
+    top_index_text(content_tree)
 
 
 def content_file(pub):
@@ -97,17 +98,21 @@ def write_toc_index(pub, content_tree):
 
 
 def write_content_csv(pub):
-    content = ""
+    def is_markdown(path):
+        x = str(path)
+        return path.is_file() and x.endswith(".md") and not x.endswith("Index.md")
+
+    content = "Index.md,0\n"
     folder = Path(pub.doc_path)
     for i, d in enumerate(sorted(folder.iterdir())):
         if d.is_file():
-            print(d)
-            if str(d).endswith(".md"):
+            if is_markdown(d):
+                # print(d)
                 content += f"{d.name},{i+1}\n"
         elif d.is_dir():
             content += f"{d.name}/Index.md,{i+1}\n"
             for j, f in enumerate(sorted(d.iterdir())):
-                print(f)
-                if str(f).endswith(".md"):
+                if is_markdown(f):
+                    # print(f)
                     content += f"{d.name}/{f.name},{i+1},{j+1}\n"
     Path(content_file(pub)).write_text(content)

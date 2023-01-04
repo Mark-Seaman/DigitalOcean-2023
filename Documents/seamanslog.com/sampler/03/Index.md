@@ -32,5 +32,4 @@
 * [The Need to be King](03-29.md)
 * [Seasons](03-30.md)
 * [Writing My Story](03-31.md)
-* [Month 03](03-Index.md)
  

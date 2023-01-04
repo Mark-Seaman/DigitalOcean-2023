@@ -1,4 +1,4 @@
-# [Month sampler](sampler-Index.md)
+# Month sampler
 
 
  

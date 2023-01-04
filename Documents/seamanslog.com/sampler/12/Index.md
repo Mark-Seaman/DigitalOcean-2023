@@ -1,4 +1,4 @@
-# [Month 12](12-Index.md)
+# Month 12
 
 
 * [What is a Mother?](12-01.md)

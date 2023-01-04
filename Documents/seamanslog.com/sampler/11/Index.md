@@ -1,4 +1,4 @@
-# [Month 11](11-Index.md)
+# Month 11
 
 
 * [All Growth is Spiritual](11-01.md)

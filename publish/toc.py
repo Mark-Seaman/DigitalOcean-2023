@@ -18,22 +18,29 @@ def create_pub_index(pub, content_tree):
     def link(doc):
         return f"[{doc['title']}]({url(doc['path'])})"
 
-    def folder_index_text(folder):
+    def folder_index_text(folder, documents):
         path = folder.get("path")
         docs = []
-        for doc in folder.get("documents"):
+        for doc in documents:
             docs.append(link(doc))
-        title = f"[Month {Path(path).parent.name}]({url(path)})"
+        title = f"Month {Path(path).parent.name}"
         data = dict(title=title, docs=docs)
         return render_to_string("pub/pub_index.md", data)
 
+    def top_index_text(content_tree):
+        docs = [link(f) for f in content_tree]
+        # docs = [f"[{f['title']}]({url(f['path'])})" for f in content_tree]
+        data = dict(title="Table of Contents", docs=docs)
+        return render_to_string("pub/pub_index.md", data)
+
     def folder_index(folder):
-        text = folder_index_text(folder)
+        text = folder_index_text(folder, folder.get("documents"))
         path = Path(folder.get("path"))
         path.write_text(text)
 
     for f in content_tree:
         folder_index(f)
+    print(top_index_text(content_tree))
 
 
 def content_file(pub):

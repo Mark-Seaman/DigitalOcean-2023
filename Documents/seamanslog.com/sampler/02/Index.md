@@ -1,4 +1,4 @@
-# [Month 02](02-Index.md)
+# Month 02
 
 
 * [Mauna Kea at First Light](02-01.md)
@@ -29,5 +29,5 @@
 * [A New Phase of Life](02-26.md)
 * [Seaman&#x27;s Log Weekly](02-27.md)
 * [My Superpower](02-28.md)
-* [[Month 02](02-Index.md)](02-Index.md)
+* [Month 02](02-Index.md)
  

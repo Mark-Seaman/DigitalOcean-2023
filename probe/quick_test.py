@@ -4,7 +4,6 @@ from pathlib import Path
 from re import sub
 
 from course.course import get_course, weekly_content
-from publish.import_export import import_pub
 from publish.models import Content, Pub
 from publish.pub import (
     build_pubs,
@@ -49,8 +48,8 @@ def pubs():
 
     build_pubs()
 
-    pub = get_pub("sampler")
-    print(pub_index(pub))
+    # pub = get_pub("sampler")
+    # print(create_pub_index(pub))
 
 
 def test_pub_import():

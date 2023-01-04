@@ -30,10 +30,9 @@ def all_pubs():
 
 
 def build_pubs(pub=None):
-    # delete_pubs()
+    delete_pubs()
     log = create_pubs()
     import_pubs(pub)
-    # create_index_files(pub)
     save_data()
     return log
 

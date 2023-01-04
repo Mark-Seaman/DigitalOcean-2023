@@ -13,7 +13,7 @@
         "domain": "https://seamansguide.com",
         "url": "/journey",
         "logo": null,
-        "words": 44400,
+        "words": 44394,
         "cover_image": "/static/images/seamansguide.com/journey/journey-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book"
@@ -153,7 +153,7 @@
         "domain": null,
         "url": "/sampler",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 41778,
+        "words": 61396,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog"
@@ -173,7 +173,7 @@
         "domain": null,
         "url": "/spiritual",
         "logo": null,
-        "words": 48012,
+        "words": 48011,
         "cover_image": "/static/images/spiritual-things.org/spiritual-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog"
@@ -327,7 +327,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/journey/Grandfather.md",
         "folder": 1,
-        "words": 1207
+        "words": 1201
     }
 },
 {
@@ -8595,7 +8595,7 @@
         "doctype": "chapter",
         "path": "Documents/spiritual-things.org/daily/01/04.md",
         "folder": 2,
-        "words": 235
+        "words": 234
     }
 },
 {

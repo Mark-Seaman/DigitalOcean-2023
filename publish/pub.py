@@ -29,10 +29,10 @@ def all_pubs():
     return [p for p in Pub.objects.all()]
 
 
-def build_pubs():
+def build_pubs(pub=None):
     # delete_pubs()
     log = create_pubs()
-    import_pubs()
+    import_pubs(pub)
     create_index_files()
     save_data()
     return log
@@ -84,9 +84,10 @@ def get_pub_contents(pub):
     return folders
 
 
-def import_pubs():
+def import_pubs(pub=None):
     text = ""
-    for pub in all_pubs():
+    pubs = [pub] if pub else all_pubs()
+    for pub in pubs:
         import_pub(pub)
         text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
     return text
@@ -127,7 +128,7 @@ def random_doc_page(path):
 
 
 def show_pub_content(pub):
-    text = f'PUB CONTENT - {pub.title}\n\n'
+    text = f"PUB CONTENT - {pub.title}\n\n"
     folders = get_pub_contents(pub)
     for f in folders:
         text += f"\nFOLDER {f.get('path')}\n"
@@ -168,6 +169,10 @@ def select_blog_doc(host, blog, doc):
         kwargs["menu"] = read_json(menu)["menu"]
 
     return kwargs
+
+
+def show_pub_json():
+    return text_join([j.read_text() for j in Path("static/js").iterdir()])
 
 
 def show_pubs():

@@ -4,11 +4,24 @@ from pathlib import Path
 
 from course.course import get_course, weekly_content
 from publish.import_export import import_pub
-from publish.pub import build_pubs, get_pub, get_pub_contents, show_pub_content, show_pubs
 from publish.models import Content, Pub
-from course.course import accordion_data
+from publish.pub import (
+    build_pubs,
+    get_pub,
+    get_pub_contents,
+    import_pubs,
+    show_pub_content,
+    show_pubs,
+    list_pubs,
+    show_pub_json,
+)
 from publish.seamanslog import random_post
-from publish.toc import content_file, read_content_csv, table_of_contents, write_content_csv
+from publish.toc import (
+    content_file,
+    read_content_csv,
+    table_of_contents,
+    write_content_csv,
+)
 
 import toot
 
@@ -32,15 +45,32 @@ def todo():
 
 def pubs():
     print("Build Pubs")
+    pub = get_pub("sampler")
+    print(import_pubs(pub))
 
-    # import_pub(p)
-    # contents = get_pub_contents(p)
-    # create_sampler_index()
+    # build_pubs()
+
     # print(contents)
     # #
-    # # build_pubs()
+    #
     # print(show_pub_content(p))
-    display_toc()
+    # display_toc()
+
+
+def test_pub_import():
+    return build_pubs()
+
+
+def test_pub_toc():
+    return list_pubs()
+
+
+def test_pub_show():
+    return show_pubs()
+
+
+def test_pub_json():
+    return show_pub_json()
 
 
 def display_toc():

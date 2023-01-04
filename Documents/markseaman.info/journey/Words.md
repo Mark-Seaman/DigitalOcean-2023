@@ -10,7 +10,7 @@
 ## [Part 1 - The World Before Me](/journey/Part1.md) - 23 words
 
 * [My People](/journey/MyPeople.md) - 677 words
-* [My Grandfather](/journey/Grandfather.md) - 1207 words
+* [My Grandfather](/journey/Grandfather.md) - 1201 words
 * [Under the Mushroom Cloud](/journey/MushroomCloud.md) - 1066 words
 
 ## [Part 2 - The Childhood Years](/journey/Part2.md) - 24 words

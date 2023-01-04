@@ -64,7 +64,7 @@ def document_html(text):
 
 def document_title(path):
     if not exists(path):
-        return "Document not found, " + path
+        return f"Document not found, {path}"
     return text_lines(no_blank_lines(read_file(path)))[0][2:]
 
 
@@ -80,7 +80,7 @@ def get_document(path, image_path=None):
         return get_document(md, image_path)
     title = "Document not found"
     html = f"<h1>Missing Document</h1><p>This document could not be found.  Sorry!</p><p>Document not found - {path}</p>"
-    return dict(title=title, html=html, words=words)
+    return dict(title=title, html=html, words=0)
 
 
 def title(text):

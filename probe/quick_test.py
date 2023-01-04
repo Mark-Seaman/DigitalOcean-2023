@@ -1,6 +1,7 @@
-from re import sub
+from django.template.loader import render_to_string
 from django.utils.timezone import make_aware, localdate
 from pathlib import Path
+from re import sub
 
 from course.course import get_course, weekly_content
 from publish.import_export import import_pub
@@ -45,16 +46,45 @@ def todo():
 
 def pubs():
     print("Build Pubs")
-    pub = get_pub("sampler")
-    print(import_pubs(pub))
 
-    # build_pubs()
+    build_pubs()
+
+    pub = get_pub("sampler")
+    print(pub_index(pub))
+    # print(import_pubs(pub))
 
     # print(contents)
     # #
     #
     # print(show_pub_content(p))
     # display_toc()
+
+
+def pub_index(pub):
+    def url(path):
+        path = Path(path)
+        return f"{path.parent.name}-{path.name}"
+
+    def link(doc):
+        return f"[{doc['title']}]({url(doc['path'])})"
+
+    def folder_index_text(folder):
+        path = folder.get("path")
+        docs = []
+        for doc in folder.get("documents"):
+            docs.append(link(doc))
+        title = f"[Month {Path(path).parent.name}]({url(path)})"
+        data = dict(title=title, docs=docs)
+        return render_to_string("pub/pub_index.md", data)
+
+    def folder_index(folder):
+        text = folder_index_text(folder)
+        path = Path(folder.get("path"))
+        path.write_text(text)
+
+    folders = get_pub_contents(pub)
+    for f in folders:
+        print(folder_index(f))
 
 
 def test_pub_import():

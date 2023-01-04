@@ -1,3 +1,4 @@
+from django.template.loader import render_to_string
 from json import loads
 from genericpath import isdir, isfile
 from os import system
@@ -9,51 +10,64 @@ from .text import text_join
 from .models import Pub, Content
 
 
-# def build_index_files(pub):
-#     def create_index_files(pub, folders):
-#         for f in folders:
-#             print(f"FOLDER: {f}")
-#             path = Path(pub.doc_path) / f
-#             index = path / "Index.md"
-#             if not index.exists():
-#                 print(f"CREATE: {path}")
-#                 create_index_file(path, index)
-#                 # create_folder_index(path, index)
+def create_pub_index(pub, content_tree):
+    #     def create_index_files(pub, folders):
+    #         for f in folders:
+    #             print(f"FOLDER: {f}")
+    #             path = Path(pub.doc_path) / f
+    #             index = path / "Index.md"
+    #             if not index.exists():
+    #                 print(f"CREATE: {path}")
+    #                 create_index_file(path, index)
+    #                 # create_folder_index(path, index)
 
-#     def create_folder_index(path, index):
-#         text = "# Index of content\n\n"
-#         for f in sorted(path.iterdir()):
-#             d = path.name
-#             text += f"* [{document_title(f)}]({d}-{f.name})\n"
-#         index.write_text(text)
-#         print(f"Index: {path} - {index}")
+    def create_folder_index(folder):
+        print(f"Folder INDEX PUB: {folder['path']}")
+        return render_index(folder)
 
-#     folders = Content.objects.filter(blog=pub, doctype="folder").order_by("order")
-#     create_index_files(pub, folders)
+    #         text = "# Index of content\n\n"
+    #         for f in sorted(path.iterdir()):
+    #             d = path.name
+    #             text += f"* [{document_title(f)}]({d}-{f.name})\n"
+    #         index.write_text(text)
+    #         print(f"Index: {path} - {index}")
+
+    def render_index(content):
+        d = Path(content["path"]).parent.name
+
+        # print(f'INDEX {content["path"]} {d}')
+        return render_to_string("pub/pub_index.md", content)
+
+    for folder in content_tree:
+        # folders = Content.objects.filter(blog=pub, doctype="folder").order_by("order")
+        # for folder in folders:
+        # print(f"INDEX PUB: {pub.name}, FOLDER {folder['title']}")
+        create_folder_index(folder)
+    # create_index_files(pub, folders)
 
 
 def content_file(pub):
     return Path(pub.doc_path) / "_content.csv"
 
 
-def create_index_file(path, index):
-    text = "# Index of content\n\n"
-    for f in sorted(path.iterdir()):
-        d = path.name
-        text += f"* [{document_title(f)}]({d}-{f.name})\n"
-    index.write_text(text)
-    # print(f"Index: {path} - {index}")
+# def create_index_file(path, index):
+#     text = "# Index of content\n\n"
+#     for f in sorted(path.iterdir()):
+#         d = path.name
+#         text += f"* [{document_title(f)}]({d}-{f.name})\n"
+#     index.write_text(text)
+#     # print(f"Index: {path} - {index}")
 
 
-def create_pub_index(pub, content_tree):
-    if pub.pub_type == "book" or pub.name == "tech":
-        write_toc_index(pub, content_tree)
-    if pub.name == "spiritual":
-        p = Path(pub.doc_path) / "12"
-        create_index_file(
-            p,
-            p / "Index.md",
-        )
+# def create_pub_index(pub, content_tree):
+#     if pub.pub_type == "book" or pub.name == "tech":
+#         write_toc_index(pub, content_tree)
+#     if pub.name == "spiritual":
+#         p = Path(pub.doc_path) / "12"
+#         create_index_file(
+#             p,
+#             p / "Index.md",
+#         )
 
 
 def pub_contents(pub):

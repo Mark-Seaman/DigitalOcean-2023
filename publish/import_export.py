@@ -69,15 +69,15 @@ def create_pubs():
 def import_pub(pub):
     def set_content(pub, doctype, path, folder, order):
         path = Path(pub.doc_path) / path
-        if path.exists() and path.is_file():
-            x = Content.objects.get_or_create(
-                blog=pub, doctype=doctype, order=order, path=path
-            )[0]
-            doc = get_document(path)
-            x.folder = folder
-            x.title = document_title(path)
-            x.words = doc["words"]
-            x.save()
+        # if path.exists() and path.is_file():
+        x = Content.objects.get_or_create(
+            blog=pub, doctype=doctype, order=order, path=path
+        )[0]
+        doc = get_document(path)
+        x.folder = folder
+        x.title = document_title(path)
+        x.words = doc["words"]
+        x.save()
 
     def import_content(pub, index):
         content = read_csv_file(index)

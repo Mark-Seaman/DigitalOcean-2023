@@ -33,7 +33,7 @@ def build_pubs(pub=None):
     # delete_pubs()
     log = create_pubs()
     import_pubs(pub)
-    create_index_files()
+    # create_index_files(pub)
     save_data()
     return log
 
@@ -89,6 +89,9 @@ def import_pubs(pub=None):
     pubs = [pub] if pub else all_pubs()
     for pub in pubs:
         import_pub(pub)
+        auto_index = pub.name == "sampler"
+        if auto_index:
+            create_pub_index(pub, get_pub_contents(pub))
         text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
     return text
 

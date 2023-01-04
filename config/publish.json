@@ -12647,11 +12647,11 @@
     "fields": {
         "blog": 1067,
         "order": 1,
-        "title": "Index of content",
+        "title": "[Month 01-Index.md](url(path))",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/01/Index.md",
         "folder": 0,
-        "words": 122
+        "words": 255
     }
 },
 {
@@ -13050,11 +13050,11 @@
     "fields": {
         "blog": 1067,
         "order": 31,
-        "title": "Index of content",
+        "title": "[Month 01-Index.md](url(path))",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/01/Index.md",
         "folder": 1,
-        "words": 122
+        "words": 255
     }
 },
 {
@@ -13063,11 +13063,11 @@
     "fields": {
         "blog": 1067,
         "order": 2,
-        "title": "Index of content",
+        "title": "[Month 02-Index.md](url(path))",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/02/Index.md",
         "folder": 0,
-        "words": 129
+        "words": 134
     }
 },
 {
@@ -13076,11 +13076,11 @@
     "fields": {
         "blog": 1067,
         "order": 29,
-        "title": "Index of content",
+        "title": "[Month 02-Index.md](url(path))",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/02/Index.md",
         "folder": 2,
-        "words": 129
+        "words": 134
     }
 },
 {
@@ -13089,11 +13089,11 @@
     "fields": {
         "blog": 1067,
         "order": 3,
-        "title": "Index of content",
+        "title": "[Month 03-Index.md](url(path))",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/03/Index.md",
         "folder": 0,
-        "words": 141
+        "words": 146
     }
 },
 {
@@ -13102,11 +13102,11 @@
     "fields": {
         "blog": 1067,
         "order": 32,
-        "title": "Index of content",
+        "title": "[Month 03-Index.md](url(path))",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/03/Index.md",
         "folder": 3,
-        "words": 141
+        "words": 146
     }
 },
 {
@@ -13115,11 +13115,11 @@
     "fields": {
         "blog": 1067,
         "order": 4,
-        "title": "Index of content",
+        "title": "[Month 04-Index.md](url(path))",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/04/Index.md",
         "folder": 0,
-        "words": 130
+        "words": 135
     }
 },
 {
@@ -13128,11 +13128,11 @@
     "fields": {
         "blog": 1067,
         "order": 31,
-        "title": "Index of content",
+        "title": "[Month 04-Index.md](url(path))",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/04/Index.md",
         "folder": 4,
-        "words": 130
+        "words": 135
     }
 },
 {
@@ -13141,11 +13141,11 @@
     "fields": {
         "blog": 1067,
         "order": 5,
-        "title": "Index of content",
+        "title": "[Month 05-Index.md](url(path))",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/05/Index.md",
         "folder": 0,
-        "words": 136
+        "words": 141
     }
 },
 {
@@ -13154,11 +13154,11 @@
     "fields": {
         "blog": 1067,
         "order": 32,
-        "title": "Index of content",
+        "title": "[Month 05-Index.md](url(path))",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/05/Index.md",
         "folder": 5,
-        "words": 136
+        "words": 141
     }
 },
 {
@@ -13167,11 +13167,11 @@
     "fields": {
         "blog": 1067,
         "order": 6,
-        "title": "Index of content",
+        "title": "[Month 06-Index.md](url(path))",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/06/Index.md",
         "folder": 0,
-        "words": 122
+        "words": 127
     }
 },
 {
@@ -13180,11 +13180,11 @@
     "fields": {
         "blog": 1067,
         "order": 31,
-        "title": "Index of content",
+        "title": "[Month 06-Index.md](url(path))",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/06/Index.md",
         "folder": 6,
-        "words": 122
+        "words": 127
     }
 },
 {
@@ -13193,11 +13193,11 @@
     "fields": {
         "blog": 1067,
         "order": 7,
-        "title": "Index of content",
+        "title": "[Month 07-Index.md](url(path))",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/07/Index.md",
         "folder": 0,
-        "words": 130
+        "words": 135
     }
 },
 {
@@ -13206,11 +13206,11 @@
     "fields": {
         "blog": 1067,
         "order": 32,
-        "title": "Index of content",
+        "title": "[Month 07-Index.md](url(path))",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/07/Index.md",
         "folder": 7,
-        "words": 130
+        "words": 135
     }
 },
 {
@@ -13219,11 +13219,11 @@
     "fields": {
         "blog": 1067,
         "order": 8,
-        "title": "Index of content",
+        "title": "[Month 08-Index.md](url(path))",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/08/Index.md",
         "folder": 0,
-        "words": 124
+        "words": 129
     }
 },
 {
@@ -13232,11 +13232,11 @@
     "fields": {
         "blog": 1067,
         "order": 32,
-        "title": "Index of content",
+        "title": "[Month 08-Index.md](url(path))",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/08/Index.md",
         "folder": 8,
-        "words": 124
+        "words": 129
     }
 },
 {
@@ -13245,11 +13245,11 @@
     "fields": {
         "blog": 1067,
         "order": 9,
-        "title": "Index of content",
+        "title": "[Month 09-Index.md](url(path))",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/09/Index.md",
         "folder": 0,
-        "words": 131
+        "words": 136
     }
 },
 {
@@ -13258,11 +13258,11 @@
     "fields": {
         "blog": 1067,
         "order": 30,
-        "title": "Index of content",
+        "title": "[Month 09-Index.md](url(path))",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/09/Index.md",
         "folder": 9,
-        "words": 131
+        "words": 136
     }
 },
 {
@@ -13271,11 +13271,11 @@
     "fields": {
         "blog": 1067,
         "order": 10,
-        "title": "Index of content",
+        "title": "[Month 10-Index.md](url(path))",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/10/Index.md",
         "folder": 0,
-        "words": 118
+        "words": 138
     }
 },
 {
@@ -13362,11 +13362,11 @@
     "fields": {
         "blog": 1067,
         "order": 32,
-        "title": "Index of content",
+        "title": "[Month 10-Index.md](url(path))",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/10/Index.md",
         "folder": 10,
-        "words": 118
+        "words": 138
     }
 },
 {
@@ -14168,11 +14168,76 @@
     "fields": {
         "blog": 1067,
         "order": 13,
-        "title": "Seaman's Log ",
+        "title": "[Month sampler-Index.md](url(path))",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/Index.md",
         "folder": 0,
-        "words": 123
+        "words": 4
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 71770,
+    "fields": {
+        "blog": 1065,
+        "order": 1,
+        "title": "Document not found, Documents/shrinking-world.com/blog/training/ContactMe.md",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/training/ContactMe.md",
+        "folder": 2,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 71771,
+    "fields": {
+        "blog": 1065,
+        "order": 2,
+        "title": "Document not found, Documents/shrinking-world.com/blog/training/History.md",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/training/History.md",
+        "folder": 2,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 71772,
+    "fields": {
+        "blog": 1065,
+        "order": 5,
+        "title": "Document not found, Documents/shrinking-world.com/blog/tech/ShrinkingWorld.md",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/tech/ShrinkingWorld.md",
+        "folder": 4,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 71773,
+    "fields": {
+        "blog": 1067,
+        "order": 11,
+        "title": "[Month 11-Index.md](url(path))",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/sampler/11/Index.md",
+        "folder": 0,
+        "words": 124
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 71774,
+    "fields": {
+        "blog": 1067,
+        "order": 12,
+        "title": "[Month 12-Index.md](url(path))",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/sampler/12/Index.md",
+        "folder": 0,
+        "words": 131
     }
 }
 ]

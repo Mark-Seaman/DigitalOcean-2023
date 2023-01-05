@@ -17,6 +17,9 @@ class Pub(models.Model):
     cover_image = models.CharField(max_length=200, null=True, blank=True)
     menu = models.TextField(null=True, blank=True)
     pub_type = models.CharField(max_length=20, default="blog")
+    auto_remove = models.BooleanField(default=False)
+    auto_contents = models.BooleanField(default=False)
+    auto_index = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.name} - {self.title}"

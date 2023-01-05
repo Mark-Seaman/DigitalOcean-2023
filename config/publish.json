@@ -16,7 +16,10 @@
         "words": 44394,
         "cover_image": "/static/images/seamansguide.com/journey/journey-cover-400.png",
         "menu": "static/js/nav_blog.json",
-        "pub_type": "book"
+        "pub_type": "book",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false
     }
 },
 {
@@ -36,7 +39,10 @@
         "words": 15388,
         "cover_image": "/static/images/seamansguide.com/poem/poem-cover-400.png",
         "menu": "static/js/nav_blog.json",
-        "pub_type": "book"
+        "pub_type": "book",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false
     }
 },
 {
@@ -56,7 +62,10 @@
         "words": 52828,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
-        "pub_type": "book"
+        "pub_type": "book",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false
     }
 },
 {
@@ -76,7 +85,10 @@
         "words": 83682,
         "cover_image": "/static/images/seamansguide.com/leverage/Leverage_Principle.1000.jpg",
         "menu": "static/js/nav_sw.json",
-        "pub_type": "book"
+        "pub_type": "book",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false
     }
 },
 {
@@ -96,7 +108,10 @@
         "words": 49972,
         "cover_image": "/static/images/seamansguide.com/webapps/PythonWebApps.jpg",
         "menu": "static/js/nav_sw.json",
-        "pub_type": "book"
+        "pub_type": "book",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false
     }
 },
 {
@@ -116,7 +131,10 @@
         "words": 15632,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_sw.json",
-        "pub_type": "blog"
+        "pub_type": "blog",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false
     }
 },
 {
@@ -136,7 +154,10 @@
         "words": 5176,
         "cover_image": "/static/images/seamanslog.com/write-cover-400.png",
         "menu": "static/js/nav_blog.json",
-        "pub_type": "blog"
+        "pub_type": "blog",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false
     }
 },
 {
@@ -156,7 +177,10 @@
         "words": 62323,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
-        "pub_type": "blog"
+        "pub_type": "blog",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false
     }
 },
 {
@@ -176,7 +200,10 @@
         "words": 48011,
         "cover_image": "/static/images/spiritual-things.org/spiritual-cover-400.png",
         "menu": "static/js/nav_blog.json",
-        "pub_type": "blog"
+        "pub_type": "blog",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false
     }
 },
 {
@@ -196,7 +223,10 @@
         "words": 1099,
         "cover_image": "/static/images/MarkSeaman.org/mark-cover-400.png",
         "menu": "static/js/nav_blog.json",
-        "pub_type": "blog"
+        "pub_type": "blog",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false
     }
 },
 {
@@ -216,7 +246,10 @@
         "words": 2682,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
-        "pub_type": "blog"
+        "pub_type": "blog",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false
     }
 },
 {
@@ -236,7 +269,10 @@
         "words": 63,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
-        "pub_type": "private"
+        "pub_type": "private",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false
     }
 },
 {

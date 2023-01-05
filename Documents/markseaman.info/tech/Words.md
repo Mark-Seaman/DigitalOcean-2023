@@ -11,8 +11,8 @@
 
 ## [Shrinking World Training](/tech/training-Index.md) - 50 words
 
-* [Document not found, Documents/shrinking-world.com/blog/training/ContactMe.md](/tech/training-ContactMe.md)0
-* [Document not found, Documents/shrinking-world.com/blog/training/History.md](/tech/training-History.md)0
+* [Document not found](/tech/training-ContactMe.md)0
+* [Document not found](/tech/training-History.md)0
 * [Building Python Web Apps](/tech/training-PythonWebApps.md) - 1015 words
 * [Shrinking World Training Courses](/tech/training-TrainingCourses.md) - 106 words
 * [Web Development Video Courses](/tech/training-VideoCourses.md) - 144 words
@@ -39,7 +39,7 @@
 * [The Internet (1990s)](/tech/tech-Internet.md) - 1628 words
 * [The Personal Computer (1980s)](/tech/tech-PersonalComputer.md) - 1581 words
 * [When will you Retire?](/tech/tech-Retirement.md) - 910 words
-* [Document not found, Documents/shrinking-world.com/blog/tech/ShrinkingWorld.md](/tech/tech-ShrinkingWorld.md)0
+* [Document not found](/tech/tech-ShrinkingWorld.md)0
 * [Discovering Teaching](/tech/tech-Teaching.md) - 1417 words
 * [Technology Innovations](/tech/tech-TechTimeline.md) - 359 words
 * [Shaped by Technology](/tech/tech-Technology.md) - 541 words

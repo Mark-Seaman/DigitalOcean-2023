@@ -30,9 +30,12 @@ def create_pub_index(pub, content_tree):
         return render_to_string("pub/pub_index.md", data)
 
     def top_index_text(content_tree):
-        docs = [link(f) for f in content_tree]
+        path = Path(pub.doc_path) / "Index.md"
+        docs = [link(f) for f in content_tree if f["path"] != str(path)]
+        # print(docs)
         data = dict(title="Table of Contents", docs=docs)
-        return render_to_string("pub/pub_index.md", data)
+        text = render_to_string("pub/pub_index.md", data)
+        path.write_text(text)
 
     def folder_index(folder):
         text = folder_index_text(folder, folder.get("documents"))

@@ -153,7 +153,7 @@
         "domain": null,
         "url": "/sampler",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 57681,
+        "words": 62323,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog"
@@ -13869,11 +13869,11 @@
     "fields": {
         "blog": 1103,
         "order": 0,
-        "title": "Month sampler",
+        "title": "Table of Contents",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/Index.md",
         "folder": 0,
-        "words": 4
+        "words": 41
     }
 },
 {

@@ -188,10 +188,14 @@ def show_pub_words(pub=None):
     text = "PUB WORDS\n\n"
     pubs = [pub] if pub else all_pubs()
     for pub in pubs:
-        path = Path("Documents/markseaman.info") / pub.name / "Words.md"
+        path = word_count_file(pub)
         text += f"---\n\n{path}\n\n"
         text += path.read_text()
     return text
+
+
+def word_count_file(pub):
+    return Path("Documents/markseaman.info") / "words" / pub.name
 
 
 def show_pub_json():
@@ -212,16 +216,11 @@ def show_pub_summaries(pub=None):
     def pub_summary(pub):
         count_words(pub)
         title = f"{pub.pub_type:8} {pub.name:15} {pub.title:30}"
-        # words = int(pub.words / 1000)
-        # pages = int(pub.words / 250)
-        # text = f"{title} - {posts} Posts, {words}k Words, {pages} Pages\n"
         posts = len(Content.objects.filter(blog=pub))
-        text = show_word_count(title, pub.words, posts)
-
-        return text
+        return show_word_count(title, pub.words, posts)
 
     def update_word_counts(pub):
-        path = Path("Documents/markseaman.info") / pub.name / "Words.md"
+        path = word_count_file(pub)
         contents = get_pub_contents(pub)
         write_file(path, table_of_contents(pub, contents, True))
 
@@ -238,9 +237,5 @@ def show_pub_summaries(pub=None):
             total_posts += posts
         text += show_word_count("\n\nTotal Words:", total_words, total_posts)
         return text
-
-        # words = int(total_words / 1000)
-        # pages = int(total_words / 250)
-        # + f"\n\nTotal Words: {words}k Words, {pages} Pages\n"
 
     return pub_summaries(pub)

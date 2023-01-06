@@ -15,7 +15,6 @@ def create_pub_index(pub, content_tree):
         docs = []
         for doc in documents:
             if not doc["path"].endswith("Index.md"):
-                # print(doc)
                 docs.append(link(doc))
         title = f"Month {Path(path).parent.name}"
         data = dict(title=title, docs=docs)
@@ -24,7 +23,6 @@ def create_pub_index(pub, content_tree):
     def top_index_text(content_tree):
         path = Path(pub.doc_path) / "Index.md"
         docs = [link(f) for f in content_tree if f["path"] != str(path)]
-        # print(docs)
         data = dict(title="Table of Contents", docs=docs)
         text = render_to_string("pub/pub_index.md", data)
         path.write_text(text)
@@ -58,31 +56,28 @@ def show_word_count(label, word_count, post_count=None):
     words = f"{int(word_count / 1000)}k" if word_count > 1000 else word_count
     pages = int(word_count / 250)
     if post_count:
-        return f"{label} - {post_count} Posts, {words} Words, {pages} Pages\n"
+        return f"{label} {post_count} Posts, {words} Words, {pages} Pages\n"
     else:
-        return f"{label} - {post_count} Posts, {words} Words, {pages} Pages\n"
+        return f"{label} {words} Words, {pages} Pages\n"
 
 
 def table_of_contents(pub, content_tree, word_count=False):
     def link(folder, pub, title, url, words):
         url = url.replace(pub.doc_path, "")[1:]
         url = url.replace("/", "-")
-        words = int(words) if words else 0
+        # words = int(words) if words else 0
         if folder:
             label = f"\n## [{title}](/{pub.name}/{url})"
-            return show_word_count(label, words)
-            # return f"\n## [{title}](/{pub.name}/{url}){words}\n\n"
         else:
             label = f"* [{title}](/{pub.name}/{url})"
-            return show_word_count(label, words)
-            # return f"* [{title}](/{pub.name}/{url}){words}\n"
+        return show_word_count(f"{label:80}", words)
 
     text = f"# {pub.title}\n\n"
     for f in content_tree:
         url = Path(f.get("path")).name
         title = f.get("title")
         w = f["words"] if word_count else ""
-        text += link(True, pub, title, f.get("path"), w)
+        text += link(True, pub, title, f.get("path"), w) + "\n"
         for d in f.get("documents"):
             url = Path(d.get("path")).name
             title = d.get("title")
@@ -93,7 +88,6 @@ def table_of_contents(pub, content_tree, word_count=False):
 
 def write_toc_index(pub, content_tree):
     toc = Path(pub.doc_path) / "Index.md"
-    # print(f"TOC: {toc}")
     toc.write_text(table_of_contents(pub, content_tree))
 
 
@@ -107,12 +101,10 @@ def write_content_csv(pub):
     for i, d in enumerate(sorted(folder.iterdir())):
         if d.is_file():
             if is_markdown(d):
-                # print(d)
                 content += f"{d.name},{i+1}\n"
         elif d.is_dir():
             content += f"{d.name}/Index.md,{i+1}\n"
             for j, f in enumerate(sorted(d.iterdir())):
                 if is_markdown(f):
-                    # print(f)
                     content += f"{d.name}/{f.name},{i+1},{j+1}\n"
     Path(content_file(pub)).write_text(content)

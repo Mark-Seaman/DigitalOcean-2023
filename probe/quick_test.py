@@ -53,7 +53,7 @@ def pubs():
     pub = get_pub("quest")
     print(show_pub_summaries())
     # show_pub_index(pub)
-    show_pub_words(pub)
+    print(show_pub_words(pub))
 
     # print(create_pub_index(pub))
 

@@ -1,0 +1,114 @@
+# Python Web Apps
+
+
+## [Chapter 1 - Development Tools](/webapps/chapter-01.md)                      1k Words, 5 Pages
+
+* [ Skill 1 - Visual Studio Code & Github](/webapps/skill-01.md)                 654 Words, 2 Pages
+* [ Skill 2 - Setup Python Environment](/webapps/skill-02.md)                    384 Words, 1 Pages
+* [ Skill 3 - Running a Django Application](/webapps/skill-03.md)                319 Words, 1 Pages
+* [ Demo 1 - Profile App](/webapps/demo-01.md)                                   469 Words, 1 Pages
+* [ Project 1 - Setup Development Tools](/webapps/project-01.md)                 546 Words, 2 Pages
+
+## [Chapter 2 - Application Hosting](/webapps/chapter-02.md)                    1k Words, 7 Pages
+
+* [ Skill 4 - Deploy a Static Web Server](/webapps/skill-04.md)                  181 Words, 0 Pages
+* [ Skill 5 - Deploy to Development Server](/webapps/skill-05.md)                818 Words, 3 Pages
+* [ Skill 6 - Deploy to Production Server](/webapps/skill-06.md)                 1k Words, 5 Pages
+* [ Demo 2 - App Platform Deployment](/webapps/demo-02.md)                       637 Words, 2 Pages
+* [ Project 2 - Web App Hosting](/webapps/project-02.md)                         325 Words, 1 Pages
+
+## [Chapter 3 - Basic Application](/webapps/chapter-03.md)                      906 Words, 3 Pages
+
+* [  Skill 7 - Create a Django App](/webapps/skill-07.md)                        408 Words, 1 Pages
+* [  Skill 8 - View with Variables](/webapps/skill-08.md)                        457 Words, 1 Pages
+* [  Skill 9 - Add Variables to View](/webapps/skill-09.md)                      344 Words, 1 Pages
+* [ Demo 3 - Debugging with Visual Studio](/webapps/demo-03.md)                  607 Words, 2 Pages
+* [ Project 3 - Superhero Pages](/webapps/project-03.md)                         467 Words, 1 Pages
+
+## [Chapter 4 - Views](/webapps/chapter-04.md)                                  835 Words, 3 Pages
+
+* [ Skill 10 - View Inheritance](/webapps/skill-10.md)                           392 Words, 1 Pages
+* [ Skill 11 - Templates](/webapps/skill-11.md)                                  512 Words, 2 Pages
+* [ Skill 12 - Complex Variables in Views](/webapps/skill-12.md)                 684 Words, 2 Pages
+* [ Demo 4 - Visual Inheritance](/webapps/demo-04.md)                            896 Words, 3 Pages
+* [ Project 4 - Superhero Profiles](/webapps/project-04.md)                      599 Words, 2 Pages
+
+## [Chapter 5 - Data](/webapps/chapter-05.md)                                   1k Words, 4 Pages
+
+* [ Skill 13 - Build Data Models](/webapps/skill-13.md)                          259 Words, 1 Pages
+* [ Skill 14 - List and Detail Views](/webapps/skill-14.md)                      415 Words, 1 Pages
+* [ Skill 15 - Admin Views](/webapps/skill-15.md)                                441 Words, 1 Pages
+* [ Demo 5 - Working with Data](/webapps/demo-05.md)                             610 Words, 2 Pages
+* [ Project 5 - Superhero Database](/webapps/project-05.md)                      757 Words, 3 Pages
+
+## [Chapter 6 - Data views](/webapps/chapter-06.md)                             1k Words, 4 Pages
+
+* [ Skill 16 - Data CRUD views](/webapps/skill-16.md)                            602 Words, 2 Pages
+* [ Skill 17 - Development Database](/webapps/skill-17.md)                       403 Words, 1 Pages
+* [ Skill 18 - Production Database](/webapps/skill-18.md)                        352 Words, 1 Pages
+* [ Demo 6 - Blog](/webapps/demo-06.md)                                          802 Words, 3 Pages
+* [ Project 6 - Superhero Data Views](/webapps/project-06.md)                    713 Words, 2 Pages
+
+## [Chapter 7 - Users](/webapps/chapter-07.md)                                  764 Words, 3 Pages
+
+* [ Skill 19 - User Registration](/webapps/skill-19.md)                          193 Words, 0 Pages
+* [ Skill 20 - User Login](/webapps/skill-20.md)                                 300 Words, 1 Pages
+* [ Skill 21 - User Status](/webapps/skill-21.md)                                249 Words, 0 Pages
+* [ Demo 7 - Blog Authors](/webapps/demo-07.md)                                  648 Words, 2 Pages
+* [ Project 7 - User Authentication](/webapps/project-07.md)                     421 Words, 1 Pages
+
+## [Chapter 8 - Testing](/webapps/chapter-08.md)                                1k Words, 6 Pages
+
+* [ Skill 22 - Writing Data Tests](/webapps/skill-22.md)                         285 Words, 1 Pages
+* [ Skill 23 - Writing View Tests](/webapps/skill-23.md)                         442 Words, 1 Pages
+* [ Skill 24 - Writing Page Tests](/webapps/skill-24.md)                         337 Words, 1 Pages
+* [ Demo 8 - Automated Testing](/webapps/demo-08.md)                             576 Words, 2 Pages
+* [ Project 8 - Superhero Articles](/webapps/project-08.md)                      168 Words, 0 Pages
+
+## [Chapter 9 - Complex Views](/webapps/chapter-09.md)                          552 Words, 2 Pages
+
+* [ Skill 25 - Create a Theme Template](/webapps/skill-25.md)                    359 Words, 1 Pages
+* [ Skill 26 - Simple Views](/webapps/skill-26.md)                               781 Words, 3 Pages
+* [ Skill 27 - Complex Views](/webapps/skill-27.md)                              720 Words, 2 Pages
+* [ Demo 9 - Views Workshop](/webapps/demo-09.md)                                296 Words, 1 Pages
+* [ Project 9 - Production Database](/webapps/project-09.md)                     75 Words, 0 Pages
+
+## [Chapter 10 - Images](/webapps/chapter-10.md)                                447 Words, 1 Pages
+
+* [ Skill 28 - Photo upload](/webapps/skill-28.md)                               166 Words, 0 Pages
+* [ Skill 29 - Media Hosting](/webapps/skill-29.md)                              503 Words, 2 Pages
+* [ Skill 30 - Image carousel](/webapps/skill-30.md)                             299 Words, 1 Pages
+* [ Demo 10 - Photo Albums](/webapps/demo-10.md)                                 676 Words, 2 Pages
+* [ Project 9 - Superhero Website](/webapps/project-10.md)                       434 Words, 1 Pages
+
+## [Chapter 11 - Files and Documents](/webapps/chapter-11.md)                   1k Words, 4 Pages
+
+* [ Skill 31 - Reading and Writing Tables](/webapps/skill-31.md)                 316 Words, 1 Pages
+* [ Skill 32 - Markdown Documents ](/webapps/skill-32.md)                        285 Words, 1 Pages
+* [ Skill 33 - Save and Restore Objects](/webapps/skill-33.md)                   384 Words, 1 Pages
+* [ Demo 11 - Book Builder](/webapps/demo-11.md)                                 460 Words, 1 Pages
+* [ Project 11 - Superhero Documents ](/webapps/project-11.md)                   49 Words, 0 Pages
+
+## [Chapter 12 - Development Process](/webapps/chapter-12.md)                   1k Words, 5 Pages
+
+* [ Skill 34 - Discover Requirements](/webapps/skill-34.md)                      574 Words, 2 Pages
+* [ Skill 35 - Design & Coding Process](/webapps/skill-35.md)                    201 Words, 0 Pages
+* [ Skill 36 - Test Driven-development](/webapps/skill-36.md)                    272 Words, 1 Pages
+* [ Demo 12 - Static Website Generator](/webapps/demo-12.md)                     838 Words, 3 Pages
+* [ Project 12 - Superhero Image Gallery](/webapps/project-12.md)                219 Words, 0 Pages
+
+## [Chapter 13 - Software Release ](/webapps/chapter-13.md)                     1k Words, 4 Pages
+
+* [ Skill 37 - Code Generator](/webapps/skill-37.md)                             587 Words, 2 Pages
+* [ Skill 38 - Continuous Integration](/webapps/skill-38.md)                     335 Words, 1 Pages
+* [ Skill 39 - DevOps Practices](/webapps/skill-39.md)                           400 Words, 1 Pages
+* [ Demo 13 - Code Builder](/webapps/demo-13.md)                                 753 Words, 3 Pages
+* [ Project 13 - Website Builder ](/webapps/project-13.md)                       369 Words, 1 Pages
+
+## [Chapter 14 - Software Engineering](/webapps/chapter-14.md)                  1k Words, 6 Pages
+
+* [ Skill 40 - Software Lifecycle](/webapps/skill-40.md)                         946 Words, 3 Pages
+* [ Skill 41 - Planning Grid](/webapps/skill-41.md)                              367 Words, 1 Pages
+* [ Skill 42 - Client Communication](/webapps/skill-42.md)                       773 Words, 3 Pages
+* [ Demo 14 - Software Engineering Notebook](/webapps/demo-14.md)                1k Words, 4 Pages
+* [ Project 14 - Software Planner](/webapps/project-14.md)                       233 Words, 0 Pages

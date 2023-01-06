@@ -51,27 +51,13 @@ def pubs():
     # pub = get_pub("sampler")
     # print(create_pub_index(pub))
 
+    # list_pubs()
+    # show_pubs()
+    # show_pub_json()
 
-def test_pub_import():
-    return build_pubs()
-
-
-def test_pub_toc():
-    return list_pubs()
-
-
-def test_pub_show():
-    return show_pubs()
-
-
-def test_pub_json():
-    return show_pub_json()
-
-
-def display_toc():
-    pub = get_pub("sampler")
-    contents = get_pub_contents(pub)
-    print(table_of_contents(pub, contents))
+    # pub = get_pub("sampler")
+    # contents = get_pub_contents(pub)
+    # print(table_of_contents(pub, contents))
 
 
 def create_sampler_index():

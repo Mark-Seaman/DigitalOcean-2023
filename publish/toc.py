@@ -1,13 +1,5 @@
 from django.template.loader import render_to_string
-from json import loads
-from genericpath import isdir, isfile
-from os import system
 from pathlib import Path
-
-from .document import document_title, get_document
-from .files import read_json, read_csv_file
-from .text import text_join
-from .models import Pub, Content
 
 
 def create_pub_index(pub, content_tree):
@@ -62,35 +54,40 @@ def read_content_csv(pub):
     return path.read_text()
 
 
+def show_word_count(label, word_count, post_count=None):
+    words = f"{int(word_count / 1000)}k" if word_count > 1000 else word_count
+    pages = int(word_count / 250)
+    if post_count:
+        return f"{label} - {post_count} Posts, {words} Words, {pages} Pages\n"
+    else:
+        return f"{label} - {post_count} Posts, {words} Words, {pages} Pages\n"
+
+
 def table_of_contents(pub, content_tree, word_count=False):
     def link(folder, pub, title, url, words):
         url = url.replace(pub.doc_path, "")[1:]
         url = url.replace("/", "-")
-        if words:
-            words = f" - {words} words"
+        words = int(words) if words else 0
         if folder:
-            return f"\n## [{title}](/{pub.name}/{url}){words}\n\n"
+            label = f"\n## [{title}](/{pub.name}/{url})"
+            return show_word_count(label, words)
+            # return f"\n## [{title}](/{pub.name}/{url}){words}\n\n"
         else:
-            return f"* [{title}](/{pub.name}/{url}){words}\n"
+            label = f"* [{title}](/{pub.name}/{url})"
+            return show_word_count(label, words)
+            # return f"* [{title}](/{pub.name}/{url}){words}\n"
 
     text = f"# {pub.title}\n\n"
     for f in content_tree:
         url = Path(f.get("path")).name
         title = f.get("title")
-        # text += f"\n## [{title}](/{pub.name}/{url})\n\n"
         w = f["words"] if word_count else ""
         text += link(True, pub, title, f.get("path"), w)
-        # if word_count:
-        # text += f"{pub.words} words\n"
         for d in f.get("documents"):
             url = Path(d.get("path")).name
             title = d.get("title")
-            # text += f"* [{title}](/{pub.name}/{url})\n"
             w = d["words"] if word_count else ""
             text += link(False, pub, title, d.get("path"), w)
-            # if d["words"] == 0:
-            #     print(d)
-            #     Content.objects.filter(pk=d["id"]).delete()
     return text
 
 

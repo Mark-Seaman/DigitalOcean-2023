@@ -11,9 +11,11 @@ from publish.pub import (
     get_pub_contents,
     import_pubs,
     show_pub_content,
-    show_pubs,
-    list_pubs,
+    show_pub_index,
+    show_pub_summaries,
+    show_pub_contents,
     show_pub_json,
+    show_pub_words,
 )
 from publish.seamanslog import random_post
 from publish.toc import (
@@ -47,8 +49,12 @@ def pubs():
     print("Build Pubs")
 
     build_pubs()
+    pub = get_pub("sampler")
+    pub = get_pub("quest")
+    print(show_pub_summaries())
+    # show_pub_index(pub)
+    show_pub_words(pub)
 
-    # pub = get_pub("sampler")
     # print(create_pub_index(pub))
 
     # list_pubs()

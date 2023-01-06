@@ -1,20 +1,14 @@
 # Mark Seaman
 
 
-## [Contact Info](/mark/ContactMe.md) - 52 words
+## [Contact Info](/mark/ContactMe.md) - None Posts, 52 Words, 0 Pages
 
+## [Mark David Seaman](/mark/Index.md) - None Posts, 307 Words, 1 Pages
 
-## [Mark David Seaman](/mark/Index.md) - 307 words
+## [Inventor](/mark/Invent.md) - None Posts, 397 Words, 1 Pages
 
+## [Please park in driveway or on Water Valley Parkway](/mark/Parking.md) - None Posts, 11 Words, 0 Pages
 
-## [Inventor](/mark/Invent.md) - 397 words
+## [Teacher](/mark/Teach.md) - None Posts, 201 Words, 0 Pages
 
-
-## [Please park in driveway or on Water Valley Parkway](/mark/Parking.md) - 11 words
-
-
-## [Teacher](/mark/Teach.md) - 201 words
-
-
-## [Author](/mark/Write.md) - 131 words
-
+## [Author](/mark/Write.md) - None Posts, 131 Words, 0 Pages

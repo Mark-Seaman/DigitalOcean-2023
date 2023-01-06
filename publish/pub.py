@@ -6,7 +6,7 @@ from .files import read_file, read_json, write_file
 from .import_export import create_pubs, import_pub, save_data
 from .models import Content, Pub
 from .text import text_join, word_count
-from .toc import create_pub_index, pub_contents, table_of_contents
+from .toc import create_pub_index, pub_contents, show_word_count, table_of_contents
 
 
 def all_blogs():
@@ -94,7 +94,7 @@ def list_content(pub):
     return [c for c in Content.objects.filter(blog=pub)]
 
 
-def list_pubs():
+def show_pub_contents():
     pubs = [pub_contents(pub) for pub in all_pubs()]
     return text_join(pubs)
 
@@ -168,11 +168,37 @@ def select_blog_doc(host, blog, doc):
     return kwargs
 
 
+def show_pub_index(pub=None):
+    text = "PUB INDEX\n\n"
+    pubs = [pub] if pub else all_pubs()
+    for pub in pubs:
+        contents = get_pub_contents(pub)
+        text += f"\n\nPub Index {pub.name} - {pub.title}\n\n"
+        for f in contents:
+            path = Path(f.get("path"))
+            if path.exists():
+                text += f"---\n\n{path}\n\n"
+                text += path.read_text()
+            else:
+                text += f"\nMISSING: {path}\n"
+    return text
+
+
+def show_pub_words(pub=None):
+    text = "PUB WORDS\n\n"
+    pubs = [pub] if pub else all_pubs()
+    for pub in pubs:
+        path = Path("Documents/markseaman.info") / pub.name / "Words.md"
+        text += f"---\n\n{path}\n\n"
+        text += path.read_text()
+    return text
+
+
 def show_pub_json():
     return text_join([j.read_text() for j in Path("static/js").iterdir()])
 
 
-def show_pubs():
+def show_pub_summaries(pub=None):
     def count_words(pub):
         words = 0
         for c in Content.objects.filter(blog=pub):
@@ -186,22 +212,35 @@ def show_pubs():
     def pub_summary(pub):
         count_words(pub)
         title = f"{pub.pub_type:8} {pub.name:15} {pub.title:30}"
-        posts = f"{len(Content.objects.filter(blog=pub))} Posts, {int(pub.words/1000)}k Words"
-        text = f"{title} {posts}\n"
-        return text
+        # words = int(pub.words / 1000)
+        # pages = int(pub.words / 250)
+        # text = f"{title} - {posts} Posts, {words}k Words, {pages} Pages\n"
+        posts = len(Content.objects.filter(blog=pub))
+        text = show_word_count(title, pub.words, posts)
 
-    def pub_summaries():
-        text = "My Pubs\n\n"
-        total_words = 0
-        for pub in all_pubs():
-            text += pub_summary(pub)
-            total_words += pub.words
-            update_word_counts(pub)
-        return text + f"\n\nTotal Words: {int(total_words/1000)}k Words\n"
+        return text
 
     def update_word_counts(pub):
         path = Path("Documents/markseaman.info") / pub.name / "Words.md"
         contents = get_pub_contents(pub)
         write_file(path, table_of_contents(pub, contents, True))
 
-    return pub_summaries()
+    def pub_summaries(pub):
+        text = "My Pubs\n\n"
+        total_words = 0
+        total_posts = 0
+        pubs = [pub] if pub else all_pubs()
+        for pub in pubs:
+            text += pub_summary(pub)
+            total_words += pub.words
+            update_word_counts(pub)
+            posts = len(Content.objects.filter(blog=pub))
+            total_posts += posts
+        text += show_word_count("\n\nTotal Words:", total_words, total_posts)
+        return text
+
+        # words = int(total_words / 1000)
+        # pages = int(total_words / 250)
+        # + f"\n\nTotal Words: {words}k Words, {pages} Pages\n"
+
+    return pub_summaries(pub)

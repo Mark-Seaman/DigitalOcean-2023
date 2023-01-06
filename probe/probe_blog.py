@@ -1,6 +1,6 @@
 from pathlib import Path
 from publish.text import text_join
-from publish.pub import build_pubs, list_pubs, show_pubs
+from publish.pub import build_pubs, show_pub_contents, show_pub_summaries
 from requests import get
 
 
@@ -9,7 +9,7 @@ def test_blog_import():
 
 
 def test_blog_toc():
-    return list_pubs()
+    return show_pub_contents()
 
 
 def test_blog_list():
@@ -23,7 +23,7 @@ def test_book_list():
 
 
 def test_blog_show():
-    return show_pubs()
+    return show_pub_summaries()
 
 
 def test_blog_json():

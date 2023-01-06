@@ -1,62 +1,42 @@
 # Writer's Block
 
 
-## [Writing is a Journey](/write/Journey.md) - 127 words
+## [Writing is a Journey](/write/Journey.md) - None Posts, 127 Words, 0 Pages
 
+## [Story in Three Acts](/write/ThreeActs.md) - None Posts, 221 Words, 0 Pages
 
-## [Story in Three Acts](/write/ThreeActs.md) - 221 words
+## [Featured Articles](/write/FeaturedArticles.md) - None Posts, 130 Words, 0 Pages
 
+## [Your Story Tells Who You Are](/write/StoriesReveal.md) - None Posts, 252 Words, 1 Pages
 
-## [Featured Articles](/write/FeaturedArticles.md) - 130 words
+## [Writer's Scorecard](/write/Scorecard.md) - None Posts, 286 Words, 1 Pages
 
+## [It's Not About Output](/write/NotAboutOutput.md) - None Posts, 221 Words, 0 Pages
 
-## [Your Story Tells Who You Are](/write/StoriesReveal.md) - 252 words
+## [How to Tell Stories](/write/HeroesJourney.md) - None Posts, 35 Words, 0 Pages
 
+## [Embrace Truth](/write/EmbraceTruth.md) - None Posts, 164 Words, 0 Pages
 
-## [Writer's Scorecard](/write/Scorecard.md) - 286 words
+## [Story within a Story](/write/FrameNarrative.md) - None Posts, 128 Words, 0 Pages
 
+## [Upcoming Book](/write/UpcomingBook.md) - None Posts, 310 Words, 1 Pages
 
-## [It's Not About Output](/write/NotAboutOutput.md) - 221 words
+## [Interview for the Story](/write/Interview.md) - None Posts, 205 Words, 0 Pages
 
+## [Writer's Block](/write/Index.md) - None Posts, 99 Words, 0 Pages
 
-## [How to Tell Stories](/write/HeroesJourney.md) - 35 words
+## [Using Evernote Tags](/write/Tags.md) - None Posts, 341 Words, 1 Pages
 
+## [Traditional Publishing](/write/Publishing.md) - None Posts, 813 Words, 3 Pages
 
-## [Embrace Truth](/write/EmbraceTruth.md) - 164 words
+## [Your Passion Is Your Purpose](/write/Passion.md) - None Posts, 178 Words, 0 Pages
 
+## [A Mark of Poetry](/write/Poems.md) - None Posts, 175 Words, 0 Pages
 
-## [Story within a Story](/write/FrameNarrative.md) - 128 words
+## [Writing Workflow](/write/WritingWorkflow.md) - None Posts, 340 Words, 1 Pages
 
+## [Humans Tell Stories](/write/HumansTellStories.md) - None Posts, 255 Words, 1 Pages
 
-## [Upcoming Book](/write/UpcomingBook.md) - 310 words
+## [Stages of Writing](/write/WritingStages.md) - None Posts, 618 Words, 2 Pages
 
-
-## [Interview for the Story](/write/Interview.md) - 205 words
-
-
-## [Writer's Block](/write/Index.md) - 99 words
-
-
-## [Using Evernote Tags](/write/Tags.md) - 341 words
-
-
-## [Traditional Publishing](/write/Publishing.md) - 813 words
-
-
-## [Your Passion Is Your Purpose](/write/Passion.md) - 178 words
-
-
-## [A Mark of Poetry](/write/Poems.md) - 175 words
-
-
-## [Writing Workflow](/write/WritingWorkflow.md) - 340 words
-
-
-## [Humans Tell Stories](/write/HumansTellStories.md) - 255 words
-
-
-## [Stages of Writing](/write/WritingStages.md) - 618 words
-
-
-## [Defining Moments](/write/Moments.md) - 278 words
-
+## [Defining Moments](/write/Moments.md) - None Posts, 278 Words, 1 Pages

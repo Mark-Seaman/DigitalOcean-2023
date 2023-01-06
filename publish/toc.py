@@ -3,26 +3,30 @@ from pathlib import Path
 
 
 def create_pub_index(pub, content_tree):
-    def url(path):
+    def url(pub_name, path):
         path = Path(path)
-        return f"{path.parent.name}-{path.name}"
+        return f"/{pub_name}/{path.parent.name}-{path.name}"
 
-    def link(doc):
-        return f"[{doc['title']}]({url(doc['path'])})"
+    def link(text, url):
+        return f"[{text}]({url})"
 
     def folder_index_text(folder, documents):
         path = folder.get("path")
         docs = []
         for doc in documents:
             if not doc["path"].endswith("Index.md"):
-                docs.append(link(doc))
+                docs.append(link(doc["title"], url(pub.name, doc["path"])))
         title = f"Month {Path(path).parent.name}"
         data = dict(title=title, docs=docs)
         return render_to_string("pub/pub_index.md", data)
 
     def top_index_text(content_tree):
         path = Path(pub.doc_path) / "Index.md"
-        docs = [link(f) for f in content_tree if f["path"] != str(path)]
+        docs = [
+            link(f["title"], url(pub.name, f["path"]))
+            for f in content_tree
+            if f["path"] != str(path)
+        ]
         data = dict(title="Table of Contents", docs=docs)
         text = render_to_string("pub/pub_index.md", data)
         path.write_text(text)

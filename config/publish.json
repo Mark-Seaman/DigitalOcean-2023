@@ -179,7 +179,7 @@
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
         "auto_remove": false,
-        "auto_contents": false,
+        "auto_contents": true,
         "auto_index": true
     }
 },
@@ -4093,7 +4093,7 @@
         "title": "Our History",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.com/blog/shrinkingworld/History.md",
-        "folder": 6,
+        "folder": 1,
         "words": 414
     }
 },
@@ -4184,7 +4184,7 @@
         "title": "Building Python Web Apps",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.com/blog/training/PythonWebApps.md",
-        "folder": 8,
+        "folder": 2,
         "words": 1015
     }
 },
@@ -4197,7 +4197,7 @@
         "title": "Shrinking World Training Courses",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.com/blog/training/TrainingCourses.md",
-        "folder": 8,
+        "folder": 2,
         "words": 106
     }
 },
@@ -4223,7 +4223,7 @@
         "title": "Tutorial - Building Web Apps   (1/2 day tutorial)",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.com/blog/training/TutorialWebApps.md",
-        "folder": 8,
+        "folder": 2,
         "words": 853
     }
 },
@@ -13791,7 +13791,7 @@
         "title": "Gratitude",
         "doctype": "chapter",
         "path": "Documents/seamanfamily.org/news/Gratitude.md",
-        "folder": 14,
+        "folder": 1,
         "words": 75
     }
 },
@@ -13905,11 +13905,11 @@
     "fields": {
         "blog": 1103,
         "order": 0,
-        "title": "Table of Contents",
+        "title": "Month sampler",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/Index.md",
         "folder": 0,
-        "words": 41
+        "words": 4
     }
 },
 {

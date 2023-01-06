@@ -14,5 +14,6 @@
     "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
     "author": "Mark Seaman",
     "menu": "static/js/nav_blog.json",
-    "auto_index": true
+    "auto_index": true,
+    "auto_contents": true
 }

@@ -54,13 +54,15 @@ def create_pubs():
         b.pub_type = s.get("pub_type", "blog")
         b.menu = s.get("menu")
         b.logo = s.get("logo")
+        b.auto_remove = s.get("auto_remove", False)
+        b.auto_index = s.get("auto_index", False)
+        b.auto_contents = s.get("auto_contents", False)
         b.save()
         return b
 
     log = "Create pubs:\n\n"
     pubs = pub_locations()
     for pub in pubs:
-        # print(pubs[pub])
         pub = create_pub(pub, pubs[pub])
         log += f"{pub}\n"
     return log
@@ -87,7 +89,8 @@ def import_pub(pub):
                 set_content(pub, "folder", row[0], 0, row[1])
 
     content = content_file(pub)
-    if not content.exists():
+    if pub.auto_contents:
+        print("CREATE CONTENT")
         write_content_csv(pub)
     import_content(pub, content)
 

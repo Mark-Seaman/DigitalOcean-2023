@@ -180,7 +180,7 @@
         "pub_type": "blog",
         "auto_remove": false,
         "auto_contents": false,
-        "auto_index": false
+        "auto_index": true
     }
 },
 {
@@ -4093,7 +4093,7 @@
         "title": "Our History",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.com/blog/shrinkingworld/History.md",
-        "folder": 1,
+        "folder": 6,
         "words": 414
     }
 },
@@ -4184,7 +4184,7 @@
         "title": "Building Python Web Apps",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.com/blog/training/PythonWebApps.md",
-        "folder": 2,
+        "folder": 8,
         "words": 1015
     }
 },
@@ -4197,7 +4197,7 @@
         "title": "Shrinking World Training Courses",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.com/blog/training/TrainingCourses.md",
-        "folder": 2,
+        "folder": 8,
         "words": 106
     }
 },
@@ -4223,7 +4223,7 @@
         "title": "Tutorial - Building Web Apps   (1/2 day tutorial)",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.com/blog/training/TutorialWebApps.md",
-        "folder": 2,
+        "folder": 8,
         "words": 853
     }
 },
@@ -13791,7 +13791,7 @@
         "title": "Gratitude",
         "doctype": "chapter",
         "path": "Documents/seamanfamily.org/news/Gratitude.md",
-        "folder": 1,
+        "folder": 14,
         "words": 75
     }
 },
@@ -14326,6 +14326,6818 @@
         "path": "Documents/seamanslog.com/sampler/Index.md",
         "folder": 0,
         "words": 4
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74952,
+    "fields": {
+        "blog": 1096,
+        "order": 0,
+        "title": "A Seaman's Journey",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Index.md",
+        "folder": 0,
+        "words": 235
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74953,
+    "fields": {
+        "blog": 1096,
+        "order": 1,
+        "title": "7,666 Shopping Days Left ",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/10000Days.md",
+        "folder": 0,
+        "words": 584
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74954,
+    "fields": {
+        "blog": 1096,
+        "order": 2,
+        "title": "My Life as an Alien",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Alien.md",
+        "folder": 0,
+        "words": 1281
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74955,
+    "fields": {
+        "blog": 1096,
+        "order": 3,
+        "title": "Bag of Potatoes",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/BagOfPotatoes.md",
+        "folder": 0,
+        "words": 458
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74956,
+    "fields": {
+        "blog": 1096,
+        "order": 4,
+        "title": "Struggle for Balance",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Balance.md",
+        "folder": 0,
+        "words": 2008
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74957,
+    "fields": {
+        "blog": 1096,
+        "order": 5,
+        "title": "Bible Translation",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/BibleTranslation.md",
+        "folder": 0,
+        "words": 903
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74958,
+    "fields": {
+        "blog": 1096,
+        "order": 6,
+        "title": "Product of the Cold War",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/ColdWar.md",
+        "folder": 0,
+        "words": 841
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74959,
+    "fields": {
+        "blog": 1096,
+        "order": 7,
+        "title": "Ghosts of the Fairgrounds",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Fairgrounds.md",
+        "folder": 0,
+        "words": 518
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74960,
+    "fields": {
+        "blog": 1096,
+        "order": 8,
+        "title": "Adventures of Flagstaff",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Flagstaff.md",
+        "folder": 0,
+        "words": 1708
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74961,
+    "fields": {
+        "blog": 1096,
+        "order": 9,
+        "title": "Grand Mesa Perspective",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/GrandMesa.md",
+        "folder": 0,
+        "words": 628
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74962,
+    "fields": {
+        "blog": 1096,
+        "order": 10,
+        "title": "My Grandfather",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Grandfather.md",
+        "folder": 0,
+        "words": 1201
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74963,
+    "fields": {
+        "blog": 1096,
+        "order": 11,
+        "title": "Adventures in Greece",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Greece.md",
+        "folder": 0,
+        "words": 2548
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74964,
+    "fields": {
+        "blog": 1096,
+        "order": 13,
+        "title": "The Internet (1990s)",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Internet.md",
+        "folder": 0,
+        "words": 1628
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74965,
+    "fields": {
+        "blog": 1096,
+        "order": 14,
+        "title": "Introduction",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Introduction.md",
+        "folder": 0,
+        "words": 1077
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74966,
+    "fields": {
+        "blog": 1096,
+        "order": 15,
+        "title": "Ich bin ein Berliner",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/JFK.md",
+        "folder": 0,
+        "words": 1296
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74967,
+    "fields": {
+        "blog": 1096,
+        "order": 16,
+        "title": "What is Legacy?",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Legacy.md",
+        "folder": 0,
+        "words": 923
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74968,
+    "fields": {
+        "blog": 1096,
+        "order": 17,
+        "title": "Mid-life Journey",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Midlife.md",
+        "folder": 0,
+        "words": 1677
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74969,
+    "fields": {
+        "blog": 1096,
+        "order": 18,
+        "title": "Banks of the Missouri",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Missouri.md",
+        "folder": 0,
+        "words": 1423
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74970,
+    "fields": {
+        "blog": 1096,
+        "order": 19,
+        "title": "Under the Mushroom Cloud",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/MushroomCloud.md",
+        "folder": 0,
+        "words": 1066
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74971,
+    "fields": {
+        "blog": 1096,
+        "order": 20,
+        "title": "My People",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/MyPeople.md",
+        "folder": 0,
+        "words": 677
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74972,
+    "fields": {
+        "blog": 1096,
+        "order": 21,
+        "title": "A Seaman's Journey",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Part0.md",
+        "folder": 0,
+        "words": 41
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74973,
+    "fields": {
+        "blog": 1096,
+        "order": 22,
+        "title": "Part 1 - The World Before Me",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Part1.md",
+        "folder": 0,
+        "words": 23
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74974,
+    "fields": {
+        "blog": 1096,
+        "order": 23,
+        "title": "Part 2 - The Childhood Years",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Part2.md",
+        "folder": 0,
+        "words": 24
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74975,
+    "fields": {
+        "blog": 1096,
+        "order": 24,
+        "title": "Part 3 - The Teen Years",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Part3.md",
+        "folder": 0,
+        "words": 32
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74976,
+    "fields": {
+        "blog": 1096,
+        "order": 25,
+        "title": "Part 4 - Young Adult Years",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Part4.md",
+        "folder": 0,
+        "words": 27
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74977,
+    "fields": {
+        "blog": 1096,
+        "order": 26,
+        "title": "Part 5 - The Success Years",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Part5.md",
+        "folder": 0,
+        "words": 30
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74978,
+    "fields": {
+        "blog": 1096,
+        "order": 27,
+        "title": "Part 6 - Midlife Years",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Part6.md",
+        "folder": 0,
+        "words": 28
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74979,
+    "fields": {
+        "blog": 1096,
+        "order": 28,
+        "title": "Part 7 - Mature Years",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Part7.md",
+        "folder": 0,
+        "words": 29
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74980,
+    "fields": {
+        "blog": 1096,
+        "order": 29,
+        "title": "Part 8 - Seniority Years",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Part8.md",
+        "folder": 0,
+        "words": 26
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74981,
+    "fields": {
+        "blog": 1096,
+        "order": 30,
+        "title": "The Personal Computer (1980s)",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/PersonalComputer.md",
+        "folder": 0,
+        "words": 1581
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74982,
+    "fields": {
+        "blog": 1096,
+        "order": 31,
+        "title": "Preface",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Preface.md",
+        "folder": 0,
+        "words": 983
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74983,
+    "fields": {
+        "blog": 1096,
+        "order": 32,
+        "title": "The Prima Donna Farm",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/PrimaDonnaFarm.md",
+        "folder": 0,
+        "words": 849
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74984,
+    "fields": {
+        "blog": 1096,
+        "order": 33,
+        "title": "Nightmare at Red Rocks",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/RedRocks.md",
+        "folder": 0,
+        "words": 2381
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74985,
+    "fields": {
+        "blog": 1096,
+        "order": 34,
+        "title": "When will you Retire?",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Retirement.md",
+        "folder": 0,
+        "words": 910
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74986,
+    "fields": {
+        "blog": 1096,
+        "order": 35,
+        "title": "My friend Rodney ",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Rodney.md",
+        "folder": 0,
+        "words": 917
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74987,
+    "fields": {
+        "blog": 1096,
+        "order": 36,
+        "title": "Season of Old Age",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/SeasonOfOldAge.md",
+        "folder": 0,
+        "words": 1297
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74988,
+    "fields": {
+        "blog": 1096,
+        "order": 37,
+        "title": "Season of Youth",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/SeasonOfYouth.md",
+        "folder": 0,
+        "words": 879
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74989,
+    "fields": {
+        "blog": 1096,
+        "order": 38,
+        "title": "Seasons of Life",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Seasons.md",
+        "folder": 0,
+        "words": 1929
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74990,
+    "fields": {
+        "blog": 1096,
+        "order": 39,
+        "title": "Stories To Tell Before I Die",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/StoriesToTell.md",
+        "folder": 0,
+        "words": 803
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74991,
+    "fields": {
+        "blog": 1096,
+        "order": 40,
+        "title": "Discovering Teaching",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Teaching.md",
+        "folder": 0,
+        "words": 1424
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74992,
+    "fields": {
+        "blog": 1096,
+        "order": 41,
+        "title": "Technology Innovations",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/TechTimeline.md",
+        "folder": 0,
+        "words": 359
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74993,
+    "fields": {
+        "blog": 1096,
+        "order": 42,
+        "title": "Shaped by Technology",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Technology.md",
+        "folder": 0,
+        "words": 540
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74994,
+    "fields": {
+        "blog": 1096,
+        "order": 43,
+        "title": "Why Travel",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Travel.md",
+        "folder": 0,
+        "words": 1030
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74995,
+    "fields": {
+        "blog": 1096,
+        "order": 44,
+        "title": "Travel Stories",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/TravelStories.md",
+        "folder": 0,
+        "words": 249
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74996,
+    "fields": {
+        "blog": 1096,
+        "order": 45,
+        "title": "Day on the Volcano",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Volcano.md",
+        "folder": 0,
+        "words": 794
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74997,
+    "fields": {
+        "blog": 1096,
+        "order": 46,
+        "title": "Weapons of Mass Destruction",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/WMD.md",
+        "folder": 0,
+        "words": 1012
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74998,
+    "fields": {
+        "blog": 1096,
+        "order": 47,
+        "title": "My Work Day",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/WorkDay.md",
+        "folder": 0,
+        "words": 803
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 74999,
+    "fields": {
+        "blog": 1096,
+        "order": 48,
+        "title": "When the World Burned",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/WorldBurned.md",
+        "folder": 0,
+        "words": 652
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75000,
+    "fields": {
+        "blog": 1096,
+        "order": 49,
+        "title": "My Life as a Writer",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/Writer.md",
+        "folder": 0,
+        "words": 1267
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75001,
+    "fields": {
+        "blog": 1096,
+        "order": 50,
+        "title": "Becoming an Adult",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/journey/YoungAdult.md",
+        "folder": 0,
+        "words": 1030
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75002,
+    "fields": {
+        "blog": 1097,
+        "order": 0,
+        "title": "A Seaman's Poems",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Index.md",
+        "folder": 0,
+        "words": 348
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75003,
+    "fields": {
+        "blog": 1097,
+        "order": 1,
+        "title": "Lord of the Amazon",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Amazon.md",
+        "folder": 0,
+        "words": 129
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75004,
+    "fields": {
+        "blog": 1097,
+        "order": 2,
+        "title": "American Jesus",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/AmericanJesus.md",
+        "folder": 0,
+        "words": 152
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75005,
+    "fields": {
+        "blog": 1097,
+        "order": 3,
+        "title": "My Back Yard",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/BackYard.md",
+        "folder": 0,
+        "words": 106
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75006,
+    "fields": {
+        "blog": 1097,
+        "order": 4,
+        "title": "The Balance",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Balance.md",
+        "folder": 0,
+        "words": 365
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75007,
+    "fields": {
+        "blog": 1097,
+        "order": 5,
+        "title": "The Beast",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Beast.md",
+        "folder": 0,
+        "words": 180
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75008,
+    "fields": {
+        "blog": 1097,
+        "order": 6,
+        "title": "The Beauty and the Beast",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/BeautyBeast.md",
+        "folder": 0,
+        "words": 382
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75009,
+    "fields": {
+        "blog": 1097,
+        "order": 7,
+        "title": "Days We Live",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/BestTimes.md",
+        "folder": 0,
+        "words": 147
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75010,
+    "fields": {
+        "blog": 1097,
+        "order": 8,
+        "title": "Born for This",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/BornForThis.md",
+        "folder": 0,
+        "words": 81
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75011,
+    "fields": {
+        "blog": 1097,
+        "order": 9,
+        "title": "My Bucket List",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/BucketList.md",
+        "folder": 0,
+        "words": 104
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75012,
+    "fields": {
+        "blog": 1097,
+        "order": 10,
+        "title": "Caring Brings Healing",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Caring.md",
+        "folder": 0,
+        "words": 146
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75013,
+    "fields": {
+        "blog": 1097,
+        "order": 11,
+        "title": "Morning Coffee",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Coffee.md",
+        "folder": 0,
+        "words": 108
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75014,
+    "fields": {
+        "blog": 1097,
+        "order": 12,
+        "title": "After the Coma",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Coma.md",
+        "folder": 0,
+        "words": 335
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75015,
+    "fields": {
+        "blog": 1097,
+        "order": 13,
+        "title": "Control Issues",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Control.md",
+        "folder": 0,
+        "words": 110
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75016,
+    "fields": {
+        "blog": 1097,
+        "order": 14,
+        "title": "When Darkness Comes",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Darkness.md",
+        "folder": 0,
+        "words": 149
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75017,
+    "fields": {
+        "blog": 1097,
+        "order": 15,
+        "title": "The Dawn",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Dawn.md",
+        "folder": 0,
+        "words": 191
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75018,
+    "fields": {
+        "blog": 1097,
+        "order": 16,
+        "title": "Deep and Wide",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/DeepWide.md",
+        "folder": 0,
+        "words": 140
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75019,
+    "fields": {
+        "blog": 1097,
+        "order": 17,
+        "title": "To DO and To BE",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/DoBe.md",
+        "folder": 0,
+        "words": 168
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75020,
+    "fields": {
+        "blog": 1097,
+        "order": 18,
+        "title": "I Don't Believe It",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/DontBelieve.md",
+        "folder": 0,
+        "words": 122
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75021,
+    "fields": {
+        "blog": 1097,
+        "order": 19,
+        "title": "I Have a Dream",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Dream.md",
+        "folder": 0,
+        "words": 138
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75022,
+    "fields": {
+        "blog": 1097,
+        "order": 20,
+        "title": "The Eagle",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Eagle.md",
+        "folder": 0,
+        "words": 64
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75023,
+    "fields": {
+        "blog": 1097,
+        "order": 21,
+        "title": "My Kingdom Come",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Egodom.md",
+        "folder": 0,
+        "words": 250
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75024,
+    "fields": {
+        "blog": 1097,
+        "order": 22,
+        "title": "The Emperor Has Fallen",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Emperor.md",
+        "folder": 0,
+        "words": 208
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75025,
+    "fields": {
+        "blog": 1097,
+        "order": 23,
+        "title": "Experience is Reality",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Experience.md",
+        "folder": 0,
+        "words": 266
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75026,
+    "fields": {
+        "blog": 1097,
+        "order": 24,
+        "title": "First Day of Class",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/FirstDay.md",
+        "folder": 0,
+        "words": 156
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75027,
+    "fields": {
+        "blog": 1097,
+        "order": 25,
+        "title": "The First Ones",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/FirstOnes.md",
+        "folder": 0,
+        "words": 200
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75028,
+    "fields": {
+        "blog": 1097,
+        "order": 26,
+        "title": "Food Fun",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/FoodFun.md",
+        "folder": 0,
+        "words": 42
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75029,
+    "fields": {
+        "blog": 1097,
+        "order": 27,
+        "title": "From the Edge of Reality",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/FromTheEdge.md",
+        "folder": 0,
+        "words": 457
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75030,
+    "fields": {
+        "blog": 1097,
+        "order": 28,
+        "title": "Fruit that Lasts",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Fruit.md",
+        "folder": 0,
+        "words": 178
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75031,
+    "fields": {
+        "blog": 1097,
+        "order": 29,
+        "title": "Generation Gap",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Generation.md",
+        "folder": 0,
+        "words": 131
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75032,
+    "fields": {
+        "blog": 1097,
+        "order": 30,
+        "title": "Gift of Today",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/GiftOfToday.md",
+        "folder": 0,
+        "words": 121
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75033,
+    "fields": {
+        "blog": 1097,
+        "order": 31,
+        "title": "Go with God",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/GoWithGod.md",
+        "folder": 0,
+        "words": 256
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75034,
+    "fields": {
+        "blog": 1097,
+        "order": 32,
+        "title": "Good News for Some",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/GoodNews.md",
+        "folder": 0,
+        "words": 257
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75035,
+    "fields": {
+        "blog": 1097,
+        "order": 33,
+        "title": "Learning to Grieve",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Grief.md",
+        "folder": 0,
+        "words": 123
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75036,
+    "fields": {
+        "blog": 1097,
+        "order": 34,
+        "title": "Grocery Challenge",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Groceries.md",
+        "folder": 0,
+        "words": 112
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75037,
+    "fields": {
+        "blog": 1097,
+        "order": 35,
+        "title": "Principles of Happiness",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Happiness.md",
+        "folder": 0,
+        "words": 87
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75038,
+    "fields": {
+        "blog": 1097,
+        "order": 36,
+        "title": "Descent Into Hatred",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Hatred.md",
+        "folder": 0,
+        "words": 324
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75039,
+    "fields": {
+        "blog": 1097,
+        "order": 37,
+        "title": "What Makes a Hero?",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Heroes.md",
+        "folder": 0,
+        "words": 157
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75040,
+    "fields": {
+        "blog": 1097,
+        "order": 38,
+        "title": "The Horizon",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Horizon.md",
+        "folder": 0,
+        "words": 80
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75041,
+    "fields": {
+        "blog": 1097,
+        "order": 40,
+        "title": "Introduction",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Introduction.md",
+        "folder": 0,
+        "words": 3
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75042,
+    "fields": {
+        "blog": 1097,
+        "order": 41,
+        "title": "Two Invitations",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Invitations.md",
+        "folder": 0,
+        "words": 78
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75043,
+    "fields": {
+        "blog": 1097,
+        "order": 42,
+        "title": "Provoke,Invoke,Revoke",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Invoke.md",
+        "folder": 0,
+        "words": 69
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75044,
+    "fields": {
+        "blog": 1097,
+        "order": 43,
+        "title": "Community of Kindness",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Kindness.md",
+        "folder": 0,
+        "words": 128
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75045,
+    "fields": {
+        "blog": 1097,
+        "order": 44,
+        "title": "Life's Greatest Questions",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/LifeQuestions.md",
+        "folder": 0,
+        "words": 103
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75046,
+    "fields": {
+        "blog": 1097,
+        "order": 45,
+        "title": "Transformed by Love",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/LoveTransform.md",
+        "folder": 0,
+        "words": 141
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75047,
+    "fields": {
+        "blog": 1097,
+        "order": 46,
+        "title": "Mansplaining",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Mansplaining.md",
+        "folder": 0,
+        "words": 117
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75048,
+    "fields": {
+        "blog": 1097,
+        "order": 47,
+        "title": "Mauna Kea at First Light",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/MaunaKea.md",
+        "folder": 0,
+        "words": 388
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75049,
+    "fields": {
+        "blog": 1097,
+        "order": 48,
+        "title": "I Miss You",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/MissYou.md",
+        "folder": 0,
+        "words": 194
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75050,
+    "fields": {
+        "blog": 1097,
+        "order": 49,
+        "title": "In the Moonlight",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Moonlight.md",
+        "folder": 0,
+        "words": 478
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75051,
+    "fields": {
+        "blog": 1097,
+        "order": 50,
+        "title": "What is a Mother?",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Mother.md",
+        "folder": 0,
+        "words": 155
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75052,
+    "fields": {
+        "blog": 1097,
+        "order": 51,
+        "title": "A Night in Paradise",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/NightInParadise.md",
+        "folder": 0,
+        "words": 275
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75053,
+    "fields": {
+        "blog": 1097,
+        "order": 52,
+        "title": "The Night We Met",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/NightWeMet.md",
+        "folder": 0,
+        "words": 324
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75054,
+    "fields": {
+        "blog": 1097,
+        "order": 53,
+        "title": "Living My Now",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Now.md",
+        "folder": 0,
+        "words": 159
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75055,
+    "fields": {
+        "blog": 1097,
+        "order": 54,
+        "title": "View from the Ocean Tower",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/OceanTower.md",
+        "folder": 0,
+        "words": 185
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75056,
+    "fields": {
+        "blog": 1097,
+        "order": 55,
+        "title": "The Old Seaman",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/OldSeaman.md",
+        "folder": 0,
+        "words": 336
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75057,
+    "fields": {
+        "blog": 1097,
+        "order": 56,
+        "title": "Optimists Win",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Optimist.md",
+        "folder": 0,
+        "words": 259
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75058,
+    "fields": {
+        "blog": 1097,
+        "order": 57,
+        "title": "The Pacifist",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Pacifist.md",
+        "folder": 0,
+        "words": 342
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75059,
+    "fields": {
+        "blog": 1097,
+        "order": 58,
+        "title": "Part 1 - Mother Nature",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Part1.md",
+        "folder": 0,
+        "words": 38
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75060,
+    "fields": {
+        "blog": 1097,
+        "order": 59,
+        "title": "Part 2 - Human Nature",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Part2.md",
+        "folder": 0,
+        "words": 46
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75061,
+    "fields": {
+        "blog": 1097,
+        "order": 60,
+        "title": " Part 3 - Herd Nature",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Part3.md",
+        "folder": 0,
+        "words": 56
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75062,
+    "fields": {
+        "blog": 1097,
+        "order": 61,
+        "title": "Part 4 - Spiritual Nature",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Part4.md",
+        "folder": 0,
+        "words": 72
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75063,
+    "fields": {
+        "blog": 1097,
+        "order": 62,
+        "title": "Pure Water",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/PureWater.md",
+        "folder": 0,
+        "words": 144
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75064,
+    "fields": {
+        "blog": 1097,
+        "order": 63,
+        "title": "Richest of Men",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/RichestMen.md",
+        "folder": 0,
+        "words": 267
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75065,
+    "fields": {
+        "blog": 1097,
+        "order": 64,
+        "title": "Solving the Riddle of Life",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/RiddleOfLife.md",
+        "folder": 0,
+        "words": 242
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75066,
+    "fields": {
+        "blog": 1097,
+        "order": 65,
+        "title": "Right Order",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/RightOrder.md",
+        "folder": 0,
+        "words": 65
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75067,
+    "fields": {
+        "blog": 1097,
+        "order": 66,
+        "title": "Rise of Empire",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/RiseOfEmpire.md",
+        "folder": 0,
+        "words": 131
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75068,
+    "fields": {
+        "blog": 1097,
+        "order": 67,
+        "title": "Running on Empty",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/RunningEmpty.md",
+        "folder": 0,
+        "words": 163
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75069,
+    "fields": {
+        "blog": 1097,
+        "order": 68,
+        "title": "Sea of Glass",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/SeaOfGlass.md",
+        "folder": 0,
+        "words": 110
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75070,
+    "fields": {
+        "blog": 1097,
+        "order": 69,
+        "title": "Seasons",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Seasons.md",
+        "folder": 0,
+        "words": 187
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75071,
+    "fields": {
+        "blog": 1097,
+        "order": 70,
+        "title": "Welcome to the Shrinking World",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/ShrinkingWorld.md",
+        "folder": 0,
+        "words": 138
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75072,
+    "fields": {
+        "blog": 1097,
+        "order": 71,
+        "title": "Something Old, Something New",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/SomethingOld.md",
+        "folder": 0,
+        "words": 178
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75073,
+    "fields": {
+        "blog": 1097,
+        "order": 72,
+        "title": "Step Into the Dark",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/StepIntoDark.md",
+        "folder": 0,
+        "words": 228
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75074,
+    "fields": {
+        "blog": 1097,
+        "order": 73,
+        "title": "The Storm is Here",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Storm.md",
+        "folder": 0,
+        "words": 179
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75075,
+    "fields": {
+        "blog": 1097,
+        "order": 74,
+        "title": "Never a Straight Line",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/StraightLine.md",
+        "folder": 0,
+        "words": 116
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75076,
+    "fields": {
+        "blog": 1097,
+        "order": 75,
+        "title": "Stubbed",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Stub.md",
+        "folder": 0,
+        "words": 22
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75077,
+    "fields": {
+        "blog": 1097,
+        "order": 76,
+        "title": "Sunrise",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Sunrise.md",
+        "folder": 0,
+        "words": 308
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75078,
+    "fields": {
+        "blog": 1097,
+        "order": 77,
+        "title": "Sunset",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Sunset.md",
+        "folder": 0,
+        "words": 228
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75079,
+    "fields": {
+        "blog": 1097,
+        "order": 78,
+        "title": "Year of Tears",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Tears.md",
+        "folder": 0,
+        "words": 177
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75080,
+    "fields": {
+        "blog": 1097,
+        "order": 79,
+        "title": "Tierra del Fuego",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/TierraDelFuego.md",
+        "folder": 0,
+        "words": 135
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75081,
+    "fields": {
+        "blog": 1097,
+        "order": 80,
+        "title": "Touched With Fire",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/TouchedWithFire.md",
+        "folder": 0,
+        "words": 216
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75082,
+    "fields": {
+        "blog": 1097,
+        "order": 81,
+        "title": "Transactions with Others",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Transactions.md",
+        "folder": 0,
+        "words": 225
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75083,
+    "fields": {
+        "blog": 1097,
+        "order": 82,
+        "title": "One True Love",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/TrueLove.md",
+        "folder": 0,
+        "words": 148
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75084,
+    "fields": {
+        "blog": 1097,
+        "order": 83,
+        "title": "Two Kinds of People",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/TwoKindsOfPeople.md",
+        "folder": 0,
+        "words": 111
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75085,
+    "fields": {
+        "blog": 1097,
+        "order": 84,
+        "title": "Twelve Days of Valentine",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Valentine.md",
+        "folder": 0,
+        "words": 853
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75086,
+    "fields": {
+        "blog": 1097,
+        "order": 85,
+        "title": "Holders of Wealth",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Wealth.md",
+        "folder": 0,
+        "words": 100
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75087,
+    "fields": {
+        "blog": 1097,
+        "order": 86,
+        "title": "Hour of the Wolves",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/poem/Wolves.md",
+        "folder": 0,
+        "words": 376
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75088,
+    "fields": {
+        "blog": 1098,
+        "order": 0,
+        "title": "A Seaman's Quest",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Index.md",
+        "folder": 0,
+        "words": 217
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75089,
+    "fields": {
+        "blog": 1098,
+        "order": 1,
+        "title": "My Autistic Temperament",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Autism.md",
+        "folder": 0,
+        "words": 2211
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75090,
+    "fields": {
+        "blog": 1098,
+        "order": 2,
+        "title": "Christian Nationalism",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/ChristianNationalism.md",
+        "folder": 0,
+        "words": 502
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75091,
+    "fields": {
+        "blog": 1098,
+        "order": 3,
+        "title": "Purpose of the Church",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Church.md",
+        "folder": 0,
+        "words": 1857
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75092,
+    "fields": {
+        "blog": 1098,
+        "order": 4,
+        "title": "Learning to Collaborate",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Collaborate.md",
+        "folder": 0,
+        "words": 491
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75093,
+    "fields": {
+        "blog": 1098,
+        "order": 5,
+        "title": "Confessions",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Confessions.md",
+        "folder": 0,
+        "words": 1057
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75094,
+    "fields": {
+        "blog": 1098,
+        "order": 6,
+        "title": "The Cycles of History",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/CyclesOfHistory.md",
+        "folder": 0,
+        "words": 585
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75095,
+    "fields": {
+        "blog": 1098,
+        "order": 7,
+        "title": "My Primary Struggle",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/DoAndBe.md",
+        "folder": 0,
+        "words": 472
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75096,
+    "fields": {
+        "blog": 1098,
+        "order": 8,
+        "title": "Embrace Reality",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/EmbraceReality.md",
+        "folder": 0,
+        "words": 1676
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75097,
+    "fields": {
+        "blog": 1098,
+        "order": 9,
+        "title": "Emotional Healing",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/EmotionalHealing.md",
+        "folder": 0,
+        "words": 930
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75098,
+    "fields": {
+        "blog": 1098,
+        "order": 10,
+        "title": "Emotional Health",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/EmotionalHealth.md",
+        "folder": 0,
+        "words": 1376
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75099,
+    "fields": {
+        "blog": 1098,
+        "order": 11,
+        "title": "Embracing Joy Daily",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Enjoy.md",
+        "folder": 0,
+        "words": 759
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75100,
+    "fields": {
+        "blog": 1098,
+        "order": 12,
+        "title": "The Mystery of Expectations",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Expectations.md",
+        "folder": 0,
+        "words": 927
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75101,
+    "fields": {
+        "blog": 1098,
+        "order": 13,
+        "title": "Spiritual Growth",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Faith.md",
+        "folder": 0,
+        "words": 763
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75102,
+    "fields": {
+        "blog": 1098,
+        "order": 14,
+        "title": "The Journey of Faith",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/FaithSeasons.md",
+        "folder": 0,
+        "words": 566
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75103,
+    "fields": {
+        "blog": 1098,
+        "order": 15,
+        "title": "Season of Fall",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Fall.md",
+        "folder": 0,
+        "words": 17
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75104,
+    "fields": {
+        "blog": 1098,
+        "order": 16,
+        "title": "Learning to Feel",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Feeling.md",
+        "folder": 0,
+        "words": 356
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75105,
+    "fields": {
+        "blog": 1098,
+        "order": 17,
+        "title": "Fault Lines and Fractures",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Fractures.md",
+        "folder": 0,
+        "words": 1143
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75106,
+    "fields": {
+        "blog": 1098,
+        "order": 18,
+        "title": "Spiritual Fruit",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Fruit.md",
+        "folder": 0,
+        "words": 716
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75107,
+    "fields": {
+        "blog": 1098,
+        "order": 19,
+        "title": "Personal Transformation",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Grow.md",
+        "folder": 0,
+        "words": 1621
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75108,
+    "fields": {
+        "blog": 1098,
+        "order": 20,
+        "title": "Principles of Happiness",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Happiness.md",
+        "folder": 0,
+        "words": 578
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75109,
+    "fields": {
+        "blog": 1098,
+        "order": 21,
+        "title": "My Spiritual Journey",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Health.md",
+        "folder": 0,
+        "words": 914
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75110,
+    "fields": {
+        "blog": 1098,
+        "order": 22,
+        "title": "When Hunger Comes Home",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Hunger.md",
+        "folder": 0,
+        "words": 786
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75111,
+    "fields": {
+        "blog": 1098,
+        "order": 24,
+        "title": "The Art of Deep Listening",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Listening.md",
+        "folder": 0,
+        "words": 451
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75112,
+    "fields": {
+        "blog": 1098,
+        "order": 25,
+        "title": "Meaningful Relationships",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Love.md",
+        "folder": 0,
+        "words": 1425
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75113,
+    "fields": {
+        "blog": 1098,
+        "order": 26,
+        "title": "Response of Love",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/LoveResponse.md",
+        "folder": 0,
+        "words": 629
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75114,
+    "fields": {
+        "blog": 1098,
+        "order": 27,
+        "title": "My Kingdom Come",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/MyKingdom.md",
+        "folder": 0,
+        "words": 1188
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75115,
+    "fields": {
+        "blog": 1098,
+        "order": 28,
+        "title": "My Mission",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/MyMission.md",
+        "folder": 0,
+        "words": 533
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75116,
+    "fields": {
+        "blog": 1098,
+        "order": 29,
+        "title": " My Superpower",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/MySuperpower.md",
+        "folder": 0,
+        "words": 730
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75117,
+    "fields": {
+        "blog": 1098,
+        "order": 30,
+        "title": "New Phase of Life",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/NewPhase.md",
+        "folder": 0,
+        "words": 1896
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75118,
+    "fields": {
+        "blog": 1098,
+        "order": 31,
+        "title": "Learning from Pain",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Pain.md",
+        "folder": 0,
+        "words": 1660
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75119,
+    "fields": {
+        "blog": 1098,
+        "order": 32,
+        "title": "Peaceful Faith - (60s) 2020s",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/PeacefulFaith.md",
+        "folder": 0,
+        "words": 1708
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75120,
+    "fields": {
+        "blog": 1098,
+        "order": 33,
+        "title": "Colliding Empires",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Politics.md",
+        "folder": 0,
+        "words": 1636
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75121,
+    "fields": {
+        "blog": 1098,
+        "order": 34,
+        "title": "A Fresh Approach to Prayer",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Prayer.md",
+        "folder": 0,
+        "words": 1405
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75122,
+    "fields": {
+        "blog": 1098,
+        "order": 35,
+        "title": "Embracing My Life Purpose",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Purpose.md",
+        "folder": 0,
+        "words": 2262
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75123,
+    "fields": {
+        "blog": 1098,
+        "order": 36,
+        "title": "Quest for Understanding",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/QuestUnderstanding.md",
+        "folder": 0,
+        "words": 1089
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75124,
+    "fields": {
+        "blog": 1098,
+        "order": 37,
+        "title": "My Reason to Live - the human spirit",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/ReasonToLive.md",
+        "folder": 0,
+        "words": 712
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75125,
+    "fields": {
+        "blog": 1098,
+        "order": 38,
+        "title": "Relating to People",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Relating.md",
+        "folder": 0,
+        "words": 1161
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75126,
+    "fields": {
+        "blog": 1098,
+        "order": 39,
+        "title": "Nurturing Relationships",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Relationships.md",
+        "folder": 0,
+        "words": 735
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75127,
+    "fields": {
+        "blog": 1098,
+        "order": 40,
+        "title": "Know When to Retreat",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Retreat.md",
+        "folder": 0,
+        "words": 660
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75128,
+    "fields": {
+        "blog": 1098,
+        "order": 41,
+        "title": "Personal Review Exercises",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/ReviewExercises.md",
+        "folder": 0,
+        "words": 305
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75129,
+    "fields": {
+        "blog": 1098,
+        "order": 42,
+        "title": "The Dynamics of Revolution",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Revolution.md",
+        "folder": 0,
+        "words": 950
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75130,
+    "fields": {
+        "blog": 1098,
+        "order": 43,
+        "title": "Rule of Life",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/RuleOfLife.md",
+        "folder": 0,
+        "words": 1366
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75131,
+    "fields": {
+        "blog": 1098,
+        "order": 44,
+        "title": "Spiritual Formation",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/SpiritFormation.md",
+        "folder": 0,
+        "words": 594
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75132,
+    "fields": {
+        "blog": 1098,
+        "order": 45,
+        "title": "All Growth is Spiritual",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/SpiritualGrowth.md",
+        "folder": 0,
+        "words": 499
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75133,
+    "fields": {
+        "blog": 1098,
+        "order": 46,
+        "title": "Spiritual Practices",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/SpiritualPractices.md",
+        "folder": 0,
+        "words": 1248
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75134,
+    "fields": {
+        "blog": 1098,
+        "order": 47,
+        "title": "Spiritual Warfare",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/SpiritualWar.md",
+        "folder": 0,
+        "words": 601
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75135,
+    "fields": {
+        "blog": 1098,
+        "order": 48,
+        "title": "Season of Spring",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Spring.md",
+        "folder": 0,
+        "words": 16
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75136,
+    "fields": {
+        "blog": 1098,
+        "order": 49,
+        "title": "Season of Summer",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Summer.md",
+        "folder": 0,
+        "words": 17
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75137,
+    "fields": {
+        "blog": 1098,
+        "order": 50,
+        "title": "Living in Surrender",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Surrender.md",
+        "folder": 0,
+        "words": 1911
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75138,
+    "fields": {
+        "blog": 1098,
+        "order": 51,
+        "title": "Transformation",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Transformation.md",
+        "folder": 0,
+        "words": 1438
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75139,
+    "fields": {
+        "blog": 1098,
+        "order": 52,
+        "title": "Spiritual Walkabout",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Walkabout.md",
+        "folder": 0,
+        "words": 1410
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75140,
+    "fields": {
+        "blog": 1098,
+        "order": 53,
+        "title": "Who Do You Love?",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/WhoDoYouLove.md",
+        "folder": 0,
+        "words": 1264
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75141,
+    "fields": {
+        "blog": 1098,
+        "order": 54,
+        "title": "Season of Winter",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Winter.md",
+        "folder": 0,
+        "words": 17
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75142,
+    "fields": {
+        "blog": 1098,
+        "order": 55,
+        "title": "Meaningful Work",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/quest/Work.md",
+        "folder": 0,
+        "words": 2171
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75143,
+    "fields": {
+        "blog": 1099,
+        "order": 0,
+        "title": "The Leverage Principle",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/Index.md",
+        "folder": 0,
+        "words": 136
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75144,
+    "fields": {
+        "blog": 1099,
+        "order": 1,
+        "title": "1 - The Leverage Principle",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/01.md",
+        "folder": 0,
+        "words": 4866
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75145,
+    "fields": {
+        "blog": 1099,
+        "order": 2,
+        "title": "2 - Technical Debt",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/02.md",
+        "folder": 0,
+        "words": 6272
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75146,
+    "fields": {
+        "blog": 1099,
+        "order": 3,
+        "title": "3 - Best Practices = Leverage",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/03.md",
+        "folder": 0,
+        "words": 4363
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75147,
+    "fields": {
+        "blog": 1099,
+        "order": 4,
+        "title": "4 - Technology Leverage",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/04.md",
+        "folder": 0,
+        "words": 5021
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75148,
+    "fields": {
+        "blog": 1099,
+        "order": 5,
+        "title": "5 - Architectural Leverage",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/05.md",
+        "folder": 0,
+        "words": 7161
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75149,
+    "fields": {
+        "blog": 1099,
+        "order": 6,
+        "title": "6 - Code Leverage",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/06.md",
+        "folder": 0,
+        "words": 6620
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75150,
+    "fields": {
+        "blog": 1099,
+        "order": 7,
+        "title": "7 - Test Leverage",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/07.md",
+        "folder": 0,
+        "words": 7136
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75151,
+    "fields": {
+        "blog": 1099,
+        "order": 8,
+        "title": "8 - Release Cycles",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/08.md",
+        "folder": 0,
+        "words": 4188
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75152,
+    "fields": {
+        "blog": 1099,
+        "order": 9,
+        "title": "9 - Services Architecture",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/09.md",
+        "folder": 0,
+        "words": 4518
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75153,
+    "fields": {
+        "blog": 1099,
+        "order": 10,
+        "title": "10 - Application Deployment",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/10.md",
+        "folder": 0,
+        "words": 4876
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75154,
+    "fields": {
+        "blog": 1099,
+        "order": 11,
+        "title": "11 - Monitoring Operations",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/11.md",
+        "folder": 0,
+        "words": 5147
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75155,
+    "fields": {
+        "blog": 1099,
+        "order": 12,
+        "title": "12 - Knowledge Management",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/12.md",
+        "folder": 0,
+        "words": 5970
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75156,
+    "fields": {
+        "blog": 1099,
+        "order": 13,
+        "title": "13 - Teamwork",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/13.md",
+        "folder": 0,
+        "words": 4178
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75157,
+    "fields": {
+        "blog": 1099,
+        "order": 14,
+        "title": "14 - Learning",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/14.md",
+        "folder": 0,
+        "words": 5738
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75158,
+    "fields": {
+        "blog": 1099,
+        "order": 15,
+        "title": "15 - Planning for Leverage",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/15.md",
+        "folder": 0,
+        "words": 4373
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75159,
+    "fields": {
+        "blog": 1099,
+        "order": 16,
+        "title": "Appendix A - Build Your Own Complexity Measurement Tool",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/16.md",
+        "folder": 0,
+        "words": 1030
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75160,
+    "fields": {
+        "blog": 1099,
+        "order": 17,
+        "title": "Appendix B - Testing Automation Interfaces",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/17.md",
+        "folder": 0,
+        "words": 1292
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75161,
+    "fields": {
+        "blog": 1099,
+        "order": 18,
+        "title": "Appendix C - Component Encapsulation",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/18.md",
+        "folder": 0,
+        "words": 887
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75162,
+    "fields": {
+        "blog": 1099,
+        "order": 20,
+        "title": "PART 1 - Dynamics of Software Leverage",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/Part1.md",
+        "folder": 0,
+        "words": 11
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75163,
+    "fields": {
+        "blog": 1099,
+        "order": 21,
+        "title": "PART 2 - Leverage in Development",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/Part2.md",
+        "folder": 0,
+        "words": 10
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75164,
+    "fields": {
+        "blog": 1099,
+        "order": 22,
+        "title": "PART 3 - Leverage in Operations",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/Part3.md",
+        "folder": 0,
+        "words": 10
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75165,
+    "fields": {
+        "blog": 1099,
+        "order": 23,
+        "title": "PART 4 - Culture of Leverage",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/Part4.md",
+        "folder": 0,
+        "words": 10
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75166,
+    "fields": {
+        "blog": 1099,
+        "order": 24,
+        "title": "Appendices",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/Part5.md",
+        "folder": 0,
+        "words": 5
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75167,
+    "fields": {
+        "blog": 1099,
+        "order": 26,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/leverage/images/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75168,
+    "fields": {
+        "blog": 1100,
+        "order": 0,
+        "title": "Python Web Apps",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/webapps/Index.md",
+        "folder": 0,
+        "words": 622
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75169,
+    "fields": {
+        "blog": 1100,
+        "order": 3,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/webapps/chapter/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75170,
+    "fields": {
+        "blog": 1100,
+        "order": 1,
+        "title": "Chapter 1 - Development Tools",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/01.md",
+        "folder": 3,
+        "words": 1391
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75171,
+    "fields": {
+        "blog": 1100,
+        "order": 2,
+        "title": "Chapter 2 - Application Hosting",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/02.md",
+        "folder": 3,
+        "words": 1975
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75172,
+    "fields": {
+        "blog": 1100,
+        "order": 3,
+        "title": "Chapter 3 - Basic Application",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/03.md",
+        "folder": 3,
+        "words": 906
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75173,
+    "fields": {
+        "blog": 1100,
+        "order": 4,
+        "title": "Chapter 4 - Views",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/04.md",
+        "folder": 3,
+        "words": 835
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75174,
+    "fields": {
+        "blog": 1100,
+        "order": 5,
+        "title": "Chapter 5 - Data",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/05.md",
+        "folder": 3,
+        "words": 1149
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75175,
+    "fields": {
+        "blog": 1100,
+        "order": 6,
+        "title": "Chapter 6 - Data views",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/06.md",
+        "folder": 3,
+        "words": 1109
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75176,
+    "fields": {
+        "blog": 1100,
+        "order": 7,
+        "title": "Chapter 7 - Users",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/07.md",
+        "folder": 3,
+        "words": 764
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75177,
+    "fields": {
+        "blog": 1100,
+        "order": 8,
+        "title": "Chapter 8 - Testing",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/08.md",
+        "folder": 3,
+        "words": 1749
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75178,
+    "fields": {
+        "blog": 1100,
+        "order": 9,
+        "title": "Chapter 9 - Complex Views",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/09.md",
+        "folder": 3,
+        "words": 552
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75179,
+    "fields": {
+        "blog": 1100,
+        "order": 10,
+        "title": "Chapter 10 - Images",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/10.md",
+        "folder": 3,
+        "words": 447
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75180,
+    "fields": {
+        "blog": 1100,
+        "order": 11,
+        "title": "Chapter 11 - Files and Documents",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/11.md",
+        "folder": 3,
+        "words": 1216
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75181,
+    "fields": {
+        "blog": 1100,
+        "order": 12,
+        "title": "Chapter 12 - Development Process",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/12.md",
+        "folder": 3,
+        "words": 1440
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75182,
+    "fields": {
+        "blog": 1100,
+        "order": 13,
+        "title": "Chapter 13 - Software Release ",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/13.md",
+        "folder": 3,
+        "words": 1128
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75183,
+    "fields": {
+        "blog": 1100,
+        "order": 14,
+        "title": "Chapter 14 - Software Engineering",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/14.md",
+        "folder": 3,
+        "words": 1627
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75184,
+    "fields": {
+        "blog": 1100,
+        "order": 15,
+        "title": "About the Author",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/About.md",
+        "folder": 3,
+        "words": 151
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75185,
+    "fields": {
+        "blog": 1100,
+        "order": 16,
+        "title": "Introduction",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/chapter/Intro.md",
+        "folder": 3,
+        "words": 821
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75186,
+    "fields": {
+        "blog": 1100,
+        "order": 4,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/webapps/demo/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75187,
+    "fields": {
+        "blog": 1100,
+        "order": 1,
+        "title": " Demo 1 - Profile App",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/01.md",
+        "folder": 4,
+        "words": 469
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75188,
+    "fields": {
+        "blog": 1100,
+        "order": 2,
+        "title": " Demo 2 - App Platform Deployment",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/02.md",
+        "folder": 4,
+        "words": 637
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75189,
+    "fields": {
+        "blog": 1100,
+        "order": 3,
+        "title": " Demo 3 - Debugging with Visual Studio",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/03.md",
+        "folder": 4,
+        "words": 607
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75190,
+    "fields": {
+        "blog": 1100,
+        "order": 4,
+        "title": " Demo 4 - Visual Inheritance",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/04.md",
+        "folder": 4,
+        "words": 896
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75191,
+    "fields": {
+        "blog": 1100,
+        "order": 5,
+        "title": " Demo 5 - Working with Data",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/05.md",
+        "folder": 4,
+        "words": 610
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75192,
+    "fields": {
+        "blog": 1100,
+        "order": 6,
+        "title": " Demo 6 - Blog",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/06.md",
+        "folder": 4,
+        "words": 802
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75193,
+    "fields": {
+        "blog": 1100,
+        "order": 7,
+        "title": " Demo 7 - Blog Authors",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/07.md",
+        "folder": 4,
+        "words": 648
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75194,
+    "fields": {
+        "blog": 1100,
+        "order": 8,
+        "title": " Demo 8 - Automated Testing",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/08.md",
+        "folder": 4,
+        "words": 576
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75195,
+    "fields": {
+        "blog": 1100,
+        "order": 9,
+        "title": " Demo 9 - Views Workshop",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/09.md",
+        "folder": 4,
+        "words": 296
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75196,
+    "fields": {
+        "blog": 1100,
+        "order": 10,
+        "title": " Demo 10 - Photo Albums",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/10.md",
+        "folder": 4,
+        "words": 676
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75197,
+    "fields": {
+        "blog": 1100,
+        "order": 11,
+        "title": " Demo 11 - Book Builder",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/11.md",
+        "folder": 4,
+        "words": 460
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75198,
+    "fields": {
+        "blog": 1100,
+        "order": 12,
+        "title": " Demo 12 - Static Website Generator",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/12.md",
+        "folder": 4,
+        "words": 838
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75199,
+    "fields": {
+        "blog": 1100,
+        "order": 13,
+        "title": " Demo 13 - Code Builder",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/13.md",
+        "folder": 4,
+        "words": 753
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75200,
+    "fields": {
+        "blog": 1100,
+        "order": 14,
+        "title": " Demo 14 - Software Engineering Notebook",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/demo/14.md",
+        "folder": 4,
+        "words": 1066
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75201,
+    "fields": {
+        "blog": 1100,
+        "order": 5,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/webapps/img/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75202,
+    "fields": {
+        "blog": 1100,
+        "order": 6,
+        "title": "PythonWebApps Project Index",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/webapps/project/Index.md",
+        "folder": 0,
+        "words": 125
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75203,
+    "fields": {
+        "blog": 1100,
+        "order": 1,
+        "title": " Project 1 - Setup Development Tools",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/01.md",
+        "folder": 6,
+        "words": 546
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75204,
+    "fields": {
+        "blog": 1100,
+        "order": 2,
+        "title": " Project 2 - Web App Hosting",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/02.md",
+        "folder": 6,
+        "words": 325
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75205,
+    "fields": {
+        "blog": 1100,
+        "order": 3,
+        "title": " Project 3 - Superhero Pages",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/03.md",
+        "folder": 6,
+        "words": 467
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75206,
+    "fields": {
+        "blog": 1100,
+        "order": 4,
+        "title": " Project 4 - Superhero Profiles",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/04.md",
+        "folder": 6,
+        "words": 599
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75207,
+    "fields": {
+        "blog": 1100,
+        "order": 5,
+        "title": " Project 5 - Superhero Database",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/05.md",
+        "folder": 6,
+        "words": 757
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75208,
+    "fields": {
+        "blog": 1100,
+        "order": 6,
+        "title": " Project 6 - Superhero Data Views",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/06.md",
+        "folder": 6,
+        "words": 713
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75209,
+    "fields": {
+        "blog": 1100,
+        "order": 7,
+        "title": " Project 7 - User Authentication",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/07.md",
+        "folder": 6,
+        "words": 421
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75210,
+    "fields": {
+        "blog": 1100,
+        "order": 8,
+        "title": " Project 8 - Superhero Articles",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/08.md",
+        "folder": 6,
+        "words": 168
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75211,
+    "fields": {
+        "blog": 1100,
+        "order": 9,
+        "title": " Project 9 - Production Database",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/09.md",
+        "folder": 6,
+        "words": 75
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75212,
+    "fields": {
+        "blog": 1100,
+        "order": 10,
+        "title": " Project 9 - Superhero Website",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/10.md",
+        "folder": 6,
+        "words": 434
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75213,
+    "fields": {
+        "blog": 1100,
+        "order": 11,
+        "title": " Project 11 - Superhero Documents ",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/11.md",
+        "folder": 6,
+        "words": 49
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75214,
+    "fields": {
+        "blog": 1100,
+        "order": 12,
+        "title": " Project 12 - Superhero Image Gallery",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/12.md",
+        "folder": 6,
+        "words": 219
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75215,
+    "fields": {
+        "blog": 1100,
+        "order": 13,
+        "title": " Project 13 - Website Builder ",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/13.md",
+        "folder": 6,
+        "words": 369
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75216,
+    "fields": {
+        "blog": 1100,
+        "order": 14,
+        "title": " Project 14 - Software Planner",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/14.md",
+        "folder": 6,
+        "words": 233
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75217,
+    "fields": {
+        "blog": 1100,
+        "order": 15,
+        "title": "PythonWebApps Project Index",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/project/index.md",
+        "folder": 6,
+        "words": 125
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75218,
+    "fields": {
+        "blog": 1100,
+        "order": 7,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/seamansguide.com/webapps/skill/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75219,
+    "fields": {
+        "blog": 1100,
+        "order": 1,
+        "title": " Skill 1 - Visual Studio Code & Github",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/01.md",
+        "folder": 7,
+        "words": 654
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75220,
+    "fields": {
+        "blog": 1100,
+        "order": 2,
+        "title": " Skill 2 - Setup Python Environment",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/02.md",
+        "folder": 7,
+        "words": 384
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75221,
+    "fields": {
+        "blog": 1100,
+        "order": 3,
+        "title": " Skill 3 - Running a Django Application",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/03.md",
+        "folder": 7,
+        "words": 319
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75222,
+    "fields": {
+        "blog": 1100,
+        "order": 4,
+        "title": " Skill 4 - Deploy a Static Web Server",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/04.md",
+        "folder": 7,
+        "words": 181
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75223,
+    "fields": {
+        "blog": 1100,
+        "order": 5,
+        "title": " Skill 5 - Deploy to Development Server",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/05.md",
+        "folder": 7,
+        "words": 818
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75224,
+    "fields": {
+        "blog": 1100,
+        "order": 6,
+        "title": " Skill 6 - Deploy to Production Server",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/06.md",
+        "folder": 7,
+        "words": 1276
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75225,
+    "fields": {
+        "blog": 1100,
+        "order": 7,
+        "title": "  Skill 7 - Create a Django App",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/07.md",
+        "folder": 7,
+        "words": 408
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75226,
+    "fields": {
+        "blog": 1100,
+        "order": 8,
+        "title": "  Skill 8 - View with Variables",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/08.md",
+        "folder": 7,
+        "words": 457
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75227,
+    "fields": {
+        "blog": 1100,
+        "order": 9,
+        "title": "  Skill 9 - Add Variables to View",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/09.md",
+        "folder": 7,
+        "words": 344
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75228,
+    "fields": {
+        "blog": 1100,
+        "order": 10,
+        "title": " Skill 10 - View Inheritance",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/10.md",
+        "folder": 7,
+        "words": 392
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75229,
+    "fields": {
+        "blog": 1100,
+        "order": 11,
+        "title": " Skill 11 - Templates",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/11.md",
+        "folder": 7,
+        "words": 512
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75230,
+    "fields": {
+        "blog": 1100,
+        "order": 12,
+        "title": " Skill 12 - Complex Variables in Views",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/12.md",
+        "folder": 7,
+        "words": 684
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75231,
+    "fields": {
+        "blog": 1100,
+        "order": 13,
+        "title": " Skill 13 - Build Data Models",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/13.md",
+        "folder": 7,
+        "words": 259
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75232,
+    "fields": {
+        "blog": 1100,
+        "order": 14,
+        "title": " Skill 14 - List and Detail Views",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/14.md",
+        "folder": 7,
+        "words": 415
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75233,
+    "fields": {
+        "blog": 1100,
+        "order": 15,
+        "title": " Skill 15 - Admin Views",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/15.md",
+        "folder": 7,
+        "words": 441
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75234,
+    "fields": {
+        "blog": 1100,
+        "order": 16,
+        "title": " Skill 16 - Data CRUD views",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/16.md",
+        "folder": 7,
+        "words": 602
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75235,
+    "fields": {
+        "blog": 1100,
+        "order": 17,
+        "title": " Skill 17 - Development Database",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/17.md",
+        "folder": 7,
+        "words": 403
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75236,
+    "fields": {
+        "blog": 1100,
+        "order": 18,
+        "title": " Skill 18 - Production Database",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/18.md",
+        "folder": 7,
+        "words": 352
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75237,
+    "fields": {
+        "blog": 1100,
+        "order": 19,
+        "title": " Skill 19 - User Registration",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/19.md",
+        "folder": 7,
+        "words": 193
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75238,
+    "fields": {
+        "blog": 1100,
+        "order": 20,
+        "title": " Skill 20 - User Login",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/20.md",
+        "folder": 7,
+        "words": 300
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75239,
+    "fields": {
+        "blog": 1100,
+        "order": 21,
+        "title": " Skill 21 - User Status",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/21.md",
+        "folder": 7,
+        "words": 249
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75240,
+    "fields": {
+        "blog": 1100,
+        "order": 22,
+        "title": " Skill 22 - Writing Data Tests",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/22.md",
+        "folder": 7,
+        "words": 285
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75241,
+    "fields": {
+        "blog": 1100,
+        "order": 23,
+        "title": " Skill 23 - Writing View Tests",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/23.md",
+        "folder": 7,
+        "words": 442
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75242,
+    "fields": {
+        "blog": 1100,
+        "order": 24,
+        "title": " Skill 24 - Writing Page Tests",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/24.md",
+        "folder": 7,
+        "words": 337
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75243,
+    "fields": {
+        "blog": 1100,
+        "order": 25,
+        "title": " Skill 25 - Create a Theme Template",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/25.md",
+        "folder": 7,
+        "words": 359
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75244,
+    "fields": {
+        "blog": 1100,
+        "order": 26,
+        "title": " Skill 26 - Simple Views",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/26.md",
+        "folder": 7,
+        "words": 781
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75245,
+    "fields": {
+        "blog": 1100,
+        "order": 27,
+        "title": " Skill 27 - Complex Views",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/27.md",
+        "folder": 7,
+        "words": 720
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75246,
+    "fields": {
+        "blog": 1100,
+        "order": 28,
+        "title": " Skill 28 - Photo upload",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/28.md",
+        "folder": 7,
+        "words": 166
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75247,
+    "fields": {
+        "blog": 1100,
+        "order": 29,
+        "title": " Skill 29 - Media Hosting",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/29.md",
+        "folder": 7,
+        "words": 503
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75248,
+    "fields": {
+        "blog": 1100,
+        "order": 30,
+        "title": " Skill 30 - Image carousel",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/30.md",
+        "folder": 7,
+        "words": 299
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75249,
+    "fields": {
+        "blog": 1100,
+        "order": 31,
+        "title": " Skill 31 - Reading and Writing Tables",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/31.md",
+        "folder": 7,
+        "words": 316
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75250,
+    "fields": {
+        "blog": 1100,
+        "order": 32,
+        "title": " Skill 32 - Markdown Documents ",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/32.md",
+        "folder": 7,
+        "words": 285
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75251,
+    "fields": {
+        "blog": 1100,
+        "order": 33,
+        "title": " Skill 33 - Save and Restore Objects",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/33.md",
+        "folder": 7,
+        "words": 384
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75252,
+    "fields": {
+        "blog": 1100,
+        "order": 34,
+        "title": " Skill 34 - Discover Requirements",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/34.md",
+        "folder": 7,
+        "words": 574
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75253,
+    "fields": {
+        "blog": 1100,
+        "order": 35,
+        "title": " Skill 35 - Design & Coding Process",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/35.md",
+        "folder": 7,
+        "words": 201
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75254,
+    "fields": {
+        "blog": 1100,
+        "order": 36,
+        "title": " Skill 36 - Test Driven-development",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/36.md",
+        "folder": 7,
+        "words": 272
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75255,
+    "fields": {
+        "blog": 1100,
+        "order": 37,
+        "title": " Skill 37 - Code Generator",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/37.md",
+        "folder": 7,
+        "words": 587
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75256,
+    "fields": {
+        "blog": 1100,
+        "order": 38,
+        "title": " Skill 38 - Continuous Integration",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/38.md",
+        "folder": 7,
+        "words": 335
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75257,
+    "fields": {
+        "blog": 1100,
+        "order": 39,
+        "title": " Skill 39 - DevOps Practices",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/39.md",
+        "folder": 7,
+        "words": 400
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75258,
+    "fields": {
+        "blog": 1100,
+        "order": 40,
+        "title": " Skill 40 - Software Lifecycle",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/40.md",
+        "folder": 7,
+        "words": 946
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75259,
+    "fields": {
+        "blog": 1100,
+        "order": 41,
+        "title": " Skill 41 - Planning Grid",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/41.md",
+        "folder": 7,
+        "words": 367
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75260,
+    "fields": {
+        "blog": 1100,
+        "order": 42,
+        "title": " Skill 42 - Client Communication",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/webapps/skill/42.md",
+        "folder": 7,
+        "words": 773
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75261,
+    "fields": {
+        "blog": 1101,
+        "order": 0,
+        "title": "Tech Notes",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/blog/Index.md",
+        "folder": 0,
+        "words": 134
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75262,
+    "fields": {
+        "blog": 1101,
+        "order": 4,
+        "title": "Micropublishing",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/blog/micropub/Index.md",
+        "folder": 0,
+        "words": 178
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75263,
+    "fields": {
+        "blog": 1101,
+        "order": 1,
+        "title": "Article Payload",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/micropub/Article.md",
+        "folder": 4,
+        "words": 514
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75264,
+    "fields": {
+        "blog": 1101,
+        "order": 2,
+        "title": "Course Payload",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/micropub/Course.md",
+        "folder": 4,
+        "words": 91
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75265,
+    "fields": {
+        "blog": 1101,
+        "order": 4,
+        "title": "Info Content Math",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/micropub/InfoContent.md",
+        "folder": 4,
+        "words": 246
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75266,
+    "fields": {
+        "blog": 1101,
+        "order": 5,
+        "title": "The Lecture",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/micropub/Lecture.md",
+        "folder": 4,
+        "words": 727
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75267,
+    "fields": {
+        "blog": 1101,
+        "order": 6,
+        "title": "Riding the Mastodon",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/micropub/Mastodon.md",
+        "folder": 4,
+        "words": 844
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75268,
+    "fields": {
+        "blog": 1101,
+        "order": 7,
+        "title": "Message Payload",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/micropub/Message.md",
+        "folder": 4,
+        "words": 490
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75269,
+    "fields": {
+        "blog": 1101,
+        "order": 8,
+        "title": "Minicourse Payload",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/micropub/Minicourse.md",
+        "folder": 4,
+        "words": 86
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75270,
+    "fields": {
+        "blog": 1101,
+        "order": 9,
+        "title": "Micropub Product Deliverables",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/micropub/Payload.md",
+        "folder": 4,
+        "words": 294
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75271,
+    "fields": {
+        "blog": 1101,
+        "order": 10,
+        "title": "Post Payload",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/micropub/Post.md",
+        "folder": 4,
+        "words": 685
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75272,
+    "fields": {
+        "blog": 1101,
+        "order": 11,
+        "title": "Seminar Payload",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/micropub/Seminar.md",
+        "folder": 4,
+        "words": 68
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75273,
+    "fields": {
+        "blog": 1101,
+        "order": 5,
+        "title": "Software Development Plan",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/blog/projects/Index.md",
+        "folder": 0,
+        "words": 134
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75274,
+    "fields": {
+        "blog": 1101,
+        "order": 1,
+        "title": "App Builder ",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/projects/AppBuilder.md",
+        "folder": 5,
+        "words": 246
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75275,
+    "fields": {
+        "blog": 1101,
+        "order": 2,
+        "title": "Blog Builder",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/projects/BlogBuilder.md",
+        "folder": 5,
+        "words": 215
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75276,
+    "fields": {
+        "blog": 1101,
+        "order": 3,
+        "title": "Book Builder",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/projects/BookBuilder.md",
+        "folder": 5,
+        "words": 312
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75277,
+    "fields": {
+        "blog": 1101,
+        "order": 4,
+        "title": "Course Builder",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/projects/CourseBuilder.md",
+        "folder": 5,
+        "words": 463
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75278,
+    "fields": {
+        "blog": 1101,
+        "order": 6,
+        "title": "Shrinking World",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/blog/shrinkingworld/Index.md",
+        "folder": 0,
+        "words": 103
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75279,
+    "fields": {
+        "blog": 1101,
+        "order": 1,
+        "title": "Contact Info",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/shrinkingworld/ContactMe.md",
+        "folder": 6,
+        "words": 56
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75280,
+    "fields": {
+        "blog": 1101,
+        "order": 4,
+        "title": "Our Services",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/shrinkingworld/Services.md",
+        "folder": 6,
+        "words": 181
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75281,
+    "fields": {
+        "blog": 1101,
+        "order": 5,
+        "title": "Shrinking World Solutions",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/shrinkingworld/ShrinkingWorld.md",
+        "folder": 6,
+        "words": 121
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75282,
+    "fields": {
+        "blog": 1101,
+        "order": 6,
+        "title": "Our Vision",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/shrinkingworld/Vision.md",
+        "folder": 6,
+        "words": 499
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75283,
+    "fields": {
+        "blog": 1101,
+        "order": 7,
+        "title": "Tech Notes",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/blog/tech/Index.md",
+        "folder": 0,
+        "words": 31
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75284,
+    "fields": {
+        "blog": 1101,
+        "order": 1,
+        "title": "Communication Channels",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/tech/CommChannels.md",
+        "folder": 7,
+        "words": 240
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75285,
+    "fields": {
+        "blog": 1101,
+        "order": 2,
+        "title": "The Healthy Mastodon",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/tech/HealthyMastodon.md",
+        "folder": 7,
+        "words": 86
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75286,
+    "fields": {
+        "blog": 1101,
+        "order": 4,
+        "title": "The Internet (1990s)",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/tech/Internet.md",
+        "folder": 7,
+        "words": 1628
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75287,
+    "fields": {
+        "blog": 1101,
+        "order": 5,
+        "title": "The Personal Computer (1980s)",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/tech/PersonalComputer.md",
+        "folder": 7,
+        "words": 1581
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75288,
+    "fields": {
+        "blog": 1101,
+        "order": 6,
+        "title": "When will you Retire?",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/tech/Retirement.md",
+        "folder": 7,
+        "words": 910
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75289,
+    "fields": {
+        "blog": 1101,
+        "order": 7,
+        "title": "Discovering Teaching",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/tech/Teaching.md",
+        "folder": 7,
+        "words": 1417
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75290,
+    "fields": {
+        "blog": 1101,
+        "order": 8,
+        "title": "Technology Innovations",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/tech/TechTimeline.md",
+        "folder": 7,
+        "words": 359
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75291,
+    "fields": {
+        "blog": 1101,
+        "order": 9,
+        "title": "Shaped by Technology",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/tech/Technology.md",
+        "folder": 7,
+        "words": 541
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75292,
+    "fields": {
+        "blog": 1101,
+        "order": 8,
+        "title": "Shrinking World Training",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/blog/training/Index.md",
+        "folder": 0,
+        "words": 50
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75293,
+    "fields": {
+        "blog": 1101,
+        "order": 1,
+        "title": "Speaker Bio",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/training/Biography.md",
+        "folder": 8,
+        "words": 59
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75294,
+    "fields": {
+        "blog": 1101,
+        "order": 2,
+        "title": "Independent Study",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/training/IndependentStudy.md",
+        "folder": 8,
+        "words": 80
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75295,
+    "fields": {
+        "blog": 1101,
+        "order": 6,
+        "title": "Tutorial - Course Creation  (1/2 day tutorial)",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/training/TutorialCourse.md",
+        "folder": 8,
+        "words": 923
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75296,
+    "fields": {
+        "blog": 1101,
+        "order": 8,
+        "title": "Web Development Video Courses",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/training/VideoCourses.md",
+        "folder": 8,
+        "words": 144
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75297,
+    "fields": {
+        "blog": 1102,
+        "order": 0,
+        "title": "Writer's Block",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/Index.md",
+        "folder": 0,
+        "words": 99
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75298,
+    "fields": {
+        "blog": 1102,
+        "order": 1,
+        "title": "Embrace Truth",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/EmbraceTruth.md",
+        "folder": 0,
+        "words": 164
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75299,
+    "fields": {
+        "blog": 1102,
+        "order": 2,
+        "title": "Featured Articles",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/FeaturedArticles.md",
+        "folder": 0,
+        "words": 130
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75300,
+    "fields": {
+        "blog": 1102,
+        "order": 3,
+        "title": "Story within a Story",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/FrameNarrative.md",
+        "folder": 0,
+        "words": 128
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75301,
+    "fields": {
+        "blog": 1102,
+        "order": 4,
+        "title": "How to Tell Stories",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/HeroesJourney.md",
+        "folder": 0,
+        "words": 35
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75302,
+    "fields": {
+        "blog": 1102,
+        "order": 5,
+        "title": "Humans Tell Stories",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/HumansTellStories.md",
+        "folder": 0,
+        "words": 255
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75303,
+    "fields": {
+        "blog": 1102,
+        "order": 7,
+        "title": "Interview for the Story",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/Interview.md",
+        "folder": 0,
+        "words": 205
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75304,
+    "fields": {
+        "blog": 1102,
+        "order": 8,
+        "title": "Writing is a Journey",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/Journey.md",
+        "folder": 0,
+        "words": 127
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75305,
+    "fields": {
+        "blog": 1102,
+        "order": 9,
+        "title": "Defining Moments",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/Moments.md",
+        "folder": 0,
+        "words": 278
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75306,
+    "fields": {
+        "blog": 1102,
+        "order": 10,
+        "title": "It's Not About Output",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/NotAboutOutput.md",
+        "folder": 0,
+        "words": 221
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75307,
+    "fields": {
+        "blog": 1102,
+        "order": 11,
+        "title": "Your Passion Is Your Purpose",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/Passion.md",
+        "folder": 0,
+        "words": 178
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75308,
+    "fields": {
+        "blog": 1102,
+        "order": 12,
+        "title": "A Mark of Poetry",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/Poems.md",
+        "folder": 0,
+        "words": 175
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75309,
+    "fields": {
+        "blog": 1102,
+        "order": 13,
+        "title": "Traditional Publishing",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/Publishing.md",
+        "folder": 0,
+        "words": 813
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75310,
+    "fields": {
+        "blog": 1102,
+        "order": 14,
+        "title": "Writer's Scorecard",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/Scorecard.md",
+        "folder": 0,
+        "words": 286
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75311,
+    "fields": {
+        "blog": 1102,
+        "order": 15,
+        "title": "Your Story Tells Who You Are",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/StoriesReveal.md",
+        "folder": 0,
+        "words": 252
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75312,
+    "fields": {
+        "blog": 1102,
+        "order": 16,
+        "title": "Using Evernote Tags",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/Tags.md",
+        "folder": 0,
+        "words": 341
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75313,
+    "fields": {
+        "blog": 1102,
+        "order": 17,
+        "title": "Story in Three Acts",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/ThreeActs.md",
+        "folder": 0,
+        "words": 221
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75314,
+    "fields": {
+        "blog": 1102,
+        "order": 18,
+        "title": "Upcoming Book",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/UpcomingBook.md",
+        "folder": 0,
+        "words": 310
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75315,
+    "fields": {
+        "blog": 1102,
+        "order": 19,
+        "title": "Stages of Writing",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/WritingStages.md",
+        "folder": 0,
+        "words": 618
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75316,
+    "fields": {
+        "blog": 1102,
+        "order": 20,
+        "title": "Writing Workflow",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/WritingWorkflow.md",
+        "folder": 0,
+        "words": 340
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75317,
+    "fields": {
+        "blog": 1104,
+        "order": 0,
+        "title": "Spiritual Things Daily Meditations",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/Index.md",
+        "folder": 0,
+        "words": 100
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75318,
+    "fields": {
+        "blog": 1104,
+        "order": 2,
+        "title": "Index of content",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/01/Index.md",
+        "folder": 0,
+        "words": 195
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75319,
+    "fields": {
+        "blog": 1104,
+        "order": 3,
+        "title": "Index of content",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/02/Index.md",
+        "folder": 0,
+        "words": 177
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75320,
+    "fields": {
+        "blog": 1104,
+        "order": 4,
+        "title": "Index of content",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/03/Index.md",
+        "folder": 0,
+        "words": 195
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75321,
+    "fields": {
+        "blog": 1104,
+        "order": 5,
+        "title": "Index of content",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/04/Index.md",
+        "folder": 0,
+        "words": 189
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75322,
+    "fields": {
+        "blog": 1104,
+        "order": 6,
+        "title": "Index of content",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/05/Index.md",
+        "folder": 0,
+        "words": 195
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75323,
+    "fields": {
+        "blog": 1104,
+        "order": 7,
+        "title": "Index of content",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/06/Index.md",
+        "folder": 0,
+        "words": 183
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75324,
+    "fields": {
+        "blog": 1104,
+        "order": 8,
+        "title": "Index of content",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/07/Index.md",
+        "folder": 0,
+        "words": 195
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75325,
+    "fields": {
+        "blog": 1104,
+        "order": 9,
+        "title": "Index of content",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/08/Index.md",
+        "folder": 0,
+        "words": 195
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75326,
+    "fields": {
+        "blog": 1104,
+        "order": 10,
+        "title": "Index of content",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/09/Index.md",
+        "folder": 0,
+        "words": 177
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75327,
+    "fields": {
+        "blog": 1104,
+        "order": 26,
+        "title": "Daily Meditation - October 26",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/10/26.md",
+        "folder": 11,
+        "words": 202
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75328,
+    "fields": {
+        "blog": 1104,
+        "order": 27,
+        "title": "Daily Meditation - October 27",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/10/27.md",
+        "folder": 11,
+        "words": 162
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75329,
+    "fields": {
+        "blog": 1104,
+        "order": 28,
+        "title": "Daily Meditation - October 28",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/10/28.md",
+        "folder": 11,
+        "words": 119
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75330,
+    "fields": {
+        "blog": 1104,
+        "order": 29,
+        "title": "Daily Meditation - October 29",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/10/29.md",
+        "folder": 11,
+        "words": 242
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75331,
+    "fields": {
+        "blog": 1104,
+        "order": 30,
+        "title": "Daily Meditation - October 30",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/10/30.md",
+        "folder": 11,
+        "words": 139
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75332,
+    "fields": {
+        "blog": 1104,
+        "order": 31,
+        "title": "Daily Meditation - October 31",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/10/31.md",
+        "folder": 11,
+        "words": 122
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75333,
+    "fields": {
+        "blog": 1104,
+        "order": 12,
+        "title": "Index of content",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/11/Index.md",
+        "folder": 0,
+        "words": 185
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75334,
+    "fields": {
+        "blog": 1104,
+        "order": 1,
+        "title": "Daily Meditation - November 1",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/01.md",
+        "folder": 12,
+        "words": 99
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75335,
+    "fields": {
+        "blog": 1104,
+        "order": 2,
+        "title": "Daily Meditation - November 2",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/02.md",
+        "folder": 12,
+        "words": 131
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75336,
+    "fields": {
+        "blog": 1104,
+        "order": 3,
+        "title": "Daily Meditation - November 3",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/03.md",
+        "folder": 12,
+        "words": 190
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75337,
+    "fields": {
+        "blog": 1104,
+        "order": 4,
+        "title": "Daily Meditation - November 4",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/04.md",
+        "folder": 12,
+        "words": 137
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75338,
+    "fields": {
+        "blog": 1104,
+        "order": 5,
+        "title": "Daily Meditation - November 5",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/05.md",
+        "folder": 12,
+        "words": 158
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75339,
+    "fields": {
+        "blog": 1104,
+        "order": 6,
+        "title": "Daily Meditation - November 6",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/06.md",
+        "folder": 12,
+        "words": 131
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75340,
+    "fields": {
+        "blog": 1104,
+        "order": 7,
+        "title": "Daily Meditation - November 7",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/07.md",
+        "folder": 12,
+        "words": 238
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75341,
+    "fields": {
+        "blog": 1104,
+        "order": 8,
+        "title": "Daily Meditation - November 8",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/08.md",
+        "folder": 12,
+        "words": 109
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75342,
+    "fields": {
+        "blog": 1104,
+        "order": 9,
+        "title": "Daily Meditation - November 9",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/09.md",
+        "folder": 12,
+        "words": 105
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75343,
+    "fields": {
+        "blog": 1104,
+        "order": 10,
+        "title": "Daily Meditation - November 10",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/10.md",
+        "folder": 12,
+        "words": 158
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75344,
+    "fields": {
+        "blog": 1104,
+        "order": 11,
+        "title": "Daily Meditation - November 11",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/11.md",
+        "folder": 12,
+        "words": 165
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75345,
+    "fields": {
+        "blog": 1104,
+        "order": 12,
+        "title": "Daily Meditation - November 12",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/12.md",
+        "folder": 12,
+        "words": 137
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75346,
+    "fields": {
+        "blog": 1104,
+        "order": 13,
+        "title": "Daily Meditation - November 13",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/13.md",
+        "folder": 12,
+        "words": 131
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75347,
+    "fields": {
+        "blog": 1104,
+        "order": 14,
+        "title": "Daily Meditation - November 14",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/14.md",
+        "folder": 12,
+        "words": 122
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75348,
+    "fields": {
+        "blog": 1104,
+        "order": 15,
+        "title": "Daily Meditation - November 15",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/15.md",
+        "folder": 12,
+        "words": 214
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75349,
+    "fields": {
+        "blog": 1104,
+        "order": 16,
+        "title": "Daily Meditation - November 16",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/16.md",
+        "folder": 12,
+        "words": 119
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75350,
+    "fields": {
+        "blog": 1104,
+        "order": 17,
+        "title": "Daily Meditation - November 17",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/17.md",
+        "folder": 12,
+        "words": 138
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75351,
+    "fields": {
+        "blog": 1104,
+        "order": 18,
+        "title": "Daily Meditation - November 18",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/18.md",
+        "folder": 12,
+        "words": 143
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75352,
+    "fields": {
+        "blog": 1104,
+        "order": 19,
+        "title": "Daily Meditation - November 19",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/19.md",
+        "folder": 12,
+        "words": 88
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75353,
+    "fields": {
+        "blog": 1104,
+        "order": 20,
+        "title": "Daily Meditation - November 20",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/20.md",
+        "folder": 12,
+        "words": 135
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75354,
+    "fields": {
+        "blog": 1104,
+        "order": 21,
+        "title": "Daily Meditation - November 21",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/21.md",
+        "folder": 12,
+        "words": 185
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75355,
+    "fields": {
+        "blog": 1104,
+        "order": 22,
+        "title": "Daily Meditation - November 22",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/22.md",
+        "folder": 12,
+        "words": 184
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75356,
+    "fields": {
+        "blog": 1104,
+        "order": 23,
+        "title": "Daily Meditation - November 23",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/23.md",
+        "folder": 12,
+        "words": 168
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75357,
+    "fields": {
+        "blog": 1104,
+        "order": 24,
+        "title": "Daily Meditation - November 24",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/24.md",
+        "folder": 12,
+        "words": 84
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75358,
+    "fields": {
+        "blog": 1104,
+        "order": 25,
+        "title": "Daily Meditation - November 25",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/25.md",
+        "folder": 12,
+        "words": 125
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75359,
+    "fields": {
+        "blog": 1104,
+        "order": 26,
+        "title": "Daily Meditation - November 26",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/26.md",
+        "folder": 12,
+        "words": 110
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75360,
+    "fields": {
+        "blog": 1104,
+        "order": 27,
+        "title": "Daily Meditation - November 27",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/27.md",
+        "folder": 12,
+        "words": 99
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75361,
+    "fields": {
+        "blog": 1104,
+        "order": 28,
+        "title": "Daily Meditation - November 28",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/28.md",
+        "folder": 12,
+        "words": 136
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75362,
+    "fields": {
+        "blog": 1104,
+        "order": 29,
+        "title": "Daily Meditation - November 29",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/29.md",
+        "folder": 12,
+        "words": 125
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75363,
+    "fields": {
+        "blog": 1104,
+        "order": 30,
+        "title": "Daily Meditation - November 30",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/11/30.md",
+        "folder": 12,
+        "words": 133
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75364,
+    "fields": {
+        "blog": 1104,
+        "order": 13,
+        "title": "Index of content",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/12/Index.md",
+        "folder": 0,
+        "words": 195
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75365,
+    "fields": {
+        "blog": 1104,
+        "order": 1,
+        "title": "Daily Meditation - December 1",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/01.md",
+        "folder": 13,
+        "words": 206
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75366,
+    "fields": {
+        "blog": 1104,
+        "order": 2,
+        "title": "Daily Meditation - December 2",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/02.md",
+        "folder": 13,
+        "words": 70
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75367,
+    "fields": {
+        "blog": 1104,
+        "order": 3,
+        "title": "Daily Meditation - December 3",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/03.md",
+        "folder": 13,
+        "words": 93
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75368,
+    "fields": {
+        "blog": 1104,
+        "order": 4,
+        "title": "Daily Meditation - December 4",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/04.md",
+        "folder": 13,
+        "words": 215
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75369,
+    "fields": {
+        "blog": 1104,
+        "order": 5,
+        "title": "Daily Meditation - December 5",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/05.md",
+        "folder": 13,
+        "words": 139
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75370,
+    "fields": {
+        "blog": 1104,
+        "order": 6,
+        "title": "Daily Meditation - December 6",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/06.md",
+        "folder": 13,
+        "words": 108
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75371,
+    "fields": {
+        "blog": 1104,
+        "order": 7,
+        "title": "Daily Meditation - December 7",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/07.md",
+        "folder": 13,
+        "words": 128
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75372,
+    "fields": {
+        "blog": 1104,
+        "order": 8,
+        "title": "Daily Meditation - December 8",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/08.md",
+        "folder": 13,
+        "words": 187
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75373,
+    "fields": {
+        "blog": 1104,
+        "order": 9,
+        "title": "Daily Meditation - December 9",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/09.md",
+        "folder": 13,
+        "words": 182
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75374,
+    "fields": {
+        "blog": 1104,
+        "order": 10,
+        "title": "Daily Meditation - December 10",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/10.md",
+        "folder": 13,
+        "words": 92
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75375,
+    "fields": {
+        "blog": 1104,
+        "order": 11,
+        "title": "Daily Meditation - December 11",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/11.md",
+        "folder": 13,
+        "words": 161
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75376,
+    "fields": {
+        "blog": 1104,
+        "order": 12,
+        "title": "Daily Meditation - December 12",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/12.md",
+        "folder": 13,
+        "words": 171
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75377,
+    "fields": {
+        "blog": 1104,
+        "order": 13,
+        "title": "Daily Meditation - December 13",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/13.md",
+        "folder": 13,
+        "words": 180
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75378,
+    "fields": {
+        "blog": 1104,
+        "order": 14,
+        "title": "Daily Meditation - December 14",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/14.md",
+        "folder": 13,
+        "words": 172
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75379,
+    "fields": {
+        "blog": 1104,
+        "order": 15,
+        "title": "Daily Meditation - December 15",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/15.md",
+        "folder": 13,
+        "words": 176
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75380,
+    "fields": {
+        "blog": 1104,
+        "order": 16,
+        "title": "Daily Meditation - December 16",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/16.md",
+        "folder": 13,
+        "words": 107
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75381,
+    "fields": {
+        "blog": 1104,
+        "order": 17,
+        "title": "Daily Meditation - December 17",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/17.md",
+        "folder": 13,
+        "words": 136
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75382,
+    "fields": {
+        "blog": 1104,
+        "order": 18,
+        "title": "Daily Meditation - December 18",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/18.md",
+        "folder": 13,
+        "words": 120
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75383,
+    "fields": {
+        "blog": 1104,
+        "order": 19,
+        "title": "Daily Meditation - December 19",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/19.md",
+        "folder": 13,
+        "words": 183
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75384,
+    "fields": {
+        "blog": 1104,
+        "order": 20,
+        "title": "Daily Meditation - December 20",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/20.md",
+        "folder": 13,
+        "words": 128
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75385,
+    "fields": {
+        "blog": 1104,
+        "order": 21,
+        "title": "Daily Meditation - December 21",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/21.md",
+        "folder": 13,
+        "words": 161
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75386,
+    "fields": {
+        "blog": 1104,
+        "order": 22,
+        "title": "Daily Meditation - December 22",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/22.md",
+        "folder": 13,
+        "words": 144
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75387,
+    "fields": {
+        "blog": 1104,
+        "order": 23,
+        "title": "Daily Meditation - December 23",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/23.md",
+        "folder": 13,
+        "words": 162
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75388,
+    "fields": {
+        "blog": 1104,
+        "order": 24,
+        "title": "Daily Meditation - December 24",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/24.md",
+        "folder": 13,
+        "words": 175
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75389,
+    "fields": {
+        "blog": 1104,
+        "order": 25,
+        "title": "Daily Meditation - December 25",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/25.md",
+        "folder": 13,
+        "words": 123
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75390,
+    "fields": {
+        "blog": 1104,
+        "order": 26,
+        "title": "Daily Meditation - December 26",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/26.md",
+        "folder": 13,
+        "words": 161
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75391,
+    "fields": {
+        "blog": 1104,
+        "order": 27,
+        "title": "Daily Meditation - December 27",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/27.md",
+        "folder": 13,
+        "words": 121
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75392,
+    "fields": {
+        "blog": 1104,
+        "order": 28,
+        "title": "Daily Meditation - December 28",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/28.md",
+        "folder": 13,
+        "words": 96
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75393,
+    "fields": {
+        "blog": 1104,
+        "order": 29,
+        "title": "Daily Meditation - December 29",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/29.md",
+        "folder": 13,
+        "words": 118
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75394,
+    "fields": {
+        "blog": 1104,
+        "order": 30,
+        "title": "Daily Meditation - December 30",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/30.md",
+        "folder": 13,
+        "words": 82
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75395,
+    "fields": {
+        "blog": 1104,
+        "order": 31,
+        "title": "Daily Meditation - December 31",
+        "doctype": "chapter",
+        "path": "Documents/spiritual-things.org/daily/12/31.md",
+        "folder": 13,
+        "words": 172
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75396,
+    "fields": {
+        "blog": 1104,
+        "order": 14,
+        "title": "All Articles",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/All.md",
+        "folder": 0,
+        "words": 592
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75397,
+    "fields": {
+        "blog": 1104,
+        "order": 16,
+        "title": "Daily Truth Invite",
+        "doctype": "folder",
+        "path": "Documents/spiritual-things.org/daily/Invite.md",
+        "folder": 0,
+        "words": 282
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75398,
+    "fields": {
+        "blog": 1105,
+        "order": 0,
+        "title": "Mark David Seaman",
+        "doctype": "folder",
+        "path": "Documents/markseaman.org/Index.md",
+        "folder": 0,
+        "words": 307
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75399,
+    "fields": {
+        "blog": 1106,
+        "order": 0,
+        "title": "Seaman Family News",
+        "doctype": "folder",
+        "path": "Documents/seamanfamily.org/Index.md",
+        "folder": 0,
+        "words": 57
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75400,
+    "fields": {
+        "blog": 1106,
+        "order": 1,
+        "title": "The First 25 Years",
+        "doctype": "folder",
+        "path": "Documents/seamanfamily.org/25Years.md",
+        "folder": 0,
+        "words": 515
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75401,
+    "fields": {
+        "blog": 1106,
+        "order": 2,
+        "title": "Dad's 90th Birthday",
+        "doctype": "folder",
+        "path": "Documents/seamanfamily.org/Dad90.md",
+        "folder": 0,
+        "words": 578
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75402,
+    "fields": {
+        "blog": 1106,
+        "order": 3,
+        "title": "Doodly Diving",
+        "doctype": "folder",
+        "path": "Documents/seamanfamily.org/Doodly.md",
+        "folder": 0,
+        "words": 284
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75403,
+    "fields": {
+        "blog": 1106,
+        "order": 4,
+        "title": "Seaman Family Slide Show",
+        "doctype": "folder",
+        "path": "Documents/seamanfamily.org/FamilySlideShow.md",
+        "folder": 0,
+        "words": 31
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75404,
+    "fields": {
+        "blog": 1106,
+        "order": 5,
+        "title": "Garcias Christmas Card",
+        "doctype": "folder",
+        "path": "Documents/seamanfamily.org/Garcias.md",
+        "folder": 0,
+        "words": 35
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75405,
+    "fields": {
+        "blog": 1106,
+        "order": 6,
+        "title": "Gratitude for Family",
+        "doctype": "folder",
+        "path": "Documents/seamanfamily.org/Gratitude.md",
+        "folder": 0,
+        "words": 390
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75406,
+    "fields": {
+        "blog": 1106,
+        "order": 8,
+        "title": "Seaman Family News",
+        "doctype": "folder",
+        "path": "Documents/seamanfamily.org/NewsVideo.md",
+        "folder": 0,
+        "words": 22
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75407,
+    "fields": {
+        "blog": 1106,
+        "order": 9,
+        "title": "Celebrating Our Life Together",
+        "doctype": "folder",
+        "path": "Documents/seamanfamily.org/OurLifeTogether.md",
+        "folder": 0,
+        "words": 157
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75408,
+    "fields": {
+        "blog": 1106,
+        "order": 10,
+        "title": "Pandemic Health Policy",
+        "doctype": "folder",
+        "path": "Documents/seamanfamily.org/PandemicHealth.md",
+        "folder": 0,
+        "words": 1576
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75409,
+    "fields": {
+        "blog": 1106,
+        "order": 11,
+        "title": "Renewed Vows",
+        "doctype": "folder",
+        "path": "Documents/seamanfamily.org/RenewedVows.md",
+        "folder": 0,
+        "words": 832
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75410,
+    "fields": {
+        "blog": 1106,
+        "order": 14,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/seamanfamily.org/news/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75411,
+    "fields": {
+        "blog": 1106,
+        "order": 1,
+        "title": "Friends and family",
+        "doctype": "chapter",
+        "path": "Documents/seamanfamily.org/news/Friends.md",
+        "folder": 14,
+        "words": 112
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75412,
+    "fields": {
+        "blog": 1106,
+        "order": 3,
+        "title": "Teaching at UNC",
+        "doctype": "chapter",
+        "path": "Documents/seamanfamily.org/news/UNC.md",
+        "folder": 14,
+        "words": 98
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75413,
+    "fields": {
+        "blog": 1107,
+        "order": 0,
+        "title": "Mark Seaman's Secret Pages",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/Index.md",
+        "folder": 0,
+        "words": 63
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75414,
+    "fields": {
+        "blog": 1107,
+        "order": 2,
+        "title": "Testing Center",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/Test/Index.md",
+        "folder": 0,
+        "words": 130
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75415,
+    "fields": {
+        "blog": 1107,
+        "order": 10,
+        "title": "Doc Title 1",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/Test/Page1.md",
+        "folder": 2,
+        "words": 7
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75416,
+    "fields": {
+        "blog": 1107,
+        "order": 11,
+        "title": "Doc Title 2",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/Test/Page2.md",
+        "folder": 2,
+        "words": 7
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75417,
+    "fields": {
+        "blog": 1107,
+        "order": 14,
+        "title": "Seaman's Log Link Tester",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/Test/SeamansLog.md",
+        "folder": 2,
+        "words": 68
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75418,
+    "fields": {
+        "blog": 1107,
+        "order": 21,
+        "title": "View Workshop",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/Test/ViewWorkshop.md",
+        "folder": 2,
+        "words": 323
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75419,
+    "fields": {
+        "blog": 1107,
+        "order": 4,
+        "title": "Aspirations and Goals",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/aspire/Index.md",
+        "folder": 0,
+        "words": 19
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75420,
+    "fields": {
+        "blog": 1107,
+        "order": 4,
+        "title": "Enneagram Personality Profile",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/aspire/MarksBrain.md",
+        "folder": 4,
+        "words": 30
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75421,
+    "fields": {
+        "blog": 1107,
+        "order": 5,
+        "title": "Time Accounting",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/aspire/Time.md",
+        "folder": 4,
+        "words": 33
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75422,
+    "fields": {
+        "blog": 1107,
+        "order": 6,
+        "title": "Weekly Plan",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/aspire/Week.md",
+        "folder": 4,
+        "words": 21
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75423,
+    "fields": {
+        "blog": 1107,
+        "order": 7,
+        "title": "Zoom Room",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/aspire/Zoom.md",
+        "folder": 4,
+        "words": 63
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75424,
+    "fields": {
+        "blog": 1107,
+        "order": 5,
+        "title": "Software Development Plan",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/devplan/Index.md",
+        "folder": 0,
+        "words": 151
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75425,
+    "fields": {
+        "blog": 1107,
+        "order": 1,
+        "title": "App Builder ",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/devplan/AppBuilder.md",
+        "folder": 5,
+        "words": 246
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75426,
+    "fields": {
+        "blog": 1107,
+        "order": 2,
+        "title": "Blog Builder",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/devplan/BlogBuilder.md",
+        "folder": 5,
+        "words": 257
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75427,
+    "fields": {
+        "blog": 1107,
+        "order": 3,
+        "title": "Book Builder",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/devplan/BookBuilder.md",
+        "folder": 5,
+        "words": 312
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75428,
+    "fields": {
+        "blog": 1107,
+        "order": 4,
+        "title": "Course Builder",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/devplan/CourseBuilder.md",
+        "folder": 5,
+        "words": 463
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75429,
+    "fields": {
+        "blog": 1107,
+        "order": 5,
+        "title": "Hammer Application Server",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/devplan/Hammer.md",
+        "folder": 5,
+        "words": 104
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75430,
+    "fields": {
+        "blog": 1107,
+        "order": 6,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/family/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75431,
+    "fields": {
+        "blog": 1107,
+        "order": 7,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/history/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75432,
+    "fields": {
+        "blog": 1107,
+        "order": 8,
+        "title": "Author's Book Notes - Journey",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/journey/Index.md",
+        "folder": 0,
+        "words": 45
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75433,
+    "fields": {
+        "blog": 1107,
+        "order": 1,
+        "title": "Struggle for Balance",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/journey/Balance.md",
+        "folder": 8,
+        "words": 1814
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75434,
+    "fields": {
+        "blog": 1107,
+        "order": 4,
+        "title": "Journey Book - Drafts",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/journey/Drafts.md",
+        "folder": 8,
+        "words": 49
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75435,
+    "fields": {
+        "blog": 1107,
+        "order": 5,
+        "title": "Generations",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/journey/Generations.md",
+        "folder": 8,
+        "words": 166
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75436,
+    "fields": {
+        "blog": 1107,
+        "order": 6,
+        "title": "Journey Book - Ideas and Concepts",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/journey/Ideas.md",
+        "folder": 8,
+        "words": 27
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75437,
+    "fields": {
+        "blog": 1107,
+        "order": 8,
+        "title": "Seaman's Journey - Introduction",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/journey/Journey.md",
+        "folder": 8,
+        "words": 1167
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75438,
+    "fields": {
+        "blog": 1107,
+        "order": 10,
+        "title": "Life Milestones & Events",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/journey/Milestones.md",
+        "folder": 8,
+        "words": 211
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75439,
+    "fields": {
+        "blog": 1107,
+        "order": 11,
+        "title": "My First Pandemic",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/journey/MyFirstPandemic.md",
+        "folder": 8,
+        "words": 304
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75440,
+    "fields": {
+        "blog": 1107,
+        "order": 14,
+        "title": "Why Politics Divide Us",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/journey/WhatDividesUs.md",
+        "folder": 8,
+        "words": 495
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75441,
+    "fields": {
+        "blog": 1107,
+        "order": 9,
+        "title": "Author's Book Notes - Leverage",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/leverage/Index.md",
+        "folder": 0,
+        "words": 42
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75442,
+    "fields": {
+        "blog": 1107,
+        "order": 10,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/mark/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75443,
+    "fields": {
+        "blog": 1107,
+        "order": 11,
+        "title": "Author's Book Notes - Poems",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/poem/Index.md",
+        "folder": 0,
+        "words": 42
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75444,
+    "fields": {
+        "blog": 1107,
+        "order": 12,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/private/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75445,
+    "fields": {
+        "blog": 1107,
+        "order": 13,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/projects/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75446,
+    "fields": {
+        "blog": 1107,
+        "order": 14,
+        "title": "Author's Book Notes - Quest",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/quest/Index.md",
+        "folder": 0,
+        "words": 42
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75447,
+    "fields": {
+        "blog": 1107,
+        "order": 1,
+        "title": "Basic Needs to Thrive",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/quest/BasicNeeds.md",
+        "folder": 14,
+        "words": 82
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75448,
+    "fields": {
+        "blog": 1107,
+        "order": 2,
+        "title": "Seaman's Guide to Thriving ",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/quest/BeyondSurvival.md",
+        "folder": 14,
+        "words": 639
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75449,
+    "fields": {
+        "blog": 1107,
+        "order": 3,
+        "title": "To Be or To Do?",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/quest/DoOrBe.md",
+        "folder": 14,
+        "words": 184
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75450,
+    "fields": {
+        "blog": 1107,
+        "order": 4,
+        "title": "Healthy Thinking for Well-being",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/quest/HealthyThinking.md",
+        "folder": 14,
+        "words": 727
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75451,
+    "fields": {
+        "blog": 1107,
+        "order": 5,
+        "title": "I Need Control",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/quest/INeedControl.md",
+        "folder": 14,
+        "words": 774
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75452,
+    "fields": {
+        "blog": 1107,
+        "order": 7,
+        "title": "My Mentor Tim",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/quest/MentorTim.md",
+        "folder": 14,
+        "words": 437
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75453,
+    "fields": {
+        "blog": 1107,
+        "order": 8,
+        "title": "ndscaping",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/quest/Mindscaping.md",
+        "folder": 14,
+        "words": 144
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75454,
+    "fields": {
+        "blog": 1107,
+        "order": 10,
+        "title": "y relationships are hard",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/quest/Relationships.md",
+        "folder": 14,
+        "words": 1682
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75455,
+    "fields": {
+        "blog": 1107,
+        "order": 11,
+        "title": "Struggle for Control",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/quest/StruggleForControl.md",
+        "folder": 14,
+        "words": 685
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75456,
+    "fields": {
+        "blog": 1107,
+        "order": 12,
+        "title": "Thinking Modes",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/quest/ThinkingModes.md",
+        "folder": 14,
+        "words": 96
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75457,
+    "fields": {
+        "blog": 1107,
+        "order": 13,
+        "title": "Timescape",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/quest/Timescape.md",
+        "folder": 14,
+        "words": 365
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75458,
+    "fields": {
+        "blog": 1107,
+        "order": 15,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/sampler/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75459,
+    "fields": {
+        "blog": 1107,
+        "order": 16,
+        "title": "Author's Blog Notes - Seaman's Log",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/seamanslog/Index.md",
+        "folder": 0,
+        "words": 43
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75460,
+    "fields": {
+        "blog": 1107,
+        "order": 1,
+        "title": "Epistle to the Americans",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/seamanslog/AmericansEpistle.md",
+        "folder": 16,
+        "words": 729
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75461,
+    "fields": {
+        "blog": 1107,
+        "order": 2,
+        "title": "The Early Church",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/seamanslog/EarlyChurch.md",
+        "folder": 16,
+        "words": 4473
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75462,
+    "fields": {
+        "blog": 1107,
+        "order": 17,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/spiritual/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75463,
+    "fields": {
+        "blog": 1107,
+        "order": 18,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/tech/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75464,
+    "fields": {
+        "blog": 1107,
+        "order": 19,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/training/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75465,
+    "fields": {
+        "blog": 1107,
+        "order": 20,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/webapps/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75466,
+    "fields": {
+        "blog": 1107,
+        "order": 21,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/words/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75467,
+    "fields": {
+        "blog": 1107,
+        "order": 22,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/write/Index.md",
+        "folder": 0,
+        "words": 0
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75468,
+    "fields": {
+        "blog": 1107,
+        "order": 23,
+        "title": "Author's Notes by Mark Seaman",
+        "doctype": "folder",
+        "path": "Documents/markseaman.info/writing/Index.md",
+        "folder": 0,
+        "words": 70
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75469,
+    "fields": {
+        "blog": 1107,
+        "order": 1,
+        "title": "Websites by Mark Seaman",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/writing/Blogs.md",
+        "folder": 23,
+        "words": 67
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75470,
+    "fields": {
+        "blog": 1107,
+        "order": 2,
+        "title": "Book Builder",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/writing/BookBuilder.md",
+        "folder": 23,
+        "words": 333
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75471,
+    "fields": {
+        "blog": 1107,
+        "order": 4,
+        "title": "A Seaman's Journey",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/writing/Journey.md",
+        "folder": 23,
+        "words": 88
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75472,
+    "fields": {
+        "blog": 1107,
+        "order": 5,
+        "title": "The Leverage Principle",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/writing/Leverage.md",
+        "folder": 23,
+        "words": 35
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75473,
+    "fields": {
+        "blog": 1107,
+        "order": 6,
+        "title": "",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/writing/Poems.md",
+        "folder": 23,
+        "words": 1
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75474,
+    "fields": {
+        "blog": 1107,
+        "order": 7,
+        "title": "Shrinking World Publishing Projects",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/writing/PublishingSchedule.md",
+        "folder": 23,
+        "words": 110
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 75475,
+    "fields": {
+        "blog": 1107,
+        "order": 8,
+        "title": "",
+        "doctype": "chapter",
+        "path": "Documents/markseaman.info/writing/Quest.md",
+        "folder": 23,
+        "words": 1
     }
 }
 ]

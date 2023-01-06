@@ -83,8 +83,8 @@ def import_pubs(pub=None):
     pubs = [pub] if pub else all_pubs()
     for pub in pubs:
         import_pub(pub)
-        auto_index = pub.name == "sampler"
-        if auto_index:
+        if pub.auto_index:
+            print("CreATE Index")
             create_pub_index(pub, get_pub_contents(pub))
         text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
     return text

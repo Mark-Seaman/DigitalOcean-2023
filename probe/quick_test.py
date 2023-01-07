@@ -52,9 +52,6 @@ def pubs():
 
     delete_pubs()
     build_pubs()
-    day = calendar.month_name[3]
-    # day = f'{localdate().strftime("%a, %B %d")}'
-    print(day)
 
     # pub = get_pub("spiritual")
     # print(show_pub_summaries())

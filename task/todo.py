@@ -40,15 +40,15 @@ def edit_blog_files():
         return path / (date.strftime("%m/%d") + ".md")
 
     path = Path("Documents/seamanslog.com/sampler")
-    open_files(path, 0, 1, blog_path, create_sampler_file)
+    open_files(path, 0, 3, blog_path, create_sampler_file)
 
 
 def edit_todo_list():
     print("HAMMER TODO -", localtime().strftime("%A, %m-%d  %H:%M"))
     edit_task_files()
-    edit_spirit_files()
-    edit_blog_files()
-    edit_file(create_toot_file())
+    # edit_spirit_files()
+    # edit_blog_files()
+    # edit_file(create_toot_file())
 
 
 def edit_task_files():

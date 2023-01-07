@@ -38,10 +38,15 @@ alias hammer="source ~/.zshrc && code $p"
 alias book='subl $book'
 alias course='subl $course'
 alias slog='subl $slog'
-alias blog='subl $blog'
+alias blog='pm write blog'
 alias docs='subl Documents'
 alias demo='code $g/PythonWebApps'
+alias masto='write masto'
+alias review='write review'
+alias tech='pm write tech'
 alias task='subl $t'
+alias write='pm write'
+alias words='write words'
 alias cprc='cp ~/Hammer/config/zshrc ~/.zshrc && . ~/.zshrc'
 
 # Workflow

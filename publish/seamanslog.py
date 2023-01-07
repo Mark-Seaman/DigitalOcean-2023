@@ -43,7 +43,7 @@ def create_history_file(date):
 
 def create_sampler_file(date=None):
     def blog_daily_post(date):
-        post = random_post("journey")
+        post = random_post(random_pub())
         print("BLOG", post["doc"])
         edit_file([post["doc"]])
         return render_to_string("pub/blog.md", post)
@@ -102,7 +102,7 @@ def extract_message(path, url):
 
 
 def random_article(pub=None):
-    pub = random_pub(pub)
+    pub = random_pub()
     content = choice(list_content(pub))
     # return blog_data(pub, Path(content.path).name)
     doc = Path(content.path).name
@@ -136,10 +136,9 @@ def random_post(pub):
             )
 
 
-def random_pub(pub):
-    if not pub:
-        pubs = ("journey",)
-        pub = choice(pubs)
+def random_pub():
+    pubs = ("journey", "quest", "poem")
+    pub = choice(pubs)
     return get_pub(pub)
 
 

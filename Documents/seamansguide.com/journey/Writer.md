@@ -35,7 +35,7 @@ result in the reader consuming a long article consisting of 1000 words.  I write
 
 Is there a market for large works in the ADHD world?  I believe that there is. Some topics are
 worth exploring in depth and people are willing to invest time and attention. But you must
-earn trust to maintain their attention. This requires authors to invest the
+earn their trust to maintain their attention. This requires authors to invest the
 effort to create content worth reading.  It takes me about four hours to publish a four-page
 article with 1000 words.
 
@@ -50,7 +50,7 @@ content into six distinct tiers that are nested like the Russian Babushka dolls.
 
 Having this outline gives the work integrity that the audience can appreciate.  A
 book written in this style is intended to convey an entire body of knowledge about a complete
-subject.  A logical consistency helps the reader to embrace the information that is presented.
+subject.  Logical consistency helps the reader to embrace the information that is presented.
 
 
 ## Small Works
@@ -89,7 +89,7 @@ click.
 
 On the other end, four related pages describing different aspects of a topic can be joined together
 to form a well-structured long article.  It will take the typical reader 20 minutes to absorb and
-understand this content. I recommend not publishing articles that are longer than this, because
+understand this content. I recommend not publishing articles that are longer than this because
 it presents a challenge to the audience.
 
 I have been working on software to publish content using these principles. The idea of 
@@ -108,13 +108,13 @@ The one constant has been my practice of writing.  I try to spend between one an
 writing.  I have developed complete outlines for each major topical area that I am interested in
 writing about, which guide the overall structure of what I write.
 
-Daily activity, on the other hand, is completely freestyle and spontaneous. When I wake up each
-day, I have no idea what I will end up writing about.  I do have an expectation that there will be
-something created and that I will enjoy the process of self-expression.
+Daily activity, on the other hand, is completely freestyle and spontaneous. When I wake up each day,
+I have no idea what I will end up writing about.  I do expect to create something great and that I
+will enjoy the process of self-expression.
 
 Once I am happy with the article, then it is posted into the venue where it belongs. This publishing
 activity takes less than a minute and happens many times throughout the day.  This whole process is
-optimized around writing so that publishing is fully automated. As soon as content is written it
+optimized around writing so that publishing is fully automated. As soon as the content is written it
 appears online.
 
 
@@ -127,7 +127,7 @@ This is a luxury that many writers do not have. I and able to pursue the writing
 me on any given day.
 
 Writing is my career, but not my job.  I invest in writing even though it will not be a source of
-income.  It is my great joy and core to fulfilling my life's destiny.  I don't care much what
+income.  It is my great joy and core to fulfilling my life's destiny.  I don't care much about what
 publishers might think of my work because I am not writing for them.  I write for the thrill of it.
 
 

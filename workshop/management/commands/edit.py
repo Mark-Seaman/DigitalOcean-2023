@@ -40,8 +40,11 @@ def file_args(args):
 
 
 def edit_file(args):
-    files = file_args(args)
+    if isinstance(args, list):
+        files = file_args(args)
+    else:
+        files = args
     exe_path = "subl"
     command = f"{exe_path} {files}"
-    # print(command)
+    print(command)
     shell(command)

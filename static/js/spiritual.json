@@ -10,5 +10,6 @@
     "cover_image": "/static/images/spiritual-things.org/spiritual-cover-400.png",
     "doc_path": "Documents/spiritual-things.org/daily",
     "image_path": "static/images/spiritual-things.org",
-    "menu": "static/js/nav_blog.json"
+    "menu": "static/js/nav_blog.json",
+    "auto_contents": true
 }

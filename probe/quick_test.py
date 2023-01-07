@@ -50,11 +50,7 @@ def pubs():
 
     build_pubs()
 
-    pub = get_pub("sampler")
-    print("AUTO CONTENTS", pub.auto_contents)
-    print("AUTO Index", pub.auto_index)
-    print("AUTO remove", pub.auto_remove)
-    # pub = get_pub("quest")
+    # pub = get_pub("spiritual")
     # print(show_pub_summaries())
     # # show_pub_index(pub)
     # print(show_pub_words(pub))

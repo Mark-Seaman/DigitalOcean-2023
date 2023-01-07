@@ -19,8 +19,8 @@ urlpatterns = [
     path("test/", include("probe.urls_probe")),
     #
     # Workshop
-    path("views/", include("workshop.urls_views")),
-    path("factory/", include("workshop.urls_factory")),
+    # path("views/", include("workshop.urls_views")),
+    # path("factory/", include("workshop.urls_factory")),
     #
     # Course
     path("", include("course.urls")),

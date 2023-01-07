@@ -1,4 +1,4 @@
-# Month June
+# Month of June
 
 
 * [Pure Water](/sampler/06-01.md)

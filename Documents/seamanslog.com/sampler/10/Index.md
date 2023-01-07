@@ -1,4 +1,4 @@
-# Month October
+# Month of October
 
 
 * [Seaman&#x27;s Log - Sat, October 01](/sampler/10-01.md)

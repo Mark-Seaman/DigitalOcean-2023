@@ -1,4 +1,4 @@
-# Month August
+# Month of August
 
 
 * [Daily Meditation - August 1](/spiritual/08-01.md)

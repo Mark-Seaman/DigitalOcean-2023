@@ -1,4 +1,4 @@
-# Month April
+# Month of April
 
 
 * [The Cycles of History](/sampler/04-01.md)

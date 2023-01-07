@@ -13,7 +13,7 @@
         "domain": "https://seamansguide.com",
         "url": "/journey",
         "logo": null,
-        "words": 0,
+        "words": 44427,
         "cover_image": "/static/images/seamansguide.com/journey/journey-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -36,7 +36,7 @@
         "domain": "https://seamansguide.com",
         "url": "/poem",
         "logo": null,
-        "words": 0,
+        "words": 15388,
         "cover_image": "/static/images/seamansguide.com/poem/poem-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -59,7 +59,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 0,
+        "words": 52828,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -82,7 +82,7 @@
         "domain": "https://seamansguide.com",
         "url": "/leverage",
         "logo": null,
-        "words": 0,
+        "words": 83682,
         "cover_image": "/static/images/seamansguide.com/leverage/Leverage_Principle.1000.jpg",
         "menu": "static/js/nav_sw.json",
         "pub_type": "book",
@@ -105,7 +105,7 @@
         "domain": "https://seamansguide.com",
         "url": "/webapps",
         "logo": null,
-        "words": 0,
+        "words": 49972,
         "cover_image": "/static/images/seamansguide.com/webapps/PythonWebApps.jpg",
         "menu": "static/js/nav_sw.json",
         "pub_type": "book",
@@ -128,7 +128,7 @@
         "domain": null,
         "url": "/tech",
         "logo": null,
-        "words": 0,
+        "words": 15632,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "blog",
@@ -151,7 +151,7 @@
         "domain": null,
         "url": "/write",
         "logo": null,
-        "words": 0,
+        "words": 5176,
         "cover_image": "/static/images/seamanslog.com/write-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -174,7 +174,7 @@
         "domain": null,
         "url": "/sampler",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 0,
+        "words": 59940,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -197,7 +197,7 @@
         "domain": null,
         "url": "/spiritual",
         "logo": null,
-        "words": 0,
+        "words": 58815,
         "cover_image": "/static/images/spiritual-things.org/spiritual-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -220,7 +220,7 @@
         "domain": null,
         "url": "/mark",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 0,
+        "words": 1099,
         "cover_image": "/static/images/MarkSeaman.org/mark-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -243,7 +243,7 @@
         "domain": null,
         "url": "/family",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 0,
+        "words": 2682,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -266,7 +266,7 @@
         "domain": null,
         "url": "https://markseamans.info",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 0,
+        "words": 63,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -428,7 +428,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/journey/Flagstaff.md",
         "folder": 2,
-        "words": 1708
+        "words": 1712
     }
 },
 {
@@ -896,7 +896,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/journey/Writer.md",
         "folder": 8,
-        "words": 1267
+        "words": 1265
     }
 },
 {
@@ -4809,7 +4809,7 @@
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/Index.md",
         "folder": 0,
-        "words": 41
+        "words": 53
     }
 },
 {
@@ -4818,11 +4818,11 @@
     "fields": {
         "blog": 1223,
         "order": 1,
-        "title": "Month January",
+        "title": "Month of January",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/01/Index.md",
         "folder": 0,
-        "words": 135
+        "words": 242
     }
 },
 {
@@ -5234,11 +5234,11 @@
     "fields": {
         "blog": 1223,
         "order": 2,
-        "title": "Month February",
+        "title": "Month of February",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/02/Index.md",
         "folder": 0,
-        "words": 128
+        "words": 129
     }
 },
 {
@@ -5611,11 +5611,11 @@
     "fields": {
         "blog": 1223,
         "order": 3,
-        "title": "Month March",
+        "title": "Month of March",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/03/Index.md",
         "folder": 0,
-        "words": 140
+        "words": 141
     }
 },
 {
@@ -6027,11 +6027,11 @@
     "fields": {
         "blog": 1223,
         "order": 4,
-        "title": "Month April",
+        "title": "Month of April",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/04/Index.md",
         "folder": 0,
-        "words": 129
+        "words": 130
     }
 },
 {
@@ -6430,11 +6430,11 @@
     "fields": {
         "blog": 1223,
         "order": 5,
-        "title": "Month May",
+        "title": "Month of May",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/05/Index.md",
         "folder": 0,
-        "words": 135
+        "words": 136
     }
 },
 {
@@ -6846,11 +6846,11 @@
     "fields": {
         "blog": 1223,
         "order": 6,
-        "title": "Month June",
+        "title": "Month of June",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/06/Index.md",
         "folder": 0,
-        "words": 121
+        "words": 122
     }
 },
 {
@@ -7249,11 +7249,11 @@
     "fields": {
         "blog": 1223,
         "order": 7,
-        "title": "Month July",
+        "title": "Month of July",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/07/Index.md",
         "folder": 0,
-        "words": 129
+        "words": 130
     }
 },
 {
@@ -7665,11 +7665,11 @@
     "fields": {
         "blog": 1223,
         "order": 8,
-        "title": "Month August",
+        "title": "Month of August",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/08/Index.md",
         "folder": 0,
-        "words": 123
+        "words": 124
     }
 },
 {
@@ -8081,11 +8081,11 @@
     "fields": {
         "blog": 1223,
         "order": 9,
-        "title": "Month September",
+        "title": "Month of September",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/09/Index.md",
         "folder": 0,
-        "words": 130
+        "words": 131
     }
 },
 {
@@ -8471,11 +8471,11 @@
     "fields": {
         "blog": 1223,
         "order": 10,
-        "title": "Month October",
+        "title": "Month of October",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/10/Index.md",
         "folder": 0,
-        "words": 132
+        "words": 133
     }
 },
 {
@@ -8887,11 +8887,11 @@
     "fields": {
         "blog": 1223,
         "order": 11,
-        "title": "Month November",
+        "title": "Month of November",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/11/Index.md",
         "folder": 0,
-        "words": 124
+        "words": 125
     }
 },
 {
@@ -9290,11 +9290,11 @@
     "fields": {
         "blog": 1223,
         "order": 12,
-        "title": "Month December",
+        "title": "Month of December",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/12/Index.md",
         "folder": 0,
-        "words": 131
+        "words": 132
     }
 },
 {
@@ -9719,11 +9719,11 @@
     "fields": {
         "blog": 1224,
         "order": 2,
-        "title": "Month January",
+        "title": "Month of January",
         "doctype": "folder",
         "path": "Documents/spiritual-things.org/daily/01/Index.md",
         "folder": 0,
-        "words": 190
+        "words": 191
     }
 },
 {
@@ -10135,11 +10135,11 @@
     "fields": {
         "blog": 1224,
         "order": 3,
-        "title": "Month February",
+        "title": "Month of February",
         "doctype": "folder",
         "path": "Documents/spiritual-things.org/daily/02/Index.md",
         "folder": 0,
-        "words": 172
+        "words": 173
     }
 },
 {
@@ -10512,11 +10512,11 @@
     "fields": {
         "blog": 1224,
         "order": 4,
-        "title": "Month March",
+        "title": "Month of March",
         "doctype": "folder",
         "path": "Documents/spiritual-things.org/daily/03/Index.md",
         "folder": 0,
-        "words": 190
+        "words": 191
     }
 },
 {
@@ -10928,11 +10928,11 @@
     "fields": {
         "blog": 1224,
         "order": 5,
-        "title": "Month April",
+        "title": "Month of April",
         "doctype": "folder",
         "path": "Documents/spiritual-things.org/daily/04/Index.md",
         "folder": 0,
-        "words": 184
+        "words": 185
     }
 },
 {
@@ -11331,11 +11331,11 @@
     "fields": {
         "blog": 1224,
         "order": 6,
-        "title": "Month May",
+        "title": "Month of May",
         "doctype": "folder",
         "path": "Documents/spiritual-things.org/daily/05/Index.md",
         "folder": 0,
-        "words": 190
+        "words": 191
     }
 },
 {
@@ -11747,11 +11747,11 @@
     "fields": {
         "blog": 1224,
         "order": 7,
-        "title": "Month June",
+        "title": "Month of June",
         "doctype": "folder",
         "path": "Documents/spiritual-things.org/daily/06/Index.md",
         "folder": 0,
-        "words": 178
+        "words": 179
     }
 },
 {
@@ -12137,11 +12137,11 @@
     "fields": {
         "blog": 1224,
         "order": 8,
-        "title": "Month July",
+        "title": "Month of July",
         "doctype": "folder",
         "path": "Documents/spiritual-things.org/daily/07/Index.md",
         "folder": 0,
-        "words": 190
+        "words": 191
     }
 },
 {
@@ -12553,11 +12553,11 @@
     "fields": {
         "blog": 1224,
         "order": 9,
-        "title": "Month August",
+        "title": "Month of August",
         "doctype": "folder",
         "path": "Documents/spiritual-things.org/daily/08/Index.md",
         "folder": 0,
-        "words": 190
+        "words": 191
     }
 },
 {
@@ -12969,11 +12969,11 @@
     "fields": {
         "blog": 1224,
         "order": 10,
-        "title": "Month September",
+        "title": "Month of September",
         "doctype": "folder",
         "path": "Documents/spiritual-things.org/daily/09/Index.md",
         "folder": 0,
-        "words": 172
+        "words": 173
     }
 },
 {
@@ -13346,11 +13346,11 @@
     "fields": {
         "blog": 1224,
         "order": 11,
-        "title": "Month October",
+        "title": "Month of October",
         "doctype": "folder",
         "path": "Documents/spiritual-things.org/daily/10/Index.md",
         "folder": 0,
-        "words": 190
+        "words": 191
     }
 },
 {
@@ -13762,11 +13762,11 @@
     "fields": {
         "blog": 1224,
         "order": 12,
-        "title": "Month November",
+        "title": "Month of November",
         "doctype": "folder",
         "path": "Documents/spiritual-things.org/daily/11/Index.md",
         "folder": 0,
-        "words": 184
+        "words": 185
     }
 },
 {
@@ -14165,11 +14165,11 @@
     "fields": {
         "blog": 1224,
         "order": 13,
-        "title": "Month December",
+        "title": "Month of December",
         "doctype": "folder",
         "path": "Documents/spiritual-things.org/daily/12/Index.md",
         "folder": 0,
-        "words": 190
+        "words": 191
     }
 },
 {
@@ -14781,6 +14781,331 @@
         "path": "Documents/markseaman.info/Index.md",
         "folder": 0,
         "words": 63
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86247,
+    "fields": {
+        "blog": 1223,
+        "order": 4,
+        "title": "Small Works",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/05.md",
+        "folder": 1,
+        "words": 214
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86248,
+    "fields": {
+        "blog": 1223,
+        "order": 5,
+        "title": "From the Edge of Reality",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/06.md",
+        "folder": 1,
+        "words": 173
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86249,
+    "fields": {
+        "blog": 1223,
+        "order": 6,
+        "title": "Writing My Story",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/07.md",
+        "folder": 1,
+        "words": 147
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86250,
+    "fields": {
+        "blog": 1223,
+        "order": 7,
+        "title": "UNC Web Development Course Project",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/10.md",
+        "folder": 1,
+        "words": 192
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86251,
+    "fields": {
+        "blog": 1223,
+        "order": 8,
+        "title": "Ich bin ein Berliner",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/11.md",
+        "folder": 1,
+        "words": 132
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86252,
+    "fields": {
+        "blog": 1223,
+        "order": 9,
+        "title": "Season of Old Age",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/12.md",
+        "folder": 1,
+        "words": 189
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86253,
+    "fields": {
+        "blog": 1223,
+        "order": 10,
+        "title": "Banks of the Missouri",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/13.md",
+        "folder": 1,
+        "words": 211
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86254,
+    "fields": {
+        "blog": 1223,
+        "order": 11,
+        "title": "Seasons of Life",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/14.md",
+        "folder": 1,
+        "words": 174
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86255,
+    "fields": {
+        "blog": 1223,
+        "order": 12,
+        "title": "The Night We Met",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/15.md",
+        "folder": 1,
+        "words": 110
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86256,
+    "fields": {
+        "blog": 1223,
+        "order": 13,
+        "title": "Seaman's Log Weekly",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/16.md",
+        "folder": 1,
+        "words": 75
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86257,
+    "fields": {
+        "blog": 1223,
+        "order": 14,
+        "title": "25th Wedding Anniversary",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/17.md",
+        "folder": 1,
+        "words": 142
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86258,
+    "fields": {
+        "blog": 1223,
+        "order": 15,
+        "title": "Gratitude for My Family",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/18.md",
+        "folder": 1,
+        "words": 114
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86259,
+    "fields": {
+        "blog": 1223,
+        "order": 16,
+        "title": "Family Slide Show",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/19.md",
+        "folder": 1,
+        "words": 30
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86260,
+    "fields": {
+        "blog": 1223,
+        "order": 17,
+        "title": "Pandemic Health Policy",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/20.md",
+        "folder": 1,
+        "words": 85
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86261,
+    "fields": {
+        "blog": 1223,
+        "order": 18,
+        "title": "Discovering Teaching",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/21.md",
+        "folder": 1,
+        "words": 149
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86262,
+    "fields": {
+        "blog": 1223,
+        "order": 19,
+        "title": "Spiritual Walkabout",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/22.md",
+        "folder": 1,
+        "words": 91
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86263,
+    "fields": {
+        "blog": 1223,
+        "order": 20,
+        "title": "Seaman's Log Weekly",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/23.md",
+        "folder": 1,
+        "words": 68
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86264,
+    "fields": {
+        "blog": 1223,
+        "order": 21,
+        "title": "Writing Projects",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/24.md",
+        "folder": 1,
+        "words": 240
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86265,
+    "fields": {
+        "blog": 1223,
+        "order": 22,
+        "title": "Becoming an Adult",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/25.md",
+        "folder": 1,
+        "words": 86
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86266,
+    "fields": {
+        "blog": 1223,
+        "order": 23,
+        "title": "A Seaman's Poems",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/26.md",
+        "folder": 1,
+        "words": 73
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86267,
+    "fields": {
+        "blog": 1223,
+        "order": 24,
+        "title": "Book Covers",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/27.md",
+        "folder": 1,
+        "words": 67
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86268,
+    "fields": {
+        "blog": 1223,
+        "order": 25,
+        "title": "My Autistic Temperament",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/28.md",
+        "folder": 1,
+        "words": 107
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86269,
+    "fields": {
+        "blog": 1223,
+        "order": 26,
+        "title": "20 Things I Have Learned",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/29.md",
+        "folder": 1,
+        "words": 123
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86270,
+    "fields": {
+        "blog": 1223,
+        "order": 27,
+        "title": "Seaman's Log Weekly",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/30.md",
+        "folder": 1,
+        "words": 69
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86271,
+    "fields": {
+        "blog": 1223,
+        "order": 28,
+        "title": "Dad's 90th Birthday",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/sampler/01/31.md",
+        "folder": 1,
+        "words": 567
     }
 }
 ]

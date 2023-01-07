@@ -1,4 +1,4 @@
-# Month September
+# Month of September
 
 
 * [Daily Meditation - September 2](/spiritual/09-02.md)

@@ -1,4 +1,4 @@
-# Month September
+# Month of September
 
 
 * [Transactions with Others](/sampler/09-01.md)

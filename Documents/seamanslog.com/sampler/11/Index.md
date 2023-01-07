@@ -1,4 +1,4 @@
-# Month November
+# Month of November
 
 
 * [All Growth is Spiritual](/sampler/11-01.md)

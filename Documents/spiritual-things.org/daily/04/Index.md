@@ -1,4 +1,4 @@
-# Month April
+# Month of April
 
 
 * [Daily Meditation - April 1](/spiritual/04-01.md)

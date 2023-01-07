@@ -1,4 +1,4 @@
-# Month October
+# Month of October
 
 
 * [Daily Meditation - October 1](/spiritual/10-01.md)

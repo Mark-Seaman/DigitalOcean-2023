@@ -1,4 +1,4 @@
-# Month May
+# Month of May
 
 
 * [Seaman&#x27;s Log Weekly](/sampler/05-01.md)

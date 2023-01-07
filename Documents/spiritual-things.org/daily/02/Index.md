@@ -1,4 +1,4 @@
-# Month February
+# Month of February
 
 
 * [Daily Meditation - February 01](/spiritual/02-01.md)

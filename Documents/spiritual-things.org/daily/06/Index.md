@@ -1,4 +1,4 @@
-# Month June
+# Month of June
 
 
 * [Daily Meditation - June 1](/spiritual/06-01.md)

@@ -1,4 +1,4 @@
-# Month November
+# Month of November
 
 
 * [Daily Meditation - November 1](/spiritual/11-01.md)

@@ -1,4 +1,4 @@
-# Month July
+# Month of July
 
 
 * [Daily Meditation - July 1](/spiritual/07-01.md)

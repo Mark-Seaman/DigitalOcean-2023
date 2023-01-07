@@ -40,7 +40,7 @@ def edit_blog_files():
         return path / (date.strftime("%m/%d") + ".md")
 
     path = Path("Documents/seamanslog.com/sampler")
-    open_files(path, 0, 3, blog_path, create_sampler_file)
+    open_files(path, 0, 5, blog_path, create_sampler_file)
 
 
 def edit_todo_list():

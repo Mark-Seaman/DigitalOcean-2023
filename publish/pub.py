@@ -84,7 +84,7 @@ def import_pubs(pub=None):
     for pub in pubs:
         import_pub(pub)
         if pub.auto_index:
-            print("CreATE Index")
+            # print("CREATE Index")
             create_pub_index(pub, get_pub_contents(pub))
         text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
     return text

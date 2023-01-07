@@ -202,7 +202,7 @@
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
         "auto_remove": false,
-        "auto_contents": false,
+        "auto_contents": true,
         "auto_index": false
     }
 },
@@ -870,7 +870,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/journey/WorldBurned.md",
         "folder": 8,
-        "words": 652
+        "words": 683
     }
 },
 {
@@ -13905,11 +13905,11 @@
     "fields": {
         "blog": 1103,
         "order": 0,
-        "title": "Month sampler",
+        "title": "Table of Contents",
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/Index.md",
         "folder": 0,
-        "words": 4
+        "words": 41
     }
 },
 {

@@ -1,4 +1,4 @@
-# Month 12
+# Month December
 
 
 * [What is a Mother?](/sampler/12-01.md)

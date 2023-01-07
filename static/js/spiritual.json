@@ -11,5 +11,6 @@
     "doc_path": "Documents/spiritual-things.org/daily",
     "image_path": "static/images/spiritual-things.org",
     "menu": "static/js/nav_blog.json",
+    "auto_index": true,
     "auto_contents": true
 }

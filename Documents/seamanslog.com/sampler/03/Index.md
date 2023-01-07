@@ -1,4 +1,4 @@
-# Month 03
+# Month March
 
 
 * [Seasons of Life](/sampler/03-01.md)

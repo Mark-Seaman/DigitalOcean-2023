@@ -1,4 +1,4 @@
-# Month 08
+# Month August
 
 
 * [Day on the Volcano](/sampler/08-01.md)

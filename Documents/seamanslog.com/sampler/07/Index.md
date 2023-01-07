@@ -1,4 +1,4 @@
-# Month 07
+# Month July
 
 
 * [Trying Something New](/sampler/07-01.md)

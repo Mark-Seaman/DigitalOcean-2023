@@ -1,4 +1,4 @@
-# Month 02
+# Month February
 
 
 * [Mauna Kea at First Light](/sampler/02-01.md)

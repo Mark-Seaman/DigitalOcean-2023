@@ -1,3 +1,4 @@
+from calendar import month_name
 from django.template.loader import render_to_string
 from pathlib import Path
 
@@ -13,10 +14,12 @@ def create_pub_index(pub, content_tree):
     def folder_index_text(folder, documents):
         path = folder.get("path")
         docs = []
+        name = Path(path).parent.name
+        title = f"Month of {month_name[int(name)]}"
+        # print(title)
         for doc in documents:
             if not doc["path"].endswith("Index.md"):
                 docs.append(link(doc["title"], url(pub.name, doc["path"])))
-        title = f"Month {Path(path).parent.name}"
         data = dict(title=title, docs=docs)
         return render_to_string("pub/pub_index.md", data)
 
@@ -28,6 +31,7 @@ def create_pub_index(pub, content_tree):
             if f["path"] != str(path)
         ]
         data = dict(title="Table of Contents", docs=docs)
+        # print("TOP FOLDER", data["title"])
         text = render_to_string("pub/pub_index.md", data)
         path.write_text(text)
 
@@ -36,9 +40,24 @@ def create_pub_index(pub, content_tree):
         path = Path(folder.get("path"))
         path.write_text(text)
 
-    for f in content_tree:
+    def folders(content_tree):
+        return content_tree[1:]
+
+    def top_folder(content_tree):
+        return content_tree[0]
+
+    for f in folders(content_tree):
         folder_index(f)
     top_index_text(content_tree)
+
+    # for f in content_tree:
+    #     if f.get("doctype") == "folder":
+    #         path = f.get("path")
+    #         name = Path(path).parent.name
+    #         if not pub.doc_path.endswith(name):
+    #             folder_index(f)
+    #         else:
+    #             top_index_text(content_tree)
 
 
 def content_file(pub):

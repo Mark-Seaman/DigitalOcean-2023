@@ -1,3 +1,4 @@
+import calendar
 from django.template.loader import render_to_string
 from django.utils.timezone import make_aware, localdate
 from pathlib import Path
@@ -7,6 +8,7 @@ from course.course import get_course, weekly_content
 from publish.models import Content, Pub
 from publish.pub import (
     build_pubs,
+    delete_pubs,
     get_pub,
     get_pub_contents,
     import_pubs,
@@ -48,7 +50,11 @@ def todo():
 def pubs():
     print("Build Pubs")
 
+    delete_pubs()
     build_pubs()
+    day = calendar.month_name[3]
+    # day = f'{localdate().strftime("%a, %B %d")}'
+    print(day)
 
     # pub = get_pub("spiritual")
     # print(show_pub_summaries())

@@ -17,6 +17,10 @@ class Command(BaseCommand):
         else:
             self.show_usage()
             cmd = "blog"
+            write_blog()
+            write_tech()
+            write_masto()
+            write_review()
 
         if cmd == "blog":
             self.stdout.write("WRITE BLOG")

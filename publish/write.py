@@ -1,4 +1,4 @@
-from publish.pub import get_pub, show_pub_words
+from publish.pub import get_pub, show_pub_summaries, show_pub_words
 from publish.seamanslog import create_toot_file
 from task.todo import edit_blog_files, edit_spirit_files
 from workshop.management.commands.edit import edit_file
@@ -27,6 +27,8 @@ def write_tech(args=[]):
 
 def write_words(args=[]):
     print(f"write words {args}")
+    if not args:
+        print(show_pub_summaries())
     for pub in args:
         pub = get_pub(pub)
         print(show_pub_words(pub))

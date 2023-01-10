@@ -36,7 +36,7 @@
         "domain": "https://seamansguide.com",
         "url": "/poem",
         "logo": null,
-        "words": 15388,
+        "words": 15068,
         "cover_image": "/static/images/seamansguide.com/poem/poem-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -59,7 +59,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 52783,
+        "words": 52784,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -174,7 +174,7 @@
         "domain": null,
         "url": "/sampler",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 63179,
+        "words": 63587,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -197,7 +197,7 @@
         "domain": null,
         "url": "/spiritual",
         "logo": null,
-        "words": 58815,
+        "words": 58813,
         "cover_image": "/static/images/spiritual-things.org/spiritual-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -2378,7 +2378,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/quest/WhoDoYouLove.md",
         "folder": 3,
-        "words": 1264
+        "words": 1265
     }
 },
 {
@@ -4822,7 +4822,7 @@
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/01/Index.md",
         "folder": 0,
-        "words": 335
+        "words": 336
     }
 },
 {
@@ -4922,11 +4922,11 @@
     "fields": {
         "blog": 1223,
         "order": 8,
-        "title": "A Seaman's Journey",
+        "title": "Seaman's Log Weekly ",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/01/08.md",
         "folder": 1,
-        "words": 183
+        "words": 66
     }
 },
 {
@@ -4935,11 +4935,11 @@
     "fields": {
         "blog": 1223,
         "order": 9,
-        "title": "Seaman's Log Weekly",
+        "title": "Those other people",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/01/09.md",
         "folder": 1,
-        "words": 76
+        "words": 349
     }
 },
 {
@@ -9814,7 +9814,7 @@
         "doctype": "chapter",
         "path": "Documents/spiritual-things.org/daily/01/07.md",
         "folder": 2,
-        "words": 251
+        "words": 250
     }
 },
 {
@@ -9827,7 +9827,7 @@
         "doctype": "chapter",
         "path": "Documents/spiritual-things.org/daily/01/08.md",
         "folder": 2,
-        "words": 239
+        "words": 238
     }
 },
 {

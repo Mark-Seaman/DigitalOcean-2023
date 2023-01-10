@@ -2,6 +2,7 @@ from django.utils.timezone import localdate, localtime
 from pathlib import Path
 
 from publish.days import tomorrow, yesterday
+from publish.files import fix_chars
 from publish.seamanslog import (
     create_sampler_file,
     create_history_file,
@@ -26,6 +27,7 @@ def create_files(path, start_day, num_days, path_name, set_text):
                     f.parent.parent.mkdir()
                 f.parent.mkdir()
             text = set_text(date)
+            text = fix_chars(text)
             f.write_text(text)
         return f
 
@@ -40,7 +42,7 @@ def edit_blog_files():
         return path / (date.strftime("%m/%d") + ".md")
 
     path = Path("Documents/seamanslog.com/sampler")
-    open_files(path, 0, 5, blog_path, create_sampler_file)
+    open_files(path, 0, 1, blog_path, create_sampler_file)
 
 
 def edit_todo_list():

@@ -7,7 +7,7 @@ from re import split, sub
 from publish.pub import get_pub, list_content
 from publish.days import yesterday
 from publish.document import document_body, document_title, title
-from publish.files import read_file
+from publish.files import fix_chars, read_file
 from workshop.management.commands.edit import edit_file
 
 
@@ -81,6 +81,7 @@ def create_toot_file():
     if message:
         edit_file([article["doc"]])
         print(path, message)
+        text = fix_chars(text)
         path.write_text(message)
         return [path]
 
@@ -97,7 +98,9 @@ def extract_message(path, url):
     paragraphs = article_paragraphs(text)
     if paragraphs:
         text = choice(paragraphs)
+        text = fix_chars(text)
         text = text.replace("\n", " ")
+        text = text.replace("  ", " ")
         return text + f"\n... \n\nRead more - {url}"
 
 

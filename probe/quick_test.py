@@ -1,6 +1,4 @@
 import calendar
-from django.template.loader import render_to_string
-from django.utils.timezone import make_aware, localdate
 from pathlib import Path
 
 from course.course import get_course, weekly_content

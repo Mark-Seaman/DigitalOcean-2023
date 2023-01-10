@@ -81,7 +81,7 @@ def create_toot_file():
     if message:
         edit_file([article["doc"]])
         print(path, message)
-        text = fix_chars(text)
+        message = fix_chars(message)
         path.write_text(message)
         return [path]
 

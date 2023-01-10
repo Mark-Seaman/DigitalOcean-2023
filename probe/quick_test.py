@@ -2,14 +2,11 @@ import calendar
 from django.template.loader import render_to_string
 from django.utils.timezone import make_aware, localdate
 from pathlib import Path
-from re import sub
 
 from course.course import get_course, weekly_content
 from probe.probe_documents import test_documents_fix_chars
 from publish.models import Content, Pub
 from publish.pub import (
-    build_pubs,
-    delete_pubs,
     get_pub,
     get_pub_contents,
 )

@@ -59,7 +59,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 52784,
+        "words": 52826,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -197,7 +197,7 @@
         "domain": null,
         "url": "/spiritual",
         "logo": null,
-        "words": 58813,
+        "words": 58812,
         "cover_image": "/static/images/spiritual-things.org/spiritual-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -2079,7 +2079,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/quest/Work.md",
         "folder": 2,
-        "words": 2171
+        "words": 2213
     }
 },
 {
@@ -9853,7 +9853,7 @@
         "doctype": "chapter",
         "path": "Documents/spiritual-things.org/daily/01/10.md",
         "folder": 2,
-        "words": 252
+        "words": 251
     }
 },
 {

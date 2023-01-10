@@ -5,15 +5,16 @@ Grow 3
     night watch: Suffering with God
     plan Day, Week, Month
 
-Teach 0
+Teach 7
 
-Church 0
+    select content for webapps 1 & 2 
+    create lesson plan for webapps 1 & 2 
+    create directory for Github repos
+    create demo code for 6/12 lessons
 
-Write 0
+Church 2
 
-Tools 0
-
-People 0
+    church leaders meeting
 
 Fun 0
 

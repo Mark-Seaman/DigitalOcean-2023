@@ -13,9 +13,11 @@ export PATH="$pyenv:$brew:$sublime:$vscode1:$vscode2:$syspath"
 
 # Variables
 export p=~/Hammer
+export h=~/Hammer
 export d=$p/Documents
 export g=$HOME/Github
-export c=$d/shrinking-world.com/bacs350
+export c=$d/shrinking-world.com/webapps1
+export cx=$d/Github/WebApps-1
 export a=$HOME/Archive
 export i=$d/markseaman.info
 export m="$a/rcp/mbw"
@@ -36,7 +38,7 @@ alias e='subl'
 alias ea='subl ~/Hammer/config/zshrc'
 alias hammer="source ~/.zshrc && code $p"
 alias book='subl $book'
-alias course='subl $course'
+alias course='subl $course $cx'
 alias slog='subl $slog'
 alias blog='pm write blog'
 alias docs='subl Documents'
@@ -78,6 +80,8 @@ alias deploy='pm vc deploy'
 
 # Django aliases
 alias pm='python manage.py'
+alias r='pm runserver 8000'
+alias t='pm test'
 alias serve='pm runserver 8000'
 alias dt='pm test'
 alias migrate='pm makemigrations && pm migrate'
@@ -154,21 +158,19 @@ function py {
 # Demo Code
 
 export b3=$HOME/Github/PythonWebApps
-export s=$b3/Superhero
-export p1=$b3/01/ProfileApp
-export p2=$b3/02/ProfileApp
-export p3=$b3/03/Superhero
-export p4=$b3/04/Gallery
-export p5=$b3/05/Notes
-export p6=$b3/06/Blog
-export p7=$b3/07/News
-export p8=$b3/08/Messenger
-export p9=$b3/09/ViewWorkshop
-export p10=$b3/10/Album
-export p11=$b3/11/Book
-export p12=$b3/12/CourseBuilder
-export p13=$b3/13/CodeBuilder
-export p14=$b3/14/SoftwarePlanner
+export s=$cx/Superhero
+export p1=$cx/01
+export p2=$cx/02
+export p3=$cx/03
+export p4=$cx/04
+export p5=$cx/05
+export p6=$cx/06
+export p7=$cx/07
+export p8=$cx/08
+export p9=$cx/09
+export p10=$cx/10
+export p11=$cx/11
+export p12=$cx/12
 
 alias p1='cd $p1 && l'
 alias p2='cd $p2 && l'

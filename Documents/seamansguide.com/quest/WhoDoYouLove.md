@@ -23,8 +23,8 @@ opportunity to share God's love with others. Small selfless acts of kindness and
 teach us how to love better.
 
 Say "YES” to God.  It always leads to more of everything good. Saying "NO” to self, is actually less
-painful than it first appears. Learning to love is not a glorious or heroic endeavor.  Instead it
-is an act of humility. Start small, start now. 
+painful than it first appears. Learning to love is not a glorious or heroic endeavor.  Instead, it
+is a simple act of humility. Start small, start now. 
 
 
 ## Our Community
@@ -33,7 +33,7 @@ Our journey of love begins at home but it soon spills outside of those bounds. W
 and shop in a community of people. We have interactions with lots of people every day.
 
 Even though I don't know everyone I encounter there are many people that are much like me.  They
-have a similar life, hopes and dreams, and fears of the future.  This is a safe place for us to
+have similar lifestyles, hopes and dreams, and fears of the future.  This is a safe place for us to
 practice our growing love.
 
 Every contact is an opportunity for encouragement.  Find ways to express God's kindness to the
@@ -48,10 +48,10 @@ meaningful connection open.  It will totally change how you see others.
 ## Those other people
 
 Not everyone is like us. We often feel that those that are not like us do not really deserve love,
-but the truth is that none of us  really deserve God's love. We are all in need of undeserved
+but the truth is that none of us really deserve God's love. We are all in need of undeserved
 love.
 
-We all have prejudices, but cannot see them.  We each hold unquestioned opinions about the worth of
+We all have prejudices but often cannot see them.  We each hold unquestioned opinions about the worth of
 others. We believe that some people are worthy and others are not. But these attitudes block God's
 love in our lives and make us unable to reach out to others.
 
@@ -72,12 +72,12 @@ impossible unless God is changing our hearts.
 
 The same issue applies to every type of difference: Race, Religion, Poverty, Wealth, Hard
 working/Lazy, Underweight/Overweight, Aggressive/Shy, Sports Teams, Greeley/Ft Collins, Education,
-Status, Addiction, Politics.  Any excuse is good enough if we don't want to love in the  first
+Status, Addiction, and Politics.  Any excuse is good enough if we don't want to love in the first
 place.
 
 When we feel ourselves reacting in this way the only reasonable response is repentance. We must
-confront our prejudice rather that justify it.  It is a sin that is blocking the purpose of God in
-our lives and keeping us from having any influence with others.
+confront our prejudice rather than justify it.  It is a sin that is blocking the purpose of God in
+our lives and keeping us from having any influence on others.
 
 
 ## Our World
@@ -91,9 +91,9 @@ am I ready to play a role on a greater stage.  When I see the suffering of those
 in compassion, I am compelled to do even more regularly and consistently.
 
 Love builds from loving people I know to people everywhere that also suffer from the same things.
-Politics is never the answer for the world's problems. The practices of politics help groups make
-decisions that our good for the most people.  While better leaders are a good thing they really
-have very limited impact over all.
+Politics is never the answer to all the world's problems. The practices of politics help groups make
+decisions that our good for most people.  While better leaders are a good thing they really
+have very limited impact overall.
 
 So where does our hope come from? Do we put our hope in politicians or national security? Without
 God's love there is no hope for the world. We have been placed here by God with a mission of being
@@ -126,6 +126,6 @@ called to.  This process is slow and can often be hard. The most difficult part 
 is coming to grips with our own selfishness and prejudice that blocks God's love.
 
 This is the only path to true influence.  God has given us no other option. Ultimate fulfillment and
-true purpose of life will only be found by saying "YES" to this call.
+true purpose in life will only be found by saying "YES" to this call.
 
 

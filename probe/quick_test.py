@@ -5,40 +5,31 @@ from pathlib import Path
 from re import sub
 
 from course.course import get_course, weekly_content
+from probe.probe_documents import test_documents_fix_chars
 from publish.models import Content, Pub
 from publish.pub import (
     build_pubs,
     delete_pubs,
     get_pub,
     get_pub_contents,
-    import_pubs,
-    show_pub_content,
-    show_pub_index,
-    show_pub_summaries,
-    show_pub_contents,
-    show_pub_json,
-    show_pub_words,
 )
 from publish.seamanslog import random_post
 from publish.toc import (
     content_file,
     read_content_csv,
-    table_of_contents,
     write_content_csv,
 )
-
-import toot
+from task.todo import edit_todo_list
 
 
 def quick_test():
     # print("No quick test defined")
     pubs()
     # todo()
+    # write()
 
 
-def todo():
-    print("TODO")
-    # edit_todo_list()
+def write():
     # edit_review_file()
     # edit_toot_file()
     # edit_blog_files()
@@ -47,11 +38,17 @@ def todo():
     # print(extract_message(article["doc"], article["url"]))
 
 
+def todo():
+    print("TODO")
+    edit_todo_list()
+
+
 def pubs():
     print("Build Pubs")
+    # delete_pubs()
+    # build_pubs()
 
-    delete_pubs()
-    build_pubs()
+    print(test_documents_fix_chars())
 
     # pub = get_pub("spiritual")
     # print(show_pub_summaries())
@@ -106,7 +103,7 @@ def courses():
 
     print("Build Courses")
     weeks = weekly_content(get_course("bacs350"))
-    weeks = accordion_data()
+    # weeks = accordion_data()
     for w in weeks:
         print(w)
     # create_course(**bacs350_options())

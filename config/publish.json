@@ -59,7 +59,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 54652,
+        "words": 53591,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -2079,7 +2079,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/quest/Work.md",
         "folder": 2,
-        "words": 2213
+        "words": 1152
     }
 },
 {

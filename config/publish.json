@@ -59,7 +59,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 52826,
+        "words": 54652,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -15392,6 +15392,32 @@
         "path": "Documents/seamanslog.com/sampler/01/31.md",
         "folder": 1,
         "words": 567
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86294,
+    "fields": {
+        "blog": 1218,
+        "order": 4,
+        "title": "Key Roles in Life",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/Roles.md",
+        "folder": 2,
+        "words": 1067
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86295,
+    "fields": {
+        "blog": 1218,
+        "order": 14,
+        "title": "Embracing Joy Daily",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/Enjoy.md",
+        "folder": 2,
+        "words": 759
     }
 }
 ]

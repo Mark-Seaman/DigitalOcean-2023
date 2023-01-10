@@ -25,7 +25,7 @@ def test_book_webapps():
 
 
 def test_book_quest():
-    return check_files(book / "quest", 35, 56)
+    return check_files(book / "quest", 55, 60)
 
 
 def test_book_words():

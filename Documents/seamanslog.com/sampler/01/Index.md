@@ -18,7 +18,7 @@
 * [Those other people](/sampler/01-09.md)
 * [Season of Old Age](/sampler/01-12.md)
 * [Ich bin ein Berliner](/sampler/01-11.md)
-* [UNC Web Development Course Project](/sampler/01-10.md)
+* [Systemic Racism](/sampler/01-10.md)
 * [Banks of the Missouri](/sampler/01-13.md)
 * [Season of Old Age](/sampler/01-12.md)
 * [Ich bin ein Berliner](/sampler/01-11.md)

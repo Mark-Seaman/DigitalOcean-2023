@@ -8,10 +8,10 @@ to identify and clarify this concept in my own life, and even longer to learn
 to use my superpower appropriately.
 
 I'm writing this article to help you identify your superpower and get the most
-out of your unique personality.  Everyone is equipped with differing
+out of your unique personality.  Everyone is equipped with different
 characteristics that make them special.  Each person has some raw talent that
 makes them super special.  Developing this talent into a strength requires years
-of practice and study.  It is neither automatic or certain.
+of practice and study.  It is neither automatic nor certain.
 
 Talents are developed into strengths by practice, experimentation, and study.
 No Olympic athlete or genius is born that way.  There must be a talent present, 
@@ -46,11 +46,11 @@ dangers inherent in them.
 
 ## Fifty Year Plan
 
-During my twenties I wanted nothing more than to be like others.  My thirties
+During my twenties, I wanted nothing more than to be like others.  My thirties
 brought me the insight that I had special abilities that few others had. During
-my forties I began to see that my entire life revolved around my special
+my forties, I began to see that my entire life revolved around my special
 abilities and that fully developing these abilities was the key to happiness.
-During my fifties I realized that every power has a corresponding weakness and
+During my fifties, I realized that every power has a corresponding weakness and
 vulnerability that must be addressed.
 
 This leads us to the following plan for your personal growth
@@ -61,15 +61,15 @@ This leads us to the following plan for your personal growth
 - 50s - embrace your weakness
 - 60s - learn to pass on your power to others
 
-With this simple fifty year plan you will have the ability to fully develop and
+With this simple fifty-year plan you will have the ability to fully develop and
 use your superpowers for good rather than evil.
 
 
 ## What is Your Superpower?
 
-This about what makes you unique.  What raw talents do you possess that could
+It is about what makes you unique.  What raw talents do you possess that could
 be the basis of your superpower?  Don't wait for the radioactive spider or the
-gamma-ray experiment to give you special powers. Make a plan develop your 
+gamma-ray experiment to give you special powers. Make a plan to develop your 
 talents.
 
 What is stopping you from your destiny? What skills do you need to learn to

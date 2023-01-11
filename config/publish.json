@@ -59,7 +59,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 53656,
+        "words": 53660,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -174,7 +174,7 @@
         "domain": null,
         "url": "/sampler",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 63575,
+        "words": 63164,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -2053,7 +2053,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/quest/Purpose.md",
         "folder": 2,
-        "words": 2262
+        "words": 672
     }
 },
 {
@@ -2066,7 +2066,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/quest/MySuperpower.md",
         "folder": 2,
-        "words": 730
+        "words": 731
     }
 },
 {
@@ -4822,7 +4822,7 @@
         "doctype": "folder",
         "path": "Documents/seamanslog.com/sampler/01/Index.md",
         "folder": 0,
-        "words": 336
+        "words": 333
     }
 },
 {
@@ -4948,11 +4948,11 @@
     "fields": {
         "blog": 1223,
         "order": 10,
-        "title": "UNC Web Development Course Project",
+        "title": "Systemic Racism",
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/01/10.md",
         "folder": 1,
-        "words": 192
+        "words": 56
     }
 },
 {
@@ -15418,6 +15418,45 @@
         "path": "Documents/seamansguide.com/quest/Enjoy.md",
         "folder": 2,
         "words": 759
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86296,
+    "fields": {
+        "blog": 1218,
+        "order": 15,
+        "title": "The Source for What You Need",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/TheSource.md",
+        "folder": 2,
+        "words": 664
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86297,
+    "fields": {
+        "blog": 1218,
+        "order": 16,
+        "title": "John Wesley's Manifesto",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/JohnWesley.md",
+        "folder": 2,
+        "words": 545
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 86298,
+    "fields": {
+        "blog": 1218,
+        "order": 17,
+        "title": "What does God expect of his people?",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/JusticeMercy.md",
+        "folder": 2,
+        "words": 384
     }
 }
 ]

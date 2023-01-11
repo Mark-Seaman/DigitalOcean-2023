@@ -14,12 +14,18 @@ def write_blog(args=[]):
         args = review_file(args)
     elif Path(args[0]).exists():
         pass
+    elif args[0] == 'masto':
+        write_masto()
+        return
     elif args[0] == 'spiritual':
         today = localdate().strftime("%m/%d") + ".md"
         args[0] = f"Documents/spiritual-things.org/daily/{today}"
     elif args[0] == 'seamanslog':
         today = localdate().strftime("%m/%d") + ".md"
         args[0] = f"Documents/seamanslog.com/sampler/{today}"
+    elif args[0] == 'words':
+        write_words(args[1:])
+        return
     else:
         pub = get_pub(args[0])
         if args[1:]:
@@ -58,3 +64,5 @@ def write_words(args=[]):
     for pub in args:
         pub = get_pub(pub)
         print(show_pub_words(pub))
+        # edit_file(f"Documents/markseaman.info/words/{args[0]}")
+    edit_file(f"Documents/markseaman.info/words")

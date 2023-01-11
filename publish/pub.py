@@ -68,7 +68,7 @@ def get_pub_folders(pub):
 def get_pub_contents(pub):
     def doc_objects(pub, folder):
         return (
-            Content.objects.filter(blog=pub, doctype="chapter", )
+            Content.objects.filter(blog=pub, doctype="chapter", folder=folder)
             .order_by("order")
             .values()
         )

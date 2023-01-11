@@ -76,7 +76,10 @@ def read_content_csv(pub):
 
 
 def show_word_count(label, word_count, post_count=None):
-    words = f"{int(word_count / 1000)}k" if word_count > 1000 else word_count
+    if word_count > 1000:
+        words = f"{int(word_count / 1000)}k"
+    else:
+        words = word_count
     pages = int(word_count / 250)
     if post_count:
         return f"{label} {post_count} Posts, {words} Words, {pages} Pages\n"

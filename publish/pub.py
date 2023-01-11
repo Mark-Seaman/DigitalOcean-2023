@@ -52,10 +52,23 @@ def get_pub(name):
     return Pub.objects.get(name=name)
 
 
+def get_pub_folders(pub):
+    def objects(pub, type):
+        return Content.objects.filter(blog=pub, doctype=type).order_by("order")
+
+    def folders(pub):
+        return [(f, docs(f)) for f in objects(pub, "folder")]
+
+    def docs(folder):
+        return objects(pub, "chapter").filter(folder=folder)
+
+    return folders
+
+
 def get_pub_contents(pub):
     def doc_objects(pub, folder):
         return (
-            Content.objects.filter(blog=pub, doctype="chapter", folder=folder)
+            Content.objects.filter(blog=pub, doctype="chapter", )
             .order_by("order")
             .values()
         )
@@ -120,7 +133,8 @@ def random_doc(directory):
 
 
 def random_doc_page(path):
-    x = choice([str(f.name) for f in Path(path).iterdir() if str(f).endswith(".md")])
+    x = choice([str(f.name)
+               for f in Path(path).iterdir() if str(f).endswith(".md")])
     return x.replace(".md", "")
 
 

@@ -4,13 +4,24 @@ Grow 1
 
     gout day 8
 
-Church 0
+Business 1
 
-Write 0
+    update accounting (budget, investments)
+
+Write 3
+
+    Remove Hatred.md from Poems
+    edit Meaningful Work
+    edit Roles in Life
+    review page counts in Quest
+    Mastodon
 
 Teach 0
 
-Tools 0
+Tools 1
+
+    fix chars on documents
+    fix chars in automatic scripts
 
 People 0
 

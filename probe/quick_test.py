@@ -5,6 +5,8 @@ from course.course import get_course, weekly_content
 from probe.probe_documents import test_documents_fix_chars
 from publish.models import Content, Pub
 from publish.pub import (
+    build_pubs,
+    delete_pubs,
     get_pub,
     get_pub_contents,
 )
@@ -12,6 +14,7 @@ from publish.seamanslog import random_post
 from publish.toc import (
     content_file,
     read_content_csv,
+    table_of_contents,
     write_content_csv,
 )
 from task.todo import edit_todo_list
@@ -43,22 +46,22 @@ def pubs():
     # delete_pubs()
     # build_pubs()
 
-    print(test_documents_fix_chars())
+    pub = get_pub("quest")
+    contents = get_pub_contents(pub)
+    print(table_of_contents(pub, contents))
 
-    # pub = get_pub("spiritual")
     # print(show_pub_summaries())
     # # show_pub_index(pub)
     # print(show_pub_words(pub))
 
     # print(create_pub_index(pub))
+    # print(test_documents_fix_chars())
 
     # list_pubs()
     # show_pubs()
     # show_pub_json()
 
     # pub = get_pub("sampler")
-    # contents = get_pub_contents(pub)
-    # print(table_of_contents(pub, contents))
 
 
 def create_sampler_index():

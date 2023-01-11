@@ -86,6 +86,16 @@ def create_toot_file():
         return [path]
 
 
+def document_data(content):
+    pub = content.blog
+    doc = Path(content.path).name
+    url = article_url(pub, doc)
+    doc_path = article_path(pub, doc)
+    title = document_title(doc_path)
+    text = document_body(read_file(doc_path))
+    return dict(pub=pub, url=url, doc=doc_path, title=title, text=text)
+
+
 def extract_post(path):
     text = read_file(path)
     paragraphs = article_posts(text)
@@ -105,15 +115,9 @@ def extract_message(path, url):
 
 
 def random_article(pub=None):
-    pub = random_pub()
-    content = choice(list_content(pub))
-    # return blog_data(pub, Path(content.path).name)
-    doc = Path(content.path).name
-    url = article_url(pub, doc)
-    doc_path = article_path(pub, doc)
-    title = document_title(doc_path)
-    text = document_body(read_file(doc_path))
-    return dict(pub=pub, url=url, doc=doc_path, title=title, text=text)
+    if not pub:
+        pub = random_pub()
+    return document_data(choice(list_content(pub)))
 
 
 def random_message(article):
@@ -149,6 +153,8 @@ def review_file(path):
     if not path:
         article = random_article()
         path = article["doc"]
-    edit_file([path])
-    print(f"REVIEW: {article['doc']}")
     return path
+
+    # edit_file([path])
+    # print(f"REVIEW: {article['doc']}")
+    # return path

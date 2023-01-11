@@ -12,35 +12,6 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         x = options.get("command")
-        if x:
-            cmd = x[0]
-        else:
-            self.show_usage()
-            cmd = "blog"
-            write_blog()
-            write_tech()
-            write_masto()
-            write_review()
-
-        if cmd == "blog":
-            self.stdout.write("WRITE BLOG")
-            write_blog(x[1:])
-
-        elif cmd == "tech":
-            self.stdout.write("WRITE TECH")
-            write_tech(x[1:])
-
-        elif cmd == "masto":
-            self.stdout.write("WRITE MASTO")
-            write_masto(x[1:])
-
-        elif cmd == "review":
-            self.stdout.write("WRITE REVIEW")
-            write_review(x[1:])
-
-        elif cmd == "words":
-            self.stdout.write("WRITE WORDS")
-            write_words(x[1:])
-
-        else:
-            self.show_usage()
+        text = write_blog(x)
+        if text:
+            self.stdout.write(text)

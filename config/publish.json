@@ -59,7 +59,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 53591,
+        "words": 53656,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -174,7 +174,7 @@
         "domain": null,
         "url": "/sampler",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 63587,
+        "words": 63575,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -2560,7 +2560,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/quest/CyclesOfHistory.md",
         "folder": 4,
-        "words": 585
+        "words": 650
     }
 },
 {
@@ -4965,7 +4965,7 @@
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/01/11.md",
         "folder": 1,
-        "words": 132
+        "words": 128
     }
 },
 {

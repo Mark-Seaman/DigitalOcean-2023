@@ -3,6 +3,7 @@ from pathlib import Path
 
 from course.course import get_course, weekly_content
 from probe.probe_documents import test_documents_fix_chars
+from publish.import_export import import_pub
 from publish.models import Content, Pub
 from publish.pub import (
     build_pubs,
@@ -45,10 +46,15 @@ def pubs():
     print("Build Pubs")
     # delete_pubs()
     # build_pubs()
+    import_pub_content()
 
+
+def import_pub_content():
     pub = get_pub("quest")
+    import_pub(pub)
+
     contents = get_pub_contents(pub)
-    print(table_of_contents(pub, contents))
+    print(table_of_contents(pub, contents, True))
 
     # print(show_pub_summaries())
     # # show_pub_index(pub)

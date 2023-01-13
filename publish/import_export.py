@@ -57,6 +57,8 @@ def create_pubs():
         b.auto_remove = s.get("auto_remove", False)
         b.auto_index = s.get("auto_index", False)
         b.auto_contents = s.get("auto_contents", False)
+        b.index_folders = s.get("index_folders", False)
+        b.index_months = s.get("index_months", False)
         b.save()
         return b
 
@@ -78,6 +80,7 @@ def import_pub(pub):
         x.folder = folder
         x.title = doc["title"]
         x.words = doc["words"]
+        x.retain_object = True
         x.save()
 
     def import_content(pub, index):
@@ -88,11 +91,18 @@ def import_pub(pub):
             else:
                 set_content(pub, "folder", row[0], 0, row[1])
 
+    def delete_extra_objects(pub):
+        Content.objects.filter(blog=pub, retain_object=False).delete()
+        for c in Content.objects.filter(blog=pub):
+            c.retain_object = False
+            c.save()
+
     content = content_file(pub)
     if pub.auto_contents:
         # print("CREATE CONTENT")
         write_content_csv(pub)
     import_content(pub, content)
+    delete_extra_objects(pub)
 
 
 def load_data():

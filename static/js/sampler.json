@@ -15,5 +15,6 @@
     "author": "Mark Seaman",
     "menu": "static/js/nav_blog.json",
     "auto_index": true,
+    "index_months": true,
     "auto_contents": true
 }

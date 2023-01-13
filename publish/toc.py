@@ -15,7 +15,10 @@ def create_pub_index(pub, content_tree):
         path = folder.get("path")
         docs = []
         name = Path(path).parent.name
-        title = f"Month of {month_name[int(name)]}"
+        if pub.index_months:
+            title = f"Month of {month_name[int(name)]}"
+        else:
+            folder.get('title')
         # print(title)
         for doc in documents:
             if not doc["path"].endswith("Index.md"):
@@ -46,8 +49,9 @@ def create_pub_index(pub, content_tree):
     def top_folder(content_tree):
         return content_tree[0]
 
-    for f in folders(content_tree):
-        folder_index(f)
+    if pub.index_folders or pub.index_months:
+        for f in folders(content_tree):
+            folder_index(f)
     top_index_text(content_tree)
 
     # for f in content_tree:
@@ -83,8 +87,10 @@ def show_word_count(label, word_count, post_count=None):
     pages = int(word_count / 250)
     if post_count:
         return f"{label} {post_count} Posts, {words} Words, {pages} Pages\n"
-    else:
+    elif word_count != 0:
         return f"{label} {words} Words, {pages} Pages\n"
+    else:
+        return f"{label}\n"
 
 
 def table_of_contents(pub, content_tree, word_count=False):
@@ -96,18 +102,18 @@ def table_of_contents(pub, content_tree, word_count=False):
             label = f"\n## [{title}](/{pub.name}/{url})"
         else:
             label = f"* [{title}](/{pub.name}/{url})"
-        return show_word_count(f"{label:80}", words)
+        return show_word_count(f"{label:80}", int(words))
 
     text = f"# {pub.title}\n\n"
     for f in content_tree:
         url = Path(f.get("path")).name
         title = f.get("title")
-        w = f["words"] if word_count else ""
+        w = f["words"] if word_count else '0'
         text += link(True, pub, title, f.get("path"), w) + "\n"
         for d in f.get("documents"):
             url = Path(d.get("path")).name
             title = d.get("title")
-            w = d["words"] if word_count else ""
+            w = d["words"] if word_count else '0'
             text += link(False, pub, title, d.get("path"), w)
     return text
 

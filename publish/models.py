@@ -20,6 +20,8 @@ class Pub(models.Model):
     auto_remove = models.BooleanField(default=False)
     auto_contents = models.BooleanField(default=False)
     auto_index = models.BooleanField(default=False)
+    index_folders = models.BooleanField(default=False)
+    index_months = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.name} - {self.title}"
@@ -36,6 +38,7 @@ class Content(models.Model):
     path = models.CharField(max_length=200, null=True)
     folder = models.IntegerField(default=0)
     words = models.IntegerField(default=0)
+    retain_object = models.BooleanField(default=False)
 
     def __str__(self):
         doc = self.path.replace(self.blog.doc_path, "")[1:]

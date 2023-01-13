@@ -13,5 +13,6 @@
     "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
     "cover_title": false,
     "pub_type": "book",
-    "menu": "static/js/nav_blog.json"
+    "menu": "static/js/nav_blog.json",
+    "auto_index": true
 }

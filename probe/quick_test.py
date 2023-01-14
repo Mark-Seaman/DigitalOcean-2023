@@ -23,6 +23,7 @@ from task.todo import edit_todo_list
 
 def quick_test():
     # print("No quick test defined")
+    # Pub.objects.get(name='DELETE ME').delete()
     pubs()
     # todo()
     # write()
@@ -45,8 +46,8 @@ def todo():
 def pubs():
     print("Build Pubs")
     # delete_pubs()
-    # build_pubs()
-    import_pub_content()
+    build_pubs()
+    # import_pub_content()
 
 
 def import_pub_content():

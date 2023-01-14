@@ -38,7 +38,7 @@
         "domain": "https://seamansguide.com",
         "url": "/poem",
         "logo": null,
-        "words": 15068,
+        "words": 15064,
         "cover_image": "/static/images/seamansguide.com/poem/poem-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -63,7 +63,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 52067,
+        "words": 52897,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -188,7 +188,7 @@
         "domain": null,
         "url": "/sampler",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 61789,
+        "words": 56523,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -213,7 +213,7 @@
         "domain": null,
         "url": "/spiritual",
         "logo": null,
-        "words": 47127,
+        "words": 58812,
         "cover_image": "/static/images/spiritual-things.org/spiritual-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -2811,39 +2811,11 @@
     "fields": {
         "blog": 735,
         "order": 70,
-        "title": "My Autistic Temperament",
+        "title": "My Autistic Journey ",
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/quest/Autism.md",
         "folder": 4,
-        "words": 2211,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 44277,
-    "fields": {
-        "blog": 735,
-        "order": 71,
-        "title": "Confessions",
-        "doctype": "chapter",
-        "path": "Documents/seamansguide.com/quest/Confessions.md",
-        "folder": 4,
-        "words": 1057,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 44278,
-    "fields": {
-        "blog": 735,
-        "order": 72,
-        "title": "Nurturing Relationships",
-        "doctype": "chapter",
-        "path": "Documents/seamansguide.com/quest/Relationships.md",
-        "folder": 4,
-        "words": 735,
+        "words": 817,
         "retain_object": false
     }
 },
@@ -15962,6 +15934,48 @@
         "path": "Documents/spiritual-things.org/daily/12/31.md",
         "folder": 13,
         "words": 172,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 45257,
+    "fields": {
+        "blog": 735,
+        "order": 71,
+        "title": "Embracing Uniqueness",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/Uniqueness.md",
+        "folder": 4,
+        "words": 1390,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 45258,
+    "fields": {
+        "blog": 735,
+        "order": 72,
+        "title": "Confessions",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/Confessions.md",
+        "folder": 4,
+        "words": 1057,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 45259,
+    "fields": {
+        "blog": 735,
+        "order": 73,
+        "title": "Nurturing Relationships",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/Relationships.md",
+        "folder": 4,
+        "words": 735,
         "retain_object": false
     }
 }

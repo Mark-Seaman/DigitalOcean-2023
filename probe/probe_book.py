@@ -25,12 +25,4 @@ def test_book_webapps():
 
 
 def test_book_quest():
-    return check_files(book / "quest", 55, 60)
-
-
-def test_book_words():
-    text = ""
-    for pub in all_books():
-        path = Path("Documents/markseaman.info") / pub.name / "Words.md"
-        text += path.read_text()
-    return text
+    return check_files(book / "quest", 60, 65)

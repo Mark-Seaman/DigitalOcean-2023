@@ -26,6 +26,5 @@ urlpatterns = [
     path("", include("course.urls")),
     #
     # Book & Blogs
-    # path("", include("book.urls")),
     path("", include("publish.urls")),
 ]

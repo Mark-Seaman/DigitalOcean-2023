@@ -46,12 +46,12 @@ def todo():
 def pubs():
     print("Build Pubs")
     # delete_pubs()
-    build_pubs()
-    # import_pub_content()
+    # build_pubs()
+    import_pub_content()
 
 
 def import_pub_content():
-    pub = get_pub("quest")
+    pub = get_pub("tech")
     import_pub(pub)
 
     contents = get_pub_contents(pub)

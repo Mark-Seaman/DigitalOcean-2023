@@ -69,7 +69,7 @@
         "pub_type": "book",
         "auto_remove": false,
         "auto_contents": false,
-        "auto_index": true,
+        "auto_index": false,
         "index_folders": false,
         "index_months": false
     }

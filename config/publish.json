@@ -14287,48 +14287,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 45139,
-    "fields": {
-        "blog": 738,
-        "order": 1,
-        "title": "Document not found",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.com/blog/training/ContactMe.md",
-        "folder": 2,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 45140,
-    "fields": {
-        "blog": 738,
-        "order": 2,
-        "title": "Document not found",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.com/blog/training/History.md",
-        "folder": 2,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 45141,
-    "fields": {
-        "blog": 738,
-        "order": 5,
-        "title": "Document not found",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.com/blog/tech/ShrinkingWorld.md",
-        "folder": 4,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 45142,
     "fields": {
         "blog": 740,

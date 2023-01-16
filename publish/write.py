@@ -24,7 +24,7 @@ def write_blog(args=[]):
         greenhouse()
         return
     elif args[0] == 'plant':
-        plant(args[1:])
+        edit_file(plant(args[1:]))
         return
     elif args[0] == 'markdown':
         markdown(args[1:])
@@ -62,14 +62,15 @@ def greenhouse():
 def plant(args):
     outline_file = f'Documents/shrinking-world.com/greenhouse/{args[0]}'
     markdown_dir = args[1]
-    create_markdown_files(outline_file, markdown_dir)
+    return create_markdown_files(outline_file, markdown_dir)
 
 
 def create_markdown_files(outline_file, markdown_dir):
     text = read_file(outline_file)
-    create_index_file(markdown_dir, text)
+    index = create_index_file(markdown_dir, text)
     for topic in find_subtopics(text):
         create_topic_file(markdown_dir, topic)
+    return index
 
 
 def create_index_file(markdown_dir, outline):
@@ -82,7 +83,7 @@ def create_index_file(markdown_dir, outline):
     text = render_to_string("pub/pub_index.md", data)
     md = f'{markdown_dir}/Index.md'
     write_file(md, text)
-    edit_file(md)
+    return md
 
 
 def create_topic_file(markdown_dir, topic):

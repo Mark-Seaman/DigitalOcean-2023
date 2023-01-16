@@ -15,7 +15,7 @@
 * [Season of Old Age](/sampler/01-12.md)
 * [Banks of the Missouri](/sampler/01-13.md)
 * [Seasons of Life](/sampler/01-14.md)
-* [The Night We Met](/sampler/01-15.md)
+* [What is the  Church?](/sampler/01-15.md)
 * [Seaman's Log Weekly](/sampler/01-16.md)
 * [25th Wedding Anniversary](/sampler/01-17.md)
 * [Gratitude for My Family](/sampler/01-18.md)

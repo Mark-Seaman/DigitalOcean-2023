@@ -47,7 +47,7 @@ def pubs():
     print("Build Pubs")
     # delete_pubs()
     build_pubs()
-    import_pub_content()
+    # import_pub_content()
 
 
 def import_pub_content():

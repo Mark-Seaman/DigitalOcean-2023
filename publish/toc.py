@@ -52,7 +52,10 @@ def create_pub_index(pub, content_tree):
     if pub.index_folders or pub.index_months:
         for f in folders(content_tree):
             folder_index(f)
-    top_index_text(content_tree)
+        if pub.auto_index:
+            top_index_text(content_tree)
+    elif pub.auto_index:
+        write_toc_index(pub, content_tree)
 
     # for f in content_tree:
     #     if f.get("doctype") == "folder":

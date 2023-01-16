@@ -69,7 +69,7 @@
         "pub_type": "book",
         "auto_remove": false,
         "auto_contents": false,
-        "auto_index": false,
+        "auto_index": true,
         "index_folders": false,
         "index_months": false
     }
@@ -2311,7 +2311,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/quest/Faith.md",
         "folder": 2,
-        "words": 763,
+        "words": 765,
         "retain_object": false
     }
 },

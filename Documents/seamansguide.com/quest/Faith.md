@@ -9,7 +9,7 @@ Understanding religion and spirituality
 
 Let's explore the dynamics and practicality of following God.  Faith in God is
 expressed in two basic ways.  There is the private life that we have as we seek
-to follow God.  This private expression of faith guides our action when no one
+to follow God.  This private expression of faith guides our actions when no one
 else sees us.   We all have a  personal experience and secret history with God. 
 
 
@@ -21,13 +21,12 @@ we experience a mystical encounter with the living God.
 Every human has a primal desire for the supernatural and to touch eternity.  We
 may experience this as part of corporate worship but these ecstatic experiences
 are always deeply personal and private.  This personal encounter with God stands
-in deep contrast to the institutional and organization faith that captures so
+in deep contrast to the institutional and organizational faith that captures so
 much of our attention.
 
-Spirituality operates at the emotional level rather than the intellectual one.
-In fact our spiritual experience requires us to offend the mind in order to
-listen to the heart.  I find that my heart and head often are opposing each
-other for my allegiance.
+Spirituality operates at the emotional level rather than the intellectual one. In fact, our
+spiritual experience is often offensive to our minds.  It requires us to listen instead to our
+hearts. I find that my heart and head often are opposing each other for my allegiance.
 
 The mind is typically controlled by ego and naturally against the things of the
 Spirit of God.  I believe the journey of transformation occurs in the emotions

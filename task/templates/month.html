@@ -1,32 +1,32 @@
-{% extends "theme.html" %}
+{% extends "publish_theme.html" %}
 
 
 {% block content %}
 
-    <div class="container m-5">
+<div class="container m-5">
 
-        <h1>Month {{ month }}</h1>
+    <h1>Month {{ month }}</h1>
 
-        <pre>{{ tasktypes }}</pre>
+    <pre>{{ tasktypes }}</pre>
 
-        <ul>
-            {% for g in tasks %}
+    <ul>
+        {% for g in tasks %}
+        <li>
+            {{ g.name }}
+            <ul>
+                {% for n in g.notes %}
                 <li>
-                    {{ g.name }}
-                    <ul>
-                        {% for n in g.notes %}
-                            <li>
-                                {{ n }}
-                            </li>
-                        {% endfor %}
-                    </ul>
-
-
+                    {{ n }}
                 </li>
-            {% endfor %}
+                {% endfor %}
+            </ul>
 
-        </ul>
 
-    </div>
+        </li>
+        {% endfor %}
+
+    </ul>
+
+</div>
 
 {% endblock content %}

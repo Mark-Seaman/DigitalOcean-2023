@@ -1,19 +1,33 @@
 Monday
 
-Grow 0
+Church 2
 
-Church 0
+    create Prometa minicourse skeleton
 
-Write 1
+Write 3
 
     greenhouse concept
-    plant script
+    Healthy Social Networking
+    Micropub Vision
 
-Teach 0
+Teach 3
 
-Tools 0
+    greenhouse courses
+        MicropubPrinciples.ol
+        Prometa.ol      
+        WebApps-1,2,3.ol        
+        SocialNet.ol
+    Creating Courses (1 hr, 4 hr, college)
+
+Tools 2
+
+    build and test plant script
 
 People 0
 
-Fun 0
+    kids come over to house
 
+Fun 4
+
+    Avatar
+    Castle

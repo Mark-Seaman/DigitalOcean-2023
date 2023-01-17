@@ -29,6 +29,7 @@ export course=$c
 export slog=$s
 export blog=$d/shrinking-world.com/blog
 export book=$d/seamansguide.com
+export green=$d/shrinking-world.com/greenhouse
 export PS1="%3~ : "
 export EDITOR="subl -w"
 

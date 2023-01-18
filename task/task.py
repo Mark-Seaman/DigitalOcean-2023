@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
-from os.path import exists, join
-
 from django.db.models import Sum
+from django.template.loader import render_to_string
+from os.path import exists, join
 
 from publish.days import recent_dates
 from publish.text import text_lines
@@ -38,7 +38,8 @@ def bad_days():
     end = datetime.now()
     start = end - timedelta(days=365)
     tasks = Task.objects.filter(date__gt=start, date__lte=end)
-    totals = tasks.values("date").annotate(task_hours=Sum("hours")).order_by("-date")
+    totals = tasks.values("date").annotate(
+        task_hours=Sum("hours")).order_by("-date")
     return [(str(t["date"]), t["task_hours"]) for t in totals if t["task_hours"] != 14]
 
 
@@ -46,8 +47,10 @@ def bad_days_data(days):
     end = datetime.now()
     start = end - timedelta(days=days)
     tasks = Task.objects.filter(date__gt=start, date__lte=end)
-    totals = tasks.values("date").annotate(task_hours=Sum("hours")).order_by("-date")
-    table = [(str(t["date"]), t["task_hours"]) for t in totals if t["task_hours"] != 14]
+    totals = tasks.values("date").annotate(
+        task_hours=Sum("hours")).order_by("-date")
+    table = [(str(t["date"]), t["task_hours"])
+             for t in totals if t["task_hours"] != 14]
     return table
 
 
@@ -97,7 +100,8 @@ def percent_display(amount, total):
 def percent_totals(totals, subtotals):
     return [
         [task[0]]
-        + [percent_display(hours, subtotals[i]) for i, hours in enumerate(task[1:])]
+        + [percent_display(hours, subtotals[i])
+           for i, hours in enumerate(task[1:])]
         for task in totals
     ]
 
@@ -138,10 +142,12 @@ def tabs_data(tables):
         data = tab
         if selected:
             data.update(
-                dict(name=f"tab{i}", active="active", show="show", selected="true")
+                dict(name=f"tab{i}", active="active",
+                     show="show", selected="true")
             )
         else:
-            data.update(dict(name=f"tab{i}", active="", show="", selected="false"))
+            data.update(
+                dict(name=f"tab{i}", active="", show="", selected="false"))
         return data
 
     def set_options(tabs):
@@ -223,7 +229,8 @@ def task_list(days=7):
 
 
 def time_data():
-    tables = [time_table("week", 8), time_table("month", 31), time_table("year", 366)]
+    tables = [time_table("week", 8), time_table(
+        "month", 31), time_table("year", 366)]
     return dict(tabs=tabs_data(tables), incomplete=bad_days_data(366))
 
 
@@ -234,18 +241,47 @@ def time_filter(tasks, days):
     return tasks.filter(date__gt=start, date__lte=end)
 
 
-def time_table(period, days):
-    tasks = time_filter(Task.objects.all(), days)
-    totals = (
-        tasks.values("name").annotate(task_hours=Sum("hours")).order_by("-task_hours")
-    )
+def time_summary():
+    # return f'TASK SUMMARY: {time_table("week", 8)}'
+    return render_to_string('time_summary.md', time_table("week", 8))
+
+
+def time_percentage(totals):
     total = sum([t["task_hours"] for t in totals])
-    labels = ["Task Name", "Invested Time", "Percentage"]
     table = [
-        (t["name"], t["task_hours"], percent_display(t["task_hours"], total))
+        (f'{t["name"]:10}', t["task_hours"],
+         percent_display(t["task_hours"], total))
         for t in totals
     ]
-    table = combine_work_tasks(table, total)
+    return table, total
+
+
+def time_totals(days):
+    tasks = time_filter(Task.objects.all(), days)
+    totals = (
+        tasks.values("name").annotate(
+            task_hours=Sum("hours")).order_by("-task_hours")
+    )
+    return totals
+
+
+def time_table(period, days):
+    totals = time_totals(days)
+    table, total = time_percentage(totals)
+    labels = ["Task Name", "Invested Time", "Percentage"]
+    # tasks = time_filter(Task.objects.all(), days)
+    # totals = (
+    #     tasks.values("name").annotate(
+    #         task_hours=Sum("hours")).order_by("-task_hours")
+    # )
+    # total = sum([t["task_hours"] for t in totals])
+    # labels = ["Task Name", "Invested Time", "Percentage"]
+    # table = [
+    #     (f'{t["name"]:10}', t["task_hours"],
+    #      percent_display(t["task_hours"], total))
+    #     for t in totals
+    # ]
+    # table = combine_work_tasks(table, total)
     description = f"Total hours spent for the previous {period}."
 
     data = {

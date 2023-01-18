@@ -11,24 +11,29 @@ Write 3
 Teach 3
 
     greenhouse courses
-        MicropubPrinciples.ol
         Courses.ol      
+        MicropubPrinciples.ol
         MicropubTools.ol    
         Prometa.ol      
         WebApps-1,2,3.ol        
         SocialNet.ol 
     Course Content Payloads
 
-Tools 2
+Code 3
 
     Micropub Tools
     start on Task tools
+    fix template for Index files
+
+People 1
+
+    Ruby throws up on nap drive
 
 Network 1
 
     Mentoring others
 
-Church 1
+Church 3
 
     clean house
     home group

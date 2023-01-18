@@ -1,5 +1,6 @@
 import calendar
 from pathlib import Path
+from re import findall, sub
 from django.template.loader import render_to_string
 
 from course.course import get_course, weekly_content
@@ -19,15 +20,82 @@ from publish.toc import (
     table_of_contents,
     write_content_csv,
 )
+from task.models import Activity, Task, TaskType
+from task.task import task_import_files, time_percentage, time_summary, time_table, time_totals
 from task.todo import edit_todo_list
 
 
 def quick_test():
-    print("No quick test defined")
-
+    # print("No quick test defined")
     # pubs()
     # todo()
     # write()
+    # task()
+    fix_tasks()
+
+
+def task():
+    task_import_files(200)
+
+    totals = time_totals(200)
+    table, total = time_percentage(totals)
+    for t in table:
+        a = Activity.objects.filter(name=t[0].strip())
+        if a:
+            print(f'{str(a[0]):15} - {t[0]} - {t[1]} hr - {t[2]}%')
+        else:
+            print('\n*********** No Activity', t[0].strip())
+            print()
+
+
+def fix_tasks():
+    def find_tasks(text):
+        return findall(r'\n[A-Z][a-z]* *\d*', text)
+
+    def replace_task(t1, t2, text):
+        return sub(rf'\n{t1} *(\d*)', fr'\n{t2} \1', text)
+
+    def rename_task(old_task, new_task):
+        path = Path("Documents/markseaman.info/history/2023/01/17")
+        text = path.read_text()
+        text = replace_task(old_task, new_task, text)
+        path.write_text(text)
+
+    rename_task('Tools', 'Code')
+
+    # for t in Task.objects.filter(name='Career'):
+    #     t.name = 'Business'
+    #     t.save()
+
+    # for t in Task.objects.filter(name='Networking'):
+    #     t.name = 'Business'
+    #     t.save()
+
+    # table = time_table("week", 100)
+    # print(table['table'])
+
+    # define_activity('Teach', 'Work')
+    # define_activity('Write', 'Work')
+    # define_activity('Business', 'Work')
+    # define_activity('Tools', 'Work')
+    # define_activity('Network', 'Work')
+    # define_activity('Grow', 'Grow')
+    # define_activity('Church', 'People')
+    # define_activity('People', 'People')
+    # define_activity('Fun', 'Fun')
+
+    # for a in Activity.objects.all():
+    #     print(a)
+
+    # for a in table['table']:
+    #     print(a)
+
+    # print(time_summary())
+
+
+def define_activity(name, type):
+    type = TaskType.objects.get_or_create(name=type)[0]
+    return Activity.objects.get_or_create(name=name, type=type)[0]
 
 
 def write():

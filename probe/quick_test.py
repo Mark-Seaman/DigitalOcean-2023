@@ -55,11 +55,17 @@ def fix_tasks():
     def replace_task(t1, t2, text):
         return sub(rf'\n{t1} *(\d*)', fr'\n{t2} \1', text)
 
+    def rename_task_in_files(directory, old_task, new_task):
+        for f in directory:
+            rename_task(old_task, new_task)
+
     def rename_task(old_task, new_task):
-        path = Path("Documents/markseaman.info/history/2023/01/17")
-        text = path.read_text()
-        text = replace_task(old_task, new_task, text)
-        path.write_text(text)
+        directory = Path("Documents/markseaman.info/history/2023/01")
+        for path in directory.iterdir():
+            # rename_task_in_files(directory, old_task, new_task)
+            text = path.read_text()
+            text = replace_task(old_task, new_task, text)
+            path.write_text(text)
 
     rename_task('Tools', 'Code')
 

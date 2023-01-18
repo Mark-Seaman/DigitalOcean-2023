@@ -168,7 +168,7 @@ def task_import_files(days=7):
         path = join(history, date.replace("-", "/"))
         if exists(path):
             text = open(path).read()
-            # print(path, '\n\n', text)
+            # print(path)
             tasks = []
             notes = []
 
@@ -269,21 +269,7 @@ def time_table(period, days):
     totals = time_totals(days)
     table, total = time_percentage(totals)
     labels = ["Task Name", "Invested Time", "Percentage"]
-    # tasks = time_filter(Task.objects.all(), days)
-    # totals = (
-    #     tasks.values("name").annotate(
-    #         task_hours=Sum("hours")).order_by("-task_hours")
-    # )
-    # total = sum([t["task_hours"] for t in totals])
-    # labels = ["Task Name", "Invested Time", "Percentage"]
-    # table = [
-    #     (f'{t["name"]:10}', t["task_hours"],
-    #      percent_display(t["task_hours"], total))
-    #     for t in totals
-    # ]
-    # table = combine_work_tasks(table, total)
     description = f"Total hours spent for the previous {period}."
-
     data = {
         "tab": period,
         "period": period,

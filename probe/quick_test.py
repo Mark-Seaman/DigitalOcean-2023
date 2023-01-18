@@ -32,23 +32,57 @@ def quick_test():
     # write()
     task()
 
+    # gather([(1, 99), (2, 86), (1, 45), (3, 4)])
+
 
 def task():
     fix_tasks()
-    define_activity('Code', 'Work')
+    # define_activity('Code', 'Work')
 
-    Task.objects.all().delete()
-    task_import_files(200)
+    # Task.objects.all().delete()
+    # task_import_files(366)
+    show_task_summary()
 
-    totals = time_totals(200)
+
+def show_task_summary():
+    def gather_totals(pairs):
+        s = {}
+        for i in pairs:
+            # print(i[0], i[1])
+            s.setdefault(i[0], []).append(i[1])
+        return s
+
+    def percent(items):
+        x = 0
+        for i in items:
+            x += int(i[2].strip())
+        return x
+
+    def show_totals(summary):
+        for i in summary:
+            print(f'{i:10} {percent(summary[i])}%')
+            for j in summary[i]:
+                info = f'    {j[0]:15} {j[1]:4} hr {j[2]}%'
+                print(info)
+
+    def task_summary(table):
+        summary = []
+        for t in table:
+            a = Activity.objects.filter(name=t[0].strip())
+            if a:
+                group = a[0].type.name
+                activity = a[0].name
+                summary.append((group, (activity, t[1], t[2])))
+            else:
+                print('\n*********** No Activity', t[0].strip())
+                print()
+        return summary
+
+    totals = time_totals(366)
     table, total = time_percentage(totals)
-    for t in table:
-        a = Activity.objects.filter(name=t[0].strip())
-        if a:
-            print(f'{str(a[0]):15} - {t[0]} - {t[1]} hr - {t[2]}%')
-        else:
-            print('\n*********** No Activity', t[0].strip())
-            print()
+    summary = task_summary(table)
+    show_totals(gather_totals(summary))
+    print("Total Hours: ", total)
 
 
 def fix_tasks():
@@ -69,7 +103,7 @@ def fix_tasks():
 
     def rename_task(old_task, new_task):
         directory = Path("Documents/markseaman.info/history")
-        for path in directory.rglob("*/*"):
+        for path in directory.rglob("*/??"):
             if path.is_file():
                 # print(path)
                 text = path.read_text()

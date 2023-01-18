@@ -1,5 +1,6 @@
 import calendar
 from pathlib import Path
+from django.template.loader import render_to_string
 
 from course.course import get_course, weekly_content
 from probe.probe_documents import test_documents_fix_chars
@@ -23,8 +24,10 @@ from task.todo import edit_todo_list
 
 def quick_test():
     # print("No quick test defined")
-    # Pub.objects.get(name='DELETE ME').delete()
-    pubs()
+
+    text = render_to_string("pub/blog.md", {'text': "Mark's Test"})
+    Path('test.txt').write_text(text, 'utf-8')
+    # pubs()
     # todo()
     # write()
 

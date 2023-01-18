@@ -23,10 +23,8 @@ from task.todo import edit_todo_list
 
 
 def quick_test():
-    # print("No quick test defined")
+    print("No quick test defined")
 
-    text = render_to_string("pub/blog.md", {'text': "Mark's Test"})
-    Path('test.txt').write_text(text, 'utf-8')
     # pubs()
     # todo()
     # write()

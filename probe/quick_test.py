@@ -21,7 +21,7 @@ from publish.toc import (
     write_content_csv,
 )
 from task.models import Activity, Task, TaskType
-from task.task import task_import_files, time_percentage, time_summary, time_table, time_totals
+from task.task import show_task_summary
 from task.todo import edit_todo_list
 
 
@@ -32,57 +32,14 @@ def quick_test():
     # write()
     task()
 
-    # gather([(1, 99), (2, 86), (1, 45), (3, 4)])
-
 
 def task():
     fix_tasks()
-    # define_activity('Code', 'Work')
-
+    show_task_summary()
+    # print(time_summary())
     # Task.objects.all().delete()
     # task_import_files(366)
-    show_task_summary()
-
-
-def show_task_summary():
-    def gather_totals(pairs):
-        s = {}
-        for i in pairs:
-            # print(i[0], i[1])
-            s.setdefault(i[0], []).append(i[1])
-        return s
-
-    def percent(items):
-        x = 0
-        for i in items:
-            x += int(i[2].strip())
-        return x
-
-    def show_totals(summary):
-        for i in summary:
-            print(f'{i:10} {percent(summary[i])}%')
-            for j in summary[i]:
-                info = f'    {j[0]:15} {j[1]:4} hr {j[2]}%'
-                print(info)
-
-    def task_summary(table):
-        summary = []
-        for t in table:
-            a = Activity.objects.filter(name=t[0].strip())
-            if a:
-                group = a[0].type.name
-                activity = a[0].name
-                summary.append((group, (activity, t[1], t[2])))
-            else:
-                print('\n*********** No Activity', t[0].strip())
-                print()
-        return summary
-
-    totals = time_totals(366)
-    table, total = time_percentage(totals)
-    summary = task_summary(table)
-    show_totals(gather_totals(summary))
-    print("Total Hours: ", total)
+    # define_activity('Church', 'People')
 
 
 def fix_tasks():
@@ -114,35 +71,6 @@ def fix_tasks():
     # rename_task('Career', 'Business')
     # rename_task('Networking', 'Business')
     # task_in_files('Career')
-
-    # for t in Task.objects.filter(name='Career'):
-    #     t.name = 'Business'
-    #     t.save()
-
-    # for t in Task.objects.filter(name='Networking'):
-    #     t.name = 'Business'
-    #     t.save()
-
-    # table = time_table("week", 100)
-    # print(table['table'])
-
-    # define_activity('Teach', 'Work')
-    # define_activity('Write', 'Work')
-    # define_activity('Business', 'Work')
-    # define_activity('Tools', 'Work')
-    # define_activity('Network', 'Work')
-    # define_activity('Grow', 'Grow')
-    # define_activity('Church', 'People')
-    # define_activity('People', 'People')
-    # define_activity('Fun', 'Fun')
-
-    # for a in Activity.objects.all():
-    #     print(a)
-
-    # for a in table['table']:
-    #     print(a)
-
-    # print(time_summary())
 
 
 def define_activity(name, type):

@@ -25,7 +25,7 @@ def test_template_files():
 
 
 def test_probe_files():
-    return "test_probe_files: Probes " + check_file_count(probe_files(), 7, 9)
+    return "test_probe_files: Probes " + check_file_count(probe_files(), 11, 13)
 
 
 def test_date():

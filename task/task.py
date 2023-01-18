@@ -5,7 +5,7 @@ from os.path import exists, join
 
 from publish.days import recent_dates
 from publish.text import text_lines
-from task.models import Task
+from task.models import Activity, Task
 
 
 def task_dates(days=7):
@@ -137,6 +137,48 @@ def print_task_history(args):
     return tasks
 
 
+def show_task_summary():
+    def gather_totals(pairs):
+        s = {}
+        for i in pairs:
+            s.setdefault(i[0], []).append(i[1])
+        return s
+
+    def percent(items):
+        x = 0
+        for i in items:
+            x += int(i[2].strip())
+        return x
+
+    def show_totals(summary):
+        output = ''
+        for i in summary:
+            output += f'{i:10} {percent(summary[i])}%\n'
+            for j in summary[i]:
+                info = f'    {j[0]:15} {j[1]:4} hr {j[2]}%'
+                output += f'{info}\n'
+        return output
+
+    def task_summary(table):
+        summary = []
+        for t in table:
+            a = Activity.objects.filter(name=t[0].strip())
+            if a:
+                group = a[0].type.name
+                activity = a[0].name
+                summary.append((group, (activity, t[1], t[2])))
+            else:
+                print('\n*********** No Activity', t[0].strip())
+                assert (False)
+        return summary
+
+    totals = time_totals(366)
+    table, total = time_percentage(totals)
+    summary = task_summary(table)
+    output = show_totals(gather_totals(summary))
+    return f"{output}\n\nTotal Hours: {total}"
+
+
 def tabs_data(tables):
     def options(i, tab, selected):
         data = tab
@@ -242,7 +284,6 @@ def time_filter(tasks, days):
 
 
 def time_summary():
-    # return f'TASK SUMMARY: {time_table("week", 8)}'
     return render_to_string('time_summary.md', time_table("week", 8))
 
 

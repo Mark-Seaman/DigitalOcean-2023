@@ -30,11 +30,12 @@ def quick_test():
     # pubs()
     # todo()
     # write()
-    # task()
-    fix_tasks()
+    task()
 
 
 def task():
+    fix_tasks()
+
     task_import_files(200)
 
     totals = time_totals(200)

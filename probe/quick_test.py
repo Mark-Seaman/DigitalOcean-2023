@@ -35,7 +35,9 @@ def quick_test():
 
 def task():
     fix_tasks()
+    define_activity('Code', 'Work')
 
+    Task.objects.all().delete()
     task_import_files(200)
 
     totals = time_totals(200)
@@ -56,19 +58,28 @@ def fix_tasks():
     def replace_task(t1, t2, text):
         return sub(rf'\n{t1} *(\d*)', fr'\n{t2} \1', text)
 
-    def rename_task_in_files(directory, old_task, new_task):
-        for f in directory:
-            rename_task(old_task, new_task)
+    def task_in_files(task):
+        directory = Path("Documents/markseaman.info/history")
+        for path in directory.rglob("*/*"):
+            if path.is_file():
+                text = path.read_text()
+                tasks = findall(rf'\n{task} *\d*', text)
+                if tasks:
+                    print(path, tasks)
 
     def rename_task(old_task, new_task):
-        directory = Path("Documents/markseaman.info/history/2023/01")
-        for path in directory.iterdir():
-            # rename_task_in_files(directory, old_task, new_task)
-            text = path.read_text()
-            text = replace_task(old_task, new_task, text)
-            path.write_text(text)
+        directory = Path("Documents/markseaman.info/history")
+        for path in directory.rglob("*/*"):
+            if path.is_file():
+                # print(path)
+                text = path.read_text()
+                text = replace_task(old_task, new_task, text)
+                path.write_text(text)
 
     rename_task('Tools', 'Code')
+    # rename_task('Career', 'Business')
+    # rename_task('Networking', 'Business')
+    # task_in_files('Career')
 
     # for t in Task.objects.filter(name='Career'):
     #     t.name = 'Business'

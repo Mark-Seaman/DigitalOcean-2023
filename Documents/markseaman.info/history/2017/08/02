@@ -4,7 +4,7 @@ Grow 0
 
     4, 1, 3, 2
 
-Tools 6
+Code 6
 
     build workshop/app/DjangoCommand
     create workshop/views.py code

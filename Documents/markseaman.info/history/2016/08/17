@@ -5,7 +5,7 @@ WAM 2
     Document Production Release Process
     Document shell tricks for maintenance of WAM on production server
 
-Tools 6
+Code 6
 
     save test results from each test run
     clean all docs in tree

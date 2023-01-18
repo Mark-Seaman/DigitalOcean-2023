@@ -16,7 +16,7 @@ Teach 4
     build demo content structure for Django class
     create lesson outliner tool
 
-Tools 2
+Code 2
 
     remove Pipfile and convert to .venv
     create solution for markdown formatting

@@ -4,7 +4,7 @@ Grow 0
 
     4, 2, 2, 2
 
-Tools 2
+Code 2
 
     create days.py command script
     reset monthly history file

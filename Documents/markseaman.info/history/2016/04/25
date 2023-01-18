@@ -20,7 +20,7 @@ Sign 6
     get chargify state for subscription
     return proper subscription state to caller
 
-Tools 3
+Code 3
 
     re-purpose existing Digital Ocean Droplet to Hammer host
     setup git repo and pandoc on Droplet

@@ -19,7 +19,8 @@ def prepare_lesson(week):
 
 
 def show_headings(path):
-    print(path)
+    print(f'\n\nOutline {path}\n')
     lines = text_lines(Path(path).read_text())
-    text = [t for t in lines if t.startswith('#')]
-    print(text_join(text))
+    text = [t[1:].replace('#', "    ")[1:]
+            for t in lines if t.startswith('#')]
+    return text_join(text)

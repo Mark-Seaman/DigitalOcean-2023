@@ -1,10 +1,16 @@
 # Python Web Apps - Building Django Apps
 
 ## About this course
+* Learn about building web apps with Python
+* Get the basics in a day of effort
 * Shrinking World Mini Courses
+    * 4 Hours of Video Instruction
+    * 12 Lessons (with 20-minute videos)
+* Hands-on project to use your skills
 
+## Python Web Apps Series
+This class is part of a series of short courses.
 
-### Python Web Apps Series
 * Part 1 - Building Django Apps
 * Part 2 - Hosting at Digital Ocean
 * Part 3 - Views
@@ -13,39 +19,30 @@
 * Part 6 - Test
 * Part 7 - Engineering
 
-
-### Shrinking World Mini Courses
-* 4 Hours of Video Instruction
-* Learn 8 Specific Skills or Design Patterns
-* Complete a project to apply the skills
-
-
-### Lesson
-* 12 Videos - 20 minutes each
+## Lesson
+* 12 Lessons (with 20-minute videos)
 * Introduce a new design pattern
 * Demonstrate how to use it
 * Limitations and variations
 
-
-### Project
+## Project
 * Code repository with demo code for each lesson
 * Student challenge
 * Apply the design patterns in all lessons
 * Build a running application
 * Project requirements & instructions
 
-
-### Lessons
-* 1 - Why Django?
-* 2 - Installing Python 3 (Windows, Mac, Linux)
-* 3 - Working with Github Repos
-* 4 - Installing Django
-* 5 - Create your first app
-* 6 - Build a view
-* 7 - Static media
-* 8 - Add data to template
-* 9 - Pass data with URL
-* 10 - Test the web page
-* 11 - Template View
-* 12 - Project: Static Web Site
+## Lesson Topics
+* Lesson 1 - Why Django?
+* Lesson 2 - Installing Python 3 (Windows, Mac, Linux)
+* Lesson 3 - Working with Github Repos
+* Lesson 4 - Installing Django
+* Lesson 5 - Create your first app
+* Lesson 6 - Build a view
+* Lesson 7 - Static media
+* Lesson 8 - Add data to template
+* Lesson 9 - Pass data with URL
+* Lesson 10 - Test the web page
+* Lesson 11 - Template View
+* Lesson 12 - Project: Static Web Site
 

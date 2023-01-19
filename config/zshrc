@@ -47,7 +47,7 @@ alias demo='code $g/PythonWebApps'
 alias masto='write masto'
 alias review='write review'
 alias tech='pm write tech'
-alias task='subl $t'
+alias task='pm task'
 alias write='pm write'
 alias words='write words'
 alias cprc='cp ~/Hammer/config/zshrc ~/.zshrc && . ~/.zshrc'
@@ -209,3 +209,5 @@ figlet Hammer Time
 # command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 # eval "$(pyenv init -)"
 
+cd ~/Hammer
+ls

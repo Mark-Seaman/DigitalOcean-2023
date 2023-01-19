@@ -35,7 +35,7 @@ def quick_test():
 
 def task():
     fix_tasks()
-    show_task_summary()
+    print(show_task_summary())
     # print(time_summary())
     # Task.objects.all().delete()
     # task_import_files(366)

@@ -22,8 +22,8 @@ export a=$HOME/Archive
 export i=$d/markseaman.info
 export m="$a/rcp/mbw"
 export n=$a/ntsh
-export s=$d/seamanslog.com/sampler/12
-export t=$i/history/2022/12
+export s=$d/seamanslog.com/sampler
+export t=$i/history/2023/01
 export w=$d/seamansguide.com/webapps
 export course=$c
 export slog=$s
@@ -160,7 +160,6 @@ function py {
 # Demo Code
 
 export b3=$HOME/Github/PythonWebApps
-export s=$cx/Superhero
 export p1=$cx/01
 export p2=$cx/02
 export p3=$cx/03

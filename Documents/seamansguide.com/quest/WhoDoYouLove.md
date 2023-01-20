@@ -10,19 +10,19 @@ we can have an impact on others.
 
 ## Start at Home
 
-Love starts at home with Myself, My Family, My People.  If I cannot love myself I can never truly
-love anyone else.  As I experience the love of God personally I am able to improve in love for my
+Love starts at home with Myself, My Family, and My People.  If I cannot love myself I can never truly
+love anyone else.  As I experience the love of God personally I am able to grow in my love for
 family.  
 
 Within every family are some people that are hard to love.  This is where we learn about
 unconditional love and forgiveness.  These lessons teach us valuable truths about God's love.  As
 we give love to others we are also able to receive love for ourselves.
 
-As I understand love I begin to embrace others that I know well. These relationships add more
-opportunity to share God's love with others. Small selfless acts of kindness and forgiveness help
+As I grow in love I begin to embrace others that I know well. These relationships add more
+opportunities to share God's love with others. Small selfless acts of kindness and forgiveness help
 teach us how to love better.
 
-Say "YES” to God.  It always leads to more of everything good. Saying "NO” to self, is actually less
+Say "YES” to God.  It always leads to more of everything good. Saying "NO” to myself is actually less
 painful than it first appears. Learning to love is not a glorious or heroic endeavor.  Instead, it
 is a simple act of humility. Start small, start now. 
 
@@ -63,17 +63,17 @@ caring. Those other people are not worthy of God's love because they are part of
 These attitudes are easy to see in others but almost impossible to see in ourselves.
 
 I know that I need to love my neighbor. But who is my neighbor?  How far does this go? I want to
-create a grouping lets me exclude certain groups of people. And I already have strong opinions
+create a grouping that lets me exclude certain groups of people. And I already have strong opinions
 justifying why those people do not qualify.
 
 Any small differences can be used as a reason to not love others. While it is hard to love others
 that are like us, it is almost impossible to love those that are not like us.  In fact, it is
 impossible unless God is changing our hearts.
 
-The same issue applies to every type of difference: Race, Religion, Poverty, Wealth, Hard
-working/Lazy, Underweight/Overweight, Aggressive/Shy, Sports Teams, Greeley/Ft Collins, Education,
-Status, Addiction, and Politics.  Any excuse is good enough if we don't want to love in the first
-place.
+The same issue applies to every type of difference: Race, Religion, Poverty, Wealth,
+Hard-working/Lazy, Underweight/Overweight, Aggressive/Shy, Sports Teams, Greeley/Ft Collins,
+Education, Status, Addiction, and Politics.  Any excuse is good enough if we don't want to love in
+the first place.
 
 When we feel ourselves reacting in this way the only reasonable response is repentance. We must
 confront our prejudice rather than justify it.  It is a sin that is blocking the purpose of God in
@@ -92,12 +92,12 @@ in compassion, I am compelled to do even more regularly and consistently.
 
 Love builds from loving people I know to people everywhere that also suffer from the same things.
 Politics is never the answer to all the world's problems. The practices of politics help groups make
-decisions that our good for most people.  While better leaders are a good thing they really
-have very limited impact overall.
+decisions that are good for most people.  While better leaders are a good thing they really
+have limited impact overall.
 
 So where does our hope come from? Do we put our hope in politicians or national security? Without
-God's love there is no hope for the world. We have been placed here by God with a mission of being
-influence in this world (salt & light).
+God's love, there is no hope for the world. We have been placed here by God with the mission of being
+an influence in this world (salt & light).
 
 Effective influence is always motivated by love.  Our home, Our Community, Those Other People, and
 the World.  We are called to have a maximum impact everywhere we are.  This must be rooted in
@@ -118,8 +118,8 @@ eventually needs to go everywhere.  The good news of God's redemption is the foc
 that we share.
 
 It is interesting to note that the disciples were expecting a political revolution against the Roman
-occupiers and Jesus never even addressed the politics of the situation.  Instead he told them to go
-be influencers throughout the world completely ignoring their question.
+occupiers and Jesus never even addressed the politics of the situation.  Instead, he told them to go
+be influential throughout the world completely ignoring their question.
 
 Without receiving spiritual power from God we will never be able to accomplish the goals that we are
 called to.  This process is slow and can often be hard. The most difficult part of the whole thing

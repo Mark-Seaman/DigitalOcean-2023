@@ -92,36 +92,6 @@ def markdown(args):
     edit_file(md)
 
 
-def write_markdown(outline_file, markdown_file):
-    text = read_file(outline_file)
-    text = text.replace('\n', '\n\n# ')
-    text = '# ' + text.replace('    ', '#')
-    write_file(markdown_file, text)
-
-
-def write_masto(args=[]):
-    print(f"write masto {args}")
-    edit_file(create_toot_file())
-
-
-def write_pub(args):
-    if args[0] == 'pub':
-        pub = None
-    else:
-        pub = get_pub(args[0])
-    print(f'WRITE {pub} {args}')
-    if args[1:]:
-        c = Content.objects.filter(blog=pub, path__endswith=args[1])
-        if c:
-            args = [c[0].path]
-    else:
-        article = random_article(pub)
-        args[0] = article["doc"]
-        print(f'SELECT {args}')
-    if Path(args[0]).exists() and Path(args[0]).is_file():
-        edit_file(args)
-
-
 def render_document(**kwargs):
 
     def read_source(source):
@@ -168,6 +138,36 @@ def render_document(**kwargs):
     text = render_template(template, text)
     write_dest(dest, text)
     return text
+
+
+def write_markdown(outline_file, markdown_file):
+    text = read_file(outline_file)
+    text = text.replace('\n', '\n\n# ')
+    text = '# ' + text.replace('    ', '#')
+    write_file(markdown_file, text)
+
+
+def write_masto(args=[]):
+    print(f"write masto {args}")
+    edit_file(create_toot_file())
+
+
+def write_pub(args):
+    if args[0] == 'pub':
+        pub = None
+    else:
+        pub = get_pub(args[0])
+    print(f'WRITE {pub} {args}')
+    if args[1:]:
+        c = Content.objects.filter(blog=pub, path__endswith=args[1])
+        if c:
+            args = [c[0].path]
+    else:
+        article = random_article(pub)
+        args[0] = article["doc"]
+        print(f'SELECT {args}')
+    if Path(args[0]).exists() and Path(args[0]).is_file():
+        edit_file(args)
 
 
 def write_render(args):

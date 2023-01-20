@@ -15,11 +15,9 @@ from workshop.management.commands.edit import edit_file
 
 
 def write_blog(args=[]):
-    print(f"write blog {args}")
+    # print(f"write blog {args}")
     if not args:
         return 'usage: write [green|plant|markdown|masto|render|pub|spiritual|seamanslog|words]'
-    # elif Path(args[0]).exists() and Path(args[0]).is_file():
-        # edit_file(args)
     elif args[0] == 'green':
         greenhouse()
     elif args[0] == 'plant':
@@ -29,9 +27,7 @@ def write_blog(args=[]):
     elif args[0] == 'masto':
         write_masto()
     elif args[0] == 'render':
-        write_render()
-    # elif args[0] == 'review':
-    #     write_review()
+        return write_render(args[1:])
     elif args[0] == 'spiritual':
         today = localdate().strftime("%m/%d") + ".md"
         args[0] = f"Documents/spiritual-things.org/daily/{today}"
@@ -44,24 +40,6 @@ def write_blog(args=[]):
         write_words(args[1:])
     else:
         write_pub(args)
-
-
-def write_pub(args):
-    if args[0] == 'pub':
-        pub = None
-    else:
-        pub = get_pub(args[0])
-    print(f'WRITE {pub} {args}')
-    if args[1:]:
-        c = Content.objects.filter(blog=pub, path__endswith=args[1])
-        if c:
-            args = [c[0].path]
-    else:
-        article = random_article(pub)
-        args[0] = article["doc"]
-        print(f'SELECT {args}')
-    if Path(args[0]).exists() and Path(args[0]).is_file():
-        edit_file(args)
 
 
 def greenhouse():
@@ -126,17 +104,74 @@ def write_masto(args=[]):
     edit_file(create_toot_file())
 
 
-def write_render(**kwargs):
-    print(f"write render {kwargs}")
-    source = kwargs.get('source')
-    if source:
-        if Path(source).exists():
-            edit_file(source)
+def write_pub(args):
+    if args[0] == 'pub':
+        pub = None
+    else:
+        pub = get_pub(args[0])
+    print(f'WRITE {pub} {args}')
+    if args[1:]:
+        c = Content.objects.filter(blog=pub, path__endswith=args[1])
+        if c:
+            args = [c[0].path]
+    else:
+        article = random_article(pub)
+        args[0] = article["doc"]
+        print(f'SELECT {args}')
+    if Path(args[0]).exists() and Path(args[0]).is_file():
+        edit_file(args)
 
 
-# def write_tech(args=[]):
-#     print(f"write tech {args}")
-#     edit_file("Documents/shrinking-world.com/blog")
+def write_render(args):
+    def upcase(text):
+        return text.upper()
+
+    def review(text=None):
+        return random_article()['text']
+
+    def apply_script(script, text):
+        if script:
+            if script == 'upcase':
+                text = upcase(text)
+            elif script == 'review':
+                text = review()
+            else:
+                text += f'**** BAD SCRIPT **** {script}'
+        return text
+
+    def render_template(template, text):
+        if template:
+            # print('TEMPLATE')
+            if template == 'blog':
+                text = render_to_string('pub/blog.md', dict(text=text))
+            elif template == 'message':
+                text = render_to_string(
+                    'pub/message.md', dict(text=text[:500]))
+            else:
+                text += f'**** BAD TEMPLATE **** {template}'
+
+        return text
+
+    def render(source=None, dest=None, script=None, template=None):
+        # print(f'render({source}, {dest}, {script}, {template})')
+        if source:
+            path = Path(source)
+            if path.exists():
+                text = path.read_text()
+            else:
+                text += f'**** BAD FILE **** {path}'
+        text = apply_script(script, text)
+        text = render_template(template, text)
+        if dest:
+            path = Path(dest)
+            path.write_text(text)
+        return text
+
+    # print(f"write render {args}")
+    if not args[3:]:
+        return 'usage: write render source dest script template'
+    text = render(args[0], args[1], args[2], args[3])
+    return text
 
 
 def write_words(args=[]):

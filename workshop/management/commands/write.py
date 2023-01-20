@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 
-from publish.write import write_blog, write_masto, write_review, write_tech, write_words
+from publish.write import write_blog
 
 
 class Command(BaseCommand):

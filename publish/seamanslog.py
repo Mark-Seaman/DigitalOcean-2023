@@ -90,7 +90,9 @@ def document_data(content):
     pub = content.blog
     doc = Path(content.path).name
     url = article_url(pub, doc)
-    doc_path = article_path(pub, doc)
+    doc_path = content.path
+    # doc_path = article_path(pub, doc)
+    # print(f"PATH: {content.path}, ART_PATH: {doc_path}")
     title = document_title(doc_path)
     text = document_body(read_file(doc_path))
     return dict(pub=pub, url=url, doc=doc_path, title=title, text=text)

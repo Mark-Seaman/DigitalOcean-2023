@@ -9,7 +9,7 @@ from shutil import copyfile
 from publish.models import Content
 from publish.text import text_lines, text_replace
 
-from .pub import get_pub, show_pub_summaries, show_pub_words
+from .pub import get_pub, list_content, show_pub_summaries, show_pub_words
 from .seamanslog import create_toot_file, random_article, review_file
 from workshop.management.commands.edit import edit_file
 
@@ -17,42 +17,51 @@ from workshop.management.commands.edit import edit_file
 def write_blog(args=[]):
     print(f"write blog {args}")
     if not args:
-        args = review_file(args)
-    elif Path(args[0]).exists():
-        pass
+        return 'usage: write [green|plant|markdown|masto|render|pub|spiritual|seamanslog|words]'
+    # elif Path(args[0]).exists() and Path(args[0]).is_file():
+        # edit_file(args)
     elif args[0] == 'green':
         greenhouse()
-        return
     elif args[0] == 'plant':
         edit_file(plant(args[1:]))
-        return
     elif args[0] == 'markdown':
         markdown(args[1:])
-        return
     elif args[0] == 'masto':
         write_masto()
-        return
+    elif args[0] == 'render':
+        write_render()
+    # elif args[0] == 'review':
+    #     write_review()
     elif args[0] == 'spiritual':
         today = localdate().strftime("%m/%d") + ".md"
         args[0] = f"Documents/spiritual-things.org/daily/{today}"
+        edit_file(args)
     elif args[0] == 'seamanslog':
         today = localdate().strftime("%m/%d") + ".md"
         args[0] = f"Documents/seamanslog.com/sampler/{today}"
+        edit_file(args)
     elif args[0] == 'words':
         write_words(args[1:])
-        return
+    else:
+        write_pub(args)
+
+
+def write_pub(args):
+    if args[0] == 'pub':
+        pub = None
     else:
         pub = get_pub(args[0])
-        if args[1:]:
-            c = Content.objects.filter(blog=pub, path__endswith=args[1])
-            if c:
-                args = [c[0].path]
-        else:
-            article = random_article(pub)
-            args[0] = article["doc"]
-
-    edit_file(args)
-    return f'Edit file {args}'
+    print(f'WRITE {pub} {args}')
+    if args[1:]:
+        c = Content.objects.filter(blog=pub, path__endswith=args[1])
+        if c:
+            args = [c[0].path]
+    else:
+        article = random_article(pub)
+        args[0] = article["doc"]
+        print(f'SELECT {args}')
+    if Path(args[0]).exists() and Path(args[0]).is_file():
+        edit_file(args)
 
 
 def greenhouse():
@@ -117,14 +126,17 @@ def write_masto(args=[]):
     edit_file(create_toot_file())
 
 
-def write_review(args=[]):
-    print(f"write review {args}")
-    edit_file("Documents/shrinking-world.com/blog")
+def write_render(**kwargs):
+    print(f"write render {kwargs}")
+    source = kwargs.get('source')
+    if source:
+        if Path(source).exists():
+            edit_file(source)
 
 
-def write_tech(args=[]):
-    print(f"write tech {args}")
-    edit_file("Documents/shrinking-world.com/blog")
+# def write_tech(args=[]):
+#     print(f"write tech {args}")
+#     edit_file("Documents/shrinking-world.com/blog")
 
 
 def write_words(args=[]):

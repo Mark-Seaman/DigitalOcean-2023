@@ -1,19 +1,28 @@
 # A Day with the King
 
-Jan 29, 2021
+Jan 15, 2021
 
 by Mark Seaman
 
+<br>
 [Video at You Tube (28 min)](https://www.youtube.com/embed/f4IS0oZydeI)
 
-<iframe width="1205" height="718" 
+<div class="container">
+<div class="col-lg-6">
+<div class="ratio ratio-16x9">
+<iframe  
 src="https://www.youtube.com/embed/f4IS0oZydeI?list=PLAaj4BvOaalGh5oIjGzldxr-PY0Epoz-G" 
 title="Day with a King" 
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
+</div>
+</div>
+</div>
 
+<!-- width="1340" height="754" -->
+## Notes
 
-## One of the best days of my life
+### One of the best days of my life
 * Encouraged
 * Inspired
 * Informed

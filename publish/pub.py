@@ -119,6 +119,8 @@ def pub_redirect(host, pub, doc):
         return f"/sampler/today"
     if host == "seamansguide.com" and not pub:
         return f"/publish/book"
+    if host == "seamansfamily.org" and not pub:
+        return f"/family/Index.md"
     if host == "spiritual-things.org" and not pub:
         return f"/spiritual/today"
     if host == "markseaman.org" and not pub:

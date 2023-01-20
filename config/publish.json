@@ -63,7 +63,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 52911,
+        "words": 52899,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -188,7 +188,7 @@
         "domain": null,
         "url": "/sampler",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 56624,
+        "words": 56621,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -2395,7 +2395,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/quest/Transformation.md",
         "folder": 3,
-        "words": 1438,
+        "words": 1424,
         "retain_object": false
     }
 },
@@ -2521,7 +2521,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/quest/WhoDoYouLove.md",
         "folder": 3,
-        "words": 1265,
+        "words": 1267,
         "retain_object": false
     }
 },
@@ -14337,7 +14337,7 @@
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/01/07.md",
         "folder": 1,
-        "words": 147,
+        "words": 143,
         "retain_object": false
     }
 },
@@ -14365,7 +14365,7 @@
         "doctype": "chapter",
         "path": "Documents/seamanslog.com/sampler/01/09.md",
         "folder": 1,
-        "words": 349,
+        "words": 350,
         "retain_object": false
     }
 },

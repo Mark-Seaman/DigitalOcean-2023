@@ -122,55 +122,60 @@ def write_pub(args):
         edit_file(args)
 
 
-def write_render(args):
-    def upcase(text):
-        return text.upper()
+def render_document(**kwargs):
 
-    def review(text=None):
-        return random_article()['text']
+    def read_source(source):
+        if source:
+            path = Path(source)
+            if path.exists():
+                text = path.read_text()
+            else:
+                text = f'\n**** BAD FILE **** {path}\n'
+        return text
 
     def apply_script(script, text):
         if script:
             if script == 'upcase':
-                text = upcase(text)
+                text = text.upper()
             elif script == 'review':
-                text = review()
+                text = random_article()['text']
             else:
-                text += f'**** BAD SCRIPT **** {script}'
+                text += f'\n**** BAD SCRIPT **** {script}\n'
         return text
 
     def render_template(template, text):
         if template:
-            # print('TEMPLATE')
             if template == 'blog':
                 text = render_to_string('pub/blog.md', dict(text=text))
             elif template == 'message':
                 text = render_to_string(
                     'pub/message.md', dict(text=text[:500]))
             else:
-                text += f'**** BAD TEMPLATE **** {template}'
-
+                text += f'\n**** BAD TEMPLATE **** {template}\n'
         return text
 
-    def render(source=None, dest=None, script=None, template=None):
-        # print(f'render({source}, {dest}, {script}, {template})')
-        if source:
-            path = Path(source)
-            if path.exists():
-                text = path.read_text()
-            else:
-                text += f'**** BAD FILE **** {path}'
-        text = apply_script(script, text)
-        text = render_template(template, text)
+    def write_dest(dest, text):
         if dest:
             path = Path(dest)
             path.write_text(text)
-        return text
 
+    source = kwargs.get('source')
+    dest = kwargs.get('dest')
+    script = kwargs.get('script')
+    template = kwargs.get('template')
+    text = read_source(source)
+    text = apply_script(script, text)
+    text = render_template(template, text)
+    write_dest(dest, text)
+    return text
+
+
+def write_render(args):
     # print(f"write render {args}")
     if not args[3:]:
         return 'usage: write render source dest script template'
-    text = render(args[0], args[1], args[2], args[3])
+    text = render_document(source=args[0], dest=args[1],
+                           script=args[2], template=args[3])
     return text
 
 

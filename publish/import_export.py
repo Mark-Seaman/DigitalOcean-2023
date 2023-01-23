@@ -29,6 +29,9 @@ def create_pubs():
             mark="Documents/markseaman.org",
             family="Documents/seamanfamily.org",
             #
+            # Video
+            video="Documents/seamanslog.com/video",
+            #
             # Private
             private="Documents/markseaman.info",
             #

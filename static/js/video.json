@@ -1,0 +1,18 @@
+{
+    "name": "video",
+    "site_title": "Mark's Video Log",
+    "site_subtitle": "Interesting Projects and News",
+    "url": "/video",
+    "title": "Mark's Video Log",
+    "description": "Weekly video with current events and updates.",
+    "background-image": "/static/images/SWS_Logo_200.jpg",
+    "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
+    "css": "/static/css/seamanslog.css",
+    "doc_path": "Documents/seamanslog.com/video",
+    "image_path": "/static/images/seamanslog.com",
+    "cover_title": true,
+    "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
+    "author": "Mark Seaman",
+    "menu": "static/js/nav_blog.json",
+    "auto_index": true
+}

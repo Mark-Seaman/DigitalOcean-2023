@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 
-from task.task import show_task_summary
+from task.task import import_tasks, show_task_summary
 
 
 class Command(BaseCommand):
@@ -25,6 +25,7 @@ class Command(BaseCommand):
         else:
             days = None
         if days:
+            import_tasks()
             text = show_task_summary(days=days)
             if text:
                 self.stdout.write(text)

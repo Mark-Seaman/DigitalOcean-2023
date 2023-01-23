@@ -1,5 +1,7 @@
 # Files on Digital Ocean Deploy
 
+.DS_Store
+
 # Static Assets
 DigitalOcean-static/
 Documents/seamansguide.com/webapps/textbook.epub

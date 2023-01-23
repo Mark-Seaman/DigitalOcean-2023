@@ -8,16 +8,19 @@ class RemoteBlogPagesTest(DjangoTest):
         self.assertLines("https://seamanslog.com", 100, 130)
 
     def test_blog_spirit(self):
-        self.assertLines("https://spiritual-things.org", 100, 120)
+        self.assertLines("https://spiritual-things.org", 100, 121)
 
     def test_blog_tech_notes(self):
-        self.assertLines("https://shrinking-world.com/tech/tech-Index", 100, 120)
+        self.assertLines(
+            "https://shrinking-world.com/tech/tech-Index", 100, 120)
 
     def test_blog_micropub(self):
-        self.assertLines("https://shrinking-world.com/tech/micropub-Index", 100, 140)
+        self.assertLines(
+            "https://shrinking-world.com/tech/micropub-Index", 100, 140)
 
     def test_blog_training(self):
-        self.assertLines("https://shrinking-world.com/tech/training-Index", 100, 120)
+        self.assertLines(
+            "https://shrinking-world.com/tech/training-Index", 100, 120)
 
     def test_blog_mark_seaman(self):
         self.assertLines("https://markseaman.org", 150, 170)

@@ -8,7 +8,7 @@
 * [Striving and Succeeding](/sampler/09-05.md)
 * [Meaning of Life - the human spirit](/sampler/09-06.md)
 * [Optimists Win](/sampler/09-07.md)
-* [Pessimism &amp; Optimism](/sampler/09-08.md)
+* [Pessimism & Optimism](/sampler/09-08.md)
 * [Beliefs Determine Choices](/sampler/09-09.md)
 * [Safety and Excitement](/sampler/09-10.md)
 * [Seaman's Log Weekly](/sampler/09-11.md)

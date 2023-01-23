@@ -10,7 +10,7 @@
 * [When the World Burned](/sampler/03-07.md)
 * [Principles of Happiness](/sampler/03-08.md)
 * [Days We Live](/sampler/03-09.md)
-* [Book &amp; Blog List](/sampler/03-10.md)
+* [Book & Blog List](/sampler/03-10.md)
 * [Mid-life Journey](/sampler/03-11.md)
 * [Prepare for the Storm](/sampler/03-12.md)
 * [Seaman's Log Weekly](/sampler/03-13.md)

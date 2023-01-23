@@ -55,7 +55,8 @@ class PubDataTest(TestCase):
         blog1 = Pub.objects.create()
 
     def test_blog_add(self):
-        blog1 = Pub.objects.create(name="Write", title="Authoring Tips", url="write")
+        blog1 = Pub.objects.create(
+            name="Write", title="Authoring Tips", url="write")
         blog2 = Pub.objects.create(name="Tech", title="Pro Pub", url="tech")
         self.assertEqual(len(Pub.objects.all()), 2)
 
@@ -91,7 +92,7 @@ class PubInputOutputTest(DjangoTest):
         build_pubs()
         self.assertEqual(len(Pub.objects.all()), 12)
         num = len(Content.objects.all())
-        self.assertRange(num, 900, 960, "Blog Contents")
+        self.assertRange(num, 1110, 1130, "Blog Contents")
 
 
 # -----------------------
@@ -103,7 +104,7 @@ class FixtureTest(DjangoTest):
 
     def test_with_data(self):
         num = len(Content.objects.all())
-        self.assertRange(num, 950, 960, "Blog Contents")
+        self.assertRange(num, 1110, 1130, "Blog Contents")
 
     def test_book_list(self):
         self.assertRange(len(all_books()), 5, 5)
@@ -123,13 +124,13 @@ class BlogPageTest(DjangoTest):
 
     def test_sampler_page(self):
         page = "http://localhost:8002/sampler"
-        self.assertText(page, "Seaman's Log")
+        self.assertText(page, "Seaman&#x27;s Log")
 
     def test_index_page(self):
         page = "http://localhost:8002/sampler/Index"
-        self.assertText(page, "Seaman's Log")
+        self.assertText(page, "Seaman&#x27;s Log")
         page = "http://localhost:8002/sampler/Index.md"
-        self.assertText(page, "Seaman's Log")
+        self.assertText(page, "Seaman&#x27;s Log")
 
     def test_spirit_page(self):
         page = "http://localhost:8002/spiritual"

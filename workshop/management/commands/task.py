@@ -12,6 +12,19 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         x = options.get("command")
-        text = show_task_summary(days=31)
-        if text:
-            self.stdout.write(text)
+        if not x:
+            days = 1
+        elif x[0] == 'day':
+            days = 1
+        elif x[0] == 'week':
+            days = 8
+        elif x[0] == 'month':
+            days = 31
+        elif x[0] == 'year':
+            days = 366
+        else:
+            days = None
+        if days:
+            text = show_task_summary(days=days)
+            if text:
+                self.stdout.write(text)

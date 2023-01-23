@@ -15,7 +15,7 @@
 * [Fault Lines and Fractures](/sampler/04-12.md)
 * [Sunset](/sampler/04-13.md)
 * [Renewed Vows](/sampler/04-14.md)
-* [Books &amp; Blogs](/sampler/04-15.md)
+* [Books & Blogs](/sampler/04-15.md)
 * [Daily Meditation - April 16](/sampler/04-16.md)
 * [Seaman's Log Weekly](/sampler/04-17.md)
 * [Stories To Tell Before I Die](/sampler/04-18.md)

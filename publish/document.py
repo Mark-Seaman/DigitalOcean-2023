@@ -4,7 +4,7 @@ from pathlib import Path
 from re import findall, sub
 
 from publish.files import read_file
-from publish.text import no_blank_lines, text_join, text_lines, word_count
+from publish.text import char_fix, no_blank_lines, text_join, text_lines, word_count
 from publish.image import fix_images
 
 
@@ -59,7 +59,7 @@ def document_body(text, image_path=None):
 
 
 def document_html(text):
-    return markdown(text)
+    return char_fix(markdown(text))
 
 
 def document_title(path):

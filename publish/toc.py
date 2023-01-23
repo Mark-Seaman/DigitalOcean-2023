@@ -2,6 +2,8 @@ from calendar import month_name
 from django.template.loader import render_to_string
 from pathlib import Path
 
+from publish.files import fix_chars
+
 
 def create_pub_index(pub, content_tree):
     def url(pub_name, path):
@@ -24,7 +26,7 @@ def create_pub_index(pub, content_tree):
             if not doc["path"].endswith("Index.md"):
                 docs.append(link(doc["title"], url(pub.name, doc["path"])))
         data = dict(title=title, docs=docs)
-        return render_to_string("pub/pub_index.md", data)
+        return fix_chars(render_to_string("pub/pub_index.md", data))
 
     def top_index_text(content_tree):
         path = Path(pub.doc_path) / "Index.md"
@@ -36,12 +38,12 @@ def create_pub_index(pub, content_tree):
         data = dict(title="Table of Contents", docs=docs)
         # print("TOP FOLDER", data["title"])
         text = render_to_string("pub/pub_index.md", data)
-        path.write_text(text)
+        path.write_text(fix_chars(text))
 
     def folder_index(folder):
         text = folder_index_text(folder, folder.get("documents"))
         path = Path(folder.get("path"))
-        path.write_text(text)
+        path.write_text(fix_chars(text))
 
     def folders(content_tree):
         return content_tree[1:]
@@ -123,7 +125,7 @@ def table_of_contents(pub, content_tree, word_count=False):
 
 def write_toc_index(pub, content_tree):
     toc = Path(pub.doc_path) / "Index.md"
-    toc.write_text(table_of_contents(pub, content_tree))
+    toc.write_text(fix_chars(table_of_contents(pub, content_tree)))
 
 
 def write_content_csv(pub):

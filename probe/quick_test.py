@@ -34,12 +34,12 @@ def quick_test():
 
 
 def task():
-    fix_tasks()
+    # fix_tasks()
+    # define_activity('Learn', 'Work')
     print(show_task_summary())
     # print(time_summary())
     # Task.objects.all().delete()
     # task_import_files(366)
-    # define_activity('Church', 'People')
 
 
 def fix_tasks():

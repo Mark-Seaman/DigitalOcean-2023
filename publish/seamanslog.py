@@ -74,16 +74,22 @@ def create_spirit_file(date):
 
 
 def create_toot_file():
+    def create_toot(path):
+        article = random_article()
+        message = random_message(article)
+        if message:
+            print(path, message)
+            message = fix_chars(message)
+            path.write_text(message)
+            return article["doc"]
+
     date = localdate()
     path = Path("Documents/mastodon/mdseaman") / date.strftime("_%m%d")
-    article = random_article()
-    message = random_message(article)
-    if message:
-        edit_file([article["doc"]])
-        print(path, message)
-        message = fix_chars(message)
-        path.write_text(message)
-        return [path]
+    for retry in range(5):
+        source = create_toot(path)
+        if source:
+            edit_file([source, path])
+            return [path]
 
 
 def document_data(content):

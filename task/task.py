@@ -69,7 +69,7 @@ def combine_work_tasks(table, total):
 
 def import_tasks():
     task_import_files(31)
-    print(time_table("Month", 31))
+    # print(time_table("Month", 31))
 
 
 def monthly_tasks(month):

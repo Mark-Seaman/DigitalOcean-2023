@@ -1,6 +1,5 @@
 # Month of January
 
-
 * [Seaman's Log Weekly ](/sampler/01-01.md)
 * [Digital Images](/sampler/01-02.md)
 * [Step Into the Dark](/sampler/01-03.md)

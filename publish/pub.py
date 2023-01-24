@@ -32,9 +32,18 @@ def all_pubs():
 def build_pubs(pub=None):
     # delete_pubs()
     log = create_pubs()
-    import_pubs(pub)
+
+    text = ""
+    pubs = [pub] if pub else all_pubs()
+    for pub in pubs:
+        import_pub(pub)
+        if pub.auto_index:
+            print("CREATE Index")
+            create_pub_index(pub, get_pub_contents(pub))
+        text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
+
     save_data()
-    return log
+    return text
 
 
 def delete_pubs():
@@ -91,16 +100,16 @@ def get_pub_contents(pub):
     return folders
 
 
-def import_pubs(pub=None):
-    text = ""
-    pubs = [pub] if pub else all_pubs()
-    for pub in pubs:
-        import_pub(pub)
-        if pub.auto_index:
-            # print("CREATE Index")
-            create_pub_index(pub, get_pub_contents(pub))
-        text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
-    return text
+# def import_pubs(pub=None):
+#     text = ""
+#     pubs = [pub] if pub else all_pubs()
+#     for pub in pubs:
+#         import_pub(pub)
+#         if pub.auto_index:
+#             print("CREATE Index")
+#             create_pub_index(pub, get_pub_contents(pub))
+#         text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
+#     return text
 
 
 def list_content(pub):

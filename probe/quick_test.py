@@ -16,6 +16,7 @@ from publish.pub import (
 from publish.seamanslog import random_post
 from publish.toc import (
     content_file,
+    create_pub_index,
     read_content_csv,
     table_of_contents,
     write_content_csv,
@@ -27,10 +28,10 @@ from task.todo import edit_todo_list
 
 def quick_test():
     # print("No quick test defined")
-    # pubs()
+    pubs()
     # todo()
     # write()
-    task()
+    # task()
 
 
 def task():
@@ -95,13 +96,16 @@ def todo():
 def pubs():
     print("Build Pubs")
     # delete_pubs()
-    build_pubs()
-    # import_pub_content()
+    # build_pubs()
+    import_pub_content()
 
 
 def import_pub_content():
-    pub = get_pub("quest")
+    pub = get_pub("video")
     import_pub(pub)
+    if pub.auto_index:
+        print("CREATE Index")
+        create_pub_index(pub, get_pub_contents(pub))
 
     contents = get_pub_contents(pub)
     print(table_of_contents(pub, contents, False))

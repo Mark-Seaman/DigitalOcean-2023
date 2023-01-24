@@ -1,10 +1,10 @@
 from os import system
 from pathlib import Path
 
-from .document import document_title, get_document
+from .document import get_document
 from .files import read_json, read_csv_file
 from .models import Pub, Content
-from .toc import content_file, write_content_csv
+from .toc import content_file, create_pub_index, write_content_csv
 
 
 def create_pubs():
@@ -102,7 +102,7 @@ def import_pub(pub):
 
     content = content_file(pub)
     if pub.auto_contents:
-        # print("CREATE CONTENT")
+        print("CREATE CONTENT")
         write_content_csv(pub)
     import_content(pub, content)
     delete_extra_objects(pub)

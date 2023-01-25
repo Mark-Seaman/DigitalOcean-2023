@@ -75,13 +75,21 @@ def create_spirit_file(date):
 
 
 def create_toot_file():
+    def create_new_file(path, message):
+        print(path, message)
+        message = fix_chars(message)
+        f = path
+        for i, retry in enumerate(range(5)):
+            if not f.exists():
+                f.write_text(message)
+                return
+            f = Path(f'{path}{i}')
+
     def create_toot(path):
         article = random_article()
         message = random_message(article)
         if message:
-            print(path, message)
-            message = fix_chars(message)
-            path.write_text(message)
+            create_new_file(path, message)
             return article["doc"]
 
     date = localdate()

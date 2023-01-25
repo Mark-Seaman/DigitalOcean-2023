@@ -13,7 +13,7 @@ Deep listening is used to allow me to truly engage with others.
 When people feel heard they feel loved.  Many problems (70%) can be solved through active listening.
 Connection happens when people listen.
 
-When I judge people they are treated  as objects instead of unique image bearers of God.   I
+When I judge people they are treated as objects instead of unique image bearers of God.   I
 categorize people to diminish their humanity and make them unworthy of my love.  I make differences
 into virtues of moral superiority.
 
@@ -26,7 +26,7 @@ I harbor judgmental attitudes of many differing types.
 - Close friends for their politics
 - Adult children for their choices
 - Coworkers for how well they work
-- Everyone for not following Jesus like I do
+- Everyone for not following Jesus the way I do
 - Other generations for their choices and attitudes
 - Different social class, race, ethnicity, appearance, or education
 - Beliefs, values, and practices
@@ -39,16 +39,16 @@ the differences in others to assert my moral superiority. Others naturally see t
 differently than I do, so I regularly judge almost everyone. Every person is unique in experience
 and understanding, which leads them to fundamentally differing views of the world.
 
-I can learn from the views of others, especially when I disagree with them. Every person has wisdom
-to teach that comes from the Spirit of God even though they may not know that their truth comes
-from God.  A person does not need to be whole and healthy to speak truth. Truly listening allows us
-to receive the treasures from each person we interact with.
+I can learn from the views of others, especially when I disagree with them. Every person has some
+wisdom to teach that comes from the Spirit of God even though they may not know that their truth
+comes from God.  A person does not need to be whole and healthy to speak the truth. Truly listening
+allows us to receive the treasure from each person we interact with.
 
 Technology has impacted our lives and dramatically impacted our ability to connect emotionally. The
-tools that we use allow us to be in constant contact, yet avoid the true human connection  required
-for meaningful relationship.
+tools that we use allow us to be in constant contact, yet avoid the true human connection required
+for meaningful relationships.
 
-Modern communication trades connection for convenience.  We trade emojes and likes for real
+Modern communication trades connection for convenience.  We trade emojis and likes for real
 conversation.  We even convert words into acronyms to spend less effort on reusable phrases. All of
-these shortcuts are completely unnuanced and leave us feeling disconnected.
+these shortcuts are without nuance and leave us feeling disconnected.
 

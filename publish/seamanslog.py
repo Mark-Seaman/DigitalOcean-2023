@@ -1,8 +1,9 @@
+from os import system
 from django.template.loader import render_to_string
 from django.utils.timezone import localdate
 from pathlib import Path
 from random import choice
-from re import split, sub
+from re import split
 
 from publish.pub import get_pub, list_content
 from publish.days import yesterday
@@ -89,6 +90,7 @@ def create_toot_file():
         source = create_toot(path)
         if source:
             edit_file([source, path])
+            system('open https://mas.to/')
             return [path]
 
 

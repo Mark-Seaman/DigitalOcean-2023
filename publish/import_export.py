@@ -102,7 +102,7 @@ def import_pub(pub):
 
     content = content_file(pub)
     if pub.auto_contents:
-        print("CREATE CONTENT")
+        # print("CREATE CONTENT")
         write_content_csv(pub)
     import_content(pub, content)
     delete_extra_objects(pub)

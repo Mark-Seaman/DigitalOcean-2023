@@ -104,7 +104,7 @@ def import_pub_content():
     pub = get_pub("video")
     import_pub(pub)
     if pub.auto_index:
-        print("CREATE Index")
+        # print("CREATE Index")
         create_pub_index(pub, get_pub_contents(pub))
 
     contents = get_pub_contents(pub)

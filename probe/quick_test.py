@@ -28,15 +28,14 @@ from task.todo import edit_todo_list
 
 def quick_test():
     # print("No quick test defined")
-    pubs()
+    # pubs()
     # todo()
     # write()
-    # task()
+    task()
 
 
 def task():
-    # fix_tasks()
-    # define_activity('Learn', 'Work')
+    fix_tasks()
     print(show_task_summary())
     # print(time_summary())
     # Task.objects.all().delete()
@@ -68,7 +67,15 @@ def fix_tasks():
                 text = replace_task(old_task, new_task, text)
                 path.write_text(text)
 
-    rename_task('Tools', 'Code')
+    def show_activities():
+        for a in Activity.objects.all():
+            print(a.type.name, a.name)
+
+    show_activities()
+    # define_activity('People', 'People')
+    # define_activity('Learn', 'Work')
+    # rename_task('Family', 'People')
+    # rename_task('Tools', 'Code')
     # rename_task('Career', 'Business')
     # rename_task('Networking', 'Business')
     # task_in_files('Career')

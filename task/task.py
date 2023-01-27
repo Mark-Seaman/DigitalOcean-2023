@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta
+from os import system
 from django.db.models import Sum
 from django.template.loader import render_to_string
 from os.path import exists, join
@@ -142,6 +143,10 @@ def print_task_history(args):
     return tasks
 
 
+def save_data():
+    system("python manage.py dumpdata --indent 4 task > config/task.json")
+
+
 def show_task_summary(**kwargs):
     def gather_totals(pairs):
         s = {}
@@ -249,6 +254,7 @@ def task_import_files(days=7):
 
     for d in recent_dates(days):
         read_task_file(d)
+    save_data()
 
 
 def task_list(days=7):

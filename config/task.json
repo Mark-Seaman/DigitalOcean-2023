@@ -1,0 +1,3061 @@
+[
+{
+    "model": "task.tasktype",
+    "pk": 1,
+    "fields": {
+        "name": "People"
+    }
+},
+{
+    "model": "task.activity",
+    "pk": 1,
+    "fields": {
+        "name": "Family",
+        "type": 1
+    }
+},
+{
+    "model": "task.activity",
+    "pk": 2,
+    "fields": {
+        "name": "People",
+        "type": 1
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    walk",
+        "date": "2022-06-18",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 2,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    build demo code 5-7",
+        "date": "2022-06-18",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 3,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Daily",
+        "date": "2022-06-18",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 4,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Father's Day party\n    Rachel spends night at our house",
+        "date": "2022-06-18",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 5,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City\n    Dance",
+        "date": "2022-06-18",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    church service",
+        "date": "2022-06-19",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 7,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    create chapter 7-8\n    build demo 8",
+        "date": "2022-06-19",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 8,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    drama with Rachel and Andrew\n    call Dad\n    Valor is sick",
+        "date": "2022-06-19",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Great\n    Upload\n    Sim City\n    Discovery",
+        "date": "2022-06-19",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 10,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    lab work at Safeway",
+        "date": "2022-06-20",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 11,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    create tool for textbook progress\n    refine User account logic in demo code",
+        "date": "2022-06-20",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 12,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    work with Stacie on budget policy",
+        "date": "2022-06-20",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    breakfast at Epic Egg",
+        "date": "2022-06-20",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 14,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Discovery\n    Big Bang",
+        "date": "2022-06-20",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 15,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    walk",
+        "date": "2022-06-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Juan and Lynn\n    Chosen Season Finale\n    give away Kindle Fire",
+        "date": "2022-06-21",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 17,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    Demo 9 - View Workshop\n    Demo 8 - Messenger\n    refine code generator",
+        "date": "2022-06-21",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 18,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    talk about money",
+        "date": "2022-06-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 19,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City (Level 7-10)\n    ",
+        "date": "2022-06-21",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 20,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    walk\n    conflict between Heron, Pelicans, Eagle, Blackbird",
+        "date": "2022-06-22",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 21,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    Demo 9 - View Workshop\n    Demo 10 - Photogram\n    build test code\n    image overlay",
+        "date": "2022-06-22",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 22,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    time with Stacie\n    dinner on back porch",
+        "date": "2022-06-22",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 23,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City (Level 10-11)\n    Strange New Worlds\n    Kenobi",
+        "date": "2022-06-22",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 24,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    walk",
+        "date": "2022-06-23",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 25,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Daily writing (8 articles)",
+        "date": "2022-06-23",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 26,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    create templates for chapter, skill, demo, project\n    drive to UNC\n    eat at Albertos\n    think through approach to textbook project",
+        "date": "2022-06-23",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 27,
+    "fields": {
+        "name": "Tools",
+        "activity": null,
+        "notes": "    resubmit payment for Macbook",
+        "date": "2022-06-23",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 28,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Jose and Miga",
+        "date": "2022-06-23",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 29,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Stacie gets massage",
+        "date": "2022-06-23",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 30,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Discovery\n    Sim City (level 11)",
+        "date": "2022-06-23",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 31,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    create templates for Chapter and Skills\n    Chapter 10",
+        "date": "2022-07-01",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 32,
+    "fields": {
+        "name": "\timprove",
+        "activity": null,
+        "notes": null,
+        "date": "2022-07-01",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 33,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Radium Hot Springs\n    Huckleberry's breakfast\n    Simpson River\n    drive to Lake Louise\n    Gondola at Lake Louise\n    Fairmont Hotel\n    Banff\n    Calgary\n    Fort McLeaod\n    Lethbridge at 11:30",
+        "date": "2022-07-13",
+        "hours": 14,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    drive from Lethbridge to Billings\n    border crossing\n    Great Falls\n    Big Timber\n    Billings\n    dinner with Jenny Hodges\n    hospital hotel",
+        "date": "2022-07-14",
+        "hours": 14,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Billings\n    Sheridan\n    lunch at rodeo tent\n    Casper\n    Wheatland\n    Cheyenne\n    Windsor\n    flowers dead\n    unpack",
+        "date": "2022-07-15",
+        "hours": 14,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 36,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    walk\n    nap",
+        "date": "2022-07-16",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Valor's birthday\n    Carlos birthday",
+        "date": "2022-07-16",
+        "hours": 9,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 38,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Strange New Worlds\n    Dance",
+        "date": "2022-07-16",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 39,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: Christian Meditation\n    nap",
+        "date": "2022-07-17",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    drive to church\n    go home to avoid Covid risk",
+        "date": "2022-07-17",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 41,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Pandemic State of Mind\n    Daily",
+        "date": "2022-07-17",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 42,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    Project 1",
+        "date": "2022-07-17",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 43,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    family dinner",
+        "date": "2022-07-17",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 44,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    CS Lewis\n    Sim City",
+        "date": "2022-07-17",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 45,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: Christian Meditation",
+        "date": "2022-07-18",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 46,
+    "fields": {
+        "name": "Tools",
+        "activity": null,
+        "notes": "    Digital Ocean repo for Hammer code\n    fix tests",
+        "date": "2022-07-18",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 47,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City (level 22)",
+        "date": "2022-07-18",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 48,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    walk",
+        "date": "2022-09-06",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 49,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    The Mystery of Expectations\n    Create Tech Notes blog (post 6 articles)",
+        "date": "2022-09-06",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 50,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    follow up with student progress",
+        "date": "2022-09-06",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    prayer team event",
+        "date": "2022-09-06",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 52,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    clean up after party\n    Andrew job search",
+        "date": "2022-09-06",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 53,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Home Makeover\n    Jim Gaffagin\n    Sim City (level 34)",
+        "date": "2022-09-06",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 54,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    quiet time\n    walk\n    hearing aid stopped working",
+        "date": "2022-09-07",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 55,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Mystery of Contentment",
+        "date": "2022-09-07",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 56,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    follow up with students\n    go to UNC\n    class session and office hours",
+        "date": "2022-09-07",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 57,
+    "fields": {
+        "name": "Tools",
+        "activity": null,
+        "notes": "    copy blog files (seamanslog, spirit)",
+        "date": "2022-09-07",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 58,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Cacciatore's\n    talk with Stacie about investments",
+        "date": "2022-09-07",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 59,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    \n    Agent Carter (finale)\n    Big Bang\n    Sim City(level 34)",
+        "date": "2022-09-07",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 60,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    walk",
+        "date": "2022-09-08",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 61,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Daily",
+        "date": "2022-09-08",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 62,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    clean up student records\n    follow up with students",
+        "date": "2022-09-08",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 63,
+    "fields": {
+        "name": "Tools",
+        "activity": null,
+        "notes": "    Refactor and improve and simplify blog code",
+        "date": "2022-09-08",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 64,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    time with Stacie",
+        "date": "2022-09-08",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 65,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Baking\n    Star Wars Series\n    Sim City (level 33)",
+        "date": "2022-09-08",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 66,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Juan and Lynn",
+        "date": "2022-09-09",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 67,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    Fidelity account review and strategy\n    meet with Pillip Yanaros",
+        "date": "2022-09-09",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 68,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Stacie, Rachel, Valor to Aquarium\n    pick up Ruby from school\n    DQ with Ruby\n    library with Ruby",
+        "date": "2022-09-09",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 69,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    nts\n    Sim City (level 35)",
+        "date": "2022-09-09",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 70,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    sleep in\n    quiet time",
+        "date": "2022-09-10",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 71,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Quiet Time Activities\n    ",
+        "date": "2022-09-10",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 72,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    student follow up\n    prep for week 4",
+        "date": "2022-09-10",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 73,
+    "fields": {
+        "name": "Tools",
+        "activity": null,
+        "notes": "    update todo.py script\n    debug blog page loader",
+        "date": "2022-09-10",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 74,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    family pizza night",
+        "date": "2022-09-10",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 75,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Rings of Power\n    Sim City (level 35) - island services",
+        "date": "2022-09-10",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 76,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    wake at 5\n    think about the future",
+        "date": "2022-09-11",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 77,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Beauty and Beast",
+        "date": "2022-09-11",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 78,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    record Lesson 7-8\n    improve course web page",
+        "date": "2022-09-11",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 79,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    skip church",
+        "date": "2022-09-11",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 80,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    research career options",
+        "date": "2022-09-11",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 81,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    lunch with Ruby and Valor",
+        "date": "2022-09-11",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 82,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Thor Love and Thunder\n    nts\n    Sim City (level 35)\n    Storm Front",
+        "date": "2022-09-11",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 83,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    career development and opportunities\n    talk with Stacie about career",
+        "date": "2022-09-12",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 84,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    follow up with students",
+        "date": "2022-09-12",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 85,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    planning and goals",
+        "date": "2022-12-22",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 86,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    learn about Matrix (IM) and Jitsi (Zoom)\n    create course planning matrix (milestones/dev stage)\n    think about Payloads\n    follow 10 people on Software Account\n    review Mid-life article",
+        "date": "2022-12-22",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 87,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    Building an Online Course\n    Creating Courses (College, 8-hour, 4-hour)",
+        "date": "2022-12-22",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 88,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    time with Stacie",
+        "date": "2022-12-22",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 89,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Black Widow\n    Trevor Noah\n    Noel Christmas\n    Sim City (level 46)",
+        "date": "2022-12-22",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 90,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    create staging for seamanslog, mdseaman, and software\n    Daily\n    create family blog\n    record video for Friends and Family\n    share video: facebook, masto, email\n    masto interactions\n    start review process with script",
+        "date": "2022-12-23",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 91,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Garcias for lunch\n    Josiah and Cassie for games and pizza\n    record video of Rachel's family",
+        "date": "2022-12-23",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 92,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Christmas Vacation\n    Sim City (level 46)",
+        "date": "2022-12-23",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 93,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Christmas Eve service\n    Christmas Eve dinner at Sherpa Grill",
+        "date": "2022-12-24",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 94,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    wrap Christmas presents\n    pick up tamales",
+        "date": "2022-12-24",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 95,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City (level 46) - Americana competition",
+        "date": "2022-12-24",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 96,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Christmas Day\n    prepare for family events\n    open gifts with Garcias\n    open gifts with Josiah fam\n    roast beef and charcuterie\n    play 3D checkers game\n    Guardians Christmas special",
+        "date": "2022-12-25",
+        "hours": 12,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 97,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City (level 46)\n    Time and People magazine",
+        "date": "2022-12-25",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 98,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Daily\n    Professional Networking\n    Article Payload\n    Mastodon\n    review article",
+        "date": "2022-12-26",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 99,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Rachel, Ruby, and Valor visit\n    play with grandkids (flashlights in basement)\n    haircut",
+        "date": "2022-12-26",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 100,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Chosen\n    Rebels\n    Sim City (level 46)",
+        "date": "2022-12-26",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 101,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    sleep in till 8",
+        "date": "2022-12-27",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 102,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Daily\n    Social Networking Tools\n    Communications Projects 2023\n    Mastodon",
+        "date": "2022-12-27",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 103,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    take Camry to repair shop\n    breakfast at Epic Egg\n    take down Christmas tree",
+        "date": "2022-12-27",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 104,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Glass Onion\n    Rebels",
+        "date": "2022-12-27",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 105,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    schedule Doug, April, Jose",
+        "date": "2022-12-28",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 106,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Communications Projects 2023\n    Teaching Project Milestones\n    Networking Blog outline\n    Teaching Blog outline\n    Writer's Blog outline\n    explore ",
+        "date": "2022-12-28",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 107,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    Obsidian\n    Write.as, Submit.as",
+        "date": "2022-12-28",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 108,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    anniversary celebration 44 years\n    Armstrong hotel",
+        "date": "2022-12-28",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 109,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Avatar movie",
+        "date": "2022-12-28",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 110,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    coordinate meetings with Doug, April, Jose",
+        "date": "2022-12-29",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 111,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Daily\n    Explore & Network\n    follow 45/11 on Fosstodon\n    ",
+        "date": "2022-12-29",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 112,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    pick up Camry from shop",
+        "date": "2022-12-29",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 113,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Mugs for breakfast",
+        "date": "2022-12-29",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 114,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Rebels (series finale)\n    Sim City (level 46)",
+        "date": "2022-12-29",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 115,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    lunch with Doug Beeman",
+        "date": "2022-12-30",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 116,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    April\n    Aspire (website with tooter)\n    visit library\n    explore\n    FOSS - 16 Posts,  64 Following, 16 Followers\n    MDS - 121 Posts, 105 Following, 23 Followers\n    cross follow (mds, foss)",
+        "date": "2022-12-30",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 117,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    house cleaning",
+        "date": "2022-12-30",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 118,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Proposal\n    Rings of Power\n    Sim City (level 47)",
+        "date": "2022-12-30",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 119,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    Projects 2023",
+        "date": "2022-12-31",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 120,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Spanish church potluck and service\n    lunch with Jose at Albertos",
+        "date": "2022-12-31",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 121,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Networking",
+        "date": "2022-12-31",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 122,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    create plans for Aspire Game",
+        "date": "2022-12-31",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 123,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    New Years Eve",
+        "date": "2022-12-31",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 124,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City(level 47)\n    ",
+        "date": "2022-12-31",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 125,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    Soundtracks",
+        "date": "2023-01-01",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 126,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    church service at home",
+        "date": "2023-01-01",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 127,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Innovation Stages\n    Cost of Innovation\n    Productivity",
+        "date": "2023-01-01",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 128,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    Digital Ocean repo",
+        "date": "2023-01-01",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 129,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Christine spends night\n    Pizza night\n    flashlights with grandkids",
+        "date": "2023-01-01",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 130,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Grizzly Game\n    ",
+        "date": "2023-01-01",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 131,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    Soundtracks",
+        "date": "2023-01-02",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 132,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Suffering with God",
+        "date": "2023-01-02",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 133,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    Attempt to upgrade Macbook OS\n    Debug the Digital Ocean server code",
+        "date": "2023-01-02",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 134,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    go to Josiah's house\n    work puzzle cards with Josiah\n    ChatGPT\n    Dolly artwork AI",
+        "date": "2023-01-02",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 135,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    6 Underground",
+        "date": "2023-01-02",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 136,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    home group meeting (potluck and games)",
+        "date": "2023-01-03",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 137,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Shrinking World Minicourses\n    The Creation Rhythm\n    Video Course Milestones\n    Writing Milestones\n    Writing Rhythms (1, 5, 20, 80)\n    Projects 2023\n    The Agile Lifestyle\n    Notes for Buried Treasure",
+        "date": "2023-01-03",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 138,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    Hook up new microphone\n    Use QuickTime to record video",
+        "date": "2023-01-03",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 139,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    discuss budget and withdrawals\n    get check for car repair from Preston",
+        "date": "2023-01-03",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 140,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Chosen\n    Sim City (level 47)",
+        "date": "2023-01-03",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 141,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: \n        foot pain is gout\n        Soundtracks\n    struggle with gout",
+        "date": "2023-01-04",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 142,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    Auto content CSV generation\n    Auto index CSV generation\n    Create index files for Seaman's Log\n    Create content.CSV file for Seaman's Log\n    create probe_pub.py\n    document review workflow",
+        "date": "2023-01-04",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 143,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    time with Stacie",
+        "date": "2023-01-04",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 144,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City (level 47)\n    Rings of Power",
+        "date": "2023-01-04",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 145,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    Dr Rhoads\n    foot pain is gout",
+        "date": "2023-01-05",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 146,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    meet with Tim (melanoma recurrence)",
+        "date": "2023-01-05",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 147,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    situational leadership",
+        "date": "2023-01-05",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 148,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    New Relationships\n    Follow up\n    Connections Log",
+        "date": "2023-01-05",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 149,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    Test and integrate new Index code\n    Add auto switches to Pub model\n    Scripts 2023\n    Hammer 2023\n    Code 2023",
+        "date": "2023-01-05",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 150,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    talk with Stacie",
+        "date": "2023-01-05",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 151,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Eli Stone\n    Rings of Power\n    Resident\n    Sim City (level 47)",
+        "date": "2023-01-05",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 152,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    buy burritos",
+        "date": "2023-01-06",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 153,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    personal planning\n    day 4 of gout flareup",
+        "date": "2023-01-06",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 154,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    Communication & Network 2023\n    Follow Up\n    New Relationships\n    Lunch Connection\n    Personal Branding",
+        "date": "2023-01-06",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 155,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    debug and improve index creation",
+        "date": "2023-01-06",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 156,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Stacie to Women's Retreat",
+        "date": "2023-01-06",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 157,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    TV\n    nts\n    Hoopla graphic novels",
+        "date": "2023-01-06",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 158,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    daily writing\n    fix up Seaman's Log and Meditations postings\n    review and edit several articles",
+        "date": "2023-01-07",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 159,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    index creation for Seaman's Log\n    index creation for Meditations\n    create \"write\" scripts (blog, tech, review, masto, words)\n    show words\n    edit daily writing content\n    review of content articles",
+        "date": "2023-01-07",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 160,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    post updates using \"masto\" script",
+        "date": "2023-01-07",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 161,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    day 5 of gout flareup",
+        "date": "2023-01-07",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 162,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Stacie at Women's retreat",
+        "date": "2023-01-07",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 163,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    TV\n    nts\n    Graphic Novels",
+        "date": "2023-01-07",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 164,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    prayer and reflection\n    day 6 of gout flareup\n    learn about gout\n    think about lifestyle changes\n    Weekly Reflection Report (Jan 1)",
+        "date": "2023-01-08",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 165,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    church service",
+        "date": "2023-01-08",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 166,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    clean dishes\n    repair chair",
+        "date": "2023-01-08",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 167,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Stacie returns from retreat",
+        "date": "2023-01-08",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 168,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Writing Content (1571 pages)\n    review and edit",
+        "date": "2023-01-08",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 169,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Rings of Power\n    Chosen",
+        "date": "2023-01-08",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 170,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: Suffering with God\n    gout day 7\n    plan Day, Week, Month",
+        "date": "2023-01-09",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 171,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    select content for webapps 1 & 2 \n    create lesson plan for webapps 1 & 2 \n    create directory for Github repos\n    create demo code for 6/12 lessons",
+        "date": "2023-01-09",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 172,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    church leaders meeting",
+        "date": "2023-01-09",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 173,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Rings of Power\n    Big Bang\n    Sim City(level 48)",
+        "date": "2023-01-09",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 174,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    gout day 8 - foot much better today\n    evening pain in big toe",
+        "date": "2023-01-10",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 175,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    update accounting (budget, investments)",
+        "date": "2023-01-10",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 176,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Remove Hatred.md from Poems\n    edit Meaningful Work\n    edit Roles in Life\n    review page counts in Quest\n    Mastodon",
+        "date": "2023-01-10",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 177,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    fix chars on documents\n    fix chars in automatic scripts",
+        "date": "2023-01-10",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 178,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    home group\n    Sim City(level 48)",
+        "date": "2023-01-10",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 179,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: pain in big toe\n    Tim Keller - Suffering",
+        "date": "2023-01-11",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 180,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    edit Cycles of History",
+        "date": "2023-01-11",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 181,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    editing tools for daily writing and review",
+        "date": "2023-01-11",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 182,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Phil Vischer - Systemic Racism\n    dinner at Hendrickson's house",
+        "date": "2023-01-11",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 183,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    review finances with Stacie",
+        "date": "2023-01-11",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 184,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City(level 48)",
+        "date": "2023-01-11",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 185,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: foot throbbing\n    Silence and Solitude\n    dentist\n    nap",
+        "date": "2023-01-12",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 186,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    work on index building",
+        "date": "2023-01-12",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 187,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Josiah job exit",
+        "date": "2023-01-12",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 188,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Rings of Power\n    Sim City (Level 48)",
+        "date": "2023-01-12",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 189,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: Gout day 11\n    can't wear shoes\n    visit Dr Rhoads\n    start on steroid",
+        "date": "2023-01-13",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 190,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Rings of Power (finale)\n    Sim City (level 48)\n    Enterprise",
+        "date": "2023-01-13",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 191,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    foot feeling much better - celebrating recovery",
+        "date": "2023-01-14",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 192,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    test and fix writing tools\n    clean up extra files\n    improve tests",
+        "date": "2023-01-14",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 193,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    Inklings\n    April\n    create Discord account",
+        "date": "2023-01-14",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 194,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Christine's birthday party\n    talk with Josiah about AI\n    talk with Sam about Discord",
+        "date": "2023-01-14",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 195,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City (level 48) - Mayor Competition",
+        "date": "2023-01-14",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 196,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: Prometa/micropub ideas\n    personal review and planning\n    nap",
+        "date": "2023-01-15",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 197,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Prometa minicourse\n    prayer meeting\n    Chilcotts - writing your story",
+        "date": "2023-01-15",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 198,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    Micropub Vision minicourse\n    Course Greenhouse\n    Teaching Notebook\n        Healthy Social Networking\n        Course Creation\n        Building Web Apps\n        Micropub Tutorial",
+        "date": "2023-01-15",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 199,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    organize email & unsubscribe",
+        "date": "2023-01-15",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 200,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    daily writing",
+        "date": "2023-01-15",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 201,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    time with Stacie",
+        "date": "2023-01-15",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 202,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    create Prometa minicourse skeleton",
+        "date": "2023-01-16",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 203,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    greenhouse concept\n    Healthy Social Networking\n    Micropub Vision",
+        "date": "2023-01-16",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 204,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    greenhouse courses\n        MicropubPrinciples.ol\n        Prometa.ol      \n        WebApps-1,2,3.ol        \n        SocialNet.ol\n    Creating Courses (1 hr, 4 hr, college)",
+        "date": "2023-01-16",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 205,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    build and test plant script",
+        "date": "2023-01-16",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 206,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    kids come over to house",
+        "date": "2023-01-16",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 207,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Avatar\n    Castle",
+        "date": "2023-01-16",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 208,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    organize notes\n    Teaching Content Pyramid\n    Types of Writing\n    Live True\n    The Path to Life",
+        "date": "2023-01-17",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 209,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    greenhouse courses\n        Courses.ol      \n        MicropubPrinciples.ol\n        MicropubTools.ol    \n        Prometa.ol      \n        WebApps-1,2,3.ol        \n        SocialNet.ol \n    Course Content Payloads",
+        "date": "2023-01-17",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 210,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    Micropub Tools\n    start on Task tools\n    fix template for Index files",
+        "date": "2023-01-17",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 211,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Ruby throws up on nap drive",
+        "date": "2023-01-17",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 212,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    Mentoring others",
+        "date": "2023-01-17",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 213,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    clean house\n    home group",
+        "date": "2023-01-17",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 214,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    build task manager scripts\n        import all task files\n        rename activities\n        calculate activity totals\n        create summary of all activity\n        build task tests",
+        "date": "2023-01-18",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 215,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    create Time Summary 2022\n    stomach pain and headache",
+        "date": "2023-01-18",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 216,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Star Trek Enterprise (season 3 finale)\n    Eli Stone\n    Resident",
+        "date": "2023-01-18",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 217,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    initiate withdrawal from Personal Capital",
+        "date": "2023-01-19",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 218,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    personal reflection and plans\n    Time Summary 2022\n    headache and blood pressure\n    Time Accounting Ideal\n    Weekly priorities",
+        "date": "2023-01-19",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 219,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    task script: time summary\n    update Macbook OS and iPad OS",
+        "date": "2023-01-19",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 220,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    Pycon Tutorial not accepted\n    build outlines for course lessons\n    work on tool to gather outline from different sources",
+        "date": "2023-01-19",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 221,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Boba Fett\n    Sim City (level 49)",
+        "date": "2023-01-19",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 222,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    refactor \"write\" script\n    build probe_write.py script\n    build script render_document(kwargs)\n    learn about kwargs\n    fix link to family web site\n    work on video display on web pages\n    learn about DALL-E 2\n    buy new iMac",
+        "date": "2023-01-20",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 223,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    edit Who Do You Love?\n    edit Transformation",
+        "date": "2023-01-20",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 224,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    talk with Josiah about Open AI\n    contact Tom Yip about Mac purchase",
+        "date": "2023-01-20",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 225,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    family night",
+        "date": "2023-01-20",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 226,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Legends",
+        "date": "2023-01-20",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 227,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch:  foot spasms, Meditation\n    time accounting",
+        "date": "2023-01-21",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 228,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    plan for content navigation on websites\n    buy iMac with Tom\n    attempt to upgrade cable modem\n    goals for Hammer improvements",
+        "date": "2023-01-21",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 229,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    plan for content creation and publishing on Udemy",
+        "date": "2023-01-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 230,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    plan for video cast",
+        "date": "2023-01-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 231,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Day with the King",
+        "date": "2023-01-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 232,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    send email about Mac donation",
+        "date": "2023-01-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 233,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Ruby & Valor - flashlights & cookies",
+        "date": "2023-01-21",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 234,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Boba Fett",
+        "date": "2023-01-21",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 235,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: pain, Suffering with God\n    modify weekly expectations for time investment\n    Learn/Network (5 hours each)\n    read article on Alcohol and Health\n    weekly personal reflection and review",
+        "date": "2023-01-22",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 236,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    watch church online",
+        "date": "2023-01-22",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 237,
+    "fields": {
+        "name": "Learn",
+        "activity": null,
+        "notes": "    try to login to ChatGPT\n    Josiah helps me with AI software\n    Midjourney - Login, Discord server\n    create 5 Chat GPT dialogs\n    create several queries on Midjouney for artwork\n    learn about gout",
+        "date": "2023-01-22",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 238,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    talk with Stacie",
+        "date": "2023-01-22",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 239,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Boba Fett\n    Eli Stone",
+        "date": "2023-01-22",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 240,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: gout pain, ice\n    ask for Dr appointment and refills\n    intense pain",
+        "date": "2023-01-23",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 241,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    new internet modem",
+        "date": "2023-01-23",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 242,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Chet Gupta\n    create Video blog",
+        "date": "2023-01-23",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 243,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    fix tests for Index files",
+        "date": "2023-01-23",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 244,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Emotionally Healthy assessment",
+        "date": "2023-01-23",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 245,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    special meatloaf meal",
+        "date": "2023-01-23",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 246,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Star Wars Jedi",
+        "date": "2023-01-23",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 247,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: Suffering with God\n    visit Dr Rhoads\n    Xray of foot",
+        "date": "2023-01-24",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 248,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City (level 49) unlock Limestone Cliffs\n    nts",
+        "date": "2023-01-24",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 249,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    build masto script (review, create, post)\n    masto - 156 Posts, 131 Following, 34 Followers",
+        "date": "2023-01-24",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 250,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    home group",
+        "date": "2023-01-24",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 251,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: Cyborg writing, Inklings talk\n    Tim Keller book",
+        "date": "2023-01-25",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 252,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Publishing Project Milestones\n    Team Cyborg\n    Gliffy subscription",
+        "date": "2023-01-25",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 253,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    Masto - 163 Posts, 145 Following, 36 Followers\n    develop masto script\n    follow people on #ChatGPT\n    Inklings presentation",
+        "date": "2023-01-25",
+        "hours": 3,
+        "done": false
+    }
+}
+]

@@ -1,6 +1,8 @@
 from os import system
 from pathlib import Path
 
+from task.models import Activity, Task
+
 from .document import get_document
 from .files import read_json, read_csv_file
 from .models import Pub, Content
@@ -109,13 +111,25 @@ def import_pub(pub):
 
 
 def load_data():
-    Pub.objects.all().delete()
-    system("python manage.py loaddata config/publish.json")
-    Content.objects.filter(words=0).delete()
-    pubs = len(Pub.objects.all())
-    print(f"{pubs} Pubs")
-    content = len(Content.objects.all())
-    print(f"{content} Content Posts")
+    def reload_pubs():
+        Pub.objects.all().delete()
+        system("python manage.py loaddata config/publish.json")
+        Content.objects.filter(words=0).delete()
+        pubs = len(Pub.objects.all())
+        print(f"Loaded {pubs} Pubs")
+        content = len(Content.objects.all())
+        print(f"Loaded {content} Content Posts")
+
+    def reload_tasks():
+        Task.objects.all().delete()
+        system("python manage.py loaddata config/task.json")
+        tasks = len(Task.objects.all())
+        print(f"Loaded {tasks} Tasks")
+        tasks = len(Activity.objects.all())
+        print(f"Loaded {tasks} Activities")
+
+    reload_tasks()
+    reload_pubs()
 
 
 def rename_file(f1, f2):

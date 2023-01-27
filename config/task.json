@@ -20502,5 +20502,17 @@
         "hours": 1,
         "done": false
     }
+},
+{
+    "model": "task.task",
+    "pk": 16554,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    load task data from JSON file\n    ",
+        "date": "2023-01-26",
+        "hours": 1,
+        "done": false
+    }
 }
 ]

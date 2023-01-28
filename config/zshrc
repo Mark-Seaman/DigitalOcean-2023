@@ -63,6 +63,7 @@ alias m='e Documents/mastodon'
 # Linux command context
 alias g='grep --color=auto'
 alias l='ls -al'
+alias lc='wc -l'
 alias u='d ..'
 alias host=hostname
 alias h='history 100'

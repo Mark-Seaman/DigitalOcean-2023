@@ -8,11 +8,11 @@ by Mark Seaman
 
 ---
 
-This book explores what is means to be alive right now in America.
-Stories from the life of Mark Seaman and friends are used to examine
+This book explores what it means to be alive right now in America.
+Stories from the life of Mark Seaman and his friends are used to examine
 what is working well and also the challenges that we face as a society.
 
-America in 2021 stands at the threshold of history.  There has never been
+America in today stands at the threshold of history.  There has never been
 a time and place like now and here.  There are some amazing opportunities
 and some rather frightening scenarios in our future.
 

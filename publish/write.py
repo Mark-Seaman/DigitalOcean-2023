@@ -14,7 +14,19 @@ from workshop.management.commands.edit import edit_file
 def write_blog(args=[]):
     # print(f"write blog {args}")
     if not args:
-        return 'usage: write [green|plant|markdown|masto|render|pub|spiritual|seamanslog|words]'
+        return '''usage: write [options]
+            
+            options:
+                green - show the Greenhouse for Ideas
+                plant topic - create Markdown for the selected idea
+                markdown doc - conver the Markdown to HTML
+                masto - select an article, review it, and create a posting
+                render source dest script template - create a post file
+                seamanslog - edit the blog post for today
+                spiritual - edit the blog post for today
+                words - summary of word count
+
+        '''
     elif args[0] == 'green':
         greenhouse()
     elif args[0] == 'plant':
@@ -40,7 +52,9 @@ def write_blog(args=[]):
 
 
 def greenhouse():
-    edit_file('Documents/shrinking-world.com/greenhouse')
+    edit_file(['Documents/shrinking-world.com/greenhouse',
+              'Documents/shrinking-world.com/greenhouse/Content.ol',
+               'Documents/shrinking-world.com/greenhouse'])
 
 
 def plant(args):

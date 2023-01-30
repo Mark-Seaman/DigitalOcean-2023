@@ -20725,9 +20725,9 @@
     "fields": {
         "name": "Church",
         "activity": null,
-        "notes": "    church with Hendricksons",
+        "notes": "    church with Hendricksons\n    La Vina service",
         "date": "2023-01-29",
-        "hours": 4,
+        "hours": 5,
         "done": false
     }
 },
@@ -20740,6 +20740,18 @@
         "notes": "    Hendricksons at Austin's",
         "date": "2023-01-29",
         "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16574,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    The Gray Man",
+        "date": "2023-01-29",
+        "hours": 3,
         "done": false
     }
 }

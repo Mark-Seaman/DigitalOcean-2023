@@ -20514,5 +20514,233 @@
         "hours": 1,
         "done": false
     }
+},
+{
+    "model": "task.task",
+    "pk": 16555,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Ticket to Paradise",
+        "date": "2023-01-26",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16556,
+    "fields": {
+        "name": "Learn",
+        "activity": null,
+        "notes": "    learn about publishing from Ghost articles\n    web clip articles",
+        "date": "2023-01-27",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16557,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    set business goals for Shrinking World\n    Shrinking World Success\n    Finding My Niche",
+        "date": "2023-01-27",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16558,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    work on Inklings presentation",
+        "date": "2023-01-27",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16559,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    prep for EHS class with Stacie",
+        "date": "2023-01-27",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16560,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    cook ready-made chicken pasta",
+        "date": "2023-01-27",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16561,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Mummy",
+        "date": "2023-01-27",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16562,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: business and writing ideas",
+        "date": "2023-01-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16563,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Greenhouse Writing - 15 outlines\n    Shrinking World Content\n    Content Priority\n    Seaman's Productivity Law\n    Multicast Lessons",
+        "date": "2023-01-28",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16564,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    Masto: 175 Posts, 160 Following, 41 Followers (+ 12, 12, 5)",
+        "date": "2023-01-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16565,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    buy Ghost.com description",
+        "date": "2023-01-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16566,
+    "fields": {
+        "name": "Learn",
+        "activity": null,
+        "notes": "    How to Become a Professional Creator\n    Tella\n    Teachable\n    Record videos and embed them",
+        "date": "2023-01-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16567,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    \n    family night\n    ",
+        "date": "2023-01-28",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16568,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    plan business goals and costs",
+        "date": "2023-01-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16569,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Mummy\n    Eli Stone",
+        "date": "2023-01-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16570,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: Multicast publishing, Blues",
+        "date": "2023-01-29",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16571,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Work the Greenhouse  (97 Ideas)",
+        "date": "2023-01-29",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16572,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    church with Hendricksons",
+        "date": "2023-01-29",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16573,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Hendricksons at Austin's",
+        "date": "2023-01-29",
+        "hours": 2,
+        "done": false
+    }
 }
 ]

@@ -163,7 +163,7 @@
         "domain": null,
         "url": "/write",
         "logo": null,
-        "words": 5176,
+        "words": 5178,
         "cover_image": "/static/images/seamanslog.com/write-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -4842,7 +4842,7 @@
         "doctype": "folder",
         "path": "Documents/seamanslog.com/write/FeaturedArticles.md",
         "folder": 0,
-        "words": 130,
+        "words": 131,
         "retain_object": false
     }
 },
@@ -4912,7 +4912,7 @@
         "doctype": "folder",
         "path": "Documents/seamanslog.com/write/EmbraceTruth.md",
         "folder": 0,
-        "words": 164,
+        "words": 165,
         "retain_object": false
     }
 },

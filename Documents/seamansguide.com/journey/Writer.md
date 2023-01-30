@@ -75,7 +75,7 @@ A long article can be built so that it consists of four separate ideas.  Create 
 be understood by itself, but is also a part of a larger discussion.
 
 
-## Micro-publishing
+## Micropublishing
 
 The power of this approach is that it provides a great deal of flexibility for both writing and
 publishing.  The basic building block for all of my writing is a single page consisting of 250

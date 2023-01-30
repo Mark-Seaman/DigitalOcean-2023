@@ -16,7 +16,7 @@ Shrinking World Content
             Incremental Development
             Micropublishing
             Measuring Publishing Success
-            Multicasting
+            Multicast Blog
             Presenting Knowledge
         Tools
             Kindle Book

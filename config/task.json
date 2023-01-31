@@ -20641,7 +20641,7 @@
     "fields": {
         "name": "Code",
         "activity": null,
-        "notes": "    buy Ghost.com description",
+        "notes": "    buy Ghost.com",
         "date": "2023-01-28",
         "hours": 1,
         "done": false
@@ -20725,7 +20725,7 @@
     "fields": {
         "name": "Church",
         "activity": null,
-        "notes": "    church with Hendricksons\n    La Vina service",
+        "notes": "    church with Hendricksons\n    La Viña service",
         "date": "2023-01-29",
         "hours": 5,
         "done": false
@@ -20737,7 +20737,7 @@
     "fields": {
         "name": "People",
         "activity": null,
-        "notes": "    Hendricksons at Austin's",
+        "notes": "    Hendricksons & Webbs at Austin's",
         "date": "2023-01-29",
         "hours": 2,
         "done": false
@@ -20752,6 +20752,42 @@
         "notes": "    The Gray Man",
         "date": "2023-01-29",
         "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16575,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    gout day 28\n    night watch: Think Tank\n    weekly reflection",
+        "date": "2023-01-30",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16576,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    MulticastBlog.ol\n    MulticastTeaching.ol\n    My Unique Viewpoint\n    Human Nature\n    Think Tank (Thunk sizes)\n    Shrinking World Viewpoint\n    Professional Networking",
+        "date": "2023-01-30",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16577,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    Masto: 188 Posts, 184 Following, 49 Followers\n    Subscribers: 0",
+        "date": "2023-01-30",
+        "hours": 1,
         "done": false
     }
 }

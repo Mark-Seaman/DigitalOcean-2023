@@ -20761,9 +20761,9 @@
     "fields": {
         "name": "Grow",
         "activity": null,
-        "notes": "    gout day 28\n    night watch: Think Tank\n    weekly reflection",
+        "notes": "    gout day 28 - text to Dr Rhoads\n    night watch: Think Tank\n    weekly reflection",
         "date": "2023-01-30",
-        "hours": 1,
+        "hours": 2,
         "done": false
     }
 },
@@ -20775,7 +20775,7 @@
         "activity": null,
         "notes": "    MulticastBlog.ol\n    MulticastTeaching.ol\n    My Unique Viewpoint\n    Human Nature\n    Think Tank (Thunk sizes)\n    Shrinking World Viewpoint\n    Professional Networking",
         "date": "2023-01-30",
-        "hours": 4,
+        "hours": 5,
         "done": false
     }
 },
@@ -20788,6 +20788,114 @@
         "notes": "    Masto: 188 Posts, 184 Following, 49 Followers\n    Subscribers: 0",
         "date": "2023-01-30",
         "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16578,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    install Dropbox on Macbook\n    build pages on Ghost World",
+        "date": "2023-01-30",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16579,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    tax prep\n    discuss business strategy with Stacie",
+        "date": "2023-01-30",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16580,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Garcias - Free Form on iPad",
+        "date": "2023-01-30",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16581,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Tales of the Jedi\n    Sim City (level 50)",
+        "date": "2023-01-30",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16582,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: Timothy, Hebrews\n    20-below wind chill",
+        "date": "2023-01-31",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16583,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Cheap Salvation\n    Convergence & Connection\n    Think Tank\n    Organize notes",
+        "date": "2023-01-31",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16584,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    Training Ghost Site",
+        "date": "2023-01-31",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16585,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    build Training Ghost Site\n    ",
+        "date": "2023-01-31",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16586,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Mummy Returns",
+        "date": "2023-01-31",
+        "hours": 3,
         "done": false
     }
 }

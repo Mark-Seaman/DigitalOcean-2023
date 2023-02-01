@@ -199,7 +199,7 @@ export DJANGO_SUPERUSER_EMAIL='seaman'
 
 
 # Banner
-figlet Hammer Time
+# figlet Hammer Time
 
 
 # # Node environment

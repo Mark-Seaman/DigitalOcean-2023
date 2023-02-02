@@ -157,48 +157,10 @@ function py {
 }
 
 
-
-# Demo Code
-
-export b3=$HOME/Github/PythonWebApps
-export p1=$cx/01
-export p2=$cx/02
-export p3=$cx/03
-export p4=$cx/04
-export p5=$cx/05
-export p6=$cx/06
-export p7=$cx/07
-export p8=$cx/08
-export p9=$cx/09
-export p10=$cx/10
-export p11=$cx/11
-export p12=$cx/12
-
-alias p1='cd $p1 && l'
-alias p2='cd $p2 && l'
-alias p3='cd $p3 && l'
-alias p4='cd $p4 && l'
-alias p5='cd $p5 && l'
-alias p6='cd $p6 && l'
-alias p7='cd $p7 && l'
-alias p8='cd $p8 && l'
-alias p9='cd $p9 && l'
-alias p10='cd $p10 && l'
-alias p11='cd $p11 && l'
-alias p12='cd $p12 && l'
-alias p13='cd $p13 && l'
-alias p14='cd $p14 && l'
-
-alias superuser='pm createsuperuser --no-input  --email "me@here.us"'
-
 # DocEnv
 export DJANGO_SUPERUSER_USERNAME='seaman'
 export DJANGO_SUPERUSER_PASSWORD='seaman'
 export DJANGO_SUPERUSER_EMAIL='seaman'
-
-
-# Banner
-# figlet Hammer Time
 
 
 # # Node environment
@@ -210,9 +172,10 @@ export DJANGO_SUPERUSER_EMAIL='seaman'
 . ~/Hammer/.venv/bin/activate
 export PS1="%3~ : "
 
-# export PYENV_ROOT="$HOME/.pyenv"
-# command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-# eval "$(pyenv init -)"
 
+# Start directory
 cd ~/Hammer
 ls
+# figlet Hammer Time
+
+

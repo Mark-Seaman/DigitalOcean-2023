@@ -20893,9 +20893,69 @@
     "fields": {
         "name": "Fun",
         "activity": null,
-        "notes": "    Mummy Returns",
+        "notes": "    Mummy Returns\n    Hoopla borrows",
         "date": "2023-01-31",
         "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16587,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    call Dad on birthday\n    ",
+        "date": "2023-01-31",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16588,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    send Shrinking World Invitation\n    subscribe to Rachel's \"literarysprouts\" Instagram feed\n    Rachel: awful January\n    Instagram\n    Connection Log",
+        "date": "2023-02-01",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16589,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    explore Ghost/Mastodon integration",
+        "date": "2023-02-01",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16590,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Emotionally Healthy Relationships",
+        "date": "2023-02-01",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16591,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: Rennovated\n    personal reflection",
+        "date": "2023-02-02",
+        "hours": 1,
         "done": false
     }
 }

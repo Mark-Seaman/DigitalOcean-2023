@@ -126,7 +126,7 @@ def char_fix_file(path):
 
 
 def char_fix_files(directory):
-    changed = [""]
+    changed = ["Files Changed"]
     for p in Path(directory).rglob("*.md"):
         x = char_fix_file(p)
         if x:

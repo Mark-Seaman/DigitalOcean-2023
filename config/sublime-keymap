@@ -34,5 +34,5 @@
             "alt+down"
         ],
         "command": "swap_line_down"
-    },
+    }
 ]

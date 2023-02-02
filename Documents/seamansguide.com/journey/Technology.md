@@ -34,10 +34,10 @@ introduced then the history would have been significantly different than it was.
 
 ## Time Invested
 
-From the time I was 18, I have either been in school or working with computers. 
+From the time I was 18, I have either been in school or been working with computers. 
 This has been the one constant throughout my life.  A work life of 40-50
 hours/week represents 40-50% of the waking hours.  With another investment for
-hobbies or 10-20 hours weekly, it is easy to claim that I have at least 60% of
+hobbies of 10-20 hours weekly, it is easy to claim that I have spent at least 60% of
 my life in front of a computer.
 
 Computers are clearly the dominate force in my adult life.  For better or worse,

@@ -20955,7 +20955,67 @@
         "activity": null,
         "notes": "    night watch: Rennovated\n    personal reflection",
         "date": "2023-02-02",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16592,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Tim Musslewhite\n    We are Vineyard Podcast - Bible Project\n    ",
+        "date": "2023-02-02",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16593,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    Rachel Garcia",
+        "date": "2023-02-02",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16594,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    automation scripts\n    computer config\n    install and config sublime \n    sync vscode settings\n    ",
+        "date": "2023-02-02",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16595,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    pick up groceries",
+        "date": "2023-02-02",
         "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16596,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    thank Tom Yip",
+        "date": "2023-02-02",
+        "hours": 0,
         "done": false
     }
 }

@@ -1,6 +1,6 @@
-# The Lecture
+# The Lesson
 
-## Class and the Sermon
+## Class Lecture and the Sermon
 
 A human can only take in so much new information at any one time. This psychological limitation 
 has led educators to explore how to teach adults most effectively.  Over time a social pattern 

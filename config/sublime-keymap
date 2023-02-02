@@ -1,0 +1,38 @@
+[
+    {
+        "keys": [
+            "super+s"
+        ],
+        "command": "save_all"
+    },
+    {
+        "keys": [
+            "super+alt+s"
+        ],
+        "command": "save"
+    },
+    {
+        "keys": [
+            "super+shift+s"
+        ],
+        "command": "prompt_save_as"
+    },
+    {
+        "keys": [
+            "ctrl+j"
+        ],
+        "command": "join_lines"
+    },
+    {
+        "keys": [
+            "alt+up"
+        ],
+        "command": "swap_line_up"
+    },
+    {
+        "keys": [
+            "alt+down"
+        ],
+        "command": "swap_line_down"
+    },
+]

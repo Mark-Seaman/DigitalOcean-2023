@@ -23,8 +23,9 @@ to others.  I've been working steadily on the project for the last couple of yea
 
 ---
 
-* [Writing My Story](https://seamansguide.com/journey/Preface.md)
+https://the-shrinking-world.ghost.io/writing-my-story/
 
-BUTTON: Read More at "Writing My Story" https://seamansguide.com/journey/Preface.md
+Read More at "Writing My Story" 
 
+https://seamansguide.com/journey/Preface.md
 

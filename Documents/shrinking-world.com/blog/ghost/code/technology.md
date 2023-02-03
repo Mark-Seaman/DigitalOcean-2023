@@ -19,6 +19,9 @@ others I may seldom meet face-to-face.
 
 ---
 
-* [Shaped by Technology](https://shrinking-world.com/tech/tech-Technology)
+https://the-shrinking-world.ghost.io/internet-age/
 
-BUTTON: Read More at "Shaped by Technology" https://shrinking-world.com/tech/tech-Technology
+Read More at "Shaped by Technology"
+
+https://shrinking-world.com/tech/tech-Technology
+

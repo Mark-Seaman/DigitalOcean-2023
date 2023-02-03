@@ -87,12 +87,13 @@ Shrinking World Content
             Move Toward Your Destiny
             Contribute
             Legacy
+    Society
+        The Digital World
         Culture
-            Shrinking World
-            World Context
-            History
-            Religion
-            Politics
-            Empires
-            Capitalism
-            Justice
+        World Context
+        History
+        Religion
+        Politics
+        Empires
+        Capitalism
+        Justice

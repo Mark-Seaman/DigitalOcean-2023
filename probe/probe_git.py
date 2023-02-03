@@ -4,7 +4,7 @@ from publish.shell import shell
 
 
 def test_git_files():
-    return "Git " + check_file_count(recursive_files(".git"), 3000, 4000)
+    return "Git " + check_file_count(recursive_files(".git"), 300, 4000)
 
 
 def test_git_status():

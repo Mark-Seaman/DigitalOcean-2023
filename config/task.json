@@ -20965,9 +20965,9 @@
     "fields": {
         "name": "Church",
         "activity": null,
-        "notes": "    Tim Musslewhite\n    We are Vineyard Podcast - Bible Project\n    ",
+        "notes": "    Tim Musslewhite\n    We are Vineyard Podcast - Bible Project\n    Putty Putnam and this moment in time\n    discuss church leadership with Stacie\n    ",
         "date": "2023-02-02",
-        "hours": 2,
+        "hours": 4,
         "done": false
     }
 },
@@ -21025,9 +21025,9 @@
     "fields": {
         "name": "Grow",
         "activity": null,
-        "notes": "    night watch: DigitalWorld.ol, Wisdom.ol",
+        "notes": "    night watch: DigitalWorld.ol, Wisdom.ol\n    pick up medicine",
         "date": "2023-02-03",
-        "hours": 1,
+        "hours": 2,
         "done": false
     }
 },
@@ -21037,9 +21037,9 @@
     "fields": {
         "name": "Church",
         "activity": null,
-        "notes": "    \n    Church in the Digital Age\n    Wisdom of God",
+        "notes": "    \n    Church in the Digital Age\n    Wisdom of God\n    Bible Project Podcast",
         "date": "2023-02-03",
-        "hours": 2,
+        "hours": 3,
         "done": false
     }
 },
@@ -21052,6 +21052,42 @@
         "notes": "    Every Life is a Story\n    organize writing notes and outlines\n    build Micropub topical index",
         "date": "2023-02-03",
         "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16600,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Eli Stone",
+        "date": "2023-02-02",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16601,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    copy files from old Mac",
+        "date": "2023-02-03",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16602,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    update net worth",
+        "date": "2023-02-03",
+        "hours": 1,
         "done": false
     }
 }

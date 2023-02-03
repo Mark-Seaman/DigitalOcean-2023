@@ -97,3 +97,4 @@ Shrinking World Content
         Empires
         Capitalism
         Justice
+        Wisdom From God

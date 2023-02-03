@@ -21018,5 +21018,41 @@
         "hours": 0,
         "done": false
     }
+},
+{
+    "model": "task.task",
+    "pk": 16597,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: DigitalWorld.ol, Wisdom.ol",
+        "date": "2023-02-03",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16598,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    \n    Church in the Digital Age\n    Wisdom of God",
+        "date": "2023-02-03",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16599,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Every Life is a Story\n    organize writing notes and outlines\n    build Micropub topical index",
+        "date": "2023-02-03",
+        "hours": 3,
+        "done": false
+    }
 }
 ]

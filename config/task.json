@@ -21090,5 +21090,101 @@
         "hours": 1,
         "done": false
     }
+},
+{
+    "model": "task.task",
+    "pk": 16603,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    date with Stacie Cancun Mex",
+        "date": "2023-02-03",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16604,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    message from April",
+        "date": "2023-02-03",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16605,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City (level 50) - purchase expansion pack\n    Black Panther",
+        "date": "2023-02-03",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16606,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: The Blog Formula, Mulholland",
+        "date": "2023-02-04",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16607,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    The Blog Formula\n    The Teaching Formula\n    Idea Greenhouse\n    Creativity on Demand\n    Business Strategy\n    Content Creation Seminar\n    Publishing Venues\n    Publishing Log",
+        "date": "2023-02-04",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16608,
+    "fields": {
+        "name": "Business",
+        "activity": null,
+        "notes": "    discuss business strategy with Stacie\n    business tools and process",
+        "date": "2023-02-04",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16609,
+    "fields": {
+        "name": "Learn",
+        "activity": null,
+        "notes": "    learn about Teachable for Courses and Downloads\n    learn about Video recording with Tella",
+        "date": "2023-02-04",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16610,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    learn about Mac networking\n    copy files from Old Mac to Sea Mac\n        Archive\n        Downloads",
+        "date": "2023-02-04",
+        "hours": 2,
+        "done": false
+    }
 }
 ]

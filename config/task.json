@@ -21023,6 +21023,18 @@
     "model": "task.task",
     "pk": 16597,
     "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Eli Stone",
+        "date": "2023-02-02",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16598,
+    "fields": {
         "name": "Grow",
         "activity": null,
         "notes": "    night watch: DigitalWorld.ol, Wisdom.ol\n    pick up medicine",
@@ -21033,7 +21045,7 @@
 },
 {
     "model": "task.task",
-    "pk": 16598,
+    "pk": 16599,
     "fields": {
         "name": "Church",
         "activity": null,
@@ -21045,25 +21057,13 @@
 },
 {
     "model": "task.task",
-    "pk": 16599,
+    "pk": 16600,
     "fields": {
         "name": "Write",
         "activity": null,
         "notes": "    Every Life is a Story\n    organize writing notes and outlines\n    build Micropub topical index",
         "date": "2023-02-03",
         "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 16600,
-    "fields": {
-        "name": "Fun",
-        "activity": null,
-        "notes": "    Eli Stone",
-        "date": "2023-02-02",
-        "hours": 2,
         "done": false
     }
 },

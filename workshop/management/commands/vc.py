@@ -1,11 +1,11 @@
-from django.core.management.base import BaseCommand
-from os import chdir, environ, system
-from os.path import exists, join
-from traceback import format_exc
+from os import chdir, system
+from os.path import exists
 from pathlib import Path, PurePath
+from traceback import format_exc
+
+from django.core.management.base import BaseCommand
 
 from publish.shell import shell
-
 
 # ------------------------------
 # Command Interpreter
@@ -19,7 +19,8 @@ class Command(BaseCommand):
         try:
             vc_command(options["script"])
         except:
-            self.stdout.write("** tst Exception (%s) **" % " ".join(options["script"]))
+            self.stdout.write("** tst Exception (%s) **" %
+                              " ".join(options["script"]))
             self.stdout.write(format_exc())
 
 

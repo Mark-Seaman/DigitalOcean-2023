@@ -21133,7 +21133,7 @@
     "fields": {
         "name": "Grow",
         "activity": null,
-        "notes": "    night watch: The Blog Formula, Mulholland",
+        "notes": "    night watch: The Blog Formula, Mulholland (ITAJ)",
         "date": "2023-02-04",
         "hours": 1,
         "done": false
@@ -21171,7 +21171,7 @@
         "activity": null,
         "notes": "    learn about Teachable for Courses and Downloads\n    learn about Video recording with Tella",
         "date": "2023-02-04",
-        "hours": 3,
+        "hours": 2,
         "done": false
     }
 },
@@ -21184,6 +21184,78 @@
         "notes": "    learn about Mac networking\n    copy files from Old Mac to Sea Mac\n        Archive\n        Downloads",
         "date": "2023-02-04",
         "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16611,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Stacie sends email to Jenny about small group leadership\n    discuss service ministry with Ron Leader",
+        "date": "2023-02-04",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16612,
+    "fields": {
+        "name": "People",
+        "activity": null,
+        "notes": "    party at Harata's",
+        "date": "2023-02-04",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16613,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    writing tips Marco Polo",
+        "date": "2023-02-04",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16614,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Black Panther (second attempt)",
+        "date": "2023-02-04",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16615,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: Mulholland on social spirituality ",
+        "date": "2023-02-05",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16616,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    social spirituality and church life\n    my church experience\n    Essential Spirituality (Personal, Church, Social)\n    Organization or Community?\n    Church and Life Stages\n    Seasons of Life",
+        "date": "2023-02-05",
+        "hours": 4,
         "done": false
     }
 }

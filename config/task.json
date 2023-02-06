@@ -21023,18 +21023,6 @@
     "model": "task.task",
     "pk": 16597,
     "fields": {
-        "name": "Fun",
-        "activity": null,
-        "notes": "    Eli Stone",
-        "date": "2023-02-02",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 16598,
-    "fields": {
         "name": "Grow",
         "activity": null,
         "notes": "    night watch: DigitalWorld.ol, Wisdom.ol\n    pick up medicine",
@@ -21045,7 +21033,7 @@
 },
 {
     "model": "task.task",
-    "pk": 16599,
+    "pk": 16598,
     "fields": {
         "name": "Church",
         "activity": null,
@@ -21057,13 +21045,25 @@
 },
 {
     "model": "task.task",
-    "pk": 16600,
+    "pk": 16599,
     "fields": {
         "name": "Write",
         "activity": null,
         "notes": "    Every Life is a Story\n    organize writing notes and outlines\n    build Micropub topical index",
         "date": "2023-02-03",
         "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16600,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Eli Stone",
+        "date": "2023-02-02",
+        "hours": 2,
         "done": false
     }
 },
@@ -21253,9 +21253,93 @@
     "fields": {
         "name": "Church",
         "activity": null,
-        "notes": "    social spirituality and church life\n    my church experience\n    Essential Spirituality (Personal, Church, Social)\n    Organization or Community?\n    Church and Life Stages\n    Seasons of Life",
+        "notes": "    social spirituality and church life\n    my church experience\n    Essential Spirituality (Personal, Church, Social)\n    Organization or Community?\n    Church and Life Stages\n    Seasons of Life\n    discuss church life with Stacie\n    Essential Church Life",
         "date": "2023-02-05",
         "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16617,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Publishing Log\n    send Shrinking World - Feb 3\n    Video Channels",
+        "date": "2023-02-05",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16618,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    copy photos and video to Sea Mac\n    organize photos",
+        "date": "2023-02-05",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16619,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    send Shrinking World - Feb 3\n    send Ghost Invite to family\n    Connections Log",
+        "date": "2023-02-05",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16620,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Black Panther (attempt 3)\n    Eli Stone\n    Sim City (level 50)",
+        "date": "2023-02-05",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16621,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    Transformation & Personality\n    night watch: practice silence\n    weekly reflection and planning",
+        "date": "2023-02-06",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16622,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    shared calendar\n    Masto post",
+        "date": "2023-02-06",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 16623,
+    "fields": {
+        "name": "Code",
+        "activity": null,
+        "notes": "    install Strongbox\n    ",
+        "date": "2023-02-06",
+        "hours": 1,
         "done": false
     }
 }

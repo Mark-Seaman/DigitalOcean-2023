@@ -9,6 +9,7 @@ from .views import (
     PubRedirectView,
     PubUpdateView,
     PubView,
+    SlidesShowView,
 )
 
 urlpatterns = [
@@ -28,6 +29,10 @@ urlpatterns = [
     path("publish/<int:pk>/", PubUpdateView.as_view(), name="blog_edit"),
     path("publish/<int:pk>/delete", PubDeleteView.as_view(), name="blog_delete"),
     path("publish/<str:pub>", PubListView.as_view(), name="blog_detail"),
+    #
+    #
+    path('slides', SlidesShowView.as_view(), name='slideshow'),
+
     #
     # Today's Article
     path("<str:pub>/today", BlogTodayView.as_view()),

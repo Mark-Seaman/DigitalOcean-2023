@@ -11,6 +11,8 @@ from django.views.generic import (
     UpdateView,
 )
 
+from publish.slides import slides_view_context
+
 # from publish.book import book_context
 
 from .pub import get_host, select_blog_doc
@@ -103,3 +105,10 @@ class RandomTweetView(RedirectView):
         blog = "tweet"
         page = "random"
         return pub_redirect(host, blog, page)
+
+
+class SlidesShowView(TemplateView):
+    template_name = 'course_slides.html'
+
+    def get_context_data(self, **kwargs):
+        return slides_view_context(**kwargs)

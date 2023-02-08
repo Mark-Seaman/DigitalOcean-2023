@@ -5,7 +5,7 @@ from django.views.generic import (CreateView, DeleteView, RedirectView,
                                   TemplateView, UpdateView)
 
 from .models import Pub
-from .pub import get_host, pub_redirect, select_blog_doc
+from .pub import doc_view_context, get_host, pub_redirect, select_blog_doc
 from .slides import slides_view_context
 
 
@@ -106,8 +106,7 @@ class WorkshopView(TemplateView):
     template_name = "pub/blog.html"
 
     def get_context_data(self, **kwargs):
-        host = get_host(self.request)
-        blog = kwargs.get("pub", 'tech')
-        doc = kwargs.get("doc", "Index.md")
-        kwargs = select_blog_doc(host, blog, doc)
+        path = 'Documents/shrinking-world.com/workshop/publish/Publish-slides.md'
+        path = 'Documents/shrinking-world.com/workshop/publish/01.md'
+        kwargs = doc_view_context(path=path)
         return kwargs

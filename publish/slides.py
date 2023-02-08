@@ -4,9 +4,11 @@ from re import findall, sub
 from django.template.loader import render_to_string
 
 from course.slides import render_slides
-from publish.files import read_file, read_json, write_file
-from publish.text import text_lines
 from workshop.management.commands.edit import edit_file
+
+from .document import document_body, document_html, document_title
+from .files import read_file, read_json, write_file
+from .text import text_lines
 
 
 def create_index_file(markdown_dir, outline):

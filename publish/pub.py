@@ -51,6 +51,16 @@ def delete_pubs():
     Pub.objects.all().delete()
 
 
+def doc_view_context(**kwargs):
+    path = kwargs.get('path', 'Documents/shrinking-world.com/blog/Index.md')
+    json = kwargs.get('json', 'Documents/shrinking-world.com/blog.json')
+    kwargs = read_json(json)
+    markdown = document_body(read_file(path))
+    kwargs['title'] = document_title(path)
+    kwargs['html'] = document_html(markdown)
+    return kwargs
+
+
 def get_host(request):
     host = request.get_host()
     if not host or host.startswith("127.0.0.1") or host.startswith("localhost"):
@@ -60,19 +70,6 @@ def get_host(request):
 
 def get_pub(name):
     return Pub.objects.get(name=name)
-
-
-def get_pub_folders(pub):
-    def objects(pub, type):
-        return Content.objects.filter(blog=pub, doctype=type).order_by("order")
-
-    def folders(pub):
-        return [(f, docs(f)) for f in objects(pub, "folder")]
-
-    def docs(folder):
-        return objects(pub, "chapter").filter(folder=folder)
-
-    return folders
 
 
 def get_pub_contents(pub):
@@ -101,6 +98,18 @@ def get_pub_contents(pub):
     return folders
 
 
+def get_pub_folders(pub):
+    def objects(pub, type):
+        return Content.objects.filter(blog=pub, doctype=type).order_by("order")
+
+    def folders(pub):
+        return [(f, docs(f)) for f in objects(pub, "folder")]
+
+    def docs(folder):
+        return objects(pub, "chapter").filter(folder=folder)
+
+    return folders
+
 # def import_pubs(pub=None):
 #     text = ""
 #     pubs = [pub] if pub else all_pubs()
@@ -115,11 +124,6 @@ def get_pub_contents(pub):
 
 def list_content(pub):
     return [c for c in Content.objects.filter(blog=pub)]
-
-
-def show_pub_contents():
-    pubs = [pub_contents(pub) for pub in all_pubs()]
-    return text_join(pubs)
 
 
 def pub_redirect(host, pub, doc):
@@ -158,6 +162,11 @@ def show_pub_content(pub):
         for d in f.get("documents"):
             text += f"\n     {d}\n"
     return text
+
+
+def show_pub_contents():
+    pubs = [pub_contents(pub) for pub in all_pubs()]
+    return text_join(pubs)
 
 
 def select_blog_doc(host, blog, doc):
@@ -220,10 +229,6 @@ def show_pub_words(pub=None):
     return text
 
 
-def word_count_file(pub):
-    return Path("Documents/markseaman.info") / "words" / pub.name
-
-
 def show_pub_json():
     return text_join([j.read_text() for j in Path("static/js").iterdir()])
 
@@ -265,3 +270,7 @@ def show_pub_summaries(pub=None):
         return text
 
     return pub_summaries(pub)
+
+
+def word_count_file(pub):
+    return Path("Documents/markseaman.info") / "words" / pub.name

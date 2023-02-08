@@ -1,10 +1,33 @@
-from django.template.loader import render_to_string
+from os import system
 from re import findall, sub
+
+from django.template.loader import render_to_string
 
 from course.slides import render_slides
 from publish.files import read_file, read_json, write_file
 from publish.text import text_lines
 from workshop.management.commands.edit import edit_file
+
+
+def create_index_file(markdown_dir, outline):
+    def link(topic):
+        return f"[{topic[1]}]({f'{(topic[0]+1):02}.md'})"
+
+    docs = [link(topic) for topic in find_subtopics(outline)]
+    topic = text_lines(outline)[0]
+    data = dict(title=topic, docs=docs)
+    text = render_to_string("pub/pub_index.md", data)
+    md = f'{markdown_dir}/Index.md'
+    write_file(md, text)
+    return md
+
+
+def create_markdown_files(outline_file, markdown_dir):
+    text = read_file(outline_file)
+    index = create_index_file(markdown_dir, text)
+    for topic in find_subtopics(text):
+        create_topic_file(markdown_dir, topic)
+    return index
 
 
 def create_slides(args):
@@ -26,39 +49,14 @@ def create_slides(args):
                 x += f'* {line}\n'
         return x
 
-    outline_file = 'Documents/shrinking-world.com/slides/Publish.ol'
-    markdown_file = 'Documents/shrinking-world.com/slides/Publish.md'
+    outline_file = 'Documents/shrinking-world.com/workshop/publish/Publish.ol'
+    markdown_file = 'Documents/shrinking-world.com/workshop/publish/Publish-slides.md'
     text = read_file(outline_file)
     text = slides(text)
     write_file(markdown_file, text)
+    system('open http://localhost:8002/slides')
+    system('open http://localhost:8002/workshop')
     return markdown_file
-
-
-def plant(args):
-    outline_file = f'Documents/shrinking-world.com/greenhouse/{args[0]}'
-    markdown_dir = args[1]
-    return create_markdown_files(outline_file, markdown_dir)
-
-
-def create_markdown_files(outline_file, markdown_dir):
-    text = read_file(outline_file)
-    index = create_index_file(markdown_dir, text)
-    for topic in find_subtopics(text):
-        create_topic_file(markdown_dir, topic)
-    return index
-
-
-def create_index_file(markdown_dir, outline):
-    def link(topic):
-        return f"[{topic[1]}]({f'{(topic[0]+1):02}.md'})"
-
-    docs = [link(topic) for topic in find_subtopics(outline)]
-    topic = text_lines(outline)[0]
-    data = dict(title=topic, docs=docs)
-    text = render_to_string("pub/pub_index.md", data)
-    md = f'{markdown_dir}/Index.md'
-    write_file(md, text)
-    return md
 
 
 def create_topic_file(markdown_dir, topic):
@@ -80,9 +78,15 @@ def markdown(args):
     edit_file(md)
 
 
+def plant(args):
+    outline_file = f'Documents/shrinking-world.com/greenhouse/{args[0]}'
+    markdown_dir = args[1]
+    return create_markdown_files(outline_file, markdown_dir)
+
+
 def slides_view_context(**kwargs):
-    json = f"Documents/shrinking-world.com/slides/slides_settings.json"
-    md_path = f'Documents/shrinking-world.com/slides/Publish.md'
+    json = f"Documents/shrinking-world.com/workshop/publish/slides_settings.json"
+    md_path = f'Documents/shrinking-world.com/workshop/publish/Publish-slides.md'
     kwargs = read_json(json)
     md_text = read_file(md_path)
     text = render_slides(md_text, **kwargs)

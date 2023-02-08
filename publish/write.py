@@ -1,13 +1,15 @@
-from django.utils.timezone import localdate
-from django.template.loader import render_to_string
 from pathlib import Path
+
+from django.template.loader import render_to_string
+from django.utils.timezone import localdate
 
 from publish.models import Content
 from publish.slides import create_slides, markdown, plant
 from publish.text import text_lines
+from workshop.management.commands.edit import edit_file
+
 from .pub import get_pub, show_pub_summaries, show_pub_words
 from .seamanslog import create_toot_file, random_article
-from workshop.management.commands.edit import edit_file
 
 
 def write_blog(args=[]):

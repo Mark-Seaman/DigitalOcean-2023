@@ -1,16 +1,9 @@
 from django.contrib import admin
 from django.urls import path
-from .views import (
-    BlogTodayView,
-    PubCreateView,
-    PubDeleteView,
-    PubDetailView,
-    PubListView,
-    PubRedirectView,
-    PubUpdateView,
-    PubView,
-    SlidesShowView,
-)
+
+from .views import (BlogTodayView, PubCreateView, PubDeleteView, PubDetailView,
+                    PubListView, PubRedirectView, PubUpdateView, PubView,
+                    SlideShowView, WorkshopView)
 
 urlpatterns = [
     #
@@ -30,8 +23,9 @@ urlpatterns = [
     path("publish/<int:pk>/delete", PubDeleteView.as_view(), name="blog_delete"),
     path("publish/<str:pub>", PubListView.as_view(), name="blog_detail"),
     #
-    #
-    path('slides', SlidesShowView.as_view(), name='slideshow'),
+    # Workshop
+    path('slides', SlideShowView.as_view(), name='slideshow'),
+    path('workshop', WorkshopView.as_view(), name='workshop'),
 
     #
     # Today's Article

@@ -1,0 +1,13 @@
+{
+  "title": "Publishing for Writers",
+  "author": "Mark Seaman",
+  "organization": "Shrinking World",
+  "cover": "/static/images/shrinking-world.com/bacs350/autumn-leaves.jpg",
+  "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
+  "theme": "white.css",
+  "stylesheet": "/static/css/slides.css",
+  "images": "/static/images/shrinking-world.com/bacs350",
+  "divider": "/static/images/shrinking-world.com/bacs350/autumn-leaves.jpg",
+  "background": "/static/images/shrinking-world.com/bacs350/paper.jpg",
+  "intro": false
+}

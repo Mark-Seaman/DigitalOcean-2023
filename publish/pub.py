@@ -1,12 +1,13 @@
-from random import choice
 from pathlib import Path
+from random import choice
 
 from .document import document_body, document_html, document_title
 from .files import read_file, read_json, write_file
 from .import_export import create_pubs, import_pub, save_data
 from .models import Content, Pub
 from .text import text_join, word_count
-from .toc import create_pub_index, pub_contents, show_word_count, table_of_contents
+from .toc import (create_pub_index, pub_contents, show_word_count,
+                  table_of_contents)
 
 
 def all_blogs():

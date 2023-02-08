@@ -1,23 +1,12 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
 from django.utils.timezone import localtime
-from django.views.generic import (
-    CreateView,
-    DeleteView,
-    DetailView,
-    ListView,
-    RedirectView,
-    TemplateView,
-    UpdateView,
-)
+from django.views.generic import (CreateView, DeleteView, RedirectView,
+                                  TemplateView, UpdateView)
 
-from publish.slides import slides_view_context
-
-# from publish.book import book_context
-
-from .pub import get_host, select_blog_doc
-from .pub import pub_redirect
 from .models import Pub
+from .pub import get_host, pub_redirect, select_blog_doc
+from .slides import slides_view_context
 
 
 class BlogTodayView(RedirectView):
@@ -87,8 +76,9 @@ class PubDeleteView(LoginRequiredMixin, DeleteView):
     success_url = reverse_lazy("blog_list")
 
 
-class TweetView(TemplateView):
-    template_name = "tweet.html"
+class RandomTweetView(RedirectView):
+    def get_redirect_url(self, *args, **kwargs):
+        template_name = "tweet.html"
 
     def get_context_data(self, **kwargs):
         host = get_host(self.request)
@@ -98,17 +88,26 @@ class TweetView(TemplateView):
         return select_blog_doc(host, blog, doc)
 
 
-class RandomTweetView(RedirectView):
-    def get_redirect_url(self, *args, **kwargs):
-        host = get_host(self.request)
-        host = "shrinking-world.com"
-        blog = "tweet"
-        page = "random"
-        return pub_redirect(host, blog, page)
-
-
-class SlidesShowView(TemplateView):
+class SlideShowView(TemplateView):
     template_name = 'course_slides.html'
 
     def get_context_data(self, **kwargs):
         return slides_view_context(**kwargs)
+
+
+# class TweetView(TemplateView):
+#     host = get_host(self.request)
+#     host = "shrinking-world.com"
+#     blog = "tweet"
+#     page = "random"
+#     return pub_redirect(host, blog, page)
+
+class WorkshopView(TemplateView):
+    template_name = "pub/blog.html"
+
+    def get_context_data(self, **kwargs):
+        host = get_host(self.request)
+        blog = kwargs.get("pub", 'tech')
+        doc = kwargs.get("doc", "Index.md")
+        kwargs = select_blog_doc(host, blog, doc)
+        return kwargs

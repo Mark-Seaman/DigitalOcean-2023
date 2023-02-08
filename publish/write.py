@@ -4,7 +4,7 @@ from django.template.loader import render_to_string
 from django.utils.timezone import localdate
 
 from publish.models import Content
-from publish.slides import create_slides, markdown, plant
+from publish.slides import create_slides, markdown, plant, write_workshop
 from publish.text import text_lines
 from workshop.management.commands.edit import edit_file
 
@@ -40,8 +40,7 @@ def write_blog(args=[]):
     elif args[0] == 'render':
         return write_render(args[1:])
     elif args[0] == 'slides':
-        f = create_slides(args[1:])
-        return edit_file(f)
+        return create_slides(args[1:])
     elif args[0] == 'spiritual':
         today = localdate().strftime("%m/%d") + ".md"
         args[0] = f"Documents/spiritual-things.org/daily/{today}"
@@ -52,6 +51,8 @@ def write_blog(args=[]):
         edit_file(args)
     elif args[0] == 'words':
         write_words(args[1:])
+    elif args[0] == 'workshop':
+        write_workshop(args[1:])
     else:
         write_pub(args)
 

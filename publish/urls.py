@@ -3,7 +3,7 @@ from django.urls import path
 
 from .views import (BlogTodayView, PubCreateView, PubDeleteView, PubDetailView,
                     PubListView, PubRedirectView, PubUpdateView, PubView,
-                    SlideShowView, WorkshopView)
+                    SlideShowView, WorkshopRedirectView, WorkshopView)
 
 urlpatterns = [
     #
@@ -25,7 +25,8 @@ urlpatterns = [
     #
     # Workshop
     path('slides', SlideShowView.as_view(), name='slideshow'),
-    path('workshop', WorkshopView.as_view(), name='workshop'),
+    path('workshop/<str:pub>', WorkshopRedirectView.as_view()),
+    path('workshop/<str:pub>/<str:doc>', WorkshopView.as_view()),
 
     #
     # Today's Article

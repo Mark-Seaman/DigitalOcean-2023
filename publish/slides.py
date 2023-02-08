@@ -1,4 +1,5 @@
 from os import system
+from pathlib import Path
 from re import findall, sub
 
 from django.template.loader import render_to_string
@@ -33,6 +34,7 @@ def create_markdown_files(outline_file, markdown_dir):
 
 
 def create_slides(args):
+
     def slides(text):
         x = ''
         for line in text_lines(text):
@@ -51,13 +53,15 @@ def create_slides(args):
                 x += f'* {line}\n'
         return x
 
-    outline_file = 'Documents/shrinking-world.com/workshop/publish/Publish.ol'
-    markdown_file = 'Documents/shrinking-world.com/workshop/publish/Publish-slides.md'
+    if args:
+        outline_file = args[0] + '.ol'
+    else:
+        outline_file = 'Documents/shrinking-world.com/workshop/publish/Publish.ol'
+    markdown_file = outline_file.replace('.ol', '-slides.md')
     text = read_file(outline_file)
     text = slides(text)
     write_file(markdown_file, text)
     system('open http://localhost:8002/slides')
-    system('open http://localhost:8002/workshop')
     return markdown_file
 
 
@@ -87,8 +91,10 @@ def plant(args):
 
 
 def slides_view_context(**kwargs):
-    json = f"Documents/shrinking-world.com/workshop/publish/slides_settings.json"
-    md_path = f'Documents/shrinking-world.com/workshop/publish/Publish-slides.md'
+    pub = kwargs.get('pub', 'publish')
+    doc = kwargs.get('doc', 'Publish')
+    json = f"Documents/shrinking-world.com/workshop/{pub}/slides_settings.json"
+    md_path = f'Documents/shrinking-world.com/workshop/{pub}/{doc}-slides.md'
     kwargs = read_json(json)
     md_text = read_file(md_path)
     text = render_slides(md_text, **kwargs)
@@ -96,8 +102,65 @@ def slides_view_context(**kwargs):
     return kwargs
 
 
+def write_lesson_files(path):
+
+    def write_lesson(path, text):
+        if not Path(path).exists():
+
+            text += '''
+        
+## Video
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" src="https://www.tella.tv/video/cldtdbws0030n0fld7qun3l85/embed" allowfullscreen allowtransparency></iframe></div>
+
+## Learn More
+
+* [Publishing for Writers Slides](slides)
+* [Publishing](Publish-1.md)
+* [Publishing Tools](Publish-2.md)
+* [Publishing Requirements](Publish-3.md)
+* [Four biggest mistakes](Publish-4.md)
+* [Use Ghost](Publish-5.md)
+'''
+            write_file(path, text)
+
+    text = read_file(path+'.ol')
+    x = ''
+    lesson = 0
+    for line in text_lines(text):
+        if not line:
+            x += f'{line}\n'
+        elif not line.startswith('    '):
+            x += f'# {line}\n'
+        elif not line.startswith('        '):
+            lesson += 1
+            write_lesson(f'{path}-{lesson}.md', x)
+            x = ''
+            line = line.replace('    ', '')
+            x += f'\n\n## {line}\n'
+        elif not line.startswith('            '):
+            line = line.replace('        ', '')
+            x += f'\n### {line}\n'
+        else:
+            line = line.replace('            ', '')
+            x += f'* {line}\n'
+
+    write_lesson(f'{path}-{lesson+1}.md', x)
+    # print(x)
+    return x
+
+
 def write_markdown(outline_file, markdown_file):
     text = read_file(outline_file)
     text = text.replace('\n', '\n\n# ')
     text = '# ' + text.replace('    ', '#')
     write_file(markdown_file, text)
+
+
+def write_workshop(args):
+    path = 'Documents/shrinking-world.com/workshop/publish/Publish'
+    print("WORKSHOP: ", path, args)
+    write_lesson_files(path)
+    create_slides([path])
+    edit_file(path+'-slides.md')
+    system('open http://localhost:8002/workshop/publish')

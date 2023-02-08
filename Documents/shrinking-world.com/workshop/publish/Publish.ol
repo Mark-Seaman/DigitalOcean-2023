@@ -1,6 +1,6 @@
-Publish your Writing
+Publishing for Writers
 
-    1 - Writers need to publish
+    Publishing Economics
 
         Clarity brings freedom
             Why do you write?
@@ -13,19 +13,18 @@ Publish your Writing
             Economic and Business Models
             How we consume information
         Modern Publishing
-            Content creators
-            Digital marketing
+            Content Creator Economy
+            Electronic Publication + Digital Marketing
             Web based solutions for creation and distribution
             Blogs, Video Channels, Podcast
             Mobile devices and multimedia
-            Content Creator Economy
         Use what works
             Start simple - start now
             You can be publishing content today
             This will bring your writing to life
             Learn the best practices
 
-    2 - Publishing Requirements
+    Publishing Tools
 
         Select powerful yet simple tools
             Powerful tools have a steep learning curve
@@ -50,7 +49,7 @@ Publish your Writing
             Create a regular rhythm for publishing
             Start with five posts of one page each
 
-    3 - Four biggest mistakes
+    Four Biggest Mistakes
 
         Try to be someone else
             You must be authentic
@@ -72,7 +71,7 @@ Publish your Writing
             Review and refine
             It doesn't have to be perfect
 
-    4 - Use Ghost to build a website
+    Build a Website
 
         Excellent resources
             [Ghost Creator Economy](https://ghost.org/)

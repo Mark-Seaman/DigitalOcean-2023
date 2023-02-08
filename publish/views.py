@@ -102,11 +102,21 @@ class SlideShowView(TemplateView):
 #     page = "random"
 #     return pub_redirect(host, blog, page)
 
+class WorkshopRedirectView(RedirectView):
+    url = '/workshop/publish/Publish-1.md'
+    # def get_redirect_url(self, *args, **kwargs):
+    #     host = get_host(self.request)
+    #     pub = kwargs.get("pub")
+    #     doc = kwargs.get("doc", 'Index.md')
+    #     return pub_redirect(host, pub, doc)
+
+
 class WorkshopView(TemplateView):
     template_name = "pub/blog.html"
 
     def get_context_data(self, **kwargs):
-        path = 'Documents/shrinking-world.com/workshop/publish/Publish-slides.md'
-        path = 'Documents/shrinking-world.com/workshop/publish/01.md'
+        # path = 'Documents/shrinking-world.com/workshop/publish/Publish-slides.md'
+        doc = kwargs.get('doc', 'Publish-1.md')
+        path = f'Documents/shrinking-world.com/workshop/publish/{doc}'
         kwargs = doc_view_context(path=path)
         return kwargs

@@ -1,7 +1,16 @@
+# Part 5 - Build a Website
+
+## Publishing for Writers Workshop
+
+* [Publishing for Writers Slides](/slides)
+* Part 1 - [Publishing for Writers](Publish-1.md)
+* Part 2 - [Publishing Economics](Publish-2.md)
+* Part 3 - [Publishing Tools](Publish-3.md)
+* Part 4 - [Four Biggest Mistakes](Publish-4.md)
+* Part 5 - [Build a Website](Publish-5.md)
 
 
-## Build a Website
-
+## Notes
 
 ### Excellent resources
 * [Ghost Creator Economy](https://ghost.org/)
@@ -27,13 +36,4 @@
         
 ## Video
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" src="https://www.tella.tv/video/cldtdbws0030n0fld7qun3l85/embed" allowfullscreen allowtransparency></iframe></div>
-
-## Learn More
-
-* [Publishing for Writers Slides](slides)
-* [Publishing](Publish-1.md)
-* [Publishing Tools](Publish-2.md)
-* [Publishing Requirements](Publish-3.md)
-* [Four biggest mistakes](Publish-4.md)
-* [Use Ghost](Publish-5.md)
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" src="https://www.tella.tv/video/cldwbblkd00000flhbrpq14aw/embed" allowfullscreen allowtransparency></iframe></div>

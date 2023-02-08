@@ -93,7 +93,7 @@ def create_toot_file():
             return article["doc"]
 
     date = localdate()
-    path = Path("Documents/mastodon/mdseaman") / date.strftime("_%m%d")
+    path = Path("Documents/mastodon/mdseaman") / date.strftime("%m/_%d")
     for retry in range(5):
         source = create_toot(path)
         if source:

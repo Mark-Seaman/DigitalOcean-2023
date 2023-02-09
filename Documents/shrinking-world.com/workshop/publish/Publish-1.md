@@ -9,7 +9,6 @@
 * Part 4 - [Four Biggest Mistakes](Publish-4.md)
 * Part 5 - [Build a Website](Publish-5.md)
 
-# Publishing 
 
 Learn about the dynamics of modern publishing. Learn how to publish your own content in a way that matches how people read today.  Build a website to share your creative content to others.  Get started on your writing projects.
 

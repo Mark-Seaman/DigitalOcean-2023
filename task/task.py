@@ -276,7 +276,7 @@ def task_import_files(days=7):
         path = join(history, date.replace("-", "/"))
         if exists(path):
             text = open(path).read()
-            print(path)
+            # print(path)
             tasks = []
             notes = []
 
@@ -308,6 +308,7 @@ def task_import_files(days=7):
         return t
 
     for d in recent_dates(days):
+        # d = '2022-06-24'
         read_task_file(d)
     save_data()
 

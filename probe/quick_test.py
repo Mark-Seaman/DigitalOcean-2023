@@ -22,7 +22,7 @@ def quick_test():
 
 
 def task():
-    days = 300
+    days = 1000
     # Task.objects.all().delete()
     task_import_files(days)
     print(fix_tasks())

@@ -28,7 +28,8 @@ def code_search(word):
 
 
 def doc_files():
-    files = recursive_files('Documents', ['/history/', 'info/Test', '.DS_Store', '.git'])
+    files = recursive_files(
+        'Documents', ['/history/', 'info/Test', '.DS_Store', '.git'])
     return [join('Documents', f) for f in files]
 
 
@@ -97,7 +98,7 @@ def python_code_files(path='.'):
 
     def exclude(p):
         f = str(p)
-        return (f.startswith('env') or
+        return (f.startswith('.venv') or
                 f.startswith('.git') or
                 f.startswith('Temp') or
                 f.startswith('Github') or
@@ -109,14 +110,14 @@ def python_code_files(path='.'):
 
 
 def source_code():
-    return '\n'.join([open(code).read() for code in code_files()])
+    return '\n'.join([open(code).read() for code in python_code_files()])
 
 
 def template_files(path='.'):
 
     def exclude(p):
         f = str(p)
-        return (f.startswith('env') or
+        return (f.startswith('.venv') or
                 f.startswith('.git') or
                 f.startswith('.Documents/') or
                 f.startswith('Temp') or

@@ -165,8 +165,12 @@ def is_writable(path):
     return access(dirname(path), W_OK) and (not exists(path) or access(path, W_OK))
 
 
-def join_files(file_list):
-    return text_join([read_file(f) for f in file_list])
+# def join_files(file_list):
+#     return text_join([read_file(f) for f in file_list])
+
+
+def join_files(files):
+    return text_join([Path(f).read_text() for f in files])
 
 
 # Return the files as a list

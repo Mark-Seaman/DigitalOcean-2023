@@ -1,12 +1,14 @@
 from datetime import datetime, timedelta
 from os import system
+from pathlib import Path
+from re import findall, sub
 from django.db.models import Sum
 from django.template.loader import render_to_string
 from os.path import exists, join
 
 from publish.days import recent_dates
-from publish.text import text_lines
-from task.models import Activity, Task
+from publish.text import text_join, text_lines
+from task.models import Activity, Task, TaskType
 
 
 def task_dates(days=7):
@@ -35,13 +37,19 @@ def task_dates(days=7):
     # return [daily_report(t) for t in dates]
 
 
-def bad_days():
-    end = datetime.now()
-    start = end - timedelta(days=365)
-    tasks = Task.objects.filter(date__gt=start, date__lte=end)
-    totals = tasks.values("date").annotate(
-        task_hours=Sum("hours")).order_by("-date")
-    return [(str(t["date"]), t["task_hours"]) for t in totals if t["task_hours"] != 14]
+# def bad_days():
+#     end = datetime.now()
+#     start = end - timedelta(days=365)
+#     tasks = Task.objects.filter(date__gt=start, date__lte=end)
+#     totals = tasks.values("date").annotate(
+#         task_hours=Sum("hours")).order_by("-date")
+#     return [(str(t["date"]), t["task_hours"]) for t in totals if t["task_hours"] != 14]
+
+def missing_days(days):
+    for d in recent_dates(days):
+        if not Task.objects.filter(date=d):
+            print(f'Missing {d}')
+    return 'x'
 
 
 def bad_days_data(days):
@@ -66,6 +74,57 @@ def combine_work_tasks(table, total):
     if total != 0:
         results = [("Work", work, "%4.0f" % (work * 100 / total))] + results
         return results
+
+
+def fix_tasks():
+    def find_tasks(text):
+        return findall(r'\n[A-Z][a-z]* *\d*', text)
+
+    def replace_task(t1, t2, text):
+        return sub(rf'\n{t1} *(\d*)', fr'\n{t2} \1', text)
+
+    def task_in_files(task):
+        directory = Path("Documents/markseaman.info/history")
+        for path in directory.rglob("*/*"):
+            if path.is_file():
+                text = path.read_text()
+                tasks = findall(rf'\n{task} *\d*', text)
+                if tasks:
+                    print(path, tasks)
+
+    def rename_task(old_task, new_task):
+        directory = Path("Documents/markseaman.info/history")
+        for path in directory.rglob("*/??"):
+            if path.is_file():
+                # print(path)
+                text = path.read_text()
+                text = replace_task(old_task, new_task, text)
+                path.write_text(text)
+
+    def show_activities():
+        for a in Activity.objects.all():
+            print(a.type.name, a.name)
+
+    def define_activity(name, type):
+        type = TaskType.objects.get_or_create(name=type)[0]
+        return Activity.objects.get_or_create(name=name, type=type)[0]
+
+    def setup_activities():
+        define_activity('Family', 'People')
+        define_activity('Learn', 'Work')
+        define_activity('Software', 'Work')
+        define_activity('ProMETA', 'Work')
+
+        # rename_task('Family', 'People')
+        rename_task('Tools', 'Code')
+        rename_task('Code', 'Software')
+        rename_task('Career', 'Business')
+        # rename_task('Networking', 'Business')
+
+        task_in_files('Career')
+
+    setup_activities()
+    show_activities()
 
 
 def import_tasks():

@@ -4,6 +4,7 @@ from re import findall, sub
 from django.template.loader import render_to_string
 
 from course.course import get_course, weekly_content
+from probe.probe_coder import test_coder_probe_source,  test_coder_python_source, test_coder_templates
 from probe.probe_documents import test_documents_fix_chars
 from publish.import_export import import_pub
 from publish.models import Content, Pub
@@ -22,7 +23,7 @@ from publish.toc import (
     write_content_csv,
 )
 from task.models import Activity, Task, TaskType
-from task.task import show_task_summary
+from task.task import fix_tasks, missing_days, show_task_summary, task_import_files
 from task.todo import edit_todo_list
 
 
@@ -35,55 +36,13 @@ def quick_test():
 
 
 def task():
-    fix_tasks()
-    print(show_task_summary())
-    # print(time_summary())
+    days = 30
     # Task.objects.all().delete()
-    # task_import_files(366)
-
-
-def fix_tasks():
-    def find_tasks(text):
-        return findall(r'\n[A-Z][a-z]* *\d*', text)
-
-    def replace_task(t1, t2, text):
-        return sub(rf'\n{t1} *(\d*)', fr'\n{t2} \1', text)
-
-    def task_in_files(task):
-        directory = Path("Documents/markseaman.info/history")
-        for path in directory.rglob("*/*"):
-            if path.is_file():
-                text = path.read_text()
-                tasks = findall(rf'\n{task} *\d*', text)
-                if tasks:
-                    print(path, tasks)
-
-    def rename_task(old_task, new_task):
-        directory = Path("Documents/markseaman.info/history")
-        for path in directory.rglob("*/??"):
-            if path.is_file():
-                # print(path)
-                text = path.read_text()
-                text = replace_task(old_task, new_task, text)
-                path.write_text(text)
-
-    def show_activities():
-        for a in Activity.objects.all():
-            print(a.type.name, a.name)
-
-    show_activities()
-    # define_activity('People', 'People')
-    # define_activity('Learn', 'Work')
-    # rename_task('Family', 'People')
-    # rename_task('Tools', 'Code')
-    # rename_task('Career', 'Business')
-    # rename_task('Networking', 'Business')
-    # task_in_files('Career')
-
-
-def define_activity(name, type):
-    type = TaskType.objects.get_or_create(name=type)[0]
-    return Activity.objects.get_or_create(name=name, type=type)[0]
+    task_import_files(days)
+    fix_tasks()
+    print(missing_days(days))
+    print(show_task_summary(days=8))
+    # print(time_summary())
 
 
 def write():

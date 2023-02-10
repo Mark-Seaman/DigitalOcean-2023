@@ -1,51 +1,39 @@
 from pathlib import Path
 
 from django.utils.timezone import localdate
-from publish.files import read_file
+from publish.files import join_files, read_file
 
-from publish.text import text_join
+from publish.text import text_join, text_lines
 from probe.probe import check_file_count, check_line_count
-from workshop.file_search import probe_files, python_code_files, template_files
+from workshop.file_search import probe_files, python_code_files, source_code, template_files
 
 
-def test_app_spec():
+def test_coder_app_spec():
     return read_file("config/app.yaml")
 
 
-def test_python_files():
-    return "test_python_files: Python Code " + check_file_count(
-        python_code_files(), 110, 130
-    )
-
-
-def test_template_files():
-    return "test_template_files: Templates " + check_file_count(
-        template_files(), 120, 160
-    )
-
-
-def test_probe_files():
-    return "test_probe_files: Probes " + check_file_count(probe_files(), 11, 13)
-
-
-def test_date():
+def test_coder_date():
     return localdate().strftime("%Y-%m-%d")
 
 
-def test_python_source():
-    return text_join(python_code_files())
+def test_coder_probe_source():
+    files = probe_files()
+    text = text_join(files) + '\n'
+    code = join_files(files)
+    text += code + '\n'
+    text += check_line_count("Probe Code ", code, 360, 365)
+    return text
 
 
-def test_templates_source():
-    return text_join(template_files())
+def test_coder_python_source():
+    files = python_code_files()
+    text = text_join(files) + '\n'
+    code = join_files(files)
+    text += check_line_count("Python code", code, 9000, 9200) + '\n'
+    return text
 
 
-def test_probe_source():
-    return text_join(probe_files())
-
-
-def test_python_lines():
-    text = ""
-    for f in python_code_files():
-        text += Path(f).read_text()
-    return check_line_count("Python code", text, 7000, 9000)
+def test_coder_templates():
+    text = "test_template_files: Templates " + \
+        check_file_count(template_files(), 120, 160)
+    return text + text_join(template_files())

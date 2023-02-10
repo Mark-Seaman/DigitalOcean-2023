@@ -61,6 +61,7 @@ alias build='d && pm build'
 alias epub='d $w && open textbook.epub'
 alias dropbox='cp $w/textbook.epub ~/Dropbox/Stacie-Mark/PythonWebApps'
 alias m='e Documents/mastodon'
+alias a='d ~/Archive'
 
 # Linux command context
 alias g='grep --color=auto'

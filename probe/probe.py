@@ -3,9 +3,9 @@ from os import listdir
 from requests import get
 from traceback import format_exc
 
-from publish.files import recursive_files
+from publish.files import join_files, recursive_files
 from publish.shell import banner
-from publish.text import text_lines
+from publish.text import text_join, text_lines
 from probe.models import Probe, TestResult
 
 
@@ -163,6 +163,15 @@ def run_tests():
     for probe in Probe.objects.all():
         print(probe.name)
         result = execute_probe(probe)
+
+
+def show_files(label, files, min, max):
+    f = files()
+    text = text_join(f) + '\n'
+    code = join_files(f)
+    # text += code + '\n'
+    text += check_line_count(label, code, min, max)
+    return text
 
 
 def test_results():

@@ -74,8 +74,8 @@ def fix_tasks(**kwargs):
         define_activity('Software', 'Work')
         define_activity('ProMETA', 'Work')
 
-        # rename_task('Family', 'People')
-        # rename_task('Tools', 'Code')
+        rename_task('People', 'Family')
+        rename_task('Tools', 'Software')
         # rename_task('Code', 'Software')
         # rename_task('Career', 'Business')
         # rename_task('Networking', 'Business')
@@ -276,7 +276,7 @@ def task_import_files(days=7):
         path = join(history, date.replace("-", "/"))
         if exists(path):
             text = open(path).read()
-            # print(path)
+            print(path)
             tasks = []
             notes = []
 

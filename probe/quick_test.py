@@ -24,9 +24,9 @@ def quick_test():
 def task():
     days = 300
     # Task.objects.all().delete()
-    # task_import_files(days)
+    task_import_files(days)
     print(fix_tasks())
-    # print(missing_days(days))
+    print(missing_days(days))
     # print(show_task_summary(days=300))
     # print(time_summary())
 

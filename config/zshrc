@@ -86,7 +86,7 @@ alias deploy='pm vc deploy'
 # Django aliases
 alias pm='python manage.py'
 alias r='pm runserver 8000'
-alias t='pm test'
+alias t='reset && pm tst run'
 alias serve='pm runserver 8000'
 alias dt='pm test'
 alias migrate='pm makemigrations && pm migrate'

@@ -12,17 +12,6 @@ from publish.text import text_join, text_lines
 from task.models import Activity, Task, TaskType
 
 
-def task_dates(days=7):
-
-    tasks = Task.objects.all()
-    if days != "all":
-        tasks = time_filter(Task.objects.all(), days)
-
-    dates = tasks.order_by("date").values("date").distinct()
-    dates = [t["date"].strftime("%Y/%m/%d") for t in dates]
-    return dates
-
-
 def bad_days_data(days):
     end = datetime.now()
     start = end - timedelta(days=days)
@@ -86,12 +75,12 @@ def fix_tasks(**kwargs):
         define_activity('ProMETA', 'Work')
 
         # rename_task('Family', 'People')
-        rename_task('Tools', 'Code')
-        rename_task('Code', 'Software')
-        rename_task('Career', 'Business')
+        # rename_task('Tools', 'Code')
+        # rename_task('Code', 'Software')
+        # rename_task('Career', 'Business')
         # rename_task('Networking', 'Business')
+        # task_in_files('Career')
 
-        task_in_files('Career')
     days = kwargs.get('days', 8)
     setup_activities()
     return show_activities()
@@ -227,6 +216,24 @@ def show_task_summary(**kwargs):
     return f"{output}\n\nTotal Hours: {total}"
 
 
+def task_command(command):
+    if not command:
+        days = 1
+    elif command[0] == 'day':
+        days = 1
+    elif command[0] == 'week':
+        days = 8
+    elif command[0] == 'month':
+        days = 31
+    elif command[0] == 'year':
+        days = 366
+    else:
+        days = None
+    if days:
+        import_tasks()
+        return show_task_summary(days=days)
+
+
 def tabs_data(tables):
     def options(i, tab, selected):
         data = tab
@@ -246,22 +253,15 @@ def tabs_data(tables):
     return set_options(tables)
 
 
-def task_command(command):
-    if not command:
-        days = 1
-    elif command[0] == 'day':
-        days = 1
-    elif command[0] == 'week':
-        days = 8
-    elif command[0] == 'month':
-        days = 31
-    elif command[0] == 'year':
-        days = 366
-    else:
-        days = None
-    if days:
-        import_tasks()
-        return show_task_summary(days=days)
+def task_dates(days=7):
+
+    tasks = Task.objects.all()
+    if days != "all":
+        tasks = time_filter(Task.objects.all(), days)
+
+    dates = tasks.order_by("date").values("date").distinct()
+    dates = [t["date"].strftime("%Y/%m/%d") for t in dates]
+    return dates
 
 
 def task_filter(tasks, activity):

@@ -90,7 +90,7 @@ class PubDataTest(TestCase):
 class PubInputOutputTest(DjangoTest):
     def test_build_blogs(self):
         build_pubs()
-        self.assertEqual(len(Pub.objects.all()), 12)
+        self.assertEqual(len(Pub.objects.all()), 13)
         num = len(Content.objects.all())
         self.assertRange(num, 1110, 1130, "Blog Contents")
 
@@ -110,7 +110,7 @@ class FixtureTest(DjangoTest):
         self.assertRange(len(all_books()), 5, 5)
 
     def test_blog_list(self):
-        self.assertRange(len(all_blogs()), 5, 6)
+        self.assertRange(len(all_blogs()), 5, 7)
 
 
 # -----------------------

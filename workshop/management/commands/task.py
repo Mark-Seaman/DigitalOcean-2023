@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 
-from task.task import import_tasks, show_task_summary
+from task.task import import_tasks, show_task_summary, task_command
 
 
 class Command(BaseCommand):
@@ -11,21 +11,5 @@ class Command(BaseCommand):
         self.stdout.write("usage: write [blog|tech|masto|review|words]")
 
     def handle(self, *args, **options):
-        x = options.get("command")
-        if not x:
-            days = 1
-        elif x[0] == 'day':
-            days = 1
-        elif x[0] == 'week':
-            days = 8
-        elif x[0] == 'month':
-            days = 31
-        elif x[0] == 'year':
-            days = 366
-        else:
-            days = None
-        if days:
-            import_tasks()
-            text = show_task_summary(days=days)
-            if text:
-                self.stdout.write(text)
+        command = options.get("command")
+        self.stdout.write(task_command(command))

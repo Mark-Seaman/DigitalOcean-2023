@@ -1,10 +1,11 @@
 from datetime import datetime, timedelta
 from os import system
+from os.path import exists, join
 from pathlib import Path
 from re import findall, sub
+
 from django.db.models import Sum
 from django.template.loader import render_to_string
-from os.path import exists, join
 
 from publish.days import recent_dates
 from publish.text import text_join, text_lines
@@ -12,20 +13,6 @@ from task.models import Activity, Task, TaskType
 
 
 def task_dates(days=7):
-    # def task_text_list(tasks):
-    #     def format(t):
-    #         return "%s %s\n\n%s\n" % (
-    #             t.name,
-    #             t.hours,
-    #             t.notes.strip("\n").replace("      ", "  "),
-    #         )
-
-    #     return "\n".join([format(t) for t in tasks])
-
-    # def daily_report(t):
-    #     date = t.strftime("%Y-%m-%d")
-    #     summary = task_text_list(Task.objects.filter(date=t))
-    #     return date, summary
 
     tasks = Task.objects.all()
     if days != "all":
@@ -34,22 +21,6 @@ def task_dates(days=7):
     dates = tasks.order_by("date").values("date").distinct()
     dates = [t["date"].strftime("%Y/%m/%d") for t in dates]
     return dates
-    # return [daily_report(t) for t in dates]
-
-
-# def bad_days():
-#     end = datetime.now()
-#     start = end - timedelta(days=365)
-#     tasks = Task.objects.filter(date__gt=start, date__lte=end)
-#     totals = tasks.values("date").annotate(
-#         task_hours=Sum("hours")).order_by("-date")
-#     return [(str(t["date"]), t["task_hours"]) for t in totals if t["task_hours"] != 14]
-
-def missing_days(days):
-    for d in recent_dates(days):
-        if not Task.objects.filter(date=d):
-            print(f'Missing {d}')
-    return 'x'
 
 
 def bad_days_data(days):
@@ -76,9 +47,9 @@ def combine_work_tasks(table, total):
         return results
 
 
-def fix_tasks():
-    def find_tasks(text):
-        return findall(r'\n[A-Z][a-z]* *\d*', text)
+def fix_tasks(**kwargs):
+    # def find_tasks(text):
+    #     return findall(r'\n[A-Z][a-z]* *\d*', text)
 
     def replace_task(t1, t2, text):
         return sub(rf'\n{t1} *(\d*)', fr'\n{t2} \1', text)
@@ -102,8 +73,7 @@ def fix_tasks():
                 path.write_text(text)
 
     def show_activities():
-        for a in Activity.objects.all():
-            print(a.type.name, a.name)
+        return [f'{a.type.name}: {a.name}' for a in Activity.objects.all().order_by('type__name')]
 
     def define_activity(name, type):
         type = TaskType.objects.get_or_create(name=type)[0]
@@ -122,14 +92,22 @@ def fix_tasks():
         # rename_task('Networking', 'Business')
 
         task_in_files('Career')
-
+    days = kwargs.get('days', 8)
     setup_activities()
-    show_activities()
+    return show_activities()
 
 
-def import_tasks():
-    task_import_files(31)
+def import_tasks(**kwargs):
+    days = kwargs.get('days', 8)
+    task_import_files(days=31)
     # print(time_table("Month", 31))
+
+
+def missing_days(days):
+    for d in recent_dates(days):
+        if not Task.objects.filter(date=d):
+            print(f'Missing {d}')
+    return 'x'
 
 
 def monthly_tasks(month):
@@ -268,6 +246,24 @@ def tabs_data(tables):
     return set_options(tables)
 
 
+def task_command(command):
+    if not command:
+        days = 1
+    elif command[0] == 'day':
+        days = 1
+    elif command[0] == 'week':
+        days = 8
+    elif command[0] == 'month':
+        days = 31
+    elif command[0] == 'year':
+        days = 366
+    else:
+        days = None
+    if days:
+        import_tasks()
+        return show_task_summary(days=days)
+
+
 def task_filter(tasks, activity):
     if activity == "Work":
         return tasks.filter(name__in=work_types())
@@ -354,8 +350,9 @@ def time_filter(tasks, days):
     return tasks.filter(date__gt=start, date__lte=end)
 
 
-def time_summary():
-    return render_to_string('time_summary.md', time_table("week", 8))
+def time_summary(**kwargs):
+    days = kwargs.get('days', 30)
+    return render_to_string('time_summary.md', time_table("total", days))
 
 
 def time_percentage(totals):

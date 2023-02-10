@@ -1,29 +1,15 @@
-import calendar
 from pathlib import Path
-from re import findall, sub
-from django.template.loader import render_to_string
 
 from course.course import get_course, weekly_content
-from probe.probe_coder import test_coder_probe_source,  test_coder_python_source, test_coder_templates
-from probe.probe_documents import test_documents_fix_chars
 from publish.import_export import import_pub
 from publish.models import Content, Pub
-from publish.pub import (
-    build_pubs,
-    delete_pubs,
-    get_pub,
-    get_pub_contents,
-)
+from publish.pub import get_pub, get_pub_contents
 from publish.seamanslog import random_post
-from publish.toc import (
-    content_file,
-    create_pub_index,
-    read_content_csv,
-    table_of_contents,
-    write_content_csv,
-)
+from publish.toc import (content_file, create_pub_index, read_content_csv,
+                         table_of_contents, write_content_csv)
 from task.models import Activity, Task, TaskType
-from task.task import fix_tasks, missing_days, show_task_summary, task_import_files
+from task.task import (fix_tasks, missing_days, show_task_summary,
+                       task_import_files)
 from task.todo import edit_todo_list
 
 
@@ -36,12 +22,12 @@ def quick_test():
 
 
 def task():
-    days = 30
+    days = 300
     # Task.objects.all().delete()
-    task_import_files(days)
-    fix_tasks()
-    print(missing_days(days))
-    print(show_task_summary(days=8))
+    # task_import_files(days)
+    print(fix_tasks())
+    # print(missing_days(days))
+    # print(show_task_summary(days=300))
     # print(time_summary())
 
 

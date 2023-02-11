@@ -31,7 +31,7 @@ Publishing for Writers
             Pick a tool that you can use quickly
             Learn from others
             Scale for the future
-        Start with the appearance your want
+        Start with the desired appearance
             Let the tool create the theme for your site
             Tool should provide page navigation
             Support for private content

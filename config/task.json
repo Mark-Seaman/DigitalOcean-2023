@@ -16729,9 +16729,9 @@
     "fields": {
         "name": "Grow",
         "activity": null,
-        "notes": "    night watch: Dallas Willard, Josiah",
+        "notes": "    night watch: Dallas Willard, Josiah\n    get transformation books from Hoopla\n    quiet time",
         "date": "2023-02-10",
-        "hours": 2,
+        "hours": 3,
         "done": false
     }
 },
@@ -16741,9 +16741,9 @@
     "fields": {
         "name": "Software",
         "activity": null,
-        "notes": "    task master scripts\n    setup cal.com for booking",
+        "notes": "    task master scripts\n    setup cal.com for booking\n    restore missing data for task history\n    task summary for 1000 days",
         "date": "2023-02-10",
-        "hours": 2,
+        "hours": 3,
         "done": false
     }
 },
@@ -16755,7 +16755,7 @@
         "activity": null,
         "notes": "    communicate over Linked In\n        Steve Henry, Bill Hayes, Paula Tomlinson, Archie",
         "date": "2023-02-10",
-        "hours": 3,
+        "hours": 4,
         "done": false
     }
 },
@@ -56260,6 +56260,30 @@
         "notes": "    drive to Moab",
         "date": "2021-04-15",
         "hours": 14,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34323,
+    "fields": {
+        "name": "Family",
+        "activity": null,
+        "notes": "    Christine returns home",
+        "date": "2023-02-10",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34324,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    graphic novels on Hoopla",
+        "date": "2023-02-10",
+        "hours": 1,
         "done": false
     }
 }

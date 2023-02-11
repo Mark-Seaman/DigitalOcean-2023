@@ -15,7 +15,8 @@ def test_task_records():
 
 
 def test_task_fix():
-    return fix_tasks()
+    fix_tasks()
+    return 'OK'
 
 
 def test_task_summary():

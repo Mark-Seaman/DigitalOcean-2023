@@ -56286,5 +56286,161 @@
         "hours": 1,
         "done": false
     }
+},
+{
+    "model": "task.task",
+    "pk": 34325,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Inklings presentation - Pub for Writers (prep & followup)\n    Discord for Inklings",
+        "date": "2023-02-11",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34326,
+    "fields": {
+        "name": "ProMETA",
+        "activity": null,
+        "notes": "    Kairos project",
+        "date": "2023-02-11",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34327,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    sign up for Teachable Launch Accelerator Challenge\n    decide on new domain names (shrinking-world.io, shrinking-world.edu)\n    week 1 of Teachable Launch",
+        "date": "2023-02-11",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34328,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Asbury revival",
+        "date": "2023-02-11",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34329,
+    "fields": {
+        "name": "Family",
+        "activity": null,
+        "notes": "    Garcias",
+        "date": "2023-02-11",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34330,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    Linked In connection\n    networking strategy",
+        "date": "2023-02-11",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34331,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Chosen",
+        "date": "2023-02-11",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34332,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    Renovated",
+        "date": "2023-02-12",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34333,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    church in Greeley\n    Asbury revival",
+        "date": "2023-02-12",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34334,
+    "fields": {
+        "name": "Family",
+        "activity": null,
+        "notes": "    Superbowl party",
+        "date": "2023-02-12",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34335,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    Robin Tang",
+        "date": "2023-02-12",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34336,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City (level 51)",
+        "date": "2023-02-12",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34337,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: seeking revival\n    prayer",
+        "date": "2023-02-13",
+        "hours": 4,
+        "done": false
+    }
 }
 ]

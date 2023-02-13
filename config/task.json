@@ -16977,29 +16977,19 @@
 },
 {
     "model": "task.task",
-<<<<<<< HEAD
     "pk": 18061,
     "fields": {
         "name": "Write",
         "activity": null,
-        "notes": "    Inklings presentation - Pub for Writers (prep & followup)",
-=======
-    "pk": 34325,
-    "fields": {
-        "name": "Write",
-        "activity": null,
         "notes": "    Inklings presentation - Pub for Writers (prep & followup)\n    Discord for Inklings",
->>>>>>> 8ed69284d3650988810b4509a5530d4e8e7de1b8
         "date": "2023-02-11",
         "hours": 4,
         "done": false
     }
-<<<<<<< HEAD
-=======
 },
 {
     "model": "task.task",
-    "pk": 34326,
+    "pk": 18062,
     "fields": {
         "name": "ProMETA",
         "activity": null,
@@ -17011,7 +17001,7 @@
 },
 {
     "model": "task.task",
-    "pk": 34327,
+    "pk": 18063,
     "fields": {
         "name": "Teach",
         "activity": null,
@@ -17023,7 +17013,7 @@
 },
 {
     "model": "task.task",
-    "pk": 34328,
+    "pk": 18064,
     "fields": {
         "name": "Church",
         "activity": null,
@@ -17035,7 +17025,7 @@
 },
 {
     "model": "task.task",
-    "pk": 34329,
+    "pk": 18065,
     "fields": {
         "name": "Family",
         "activity": null,
@@ -17047,7 +17037,7 @@
 },
 {
     "model": "task.task",
-    "pk": 34330,
+    "pk": 18066,
     "fields": {
         "name": "Network",
         "activity": null,
@@ -17059,7 +17049,7 @@
 },
 {
     "model": "task.task",
-    "pk": 34331,
+    "pk": 18067,
     "fields": {
         "name": "Fun",
         "activity": null,
@@ -17071,7 +17061,7 @@
 },
 {
     "model": "task.task",
-    "pk": 34332,
+    "pk": 18068,
     "fields": {
         "name": "Grow",
         "activity": null,
@@ -17083,11 +17073,11 @@
 },
 {
     "model": "task.task",
-    "pk": 34333,
+    "pk": 18069,
     "fields": {
         "name": "Church",
         "activity": null,
-        "notes": "    church in Greeley\n    Asbury revival",
+        "notes": "    church in Greeley\n    Mary Swain\n    Asbury revival",
         "date": "2023-02-12",
         "hours": 6,
         "done": false
@@ -17095,7 +17085,7 @@
 },
 {
     "model": "task.task",
-    "pk": 34334,
+    "pk": 18070,
     "fields": {
         "name": "Family",
         "activity": null,
@@ -17107,7 +17097,7 @@
 },
 {
     "model": "task.task",
-    "pk": 34335,
+    "pk": 18071,
     "fields": {
         "name": "Network",
         "activity": null,
@@ -17119,7 +17109,7 @@
 },
 {
     "model": "task.task",
-    "pk": 34336,
+    "pk": 18072,
     "fields": {
         "name": "Fun",
         "activity": null,
@@ -17131,7 +17121,7 @@
 },
 {
     "model": "task.task",
-    "pk": 34337,
+    "pk": 18073,
     "fields": {
         "name": "Grow",
         "activity": null,
@@ -17140,6 +17130,29 @@
         "hours": 4,
         "done": false
     }
->>>>>>> 8ed69284d3650988810b4509a5530d4e8e7de1b8
+},
+{
+    "model": "task.task",
+    "pk": 18074,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    update connection log",
+        "date": "2023-02-13",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 18075,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    ",
+        "date": "2023-02-13",
+        "hours": 0,
+        "done": false
+    }
 }
 ]

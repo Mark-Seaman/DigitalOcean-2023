@@ -60,11 +60,11 @@ work, there is a new freedom. What is the thing that I have dreamed about doing
 for my entire life?  What would bring joy and happiness? It is almost certain to
 be related to creativity or relationships, or perhaps both.
 
-My relational needs are completely fulfilled through the deep connections with
-my family and close friends.   But many others have a social need to connect
-with others in a work environment.  Particularly if you are a flaming extrovert
-work is fulfilling mostly largely because it provides opportunity to interact
-with others.  This is not the case for me.
+My relational needs are completely fulfilled through a few deep connections with
+my family and close friends.   But extroverts may have a greater need to socialize.  
+A work environment can provide ample opportunities to 
+connect
+with others. This is not a major felt need of mine.
 
 
 ## Moving Toward Freedom
@@ -72,7 +72,7 @@ with others.  This is not the case for me.
 ### Opportunity
 
 I have a very intense need to create.  Engineering, Writing, and Teaching are
-all an expression of this fundamental need to create. Each of these roles
+all an expression of this fundamental desire to create. Each of these roles
 provides opportunity for self-expression.  I have done these things since I was
 a child and cannot envision a life that did not allow them.  It is who I am:
 Inventor, Writer, Teacher.

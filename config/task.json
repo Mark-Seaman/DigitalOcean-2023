@@ -56533,9 +56533,9 @@
     "fields": {
         "name": "Network",
         "activity": null,
-        "notes": "    masto\n    Valentine poem",
+        "notes": "    masto\n    12 Days of Valentine \n    Shrinking World Weekly\n    Thank Grant Shaddick\n    Literary Sprout Instagram email",
         "date": "2023-02-14",
-        "hours": 1,
+        "hours": 3,
         "done": false
     }
 },
@@ -56548,6 +56548,30 @@
         "notes": "    Register Domain - shrinking-world.io\n    attempt to hook up custom domain",
         "date": "2023-02-14",
         "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34347,
+    "fields": {
+        "name": "ProMETA",
+        "activity": null,
+        "notes": "    meeting request for Justin",
+        "date": "2023-02-14",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34348,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    revival at Asbury",
+        "date": "2023-02-14",
+        "hours": 1,
         "done": false
     }
 }

@@ -56463,7 +56463,7 @@
         "activity": null,
         "notes": "    Ghost World - publish 12 posts\n    ",
         "date": "2023-02-13",
-        "hours": 1,
+        "hours": 2,
         "done": false
     }
 },
@@ -56485,8 +56485,56 @@
     "fields": {
         "name": "Software",
         "activity": null,
-        "notes": "    Digital Ocean Database",
+        "notes": "    Digital Ocean Database\n    learn about domain names \n    shrinking-world.org @ Teachable - Courses\n    shrinking-world.io  @ Ghost - Blogs\n    shrinking-world.com @ Digital Ocean - Micropub",
         "date": "2023-02-13",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34342,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    leaders meeting at Beilmans",
+        "date": "2023-02-13",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34343,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    planning\n    weekly review",
+        "date": "2023-02-14",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34344,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Quest - Embrace Reality",
+        "date": "2023-02-14",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34345,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    masto",
+        "date": "2023-02-14",
         "hours": 1,
         "done": false
     }

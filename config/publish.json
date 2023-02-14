@@ -13,7 +13,7 @@
         "domain": "https://seamansguide.com",
         "url": "/journey",
         "logo": null,
-        "words": 44429,
+        "words": 44417,
         "cover_image": "/static/images/seamansguide.com/journey/journey-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -63,7 +63,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 52902,
+        "words": 52890,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -936,7 +936,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/journey/Retirement.md",
         "folder": 8,
-        "words": 910,
+        "words": 898,
         "retain_object": false
     }
 },
@@ -2672,7 +2672,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/quest/EmbraceReality.md",
         "folder": 4,
-        "words": 1676,
+        "words": 1664,
         "retain_object": false
     }
 },

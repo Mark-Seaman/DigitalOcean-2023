@@ -56533,9 +56533,21 @@
     "fields": {
         "name": "Network",
         "activity": null,
-        "notes": "    masto",
+        "notes": "    masto\n    Valentine poem",
         "date": "2023-02-14",
         "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34346,
+    "fields": {
+        "name": "Software",
+        "activity": null,
+        "notes": "    Register Domain - shrinking-world.io\n    attempt to hook up custom domain",
+        "date": "2023-02-14",
+        "hours": 2,
         "done": false
     }
 }

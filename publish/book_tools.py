@@ -6,8 +6,8 @@ from publish.files import write_file, read_file
 from publish.text import text_lines, word_count
 from workshop.resize_image import create_cover_images
 
-from .models import Book, Content
-from .pub import book_context, import_books, show_all_books
+from .models import Pub, Content
+# from .pub import book_context, import_books, show_all_books
 
 
 def book_outline(book):
@@ -76,13 +76,17 @@ def write_book_outline(book):
     write_file(path, outline)
 
 
-# def test_book_covers():
-#     rebuild_books()
-#     # resize_book_cover()
+def test_book_covers():
+    # rebuild_books()
+    # resize_book_cover()
 
-#     path = "Documents/images/CoverArtwork/poem-cover.png"
-#     create_cover_images(path)
-#     # crop_cover_image()
+    path = "static/images/CoverArtwork/today-cover.png"
+    path = "static/images/CoverArtwork/family-cover.png"
+    path = "static/images/CoverArtwork/poem-cover.png"
+    path = "static/images/CoverArtwork/journey-cover.png"
+    path = "static/images/CoverArtwork/quest-cover.png"
+    create_cover_images(path)
+    # crop_cover_image()
 
 
 # def show_book_content():

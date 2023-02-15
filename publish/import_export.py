@@ -33,7 +33,7 @@ def create_pubs():
             today="Documents/markseaman.org/today",
             #
             # Video
-            video="Documents/seamanslog.com/video",
+            # video="Documents/seamanslog.com/video",
             #
             # Private
             private="Documents/markseaman.info",

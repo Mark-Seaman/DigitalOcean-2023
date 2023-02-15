@@ -1,6 +1,7 @@
 from pathlib import Path
 
 from course.course import get_course, weekly_content
+from publish.book_tools import test_book_covers
 from publish.import_export import import_pub
 from publish.models import Content, Pub
 from publish.pub import get_pub, get_pub_contents, update_pub_content
@@ -18,7 +19,9 @@ def quick_test():
     # todo()
     # write()
     # update_tasks()
-    update_pub_content()
+    # update_pub_content()
+    # test_book_covers()
+    Pub.objects.get(name='video').delete()
 
 
 def write():

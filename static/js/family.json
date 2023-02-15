@@ -9,6 +9,7 @@
     "doc_path": "Documents/seamanslog.com/family",
     "image_path": "/static/images/seamanslog.com",
     "cover_title": true,
+    "cover_image": "/static/images/MarkSeaman.org/family-cover-400.png",
     "author": "Mark Seaman",
     "menu": "static/js/nav_blog.json"
 }

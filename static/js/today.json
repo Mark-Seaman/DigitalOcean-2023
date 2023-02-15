@@ -10,8 +10,8 @@
     "css": "/static/css/seamanslog.css",
     "doc_path": "Documents/markseamans.org/today",
     "image_path": "/static/images/seamanslog.com",
-    "cover_title": true,
-    "cover_image": "/static/images/seamanslog.com/today-cover-400.png",
+    "cover_title": false,
+    "cover_image": "/static/images/MarkSeaman.org/today-cover-400.png",
     "author": "Mark Seaman",
     "menu": "static/js/nav_blog.json",
     "auto_index": false

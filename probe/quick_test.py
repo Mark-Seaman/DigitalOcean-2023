@@ -1,15 +1,12 @@
 from pathlib import Path
 
 from course.course import get_course, weekly_content
-from publish.book_tools import test_book_covers
-from publish.import_export import import_pub
+from publish.book_tools import create_book_covers
 from publish.models import Content, Pub
-from publish.pub import get_pub, get_pub_contents, update_pub_content
+from publish.pub import get_pub, get_pub_contents
 from publish.seamanslog import random_post
-from publish.toc import (content_file, create_pub_index, read_content_csv,
-                         table_of_contents, write_content_csv)
+from publish.toc import content_file, read_content_csv, write_content_csv
 from task.models import Activity, Task, TaskType
-from task.task import update_tasks
 from task.todo import edit_todo_list
 
 
@@ -20,8 +17,8 @@ def quick_test():
     # write()
     # update_tasks()
     # update_pub_content()
-    # test_book_covers()
-    Pub.objects.get(name='video').delete()
+    create_book_covers()
+    # Pub.objects.get(name='video').delete()
 
 
 def write():

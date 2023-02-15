@@ -76,17 +76,21 @@ def write_book_outline(book):
     write_file(path, outline)
 
 
-def test_book_covers():
+def create_book_covers():
     # rebuild_books()
     # resize_book_cover()
 
-    path = "static/images/CoverArtwork/today-cover.png"
     path = "static/images/CoverArtwork/family-cover.png"
+    create_cover_images(path)
+    path = "static/images/CoverArtwork/today-cover.png"
+    create_cover_images(path)
+    path = "static/images/CoverArtwork/tech-cover.png"
+    create_cover_images(path)
+    # path = "static/images/CoverArtwork/write-cover.png"
+    # create_cover_images(path)
     path = "static/images/CoverArtwork/poem-cover.png"
     path = "static/images/CoverArtwork/journey-cover.png"
     path = "static/images/CoverArtwork/quest-cover.png"
-    create_cover_images(path)
-    # crop_cover_image()
 
 
 # def show_book_content():

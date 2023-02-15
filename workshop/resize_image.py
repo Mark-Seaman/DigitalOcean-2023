@@ -18,8 +18,7 @@ def create_cover_images(path):
     image = Image.open(path)
     print(f'Image: {path} Size: {image.size[0]}x{image.size[1]}')
     print(f'Shape: 1000x{image.size[1]*1000/image.size[0]}')
-
-    # image = crop_image(image)
+    image = crop_image(image)
 
     image = save_image(image, path, 1600)
     image = save_image(image, path, 800)
@@ -27,16 +26,16 @@ def create_cover_images(path):
     image = save_image(image, path, 200)
 
 
-def crop_cover_image():
-    path1 = 'Documents/images/CoverArtwork/Originals/pexels-asad-photo-maldives-9470508.jpg'
-    path2 = path1.replace('.jpg', '-crop.jpg')
-    im = Image.open(path1)
-    newsize = im.size[1]*10/16, im.size[1]
-    print(im.size)
-    # offset = im.size[0]/2
-    offset = 0
-    im = im.crop((offset, 0, newsize[0]+offset, newsize[1]))
-    im.save(path2)
+# def crop_cover_image():
+#     path1 = 'Documents/images/CoverArtwork/Originals/pexels-asad-photo-maldives-9470508.jpg'
+#     path2 = path1.replace('.jpg', '-crop.jpg')
+#     im = Image.open(path1)
+#     newsize = im.size[1]*10/16, im.size[1]
+#     print(im.size)
+#     # offset = im.size[0]/2
+#     offset = 0
+#     im = im.crop((offset, 0, newsize[0]+offset, newsize[1]))
+#     im.save(path2)
 
 
 def crop_image(image):
@@ -46,9 +45,11 @@ def crop_image(image):
     else:
         print('Too Wide')
         size = int(image.size[1] * 1000 / 1600), image.size[1]
-    offset = 1200, 0
-    image = image.crop((offset[0], offset[1], size[0]+offset[0], size[1]+offset[1]))
-    print(f'Crop Size: {size[0]}x{size[1]}', f'Shape: 1000x{int(size[1]*1000/size[0])}')
+    offset = 0, 0
+    image = image.crop(
+        (offset[0], offset[1], size[0]+offset[0], size[1]+offset[1]))
+    print(f'Crop Size: {size[0]}x{size[1]}',
+          f'Shape: 1000x{int(size[1]*1000/size[0])}')
     print(f'Crop Shape: 1000x{image.size[1]*1000/image.size[0]}')
     return image
 
@@ -66,7 +67,8 @@ def save_image(image, path, size):
 def downsample_photos(directory):
     for f in listdir(directory):
         infile = f'{directory}/{f}'
-        outfile = infile.replace('.png', '.jpg').replace('.jpeg', '.jpg').replace('.jpg', '.800.jpg')
+        outfile = infile.replace('.png', '.jpg').replace(
+            '.jpeg', '.jpg').replace('.jpg', '.800.jpg')
         create_thumbnail(infile, outfile)
 
 
@@ -101,5 +103,3 @@ def resize_book_cover():
     resize_image_file(path, 800)
     resize_image_file(path, 400)
     resize_image_file(path, 200)
-
-

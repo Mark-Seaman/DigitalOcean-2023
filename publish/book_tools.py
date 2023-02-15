@@ -86,6 +86,8 @@ def create_book_covers():
     create_cover_images(path)
     path = "static/images/CoverArtwork/tech-cover.png"
     create_cover_images(path)
+    path = "static/images/CoverArtwork/mark-cover.png"
+    create_cover_images(path)
     # path = "static/images/CoverArtwork/write-cover.png"
     # create_cover_images(path)
     path = "static/images/CoverArtwork/poem-cover.png"

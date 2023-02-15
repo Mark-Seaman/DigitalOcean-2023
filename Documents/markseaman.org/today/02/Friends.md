@@ -1,5 +1,10 @@
 # Friends and family
 
+Return to [Mark Today Blogcast](/today)
+
+
+## notes
+
 - Desire to reconnect
     - Traditional Christmas newsletter
     - Modern comms
@@ -22,7 +27,7 @@
     - Hope for regular contact
 
 
-## Video At YouTube
+## video
 
 <iframe width="1280" height="720" 
 src="https://www.youtube.com/embed/DMV8NYqBogM?list=PLAaj4BvOaalGImuHCtoCrQEihIrMXLc-w" 

@@ -1,5 +1,8 @@
 # Mark Today Blogcast
 
+Return to [Mark Today Blogcast](/today)
+
+
 ## notes
 
 My New Blogcast

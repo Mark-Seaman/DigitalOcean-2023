@@ -1,5 +1,10 @@
 # Gratitude
 
+Return to [Mark Today Blogcast](/today)
+
+
+## notes
+
 Gratitude Changed My Life
 
 - We all have pain
@@ -21,7 +26,7 @@ Spiritual
 - Story of redemption and healing
 
 
-## Video At YouTube
+## video
 
 <iframe width="1280" height="720" 
 src="https://www.youtube.com/embed/G1pekXOz6Cw?list=PLAaj4BvOaalGImuHCtoCrQEihIrMXLc-w" 

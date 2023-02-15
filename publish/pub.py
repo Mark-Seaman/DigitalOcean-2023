@@ -272,5 +272,30 @@ def show_pub_summaries(pub=None):
     return pub_summaries(pub)
 
 
+def update_pub_content():
+    # pub = get_pub("video")
+    # import_pub(pub)
+    # if pub.auto_index:
+    #     # print("CREATE Index")
+    #     create_pub_index(pub, get_pub_contents(pub))
+
+    # pub = get_pub("today")
+    # contents = get_pub_contents(pub)
+    # print(table_of_contents(pub, contents, False))
+    # show_pub_index(pub)
+    # print(show_pub_words(pub))
+
+    print(show_pub_summaries())
+
+    # print(create_pub_index(pub))
+    # print(test_documents_fix_chars())
+
+    # list_pubs()
+    # show_pubs()
+    # show_pub_json()
+
+    # pub = get_pub("sampler")
+
+
 def word_count_file(pub):
     return Path("Documents/markseaman.info") / "words" / pub.name

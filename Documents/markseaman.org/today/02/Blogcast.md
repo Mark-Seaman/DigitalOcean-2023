@@ -27,6 +27,4 @@ My New Blogcast
 
 ## video
 
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" src="https://www.tella.tv/video/cle4ogwqo00ac0fmx3py26ros/embed?b=0&title=1&a=1&loop=0&autoPlay=&fullSize=&muted=0" allowfullscreen allowtransparency></iframe></div>
-
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" src="https://www.tella.tv/video/cle60zqr603i40fl78i8c58gk/embed?b=0&title=1&a=1&loop=0&autoPlay=&fullSize=&muted=0" allowfullscreen allowtransparency></iframe></div>

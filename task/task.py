@@ -12,17 +12,6 @@ from publish.text import text_join, text_lines
 from task.models import Activity, Task, TaskType
 
 
-def bad_days_data(days):
-    end = datetime.now()
-    start = end - timedelta(days=days)
-    tasks = Task.objects.filter(date__gt=start, date__lte=end)
-    totals = tasks.values("date").annotate(
-        task_hours=Sum("hours")).order_by("-date")
-    table = [(str(t["date"]), t["task_hours"])
-             for t in totals if t["task_hours"] != 14]
-    return table
-
-
 def combine_work_tasks(table, total):
     work = 0
     results = []
@@ -62,7 +51,10 @@ def fix_tasks(**kwargs):
                 path.write_text(text)
 
     def show_activities():
-        return [f'{a.type.name}: {a.name}' for a in Activity.objects.all().order_by('type__name')]
+        text = 'Activities:\n\n'
+        for a in Activity.objects.all().order_by('type__name'):
+            text += f'{a.type.name}: {a.name}\n'
+        return text
 
     def define_activity(name, type):
         type = TaskType.objects.get_or_create(name=type)[0]
@@ -92,11 +84,23 @@ def import_tasks(**kwargs):
     # print(time_table("Month", 31))
 
 
+def incomplete_days(days):
+    end = datetime.now()
+    start = end - timedelta(days=days)
+    tasks = Task.objects.filter(date__gt=start, date__lte=end)
+    totals = tasks.values("date").annotate(
+        task_hours=Sum("hours")).order_by("-date")
+    table = [(str(t["date"]), t["task_hours"])
+             for t in totals if t["task_hours"] != 14]
+    return table
+
+
 def missing_days(days):
+    text = 'Missing days:\n\n'
     for d in recent_dates(days):
         if not Task.objects.filter(date=d):
-            print(f'Missing {d}')
-    return 'x'
+            text += f'Missing {d}\n'
+    return text
 
 
 def monthly_tasks(month):
@@ -341,7 +345,7 @@ def task_list(days=7):
 def time_data():
     tables = [time_table("week", 8), time_table(
         "month", 31), time_table("year", 366)]
-    return dict(tabs=tabs_data(tables), incomplete=bad_days_data(366))
+    return dict(tabs=tabs_data(tables), incomplete=incomplete_days(366))
 
 
 def time_filter(tasks, days):
@@ -389,6 +393,24 @@ def time_table(period, days):
         "table": table,
     }
     return data
+
+
+def show_incomplete_days(days):
+    text = 'Incomplete Days:\n\n'
+    for t in incomplete_days(days):
+        text += f'{t[0]} - {t[1]} hours\n'
+    return text
+
+
+def update_tasks():
+    days = 366
+    # Task.objects.all().delete()
+    task_import_files(days)
+    print(fix_tasks())
+    print(missing_days(days))
+    print(show_incomplete_days(days))
+    print(show_task_summary(days=days))
+    print(time_summary())
 
 
 def work_types():

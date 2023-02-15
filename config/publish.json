@@ -325,6 +325,31 @@
     }
 },
 {
+    "model": "publish.pub",
+    "pk": 746,
+    "fields": {
+        "name": "today",
+        "title": "Mark Today Blogcast",
+        "subtitle": "Daily thoughts",
+        "description": "Daily thoughts and ideas",
+        "doc_path": "Documents/markseaman.org/today",
+        "image_path": "/static/images/seamanslog.com",
+        "css": "/static/css/seamanslog.css",
+        "domain": null,
+        "url": "/today",
+        "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
+        "words": 0,
+        "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
+        "menu": "static/js/nav_blog.json",
+        "pub_type": "blog",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false,
+        "index_folders": false,
+        "index_months": false
+    }
+},
+{
     "model": "publish.content",
     "pk": 44095,
     "fields": {
@@ -16043,6 +16068,34 @@
         "path": "Documents/seamanfamily.org/Day with a King",
         "folder": 1,
         "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87452,
+    "fields": {
+        "blog": 746,
+        "order": 1,
+        "title": "Mark Today Blogcast",
+        "doctype": "folder",
+        "path": "Documents/markseaman.org/today/Index.md",
+        "folder": 0,
+        "words": 16,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87453,
+    "fields": {
+        "blog": 746,
+        "order": 2,
+        "title": "Mark Today Blogcast",
+        "doctype": "folder",
+        "path": "Documents/markseaman.org/today/02-15.md",
+        "folder": 0,
+        "words": 154,
         "retain_object": false
     }
 }

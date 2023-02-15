@@ -1479,7 +1479,7 @@
         "activity": null,
         "notes": "    schedule for class prep\n    Try Django videos\n    experiment with setup varations\n    CS 350 App selections",
         "date": "2022-05-14",
-        "hours": 5,
+        "hours": 4,
         "done": false
     }
 },
@@ -8355,7 +8355,7 @@
         "activity": null,
         "notes": "    Heidi escalation\n    first Home group meeting\n    pray for Daniel, Josiah, Andrew",
         "date": "2022-09-20",
-        "hours": 4,
+        "hours": 5,
         "done": false
     }
 },
@@ -9255,7 +9255,7 @@
         "activity": null,
         "notes": "    zoom class\n    Elfaz",
         "date": "2022-10-05",
-        "hours": 4,
+        "hours": 3,
         "done": false
     }
 },
@@ -9291,7 +9291,7 @@
         "activity": null,
         "notes": "    Home Makeover\n    Star Trek Enterprise",
         "date": "2022-10-05",
-        "hours": 4,
+        "hours": 3,
         "done": false
     }
 },
@@ -9915,7 +9915,7 @@
         "activity": null,
         "notes": "    work on restoring computers and web server\n    restructure the book loader logic\n    unsubscribe to email spam\n    deactivate Spiritual Things twitter account",
         "date": "2022-10-16",
-        "hours": 6,
+        "hours": 4,
         "done": false
     }
 },
@@ -17307,7 +17307,7 @@
         "activity": null,
         "notes": "    Nanny Diaries\n    Executioner",
         "date": "2022-07-04",
-        "hours": 4,
+        "hours": 3,
         "done": false
     }
 },
@@ -56545,9 +56545,9 @@
     "fields": {
         "name": "Software",
         "activity": null,
-        "notes": "    Register Domain - shrinking-world.io\n    attempt to hook up custom domain",
+        "notes": "    Register Domain - shrinking-world.io\n    hook up custom domain\n    communicate new domain",
         "date": "2023-02-14",
-        "hours": 2,
+        "hours": 3,
         "done": false
     }
 },
@@ -56569,8 +56569,56 @@
     "fields": {
         "name": "Church",
         "activity": null,
-        "notes": "    revival at Asbury",
+        "notes": "    revival at Asbury\n    Chosen documentary",
         "date": "2023-02-14",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34349,
+    "fields": {
+        "name": "Family",
+        "activity": null,
+        "notes": "    time with Stacie\n    Valentine's Day cooking",
+        "date": "2023-02-14",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34350,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Mark Today Blogcast\n    organize web content",
+        "date": "2023-02-15",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34351,
+    "fields": {
+        "name": "ProMETA",
+        "activity": null,
+        "notes": "    setup project communication",
+        "date": "2023-02-15",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34352,
+    "fields": {
+        "name": "Family",
+        "activity": null,
+        "notes": "    Josiah phone interview - Fathom Radiant",
+        "date": "2023-02-15",
         "hours": 1,
         "done": false
     }

@@ -8,8 +8,7 @@ from publish.seamanslog import random_post
 from publish.toc import (content_file, create_pub_index, read_content_csv,
                          table_of_contents, write_content_csv)
 from task.models import Activity, Task, TaskType
-from task.task import (fix_tasks, missing_days, show_task_summary,
-                       task_import_files)
+from task.task import update_tasks
 from task.todo import edit_todo_list
 
 
@@ -18,17 +17,17 @@ def quick_test():
     # pubs()
     # todo()
     # write()
-    task()
+    update_tasks()
 
 
-def task():
-    days = 1000
-    # Task.objects.all().delete()
-    task_import_files(days)
-    print(fix_tasks())
-    print(missing_days(days))
-    # print(show_task_summary(days=300))
-    # print(time_summary())
+# def task():
+#     days = 1000
+#     # Task.objects.all().delete()
+#     task_import_files(days)
+#     print(fix_tasks())
+#     print(missing_days(days))
+#     print(show_task_summary(days=366))
+#     # print(time_summary())
 
 
 def write():

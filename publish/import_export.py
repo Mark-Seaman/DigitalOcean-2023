@@ -30,6 +30,7 @@ def create_pubs():
             spiritual="Documents/spiritual-things.org/daily",
             mark="Documents/markseaman.org",
             family="Documents/seamanfamily.org",
+            today="Documents/markseaman.org/today",
             #
             # Video
             video="Documents/seamanslog.com/video",

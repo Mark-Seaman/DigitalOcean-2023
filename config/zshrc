@@ -121,7 +121,6 @@ function d {
 
 # Big commit on current directory
 function c {
-    git pull           &&
     git add -A .       &&
     git commit -m "$*" &&
     git push

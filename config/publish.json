@@ -338,7 +338,7 @@
         "domain": null,
         "url": "/today",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 0,
+        "words": 170,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",

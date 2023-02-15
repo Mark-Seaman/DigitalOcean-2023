@@ -6,7 +6,7 @@
 DigitalOcean-static/
 Documents/seamansguide.com/webapps/textbook.epub
 Documents/Github
-static/images/CoverArtwork
+# static/images/CoverArtwork
 
 # Hidden files
 # .*

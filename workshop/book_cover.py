@@ -8,10 +8,8 @@ class BookCoverView(TemplateView):
     template_name = 'book_cover.html'
 
     def get_context_data(self, **kwargs):
-        json = Path('static/js/mark.json')
+        json = Path('static/js/today.json')
         kwargs = read_json(json)
         kwargs['cover_title'] = True
         kwargs['css'] = '/static/css/shrinking-world.css'
         return kwargs
-
-

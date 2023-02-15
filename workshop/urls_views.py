@@ -18,7 +18,8 @@ from .views_photos import BrandingView, PhotoDetailView, PhotoListView
 urlpatterns = [
     # Templates
     path("", HtmlView.as_view(template_name="workshop.html"), name="home"),
-    path("theme.html", HtmlView.as_view(template_name="theme.html"), name="theme"),
+    path("theme.html", HtmlView.as_view(
+        template_name="theme.html"), name="theme"),
     path("<str:page>.html", PageView.as_view()),
 
     # Document
@@ -46,6 +47,4 @@ urlpatterns = [
     path("photo/<str:directory>/<int:id>", PhotoDetailView.as_view()),
     path("branding/", BrandingView.as_view()),
 
-    # Book Cover
-    path('cover', BookCoverView.as_view()),
 ]

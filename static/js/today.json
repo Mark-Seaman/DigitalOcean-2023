@@ -1,7 +1,7 @@
 {
     "name": "today",
     "site_title": "Mark Today Blogcast",
-    "site_subtitle": "Daily thoughts",
+    "site_subtitle": "Daily thoughts and ideas",
     "url": "/today",
     "title": "Mark Today Blogcast",
     "description": "Daily thoughts and ideas",
@@ -11,7 +11,7 @@
     "doc_path": "Documents/markseamans.org/today",
     "image_path": "/static/images/seamanslog.com",
     "cover_title": true,
-    "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
+    "cover_image": "/static/images/seamanslog.com/today-cover-400.png",
     "author": "Mark Seaman",
     "menu": "static/js/nav_blog.json",
     "auto_index": false

@@ -1,5 +1,6 @@
-from django.contrib import admin
 from django.urls import path
+
+from workshop.book_cover import BookCoverView
 
 from .views import (BlogTodayView, PubCreateView, PubDeleteView, PubDetailView,
                     PubListView, PubRedirectView, PubUpdateView, PubView,
@@ -27,7 +28,8 @@ urlpatterns = [
     path('slides', SlideShowView.as_view(), name='slideshow'),
     path('workshop/<str:pub>', WorkshopRedirectView.as_view()),
     path('workshop/<str:pub>/<str:doc>', WorkshopView.as_view()),
-
+    # Book Cover
+    path('cover', BookCoverView.as_view()),
     #
     # Today's Article
     path("<str:pub>/today", BlogTodayView.as_view()),

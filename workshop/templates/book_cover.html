@@ -3,25 +3,25 @@
 
 {% block content %}
 
-    {% if cover_title %}
+{% if cover_title %}
 
-        <div class="cover">
-            {% include '_cover_mark.html' %}
-        </div>
+<div class="cover">
+    {% include '_cover_today.html' %}
+</div>
 
-    {% else %}
+{% else %}
 
-        <!-- Show the Book Cover image -->
+<!-- Show the Book Cover image -->
 
-        {% if cover_image %}
+{% if cover_image %}
 
-            <div class="cover">
-                <img src="{{ cover_image }}" alt="{{ cover_image }}">
-            </div>
+<div class="cover">
+    <img src="{{ cover_image }}" alt="{{ cover_image }}">
+</div>
 
-        {% endif %}
+{% endif %}
 
-    {% endif %}
+{% endif %}
 
 {% endblock content %}
 

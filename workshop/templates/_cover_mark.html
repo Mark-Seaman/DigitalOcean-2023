@@ -1,7 +1,6 @@
 <!-- Render the Book Cover with Titles -->
 
 <style>
-
     .cover-image {
         width: 800px;
         height: 1280px
@@ -43,12 +42,11 @@
     .title-overlay img {
         position: absolute;
         top: -520px;
-        left: 500px;
+        left: 300px;
         color: white;
         text-shadow: 2px 2px 5px black;
         border-radius: 70px;
     }
-
 </style>
 
 
@@ -59,14 +57,11 @@
         <img src="/static/images/MarkSeaman/Mark-Seaman-400.jpg">
 
         {% if cover_title %}
-            <h1>{{ site_title }}</h1><br>
-            <h2>{{ site_subtitle }}</h2>
+        <h1>{{ site_title }}</h1><br>
+        <h2>{{ site_subtitle }}</h2>
         {% endif %}
 
     </div>
 
     <img src="/static/images/CoverArtwork/mark.jpg">
 </div>
-
-
-

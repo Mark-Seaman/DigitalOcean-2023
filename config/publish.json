@@ -301,7 +301,32 @@
 },
 {
     "model": "publish.pub",
-    "pk": 746,
+    "pk": 745,
+    "fields": {
+        "name": "video",
+        "title": "Mark's Video Log",
+        "subtitle": "Interesting Projects and News",
+        "description": "Weekly video with current events and updates.",
+        "doc_path": "Documents/seamanslog.com/video",
+        "image_path": "/static/images/seamanslog.com",
+        "css": "/static/css/seamanslog.css",
+        "domain": null,
+        "url": "/video",
+        "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
+        "words": 300,
+        "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
+        "menu": "static/js/nav_blog.json",
+        "pub_type": "blog",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false,
+        "index_folders": false,
+        "index_months": false
+    }
+},
+{
+    "model": "publish.pub",
+    "pk": 1242,
     "fields": {
         "name": "today",
         "title": "Mark Today Blogcast",
@@ -313,7 +338,7 @@
         "domain": null,
         "url": "/today",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 34,
+        "words": 622,
         "cover_image": "/static/images/MarkSeaman.org/today-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -15964,21 +15989,63 @@
 },
 {
     "model": "publish.content",
-    "pk": 87450,
+    "pk": 45276,
     "fields": {
-        "blog": 738,
-        "order": 10,
-        "title": "The Lesson",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.com/blog/micropub/Lesson.md",
-        "folder": 3,
-        "words": 728,
+        "blog": 745,
+        "order": 1,
+        "title": "Mark's Video Log",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/video/Index.md",
+        "folder": 0,
+        "words": 15,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87451,
+    "pk": 45277,
+    "fields": {
+        "blog": 745,
+        "order": 1,
+        "title": "Teaching at UNC",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/video/UNC.md",
+        "folder": 1,
+        "words": 98,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 45278,
+    "fields": {
+        "blog": 745,
+        "order": 2,
+        "title": "Gratitude",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/video/Gratitude.md",
+        "folder": 1,
+        "words": 75,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 45279,
+    "fields": {
+        "blog": 745,
+        "order": 3,
+        "title": "Friends and family",
+        "doctype": "chapter",
+        "path": "Documents/seamanslog.com/video/Friends.md",
+        "folder": 1,
+        "words": 112,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87448,
     "fields": {
         "blog": 743,
         "order": 4,
@@ -15992,9 +16059,23 @@
 },
 {
     "model": "publish.content",
-    "pk": 87452,
+    "pk": 87449,
     "fields": {
-        "blog": 746,
+        "blog": 738,
+        "order": 10,
+        "title": "The Lesson",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/micropub/Lesson.md",
+        "folder": 3,
+        "words": 728,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87450,
+    "fields": {
+        "blog": 1242,
         "order": 1,
         "title": "Mark Today Blogcast",
         "doctype": "folder",
@@ -16006,9 +16087,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87454,
+    "pk": 87451,
     "fields": {
-        "blog": 746,
+        "blog": 1242,
         "order": 2,
         "title": "Mark Today Blogcast",
         "doctype": "folder",
@@ -16020,9 +16101,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87455,
+    "pk": 87452,
     "fields": {
-        "blog": 746,
+        "blog": 1242,
         "order": 3,
         "title": "Teaching at UNC",
         "doctype": "folder",
@@ -16034,9 +16115,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87456,
+    "pk": 87453,
     "fields": {
-        "blog": 746,
+        "blog": 1242,
         "order": 4,
         "title": "Gratitude",
         "doctype": "folder",
@@ -16048,9 +16129,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87457,
+    "pk": 87454,
     "fields": {
-        "blog": 746,
+        "blog": 1242,
         "order": 5,
         "title": "Friends and family",
         "doctype": "folder",
@@ -16062,9 +16143,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87458,
+    "pk": 87455,
     "fields": {
-        "blog": 746,
+        "blog": 1242,
         "order": 6,
         "title": "Tella Video Recording",
         "doctype": "folder",

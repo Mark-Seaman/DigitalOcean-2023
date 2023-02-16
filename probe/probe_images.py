@@ -2,12 +2,8 @@ from pathlib import Path
 
 from publish.document import doc_text
 from publish.files import read_json
-from publish.image import (
-    verify_blog_images,
-    verify_book_images,
-    verify_course_images,
-    verify_textbook_images,
-)
+from publish.image import (verify_blog_images, verify_book_images,
+                           verify_course_images, verify_textbook_images)
 
 
 def test_blog_images():

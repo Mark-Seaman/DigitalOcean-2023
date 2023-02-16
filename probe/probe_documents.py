@@ -23,7 +23,7 @@ def test_documents_info():
 
 
 def test_documents_images():
-    return check_files(Path("static") / "images", 380, 390)
+    return check_files(Path("static") / "images", 480, 500)
 
 
 def test_documents_fix_chars():
@@ -47,7 +47,7 @@ def test_documents_shrinking_world():
 
 
 def test_documents_mark():
-    return check_files(docs / "markseaman.org", 10, 15)
+    return check_files(docs / "markseaman.org", 10, 20)
 
 
 def test_documents_family():

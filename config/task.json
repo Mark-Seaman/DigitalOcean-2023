@@ -56605,9 +56605,9 @@
     "fields": {
         "name": "ProMETA",
         "activity": null,
-        "notes": "    setup project communication\n    Registration Requirements to Justin",
+        "notes": "    setup project communication\n    Registration Requirements to Justin\n    record video for Requirements",
         "date": "2023-02-15",
-        "hours": 2,
+        "hours": 4,
         "done": false
     }
 },
@@ -56629,9 +56629,129 @@
     "fields": {
         "name": "Church",
         "activity": null,
-        "notes": "    genogram lesson",
+        "notes": "    genogram lesson\n    EHR class\n    snow storm",
         "date": "2023-02-15",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34354,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    \n    think about family dynamics",
+        "date": "2023-02-16",
         "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34355,
+    "fields": {
+        "name": "ProMETA",
+        "activity": null,
+        "notes": "    Registration project plan\n    activate Gliffy\n    draw data model diagram\n    extended data model\n    get translated ERD from Justin\n    additional input from Justin\n    discuss requirements with Stacie",
+        "date": "2023-02-16",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34356,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    Asbury revival",
+        "date": "2023-02-16",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34357,
+    "fields": {
+        "name": "Family",
+        "activity": null,
+        "notes": "    date with Stacie at Biagi's\n    Cassie 4th grade presentation",
+        "date": "2023-02-16",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34358,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    nts\n    Big Bang",
+        "date": "2023-02-16",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34359,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    goals and commitments and priorities\n    weekly accomplishments",
+        "date": "2023-02-17",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34360,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Double Standard in Church",
+        "date": "2023-02-17",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34361,
+    "fields": {
+        "name": "Network",
+        "activity": null,
+        "notes": "    Connections log",
+        "date": "2023-02-17",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34362,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    plan for Web Apps at \"Shrinking World Org\"",
+        "date": "2023-02-17",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34363,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City (level 51) cheetah tokens\n    Chip Wars on YouTube",
+        "date": "2023-02-17",
+        "hours": 2,
         "done": false
     }
 }

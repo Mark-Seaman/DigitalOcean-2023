@@ -56874,5 +56874,77 @@
         "hours": 1,
         "done": false
     }
+},
+{
+    "model": "task.task",
+    "pk": 34374,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    planning",
+        "date": "2023-02-20",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34375,
+    "fields": {
+        "name": "Software",
+        "activity": null,
+        "notes": "    copy video to Sea Mac\n    organize videos (14 GB)",
+        "date": "2023-02-20",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34376,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    send recommendation for Mark Nardin",
+        "date": "2023-02-20",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34377,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    The Shrinking World - issue 3",
+        "date": "2023-02-20",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34378,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    build Web Apps course",
+        "date": "2023-02-20",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34379,
+    "fields": {
+        "name": "Family",
+        "activity": null,
+        "notes": "    take down lights",
+        "date": "2023-02-20",
+        "hours": 0,
+        "done": false
+    }
 }
 ]

@@ -17329,7 +17329,7 @@
     "fields": {
         "name": "Grow",
         "activity": null,
-        "notes": "    \n    think about family dynamics",
+        "notes": "    \n    think about family dynamics and history",
         "date": "2023-02-16",
         "hours": 1,
         "done": false
@@ -17449,9 +17449,9 @@
     "fields": {
         "name": "Grow",
         "activity": null,
-        "notes": "    Prioritize time and task",
+        "notes": "    Prioritize time and task\n    Managed Mindshare",
         "date": "2023-02-18",
-        "hours": 1,
+        "hours": 2,
         "done": false
     }
 },
@@ -17464,6 +17464,102 @@
         "notes": "    Juan and Lynn - Picard",
         "date": "2023-02-17",
         "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 18102,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    build Web Apps course\n    sign up for Teachable Basic Plan\n    training for Pricing\n    develop product strategy\n        Quick Start Guide to Web Apps - 1 hour (Free)\n        Web Apps Workshop  - 1 day ($20)\n        Web Apps Textbook ($20)\n        Web Apps Course - 1 month ($140)\n        Web Apps Course Interactive Bundle ($280)\n    create product extensions\n        - Weekly Community Meeting (Wed 3:00-4:00) -  $35\n        - Office Hours (Four  15-minute appointments) - $35\n        - Work review and feedback - $35\n        - Student learning community - $35\n        - Student Discord Server - $35",
+        "date": "2023-02-18",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 18103,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    nts\n    Sim City (level 52)",
+        "date": "2023-02-18",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 18104,
+    "fields": {
+        "name": "Family",
+        "activity": null,
+        "notes": "    family pizza night",
+        "date": "2023-02-18",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 18105,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Life with God",
+        "date": "2023-02-19",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 18106,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    church in Greeley\n    Mike Webb\n    Cameron Doughty ",
+        "date": "2023-02-19",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 18107,
+    "fields": {
+        "name": "Family",
+        "activity": null,
+        "notes": "    Josiah & Cassie at Palominos",
+        "date": "2023-02-19",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 18108,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    Spirit of the Disciplines",
+        "date": "2023-02-19",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 18109,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    People magazine\n    Chip Wars on YouTube\n    Sim City (level 23)",
+        "date": "2023-02-19",
+        "hours": 1,
         "done": false
     }
 }

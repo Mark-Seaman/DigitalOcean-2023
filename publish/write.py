@@ -2,6 +2,7 @@ from pathlib import Path
 
 from django.template.loader import render_to_string
 from django.utils.timezone import localdate
+from publish.files import read_file, write_file
 
 from publish.models import Content
 from publish.slides import create_slides, markdown, plant, write_workshop
@@ -29,6 +30,8 @@ def write_blog(args=[]):
                 words - summary of word count
 
         '''
+    elif args[0] == 'blogcast':
+        write_blogcast(args[1:])
     elif args[0] == 'green':
         greenhouse()
     elif args[0] == 'plant':
@@ -57,9 +60,29 @@ def write_blog(args=[]):
         write_pub(args)
 
 
+def write_blogcast(args=[]):
+    print(f'write blogcast {args[0]+".ol"} {args[0]+".md"}')
+    text = ''
+    d = args[0]
+    f = args[1]
+    lines = text_lines(read_file(f'{d}/{f}.ol'))
+    for line in lines:
+        if not line:
+            text += '\n'
+        elif not line.startswith('    '):
+            text += f'# {line}\n\n'
+        elif not line.startswith('        '):
+            text += f'\n## {line.strip()}\n\n'
+        elif line:
+            text += f'* {line.strip()}\n'
+    f = f'{d}/{f}.md'
+    write_file(f, text)
+    print(text)
+
+
 def greenhouse():
     edit_file(['Documents/shrinking-world.com/greenhouse',
-              'Documents/shrinking-world.com/greenhouse/Content.ol',
+               'Documents/shrinking-world.com/greenhouse/Content.ol',
                'Documents/shrinking-world.com/greenhouse'])
 
 

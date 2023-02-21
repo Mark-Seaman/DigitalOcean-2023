@@ -56905,9 +56905,9 @@
     "fields": {
         "name": "Church",
         "activity": null,
-        "notes": "    send recommendation for Mark Nardin",
+        "notes": "    send recommendation for Mark Nardin\n    Bill & Dot McDowell",
         "date": "2023-02-20",
-        "hours": 1,
+        "hours": 4,
         "done": false
     }
 },
@@ -56931,7 +56931,7 @@
         "activity": null,
         "notes": "    build Web Apps course",
         "date": "2023-02-20",
-        "hours": 3,
+        "hours": 4,
         "done": false
     }
 },
@@ -56944,6 +56944,54 @@
         "notes": "    take down lights",
         "date": "2023-02-20",
         "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34380,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Eli Stone",
+        "date": "2023-02-20",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34381,
+    "fields": {
+        "name": "Grow",
+        "activity": null,
+        "notes": "    night watch: Life with God Blogcast",
+        "date": "2023-02-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34382,
+    "fields": {
+        "name": "Church",
+        "activity": null,
+        "notes": "    think about church life\n    Life with God Blogcast",
+        "date": "2023-02-21",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34383,
+    "fields": {
+        "name": "Family",
+        "activity": null,
+        "notes": "    buy burritos",
+        "date": "2023-02-21",
+        "hours": 1,
         "done": false
     }
 }

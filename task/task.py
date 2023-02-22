@@ -80,7 +80,7 @@ def fix_tasks(**kwargs):
 
 def import_tasks(**kwargs):
     days = kwargs.get('days', 8)
-    task_import_files(days=31)
+    task_import_files(days=days)
     # print(time_table("Month", 31))
 
 
@@ -95,8 +95,9 @@ def incomplete_days(days):
     return table
 
 
-def missing_days(days):
-    text = 'Missing days:\n\n'
+def missing_days(**kwargs):
+    days = kwargs.get('days', 366)
+    text = f'Missing Days: recent {days} days\n\n'
     for d in recent_dates(days):
         if not Task.objects.filter(date=d):
             text += f'Missing {d}\n'
@@ -234,8 +235,11 @@ def task_command(command):
     else:
         days = None
     if days:
-        import_tasks()
-        return show_task_summary(days=days)
+        # import_tasks(days=days)
+        # return show_task_summary(days=days)
+        # print(text)
+        text = update_tasks(days=days)
+        return text
 
 
 def tabs_data(tables):
@@ -311,10 +315,13 @@ def task_import_files(days=7):
         t.save()
         return t
 
+    text = 'Import task history: \n\n'
     for d in recent_dates(days):
         # d = '2022-06-24'
         read_task_file(d)
+        text += f'{d}\n'
     save_data()
+    return text
 
 
 def task_list(days=7):
@@ -395,22 +402,31 @@ def time_table(period, days):
     return data
 
 
-def show_incomplete_days(days):
-    text = 'Incomplete Days:\n\n'
+def show_incomplete_days(**kwargs):
+    days = kwargs.get('days', 366)
+    text = f'Incomplete Days: recent {days} days\n\n'
     for t in incomplete_days(days):
         text += f'{t[0]} - {t[1]} hours\n'
     return text
 
 
-def update_tasks():
-    days = 366
+def update_tasks(**kwargs):
+    days = kwargs.get('days', 366)
+
     # Task.objects.all().delete()
-    task_import_files(days)
-    print(fix_tasks())
-    print(missing_days(days))
-    print(show_incomplete_days(days))
-    print(show_task_summary(days=days))
-    print(time_summary())
+    # print(fix_tasks())
+    # print(missing_days(days))
+    # print(show_incomplete_days(days))
+    # print(show_task_summary(days=days))
+    # return time_summary()
+
+    text = task_import_files(days=days)
+    text += f'\n\nRecords: {len(Task.objects.all())}\n\n'
+    text += f'\n\n{missing_days(days=days)}\n\n'
+    text += f'\n\n{show_incomplete_days(days=days)}\n\n'
+    text += f'\n\nTotals:\n\n{time_summary(days=days)}\n\n'
+    text += f'\n\nSummary:\n\n{show_task_summary(days=days)}\n\n'
+    return text
 
 
 def work_types():

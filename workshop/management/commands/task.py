@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 
-from task.task import import_tasks, show_task_summary, task_command
+from task.task import task_command
 
 
 class Command(BaseCommand):

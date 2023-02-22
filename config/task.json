@@ -56869,9 +56869,9 @@
     "fields": {
         "name": "Fun",
         "activity": null,
-        "notes": "    People magazine\n    Chip Wars on YouTube\n    Sim City (level 23)",
+        "notes": "    People magazine\n    nts\n    Chip Wars on YouTube\n    Sim City (level 23)",
         "date": "2023-02-19",
-        "hours": 1,
+        "hours": 3,
         "done": false
     }
 },
@@ -56977,9 +56977,9 @@
     "fields": {
         "name": "Church",
         "activity": null,
-        "notes": "    think about church life\n    Life with God Blogcast",
+        "notes": "    think about church life\n    Life with God Blogcast\n    home group Garcias, Christine, Brian",
         "date": "2023-02-21",
-        "hours": 2,
+        "hours": 4,
         "done": false
     }
 },
@@ -57016,6 +57016,54 @@
         "notes": "    Wisdom From God\n    How to Tell Your Story\n    Call to Transformation\n    Wisdom From God",
         "date": "2023-02-21",
         "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34386,
+    "fields": {
+        "name": "Teach",
+        "activity": null,
+        "notes": "    build teachable sales page\n    start on course content",
+        "date": "2023-02-21",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34387,
+    "fields": {
+        "name": "Fun",
+        "activity": null,
+        "notes": "    Sim City (level 52)",
+        "date": "2023-02-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34388,
+    "fields": {
+        "name": "Software",
+        "activity": null,
+        "notes": "    copy files to Sea Mac",
+        "date": "2023-02-19",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34389,
+    "fields": {
+        "name": "Software",
+        "activity": null,
+        "notes": "    add options to update_tasks",
+        "date": "2023-02-22",
+        "hours": 1,
         "done": false
     }
 }

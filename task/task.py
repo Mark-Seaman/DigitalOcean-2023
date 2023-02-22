@@ -415,17 +415,13 @@ def update_tasks(**kwargs):
 
     # Task.objects.all().delete()
     # print(fix_tasks())
-    # print(missing_days(days))
-    # print(show_incomplete_days(days))
-    # print(show_task_summary(days=days))
-    # return time_summary()
 
     text = task_import_files(days=days)
-    text += f'\n\nRecords: {len(Task.objects.all())}\n\n'
-    text += f'\n\n{missing_days(days=days)}\n\n'
-    text += f'\n\n{show_incomplete_days(days=days)}\n\n'
-    text += f'\n\nTotals:\n\n{time_summary(days=days)}\n\n'
-    text += f'\n\nSummary:\n\n{show_task_summary(days=days)}\n\n'
+    text += f'\n\nRecords: {len(Task.objects.all())}\n'
+    text += f'{missing_days(days=days)}\n'
+    text += f'{show_incomplete_days(days=days)}\n'
+    text += f'Totals:{time_summary(days=days)}\n'
+    text += f'Summary:\n\n{show_task_summary(days=days)}\n'
     return text
 
 

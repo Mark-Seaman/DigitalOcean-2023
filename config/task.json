@@ -56994,5 +56994,29 @@
         "hours": 1,
         "done": false
     }
+},
+{
+    "model": "task.task",
+    "pk": 34384,
+    "fields": {
+        "name": "Software",
+        "activity": null,
+        "notes": "    install brew, tree, figlet\n    build Transformation Blogcast writing script",
+        "date": "2023-02-21",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 34385,
+    "fields": {
+        "name": "Write",
+        "activity": null,
+        "notes": "    Wisdom From God\n    How to Tell Your Story\n    Call to Transformation\n    Wisdom From God",
+        "date": "2023-02-21",
+        "hours": 2,
+        "done": false
+    }
 }
 ]

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from course.course import get_course, weekly_content
+from course.course import get_course, show_content, weekly_content
 from publish.book_tools import create_book_covers
 from publish.models import Content, Pub
 from publish.pub import get_pub, get_pub_contents
@@ -13,11 +13,12 @@ from task.todo import edit_todo_list
 def quick_test():
     # print("No quick test defined")
     # pubs()
+    courses()
     # todo()
     # write()
     # update_tasks()
     # update_pub_content()
-    create_book_covers()
+    # create_book_covers()
     # Pub.objects.get(name='video').delete()
 
 
@@ -71,10 +72,10 @@ def write_webapps_contents():
 def courses():
 
     print("Build Courses")
-    weeks = weekly_content(get_course("bacs350"))
+    # weeks = weekly_content(get_course("bacs350"))
     # weeks = accordion_data()
-    for w in weeks:
-        print(w)
+    # for w in weeks:
+    #     print(w)
     # create_course(**bacs350_options())
     # prepare_lesson(10)
     # prepare_lesson(11)
@@ -98,5 +99,7 @@ def courses():
 
     # print(test_book_import())
 
-    # print("Show course content")
+    print("Show course content")
+    course = get_course("bacs350")
+    print(show_content(course))
     # print(test_export_courses())

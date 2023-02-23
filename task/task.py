@@ -280,15 +280,17 @@ def task_filter(tasks, activity):
 def task_import_files(days=7):
     def read_task_file(date):
         # print(date)
-        history = "Documents/markseaman.info/history"
-        path = join(history, date.replace("-", "/"))
-        if exists(path):
-            text = open(path).read()
+        d = date.replace("-", "/")
+        history = Path(f'Documents/markseaman.info/history/{d}')
+        if history.exists():
+            text = history.read_text()
+            Task.objects.filter(date=date).delete()
+            # print('DELETE TASK', Task.objects.filter(date=date).delete())
             # print(path)
             tasks = []
             notes = []
 
-            for line in text.split("\n"):
+            for line in text_lines(text):
                 if line and not line.startswith(" "):
                     if notes:
                         t = new_task(date, activity, hours, notes)
@@ -315,13 +317,13 @@ def task_import_files(days=7):
         t.save()
         return t
 
-    text = 'Import task history: \n\n'
+    text = []
     for d in recent_dates(days):
         # d = '2022-06-24'
         read_task_file(d)
-        text += f'{d}\n'
+        text.append(d)
     save_data()
-    return text
+    return f'Import task history: {len(text)} days imported\n\n'
 
 
 def task_list(days=7):
@@ -417,7 +419,7 @@ def update_tasks(**kwargs):
     # print(fix_tasks())
 
     text = task_import_files(days=days)
-    text += f'\n\nRecords: {len(Task.objects.all())}\n'
+    text += f'Records: {len(Task.objects.all())}\n'
     text += f'{missing_days(days=days)}\n'
     text += f'{show_incomplete_days(days=days)}\n'
     text += f'Totals:{time_summary(days=days)}\n'

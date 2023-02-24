@@ -21,6 +21,13 @@ The IBM PC was introduced in 1981 and immediate set the standard by which all ot
 
 I started my dream job in 1981, two weeks after I graduated from college. We moved from Arizona to Boise, Idaho where I began working with Hewlett-Packard. I was an Electrical Engineer but really had a passion for programming. I worked for Disc Memory Division of HP where we built a massive disk drive with 7 magnetic platters. I was now playing the big boys on the cutting edge of technology.
 
+---
 
+Personal Computer
+https://shrinking-world.io/personal-computer/
+
+
+The Personal Computer (1980s)
 https://seamansguide.com/tech/tech-PersonalComputer.md
+
 

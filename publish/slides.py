@@ -91,8 +91,10 @@ def plant(args):
 
 
 def slides_view_context(**kwargs):
-    pub = kwargs.get('pub', 'publish')
-    doc = kwargs.get('doc', 'Publish')
+    pub = kwargs.get('pub', 'webapps')
+    doc = kwargs.get('doc', 'WebApps')
+    # pub = kwargs.get('pub', 'publish')
+    # doc = kwargs.get('doc', 'Publish')
     json = f"Documents/shrinking-world.com/workshop/{pub}/slides_settings.json"
     md_path = f'Documents/shrinking-world.com/workshop/{pub}/{doc}-slides.md'
     kwargs = read_json(json)

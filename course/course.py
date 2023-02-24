@@ -17,7 +17,8 @@ def accordion_data(week):
         if i == active:
             card.update(dict(id=i, collapsed='', show='show', aria='true'))
         else:
-            card.update(dict(id=i, collapsed='collapsed', show='', aria='false'))
+            card.update(
+                dict(id=i, collapsed='collapsed', show='', aria='false'))
         return card
 
     weeks = weekly_content(get_course('bacs350'))
@@ -51,7 +52,8 @@ def bacs350_options():
 def course_settings(**kwargs):
     def read_course_settings(course):
         return read_json(
-            Path("Documents") / "shrinking-world.com" / course.name / "course.json"
+            Path("Documents") / "shrinking-world.com" /
+            course.name / "course.json"
         )
 
     course = get_course(kwargs["course"])
@@ -138,9 +140,9 @@ def show_content(course):
     content = ""
     weeks = get_content(course)
     for w in weeks:
-        content += f'{w["week"]}\n'
+        content += f'{w["week"].title}\n'
         for c in w["contents"]:
-            content += f"    {c}\n"
+            content += f"    {c.title}\n"
     return content
 
 

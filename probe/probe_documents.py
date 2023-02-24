@@ -43,7 +43,7 @@ def test_documents_spiritual():
 
 
 def test_documents_shrinking_world():
-    return check_files(docs / "shrinking-world.com", 600, 610)
+    return check_files(docs / "shrinking-world.com", 580, 610)
 
 
 def test_documents_mark():

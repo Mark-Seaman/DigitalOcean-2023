@@ -1,3 +1,4 @@
+from os import system
 from pathlib import Path
 
 from django.template.loader import render_to_string
@@ -52,6 +53,10 @@ def write_blog(args=[]):
         today = localdate().strftime("%m/%d") + ".md"
         args[0] = f"Documents/seamanslog.com/sampler/{today}"
         edit_file(args)
+    elif args[0] == 'sw':
+        print('Shrinking World')
+        system('open https://the-shrinking-world.ghost.io/ghost/#/site')
+        edit_file('Documents/shrinking-world.io')
     elif args[0] == 'words':
         write_words(args[1:])
     elif args[0] == 'workshop':

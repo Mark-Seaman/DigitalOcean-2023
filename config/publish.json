@@ -313,7 +313,7 @@
         "domain": null,
         "url": "/today",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 622,
+        "words": 623,
         "cover_image": "/static/images/MarkSeaman.org/today-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -16014,7 +16014,7 @@
         "doctype": "folder",
         "path": "Documents/markseaman.org/today/02/Blogcast.md",
         "folder": 0,
-        "words": 158,
+        "words": 159,
         "retain_object": false
     }
 },

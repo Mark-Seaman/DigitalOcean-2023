@@ -253,10 +253,9 @@ def task_command(command):
     else:
         days = None
     if days:
-        # import_tasks(days=days)
-        # return show_task_summary(days=days)
-        # print(text)
         text = update_tasks(days=days)
+        if command[1:] and command[1] == 'activity':
+            text += f'Activities:\n\n{activity(days=days)}\n'
         return text
 
 
@@ -443,7 +442,6 @@ def update_tasks(**kwargs):
     text += f'{show_incomplete_days(days=days)}\n'
     text += f'Totals:{time_summary(days=days)}\n'
     text += f'Summary:\n\n{show_task_summary(days=days)}\n\n\n'
-    text += f'Activities:\n\n{activity(days=days)}\n'
     return text
 
 

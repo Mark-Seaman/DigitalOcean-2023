@@ -12,6 +12,24 @@ from publish.text import text_join, text_lines
 from task.models import Activity, Task, TaskType
 
 
+def activity(**kwargs):
+
+    def unique(text):
+        return text_join(set(text_lines(text)))
+
+    def notes(days, activity):
+        tasks = Task.objects.filter(
+            date__in=recent_dates(days), activity=activity)
+        notes = text_join(['    '+t.notes.strip() for t in tasks])
+        return f'\n\n{activity}\n\n' + unique(notes)
+
+    days = kwargs.get('days', 366)
+    text = f'Activity: recent {days} days\n\n'
+    for a in Activity.objects.all():
+        text += notes(days, a)
+    return text
+
+
 def combine_work_tasks(table, total):
     work = 0
     results = []
@@ -78,10 +96,10 @@ def fix_tasks(**kwargs):
     return show_activities()
 
 
-def import_tasks(**kwargs):
-    days = kwargs.get('days', 8)
-    task_import_files(days=days)
-    # print(time_table("Month", 31))
+# def import_tasks(**kwargs):
+#     days = kwargs.get('days', 8)
+#     task_import_files(days=days)
+#     # print(time_table("Month", 31))
 
 
 def incomplete_days(days):
@@ -312,6 +330,7 @@ def task_import_files(days=7):
 
     def new_task(date, name, hours, notes):
         t = Task.objects.get_or_create(date=date, name=name)[0]
+        t.activity = Activity.objects.get(name=name)
         t.hours = hours
         t.notes = "\n".join(notes)
         t.save()
@@ -423,7 +442,8 @@ def update_tasks(**kwargs):
     text += f'{missing_days(days=days)}\n'
     text += f'{show_incomplete_days(days=days)}\n'
     text += f'Totals:{time_summary(days=days)}\n'
-    text += f'Summary:\n\n{show_task_summary(days=days)}\n'
+    text += f'Summary:\n\n{show_task_summary(days=days)}\n\n\n'
+    text += f'Activities:\n\n{activity(days=days)}\n'
     return text
 
 

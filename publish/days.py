@@ -10,11 +10,11 @@ def days_command(options):
     if options:
         cmd = options[0]
         args = options[1:]
-        if cmd=='list':
+        if cmd == 'list':
             days_list(args)
-        elif cmd=='month':
+        elif cmd == 'month':
             days_month(args)
-        elif cmd=='today':
+        elif cmd == 'today':
             print(today())
         elif cmd == 'weeks':
             days_weeks(args[0])
@@ -53,8 +53,8 @@ def day_str(t):
 
 
 # Return a date from 48 hours ago
-def days_ago(date,days):
-    return  date_str(date-timedelta(days=days))
+def days_ago(date, days):
+    return date_str(date-timedelta(days=days))
 
 
 # Day of the week
@@ -81,7 +81,7 @@ def days_list(args):
     else:
         today = datetime.today()
 
-    print('Days: %d, To: %s'%(days,day_str(today)))
+    print('Days: %d, To: %s' % (days, day_str(today)))
 
     for d in enumerate_days(today, days):
         print(day_str(to_date(d)))
@@ -99,7 +99,8 @@ def list_summer(start='2020-05-01', num_weeks=20):
 
 def list_unc_schedule(start='2020-08-24', num_weeks=15):
     def add_date(week, day):
-        dates.append((week + 1, (d + timedelta(days=day)).strftime("%a, %Y-%m-%d")))
+        dates.append(
+            (week + 1, (d + timedelta(days=day)).strftime("%a, %Y-%m-%d")))
 
     dates = []
     d = to_date(start)
@@ -180,8 +181,9 @@ def parse_date(s):
 
 
 # List the last several days
-def recent_dates(days=4):
-    start = datetime.today()
+def recent_dates(days=4, start=None):
+    if not start:
+        start = datetime.today()
     return [days_ago(start, days - d - 1) for d in range(days)]
 
 
@@ -208,5 +210,3 @@ def tomorrow(date, days=1):
 # Return a date from 24 hours ago
 def yesterday(date, days=1):
     return date-timedelta(days=days)
-
-

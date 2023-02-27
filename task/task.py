@@ -77,14 +77,23 @@ def fix_tasks(**kwargs):
         type = TaskType.objects.get_or_create(name=type)[0]
         return Activity.objects.get_or_create(name=name, type=type)[0]
 
+    def delete_activity(name):
+        return Activity.objects.get(name=name).delete()
+
     def setup_activities():
         define_activity('Family', 'People')
         define_activity('Learn', 'Work')
-        define_activity('Software', 'Work')
+        define_activity('Innovate', 'Work')
         define_activity('ProMETA', 'Work')
 
-        rename_task('Software', 'Innovate')
-        rename_task('Network', 'Write')
+        delete_activity('Code')
+        delete_activity('Software')
+        delete_activity('People')
+        delete_activity('Network')
+        delete_activity('Tools')
+
+        # rename_task('Software', 'Innovate')
+        # rename_task('Network', 'Write')
         # rename_task('People', 'Family')
         # rename_task('Tools', 'Software')
         # rename_task('Code', 'Software')

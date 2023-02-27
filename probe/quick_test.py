@@ -17,7 +17,7 @@ def quick_test():
     # courses()
     # todo()
     # write()
-    print(update_tasks(days=31,  activity=True))
+    print(update_tasks(days=8,  activity=True))
     # update_pub_content()
     # create_book_covers()
     # Pub.objects.get(name='video').delete()

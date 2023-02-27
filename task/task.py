@@ -83,8 +83,10 @@ def fix_tasks(**kwargs):
         define_activity('Software', 'Work')
         define_activity('ProMETA', 'Work')
 
-        rename_task('People', 'Family')
-        rename_task('Tools', 'Software')
+        rename_task('Software', 'Innovate')
+        rename_task('Network', 'Write')
+        # rename_task('People', 'Family')
+        # rename_task('Tools', 'Software')
         # rename_task('Code', 'Software')
         # rename_task('Career', 'Business')
         # rename_task('Networking', 'Business')

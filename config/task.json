@@ -20973,7 +20973,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24504,
+    "pk": 24537,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -20985,7 +20985,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24505,
+    "pk": 24538,
     "fields": {
         "name": "Software",
         "activity": 13,
@@ -20997,7 +20997,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24506,
+    "pk": 24539,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -21009,7 +21009,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24507,
+    "pk": 24540,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -21021,7 +21021,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24508,
+    "pk": 24541,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -21033,7 +21033,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24509,
+    "pk": 24542,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -21045,7 +21045,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24510,
+    "pk": 24543,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -21057,7 +21057,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24511,
+    "pk": 24544,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -21069,7 +21069,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24512,
+    "pk": 24545,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -21081,7 +21081,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24513,
+    "pk": 24546,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -21093,7 +21093,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24514,
+    "pk": 24547,
     "fields": {
         "name": "Software",
         "activity": 13,
@@ -21105,7 +21105,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24515,
+    "pk": 24548,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -21117,7 +21117,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24516,
+    "pk": 24549,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -21129,7 +21129,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24517,
+    "pk": 24550,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -21141,7 +21141,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24518,
+    "pk": 24551,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -21153,7 +21153,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24519,
+    "pk": 24552,
     "fields": {
         "name": "Software",
         "activity": 13,
@@ -21165,7 +21165,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24520,
+    "pk": 24553,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -21177,7 +21177,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24521,
+    "pk": 24554,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -21189,7 +21189,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24522,
+    "pk": 24555,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -21201,7 +21201,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24523,
+    "pk": 24556,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -21213,7 +21213,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24524,
+    "pk": 24557,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -21225,7 +21225,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24525,
+    "pk": 24558,
     "fields": {
         "name": "Software",
         "activity": 13,
@@ -21237,7 +21237,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24526,
+    "pk": 24559,
     "fields": {
         "name": "ProMETA",
         "activity": 14,
@@ -21249,7 +21249,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24527,
+    "pk": 24560,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -21261,7 +21261,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24528,
+    "pk": 24561,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -21273,7 +21273,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24529,
+    "pk": 24562,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -21285,7 +21285,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24530,
+    "pk": 24563,
     "fields": {
         "name": "ProMETA",
         "activity": 14,
@@ -21297,7 +21297,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24531,
+    "pk": 24564,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -21309,7 +21309,7 @@
 },
 {
     "model": "task.task",
-    "pk": 24532,
+    "pk": 24565,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -21321,31 +21321,43 @@
 },
 {
     "model": "task.task",
-    "pk": 24533,
+    "pk": 24566,
     "fields": {
         "name": "Software",
         "activity": 13,
         "notes": "    copy files to Sea Mac (Music)\n    create activity summary",
         "date": "2023-02-25",
-        "hours": 4,
+        "hours": 3,
         "done": false
     }
 },
 {
     "model": "task.task",
-    "pk": 24534,
+    "pk": 24567,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 14,
+        "notes": "    discuss project with Stacie",
+        "date": "2023-02-25",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 24568,
     "fields": {
         "name": "Family",
         "activity": 12,
         "notes": "    UNC basketball game\n    family pizza night\n    Cassie sleep over",
         "date": "2023-02-25",
-        "hours": 7,
+        "hours": 6,
         "done": false
     }
 },
 {
     "model": "task.task",
-    "pk": 24535,
+    "pk": 24569,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -21357,12 +21369,72 @@
 },
 {
     "model": "task.task",
-    "pk": 24536,
+    "pk": 24570,
     "fields": {
         "name": "Grow",
         "activity": 6,
-        "notes": "    activity master script",
+        "notes": "    activity master script\n    weekly review and reflection",
         "date": "2023-02-26",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 24571,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    church in Greeley",
+        "date": "2023-02-26",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 24572,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    discuss trips NM, SD, NC",
+        "date": "2023-02-26",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 24573,
+    "fields": {
+        "name": "Business",
+        "activity": 3,
+        "notes": "    locate previous retirement and investment spreadsheets",
+        "date": "2023-02-26",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 24574,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    reflection",
+        "date": "2023-02-27",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 24575,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    trip planning",
+        "date": "2023-02-27",
         "hours": 1,
         "done": false
     }

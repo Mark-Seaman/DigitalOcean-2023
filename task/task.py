@@ -7,26 +7,25 @@ from re import findall, sub
 from django.db.models import Sum
 from django.template.loader import render_to_string
 
-from publish.days import recent_dates
+from publish.days import date_str, recent_dates, to_date
 from publish.text import text_join, text_lines
 from task.models import Activity, Task, TaskType
 
 
-def activity(**kwargs):
+def activity(days, date):
 
     def unique(text):
         return text_join(set(text_lines(text)))
 
-    def notes(days, activity):
-        tasks = Task.objects.filter(
-            date__in=recent_dates(days), activity=activity)
+    def notes(dates, activity):
+        tasks = Task.objects.filter(date__in=dates, activity=activity)
         notes = text_join(['    '+t.notes.strip() for t in tasks])
         return f'\n\n{activity}\n\n' + unique(notes)
 
-    days = kwargs.get('days', 366)
-    text = f'Activity: recent {days} days\n\n'
+    text = f'Activity: recent {days} days {date}\n\n'
+    dates = recent_dates(days, date)
     for a in Activity.objects.all():
-        text += notes(days, a)
+        text += notes(dates, a)
     return text
 
 
@@ -102,8 +101,9 @@ def fix_tasks(**kwargs):
 #     # print(time_table("Month", 31))
 
 
-def incomplete_days(days):
-    end = datetime.now()
+def incomplete_days(days, end=None):
+    if not end:
+        end = datetime.now()
     start = end - timedelta(days=days)
     tasks = Task.objects.filter(date__gt=start, date__lte=end)
     totals = tasks.values("date").annotate(
@@ -113,10 +113,9 @@ def incomplete_days(days):
     return table
 
 
-def missing_days(**kwargs):
-    days = kwargs.get('days', 366)
-    text = f'Missing Days: recent {days} days\n\n'
-    for d in recent_dates(days):
+def missing_days(days, date):
+    text = f'Missing Days: recent {days} days  {date_str(date)}\n\n'
+    for d in recent_dates(days, date):
         if not Task.objects.filter(date=d):
             text += f'Missing {d}\n'
     return text
@@ -196,7 +195,7 @@ def save_data():
     system("python manage.py dumpdata --indent 4 task > config/task.json")
 
 
-def show_task_summary(**kwargs):
+def show_task_summary(days, date):
     def gather_totals(pairs):
         s = {}
         for i in pairs:
@@ -231,12 +230,11 @@ def show_task_summary(**kwargs):
                 assert (False)
         return summary
 
-    days = kwargs.get('days', 366)
-    totals = time_totals(days)
+    totals = time_totals(days, date)
     table, total = time_percentage(totals)
     summary = task_summary(table)
     output = show_totals(gather_totals(summary))
-    return f"{output}\n\nTotal Hours: {total}"
+    return f"{output}\n{days} days, {date_str(date)}\nTotal Hours: {total}"
 
 
 def task_command(command):
@@ -251,12 +249,15 @@ def task_command(command):
     elif command[0] == 'year':
         days = 366
     else:
-        days = None
-    if days:
-        text = update_tasks(days=days)
-        if command[1:] and command[1] == 'activity':
-            text += f'Activities:\n\n{activity(days=days)}\n'
-        return text
+        return 'Specify a timeframe'
+
+    date = None
+    activity = False
+    if command[1:]:
+        date = command[1]
+    if command[2:] and command[2] == 'activity':
+        activity = True
+    return update_tasks(days=days, date=date, activity=activity)
 
 
 def tabs_data(tables):
@@ -294,7 +295,7 @@ def task_filter(tasks, activity):
         return tasks.filter(name__in=work_types())
 
 
-def task_import_files(days=7):
+def task_import_files(days=7, date=None):
     def read_task_file(date):
         # print(date)
         d = date.replace("-", "/")
@@ -336,12 +337,11 @@ def task_import_files(days=7):
         return t
 
     text = []
-    for d in recent_dates(days):
-        # d = '2022-06-24'
+    for d in recent_dates(days, date):
         read_task_file(d)
         text.append(d)
     save_data()
-    return f'Import task history: {len(text)} days imported\n\n'
+    return f'Import task history: {len(text)} days imported\n{text}\n'
 
 
 def task_list(days=7):
@@ -375,16 +375,16 @@ def time_data():
     return dict(tabs=tabs_data(tables), incomplete=incomplete_days(366))
 
 
-def time_filter(tasks, days):
-    end = datetime.now()
+def time_filter(tasks, days, end=None):
+    if not end:
+        end = datetime.now()
     start = end - timedelta(days=days)
     # print('time filter', start, end)
     return tasks.filter(date__gt=start, date__lte=end)
 
 
-def time_summary(**kwargs):
-    days = kwargs.get('days', 30)
-    return render_to_string('time_summary.md', time_table("total", days))
+def time_summary(days, date):
+    return render_to_string('time_summary.md', time_table("total", days, date))
 
 
 def time_percentage(totals):
@@ -397,8 +397,8 @@ def time_percentage(totals):
     return table, total
 
 
-def time_totals(days):
-    tasks = time_filter(Task.objects.all(), days)
+def time_totals(days, date=None):
+    tasks = time_filter(Task.objects.all(), days, date)
     totals = (
         tasks.values("name").annotate(
             task_hours=Sum("hours")).order_by("-task_hours")
@@ -406,8 +406,8 @@ def time_totals(days):
     return totals
 
 
-def time_table(period, days):
-    totals = time_totals(days)
+def time_table(period, days, date=None):
+    totals = time_totals(days, date)
     table, total = time_percentage(totals)
     labels = ["Task Name", "Invested Time", "Percentage"]
     description = f"Total hours spent for the previous {period}."
@@ -422,26 +422,33 @@ def time_table(period, days):
     return data
 
 
-def show_incomplete_days(**kwargs):
-    days = kwargs.get('days', 366)
-    text = f'Incomplete Days: recent {days} days\n\n'
-    for t in incomplete_days(days):
+def show_incomplete_days(days, date):
+    text = f'Incomplete Days: recent {days} days {date_str(date)}\n\n'
+    for t in incomplete_days(days, date):
         text += f'{t[0]} - {t[1]} hours\n'
     return text
 
 
 def update_tasks(**kwargs):
-    days = kwargs.get('days', 366)
+    days = kwargs.get('days', 8)
+    date = kwargs.get('date')
+    show_activity = kwargs.get('activity')
+    if date:
+        date = to_date(date)
+    else:
+        date = datetime.today()
 
     # Task.objects.all().delete()
     # print(fix_tasks())
 
-    text = task_import_files(days=days)
-    text += f'Records: {len(Task.objects.all())}\n'
-    text += f'{missing_days(days=days)}\n'
-    text += f'{show_incomplete_days(days=days)}\n'
-    text += f'Totals:{time_summary(days=days)}\n'
-    text += f'Summary:\n\n{show_task_summary(days=days)}\n\n\n'
+    text = task_import_files(days, date)
+    text += f'Records: {len(Task.objects.all())}\n\n'
+    text += f'{missing_days(days, date)}\n'
+    text += f'{show_incomplete_days(days, date)}\n'
+    text += f'Totals: {days} days, {date_str(date)} {time_summary(days, date)}\n'
+    text += f'Summary:\n\n{show_task_summary(days, date)}\n\n\n'
+    if show_activity:
+        text += f'Activities:\n\n{activity(days, date)}\n'
     return text
 
 

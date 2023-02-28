@@ -78,7 +78,8 @@ def fix_tasks(**kwargs):
         return Activity.objects.get_or_create(name=name, type=type)[0]
 
     def delete_activity(name):
-        return Activity.objects.get(name=name).delete()
+        if Activity.objects.filter(name=name):
+            return Activity.objects.get(name=name).delete()
 
     def setup_activities():
         define_activity('Family', 'People')

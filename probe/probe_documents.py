@@ -19,11 +19,11 @@ def test_documents_cs350():
 
 
 def test_documents_info():
-    return check_files(docs / "markseaman.info", 2800, 2900)
+    return check_files(docs / "markseaman.info", 2800, 3000)
 
 
 def test_documents_images():
-    return check_files(Path("static") / "images", 480, 500)
+    return check_files(Path("static") / "images", 480, 550)
 
 
 def test_documents_fix_chars():

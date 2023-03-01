@@ -56245,402 +56245,6 @@
 },
 {
     "model": "task.task",
-    "pk": 37477,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    night watch: Life with God Blogcast",
-        "date": "2023-02-21",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37478,
-    "fields": {
-        "name": "Church",
-        "activity": 7,
-        "notes": "    think about church life\n    Life with God Blogcast\n    home group Garcias, Christine, Brian",
-        "date": "2023-02-21",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37479,
-    "fields": {
-        "name": "Family",
-        "activity": 13,
-        "notes": "    buy burritos",
-        "date": "2023-02-21",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37480,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    install brew, tree, figlet\n    build Transformation Blogcast writing script",
-        "date": "2023-02-21",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37481,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    Wisdom From God\n    How to Tell Your Story\n    Call to Transformation\n    Wisdom From God",
-        "date": "2023-02-21",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37482,
-    "fields": {
-        "name": "Teach",
-        "activity": 1,
-        "notes": "    build teachable sales page\n    start on course content",
-        "date": "2023-02-21",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37483,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Sim City (level 52)",
-        "date": "2023-02-21",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37484,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    nap",
-        "date": "2023-02-22",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37485,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    add options to update_tasks",
-        "date": "2023-02-22",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37486,
-    "fields": {
-        "name": "Church",
-        "activity": 7,
-        "notes": "    meet with Mark Fields",
-        "date": "2023-02-22",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37487,
-    "fields": {
-        "name": "Family",
-        "activity": 13,
-        "notes": "    time with Stacie",
-        "date": "2023-02-22",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37488,
-    "fields": {
-        "name": "Teach",
-        "activity": 1,
-        "notes": "    create course content on Teachable",
-        "date": "2023-02-22",
-        "hours": 6,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37489,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Bad Batch\n    Picard",
-        "date": "2023-02-22",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37490,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    reflection\n    gather notes on connecting\n    Project Priorities",
-        "date": "2023-02-23",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37491,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    update task master",
-        "date": "2023-02-23",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37492,
-    "fields": {
-        "name": "ProMETA",
-        "activity": 12,
-        "notes": "    create Github repo\n    ",
-        "date": "2023-02-23",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37493,
-    "fields": {
-        "name": "Teach",
-        "activity": 1,
-        "notes": "    Teachable intro plan\n    record Welcome video\n    record Overview video\n    record Bio video",
-        "date": "2023-02-23",
-        "hours": 6,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37494,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Bad Batch\n    Sim City (level 52)",
-        "date": "2023-02-23",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37495,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Sim City (level 52)\n    nts\n    Bad Batch",
-        "date": "2023-02-24",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37496,
-    "fields": {
-        "name": "ProMETA",
-        "activity": 12,
-        "notes": "    create Github repo and documents\n    invite Stacie",
-        "date": "2023-02-24",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37497,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    Shrinking World Weekly (4)\n    clean up old structure\n    build local copy for new posts\n    write new posts (16)\n    ",
-        "date": "2023-02-24",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37498,
-    "fields": {
-        "name": "Family",
-        "activity": 13,
-        "notes": "    date at Betta Gumbo\n    ",
-        "date": "2023-02-24",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37499,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    copy files to Sea Mac (Music)\n    create activity summary",
-        "date": "2023-02-25",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37500,
-    "fields": {
-        "name": "ProMETA",
-        "activity": 12,
-        "notes": "    discuss project with Stacie",
-        "date": "2023-02-25",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37501,
-    "fields": {
-        "name": "Family",
-        "activity": 13,
-        "notes": "    UNC basketball game\n    family pizza night\n    Cassie sleep over",
-        "date": "2023-02-25",
-        "hours": 6,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37502,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Sim City (level 53)\n    plan travel for AVC trip\n    plan travel for South Dakota trip",
-        "date": "2023-02-25",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37503,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    activity master script\n    weekly review and reflection",
-        "date": "2023-02-26",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37504,
-    "fields": {
-        "name": "Church",
-        "activity": 7,
-        "notes": "    church in Greeley",
-        "date": "2023-02-26",
-        "hours": 7,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37505,
-    "fields": {
-        "name": "Family",
-        "activity": 13,
-        "notes": "    discuss trips NM, SD, NC",
-        "date": "2023-02-26",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37506,
-    "fields": {
-        "name": "Business",
-        "activity": 3,
-        "notes": "    locate previous retirement and investment spreadsheets",
-        "date": "2023-02-26",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37507,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    reflection",
-        "date": "2023-02-27",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37508,
-    "fields": {
-        "name": "Family",
-        "activity": 13,
-        "notes": "    trip planning",
-        "date": "2023-02-27",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 37509,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    task script (add starting dates)\n    create summary of time and activity",
-        "date": "2023-02-27",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
     "pk": 37636,
     "fields": {
         "name": "Grow",
@@ -57140,6 +56744,498 @@
         "notes": "    Emotionally Healthy Relationships",
         "date": "2023-02-01",
         "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37678,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    night watch: Life with God Blogcast",
+        "date": "2023-02-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37679,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    think about church life\n    Life with God Blogcast\n    home group Garcias, Christine, Brian",
+        "date": "2023-02-21",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37680,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    buy burritos",
+        "date": "2023-02-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37681,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    install brew, tree, figlet\n    build Transformation Blogcast writing script",
+        "date": "2023-02-21",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37682,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Wisdom From God\n    How to Tell Your Story\n    Call to Transformation\n    Wisdom From God",
+        "date": "2023-02-21",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37683,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    build teachable sales page\n    start on course content",
+        "date": "2023-02-21",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37684,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Sim City (level 52)",
+        "date": "2023-02-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37784,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    nap",
+        "date": "2023-02-22",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37785,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    add options to update_tasks",
+        "date": "2023-02-22",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37786,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    meet with Mark Fields",
+        "date": "2023-02-22",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37787,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    time with Stacie",
+        "date": "2023-02-22",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37788,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    create course content on Teachable",
+        "date": "2023-02-22",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37789,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Bad Batch\n    Picard",
+        "date": "2023-02-22",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37790,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    reflection\n    gather notes on connecting\n    Project Priorities",
+        "date": "2023-02-23",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37791,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    update task master",
+        "date": "2023-02-23",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37792,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 12,
+        "notes": "    create Github repo\n    ",
+        "date": "2023-02-23",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37793,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    Teachable intro plan\n    record Welcome video\n    record Overview video\n    record Bio video",
+        "date": "2023-02-23",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37794,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Bad Batch\n    Sim City (level 52)",
+        "date": "2023-02-23",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37795,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Sim City (level 52)\n    nts\n    Bad Batch",
+        "date": "2023-02-24",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37796,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 12,
+        "notes": "    create Github repo and documents\n    invite Stacie",
+        "date": "2023-02-24",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37797,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Shrinking World Weekly (4)\n    clean up old structure\n    build local copy for new posts\n    write new posts (16)\n    ",
+        "date": "2023-02-24",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37798,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    date at Betta Gumbo\n    ",
+        "date": "2023-02-24",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37799,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    copy files to Sea Mac (Music)\n    create activity summary",
+        "date": "2023-02-25",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37800,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 12,
+        "notes": "    discuss project with Stacie",
+        "date": "2023-02-25",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37801,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    UNC basketball game\n    family pizza night\n    Cassie sleep over",
+        "date": "2023-02-25",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37802,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Sim City (level 53)\n    plan travel for AVC trip\n    plan travel for South Dakota trip",
+        "date": "2023-02-25",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37803,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    activity master script\n    weekly review and reflection",
+        "date": "2023-02-26",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37804,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    church in Greeley",
+        "date": "2023-02-26",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37805,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    discuss trips NM, SD, NC",
+        "date": "2023-02-26",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37806,
+    "fields": {
+        "name": "Business",
+        "activity": 3,
+        "notes": "    locate previous retirement and investment spreadsheets",
+        "date": "2023-02-26",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37807,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    reflection\n    review goals and accomplishments",
+        "date": "2023-02-27",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37808,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    trip planning\n    cook dinner with Stacie",
+        "date": "2023-02-27",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37809,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    task script (add starting dates)\n    create summary of time and activity",
+        "date": "2023-02-27",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37810,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    Teachable - course sales page",
+        "date": "2023-02-27",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37811,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Eli Stone\n    nts\n    Big Bang",
+        "date": "2023-02-27",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37812,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    haircut\n    Josiah did not get the job he interviewed for",
+        "date": "2023-02-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37813,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    build Teachable course\n    collect images for website art",
+        "date": "2023-02-28",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37814,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    set up shrinking-world.org domain\n    organize notes for Teachable setup",
+        "date": "2023-02-28",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37815,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    Lonnie Frisbee\n    home group - Ron story",
+        "date": "2023-02-28",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37816,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Big Bang\n    Bad Batch",
+        "date": "2023-02-28",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 37817,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    night watch: Lonnie Frisbee\n    thoughts for today",
+        "date": "2023-03-01",
+        "hours": 3,
         "done": false
     }
 }

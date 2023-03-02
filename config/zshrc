@@ -73,7 +73,7 @@ alias g='grep --color=auto'
 alias l='ls -al'
 alias lc='wc -l'
 alias u='d ..'
-alias host=hostname
+alias host="python -c 'import platform;print(platform.node()[:-6])'"
 alias h='history 100'
 alias p=python
 
@@ -183,6 +183,5 @@ export PS1="%3~ : "
 # Start directory
 cd ~/Hammer
 ls
-figlet `hostname`
-
+figlet `host`
 

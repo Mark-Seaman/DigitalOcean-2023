@@ -84,6 +84,9 @@ def write_blogcast(args=[]):
     write_file(f, text)
     print(text)
 
+# write blogcast Documents/markseaman.org/today/03/Success
+# write blogcast Documents/spiritual-things.org/transformation/LifeWithGod.ol
+
 
 def greenhouse():
     edit_file(['Documents/shrinking-world.com/greenhouse',

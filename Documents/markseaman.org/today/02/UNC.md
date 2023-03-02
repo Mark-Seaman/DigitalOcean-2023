@@ -3,6 +3,16 @@
 Return to [Mark Today Blogcast](/today)
 
 
+## video
+
+<iframe width="1280" height="720" 
+src="https://www.youtube.com/embed/GDE5c8VcnTI?list=PLAaj4BvOaalGImuHCtoCrQEihIrMXLc-w" 
+title="Friends & Family Video" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+
 ## notes
 
 Finals week   -- celebrate
@@ -21,14 +31,4 @@ Teaching is the highlight of my career
 I love watching students learn
 
 I am hoping to continue to invest in some form of teaching for the foreseeable future.
-
-
-## video
-
-<iframe width="1280" height="720" 
-src="https://www.youtube.com/embed/GDE5c8VcnTI?list=PLAaj4BvOaalGImuHCtoCrQEihIrMXLc-w" 
-title="Friends & Family Video" frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen>
-</iframe>
 

@@ -56,7 +56,8 @@ A well crafted teaching has an internal structure.  When you watch any TED talk
 you can quickly identify this structure. These lectures are works of craftsmanship
 that are the best representation of teaching available.
 
-Each teaching can be built upon one key ideas with four supporting ideas.  Each of these could be represented by a stand-alone Post in the Micropub words.  
+Each teaching can be built upon one key ideas with four supporting ideas.  
+Each of these could be represented by a stand-alone Post in the Micropub words.  
 This gives us a structure the follows the 1 + 4 logic pattern.
 
 This structure is often explicitly shown within the presentation of subsections
@@ -80,5 +81,6 @@ to follow up or expand on the ideas here.
 
 Show links that reflect the natural hierarchy of the article nesting.  This 
 strengthens the big picture for the student reading the material.
-Each article may be a part of a seminar or larger teaching structure.  The links should promote this idea.
+Each article may be a part of a seminar or larger teaching structure.  
+The links should promote this idea.
 

@@ -3,6 +3,16 @@
 Return to [Mark Today Blogcast](/today)
 
 
+## video
+
+<iframe width="1280" height="720" 
+src="https://www.youtube.com/embed/DMV8NYqBogM?list=PLAaj4BvOaalGImuHCtoCrQEihIrMXLc-w" 
+title="Friends & Family Video" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+</iframe>
+
+
 ## notes
 
 - Desire to reconnect
@@ -25,14 +35,3 @@ Return to [Mark Today Blogcast](/today)
     - Video Log & Notes
     - Full coverage with little effort
     - Hope for regular contact
-
-
-## video
-
-<iframe width="1280" height="720" 
-src="https://www.youtube.com/embed/DMV8NYqBogM?list=PLAaj4BvOaalGImuHCtoCrQEihIrMXLc-w" 
-title="Friends & Family Video" frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen>
-</iframe>
-

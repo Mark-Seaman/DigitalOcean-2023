@@ -57013,7 +57013,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38514,
+    "pk": 38546,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -57025,7 +57025,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38515,
+    "pk": 38547,
     "fields": {
         "name": "ProMETA",
         "activity": 12,
@@ -57037,7 +57037,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38516,
+    "pk": 38548,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57049,7 +57049,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38517,
+    "pk": 38549,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57061,7 +57061,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38518,
+    "pk": 38550,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57073,7 +57073,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38519,
+    "pk": 38551,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -57085,7 +57085,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38520,
+    "pk": 38552,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57097,7 +57097,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38521,
+    "pk": 38553,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -57109,7 +57109,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38522,
+    "pk": 38554,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57121,7 +57121,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38523,
+    "pk": 38555,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57133,7 +57133,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38524,
+    "pk": 38556,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -57145,7 +57145,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38525,
+    "pk": 38557,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -57157,7 +57157,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38526,
+    "pk": 38558,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57169,7 +57169,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38527,
+    "pk": 38559,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57181,7 +57181,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38528,
+    "pk": 38560,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -57193,7 +57193,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38529,
+    "pk": 38561,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -57205,7 +57205,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38530,
+    "pk": 38562,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -57217,7 +57217,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38531,
+    "pk": 38563,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57229,7 +57229,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38532,
+    "pk": 38564,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57241,7 +57241,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38533,
+    "pk": 38565,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -57253,7 +57253,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38534,
+    "pk": 38566,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -57265,7 +57265,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38535,
+    "pk": 38567,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -57277,7 +57277,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38536,
+    "pk": 38568,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57289,7 +57289,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38537,
+    "pk": 38569,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -57301,7 +57301,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38538,
+    "pk": 38570,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -57313,7 +57313,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38539,
+    "pk": 38571,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -57325,7 +57325,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38540,
+    "pk": 38572,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57337,7 +57337,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38541,
+    "pk": 38573,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57349,7 +57349,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38542,
+    "pk": 38574,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57361,7 +57361,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38543,
+    "pk": 38575,
     "fields": {
         "name": "ProMETA",
         "activity": 12,
@@ -57373,7 +57373,7 @@
 },
 {
     "model": "task.task",
-    "pk": 38544,
+    "pk": 38576,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -57385,13 +57385,37 @@
 },
 {
     "model": "task.task",
-    "pk": 38545,
+    "pk": 38577,
     "fields": {
         "name": "Write",
         "activity": 2,
-        "notes": "    masto - 214 Posts, 198 Following, 56 Followers\n    ",
+        "notes": "    masto - 214 Posts, 198 Following, 56 Followers",
         "date": "2023-03-03",
         "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 38578,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Eli Stone (series finale)",
+        "date": "2023-03-03",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 38579,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    review and reflection",
+        "date": "2023-03-04",
+        "hours": 3,
         "done": false
     }
 }

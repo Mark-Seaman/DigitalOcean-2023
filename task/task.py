@@ -203,8 +203,15 @@ def print_task_history(args):
     return tasks
 
 
-def save_data():
-    system("python manage.py dumpdata --indent 4 task > config/task.json")
+def save_task_data():
+    command = '''
+        {
+            python manage.py dumpdata --indent 4 task > config/task.json &&
+            git add config/task.json &&
+            git commit -m "Save task JSON"
+        } 2>&1 > /dev/null
+    '''
+    system(command)
 
 
 def show_task_summary(days, date):
@@ -352,7 +359,7 @@ def task_import_files(days=7, date=None):
     for d in recent_dates(days, date):
         read_task_file(d)
         text.append(d)
-    save_data()
+    save_task_data()
     return f'Import task history: {len(text)} days imported\n{text}\n'
 
 

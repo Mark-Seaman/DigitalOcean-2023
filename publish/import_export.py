@@ -4,8 +4,8 @@ from pathlib import Path
 from task.models import Activity, Task
 
 from .document import get_document
-from .files import read_json, read_csv_file
-from .models import Pub, Content
+from .files import read_csv_file, read_json
+from .models import Content, Pub
 from .toc import content_file, create_pub_index, write_content_csv
 
 
@@ -143,5 +143,13 @@ def rename_file(f1, f2):
     assert Path(f2).exists()
 
 
-def save_data():
-    system("python manage.py dumpdata --indent 4 publish > config/publish.json")
+def save_pub_data():
+    command = '''
+        {
+            python manage.py dumpdata --indent 4 publish > config/publish.json &&
+            git add config/publish.json &&
+            git commit -m "Save pub JSON" &&
+            git status
+        } 2>&1 > /dev/null 
+    '''
+    system(command)

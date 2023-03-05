@@ -3,7 +3,7 @@ from random import choice
 
 from .document import document_body, document_html, document_title
 from .files import read_file, read_json, write_file
-from .import_export import create_pubs, import_pub, save_data
+from .import_export import create_pubs, import_pub, save_pub_data
 from .models import Content, Pub
 from .text import text_join, word_count
 from .toc import (create_pub_index, pub_contents, show_word_count,
@@ -43,7 +43,7 @@ def build_pubs(pub=None):
             create_pub_index(pub, get_pub_contents(pub))
         text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
 
-    save_data()
+    save_pub_data()
     return text
 
 

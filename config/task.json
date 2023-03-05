@@ -21577,234 +21577,6 @@
 },
 {
     "model": "task.task",
-    "pk": 34720,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    activity master script\n    weekly review and reflection",
-        "date": "2023-02-26",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34721,
-    "fields": {
-        "name": "Church",
-        "activity": 7,
-        "notes": "    church in Greeley",
-        "date": "2023-02-26",
-        "hours": 7,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34722,
-    "fields": {
-        "name": "Family",
-        "activity": 12,
-        "notes": "    discuss trips NM, SD, NC",
-        "date": "2023-02-26",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34723,
-    "fields": {
-        "name": "Business",
-        "activity": 3,
-        "notes": "    locate previous retirement and investment spreadsheets",
-        "date": "2023-02-26",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34724,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    reflection\n    review goals and accomplishments",
-        "date": "2023-02-27",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34725,
-    "fields": {
-        "name": "Family",
-        "activity": 12,
-        "notes": "    trip planning\n    cook dinner with Stacie",
-        "date": "2023-02-27",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34726,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    task script (add starting dates)\n    create summary of time and activity",
-        "date": "2023-02-27",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34727,
-    "fields": {
-        "name": "Teach",
-        "activity": 1,
-        "notes": "    Teachable - course sales page",
-        "date": "2023-02-27",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34728,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Eli Stone\n    nts\n    Big Bang",
-        "date": "2023-02-27",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34729,
-    "fields": {
-        "name": "Family",
-        "activity": 12,
-        "notes": "    haircut\n    Josiah did not get the job he interviewed for",
-        "date": "2023-02-28",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34730,
-    "fields": {
-        "name": "Teach",
-        "activity": 1,
-        "notes": "    build Teachable course\n    collect images for website art",
-        "date": "2023-02-28",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34731,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    set up shrinking-world.org domain\n    organize notes for Teachable setup",
-        "date": "2023-02-28",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34732,
-    "fields": {
-        "name": "Church",
-        "activity": 7,
-        "notes": "    John Ruttkay video\n    Lonnie Frisbee books\n    home group - Ron story",
-        "date": "2023-02-28",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34733,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Big Bang\n    Bad Batch",
-        "date": "2023-02-28",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34734,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    night watch: Lonnie Frisbee\n    thoughts for today\n    Set Free\n    Critical Journey",
-        "date": "2023-03-01",
-        "hours": 5,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34735,
-    "fields": {
-        "name": "Teach",
-        "activity": 1,
-        "notes": "    Teachable launch - week 4\n    Getting Comfortable on camera\n    Video Recording Tips\n    Identity, Habits, Results\n    sign up for seminars",
-        "date": "2023-03-01",
-        "hours": 5,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34736,
-    "fields": {
-        "name": "Church",
-        "activity": 7,
-        "notes": "    video for John Ruttkay\n    EHR class\n    talk with Ed & Pam",
-        "date": "2023-03-01",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34737,
-    "fields": {
-        "name": "Business",
-        "activity": 3,
-        "notes": "    tax receipts for Novo",
-        "date": "2023-03-01",
-        "hours": 0,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 34738,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    reflect and review",
-        "date": "2023-03-02",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
     "pk": 35117,
     "fields": {
         "name": "Grow",
@@ -22304,6 +22076,402 @@
         "notes": "    Emotionally Healthy Relationships",
         "date": "2023-02-01",
         "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35159,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    activity master script\n    weekly review and reflection",
+        "date": "2023-02-26",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35160,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    church in Greeley",
+        "date": "2023-02-26",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35161,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    discuss trips NM, SD, NC",
+        "date": "2023-02-26",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35162,
+    "fields": {
+        "name": "Business",
+        "activity": 3,
+        "notes": "    locate previous retirement and investment spreadsheets",
+        "date": "2023-02-26",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35163,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    reflection\n    review goals and accomplishments",
+        "date": "2023-02-27",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35164,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    trip planning\n    cook dinner with Stacie",
+        "date": "2023-02-27",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35165,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    task script (add starting dates)\n    create summary of time and activity",
+        "date": "2023-02-27",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35166,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    Teachable - course sales page",
+        "date": "2023-02-27",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35167,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Eli Stone\n    nts\n    Big Bang",
+        "date": "2023-02-27",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35168,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    haircut\n    Josiah did not get the job he interviewed for",
+        "date": "2023-02-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35169,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    build Teachable course\n    collect images for website art",
+        "date": "2023-02-28",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35170,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    set up shrinking-world.org domain\n    organize notes for Teachable setup",
+        "date": "2023-02-28",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35171,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    John Ruttkay video\n    Lonnie Frisbee books\n    home group - Ron story",
+        "date": "2023-02-28",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35172,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Big Bang\n    Bad Batch",
+        "date": "2023-02-28",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35173,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    night watch: Lonnie Frisbee\n    thoughts for today\n    Set Free\n    Critical Journey",
+        "date": "2023-03-01",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35174,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    Teachable launch - week 4\n    Getting Comfortable on camera\n    Video Recording Tips\n    Identity, Habits, Results\n    sign up for seminars",
+        "date": "2023-03-01",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35175,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    video for John Ruttkay\n    EHR class\n    talk with Ed & Pam",
+        "date": "2023-03-01",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35176,
+    "fields": {
+        "name": "Business",
+        "activity": 3,
+        "notes": "    tax receipts for Novo",
+        "date": "2023-03-01",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35177,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    reflect and review",
+        "date": "2023-03-02",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35178,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    Tim Musslewhite\n    Juan & Lynn - Picard",
+        "date": "2023-03-02",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35179,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Mark Today: Success, LoveSoftware",
+        "date": "2023-03-02",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35180,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    Welcome video\n    ",
+        "date": "2023-03-02",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35181,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    cook with Stacie",
+        "date": "2023-03-02",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35182,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Sim City (level 53)\n    nts\n    Solitaire",
+        "date": "2023-03-02",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35183,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    reflection and planning",
+        "date": "2023-03-03",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35184,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 14,
+        "notes": "    prepare for meeting\n    write User Stories\n    write Gathering Requirements\n    meet with Joaquin and Justin",
+        "date": "2023-03-03",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35185,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    visit with UNC colleagues",
+        "date": "2023-03-03",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35186,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    masto - 214 Posts, 198 Following, 56 Followers",
+        "date": "2023-03-03",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35187,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Eli Stone (series finale)",
+        "date": "2023-03-03",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35188,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    review and reflection",
+        "date": "2023-03-04",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35189,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Inklings\n    follow up from Inklings\n    invite people to Shrinking World",
+        "date": "2023-03-04",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35190,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    download all Google Photos\n    sort through photos",
+        "date": "2023-03-04",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35191,
+    "fields": {
+        "name": "Business",
+        "activity": 3,
+        "notes": "    family budget",
+        "date": "2023-03-04",
+        "hours": 1,
         "done": false
     }
 }

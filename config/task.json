@@ -22081,7 +22081,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35227,
+    "pk": 35262,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -22093,7 +22093,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35228,
+    "pk": 35263,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -22105,7 +22105,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35229,
+    "pk": 35264,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -22117,7 +22117,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35230,
+    "pk": 35265,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -22129,7 +22129,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35231,
+    "pk": 35266,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -22141,7 +22141,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35232,
+    "pk": 35267,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -22153,7 +22153,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35233,
+    "pk": 35268,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -22165,7 +22165,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35234,
+    "pk": 35269,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -22177,7 +22177,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35235,
+    "pk": 35270,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -22189,7 +22189,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35236,
+    "pk": 35271,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -22201,7 +22201,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35237,
+    "pk": 35272,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -22213,7 +22213,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35238,
+    "pk": 35273,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -22225,7 +22225,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35239,
+    "pk": 35274,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -22237,7 +22237,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35240,
+    "pk": 35275,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -22249,7 +22249,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35241,
+    "pk": 35276,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -22261,7 +22261,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35242,
+    "pk": 35277,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -22273,7 +22273,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35243,
+    "pk": 35278,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -22285,7 +22285,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35244,
+    "pk": 35279,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -22297,7 +22297,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35245,
+    "pk": 35280,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -22309,7 +22309,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35246,
+    "pk": 35281,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -22321,7 +22321,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35247,
+    "pk": 35282,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -22333,7 +22333,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35248,
+    "pk": 35283,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -22345,7 +22345,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35249,
+    "pk": 35284,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -22357,7 +22357,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35250,
+    "pk": 35285,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -22369,7 +22369,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35251,
+    "pk": 35286,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -22381,7 +22381,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35252,
+    "pk": 35287,
     "fields": {
         "name": "ProMETA",
         "activity": 14,
@@ -22393,7 +22393,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35253,
+    "pk": 35288,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -22405,7 +22405,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35254,
+    "pk": 35289,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -22417,7 +22417,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35255,
+    "pk": 35290,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -22429,11 +22429,11 @@
 },
 {
     "model": "task.task",
-    "pk": 35256,
+    "pk": 35291,
     "fields": {
         "name": "Grow",
         "activity": 6,
-        "notes": "    review and reflection",
+        "notes": "    review and reflection\n    nap",
         "date": "2023-03-04",
         "hours": 3,
         "done": false
@@ -22441,7 +22441,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35257,
+    "pk": 35292,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -22453,7 +22453,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35258,
+    "pk": 35293,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -22465,7 +22465,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35259,
+    "pk": 35294,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -22477,7 +22477,31 @@
 },
 {
     "model": "task.task",
-    "pk": 35260,
+    "pk": 35295,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    Valor putty training; Ruby visits",
+        "date": "2023-03-04",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35296,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    R.I.P.D.",
+        "date": "2023-03-04",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35297,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -22489,7 +22513,7 @@
 },
 {
     "model": "task.task",
-    "pk": 35261,
+    "pk": 35298,
     "fields": {
         "name": "Innovate",
         "activity": 15,

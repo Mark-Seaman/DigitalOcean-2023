@@ -273,7 +273,10 @@ def task_command(command):
     date = None
     activity = False
     if command[1:]:
-        date = command[1]
+        if command[1] == 'activity':
+            activity = True
+        else:
+            date = command[1]
     if command[2:] and command[2] == 'activity':
         activity = True
     return update_tasks(days=days, date=date, activity=activity)

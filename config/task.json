@@ -57169,7 +57169,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40663,
+    "pk": 40696,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57181,7 +57181,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40664,
+    "pk": 40697,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -57193,7 +57193,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40665,
+    "pk": 40698,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -57205,7 +57205,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40666,
+    "pk": 40699,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -57217,7 +57217,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40667,
+    "pk": 40700,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57229,7 +57229,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40668,
+    "pk": 40701,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57241,7 +57241,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40669,
+    "pk": 40702,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -57253,7 +57253,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40670,
+    "pk": 40703,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -57265,7 +57265,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40671,
+    "pk": 40704,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -57277,7 +57277,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40672,
+    "pk": 40705,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57289,7 +57289,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40673,
+    "pk": 40706,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -57301,7 +57301,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40674,
+    "pk": 40707,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -57313,7 +57313,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40675,
+    "pk": 40708,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -57325,7 +57325,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40676,
+    "pk": 40709,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57337,7 +57337,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40677,
+    "pk": 40710,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57349,7 +57349,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40678,
+    "pk": 40711,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57361,7 +57361,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40679,
+    "pk": 40712,
     "fields": {
         "name": "ProMETA",
         "activity": 12,
@@ -57373,7 +57373,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40680,
+    "pk": 40713,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -57385,7 +57385,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40681,
+    "pk": 40714,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -57397,7 +57397,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40682,
+    "pk": 40715,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57409,7 +57409,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40683,
+    "pk": 40716,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57421,7 +57421,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40684,
+    "pk": 40717,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -57433,7 +57433,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40685,
+    "pk": 40718,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -57445,7 +57445,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40686,
+    "pk": 40719,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -57457,7 +57457,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40687,
+    "pk": 40720,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57469,7 +57469,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40688,
+    "pk": 40721,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57481,7 +57481,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40689,
+    "pk": 40722,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57493,7 +57493,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40690,
+    "pk": 40723,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -57505,7 +57505,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40691,
+    "pk": 40724,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -57517,7 +57517,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40692,
+    "pk": 40725,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57529,7 +57529,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40693,
+    "pk": 40726,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57541,25 +57541,73 @@
 },
 {
     "model": "task.task",
-    "pk": 40694,
+    "pk": 40727,
     "fields": {
         "name": "ProMETA",
         "activity": 12,
-        "notes": "    Tutorial - Gettting Started with Github \n    Tutorial - Software Project Milestones\n    Tutorial - Project Communication\n    discuss project with Stacie\n    video - Project Dashboard",
+        "notes": "    Tutorial - Getting Started with Github \n    Tutorial - Software Project Milestones\n    Tutorial - Project Communication\n    discuss project with Stacie\n    video - Project Dashboard\n    meet with Justine and Joaquin",
         "date": "2023-03-06",
-        "hours": 7,
+        "hours": 8,
         "done": false
     }
 },
 {
     "model": "task.task",
-    "pk": 40695,
+    "pk": 40728,
     "fields": {
         "name": "Grow",
         "activity": 6,
         "notes": "    weekly review\n    prioritize goals and investment",
         "date": "2023-03-06",
         "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40729,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    Cafe Athens with Rachel",
+        "date": "2023-03-06",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40730,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Bad Batch",
+        "date": "2023-03-06",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40731,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    goals for Shrinking World I/O\n    Social Ramp - creating engagement and trust",
+        "date": "2023-03-07",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40732,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 12,
+        "notes": "    prune docs from Github\n    Phase 1 - User Stories\n    Glossary",
+        "date": "2023-03-07",
+        "hours": 3,
         "done": false
     }
 }

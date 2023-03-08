@@ -42,6 +42,7 @@ alias e='subl'
 alias ea='subl ~/Hammer/config/zshrc'
 alias green='write green'
 alias hammer="source ~/.zshrc && code $p"
+alias io='e Documents/shrinking-world.io'
 alias masto='write masto'
 alias month='task month'
 alias review='write review'

@@ -57229,7 +57229,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40701,
+    "pk": 40733,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57241,7 +57241,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40702,
+    "pk": 40734,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -57253,7 +57253,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40703,
+    "pk": 40735,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -57265,7 +57265,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40704,
+    "pk": 40736,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -57277,7 +57277,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40705,
+    "pk": 40737,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57289,7 +57289,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40706,
+    "pk": 40738,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -57301,7 +57301,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40707,
+    "pk": 40739,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -57313,7 +57313,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40708,
+    "pk": 40740,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -57325,7 +57325,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40709,
+    "pk": 40741,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57337,7 +57337,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40710,
+    "pk": 40742,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57349,7 +57349,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40711,
+    "pk": 40743,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57361,7 +57361,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40712,
+    "pk": 40744,
     "fields": {
         "name": "ProMETA",
         "activity": 12,
@@ -57373,7 +57373,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40713,
+    "pk": 40745,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -57385,7 +57385,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40714,
+    "pk": 40746,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -57397,7 +57397,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40715,
+    "pk": 40747,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57409,7 +57409,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40716,
+    "pk": 40748,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57421,7 +57421,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40717,
+    "pk": 40749,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -57433,7 +57433,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40718,
+    "pk": 40750,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -57445,7 +57445,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40719,
+    "pk": 40751,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -57457,7 +57457,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40720,
+    "pk": 40752,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57469,7 +57469,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40721,
+    "pk": 40753,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57481,7 +57481,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40722,
+    "pk": 40754,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57493,7 +57493,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40723,
+    "pk": 40755,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -57505,7 +57505,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40724,
+    "pk": 40756,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -57517,7 +57517,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40725,
+    "pk": 40757,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57529,7 +57529,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40726,
+    "pk": 40758,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57541,7 +57541,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40727,
+    "pk": 40759,
     "fields": {
         "name": "ProMETA",
         "activity": 12,
@@ -57553,7 +57553,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40728,
+    "pk": 40760,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -57565,7 +57565,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40729,
+    "pk": 40761,
     "fields": {
         "name": "Family",
         "activity": 13,
@@ -57577,7 +57577,7 @@
 },
 {
     "model": "task.task",
-    "pk": 40730,
+    "pk": 40762,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -57589,11 +57589,47 @@
 },
 {
     "model": "task.task",
-    "pk": 40731,
+    "pk": 40763,
     "fields": {
         "name": "Write",
         "activity": 2,
-        "notes": "    goals for Shrinking World I/O\n    Social Ramp - creating engagement and trust",
+        "notes": "    goals for Shrinking World I/O\n    Social Ramp - creating engagement and trust\n    create articles at Documents/shrinking-world.io\n    post content on Shrinking World I/O\n    send March 3 post to subscribers",
+        "date": "2023-03-07",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40764,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 12,
+        "notes": "    prune docs from Github\n    Phase 1 - User Stories\n    Glossary\n    discuss project with Stacie",
+        "date": "2023-03-07",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40765,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    home group",
+        "date": "2023-03-07",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40766,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    time with Stacie",
         "date": "2023-03-07",
         "hours": 1,
         "done": false
@@ -57601,13 +57637,49 @@
 },
 {
     "model": "task.task",
-    "pk": 40732,
+    "pk": 40767,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    nap",
+        "date": "2023-03-07",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40768,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Bad Batch",
+        "date": "2023-03-07",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40769,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    pray for Döebbelings\n    text notifications from GVC app",
+        "date": "2023-03-08",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40770,
     "fields": {
         "name": "ProMETA",
         "activity": 12,
-        "notes": "    prune docs from Github\n    Phase 1 - User Stories\n    Glossary",
-        "date": "2023-03-07",
-        "hours": 3,
+        "notes": "    login to Notion",
+        "date": "2023-03-08",
+        "hours": 1,
         "done": false
     }
 }

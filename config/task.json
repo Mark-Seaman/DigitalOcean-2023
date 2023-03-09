@@ -21793,234 +21793,6 @@
 },
 {
     "model": "task.task",
-    "pk": 35280,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    reflect and review",
-        "date": "2023-03-02",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35281,
-    "fields": {
-        "name": "Church",
-        "activity": 7,
-        "notes": "    Tim Musslewhite\n    Juan & Lynn - Picard",
-        "date": "2023-03-02",
-        "hours": 6,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35282,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    Mark Today: Success, LoveSoftware",
-        "date": "2023-03-02",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35283,
-    "fields": {
-        "name": "Teach",
-        "activity": 1,
-        "notes": "    Welcome video\n    ",
-        "date": "2023-03-02",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35284,
-    "fields": {
-        "name": "Family",
-        "activity": 12,
-        "notes": "    cook with Stacie",
-        "date": "2023-03-02",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35285,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Sim City (level 53)\n    nts\n    Solitaire",
-        "date": "2023-03-02",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35286,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    reflection and planning",
-        "date": "2023-03-03",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35287,
-    "fields": {
-        "name": "ProMETA",
-        "activity": 14,
-        "notes": "    prepare for meeting\n    write User Stories\n    write Gathering Requirements\n    meet with Joaquin and Justin",
-        "date": "2023-03-03",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35288,
-    "fields": {
-        "name": "Teach",
-        "activity": 1,
-        "notes": "    visit with UNC colleagues",
-        "date": "2023-03-03",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35289,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    masto - 214 Posts, 198 Following, 56 Followers",
-        "date": "2023-03-03",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35290,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Eli Stone (series finale)",
-        "date": "2023-03-03",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35291,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    review and reflection\n    nap",
-        "date": "2023-03-04",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35292,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    Inklings\n    follow up from Inklings\n    invite people to Shrinking World",
-        "date": "2023-03-04",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35293,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    download all Google Photos\n    sort through photos",
-        "date": "2023-03-04",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35294,
-    "fields": {
-        "name": "Business",
-        "activity": 3,
-        "notes": "    family budget",
-        "date": "2023-03-04",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35295,
-    "fields": {
-        "name": "Family",
-        "activity": 12,
-        "notes": "    Valor putty training; Ruby visits",
-        "date": "2023-03-04",
-        "hours": 0,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35296,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    R.I.P.D.",
-        "date": "2023-03-04",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35297,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    review & reflect",
-        "date": "2023-03-05",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 35298,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    automatic update of JSON files",
-        "date": "2023-03-05",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
     "pk": 35467,
     "fields": {
         "name": "Grow",
@@ -22520,6 +22292,450 @@
         "notes": "    Emotionally Healthy Relationships",
         "date": "2023-02-01",
         "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35509,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    reflect and review",
+        "date": "2023-03-02",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35510,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    Tim Musslewhite\n    Juan & Lynn - Picard",
+        "date": "2023-03-02",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35511,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Mark Today: Success, LoveSoftware",
+        "date": "2023-03-02",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35512,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    Welcome video\n    ",
+        "date": "2023-03-02",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35513,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    cook with Stacie",
+        "date": "2023-03-02",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35514,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Sim City (level 53)\n    nts\n    Solitaire",
+        "date": "2023-03-02",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35515,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    reflection and planning",
+        "date": "2023-03-03",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35516,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 14,
+        "notes": "    prepare for meeting\n    write User Stories\n    write Gathering Requirements\n    meet with Joaquin and Justin",
+        "date": "2023-03-03",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35517,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    visit with UNC colleagues",
+        "date": "2023-03-03",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35518,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    masto - 214 Posts, 198 Following, 56 Followers",
+        "date": "2023-03-03",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35519,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Eli Stone (series finale)",
+        "date": "2023-03-03",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35520,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    review and reflection\n    nap",
+        "date": "2023-03-04",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35521,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Inklings\n    follow up from Inklings\n    invite people to Shrinking World",
+        "date": "2023-03-04",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35522,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    download all Google Photos\n    sort through photos",
+        "date": "2023-03-04",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35523,
+    "fields": {
+        "name": "Business",
+        "activity": 3,
+        "notes": "    family budget",
+        "date": "2023-03-04",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35524,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    Valor putty training; Ruby visits",
+        "date": "2023-03-04",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35525,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    R.I.P.D.",
+        "date": "2023-03-04",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35526,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    review & reflect",
+        "date": "2023-03-05",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35527,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    automatic update of JSON files\n    organize photos\n    reduce space on Google Photos",
+        "date": "2023-03-05",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35528,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    church in Greeley",
+        "date": "2023-03-05",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35529,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    Luna's Tacos with Josiah, Cassie, Christine",
+        "date": "2023-03-05",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35530,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Legends \n    Bad Batch\n    Big Bang\n    Sim City (level 53)",
+        "date": "2023-03-05",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35531,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 14,
+        "notes": "    Tutorial - Getting Started with Github \n    Tutorial - Software Project Milestones\n    Tutorial - Project Communication\n    discuss project with Stacie\n    video - Project Dashboard\n    meet with Justine and Joaquin",
+        "date": "2023-03-06",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35532,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    weekly review\n    prioritize goals and investment",
+        "date": "2023-03-06",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35533,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    Cafe Athens with Rachel",
+        "date": "2023-03-06",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35534,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Bad Batch",
+        "date": "2023-03-06",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35535,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    goals for Shrinking World I/O\n    Social Ramp - creating engagement and trust\n    create articles at Documents/shrinking-world.io\n    post content on Shrinking World I/O\n    send March 3 post to subscribers",
+        "date": "2023-03-07",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35536,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 14,
+        "notes": "    prune docs from Github\n    Phase 1 - User Stories\n    Glossary\n    discuss project with Stacie",
+        "date": "2023-03-07",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35537,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    home group",
+        "date": "2023-03-07",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35538,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    time with Stacie",
+        "date": "2023-03-07",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35539,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    nap",
+        "date": "2023-03-07",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35540,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Bad Batch",
+        "date": "2023-03-07",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35541,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    pray for Döebbelings - send message\n    text notifications from GVC app\n    EHR",
+        "date": "2023-03-08",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35542,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 14,
+        "notes": "    login to Notion\n    work on adding info to Notion\n    identify requirements issues",
+        "date": "2023-03-08",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35543,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    Teachable course invite and welcome videos\n      * Invite\n      * Overview\n      * Intro\n      * Welcome\n      * Instructor",
+        "date": "2023-03-08",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35544,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Mandolorian\n    Sim City (level 54)",
+        "date": "2023-03-08",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 35545,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    review & reflect",
+        "date": "2023-03-09",
+        "hours": 1,
         "done": false
     }
 }

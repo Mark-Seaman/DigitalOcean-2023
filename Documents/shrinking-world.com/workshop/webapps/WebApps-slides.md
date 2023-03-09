@@ -1,5 +1,39 @@
 # Python Web Apps
 
+## Instructor Bio
+
+### Career
+* Corporate software developer
+* Web development business
+* College professor
+
+
+### Hewlett-Packard
+* R & D 
+* Digital Imaging Software
+* Scanners, Cameras, Printers, All-in-Ones
+
+
+### Shrinking World
+* Founded engineering and training company
+* Author of two textbooks
+* Built many web apps
+
+
+### University of Northern Colorado
+* 6 years as Adjunct Professor
+* Built three courses 
+* Trained 400 students
+
+
+### Passion
+* Software Engineering
+* Teaching practical skills
+* Building course material and textbooks
+* This course is the convergence of my passions
+
+
+
 ## Course Overview
 
 ### Textbook

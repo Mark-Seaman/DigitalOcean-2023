@@ -208,7 +208,8 @@ def save_task_data():
         {
             python manage.py dumpdata --indent 4 task > config/task.json &&
             git add config/task.json &&
-            git commit -m "Save task JSON"
+            git commit -m "Save task JSON" &&
+            git push
         } 2>&1 > /dev/null
     '''
     system(command)

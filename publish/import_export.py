@@ -149,7 +149,7 @@ def save_pub_data():
             python manage.py dumpdata --indent 4 publish > config/publish.json &&
             git add config/publish.json &&
             git commit -m "Save pub JSON" &&
-            git status
+            git push
         } 2>&1 > /dev/null 
     '''
     system(command)

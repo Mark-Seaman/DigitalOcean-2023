@@ -54949,510 +54949,6 @@
 },
 {
     "model": "task.task",
-    "pk": 40374,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    night watch: Cyborg writing, Inklings talk\n    Tim Keller book\n    recovery from guout attack (feeling more normal after 3 weeks and steroids)",
-        "date": "2023-01-25",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40375,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    Masto - 163 Posts, 145 Following, 36 Followers\n    develop masto script\n    follow people on Masto #ChatGPT\n    Inklings presentation",
-        "date": "2023-01-25",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40376,
-    "fields": {
-        "name": "Family",
-        "activity": 13,
-        "notes": "    time with Stacie",
-        "date": "2023-01-25",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40377,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Eli Stone\n    Big Bang\n    nts\n    Sim City (level 49) - Limestone Cliffs",
-        "date": "2023-01-25",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40378,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    Subscribe to ghost.org\n    Learn about Ghost\n    Setting Personal Goals\n    Inklings Presentation\n    Shrinking World Training website at Ghost",
-        "date": "2023-01-26",
-        "hours": 5,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40379,
-    "fields": {
-        "name": "Teach",
-        "activity": 1,
-        "notes": "    Writer's Workshop Series - training for authors\n    Writing for Teaching\n    Create a Seminar\n    Create a college class\n    Menu of courses at Shrinking World\n    course creation effort\n    Publishing Schedule",
-        "date": "2023-01-26",
-        "hours": 5,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40380,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    load task data from JSON file\n    ",
-        "date": "2023-01-26",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40381,
-    "fields": {
-        "name": "Business",
-        "activity": 3,
-        "notes": "    Business Plan for Shrinking World Training",
-        "date": "2023-01-26",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40382,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Ticket to Paradise",
-        "date": "2023-01-26",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40383,
-    "fields": {
-        "name": "Learn",
-        "activity": 11,
-        "notes": "    learn about publishing from Ghost articles\n    web clip articles",
-        "date": "2023-01-27",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40384,
-    "fields": {
-        "name": "Business",
-        "activity": 3,
-        "notes": "    set business goals for Shrinking World\n    Shrinking World Success\n    Finding My Niche",
-        "date": "2023-01-27",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40385,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    work on Inklings presentation",
-        "date": "2023-01-27",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40386,
-    "fields": {
-        "name": "Church",
-        "activity": 7,
-        "notes": "    prep for EHS class with Stacie",
-        "date": "2023-01-27",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40387,
-    "fields": {
-        "name": "Family",
-        "activity": 13,
-        "notes": "    cook ready-made chicken pasta",
-        "date": "2023-01-27",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40388,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Mummy",
-        "date": "2023-01-27",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40389,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    night watch: business and writing ideas",
-        "date": "2023-01-28",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40390,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    Masto: 175 Posts, 160 Following, 41 Followers (+ 12, 12, 5)",
-        "date": "2023-01-28",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40391,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    buy Ghost.com",
-        "date": "2023-01-28",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40392,
-    "fields": {
-        "name": "Learn",
-        "activity": 11,
-        "notes": "    How to Become a Professional Creator\n    Tella\n    Teachable\n    Record videos and embed them",
-        "date": "2023-01-28",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40393,
-    "fields": {
-        "name": "Family",
-        "activity": 13,
-        "notes": "    \n    family night\n    ",
-        "date": "2023-01-28",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40394,
-    "fields": {
-        "name": "Business",
-        "activity": 3,
-        "notes": "    plan business goals and costs",
-        "date": "2023-01-28",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40395,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Mummy\n    Eli Stone",
-        "date": "2023-01-28",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40396,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    night watch: Multicast publishing, Blues",
-        "date": "2023-01-29",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40397,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    Work the Greenhouse  (97 Ideas)",
-        "date": "2023-01-29",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40398,
-    "fields": {
-        "name": "Church",
-        "activity": 7,
-        "notes": "    church with Hendricksons\n    La Viña service",
-        "date": "2023-01-29",
-        "hours": 5,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40399,
-    "fields": {
-        "name": "Family",
-        "activity": 13,
-        "notes": "    Hendricksons & Webbs at Austin's",
-        "date": "2023-01-29",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40400,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    The Gray Man",
-        "date": "2023-01-29",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40401,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    gout day 28 - text to Dr Rhoads\n    night watch: Think Tank\n    weekly reflection",
-        "date": "2023-01-30",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40402,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    Masto: 188 Posts, 184 Following, 49 Followers\n    Subscribers: 0",
-        "date": "2023-01-30",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40403,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    install Dropbox on Macbook\n    build pages on Ghost World",
-        "date": "2023-01-30",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40404,
-    "fields": {
-        "name": "Business",
-        "activity": 3,
-        "notes": "    tax prep\n    discuss business strategy with Stacie",
-        "date": "2023-01-30",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40405,
-    "fields": {
-        "name": "Family",
-        "activity": 13,
-        "notes": "    Garcias - Free Form on iPad",
-        "date": "2023-01-30",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40406,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Tales of the Jedi\n    Sim City (level 50)",
-        "date": "2023-01-30",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40407,
-    "fields": {
-        "name": "Grow",
-        "activity": 6,
-        "notes": "    night watch: Timothy, Hebrews\n    20-below wind chill",
-        "date": "2023-01-31",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40408,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    Cheap Salvation\n    Convergence & Connection\n    Think Tank\n    Organize notes",
-        "date": "2023-01-31",
-        "hours": 5,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40409,
-    "fields": {
-        "name": "Teach",
-        "activity": 1,
-        "notes": "    Training Ghost Site",
-        "date": "2023-01-31",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40410,
-    "fields": {
-        "name": "Family",
-        "activity": 13,
-        "notes": "    call Dad on birthday\n    ",
-        "date": "2023-01-31",
-        "hours": 0,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40411,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    build Training Ghost Site\n    ",
-        "date": "2023-01-31",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40412,
-    "fields": {
-        "name": "Fun",
-        "activity": 9,
-        "notes": "    Mummy Returns\n    Hoopla borrows",
-        "date": "2023-01-31",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40413,
-    "fields": {
-        "name": "Write",
-        "activity": 2,
-        "notes": "    send Shrinking World Invitation\n    subscribe to Rachel's \"literarysprouts\" Instagram feed\n    Rachel: awful January\n    Instagram\n    Connection Log",
-        "date": "2023-02-01",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40414,
-    "fields": {
-        "name": "Innovate",
-        "activity": 15,
-        "notes": "    explore Ghost/Mastodon integration",
-        "date": "2023-02-01",
-        "hours": 5,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 40415,
-    "fields": {
-        "name": "Church",
-        "activity": 7,
-        "notes": "    Emotionally Healthy Relationships",
-        "date": "2023-02-01",
-        "hours": 5,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
     "pk": 40416,
     "fields": {
         "name": "Grow",
@@ -57680,6 +57176,510 @@
         "notes": "    login to Notion",
         "date": "2023-03-08",
         "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40809,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    night watch: Cyborg writing, Inklings talk\n    Tim Keller book\n    recovery from guout attack (feeling more normal after 3 weeks and steroids)",
+        "date": "2023-01-25",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40810,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Masto - 163 Posts, 145 Following, 36 Followers\n    develop masto script\n    follow people on Masto #ChatGPT\n    Inklings presentation",
+        "date": "2023-01-25",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40811,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    time with Stacie",
+        "date": "2023-01-25",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40812,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Eli Stone\n    Big Bang\n    nts\n    Sim City (level 49) - Limestone Cliffs",
+        "date": "2023-01-25",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40813,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Subscribe to ghost.org\n    Learn about Ghost\n    Setting Personal Goals\n    Inklings Presentation\n    Shrinking World Training website at Ghost",
+        "date": "2023-01-26",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40814,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    Writer's Workshop Series - training for authors\n    Writing for Teaching\n    Create a Seminar\n    Create a college class\n    Menu of courses at Shrinking World\n    course creation effort\n    Publishing Schedule",
+        "date": "2023-01-26",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40815,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    load task data from JSON file\n    ",
+        "date": "2023-01-26",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40816,
+    "fields": {
+        "name": "Business",
+        "activity": 3,
+        "notes": "    Business Plan for Shrinking World Training",
+        "date": "2023-01-26",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40817,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Ticket to Paradise",
+        "date": "2023-01-26",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40818,
+    "fields": {
+        "name": "Learn",
+        "activity": 11,
+        "notes": "    learn about publishing from Ghost articles\n    web clip articles",
+        "date": "2023-01-27",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40819,
+    "fields": {
+        "name": "Business",
+        "activity": 3,
+        "notes": "    set business goals for Shrinking World\n    Shrinking World Success\n    Finding My Niche",
+        "date": "2023-01-27",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40820,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    work on Inklings presentation",
+        "date": "2023-01-27",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40821,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    prep for EHS class with Stacie",
+        "date": "2023-01-27",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40822,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    cook ready-made chicken pasta",
+        "date": "2023-01-27",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40823,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Mummy",
+        "date": "2023-01-27",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40824,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    night watch: business and writing ideas",
+        "date": "2023-01-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40825,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Masto: 175 Posts, 160 Following, 41 Followers (+ 12, 12, 5)",
+        "date": "2023-01-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40826,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    buy Ghost.com",
+        "date": "2023-01-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40827,
+    "fields": {
+        "name": "Learn",
+        "activity": 11,
+        "notes": "    How to Become a Professional Creator\n    Tella\n    Teachable\n    Record videos and embed them",
+        "date": "2023-01-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40828,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    \n    family night\n    ",
+        "date": "2023-01-28",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40829,
+    "fields": {
+        "name": "Business",
+        "activity": 3,
+        "notes": "    plan business goals and costs",
+        "date": "2023-01-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40830,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Mummy\n    Eli Stone",
+        "date": "2023-01-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40831,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    night watch: Multicast publishing, Blues",
+        "date": "2023-01-29",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40832,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Work the Greenhouse  (97 Ideas)",
+        "date": "2023-01-29",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40833,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    church with Hendricksons\n    La Viña service",
+        "date": "2023-01-29",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40834,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    Hendricksons & Webbs at Austin's",
+        "date": "2023-01-29",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40835,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    The Gray Man",
+        "date": "2023-01-29",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40836,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    gout day 28 - text to Dr Rhoads\n    night watch: Think Tank\n    weekly reflection",
+        "date": "2023-01-30",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40837,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Masto: 188 Posts, 184 Following, 49 Followers\n    Subscribers: 0",
+        "date": "2023-01-30",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40838,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    install Dropbox on Macbook\n    build pages on Ghost World",
+        "date": "2023-01-30",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40839,
+    "fields": {
+        "name": "Business",
+        "activity": 3,
+        "notes": "    tax prep\n    discuss business strategy with Stacie",
+        "date": "2023-01-30",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40840,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    Garcias - Free Form on iPad",
+        "date": "2023-01-30",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40841,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Tales of the Jedi\n    Sim City (level 50)",
+        "date": "2023-01-30",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40842,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    night watch: Timothy, Hebrews\n    20-below wind chill",
+        "date": "2023-01-31",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40843,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Cheap Salvation\n    Convergence & Connection\n    Think Tank\n    Organize notes",
+        "date": "2023-01-31",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40844,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    Training Ghost Site",
+        "date": "2023-01-31",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40845,
+    "fields": {
+        "name": "Family",
+        "activity": 13,
+        "notes": "    call Dad on birthday\n    ",
+        "date": "2023-01-31",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40846,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    build Training Ghost Site\n    ",
+        "date": "2023-01-31",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40847,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Mummy Returns\n    Hoopla borrows",
+        "date": "2023-01-31",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40848,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    send Shrinking World Invitation\n    subscribe to Rachel's \"literarysprouts\" Instagram feed\n    Rachel: awful January\n    Instagram\n    Connection Log",
+        "date": "2023-02-01",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40849,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    explore Ghost/Mastodon integration",
+        "date": "2023-02-01",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 40850,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    Emotionally Healthy Relationships",
+        "date": "2023-02-01",
+        "hours": 5,
         "done": false
     }
 }

@@ -102,6 +102,7 @@ def fix_tasks(**kwargs):
         # rename_task('Networking', 'Business')
         # task_in_files('Career')
 
+    save_task_data()
     days = kwargs.get('days', 8)
     setup_activities()
     return show_activities()
@@ -208,7 +209,8 @@ def save_task_data():
         {
             python manage.py dumpdata --indent 4 task > config/task.json &&
             git add config/task.json &&
-            git commit -m "Save task JSON"
+            git commit -m "Save task JSON" &&
+            git push
         } 2>&1 > /dev/null
     '''
     system(command)
@@ -362,7 +364,7 @@ def task_import_files(days=7, date=None):
     for d in recent_dates(days, date):
         read_task_file(d)
         text.append(d)
-    save_task_data()
+    # save_task_data()
     return f'Import task history: {len(text)} days imported\n{text}\n'
 
 

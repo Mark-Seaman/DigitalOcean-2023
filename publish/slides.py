@@ -58,10 +58,11 @@ def create_slides(args):
     else:
         outline_file = 'Documents/shrinking-world.com/workshop/publish/Publish.ol'
     markdown_file = outline_file.replace('.ol', '-slides.md')
+    print(f'Slides: {outline_file} {markdown_file}')
     text = read_file(outline_file)
     text = slides(text)
     write_file(markdown_file, text)
-    system('open http://localhost:8002/slides')
+    system('open http://localhost:8000/slides')
     return markdown_file
 
 
@@ -93,10 +94,12 @@ def plant(args):
 def slides_view_context(**kwargs):
     pub = kwargs.get('pub', 'webapps')
     doc = kwargs.get('doc', 'WebApps')
-    # pub = kwargs.get('pub', 'publish')
+    pub = kwargs.get('pub', 'publish')
     # doc = kwargs.get('doc', 'Publish')
-    json = f"Documents/shrinking-world.com/workshop/{pub}/slides_settings.json"
-    md_path = f'Documents/shrinking-world.com/workshop/{pub}/{doc}-slides.md'
+    # json = f"Documents/shrinking-world.com/workshop/{pub}/slides_settings.json"
+    # md_path = f'Documents/shrinking-world.com/workshop/{pub}/{doc}-slides.md'
+    json = f"Documents/shrinking-world.org/slides_settings.json"
+    md_path = f'Documents/shrinking-world.org/L2-howto-slides.md'
     kwargs = read_json(json)
     md_text = read_file(md_path)
     text = render_slides(md_text, **kwargs)

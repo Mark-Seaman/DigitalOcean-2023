@@ -78,21 +78,27 @@ def fix_tasks(**kwargs):
         return Activity.objects.get_or_create(name=name, type=type)[0]
 
     def delete_activity(name):
-        if Activity.objects.filter(name=name):
-            return Activity.objects.get(name=name).delete()
+        a = Activity.objects.filter(name=name)
+        if a:
+            return a.delete()
 
     def setup_activities():
-        define_activity('Family', 'People')
-        define_activity('Learn', 'Work')
-        define_activity('Innovate', 'Work')
-        define_activity('ProMETA', 'Work')
-
+        delete_activity('Fun')
+        delete_activity('Grow')
         delete_activity('Code')
         delete_activity('Software')
         delete_activity('People')
         delete_activity('Network')
         delete_activity('Tools')
 
+        define_activity('Family', 'People')
+        define_activity('Learn', 'Work')
+        define_activity('Innovate', 'Work')
+        define_activity('ProMETA', 'Work')
+        define_activity('Fun', 'Private')
+        define_activity('Grow', 'Private')
+
+        rename_task('Learn', 'Innovate')
         # rename_task('Software', 'Innovate')
         # rename_task('Network', 'Write')
         # rename_task('People', 'Family')
@@ -348,7 +354,7 @@ def task_import_files(days=7, date=None):
                     notes.append(line)
                 # print(line)
             if notes:
-                # print(date, activity, hours, notes)
+                print(date, activity, hours, notes)
                 t = new_task(date, activity, hours, notes)
                 tasks.append("%s -- %s hours" % (t.name, t.hours))
 

@@ -23989,7 +23989,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42798,
+    "pk": 42910,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -24001,7 +24001,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42799,
+    "pk": 42911,
     "fields": {
         "name": "ProMETA",
         "activity": 14,
@@ -24013,7 +24013,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42800,
+    "pk": 42912,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -24025,7 +24025,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42801,
+    "pk": 42913,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24037,7 +24037,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42802,
+    "pk": 42943,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -24049,7 +24049,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42803,
+    "pk": 42944,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -24061,7 +24061,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42804,
+    "pk": 42945,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24073,7 +24073,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42805,
+    "pk": 42946,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -24085,7 +24085,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42806,
+    "pk": 42947,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24097,7 +24097,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42807,
+    "pk": 42948,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -24109,7 +24109,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42808,
+    "pk": 42949,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -24121,7 +24121,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42809,
+    "pk": 42950,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -24133,7 +24133,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42810,
+    "pk": 42951,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -24145,7 +24145,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42811,
+    "pk": 42952,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -24157,7 +24157,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42812,
+    "pk": 42953,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24169,7 +24169,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42813,
+    "pk": 42954,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -24181,7 +24181,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42814,
+    "pk": 42955,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -24193,7 +24193,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42815,
+    "pk": 42956,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -24205,7 +24205,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42816,
+    "pk": 42957,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24217,7 +24217,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42817,
+    "pk": 42958,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -24229,7 +24229,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42818,
+    "pk": 42959,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24241,7 +24241,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42819,
+    "pk": 42960,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -24253,7 +24253,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42820,
+    "pk": 42961,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -24265,7 +24265,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42821,
+    "pk": 42962,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -24277,7 +24277,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42822,
+    "pk": 42963,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -24289,7 +24289,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42823,
+    "pk": 42964,
     "fields": {
         "name": "ProMETA",
         "activity": 14,
@@ -24301,7 +24301,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42824,
+    "pk": 42965,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -24313,11 +24313,23 @@
 },
 {
     "model": "task.task",
-    "pk": 42825,
+    "pk": 42966,
     "fields": {
         "name": "Grow",
         "activity": 6,
-        "notes": "    review and reflect",
+        "notes": "    review and reflect\n    time summary for year\n    walk to park",
+        "date": "2023-03-14",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 42967,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Time Invested Summary",
         "date": "2023-03-14",
         "hours": 1,
         "done": false
@@ -24325,7 +24337,115 @@
 },
 {
     "model": "task.task",
-    "pk": 42868,
+    "pk": 42968,
+    "fields": {
+        "name": "Business",
+        "activity": 3,
+        "notes": "    lost family budget spreadsheet\n    rebuild and organize financial documents\n    create files in iCloud and Dropbox\n    create summary of 2022 finances",
+        "date": "2023-03-14",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 42969,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    Fast and Furious 9\n    Big Bang",
+        "date": "2023-03-14",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 42970,
+    "fields": {
+        "name": "Family",
+        "activity": 12,
+        "notes": "    cook with Stacie",
+        "date": "2023-03-14",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 42971,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    review & reflect",
+        "date": "2023-03-15",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 42972,
+    "fields": {
+        "name": "Fun",
+        "activity": 9,
+        "notes": "    subscribe to Apple Music for iPod Home",
+        "date": "2023-03-15",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 42973,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    Meet with April\n    discuss April's projects with Stacie",
+        "date": "2023-03-15",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 42974,
+    "fields": {
+        "name": "Church",
+        "activity": 7,
+        "notes": "    practice listening\n    25,35,45,55 podcast\n    prep reading for EHR\n    EHR",
+        "date": "2023-03-15",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 42975,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    create L1-L3\n    record video for L1 & L2\n    set up domain on Teachable",
+        "date": "2023-03-15",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 42976,
+    "fields": {
+        "name": "Grow",
+        "activity": 6,
+        "notes": "    time with God\n    ",
+        "date": "2023-03-16",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 42977,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -24337,7 +24457,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42869,
+    "pk": 42978,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -24349,7 +24469,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42870,
+    "pk": 42979,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -24361,7 +24481,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42871,
+    "pk": 42980,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24373,7 +24493,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42872,
+    "pk": 42981,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -24385,7 +24505,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42873,
+    "pk": 42982,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -24397,7 +24517,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42874,
+    "pk": 42983,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -24409,7 +24529,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42875,
+    "pk": 42984,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -24421,7 +24541,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42876,
+    "pk": 42985,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24433,7 +24553,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42877,
+    "pk": 42986,
     "fields": {
         "name": "Learn",
         "activity": 11,
@@ -24445,7 +24565,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42878,
+    "pk": 42987,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -24457,7 +24577,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42879,
+    "pk": 42988,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -24469,7 +24589,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42880,
+    "pk": 42989,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -24481,7 +24601,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42881,
+    "pk": 42990,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -24493,7 +24613,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42882,
+    "pk": 42991,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24505,7 +24625,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42883,
+    "pk": 42992,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -24517,7 +24637,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42884,
+    "pk": 42993,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -24529,7 +24649,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42885,
+    "pk": 42994,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -24541,7 +24661,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42886,
+    "pk": 42995,
     "fields": {
         "name": "Learn",
         "activity": 11,
@@ -24553,7 +24673,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42887,
+    "pk": 42996,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -24565,7 +24685,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42888,
+    "pk": 42997,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -24577,7 +24697,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42889,
+    "pk": 42998,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24589,7 +24709,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42890,
+    "pk": 42999,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -24601,7 +24721,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42891,
+    "pk": 43000,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -24613,7 +24733,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42892,
+    "pk": 43001,
     "fields": {
         "name": "Church",
         "activity": 7,
@@ -24625,7 +24745,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42893,
+    "pk": 43002,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -24637,7 +24757,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42894,
+    "pk": 43003,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24649,7 +24769,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42895,
+    "pk": 43004,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -24661,7 +24781,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42896,
+    "pk": 43005,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -24673,7 +24793,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42897,
+    "pk": 43006,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -24685,7 +24805,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42898,
+    "pk": 43007,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -24697,7 +24817,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42899,
+    "pk": 43008,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -24709,7 +24829,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42900,
+    "pk": 43009,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24721,7 +24841,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42901,
+    "pk": 43010,
     "fields": {
         "name": "Grow",
         "activity": 6,
@@ -24733,7 +24853,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42902,
+    "pk": 43011,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -24745,7 +24865,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42903,
+    "pk": 43012,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -24757,7 +24877,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42904,
+    "pk": 43013,
     "fields": {
         "name": "Family",
         "activity": 12,
@@ -24769,7 +24889,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42905,
+    "pk": 43014,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -24781,7 +24901,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42906,
+    "pk": 43015,
     "fields": {
         "name": "Fun",
         "activity": 9,
@@ -24793,7 +24913,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42907,
+    "pk": 43016,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -24805,7 +24925,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42908,
+    "pk": 43017,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -24817,7 +24937,7 @@
 },
 {
     "model": "task.task",
-    "pk": 42909,
+    "pk": 43018,
     "fields": {
         "name": "Church",
         "activity": 7,

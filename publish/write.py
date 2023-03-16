@@ -32,6 +32,8 @@ def write_blog(args=[]):
 
         '''
     elif args[0] == 'blogcast':
+        # write blogcast Documents/markseaman.org/today/03/Success
+        # write blogcast Documents/spiritual-things.org/transformation/LifeWithGod.ol
         write_blogcast(args[1:])
     elif args[0] == 'green':
         greenhouse()
@@ -44,6 +46,8 @@ def write_blog(args=[]):
     elif args[0] == 'render':
         return write_render(args[1:])
     elif args[0] == 'slides':
+        # write slides Documents/shrinking-world.com/greenhouse/Content
+        # write slides Documents/shrinking-world.org/L1-message
         return create_slides(args[1:])
     elif args[0] == 'spiritual':
         today = localdate().strftime("%m/%d") + ".md"
@@ -83,9 +87,6 @@ def write_blogcast(args=[]):
     f = f'{d}/{f}.md'
     write_file(f, text)
     print(text)
-
-# write blogcast Documents/markseaman.org/today/03/Success
-# write blogcast Documents/spiritual-things.org/transformation/LifeWithGod.ol
 
 
 def greenhouse():

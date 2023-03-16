@@ -27,3 +27,7 @@ Software is essential
         Get paid while you learn
         Continue to level up
         Add new technologies
+
+    Learn More 
+
+        shrinking-world.org/p/skills

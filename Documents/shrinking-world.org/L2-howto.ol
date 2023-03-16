@@ -37,4 +37,5 @@ App Developer Career
         Always be adding new knowledge
         Get paid to learn more
         Build your own learning plan
-    shrinking-world.org/skills
+    Learn More 
+        shrinking-world.org/p/skills

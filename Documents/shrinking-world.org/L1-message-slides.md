@@ -53,7 +53,8 @@
 ### Add new technologies
 
 
-## Learn More
 
-### Shrinking-world.org/p/webdev
+## Learn More 
 
+
+### shrinking-world.org/p/skills

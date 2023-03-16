@@ -83,15 +83,19 @@ def fix_tasks(**kwargs):
             return a.delete()
 
     def setup_activities():
+        # TaskType.objects.get(name='People').delete()
         delete_activity('Fun')
         delete_activity('Grow')
         delete_activity('Code')
+        delete_activity('Church')
+        delete_activity('Family')
         delete_activity('Software')
         delete_activity('People')
         delete_activity('Network')
         delete_activity('Tools')
 
-        define_activity('Family', 'People')
+        define_activity('Family', 'Public')
+        define_activity('Church', 'Public')
         define_activity('Learn', 'Work')
         define_activity('Innovate', 'Work')
         define_activity('ProMETA', 'Work')
@@ -217,7 +221,7 @@ def save_task_data():
             git add config/task.json &&
             git commit -m "Save task JSON" &&
             git push
-        } 2>&1 > /dev/null
+        } 2>/dev/null >/dev/null
     '''
     system(command)
 
@@ -354,7 +358,7 @@ def task_import_files(days=7, date=None):
                     notes.append(line)
                 # print(line)
             if notes:
-                print(date, activity, hours, notes)
+                # print(date, activity, hours, notes)
                 t = new_task(date, activity, hours, notes)
                 tasks.append("%s -- %s hours" % (t.name, t.hours))
 
@@ -366,12 +370,10 @@ def task_import_files(days=7, date=None):
         t.save()
         return t
 
-    text = []
-    for d in recent_dates(days, date):
+    dates = recent_dates(days, date)
+    for d in dates:
         read_task_file(d)
-        text.append(d)
-    # save_task_data()
-    return f'Import task history: {len(text)} days imported\n{text}\n'
+    return f'Import task history: {len(dates)} days imported\n\n'
 
 
 def task_list(days=7):

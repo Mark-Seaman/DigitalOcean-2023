@@ -32,6 +32,9 @@ def create_pubs():
             family="Documents/seamanfamily.org",
             today="Documents/markseaman.org/today",
             #
+            # Slides
+            org="Documents/shrinking-world.org",
+            #
             # Video
             # video="Documents/seamanslog.com/video",
             #

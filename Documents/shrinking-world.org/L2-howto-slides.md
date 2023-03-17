@@ -61,5 +61,7 @@
 ### Build your own learning plan
 
 
-## shrinking-world.org/skills
+## Learn More 
+
+### shrinking-world.org/p/skills
 

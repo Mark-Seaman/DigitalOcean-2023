@@ -52,3 +52,9 @@
 
 ### Add new technologies
 
+
+
+## Learn More 
+
+
+### shrinking-world.org/p/skills

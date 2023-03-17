@@ -1,9 +1,5 @@
 Essential Skills for Web Development
     Tools & Process
-        Opinionated Teaching
-            Tutorial versus Cookbook
-            Get a quick win
-            Learn more later
         Technology Framework Selection
             Python
             Django
@@ -83,4 +79,6 @@ Essential Skills for Web Development
             Build a test
             Build the code
             Move fast
+
+    Shrinking-World.org
 

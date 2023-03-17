@@ -1,6 +1,10 @@
 App Development Basics Seminar (1 hour)
 
     Tools & Process (15 minutes)
+        Opinionated Teaching
+            Tutorial versus Cookbook
+            Get a quick win
+            Learn more later
         Programming Language
             Java Script
             Python

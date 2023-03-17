@@ -24,8 +24,11 @@ urlpatterns = [
     path("publish/<int:pk>/delete", PubDeleteView.as_view(), name="blog_delete"),
     path("publish/<str:pub>", PubListView.as_view(), name="blog_detail"),
     #
-    # Workshop
+    # Slides
     path('slides', SlideShowView.as_view(), name='slideshow'),
+    path('slides/<str:pub>/<str:doc>', SlideShowView.as_view()),
+    #
+    # Workshop
     path('workshop/<str:pub>', WorkshopRedirectView.as_view()),
     path('workshop/<str:pub>/<str:doc>', WorkshopView.as_view()),
     # Book Cover

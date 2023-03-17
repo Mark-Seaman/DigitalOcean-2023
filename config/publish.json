@@ -338,7 +338,7 @@
         "domain": null,
         "url": "/org",
         "logo": null,
-        "words": 0,
+        "words": 116,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "private",
@@ -16101,15 +16101,43 @@
 },
 {
     "model": "publish.content",
-    "pk": 87459,
+    "pk": 87460,
     "fields": {
         "blog": 747,
         "order": 1,
-        "title": "Software is essential",
+        "title": "Document not found",
         "doctype": "folder",
-        "path": "Documents/shrinking-world.org/L1-message-slides.md",
+        "path": "Documents/shrinking-world.org/L1_message_slides.md",
         "folder": 0,
-        "words": 116,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87461,
+    "fields": {
+        "blog": 747,
+        "order": 2,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.org/L2_howto_slides.md",
+        "folder": 0,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87462,
+    "fields": {
+        "blog": 747,
+        "order": 3,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.org/L3_skills_slides.md",
+        "folder": 0,
+        "words": 0,
         "retain_object": false
     }
 }

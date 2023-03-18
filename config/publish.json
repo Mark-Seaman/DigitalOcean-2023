@@ -63,7 +63,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 52890,
+        "words": 54685,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -363,7 +363,7 @@
         "domain": null,
         "url": "/org",
         "logo": null,
-        "words": 0,
+        "words": 12,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "private",
@@ -16200,11 +16200,11 @@
     "fields": {
         "blog": 1243,
         "order": 1,
-        "title": "Document not found",
+        "title": "Software is essential",
         "doctype": "folder",
         "path": "Documents/shrinking-world.org/L1_message_slides.md",
         "folder": 0,
-        "words": 0,
+        "words": 116,
         "retain_object": false
     }
 },
@@ -16233,6 +16233,20 @@
         "path": "Documents/shrinking-world.org/L3_skills_slides.md",
         "folder": 0,
         "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87461,
+    "fields": {
+        "blog": 735,
+        "order": 74,
+        "title": "Social Media Wellbeing",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/SocialMedia.md",
+        "folder": 4,
+        "words": 863,
         "retain_object": false
     }
 }

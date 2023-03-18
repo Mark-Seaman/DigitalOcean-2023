@@ -50,6 +50,7 @@
 ## [Season of Winter](/quest/Winter.md)                                        
 
 * [Quest for Understanding](/quest/QuestUnderstanding.md)                       
+* [The Brain and Emotions](/quest/Neurochemicals.md)                            
 * [The Mystery of Expectations](/quest/Expectations.md)                         
 * [Embrace Reality](/quest/EmbraceReality.md)                                   
 * [Peaceful Faith - (60s) 2020s](/quest/PeacefulFaith.md)                       

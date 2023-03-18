@@ -7,7 +7,7 @@ from re import findall, sub
 from django.db.models import Sum
 from django.template.loader import render_to_string
 
-from publish.days import date_str, recent_dates, to_date
+from publish.days import date_str, recent_dates, to_date, yesterday
 from publish.text import text_join, text_lines
 from task.models import Activity, Task, TaskType
 
@@ -274,11 +274,11 @@ def task_command(command):
     elif command[0] == 'day':
         days = 1
     elif command[0] == 'week':
-        days = 8
+        days = 7
     elif command[0] == 'month':
-        days = 31
+        days = 30
     elif command[0] == 'year':
-        days = 366
+        days = 365
     else:
         return 'Specify a timeframe'
 
@@ -462,13 +462,13 @@ def show_incomplete_days(days, date):
 
 
 def update_tasks(**kwargs):
-    days = kwargs.get('days', 8)
+    days = kwargs.get('days', 7)
     date = kwargs.get('date')
     show_activity = kwargs.get('activity')
     if date:
         date = to_date(date)
     else:
-        date = datetime.today()
+        date = yesterday(datetime.today())
 
     # Task.objects.all().delete()
     # print(fix_tasks())

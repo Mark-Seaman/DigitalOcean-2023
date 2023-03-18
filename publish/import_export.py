@@ -97,7 +97,7 @@ def import_pub(pub):
         for row in content:
             if row[2:]:
                 set_content(pub, "chapter", row[0], row[1], row[2])
-            else:
+            elif row:
                 set_content(pub, "folder", row[0], 0, row[1])
 
     def delete_extra_objects(pub):

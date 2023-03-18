@@ -71,10 +71,10 @@ def create_slides(args):
         return f'{pub.doc_path}/{doc}.ol'
 
     def slides_doc(pub, doc):
-        return f'{pub.doc_path}/{doc}-slides.md'
+        return f'{pub.doc_path}/{doc}_slides.md'
 
     if not args:
-        args = ['org/L1-message']
+        args = ['org/L1_message']
 
     # print(args)
     pub = get_pub(Path(args[0]).parent)
@@ -110,8 +110,8 @@ def plant(args):
 
 def slides_view_context(**kwargs):
     pub = kwargs.get('pub', 'org')
-    doc = kwargs.get('doc', 'L1-message')
-    md_path = f'{get_pub(pub).doc_path}/{doc}-slides.md'
+    doc = kwargs.get('doc', 'L1_message')
+    md_path = f'{get_pub(pub).doc_path}/{doc}_slides.md'
     print(md_path)
     json = f"{get_pub(pub).doc_path}/slides_settings.json"
     kwargs = read_json(json)

@@ -153,6 +153,6 @@ def save_pub_data():
             git add config/publish.json &&
             git commit -m "Save pub JSON" &&
             git push
-        } 2>&1 > /dev/null 
+        } 2>/dev/null  > /dev/null 
     '''
     system(command)

@@ -63,7 +63,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 54685,
+        "words": 52890,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -301,32 +301,7 @@
 },
 {
     "model": "publish.pub",
-    "pk": 745,
-    "fields": {
-        "name": "video",
-        "title": "Mark's Video Log",
-        "subtitle": "Interesting Projects and News",
-        "description": "Weekly video with current events and updates.",
-        "doc_path": "Documents/seamanslog.com/video",
-        "image_path": "/static/images/seamanslog.com",
-        "css": "/static/css/seamanslog.css",
-        "domain": null,
-        "url": "/video",
-        "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 300,
-        "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
-        "menu": "static/js/nav_blog.json",
-        "pub_type": "blog",
-        "auto_remove": false,
-        "auto_contents": false,
-        "auto_index": false,
-        "index_folders": false,
-        "index_months": false
-    }
-},
-{
-    "model": "publish.pub",
-    "pk": 1242,
+    "pk": 746,
     "fields": {
         "name": "today",
         "title": "Mark Today Blogcast",
@@ -351,7 +326,7 @@
 },
 {
     "model": "publish.pub",
-    "pk": 1243,
+    "pk": 747,
     "fields": {
         "name": "org",
         "title": "Shrinking World Training",
@@ -363,7 +338,7 @@
         "domain": null,
         "url": "/org",
         "logo": null,
-        "words": 124,
+        "words": 12,
         "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "private",
@@ -16000,77 +15975,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 45276,
-    "fields": {
-        "blog": 745,
-        "order": 1,
-        "title": "Mark's Video Log",
-        "doctype": "folder",
-        "path": "Documents/seamanslog.com/video/Index.md",
-        "folder": 0,
-        "words": 15,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 45277,
-    "fields": {
-        "blog": 745,
-        "order": 1,
-        "title": "Teaching at UNC",
-        "doctype": "chapter",
-        "path": "Documents/seamanslog.com/video/UNC.md",
-        "folder": 1,
-        "words": 98,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 45278,
-    "fields": {
-        "blog": 745,
-        "order": 2,
-        "title": "Gratitude",
-        "doctype": "chapter",
-        "path": "Documents/seamanslog.com/video/Gratitude.md",
-        "folder": 1,
-        "words": 75,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 45279,
-    "fields": {
-        "blog": 745,
-        "order": 3,
-        "title": "Friends and family",
-        "doctype": "chapter",
-        "path": "Documents/seamanslog.com/video/Friends.md",
-        "folder": 1,
-        "words": 112,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87448,
-    "fields": {
-        "blog": 743,
-        "order": 4,
-        "title": "Document not found",
-        "doctype": "chapter",
-        "path": "Documents/seamanfamily.org/Day with a King",
-        "folder": 1,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87449,
+    "pk": 87450,
     "fields": {
         "blog": 738,
         "order": 10,
@@ -16084,9 +15989,23 @@
 },
 {
     "model": "publish.content",
-    "pk": 87450,
+    "pk": 87451,
     "fields": {
-        "blog": 1242,
+        "blog": 743,
+        "order": 4,
+        "title": "Document not found",
+        "doctype": "chapter",
+        "path": "Documents/seamanfamily.org/Day with a King",
+        "folder": 1,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87452,
+    "fields": {
+        "blog": 746,
         "order": 1,
         "title": "Mark Today Blogcast",
         "doctype": "folder",
@@ -16098,9 +16017,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87451,
+    "pk": 87454,
     "fields": {
-        "blog": 1242,
+        "blog": 746,
         "order": 2,
         "title": "Mark Today Blogcast",
         "doctype": "folder",
@@ -16112,9 +16031,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87452,
+    "pk": 87455,
     "fields": {
-        "blog": 1242,
+        "blog": 746,
         "order": 3,
         "title": "Teaching at UNC",
         "doctype": "folder",
@@ -16126,9 +16045,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87453,
+    "pk": 87456,
     "fields": {
-        "blog": 1242,
+        "blog": 746,
         "order": 4,
         "title": "Gratitude",
         "doctype": "folder",
@@ -16140,9 +16059,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87454,
+    "pk": 87457,
     "fields": {
-        "blog": 1242,
+        "blog": 746,
         "order": 5,
         "title": "Friends and family",
         "doctype": "folder",
@@ -16154,9 +16073,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87455,
+    "pk": 87458,
     "fields": {
-        "blog": 1242,
+        "blog": 746,
         "order": 6,
         "title": "Tella Video Recording",
         "doctype": "folder",
@@ -16168,7 +16087,49 @@
 },
 {
     "model": "publish.content",
-    "pk": 87456,
+    "pk": 87460,
+    "fields": {
+        "blog": 747,
+        "order": 1,
+        "title": "Software is essential",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.org/L1_message_slides.md",
+        "folder": 0,
+        "words": 116,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87461,
+    "fields": {
+        "blog": 747,
+        "order": 2,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.org/L2_howto_slides.md",
+        "folder": 0,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87462,
+    "fields": {
+        "blog": 747,
+        "order": 3,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.org/L3_skills_slides.md",
+        "folder": 0,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87463,
     "fields": {
         "blog": 735,
         "order": 56,
@@ -16182,7 +16143,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87457,
+    "pk": 87464,
     "fields": {
         "blog": 735,
         "order": 57,
@@ -16196,49 +16157,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87458,
-    "fields": {
-        "blog": 1243,
-        "order": 1,
-        "title": "Software is essential",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.org/L1_message_slides.md",
-        "folder": 0,
-        "words": 116,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87459,
-    "fields": {
-        "blog": 1243,
-        "order": 2,
-        "title": "Document not found",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.org/L2_howto_slides.md",
-        "folder": 0,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87460,
-    "fields": {
-        "blog": 1243,
-        "order": 3,
-        "title": "Document not found",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.org/L3_skills_slides.md",
-        "folder": 0,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87461,
+    "pk": 87465,
     "fields": {
         "blog": 735,
         "order": 74,

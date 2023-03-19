@@ -27,6 +27,7 @@ Tips on better writing
   
 ## Process
 
+- [The Creative Process](/write/CreativeProcess)
 - [Defining Moments](/write/Moments)
 - [It Is Not About Output](/write/NotAboutOutput)
 - [Writing Workflow](/write/WritingWorkflow)

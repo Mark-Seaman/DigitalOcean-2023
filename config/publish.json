@@ -16168,5 +16168,19 @@
         "words": 863,
         "retain_object": false
     }
+},
+{
+    "model": "publish.content",
+    "pk": 87466,
+    "fields": {
+        "blog": 739,
+        "order": 23,
+        "title": "Creative Process of Writing",
+        "doctype": "folder",
+        "path": "Documents/seamanslog.com/write/CreativeProcess.md",
+        "folder": 0,
+        "words": 2053,
+        "retain_object": false
+    }
 }
 ]

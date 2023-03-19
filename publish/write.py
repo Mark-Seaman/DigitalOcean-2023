@@ -20,7 +20,10 @@ def write_blog(args=[]):
         return '''usage: write [options]
             
             options:
+                blogcast - write a blogcast article
+                ghost - write an article to post on Ghost.org
                 green - show the Greenhouse for Ideas
+                io - edit the Shrinking World I/O website
                 plant topic - create Markdown for the selected idea
                 markdown doc - conver the Markdown to HTML
                 masto - select an article, review it, and create a posting
@@ -35,8 +38,12 @@ def write_blog(args=[]):
         # write blogcast Documents/markseaman.org/today/03/Success
         # write blogcast Documents/spiritual-things.org/transformation/LifeWithGod.ol
         write_blogcast(args[1:])
+    elif args[0] == 'ghost':
+        ghost_write(args[1:])
     elif args[0] == 'green':
         greenhouse()
+    elif args[0] == 'io':
+        edit_io(args[1:])
     elif args[0] == 'plant':
         edit_file(plant(args[1:]))
     elif args[0] == 'markdown':
@@ -49,18 +56,14 @@ def write_blog(args=[]):
         # write slides Documents/shrinking-world.com/greenhouse/Content
         # write slides Documents/shrinking-world.org/L1-message
         return create_slides(args[1:])
-    elif args[0] == 'spiritual':
-        today = localdate().strftime("%m/%d") + ".md"
-        args[0] = f"Documents/spiritual-things.org/daily/{today}"
-        edit_file(args)
     elif args[0] == 'seamanslog':
         today = localdate().strftime("%m/%d") + ".md"
         args[0] = f"Documents/seamanslog.com/sampler/{today}"
         edit_file(args)
-    elif args[0] == 'sw':
-        print('Shrinking World')
-        system('open https://the-shrinking-world.ghost.io/ghost/#/site')
-        edit_file('Documents/shrinking-world.io')
+    elif args[0] == 'spiritual':
+        today = localdate().strftime("%m/%d") + ".md"
+        args[0] = f"Documents/spiritual-things.org/daily/{today}"
+        edit_file(args)
     elif args[0] == 'words':
         write_words(args[1:])
     elif args[0] == 'workshop':
@@ -69,24 +72,33 @@ def write_blog(args=[]):
         write_pub(args)
 
 
-def write_blogcast(args=[]):
-    print(f'write blogcast {args[0]+".ol"} {args[0]+".md"}')
-    text = ''
-    d = args[0]
-    f = args[1]
-    lines = text_lines(read_file(f'{d}/{f}.ol'))
-    for line in lines:
-        if not line:
-            text += '\n'
-        elif not line.startswith('    '):
-            text += f'# {line}\n\n'
-        elif not line.startswith('        '):
-            text += f'\n## {line.strip()}\n\n'
-        elif line:
-            text += f'* {line.strip()}\n'
-    f = f'{d}/{f}.md'
-    write_file(f, text)
-    print(text)
+def edit_io(args):
+    print('The Shrinking World I/O')
+    system('open https://the-shrinking-world.ghost.io/ghost/#/site')
+    edit_file('Documents/shrinking-world.io')
+
+
+def ghost_write(args):
+    print('Ghost write')
+    if not args:
+        print('which file?  eg.\n\nwrite ghost grow/collaborate')
+        return
+    file = args[0]
+    text = 'RAW TEXT'
+    data = dict(file=args[0], text=text, page_title='TITLE',
+                page_url=file, link_title=file, link_url=file)
+    path = Path('Documents/shrinking-world.io')/(file+'.md')
+    if path.exists():
+        print('EXISTS', path)
+        text = path.read_text()
+        text = text.replace('\n\n', '$$')
+        text = text.replace('\n', ' ')
+        text = text.replace('$$', '\n\n\n')
+    else:
+        text = render_to_string('pub/ghost.md', data)
+    path.write_text(text)
+    print(path, text)
+    edit_file(path)
 
 
 def greenhouse():
@@ -141,6 +153,26 @@ def render_document(**kwargs):
     text = render_template(template, text)
     write_dest(dest, text)
     return text
+
+
+def write_blogcast(args=[]):
+    print(f'write blogcast {args[0]+".ol"} {args[0]+".md"}')
+    text = ''
+    d = args[0]
+    f = args[1]
+    lines = text_lines(read_file(f'{d}/{f}.ol'))
+    for line in lines:
+        if not line:
+            text += '\n'
+        elif not line.startswith('    '):
+            text += f'# {line}\n\n'
+        elif not line.startswith('        '):
+            text += f'\n## {line.strip()}\n\n'
+        elif line:
+            text += f'* {line.strip()}\n'
+    f = f'{d}/{f}.md'
+    write_file(f, text)
+    print(text)
 
 
 def write_masto(args=[]):

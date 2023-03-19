@@ -35,6 +35,7 @@ export EDITOR="subl -w"
 
 
 # Project Scripts
+alias activity='week activity'
 alias book='subl $book'
 alias course='subl $course $cx'
 alias blog='pm write blog'
@@ -42,10 +43,11 @@ alias demo='code $g/PythonWebApps'
 alias docs='subl Documents'
 alias e='subl'
 alias ea='subl ~/Hammer/config/zshrc'
+alias ghost='write ghost'
 alias green='write green'
 alias hammer="source ~/.zshrc && code $p"
 alias i='e $i/history/2023/03'
-alias io='e Documents/shrinking-world.io'
+alias io='write io'
 alias masto='write masto'
 alias month='task month'
 alias review='write review'
@@ -77,7 +79,7 @@ alias g='grep --color=auto'
 alias l='ls -al'
 alias lc='wc -l'
 alias u='d ..'
-alias host="python -c 'import platform;print(platform.node()[:-6])'"
+alias host="python -c 'import platform;print(platform.node()[:-5])'"
 alias h='history 100'
 alias p=python
 

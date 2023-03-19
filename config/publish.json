@@ -63,7 +63,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 54685,
+        "words": 54961,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -163,7 +163,7 @@
         "domain": null,
         "url": "/write",
         "logo": null,
-        "words": 7231,
+        "words": 7235,
         "cover_image": "/static/images/seamanslog.com/write-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -2283,34 +2283,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 44235,
-    "fields": {
-        "blog": 735,
-        "order": 5,
-        "title": "Personal Transformation",
-        "doctype": "chapter",
-        "path": "Documents/seamansguide.com/quest/Grow.md",
-        "folder": 2,
-        "words": 1621,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 44236,
-    "fields": {
-        "blog": 735,
-        "order": 6,
-        "title": "My Spiritual Journey",
-        "doctype": "chapter",
-        "path": "Documents/seamansguide.com/quest/Health.md",
-        "folder": 2,
-        "words": 914,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 44237,
     "fields": {
         "blog": 735,
@@ -2320,20 +2292,6 @@
         "path": "Documents/seamansguide.com/quest/ReasonToLive.md",
         "folder": 2,
         "words": 712,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 44238,
-    "fields": {
-        "blog": 735,
-        "order": 9,
-        "title": "My Primary Struggle",
-        "doctype": "chapter",
-        "path": "Documents/seamansguide.com/quest/DoAndBe.md",
-        "folder": 2,
-        "words": 472,
         "retain_object": false
     }
 },
@@ -16180,6 +16138,62 @@
         "path": "Documents/seamanslog.com/write/CreativeProcess.md",
         "folder": 0,
         "words": 2053,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87467,
+    "fields": {
+        "blog": 735,
+        "order": 5,
+        "title": "Process of Learning",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/DreyfusModel.md",
+        "folder": 2,
+        "words": 1258,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87468,
+    "fields": {
+        "blog": 735,
+        "order": 6,
+        "title": "Personal Transformation",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/Grow.md",
+        "folder": 2,
+        "words": 1621,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87469,
+    "fields": {
+        "blog": 735,
+        "order": 8,
+        "title": "My Primary Struggle",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/DoAndBe.md",
+        "folder": 2,
+        "words": 472,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87470,
+    "fields": {
+        "blog": 735,
+        "order": 9,
+        "title": "My Spiritual Journey",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/Health.md",
+        "folder": 2,
+        "words": 914,
         "retain_object": false
     }
 }

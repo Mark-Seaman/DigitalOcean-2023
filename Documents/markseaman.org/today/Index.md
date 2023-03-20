@@ -2,6 +2,7 @@
 
 Enjoy a daily broadcast from Mark Seaman
 
+* [My Career in Tech](/today/03-MyCareer)
 * [How do you define success?](/today/03-Success)
 * [I Love Software](/today/03-LoveSoftware)
 * [Mark Today Blogcast](/today/02-Blogcast)

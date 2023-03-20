@@ -11,6 +11,7 @@ Use technology to simplify everything
 
 ### Articles on Technology
 
+* [Healthy Social Networking](/social-media/)
 * [Personal Computer](/personal-computer/)
 * [Video Recording Software](/video-recording-software/)
 * [Birth of the Internet](/birth-of-the-internet/)

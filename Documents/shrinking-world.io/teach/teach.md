@@ -9,6 +9,7 @@
 
 ### Articles on Teaching
 
+* [Dreyfus Model of Learning](/learning/)
 * [I Love Software](/i-love-software/)
 * [Publishing for Writers](/publishing-for-writers)
 * [Building Python Web Apps Textbook](/web-apps-book)

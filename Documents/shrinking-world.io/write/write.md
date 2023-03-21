@@ -12,10 +12,11 @@ Topics of Interest
 
 Articles on Writing
 
+* [The Creative Process](/creative-process/)
 * [Mark Today Blogcast](/mark-today-blogcast/)
-* [Writing in the Internet Age](https://www.shrinking-world.io/internet-age/)
-* [Writing My Story](https://www.shrinking-world.io/writing-my-story/)
-* [Incremental Project Development](https://www.shrinking-world.io/project-doodly/)
+* [Writing in the Internet Age](/internet-age/)
+* [Writing My Story](/writing-my-story/)
+* [Incremental Project Development](/project-doodly/)
 
     
     

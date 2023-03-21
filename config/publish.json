@@ -63,7 +63,7 @@
         "domain": "https://seamansguide.com",
         "url": "/quest",
         "logo": null,
-        "words": 54961,
+        "words": 56219,
         "cover_image": "/static/images/seamansguide.com/quest/quest-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
@@ -15969,7 +15969,7 @@
         "doctype": "folder",
         "path": "Documents/markseaman.org/today/Index.md",
         "folder": 0,
-        "words": 40,
+        "words": 45,
         "retain_object": false
     }
 },
@@ -16194,6 +16194,20 @@
         "path": "Documents/seamansguide.com/quest/Health.md",
         "folder": 2,
         "words": 914,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87471,
+    "fields": {
+        "blog": 746,
+        "order": 2,
+        "title": "I Love Software",
+        "doctype": "folder",
+        "path": "Documents/markseaman.org/today/03/LoveSoftware.md",
+        "folder": 0,
+        "words": 33,
         "retain_object": false
     }
 }

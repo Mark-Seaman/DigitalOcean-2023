@@ -79,25 +79,38 @@ def edit_io(args):
 
 
 def ghost_write(args):
+
+    def write_post(file):
+        text = 'RAW TEXT'
+        data = dict(file=file, text=text, page_title='TITLE',
+                    page_url=file, link_title=file, link_url=file)
+        if path.exists():
+            print('EXISTS', path)
+            text = path.read_text()
+            text = text.replace('\n\n', '$$')
+            text = text.replace('\n', ' ')
+            text = text.replace('$$', '\n\n')
+            text = text.replace('\n ', '\n')
+
+        else:
+            text = render_to_string('pub/ghost.md', data)
+        path.write_text(text)
+
+    def write_weekly(file):
+        text = 'RAW TEXT'
+        data = dict(file=file)
+        text = render_to_string('pub/ghost_weekly.md', data)
+        path.write_text(text)
+
     print('Ghost write')
     if not args:
         print('which file?  eg.\n\nwrite ghost grow/collaborate')
         return
-    file = args[0]
-    text = 'RAW TEXT'
-    data = dict(file=args[0], text=text, page_title='TITLE',
-                page_url=file, link_title=file, link_url=file)
-    path = Path('Documents/shrinking-world.io')/(file+'.md')
-    if path.exists():
-        print('EXISTS', path)
-        text = path.read_text()
-        text = text.replace('\n\n', '$$')
-        text = text.replace('\n', ' ')
-        text = text.replace('$$', '\n\n\n')
+    path = Path('Documents/shrinking-world.io')/(args[0]+'.md')
+    if 'weekly' in args[0]:
+        write_weekly(args[0])
     else:
-        text = render_to_string('pub/ghost.md', data)
-    path.write_text(text)
-    print(path, text)
+        write_post(args[0])
     edit_file(path)
 
 

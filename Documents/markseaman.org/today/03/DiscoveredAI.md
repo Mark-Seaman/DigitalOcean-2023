@@ -1,4 +1,4 @@
-# Discoverd AI
+# Discovered AI
 
 I just discovered the chatGPT and learned what a huge impact it will have on my professional and
 personal life.  As I learn more I will keep you updated.

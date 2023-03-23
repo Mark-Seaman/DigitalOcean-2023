@@ -31,6 +31,7 @@ def write_blog(args=[]):
                 slides - create a slide show from an outline
                 seamanslog - edit the blog post for today
                 spiritual - edit the blog post for today
+                today - daily video blog
                 words - summary of word count
 
         '''
@@ -64,6 +65,8 @@ def write_blog(args=[]):
         today = localdate().strftime("%m/%d") + ".md"
         args[0] = f"Documents/spiritual-things.org/daily/{today}"
         edit_file(args)
+    elif args[0] == 'tech':
+        write_tech(args[1:])
     elif args[0] == 'today':
         write_today()
     elif args[0] == 'words':
@@ -74,13 +77,20 @@ def write_blog(args=[]):
         write_pub(args)
 
 
+def write_tech(args):
+    if args:
+        edit_file(f'Documents/shrinking-world.com/blog/{args[0]}')
+    else:
+        edit_file('Documents/shrinking-world.com/blog')
+
+
 def write_today():
     edit_file('Documents/markseaman.org/today')
 
 
 def edit_io(args):
     print('The Shrinking World I/O')
-    system('open https://the-shrinking-world.ghost.io/ghost/#/site')
+    system('open https://shrinking-world.io/ghost/#/site')
     edit_file('Documents/shrinking-world.io')
 
 

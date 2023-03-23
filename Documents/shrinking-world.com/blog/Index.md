@@ -19,6 +19,14 @@
 * [Independent Study](/tech/training-IndependentStudy.md)
 * [Speaker Bio](/tech/training-Biography.md)
 
+## [Teaching & Course Prep](/tech/teach-Index.md)
+* [Course Prep with AI](/tech/teach-CoursePrepAI.md)
+* [Japanese Language](/tech/teach-Japanese.md)
+* [Genetics 101](/tech/teach-Genetics.md)
+* [Spiritual Formation](/tech/teach-Formation.md)
+* [Content Creation Business 101](/tech/teach-TeachingBiz.md)
+
+
 ## [Micropublishing](/tech/micropub-Index.md)
 
 * [Riding the Mastodon](/tech/micropub-Mastodon.md)

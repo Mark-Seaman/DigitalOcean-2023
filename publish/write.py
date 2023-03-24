@@ -79,44 +79,6 @@ def write_blog(args=[]):
         write_pub(args)
 
 
-def write_ai(args):
-    def fix_ai_file(path, paragraphs, num):
-        text = fix_text(path.read_text(), paragraphs, num)
-        path.write_text(text)
-        print(path, '\n', text)
-
-    def fix_text(text, paragraphs, num):
-        if paragraphs:
-            text = text.replace('\n', '\n\n')
-            text = text.replace('\n\n\n\n', '\n\n')
-            text = text.replace('\n\n\n\n', '\n\n')
-        if num:
-            text = sub(r'\n\d\. ', '\n* ', text)
-        return text
-
-    print('AI', args)
-    # system('open https://chat.openai.com/chat')
-    if args:
-        path = Path(f'Documents/shrinking-world.com/ai/{args[0]}')
-        fix_ai_file(path,
-                    (args[1:] and args[1] == 'p'),
-                    (args[1:] and args[1] == 'n'))
-        edit_file(path)
-    else:
-        edit_file(f'Documents/shrinking-world.com/ai')
-
-
-def write_tech(args):
-    if args:
-        edit_file(f'Documents/shrinking-world.com/blog/{args[0]}')
-    else:
-        edit_file('Documents/shrinking-world.com/blog')
-
-
-def write_today():
-    edit_file('Documents/markseaman.org/today')
-
-
 def edit_io(args):
     print('The Shrinking World I/O')
     system('open https://shrinking-world.io/ghost/#/site')
@@ -213,6 +175,33 @@ def render_document(**kwargs):
     return text
 
 
+def write_ai(args):
+    def fix_ai_file(path, paragraphs, num):
+        text = fix_text(path.read_text(), paragraphs, num)
+        path.write_text(text)
+        print(path, '\n', text)
+
+    def fix_text(text, paragraphs, num):
+        if paragraphs:
+            text = text.replace('\n', '\n\n')
+            text = text.replace('\n\n\n\n', '\n\n')
+            text = text.replace('\n\n\n\n', '\n\n')
+        if num:
+            text = sub(r'\n\d\. ', '\n* ', text)
+        return text
+
+    if args:
+        print('AI', args)
+        path = Path(f'Documents/shrinking-world.com/ai/{args[0]}')
+        fix_ai_file(path,
+                    (args[1:] and args[1] == 'p'),
+                    (args[1:] and args[1] == 'n'))
+        edit_file(path)
+    else:
+        edit_file(f'Documents/shrinking-world.com/ai')
+        system('open https://chat.openai.com/chat')
+
+
 def write_blogcast(args=[]):
     print(f'write blogcast {args[0]+".ol"} {args[0]+".md"}')
     text = ''
@@ -263,6 +252,17 @@ def write_render(args):
     text = render_document(source=args[0], dest=args[1],
                            script=args[2], template=args[3])
     return text
+
+
+def write_tech(args):
+    if args:
+        edit_file(f'Documents/shrinking-world.com/blog/{args[0]}')
+    else:
+        edit_file('Documents/shrinking-world.com/blog')
+
+
+def write_today():
+    edit_file('Documents/markseaman.org/today')
 
 
 def write_words(args=[]):

@@ -1,17 +1,17 @@
 from os import system
-from pathlib import Path
-
 from django.template.loader import render_to_string
 from django.utils.timezone import localdate
-from publish.files import read_file, write_file
+from pathlib import Path
+from re import sub
 
-from publish.models import Content
-from publish.slides import create_slides, markdown, plant, write_workshop
-from publish.text import text_lines
 from workshop.management.commands.edit import edit_file
 
+from .files import read_file, write_file
+from .models import Content
 from .pub import get_pub, show_pub_summaries, show_pub_words
 from .seamanslog import create_toot_file, random_article
+from .slides import create_slides, markdown, plant, write_workshop
+from .text import text_lines
 
 
 def write_blog(args=[]):
@@ -80,16 +80,23 @@ def write_blog(args=[]):
 
 
 def write_ai(args):
-    def fix_ai_file(path):
-        text = path.read_text()
+    def fix_ai_file(path, paragraphs, num):
+        text = fix_text(path.read_text(), paragraphs, num)
         path.write_text(text)
         print(path, '\n', text)
+
+    def fix_text(text, paragraphs, num):
+        if paragraphs:
+            text = text.replace('\n', '\n\n')
+        if num:
+            text = sub(r'\n\d\. ', '* ', text)
+        return text
 
     print('AI', args)
     # system('open https://chat.openai.com/chat')
     if args:
         path = Path(f'Documents/shrinking-world.com/ai/{args[0]}')
-        fix_ai_file(path)
+        fix_ai_file(path, (args[1:] and args[1] == 'p'))
         edit_file(path)
     else:
         edit_file(f'Documents/shrinking-world.com/ai')

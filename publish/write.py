@@ -88,15 +88,19 @@ def write_ai(args):
     def fix_text(text, paragraphs, num):
         if paragraphs:
             text = text.replace('\n', '\n\n')
+            text = text.replace('\n\n\n\n', '\n\n')
+            text = text.replace('\n\n\n\n', '\n\n')
         if num:
-            text = sub(r'\n\d\. ', '* ', text)
+            text = sub(r'\n\d\. ', '\n* ', text)
         return text
 
     print('AI', args)
     # system('open https://chat.openai.com/chat')
     if args:
         path = Path(f'Documents/shrinking-world.com/ai/{args[0]}')
-        fix_ai_file(path, (args[1:] and args[1] == 'p'))
+        fix_ai_file(path,
+                    (args[1:] and args[1] == 'p'),
+                    (args[1:] and args[1] == 'n'))
         edit_file(path)
     else:
         edit_file(f'Documents/shrinking-world.com/ai')

@@ -1,9 +1,6 @@
 Clip source: Content Creation Business Course.
 
-
-
 Week 1: Creating Valuable Content
-
 
 Day 1: Introduction to Content Creation
 
@@ -45,13 +42,7 @@ Day 5: Listening for the next problem
 
 - Staying ahead of the curve
 
-
-
 Week 2: Building an Audience
-
-
-
-
 
 Day 1: Introduction to building an audience
 
@@ -91,13 +82,7 @@ Day 5: Building a fan base
 
 - Best practices for nurturing your fan base
 
-
-
 Week 3: Persistence
-
-
-
-
 
 Day 1: Introduction to Persistence
 
@@ -137,13 +122,7 @@ Day 5: Building relationships with customers
 
 - Best practices for nurturing customer relationships
 
-
-
 Week 4: Measuring Success
-
-
-
-
 
 Day 1: Introduction to Measuring Success
 

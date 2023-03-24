@@ -36,7 +36,7 @@ export EDITOR="subl -w"
 
 # Project Scripts
 alias activity='week activity'
-alias ai='open https://chat.openai.com/chat'
+alias ai='write ai'
 alias book='subl $book'
 alias course='subl $course $cx'
 alias blog='pm write blog'

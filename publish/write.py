@@ -35,6 +35,8 @@ def write_blog(args=[]):
                 words - summary of word count
 
         '''
+    elif args[0] == 'ai':
+        write_ai(args[1:])
     elif args[0] == 'blogcast':
         # write blogcast Documents/markseaman.org/today/03/Success
         # write blogcast Documents/spiritual-things.org/transformation/LifeWithGod.ol
@@ -75,6 +77,22 @@ def write_blog(args=[]):
         write_workshop(args[1:])
     else:
         write_pub(args)
+
+
+def write_ai(args):
+    def fix_ai_file(path):
+        text = path.read_text()
+        path.write_text(text)
+        print(path, '\n', text)
+
+    print('AI', args)
+    # system('open https://chat.openai.com/chat')
+    if args:
+        path = Path(f'Documents/shrinking-world.com/ai/{args[0]}')
+        fix_ai_file(path)
+        edit_file(path)
+    else:
+        edit_file(f'Documents/shrinking-world.com/ai')
 
 
 def write_tech(args):

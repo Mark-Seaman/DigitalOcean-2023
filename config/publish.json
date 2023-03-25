@@ -138,7 +138,7 @@
         "domain": null,
         "url": "/tech",
         "logo": null,
-        "words": 15621,
+        "words": 15628,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "blog",
@@ -2261,20 +2261,6 @@
         "path": "Documents/seamansguide.com/quest/Summer.md",
         "folder": 0,
         "words": 17,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 44231,
-    "fields": {
-        "blog": 735,
-        "order": 1,
-        "title": "Embracing My Life Purpose",
-        "doctype": "chapter",
-        "path": "Documents/seamansguide.com/quest/Purpose.md",
-        "folder": 2,
-        "words": 672,
         "retain_object": false
     }
 },
@@ -16289,6 +16275,34 @@
         "path": "Documents/markseaman.org/today/03/LoveSoftware.md",
         "folder": 0,
         "words": 33,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87468,
+    "fields": {
+        "blog": 735,
+        "order": 0,
+        "title": "Embracing My Life Purpose",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/Purpose.md",
+        "folder": 2,
+        "words": 672,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87469,
+    "fields": {
+        "blog": 735,
+        "order": 1,
+        "title": "Defining Success",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/DefiningSuccess.md",
+        "folder": 2,
+        "words": 665,
         "retain_object": false
     }
 }

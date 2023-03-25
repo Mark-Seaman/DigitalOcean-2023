@@ -23,7 +23,7 @@ Overall, Chet has been an outstanding asset to our company, and we are fortunate
 ---
 
 ARTICLE
-    [My Android Assistant](/chet-gupta/)
+* [My Android Assistant](/chet-gupta/)
 
 BUTTON
     Read More at "My Android Assistant"

@@ -11,6 +11,7 @@ Manage the challenges of everyday life
 
 ### Articles about Personal Growth
 
+* [Defining Success](/success/)
 * [The Brain and Emotions](/neurochemicals/)
 * [Embrace Reality](/embrace-reality/)
 * [Key Roles in Life](/life-roles)

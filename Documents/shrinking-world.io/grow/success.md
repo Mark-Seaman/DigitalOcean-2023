@@ -16,7 +16,9 @@ To understand this more fully, let's take a look at some common values and how t
 
 ---
 
-[Defining Success](/success/)
+ARTICLE
+* [Defining Success](/success/)
 
-Read More at "Defining Success" 
-https://seamansguide.com/quest/DefiningSuccess 
+BUTTON
+    Read More at "Defining Success" 
+    https://seamansguide.com/quest/DefiningSuccess 

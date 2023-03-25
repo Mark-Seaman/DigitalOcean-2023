@@ -9,6 +9,7 @@
 ## [Season of Summer](/quest/Summer.md)                                        
 
 * [Embracing My Life Purpose](/quest/Purpose.md)                                
+* [Defining Success](/quest/DefiningSuccess.md)                                 
 * [ My Superpower](/quest/MySuperpower.md)                                      
 * [Meaningful Work](/quest/Work.md)                                             
 * [Key Roles in Life](/quest/Roles.md)                                          

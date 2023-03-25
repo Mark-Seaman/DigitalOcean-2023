@@ -1,6 +1,5 @@
 not-output.md
 
-
 It's Not About Output
 
 We all experience a great deal of pressure to be productive, especially if you are a driven personality. We believe that producing published material is the most important goal in writing. I believe that this attitude is counterproductive.
@@ -15,12 +14,9 @@ Go out and take some foolish chances and then learn from them. If you do, other 
 
 When confronted with a choice in writing, choose quality over quantity.
 
-
 ---
 
-It's Not About Output
-/not-output/
+It's Not About Output /not-output/
 
-Read more at "It's Not About Output"
-https://seamanslog.com/write/NotAboutOutput
+Read more at "It's Not About Output" https://seamanslog.com/write/NotAboutOutput
 

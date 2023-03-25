@@ -1,4 +1,4 @@
-teach/course-prep-ai.md
+teach/course-ai-prep.md
 
 
 # Course Prep with AI
@@ -15,14 +15,14 @@ Get started with chatGPT to try it out for yourself at https://chat.openai.com. 
 
 Check out the following case studies. Keep in mind that this was done in a few minutes.
 
-* Japanese for High School Students
-* Genetics 101
-* Spiritual Formation
-* Online Teaching Business
+* [Japanese Language for High School Students](https://shrinking-world.com/tech/teach-Japanese.md)
+* [Genetics for High School Students](https://shrinking-world.com/tech/teach-Genetics.md)
+* [Spiritual Formation](https://shrinking-world.com/tech/teach-Formation.md)
+* [Content Creation Business 101](https://shrinking-world.com/tech/teach-TeachingBiz.md)
 
 ---
 
-* [Course Prep with AI](https://shrinking-world.io/teach/course-prep-ai)
+* [Course Prep with AI](/course-ai-prep/)
 
 Read More at "Course Prep with AI"
 https://shrinking-world.com/tech/teach-CoursePrepAI.md

@@ -49,7 +49,7 @@ Other communication channels are not active at all for me. On these messages may
 ---
 
 Communication Channels
-/communication
+/communication/
 
 Read more at "Communication Channels"
 https://shrinking-world.com/tech/tech-CommChannels.md

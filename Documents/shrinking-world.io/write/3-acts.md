@@ -43,7 +43,7 @@ After the climax, there is still plenty left in the story. There may be ongoing 
 
 ---
 
-[Life Story as a 3-act Play](https://shrinking-world.io/write/3-acts)
+* [Life Story as a 3-act Play](/3-acts/)
 
 Read More at "Story in Three Acts"
 https://seamanslog.com/write/ThreeActs

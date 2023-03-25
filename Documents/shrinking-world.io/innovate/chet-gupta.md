@@ -23,8 +23,8 @@ Overall, Chet has been an outstanding asset to our company, and we are fortunate
 ---
 
 ARTICLE
-    [My Android Assistant](https://shrinking-world.io/innovate/chet-gupta)
+    [My Android Assistant](/chet-gupta/)
 
 BUTTON
     Read More at "My Android Assistant"
-    https://shrinking-world.com/tech/tech-ChetGupta.md
+    https://shrinking-world.com/tech/tech-ChetGupta

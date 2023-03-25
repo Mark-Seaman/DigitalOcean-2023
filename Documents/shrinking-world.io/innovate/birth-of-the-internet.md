@@ -11,7 +11,7 @@ In the early 90s HP began investing in communication technology. The leaders bel
 ---
 
 Birth of the Internet
-https://shrinking-world.io/birth-of-the-internet/
+/birth-of-the-internet/
 
 Read More at "The Internet (1990s)"
 https://seamansguide.com/journey/Internet.md

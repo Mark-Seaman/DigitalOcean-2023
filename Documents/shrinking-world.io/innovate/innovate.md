@@ -11,6 +11,7 @@ Use technology to simplify everything
 
 ### Articles on Technology
 
+* [My Android Assistant](/chet-gupta/)
 * [Healthy Social Networking](/social-media/)
 * [Personal Computer](/personal-computer/)
 * [Video Recording Software](/video-recording-software/)

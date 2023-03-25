@@ -9,6 +9,7 @@
 
 ### Articles on Teaching
 
+* [Course Prep with AI](/course-ai-prep/)
 * [Dreyfus Model of Learning](/learning/)
 * [I Love Software](/i-love-software/)
 * [Publishing for Writers](/publishing-for-writers)

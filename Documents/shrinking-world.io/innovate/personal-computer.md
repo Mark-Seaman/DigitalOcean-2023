@@ -24,7 +24,7 @@ I started my dream job in 1981, two weeks after I graduated from college. We mov
 ---
 
 Personal Computer
-https://shrinking-world.io/personal-computer/
+/personal-computer/
 
 
 The Personal Computer (1980s)

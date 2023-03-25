@@ -13,6 +13,7 @@ Topics of Interest
 Articles on Writing
 
 
+* [Life Story as a 3-act Play](/3-acts/)
 * [The Creative Process](/creative-process/)
 * [It's Not About Output](/not-output/)
 * [Mark Today Blogcast](/mark-today-blogcast/)

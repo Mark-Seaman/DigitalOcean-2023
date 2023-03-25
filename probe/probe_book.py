@@ -25,4 +25,4 @@ def test_book_webapps():
 
 
 def test_book_quest():
-    return check_files(book / "quest", 60, 65)
+    return check_files(book / "quest", 60, 70)

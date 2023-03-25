@@ -177,9 +177,10 @@ def render_document(**kwargs):
 
 def write_ai(args):
     def fix_ai_file(path, paragraphs, num):
-        text = fix_text(path.read_text(), paragraphs, num)
-        path.write_text(text)
-        print(path, '\n', text)
+        if path.exists():
+            text = fix_text(path.read_text(), paragraphs, num)
+            path.write_text(text)
+            print(path, '\n', text)
 
     def fix_text(text, paragraphs, num):
         if paragraphs:

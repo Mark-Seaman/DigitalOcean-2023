@@ -42,6 +42,7 @@
 
 ## [Tech Notes](/tech/tech-Index.md)
 
+* [My Android Assistant](/tech/tech-ChetGupta.md)
 * [The Internet (1990s)](/tech/tech-Internet.md)
 * [The Personal Computer (1980s)](/tech/tech-PersonalComputer.md)
 * [When will you Retire?](/tech/tech-Retirement.md)

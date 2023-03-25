@@ -41,7 +41,7 @@ def test_websites_shrinking_world():
 
 
 def test_websites_tech():
-    return check_lines_in_webpage("https://shrinking-world.com/tech/Index", 15q0, 160)
+    return check_lines_in_webpage("https://shrinking-world.com/tech/Index", 150, 160)
 
 
 def test_websites_training():

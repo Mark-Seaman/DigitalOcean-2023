@@ -38,13 +38,13 @@
         "domain": "https://seamansguide.com",
         "url": "/poem",
         "logo": null,
-        "words": 15064,
+        "words": 15365,
         "cover_image": "/static/images/seamansguide.com/poem/poem-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "book",
         "auto_remove": false,
         "auto_contents": false,
-        "auto_index": false,
+        "auto_index": true,
         "index_folders": false,
         "index_months": false
     }

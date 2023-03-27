@@ -86,7 +86,6 @@ def edit_io(args):
 
 
 def ghost_write(args):
-
     def write_post(file, template):
         text = 'RAW TEXT'
         data = dict(file=file, text=text, page_title='TITLE',
@@ -108,7 +107,19 @@ def ghost_write(args):
         text = render_to_string('pub/ghost_weekly.md', data)
         path.write_text(text)
 
-    print('Ghost write')
+    if args:
+        print('Ghost write')
+    #     print('AI', args)
+    #     path = Path(f'Documents/shrinking-world.com/ai/{args[0]}')
+    #     p = (args[1:] and args[1] == 'p')
+    #     n = (args[1:] and args[1] == 'n')
+    #     data = dict(file=path, text='RAW TEXT', template='pub/ai.md',
+    #                 paragraph=p, numbered_list=n)
+    #     write_post(path,  data)
+    # else:
+    #     edit_file(f'Documents/shrinking-world.com/ai')
+    #     system('open https://chat.openai.com/chat')
+
     if not args:
         print('which file?  eg.\n\nwrite ghost grow/collaborate')
         return
@@ -175,21 +186,6 @@ def render_document(**kwargs):
 
 
 def write_ai(args):
-    # def fix_ai_file(path, paragraphs, num):
-    #     if path.exists():
-    #         text = fix_text(path.read_text(), paragraphs, num)
-    #         path.write_text(text)
-    #         print(path, '\n', text)
-
-    # def fix_text(text, paragraphs, num):
-    #     if paragraphs:
-    #         text = text.replace('\n', '\n\n')
-    #         text = text.replace('\n\n\n\n', '\n\n')
-    #         text = text.replace('\n\n\n\n', '\n\n')
-    #     if num:
-    #         text = sub(r'\n\d\. ', '\n* ', text)
-    #     return text
-
     if args:
         print('AI', args)
         path = Path(f'Documents/shrinking-world.com/ai/{args[0]}')
@@ -198,10 +194,6 @@ def write_ai(args):
         data = dict(file=path, text='RAW TEXT', template='pub/ai.md',
                     paragraph=p, numbered_list=n)
         write_post(path,  data)
-        # fix_ai_file(path,
-        #             (args[1:] and args[1] == 'p'),
-        #             (args[1:] and args[1] == 'n'))
-        edit_file(path)
     else:
         edit_file(f'Documents/shrinking-world.com/ai')
         system('open https://chat.openai.com/chat')
@@ -233,20 +225,6 @@ def write_masto(args=[]):
 
 
 def write_post(path, options):
-    # file = path
-    # text = 'RAW TEXT'
-    # data = dict(file=file, text=text, page_title='TITLE',
-    #             page_url=file, link_title=file, link_url=file)
-    # if path.exists():
-    #     print('EXISTS', path)
-    #     text = path.read_text()
-    #     text = text.replace('\n\n', '$$')
-    #     text = text.replace('\n', ' ')
-    #     text = text.replace('$$', '\n\n')
-    #     text = text.replace('\n ', '\n')
-    # else:
-    #     text = render_to_string(template, data)
-    # path.write_text(text)
 
     def write_post_file(path, options):
         if path.exists():

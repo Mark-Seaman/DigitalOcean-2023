@@ -6,6 +6,8 @@
 
 diet to prevent gout
 
+Low purine foods
+
 ---
 
 ## AI Response
@@ -34,4 +36,27 @@ It's also important to work with a healthcare professional to create a personali
 meets your individual needs and takes into account any other health conditions you may have.
 
 ---
+
+Low purine foods are a good choice for people with gout, as they can help reduce the risk of gout
+attacks. Here are some examples of low purine foods:
+
+*  Vegetables: Most vegetables are low in purines, including leafy greens, carrots, celery,
+* eggplant, peppers, potatoes, and squash.
+
+*  Fruits: Most fruits are also low in purines, including apples, bananas, berries, cherries,
+* grapes, melons, and citrus fruits.
+
+*  Whole grains: Whole grains like bread, pasta, rice, and oats are low in purines.
+
+*  Dairy products: Low-fat or fat-free milk, yogurt, and cheese are good options.
+
+*  Nuts and seeds: Most nuts and seeds are low in purines, including almonds, cashews, peanuts, and
+* sunflower seeds.
+
+*  Beverages: Water, herbal teas, and fruit juices are good choices. It's important to limit or
+* avoid high-purine beverages like beer, wine, and liquor.
+
+It's important to note that while these foods are low in purines, they still contain some purines,
+so it's important to eat them in moderation as part of a balanced diet.
+
 

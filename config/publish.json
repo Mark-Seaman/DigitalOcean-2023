@@ -16299,7 +16299,7 @@
         "doctype": "folder",
         "path": "Documents/shrinking-world.io/Index.md",
         "folder": 0,
-        "words": 166,
+        "words": 172,
         "retain_object": false
     }
 },
@@ -16370,20 +16370,6 @@
         "path": "Documents/shrinking-world.io/weekly/Index.md",
         "folder": 0,
         "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87504,
-    "fields": {
-        "blog": 748,
-        "order": 7,
-        "title": "The Shrinking World - March 24, 2023",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/weekly/2023-03-24.md",
-        "folder": 8,
-        "words": 113,
         "retain_object": false
     }
 },
@@ -17056,6 +17042,20 @@
         "path": "Documents/shrinking-world.io/write/writing_my_story.md",
         "folder": 9,
         "words": 191,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87585,
+    "fields": {
+        "blog": 748,
+        "order": 7,
+        "title": "The Shrinking World - March 24, 2023",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/weekly/2023_03_24.md",
+        "folder": 8,
+        "words": 113,
         "retain_object": false
     }
 }

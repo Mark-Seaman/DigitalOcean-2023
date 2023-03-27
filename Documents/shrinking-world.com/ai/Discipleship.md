@@ -1,8 +1,46 @@
+# Discipleship Course
+
+ai/Discipleship.md
+
+This is an AI article about the Discipleship Course
+
+
+## Prompt
+
+as Pete Scazzero build a course plan for Emotionally Healthy Discipleship
+
+---
+
+
+## AI Response
+
+
+Instructor
+
+Pete Scazzero is a pastor, author, and speaker who is best known for his work on emotional health
+and spirituality. He is the founder and former senior pastor of New Life Fellowship Church in
+Queens, New York City, which he led for over 25 years.
+
+Scazzero is also the author of several books, including "Emotionally Healthy Spirituality," "The
+Emotionally Healthy Church," and "Emotionally Healthy Spirituality Day by Day." His work focuses on
+the intersection of emotional health and spirituality, with a particular emphasis on the importance
+of integrating emotional health into Christian discipleship.
+
+Through his books, speaking engagements, and leadership training programs, Scazzero has become a
+prominent voice in the Christian community on the topic of emotional health and its role in
+personal and spiritual growth.
+
+---
+
+
 Course Title: Emotionally Healthy Discipleship
 
 Course Description:
 
-This course is designed to provide individuals with the tools and skills necessary to develop a deeper and more emotionally healthy relationship with God. Students will learn how to identify and manage their own emotions, grow in spiritual maturity, and build a life-giving relationship with Jesus Christ.
+This course is designed to provide individuals with the tools and skills necessary to develop a
+deeper and more emotionally healthy relationship with God. Students will learn how to identify and
+manage their own emotions, grow in spiritual maturity, and build a life-giving relationship with
+Jesus Christ.
 
 Course Objectives:
 
@@ -56,4 +94,7 @@ VI. Conclusion and Next Steps
 
 Delivery Method: 
 
-This course can be delivered online or in-person. It may consist of lectures, discussions, group activities, and assignments. Additionally, students may be required to complete readings, reflective exercises, and written assignments based on the teachings and writings of Pete Scazzero.
+This course can be delivered online or in-person. It may consist of lectures, discussions, group
+activities, and assignments. Additionally, students may be required to complete readings,
+reflective exercises, and written assignments based on the teachings and writings of Pete Scazzero.
+

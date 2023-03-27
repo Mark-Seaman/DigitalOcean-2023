@@ -1,9 +1,31 @@
 # Customer Journey
 
+This is an AI article about Becoming a Content Creator and Business Owner
+
+
+## Prompt
+
 To move clients along a path of deeper engagement and build trust, businesses must understand the
 needs and motivations of each stage of the customer journey. Providing value, personalized
 communication, exceptional service, and ongoing support can turn visitors into subscribers,
 customers into students, and students into disciples.
+
+Teaching others requires trust.  Growing trust takes time but can be accelerated by using the Trust Ramp.
+
+This is the basis of all modern marketing
+
+- First contact - 1 minute teaching
+- Interest - 5 minutes
+- Credibility - 20 minutes
+- Solve problems - 60 minutes
+- Assistance - 4 hours
+- Coaching - week
+
+
+
+## AI Response
+
+
 
 ---
 

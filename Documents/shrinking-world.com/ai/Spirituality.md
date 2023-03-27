@@ -1,3 +1,23 @@
+# Spirituality and Emotional Health
+
+ai/Spirituality.md
+
+This is an AI article about the Spirituality
+
+
+## Prompt
+
+tell me about the link between spirituality and emotional health
+
+what would Tim Keller & Jim Wilder say
+
+---
+
+
+## AI Response
+
+---
+
 Spirituality and emotional health
 
 The link between spirituality and emotional health has been widely studied in psychology and

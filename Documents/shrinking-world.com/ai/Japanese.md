@@ -1,3 +1,25 @@
+# Japanese Course
+
+ai/Japanese.md
+
+This is an AI article about the Japanese Course
+
+
+## Prompt
+
+write a lesson plan for a 4-week course on learning Japanese for 14-year-olds.
+
+write lesson plan for week 1
+
+plan a series of 20 5-minute videos for learning Japanese for 14-year-olds.
+
+
+---
+
+
+## AI Response
+
+
 Clip source: Japanese Language Lesson Plan.
 
 Japanese Language Lesson Plan.
@@ -248,4 +270,6 @@ Assessment:
 
 - The assessment will be conducted through quizzes and tests after each video to gauge student progress.
 
-Note: Each video will be designed to be engaging and interactive, with a mix of presentation slides, demonstrations, and role-playing activities. The videos will also include subtitles and pronunciation guides to help students understand and practice the language.
+Note: Each video will be designed to be engaging and interactive, with a mix of presentation slides,
+demonstrations, and role-playing activities. The videos will also include subtitles and
+pronunciation guides to help students understand and practice the language.

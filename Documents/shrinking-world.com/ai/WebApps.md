@@ -1,4 +1,9 @@
-# Web Apps Course
+# Web Apps Course Announcement
+
+ai/WebApps.md
+
+This is an AI article about building WebApps
+
 
 ## Prompt
 

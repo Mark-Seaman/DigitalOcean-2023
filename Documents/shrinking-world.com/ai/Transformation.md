@@ -1,3 +1,21 @@
+# Transformation
+
+ai/Transformation.md
+
+This is an AI article about the Transformation
+
+
+## Prompt
+
+write about Transformation
+
+---
+
+
+## AI Response
+
+---
+
 Call to Transformation: Aligning Your Plans with God's
 
 We all have plans for our lives. We want to be healthy, wealthy, powerful, and comfortable. We work

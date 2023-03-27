@@ -1,3 +1,38 @@
+# Content Creator Business
+
+This is an AI article about Becoming a Content Creator and Business Owner
+
+
+## Prompt
+
+create a 4-week course for building an creation content business:  
+
+Becoming a Content Creator and business owner
+
+- Create Valuable Content
+    - Solve problems
+    - Maximize creativity
+    - Innovate
+    - Listen for the next problem
+- Build an audience
+    - Followers
+    - Subscribers
+    - Customers
+    - Fans
+- Persistence
+    - Growth is Not linear (1, 5, 20, 80, 320)
+    - Pages, Blog posting, Videos, Customers
+    - Be patient and followup what works
+    - Prune everything else
+- Measuring Success
+    - Depth of Products - how many do you offer
+    -  Breadth of Engagement - size of customer base
+    - Joy
+    - Percentage growth in depth and breadth
+
+
+## AI Response
+
 Clip source: Content Creation Business Course.
 
 Week 1: Creating Valuable Content

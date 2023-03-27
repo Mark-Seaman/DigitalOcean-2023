@@ -16337,11 +16337,11 @@
     "fields": {
         "blog": 748,
         "order": 7,
-        "title": " Key Role of Technology",
+        "title": "Key Role of Technology",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/innovate/technology.md",
         "folder": 4,
-        "words": 165,
+        "words": 167,
         "retain_object": false
     }
 },
@@ -16411,7 +16411,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/write/write.md",
         "folder": 9,
-        "words": 59,
+        "words": 61,
         "retain_object": false
     }
 },
@@ -16771,7 +16771,7 @@
     "fields": {
         "blog": 748,
         "order": 1,
-        "title": "novate/chet-gupta",
+        "title": "My Android Assistant",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/innovate/chet_gupta.md",
         "folder": 4,
@@ -16785,7 +16785,7 @@
     "fields": {
         "blog": 748,
         "order": 2,
-        "title": "mmunication.md",
+        "title": "Communication Channels",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/innovate/communication.md",
         "folder": 4,
@@ -16803,7 +16803,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/innovate/innovate.md",
         "folder": 4,
-        "words": 59,
+        "words": 60,
         "retain_object": false
     }
 },
@@ -16817,7 +16817,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/innovate/internet_birth.md",
         "folder": 4,
-        "words": 157,
+        "words": 158,
         "retain_object": false
     }
 },
@@ -16831,7 +16831,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/innovate/personal_computer.md",
         "folder": 4,
-        "words": 504,
+        "words": 505,
         "retain_object": false
     }
 },
@@ -16841,11 +16841,11 @@
     "fields": {
         "blog": 748,
         "order": 6,
-        "title": "cial-media.md",
+        "title": "Healthy Social Networking",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/innovate/social_media.md",
         "folder": 4,
-        "words": 290,
+        "words": 291,
         "retain_object": false
     }
 },
@@ -16859,7 +16859,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/innovate/video_recording.md",
         "folder": 4,
-        "words": 103,
+        "words": 105,
         "retain_object": false
     }
 },
@@ -16869,11 +16869,11 @@
     "fields": {
         "blog": 748,
         "order": 1,
-        "title": "ach/course-ai-prep.md",
+        "title": "Course Prep with AI",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/teach/course_ai_prep.md",
         "folder": 7,
-        "words": 271,
+        "words": 272,
         "retain_object": false
     }
 },
@@ -16887,7 +16887,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/teach/i_love_software.md",
         "folder": 7,
-        "words": 37,
+        "words": 39,
         "retain_object": false
     }
 },
@@ -16897,11 +16897,11 @@
     "fields": {
         "blog": 748,
         "order": 3,
-        "title": "arn-to-teach.md",
+        "title": "Learning to Teach",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/teach/learn_to_teach.md",
         "folder": 7,
-        "words": 309,
+        "words": 311,
         "retain_object": false
     }
 },
@@ -16911,11 +16911,11 @@
     "fields": {
         "blog": 748,
         "order": 4,
-        "title": "ach/learning.md",
+        "title": "Dreyfus Model of Learning",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/teach/learning.md",
         "folder": 7,
-        "words": 572,
+        "words": 573,
         "retain_object": false
     }
 },
@@ -16929,7 +16929,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/teach/teach.md",
         "folder": 7,
-        "words": 61,
+        "words": 63,
         "retain_object": false
     }
 },
@@ -16943,7 +16943,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/teach/teaching_chance.md",
         "folder": 7,
-        "words": 367,
+        "words": 369,
         "retain_object": false
     }
 },
@@ -16957,7 +16957,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/teach/web_apps_book.md",
         "folder": 7,
-        "words": 1028,
+        "words": 1029,
         "retain_object": false
     }
 },
@@ -16967,11 +16967,11 @@
     "fields": {
         "blog": 748,
         "order": 1,
-        "title": "ite/3-acts.md",
+        "title": "Story in Three Acts",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/write/3_acts.md",
         "folder": 9,
-        "words": 236,
+        "words": 241,
         "retain_object": false
     }
 },
@@ -16981,11 +16981,11 @@
     "fields": {
         "blog": 748,
         "order": 2,
-        "title": "ite/creative-process.md",
+        "title": "The Creative Process",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/write/creative_process.md",
         "folder": 9,
-        "words": 345,
+        "words": 346,
         "retain_object": false
     }
 },
@@ -16995,11 +16995,11 @@
     "fields": {
         "blog": 748,
         "order": 3,
-        "title": "e Internet age",
+        "title": "The Internet age",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/write/internet_age.md",
         "folder": 9,
-        "words": 214,
+        "words": 217,
         "retain_object": false
     }
 },
@@ -17009,11 +17009,11 @@
     "fields": {
         "blog": 748,
         "order": 4,
-        "title": "rk-today.md",
+        "title": "Mark Today Blogcast",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/write/mark_today_blogcast.md",
         "folder": 9,
-        "words": 122,
+        "words": 124,
         "retain_object": false
     }
 },
@@ -17023,11 +17023,11 @@
     "fields": {
         "blog": 748,
         "order": 5,
-        "title": "t-output.md",
+        "title": "It's Not About Output",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/write/not_output.md",
         "folder": 9,
-        "words": 235,
+        "words": 237,
         "retain_object": false
     }
 },
@@ -17041,7 +17041,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/write/project_doodly.md",
         "folder": 9,
-        "words": 288,
+        "words": 289,
         "retain_object": false
     }
 },
@@ -17051,11 +17051,11 @@
     "fields": {
         "blog": 748,
         "order": 8,
-        "title": "iting-my-story",
+        "title": "Writing My Story",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/write/writing_my_story.md",
         "folder": 9,
-        "words": 190,
+        "words": 191,
         "retain_object": false
     }
 }

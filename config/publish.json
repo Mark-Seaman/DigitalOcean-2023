@@ -16309,81 +16309,11 @@
     "fields": {
         "blog": 748,
         "order": 3,
-        "title": "Document not found",
+        "title": " [Personal and Professional Growth](/io/grow-Index.md)                                     ",
         "doctype": "folder",
         "path": "Documents/shrinking-world.io/grow/Index.md",
         "folder": 0,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87479,
-    "fields": {
-        "blog": 748,
-        "order": 2,
-        "title": "Learning to Collaborate",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/grow/collaborate.md",
-        "folder": 3,
-        "words": 501,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87481,
-    "fields": {
-        "blog": 748,
-        "order": 4,
-        "title": "The Power of Emotions",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/grow/emotions.md",
-        "folder": 3,
-        "words": 193,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87482,
-    "fields": {
-        "blog": 748,
-        "order": 5,
-        "title": "Grow",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/grow/grow.md",
-        "folder": 3,
-        "words": 54,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87484,
-    "fields": {
-        "blog": 748,
-        "order": 7,
-        "title": "The Brain and Emotions ",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/grow/neurochemicals.md",
-        "folder": 3,
-        "words": 263,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87485,
-    "fields": {
-        "blog": 748,
-        "order": 8,
-        "title": "Defining Success",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/grow/success.md",
-        "folder": 3,
-        "words": 289,
+        "words": 38,
         "retain_object": false
     }
 },
@@ -17019,10 +16949,10 @@
 },
 {
     "model": "publish.content",
-    "pk": 87539,
+    "pk": 87542,
     "fields": {
         "blog": 748,
-        "order": 1,
+        "order": 2,
         "title": " Building Trust",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/grow/building_trust.md",
@@ -17033,10 +16963,24 @@
 },
 {
     "model": "publish.content",
-    "pk": 87540,
+    "pk": 87543,
     "fields": {
         "blog": 748,
         "order": 3,
+        "title": "Learning to Collaborate",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/grow/collaborate.md",
+        "folder": 3,
+        "words": 501,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87544,
+    "fields": {
+        "blog": 748,
+        "order": 4,
         "title": "Embrace Reality",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/grow/embrace_reality.md",
@@ -17047,15 +16991,71 @@
 },
 {
     "model": "publish.content",
-    "pk": 87541,
+    "pk": 87545,
+    "fields": {
+        "blog": 748,
+        "order": 5,
+        "title": "The Power of Emotions",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/grow/emotions.md",
+        "folder": 3,
+        "words": 193,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87546,
     "fields": {
         "blog": 748,
         "order": 6,
+        "title": "Grow",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/grow/grow.md",
+        "folder": 3,
+        "words": 54,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87547,
+    "fields": {
+        "blog": 748,
+        "order": 7,
         "title": " Finding Meaningful Work",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/grow/meaningful_work.md",
         "folder": 3,
         "words": 1156,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87548,
+    "fields": {
+        "blog": 748,
+        "order": 8,
+        "title": "The Brain and Emotions ",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/grow/neurochemicals.md",
+        "folder": 3,
+        "words": 263,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87549,
+    "fields": {
+        "blog": 748,
+        "order": 9,
+        "title": "Defining Success",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/grow/success.md",
+        "folder": 3,
+        "words": 289,
         "retain_object": false
     }
 }

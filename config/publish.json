@@ -16365,11 +16365,11 @@
     "fields": {
         "blog": 748,
         "order": 8,
-        "title": "Document not found",
+        "title": "Weekly Content Summary",
         "doctype": "folder",
         "path": "Documents/shrinking-world.io/weekly/Index.md",
         "folder": 0,
-        "words": 0,
+        "words": 61,
         "retain_object": false
     }
 },

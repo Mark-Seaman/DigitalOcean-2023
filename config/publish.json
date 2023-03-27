@@ -17058,5 +17058,89 @@
         "words": 113,
         "retain_object": false
     }
+},
+{
+    "model": "publish.content",
+    "pk": 87586,
+    "fields": {
+        "blog": 748,
+        "order": 1,
+        "title": "The Shrinking World - Feb 3, 2023",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/weekly/2023_02_03.md",
+        "folder": 8,
+        "words": 144,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87587,
+    "fields": {
+        "blog": 748,
+        "order": 2,
+        "title": "The Shrinking World - Feb 10, 2023",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/weekly/2023_02_10.md",
+        "folder": 8,
+        "words": 120,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87588,
+    "fields": {
+        "blog": 748,
+        "order": 3,
+        "title": "The Shrinking World - Feb 17, 2023",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/weekly/2023_02_17.md",
+        "folder": 8,
+        "words": 121,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87589,
+    "fields": {
+        "blog": 748,
+        "order": 4,
+        "title": "The Shrinking World - Feb 24, 2023",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/weekly/2023_02_24.md",
+        "folder": 8,
+        "words": 115,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87590,
+    "fields": {
+        "blog": 748,
+        "order": 5,
+        "title": "The Shrinking World - March 3, 2023",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/weekly/2023_03_03.md",
+        "folder": 8,
+        "words": 109,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87591,
+    "fields": {
+        "blog": 748,
+        "order": 6,
+        "title": "The Shrinking World - March 17, 2023",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/weekly/2023_03_17.md",
+        "folder": 8,
+        "words": 110,
+        "retain_object": false
+    }
 }
 ]

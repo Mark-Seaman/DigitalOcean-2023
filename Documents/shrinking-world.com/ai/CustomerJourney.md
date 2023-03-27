@@ -11,26 +11,26 @@ To move clients along a path of deeper engagement and build trust with them, it'
 understand the needs and motivations of each stage of the customer journey, from visitor to
 disciple. Here are some strategies to move clients along the path of deeper engagement:
 
-1. Visitor: To move a visitor to the next stage of the customer journey, it's important to capture
-their interest and provide value right from the start. You can do this by:
+* Visitor: To move a visitor to the next stage of the customer journey, it's important to capture
+  their interest and provide value right from the start. You can do this by:
 
     - Creating compelling content: Visitors are more likely to engage with your brand if you provide
       them with valuable, relevant, and engaging content that showcases your expertise.
 
-    - Offering free resources: Offer a free download, whitepaper, or e-book in exchange for their email
-      address, which can help you move them to the next stage of the journey.
+    - Offering free resources: Offer a free download, whitepaper, or e-book in exchange for their
+      email address, which can help you move them to the next stage of the journey.
 
-2. Subscriber: Once someone has subscribed to your email list or social media channels, it's
-important to continue providing value and building trust. You can do this by:
+* Subscriber: Once someone has subscribed to your email list or social media channels, it's
+  important to continue providing value and building trust. You can do this by:
 
     - Personalizing your communication: Send personalized emails and messages to your subscribers to
       make them feel like they are valued and understood.
 
-    - Offering exclusive content: Provide exclusive content to your subscribers, such as early access to
-      new products, special discounts, or behind-the-scenes updates.
+    - Offering exclusive content: Provide exclusive content to your subscribers, such as early
+      access to new products, special discounts, or behind-the-scenes updates.
 
-3. Customer: Once someone has become a customer, your focus should be on building a strong
-relationship with them and providing exceptional customer service. You can do this by:
+* Customer: Once someone has become a customer, your focus should be on building a strong
+  relationship with them and providing exceptional customer service. You can do this by:
 
     - Providing a seamless customer experience: Make the buying process as easy and streamlined as
       possible, and provide excellent customer service throughout.
@@ -38,8 +38,8 @@ relationship with them and providing exceptional customer service. You can do th
     - Offering ongoing support: Provide ongoing support to your customers, such as troubleshooting
       assistance, training, and educational resources.
 
-4. Student: If your business involves education or training, your customers may become students. To
-deepen engagement with students, you can:
+* Student: If your business involves education or training, your customers may become students. To
+  deepen engagement with students, you can:
 
     - Provide high-quality educational content: Create engaging, informative, and interactive
       educational content that meets the needs of your students.
@@ -47,14 +47,14 @@ deepen engagement with students, you can:
     - Offer personalized support: Provide one-on-one support to your students, such as coaching,
       mentoring, or tutoring.
 
-5. Disciple: To turn a customer or student into a disciple, you need to provide exceptional value
-and build a deep connection with them. This can involve:
+* Disciple: To turn a customer or student into a disciple, you need to provide exceptional value and
+  build a deep connection with them. This can involve:
 
     - Creating a community: Build a community around your brand, such as a Facebook group or forum,
       where disciples can connect with each other and with you.
 
-    - Providing ongoing inspiration: Continuously provide value and inspiration to your disciples, such
-      as through motivational content, testimonials, or success stories.
+    - Providing ongoing inspiration: Continuously provide value and inspiration to your disciples,
+      such as through motivational content, testimonials, or success stories.
 
 By understanding the needs and motivations of each stage of the customer journey, you can create a
 strategy to move clients along a path of deeper engagement and build trust with them. By providing
@@ -167,32 +167,32 @@ based on mutual trust and respect.
 The customer journey in an online business for teaching typically involves several stages,
 including:
 
-1. Awareness: At this stage, the customer becomes aware of the business through various marketing
-channels such as social media, email marketing, or online advertising.
+* Awareness: At this stage, the customer becomes aware of the business through various marketing
+  channels such as social media, email marketing, or online advertising.
 
-2. Interest: Once the customer becomes aware of the business, they may express interest in the
-products or services offered by the business. They may browse the website, read reviews or
-testimonials, and seek out more information about the business.
+* Interest: Once the customer becomes aware of the business, they may express interest in the
+  products or services offered by the business. They may browse the website, read reviews or
+  testimonials, and seek out more information about the business.
 
-3. Evaluation: At this stage, the customer evaluates the offerings of the business and compares them
-with other similar businesses. They may consider factors such as price, quality, features, and
-reputation before making a decision.
+* Evaluation: At this stage, the customer evaluates the offerings of the business and compares them
+  with other similar businesses. They may consider factors such as price, quality, features, and
+  reputation before making a decision.
 
-4. Purchase: If the customer decides to proceed with the purchase, they will make a payment for the
-product or service offered by the business. The payment process should be smooth and secure, and
-any concerns or questions should be addressed promptly.
+* Purchase: If the customer decides to proceed with the purchase, they will make a payment for the
+  product or service offered by the business. The payment process should be smooth and secure, and
+  any concerns or questions should be addressed promptly.
 
-5. Onboarding: Once the customer has made a purchase, they will need to be onboarded into the system
-or platform. This may involve creating an account, accessing the course materials or other
-resources, and getting started with the learning process.
+* Onboarding: Once the customer has made a purchase, they will need to be onboarded into the system
+  or platform. This may involve creating an account, accessing the course materials or other
+  resources, and getting started with the learning process.
 
-6. Engagement: It is important to keep the customer engaged throughout the learning process to
-ensure they are getting value from the product or service offered. This can involve regular
-communication, providing feedback, and addressing any issues or concerns that may arise.
+* Engagement: It is important to keep the customer engaged throughout the learning process to ensure
+  they are getting value from the product or service offered. This can involve regular
+  communication, providing feedback, and addressing any issues or concerns that may arise.
 
-7. Retention: Retaining customers is key to the success of any online business. This involves
-ensuring that the customer continues to find value in the product or service offered and that they
-are willing to renew or purchase again in the future.
+* Retention: Retaining customers is key to the success of any online business. This involves
+  ensuring that the customer continues to find value in the product or service offered and that
+  they are willing to renew or purchase again in the future.
 
 Overall, the customer journey in an online business for teaching involves a series of stages that
 are focused on building awareness, generating interest, providing value, and retaining customers

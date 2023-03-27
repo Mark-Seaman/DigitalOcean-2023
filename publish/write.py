@@ -1,8 +1,9 @@
 from os import system
-from django.template.loader import render_to_string
-from django.utils.timezone import localdate
 from pathlib import Path
 from re import sub
+
+from django.template.loader import render_to_string
+from django.utils.timezone import localdate
 
 from workshop.management.commands.edit import edit_file
 
@@ -86,38 +87,12 @@ def edit_io(args):
 
 
 def ghost_write(args):
-    def write_post(file, template):
-        text = 'RAW TEXT'
-        data = dict(file=file, text=text, page_title='TITLE',
-                    page_url=file, link_title=file, link_url=file)
-        if path.exists():
-            print('EXISTS', path)
-            text = path.read_text()
-            text = text.replace('\n\n', '$$')
-            text = text.replace('\n', ' ')
-            text = text.replace('$$', '\n\n')
-            text = text.replace('\n ', '\n')
-        else:
-            text = render_to_string(template, data)
-        path.write_text(text)
-
     def write_weekly(file):
         text = 'RAW TEXT'
         data = dict(file=file)
         text = render_to_string('pub/ghost_weekly.md', data)
         path.write_text(text)
 
-    # if args:
-    #     data = dict(file=path, text='RAW TEXT', template='pub/ai.md',
-    #                 paragraph=p, numbered_list=n)
-    #     write_post(path,  data)
-    # else:
-    #     edit_file(f'Documents/shrinking-world.com/ai')
-    #     system('open https://chat.openai.com/chat')
-
-    # if not args:
-    #     print('which file?  eg.\n\nwrite ghost grow/collaborate')
-    #     return
     path = Path('Documents/shrinking-world.io')/(args[0]+'.md')
     if 'weekly' in args[0]:
         write_weekly(args[0])
@@ -125,10 +100,13 @@ def ghost_write(args):
         p = (args[1:] and args[1] == 'p')
         n = (args[1:] and args[1] == 'n')
         print(f'Ghost write ({p}, {n})')
-        options = dict(file=path, text='RAW TEXT', template='pub/ghost.md',
-                       paragraph=p, numbered_list=n)
+        file = path
+        text = 'RAW TEXT'
+        options = dict(file=file, text=text, template='pub/ghost.md',
+                       paragraph=p, numbered_list=n,
+                       page_title='TITLE',
+                       page_url=file, link_title=file, link_url=file)
         write_post(path,  options)
-        # write_post(args[0], 'pub/ghost.md')
     edit_file(path)
 
 

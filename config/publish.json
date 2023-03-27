@@ -388,7 +388,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/ai",
         "logo": null,
-        "words": 8618,
+        "words": 13674,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -16323,7 +16323,7 @@
     "fields": {
         "blog": 748,
         "order": 1,
-        "title": "ilding-trust.md",
+        "title": " Building Trust",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/grow/building-trust.md",
         "folder": 3,
@@ -16341,7 +16341,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/grow/collaborate.md",
         "folder": 3,
-        "words": 500,
+        "words": 501,
         "retain_object": false
     }
 },
@@ -16355,7 +16355,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/grow/embrace-reality.md",
         "folder": 3,
-        "words": 331,
+        "words": 332,
         "retain_object": false
     }
 },
@@ -16365,11 +16365,11 @@
     "fields": {
         "blog": 748,
         "order": 4,
-        "title": "otions.md",
+        "title": "The Power of Emotions",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/grow/emotions.md",
         "folder": 3,
-        "words": 192,
+        "words": 193,
         "retain_object": false
     }
 },
@@ -16383,7 +16383,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/grow/grow.md",
         "folder": 3,
-        "words": 53,
+        "words": 54,
         "retain_object": false
     }
 },
@@ -16393,7 +16393,7 @@
     "fields": {
         "blog": 748,
         "order": 6,
-        "title": "aningful-work.md",
+        "title": " Finding Meaningful Work",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/grow/meaningful-work.md",
         "folder": 3,
@@ -16407,7 +16407,7 @@
     "fields": {
         "blog": 748,
         "order": 7,
-        "title": "urochemicals.md ",
+        "title": "The Brain and Emotions ",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/grow/neurochemicals.md",
         "folder": 3,
@@ -16421,7 +16421,7 @@
     "fields": {
         "blog": 748,
         "order": 8,
-        "title": "ow/success.md",
+        "title": "Defining Success",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/grow/success.md",
         "folder": 3,
@@ -16831,7 +16831,7 @@
         "doctype": "folder",
         "path": "Documents/shrinking-world.com/ai/Index.md",
         "folder": 0,
-        "words": 75,
+        "words": 65,
         "retain_object": false
     }
 },
@@ -16925,11 +16925,11 @@
     "fields": {
         "blog": 749,
         "order": 7,
-        "title": "AI Query - ",
+        "title": "Gout",
         "doctype": "folder",
         "path": "Documents/shrinking-world.com/ai/Gout.md",
         "folder": 0,
-        "words": 410,
+        "words": 408,
         "retain_object": false
     }
 },

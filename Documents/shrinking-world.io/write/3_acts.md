@@ -1,6 +1,10 @@
-write/3-acts.md
-
 # Story in Three Acts
+
+io/write/3-acts.md
+
+---
+
+Story in Three Acts
 
 by Mark Seaman
 

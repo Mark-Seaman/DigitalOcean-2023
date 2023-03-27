@@ -4,41 +4,50 @@
 ## [AI Conversations](/ai/Index.md)                                            
 
 
-## [ip source: Content Creation Business Course.](/ai/BusinessCourse.md)       
+## [Content Creator Business](/ai/BusinessCourse.md)                           
 
 
-## [ Prompt](/ai/ChetGupta.md)                                                 
+## [Chet Gupta](/ai/ChetGupta.md)                                              
 
 
 ## [Customer Journey](/ai/CustomerJourney.md)                                  
 
 
-## [fining Success](/ai/DefiningSuccess.md)                                    
+## [Defining Success](/ai/DefiningSuccess.md)                                  
 
 
-## [urse Title: Emotionally Healthy Discipleship](/ai/Discipleship.md)         
+## [Discipleship Course](/ai/Discipleship.md)                                  
 
 
-## [AI Query - ](/ai/Gout.md)                                                  
+## [Email Marketing Tools](/ai/EmailMarketing.md)                              
 
 
-## [ip source: Japanese Language Lesson Plan.](/ai/Japanese.md)                
+## [Gout](/ai/Gout.md)                                                         
 
 
-## [rketing Funnel](/ai/MarketingFunnel.md)                                    
+## [Japanese Course](/ai/Japanese.md)                                          
 
 
-## [tle: Building a Successful Online Teaching Business](/ai/OnlineBusiness.md)
+## [Marketing Funnel](/ai/MarketingFunnel.md)                                  
 
 
-## [irituality and emotional health](/ai/Spirituality.md)                      
+## [Building a Successful Online Teaching Business](/ai/OnlineBusiness.md)     
 
 
-## [ll to Transformation: Aligning Your Plans with God's](/ai/Transformation.md)
+## [Spiritual Formation Course](/ai/SpiritualFormationCourse.md)               
 
 
-## [imbing the Trust Ladder](/ai/TrustLadder.md)                               
+## [Spirituality and Emotional Health](/ai/Spirituality.md)                    
 
 
-## [Web Apps Course](/ai/WebApps.md)                                           
+## [TeachingProgression](/ai/TeachingProgression.md)                           
+
+
+## [Template](/ai/Template.md)                                                 
+
+
+## [Transformation](/ai/Transformation.md)                                     
+
+
+## [Web Apps Course Announcement](/ai/WebApps.md)                              
 

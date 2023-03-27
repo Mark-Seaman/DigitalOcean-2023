@@ -1,5 +1,9 @@
 ## A Chance to Teach
 
+io/teach/teaching_chance.md
+
+---
+
 It could not have come at a better time.  My career was in decline and I was feeling quite frustrated over the stagnation that was taking hold.  I had already had two full careers and I was only 57.  I was planning on retiring and spend my twilight years writing my memoirs.
 
 My first career was in software engineering culminating in a decade of technical leadership of engineering teams.  This career was extremely successful and satisfying but also high stress.  The implosion of the tech industry after 9/11 and globalization made me want to launch out on my own and run my own engineering company.

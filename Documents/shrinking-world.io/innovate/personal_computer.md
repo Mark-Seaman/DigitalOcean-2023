@@ -1,5 +1,9 @@
 # The Personal Computer (1980s)
 
+io/innovate/personal_computer.md
+
+---
+
 ## Early Computers
 
 They say that 1968 was the key year for breakthroughs in computer engineering. The mouse, graphics terminals, integrated circuits, and AI all have their roots in that period. But from the first demonstrations of breakthroughs it was a long way to make them truly useful.

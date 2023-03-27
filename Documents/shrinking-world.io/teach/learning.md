@@ -1,7 +1,8 @@
-teach/learning.md
-
-
 # Dreyfus Model of Learning
+
+io/teach/learning.md
+
+---
 
 The Dreyfus model of learning, developed by brothers Stuart and Hubert Dreyfus in the 1980s, is a framework for understanding how individuals acquire and develop skills and expertise. The model outlines five stages of learning, each characterized by a different level of understanding and proficiency.
 

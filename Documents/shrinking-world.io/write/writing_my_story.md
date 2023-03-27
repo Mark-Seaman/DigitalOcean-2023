@@ -1,6 +1,8 @@
+# Writing My Story
+
 writing-my-story
 
-## Writing My Story
+---
 
 I first became interested in writing my life story when my dad published his
 memoir seventeen years ago.  In reading through his book, I realized what an

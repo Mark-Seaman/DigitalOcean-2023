@@ -1,5 +1,9 @@
 # Innovate
 
+io/innovate/innovate.md
+
+---
+
 Use technology to simplify everything
 
 ### Topics of Interest

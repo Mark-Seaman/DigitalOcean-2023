@@ -1,7 +1,8 @@
-teach/course-ai-prep.md
-
-
 # Course Prep with AI
+
+io/teach/course_ai_prep.md
+
+---
 
 Today I woke up with the idea of using AI to create course plans. I know a lot of people who are actively building curricula for different areas of study. There are many teachers in my realm of contacts.
 

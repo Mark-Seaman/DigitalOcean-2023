@@ -1,4 +1,9 @@
-## Key Role of Technology
+# Key Role of Technology
+
+io/innovate/technology.md
+
+---
+
 
 Technology has shaped my entire adult life.  It is hard to contemplate what my
 life would be like apart from it. My entire working career was spent in roles

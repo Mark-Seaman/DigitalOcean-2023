@@ -1,6 +1,7 @@
-meaningful-work.md
+# Finding Meaningful Work
 
-## Finding Meaningful Work
+io/grow/meaningful-work.md
+
 
 At the very heart of meaningful work is the urge to create. This can take on many forms. Creativity may be expressed in writing, software design, teaching techniques or just plain old problem solving. A day without creativity is like a day without sunshine.
 

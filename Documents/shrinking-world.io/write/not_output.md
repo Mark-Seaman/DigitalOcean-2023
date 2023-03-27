@@ -1,6 +1,8 @@
-not-output.md
+# It's Not About Output
 
-It's Not About Output
+io/write/not-output.md
+
+---
 
 We all experience a great deal of pressure to be productive, especially if you are a driven personality. We believe that producing published material is the most important goal in writing. I believe that this attitude is counterproductive.
 

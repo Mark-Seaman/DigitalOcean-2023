@@ -1,6 +1,8 @@
-communication.md
-
 # Communication Channels
+
+io/innovate/communication.md
+
+---
 
 Different people naturally respond on different communication channels. Being active on a channel means monitoring the traffic frequently enough to be able to respond quickly to incoming messages. Communicating with a person effectively means negotiating which channel to use and setting common expectations for how quickly to respond. When working with others, defining how we can communicate must be the first task that we work on.
 

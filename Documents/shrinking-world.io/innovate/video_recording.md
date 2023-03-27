@@ -1,5 +1,9 @@
 # Video Recording Software
 
+io/innovate/video_recording.md
+
+---
+
 I started using a new software application and have quickly fallen in love with it.  Here is why ...
 
     It's free for unlimited 5-minute videos (longer ones require a modest fee).

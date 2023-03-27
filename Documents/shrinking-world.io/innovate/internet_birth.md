@@ -1,5 +1,9 @@
 # Birth of the Internet
 
+io/innovate/internet_birth.md
+
+---
+
 From the early eighties each decade has brought in new technologies that have revolutionized how we live our lives. The 1990s was no exception. So many developments would change the world in fundamental ways.
 
 By the early 90s personal computers were everywhere. Business people would buy computers for the home to increase their competitiveness at work. Businesses were buying computers to automate all of the tasks that had previously been done with paper.

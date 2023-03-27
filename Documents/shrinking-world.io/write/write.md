@@ -1,5 +1,9 @@
 # Write
 
+io/write/write.md
+
+---
+
 Take your writing to the next level
 
 Topics of Interest

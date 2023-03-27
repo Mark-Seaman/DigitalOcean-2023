@@ -1,8 +1,8 @@
+# The Brain and Emotions 
+
 neurochemicals.md 
 
---- 
 
-The Brain and Emotions 
 
 Neurology is the field of medicine that focuses on the study of the nervous system, including the brain, spinal cord, and nerves throughout the body. This system controls everything from our movements and thoughts to our senses and emotions. Neurologists are specialized doctors who diagnose and treat conditions that affect the nervous system, such as Alzheimer's disease, Parkinson's disease, stroke, epilepsy, and multiple sclerosis. 
 

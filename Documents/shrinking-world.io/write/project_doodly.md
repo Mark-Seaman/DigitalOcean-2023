@@ -1,5 +1,8 @@
 # Incremental Project Development
 
+io/write/project_doodly.md
+
+
 ---
 
 ## Deep Dive in Doodly

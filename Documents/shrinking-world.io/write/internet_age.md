@@ -1,4 +1,8 @@
-The Internet age
+# The Internet age
+
+io/write/internet_age.md
+
+---
 
 The way that people consume information requires a new type of writing. The internet has changed how we think, and this is clear in how we now consume information. People no longer are likely to sit through a 1000-page book on a subject of casual interest, unless they are required to.
 

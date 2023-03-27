@@ -1,6 +1,9 @@
-learn-to-teach.md
+# Learning to Teach
 
-Learning to Teach
+io/teach/learn-to-teach.md
+
+
+---
 
 As a teacher, I adopted the posture of a learner. Everything I did was viewed as an experiment. The things that worked, I standardized and what didn't work was never repeated. Over a brief time, this yielded practical methods for teaching students the skills they need. This constant improvement paradigm is thoroughly ingrained in the software industry and was now employed in the classroom as well.
 

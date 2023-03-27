@@ -1,6 +1,7 @@
-emotions.md
+# The Power of Emotions
 
-The Power of Emotions
+io/grow/emotions.md
+
 
 I believe that emotional maturity is measured by our ability to manage pleasure and pain in our lives.  In fact, the definition of maturity for me is the ability to have a appropriate response of pleasure and pain to match the current circumstances.
 

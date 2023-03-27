@@ -2,6 +2,9 @@
 
 **A Classroom-tested approach with 14 Projects and 42 Design Patterns**
 
+io/teach/web_apps_book.md
+
+
 ---
 
 ## About the Book

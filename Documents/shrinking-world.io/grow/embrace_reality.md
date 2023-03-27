@@ -1,5 +1,8 @@
 # Embrace Reality
 
+io/grow/embrace-reality.md
+
+
 I often wish my life was something other than what it actually is. But many circumstances in my life are already defined for me. My challenge is to understand reality as it is, not as I wish it to be. From this understanding, I can make plans to make the most out of my life.
 
 Self-awareness lies at the heart of mental health and is required to manage life well. This means we must accept the truth and then work within the constraints of what we have been given to live life with meaning.

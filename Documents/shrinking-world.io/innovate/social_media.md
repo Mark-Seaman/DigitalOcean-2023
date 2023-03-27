@@ -1,10 +1,8 @@
-social-media.md
+# Healthy Social Networking
 
+io/innovate/social_media.md
 
 ---
-
-
-Healthy Social Networking
 
 
 Social networking has become an essential part of our lives, but it can also be a double-edged sword. On one hand, technology has given us the power to connect with people and communities from around the world, but on the other hand, it has also raised concerns about privacy, security, and the impact of commercial interests. To navigate these challenges, it is essential to adopt healthy social networking practices.

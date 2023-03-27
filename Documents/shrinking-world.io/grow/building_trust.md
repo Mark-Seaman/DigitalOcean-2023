@@ -1,6 +1,6 @@
-building-trust.md
+# Building Trust
 
-## Building Trust
+io/grow/building-trust.md
 
 Relationships require trust to be healthy.
 My main objective then is to have meaningful conversations that build trust. Many of my interactions

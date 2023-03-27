@@ -1,6 +1,8 @@
-write/creative-process.md
-
 # The Creative Process
+
+io/write/creative-process.md
+
+---
 
 Adam Grant, an organizational psychologist and bestselling author, has written extensively about his writing process. In his book "Originals: How Non-Conformists Move the World," he shares his method for generating and refining ideas, as well as his strategies for overcoming writer's block.
 

@@ -1,6 +1,9 @@
-mark-today.md
 
 # Mark Today Blogcast
+
+io/write/mark-today.md
+
+---
 
 My New Blogcast
 

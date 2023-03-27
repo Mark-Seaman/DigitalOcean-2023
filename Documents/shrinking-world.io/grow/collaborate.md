@@ -1,5 +1,7 @@
 # Learning to Collaborate
 
+io/grow/collaborate.md
+
 ## Desire to Collaborate
 
 I feel like my efforts at collaboration are the tentative steps of a toddler.  I have a fundamental

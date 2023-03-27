@@ -1,5 +1,10 @@
 # Build courses to teach skills
 
+io/teach/teach.md
+
+
+---
+
 ### Topics of Interest
 
 - Teaching Tips & Tools

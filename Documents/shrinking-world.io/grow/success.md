@@ -1,6 +1,7 @@
-grow/success.md
-
 # Defining Success
+
+io/grow/success.md
+
 
 The concept of success is highly personal and subjective, and can vary greatly from person to person. For some individuals, success may be defined as achieving a certain level of financial or career success, while for others it may be about personal growth, fulfilling relationships, or making a positive impact in the world.
 

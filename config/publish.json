@@ -16299,7 +16299,7 @@
         "doctype": "folder",
         "path": "Documents/shrinking-world.io/Index.md",
         "folder": 0,
-        "words": 128,
+        "words": 140,
         "retain_object": false
     }
 },
@@ -16319,20 +16319,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 87478,
-    "fields": {
-        "blog": 748,
-        "order": 1,
-        "title": " Building Trust",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/grow/building-trust.md",
-        "folder": 3,
-        "words": 154,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 87479,
     "fields": {
         "blog": 748,
@@ -16342,20 +16328,6 @@
         "path": "Documents/shrinking-world.io/grow/collaborate.md",
         "folder": 3,
         "words": 501,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87480,
-    "fields": {
-        "blog": 748,
-        "order": 3,
-        "title": "Embrace Reality",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/grow/embrace-reality.md",
-        "folder": 3,
-        "words": 332,
         "retain_object": false
     }
 },
@@ -16384,20 +16356,6 @@
         "path": "Documents/shrinking-world.io/grow/grow.md",
         "folder": 3,
         "words": 54,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87483,
-    "fields": {
-        "blog": 748,
-        "order": 6,
-        "title": " Finding Meaningful Work",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/grow/meaningful-work.md",
-        "folder": 3,
-        "words": 1156,
         "retain_object": false
     }
 },
@@ -16831,7 +16789,7 @@
         "doctype": "folder",
         "path": "Documents/shrinking-world.com/ai/Index.md",
         "folder": 0,
-        "words": 65,
+        "words": 62,
         "retain_object": false
     }
 },
@@ -17056,6 +17014,48 @@
         "path": "Documents/shrinking-world.com/ai/WebApps.md",
         "folder": 0,
         "words": 678,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87539,
+    "fields": {
+        "blog": 748,
+        "order": 1,
+        "title": " Building Trust",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/grow/building_trust.md",
+        "folder": 3,
+        "words": 154,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87540,
+    "fields": {
+        "blog": 748,
+        "order": 3,
+        "title": "Embrace Reality",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/grow/embrace_reality.md",
+        "folder": 3,
+        "words": 332,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87541,
+    "fields": {
+        "blog": 748,
+        "order": 6,
+        "title": " Finding Meaningful Work",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/grow/meaningful_work.md",
+        "folder": 3,
+        "words": 1156,
         "retain_object": false
     }
 }

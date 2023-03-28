@@ -404,17 +404,17 @@
     "pk": 753,
     "fields": {
         "name": "genetics",
-        "title": "Genetics 101",
-        "subtitle": "Go Ask Chet Gupta",
+        "title": "Constructing Life",
+        "subtitle": "A Blueprint from the Ground Up",
         "description": "Finally I can get all of the answers I need",
         "doc_path": "Documents/Shrinking-World-Pubs/Genetics/Book",
-        "image_path": "/static/images/shrinking-world.com/ai",
+        "image_path": "/static/images/Shrinking-World-Pubs/Genetics",
         "css": "/static/css/book.css",
         "domain": "https://shrinking-world.com",
-        "url": "/ai",
+        "url": "/genetics",
         "logo": null,
         "words": 33,
-        "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
+        "cover_image": "/static/images/Shrinking-World-Pubs/Genetics/ConstructingLife.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
         "auto_remove": false,
@@ -17178,58 +17178,114 @@
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Index.md",
         "folder": 0,
-        "words": 19,
+        "words": 30,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87610,
+    "pk": 87615,
     "fields": {
         "blog": 753,
         "order": 1,
-        "title": "Chapter 1",
+        "title": "ssible addendum to Chapter 1: Grammars for all biological building blocks.",
         "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/01.md",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/01.1.md",
         "folder": 0,
-        "words": 4,
+        "words": 571,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87611,
+    "pk": 87616,
     "fields": {
         "blog": 753,
         "order": 2,
+        "title": "1. Building with Carbon. Why Carbon? Nutrients and Vitamins",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/01.md",
+        "folder": 0,
+        "words": 2991,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87617,
+    "fields": {
+        "blog": 753,
+        "order": 3,
         "title": "Chapter 2",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/02.md",
         "folder": 0,
-        "words": 3,
+        "words": 370,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87612,
+    "pk": 87618,
     "fields": {
         "blog": 753,
-        "order": 3,
-        "title": "Genetics for High School Students",
+        "order": 4,
+        "title": "3. Building Genes to Make Proteins",
         "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Cover.md",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/03.md",
         "folder": 0,
-        "words": 7,
+        "words": 37,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87613,
+    "pk": 87619,
     "fields": {
         "blog": 753,
         "order": 5,
+        "title": "4. Proteins, Folding, and Protein Complexes",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/04.md",
+        "folder": 0,
+        "words": 44,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87620,
+    "fields": {
+        "blog": 753,
+        "order": 6,
+        "title": "Authors",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Author.md",
+        "folder": 0,
+        "words": 22,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87621,
+    "fields": {
+        "blog": 753,
+        "order": 9,
+        "title": "Book Cover",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Cover.md",
+        "folder": 0,
+        "words": 10,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87622,
+    "fields": {
+        "blog": 753,
+        "order": 11,
         "title": " Course: Genetics 101",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Intro.md",
@@ -17240,15 +17296,15 @@
 },
 {
     "model": "publish.content",
-    "pk": 87614,
+    "pk": 87623,
     "fields": {
         "blog": 753,
-        "order": 6,
-        "title": "Genetics 101 - course outline",
+        "order": 12,
+        "title": "Constructing Life: A Blueprint from the Ground Up",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Overview.md",
         "folder": 0,
-        "words": 203,
+        "words": 351,
         "retain_object": false
     }
 }

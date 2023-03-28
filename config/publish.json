@@ -17174,11 +17174,11 @@
     "fields": {
         "blog": 753,
         "order": 0,
-        "title": "Genetics 101",
+        "title": "Constructing Life",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Index.md",
         "folder": 0,
-        "words": 30,
+        "words": 65,
         "retain_object": false
     }
 },
@@ -17216,11 +17216,11 @@
     "fields": {
         "blog": 753,
         "order": 3,
-        "title": "Chapter 2",
+        "title": "Chapter 2. DNA, Nucleotides, and the Language of Life",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/02.md",
         "folder": 0,
-        "words": 370,
+        "words": 1337,
         "retain_object": false
     }
 },
@@ -17248,16 +17248,72 @@
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/04.md",
         "folder": 0,
-        "words": 44,
+        "words": 879,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87620,
+    "pk": 87624,
     "fields": {
         "blog": 753,
         "order": 6,
+        "title": "5. [Chromatin, Gene Regulation, Promoters, and Enhancers](05.md)",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/05.md",
+        "folder": 0,
+        "words": 40,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87625,
+    "fields": {
+        "blog": 753,
+        "order": 7,
+        "title": "6. [Mitosis and Chromosome Structure](06.md)",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/06.md",
+        "folder": 0,
+        "words": 41,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87626,
+    "fields": {
+        "blog": 753,
+        "order": 8,
+        "title": "7. [Organelles, Specialized Functions, and the Origins of Organs](07.md)",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/07.md",
+        "folder": 0,
+        "words": 54,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87627,
+    "fields": {
+        "blog": 753,
+        "order": 9,
+        "title": "8. [Your Body: Trillions of Genius Specialists with the Same Code](08.md)",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/08.md",
+        "folder": 0,
+        "words": 48,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87628,
+    "fields": {
+        "blog": 753,
+        "order": 10,
         "title": "Authors",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Author.md",
@@ -17268,24 +17324,24 @@
 },
 {
     "model": "publish.content",
-    "pk": 87621,
+    "pk": 87629,
     "fields": {
         "blog": 753,
-        "order": 9,
-        "title": "Book Cover",
+        "order": 13,
+        "title": "mg src='https://github.com/Mark-Seaman/Shrinking-World-Pubs/blob/main/Genetics/Book/ConstructingLife.png'",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Cover.md",
         "folder": 0,
-        "words": 10,
+        "words": 7,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87622,
+    "pk": 87630,
     "fields": {
         "blog": 753,
-        "order": 11,
+        "order": 15,
         "title": " Course: Genetics 101",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Intro.md",
@@ -17296,10 +17352,10 @@
 },
 {
     "model": "publish.content",
-    "pk": 87623,
+    "pk": 87631,
     "fields": {
         "blog": 753,
-        "order": 12,
+        "order": 16,
         "title": "Constructing Life: A Blueprint from the Ground Up",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Overview.md",

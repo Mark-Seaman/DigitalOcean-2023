@@ -17223,5 +17223,33 @@
         "words": 7,
         "retain_object": false
     }
+},
+{
+    "model": "publish.content",
+    "pk": 87613,
+    "fields": {
+        "blog": 753,
+        "order": 5,
+        "title": " Course: Genetics 101",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Intro.md",
+        "folder": 0,
+        "words": 103,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87614,
+    "fields": {
+        "blog": 753,
+        "order": 6,
+        "title": "Genetics 101 - course outline",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Overview.md",
+        "folder": 0,
+        "words": 203,
+        "retain_object": false
+    }
 }
 ]

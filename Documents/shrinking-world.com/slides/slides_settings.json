@@ -10,6 +10,5 @@
   "stylesheet": "/static/css/slides.css",
   "images": "/static/images/shrinking-world.com/bacs350",
   "divider": "/static/images/shrinking-world.com/bacs350/autumn-leaves.jpg",
-  "background": "/static/images/shrinking-world.com/bacs350/paper.jpg",
   "intro": false
 }

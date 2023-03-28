@@ -1,4 +1,4 @@
-.reveal h1 {
+/* .reveal h1 {
     font-size: 200%;
     color: white;
     text-outline: black 2px 2px;
@@ -18,8 +18,8 @@
 
 .reveal h2 {
     /*font-size: 150%;*/
-    color: white;
-    text-shadow: 2px 2px 5px #0a0a0a;
+color: white;
+text-shadow: 2px 2px 5px #0a0a0a;
 }
 
 .reveal h3 {
@@ -53,3 +53,5 @@
 code.html {
     /*background-color: darkgray;*/
 }
+
+*/

@@ -42,6 +42,7 @@ def create_pubs():
             private="Documents/markseaman.info",
             io="Documents/shrinking-world.io",
             ai="Documents/shrinking-world.com/ai",
+            genetics="Documents/Shrinking-World-Pubs/Genetics/Book",
             #
             # Extra
             # training="Documents/shrinking-world.com/blog/training",

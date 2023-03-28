@@ -16418,7 +16418,7 @@
     "fields": {
         "blog": 749,
         "order": 0,
-        "title": "Genetics 101",
+        "title": "AI Conversations",
         "doctype": "folder",
         "path": "Documents/shrinking-world.com/ai/Index.md",
         "folder": 0,
@@ -17174,11 +17174,11 @@
     "fields": {
         "blog": 753,
         "order": 0,
-        "title": "Index",
+        "title": "Genetics 101",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Index.md",
         "folder": 0,
-        "words": 3,
+        "words": 18,
         "retain_object": false
     }
 },

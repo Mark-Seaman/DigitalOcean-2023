@@ -438,13 +438,13 @@
         "domain": "https://shrinking-world.com",
         "url": "/genetics",
         "logo": null,
-        "words": 0,
+        "words": 8526,
         "cover_image": "/static/images/Shrinking-World-Pubs/Genetics/ConstructingLife.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
         "auto_remove": false,
-        "auto_contents": true,
-        "auto_index": true,
+        "auto_contents": false,
+        "auto_index": false,
         "index_folders": false,
         "index_months": false
     }
@@ -17125,141 +17125,15 @@
 },
 {
     "model": "publish.content",
-    "pk": 87573,
-    "fields": {
-        "blog": 1245,
-        "order": 9,
-        "title": "Japanese Course",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Japanese.md",
-        "folder": 0,
-        "words": 863,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87574,
-    "fields": {
-        "blog": 1245,
-        "order": 10,
-        "title": "Marketing Funnel",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/MarketingFunnel.md",
-        "folder": 0,
-        "words": 3014,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87575,
-    "fields": {
-        "blog": 1245,
-        "order": 11,
-        "title": "Building a Successful Online Teaching Business",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/OnlineBusiness.md",
-        "folder": 0,
-        "words": 498,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87576,
-    "fields": {
-        "blog": 1245,
-        "order": 12,
-        "title": "Spiritual Formation Course",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/SpiritualFormationCourse.md",
-        "folder": 0,
-        "words": 926,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87577,
-    "fields": {
-        "blog": 1245,
-        "order": 13,
-        "title": "Spirituality and Emotional Health",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Spirituality.md",
-        "folder": 0,
-        "words": 660,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87578,
-    "fields": {
-        "blog": 1245,
-        "order": 14,
-        "title": "TeachingProgression",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/TeachingProgression.md",
-        "folder": 0,
-        "words": 858,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87579,
-    "fields": {
-        "blog": 1245,
-        "order": 15,
-        "title": "Template",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Template.md",
-        "folder": 0,
-        "words": 22,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87580,
-    "fields": {
-        "blog": 1245,
-        "order": 16,
-        "title": "Transformation",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Transformation.md",
-        "folder": 0,
-        "words": 531,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87581,
-    "fields": {
-        "blog": 1245,
-        "order": 17,
-        "title": "Web Apps Course Announcement",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/WebApps.md",
-        "folder": 0,
-        "words": 678,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 87582,
     "fields": {
         "blog": 1249,
         "order": 0,
-        "title": "Constructing Life",
+        "title": "Constructing Life: A Blueprint from the Ground Up",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Index.md",
         "folder": 0,
-        "words": 108,
+        "words": 351,
         "retain_object": false
     }
 },
@@ -17287,7 +17161,7 @@
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/01.md",
         "folder": 0,
-        "words": 2991,
+        "words": 2989,
         "retain_object": false
     }
 },
@@ -17423,11 +17297,11 @@
     "fields": {
         "blog": 1249,
         "order": 15,
-        "title": " Course: Genetics 101",
+        "title": "Introduction",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Intro.md",
         "folder": 0,
-        "words": 103,
+        "words": 866,
         "retain_object": false
     }
 },
@@ -17442,6 +17316,146 @@
         "path": "Documents/Shrinking-World-Pubs/Genetics/Overview.md",
         "folder": 0,
         "words": 351,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87596,
+    "fields": {
+        "blog": 1245,
+        "order": 8,
+        "title": "owthHabits.md",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/GrowthHabits.md",
+        "folder": 0,
+        "words": 273,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87597,
+    "fields": {
+        "blog": 1245,
+        "order": 10,
+        "title": "Japanese Course",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Japanese.md",
+        "folder": 0,
+        "words": 863,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87598,
+    "fields": {
+        "blog": 1245,
+        "order": 11,
+        "title": "Marketing Funnel",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/MarketingFunnel.md",
+        "folder": 0,
+        "words": 3014,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87599,
+    "fields": {
+        "blog": 1245,
+        "order": 12,
+        "title": "Building a Successful Online Teaching Business",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/OnlineBusiness.md",
+        "folder": 0,
+        "words": 498,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87600,
+    "fields": {
+        "blog": 1245,
+        "order": 13,
+        "title": "Spiritual Formation Course",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/SpiritualFormationCourse.md",
+        "folder": 0,
+        "words": 926,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87601,
+    "fields": {
+        "blog": 1245,
+        "order": 14,
+        "title": "Spirituality and Emotional Health",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Spirituality.md",
+        "folder": 0,
+        "words": 660,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87602,
+    "fields": {
+        "blog": 1245,
+        "order": 15,
+        "title": "TeachingProgression",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/TeachingProgression.md",
+        "folder": 0,
+        "words": 858,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87603,
+    "fields": {
+        "blog": 1245,
+        "order": 16,
+        "title": "Template",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Template.md",
+        "folder": 0,
+        "words": 22,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87604,
+    "fields": {
+        "blog": 1245,
+        "order": 17,
+        "title": "Transformation",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Transformation.md",
+        "folder": 0,
+        "words": 531,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87605,
+    "fields": {
+        "blog": 1245,
+        "order": 18,
+        "title": "Web Apps Course Announcement",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/WebApps.md",
+        "folder": 0,
+        "words": 678,
         "retain_object": false
     }
 }

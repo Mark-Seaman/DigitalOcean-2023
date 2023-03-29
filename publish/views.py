@@ -14,6 +14,10 @@ class BlogTodayView(RedirectView):
         return self.request.path.replace("today", localtime().strftime("%m-%d"))
 
 
+class GeneticsView(RedirectView):
+    url = '/genetics/Index.md'
+
+
 class PubRedirectView(RedirectView):
     def get_redirect_url(self, *args, **kwargs):
         host = get_host(self.request)

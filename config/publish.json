@@ -17286,11 +17286,11 @@
     "fields": {
         "blog": 753,
         "order": 8,
-        "title": "7. [Organelles, Specialized Functions, and the Origins of Organs](07.md)",
+        "title": "7. Organelles, Specialized Functions, and the Foundations of Organs",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/07.md",
         "folder": 0,
-        "words": 972,
+        "words": 583,
         "retain_object": false
     }
 },
@@ -17304,7 +17304,7 @@
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/08.md",
         "folder": 0,
-        "words": 48,
+        "words": 1456,
         "retain_object": false
     }
 },

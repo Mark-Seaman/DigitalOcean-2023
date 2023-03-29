@@ -5,7 +5,7 @@
     "domain": "https://shrinking-world.com",
     "url": "/genetics",
     "title": "Constructing Life",
-    "author": "Josiah Seaman",
+    "author": "Josiah Seaman and Mark Seaman",
     "description": "Finally I can get all of the answers I need",
     "css": "/static/css/book.css",
     "doc_path": "Documents/Shrinking-World-Pubs/Genetics",
@@ -14,6 +14,7 @@
     "cover_title": false,
     "pub_type": "private",
     "menu": "static/js/nav_blog.json",
-    "auto_contents": true,
-    "auto_index": true
+    "auto_contents": false,
+    "auto_index": false
 }
+

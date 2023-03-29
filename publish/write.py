@@ -89,6 +89,7 @@ def edit_genetics():
     for p in x.iterdir():
         print(f'GENETICS {p} {y}')
         copyfile(p, y/p.name)
+    edit_file(x.parent)
 
 
 def edit_io(args):

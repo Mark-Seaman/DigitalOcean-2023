@@ -5,7 +5,7 @@ This is an AI article about my Android Assistant
 
 ## Prompt
 
-Chet Gupta - my android assistant
+Chet Gupta - my artificial assistant
 
 
 As a content creator I publish information online. Each publication requires extensive work to

@@ -1,6 +1,7 @@
 from os import system
 from pathlib import Path
 from re import sub
+from shutil import copyfile
 
 from django.template.loader import render_to_string
 from django.utils.timezone import localdate
@@ -48,6 +49,8 @@ def write_blog(args=[]):
         greenhouse()
     elif args[0] == 'io':
         edit_io(args[1:])
+    elif args[0] == 'genetics':
+        edit_genetics()
     elif args[0] == 'plant':
         edit_file(plant(args[1:]))
     elif args[0] == 'markdown':
@@ -78,6 +81,14 @@ def write_blog(args=[]):
         write_workshop(args[1:])
     else:
         write_pub(args)
+
+
+def edit_genetics():
+    x = Path.home()/'Github/Shrinking-World-Pubs/Genetics/Book'
+    y = Path('Documents/Shrinking-World-Pubs/Genetics')
+    for p in x.iterdir():
+        print(f'GENETICS {p} {y}')
+        copyfile(p, y/p.name)
 
 
 def edit_io(args):

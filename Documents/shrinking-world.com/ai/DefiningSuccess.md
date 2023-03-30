@@ -13,6 +13,8 @@ success in about whether our life matches our identity
 
 values also determine our feelings of success
 
+how would Henry Cloud define success
+
 ---
 
 

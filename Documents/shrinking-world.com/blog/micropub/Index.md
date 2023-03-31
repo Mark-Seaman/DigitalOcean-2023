@@ -22,6 +22,7 @@ web technology to deliver content to consumers.
 
 ## General Concepts
 
+* [New Publishing Options](micropub-NewPublishing)
 * [Riding the Mastodon](micropub-Mastodon)
 * [Information Content Math](micropub-InfoContent)
 * [The Lecture](micropub-Lecture)

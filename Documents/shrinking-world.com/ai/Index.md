@@ -28,6 +28,9 @@
 ## [owthHabits.md](/ai/GrowthHabits.md)                                        
 
 
+## [Henry Cloud](/ai/HenryCloud.md)                                            
+
+
 ## [Japanese Course](/ai/Japanese.md)                                          
 
 
@@ -53,4 +56,7 @@
 
 
 ## [Web Apps Course Announcement](/ai/WebApps.md)                              
+
+
+## [Writer's Self-doubt](/ai/WritersDoubt.md)                                  
 

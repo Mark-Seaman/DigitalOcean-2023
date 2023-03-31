@@ -34,6 +34,7 @@ Tips on better writing
 - [Writing Stages](/write/WritingStages)
 - [Using Evernote Tags](/write/Tags)
 * [Writer's Scorecard](/write/Scorecard)
+- [The Modern Writer](/write/Writer)
 
 ## Publishing
 

@@ -17436,34 +17436,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 87688,
-    "fields": {
-        "blog": 749,
-        "order": 21,
-        "title": "Web Apps Course Announcement",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/WebApps.md",
-        "folder": 0,
-        "words": 678,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87689,
-    "fields": {
-        "blog": 749,
-        "order": 22,
-        "title": "Writer's Self-doubt",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/WritersDoubt.md",
-        "folder": 0,
-        "words": 324,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 87690,
     "fields": {
         "blog": 738,
@@ -17487,6 +17459,48 @@
         "path": "Documents/shrinking-world.com/blog/tech-ChetGupta.md",
         "folder": 5,
         "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87692,
+    "fields": {
+        "blog": 749,
+        "order": 21,
+        "title": "Make Tweets from Article",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Tweet.md",
+        "folder": 0,
+        "words": 1687,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87693,
+    "fields": {
+        "blog": 749,
+        "order": 22,
+        "title": "Web Apps Course Announcement",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/WebApps.md",
+        "folder": 0,
+        "words": 678,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87694,
+    "fields": {
+        "blog": 749,
+        "order": 23,
+        "title": "Writer's Self-doubt",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/WritersDoubt.md",
+        "folder": 0,
+        "words": 324,
         "retain_object": false
     }
 }

@@ -55,7 +55,7 @@
 ## [AI and Content Creation](/ai/ai-Index.md)
 
 * [My Android Assistant](/tech/tech-ChetGupta.md)
-* [Prompting Chat-GPT](/ai/ai-AI_Prompts.md)
-* [AI For Writers](/ai/ai-AI_Writers.md)
+* [Prompting Chat-GPT](/tech/ai-AI_Prompts.md)
+* [AI For Writers](/tech/ai-AI_Writers.md)
 
 

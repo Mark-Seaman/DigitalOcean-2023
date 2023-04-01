@@ -16422,7 +16422,7 @@
         "doctype": "folder",
         "path": "Documents/shrinking-world.com/ai/Index.md",
         "folder": 0,
-        "words": 70,
+        "words": 76,
         "retain_object": false
     }
 },
@@ -17156,20 +17156,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 87667,
-    "fields": {
-        "blog": 738,
-        "order": 4,
-        "title": "Document not found",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/blog/ai/Index.md",
-        "folder": 0,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 87668,
     "fields": {
         "blog": 738,
@@ -17177,7 +17163,7 @@
         "title": "AI For Writers",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.com/blog/ai/AI_Writers.md",
-        "folder": 4,
+        "folder": 5,
         "words": 1253,
         "retain_object": false
     }
@@ -17191,7 +17177,7 @@
         "title": "Prompting chat-GPT",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.com/blog/ai/AI_Prompts.md",
-        "folder": 4,
+        "folder": 5,
         "words": 3131,
         "retain_object": false
     }
@@ -17473,6 +17459,34 @@
         "path": "Documents/shrinking-world.com/ai/WritersDoubt.md",
         "folder": 0,
         "words": 324,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87690,
+    "fields": {
+        "blog": 738,
+        "order": 5,
+        "title": "AI and Content Creation",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/blog/ai/Index.md",
+        "folder": 0,
+        "words": 6,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87691,
+    "fields": {
+        "blog": 738,
+        "order": 0,
+        "title": "Document not found",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/tech-ChetGupta.md",
+        "folder": 5,
+        "words": 0,
         "retain_object": false
     }
 }

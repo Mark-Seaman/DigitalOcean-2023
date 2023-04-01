@@ -7,6 +7,9 @@
 ## [Content Creator Business](/ai/BusinessCourse.md)                           
 
 
+## [Chat Book](/ai/ChatBook.md)                                                
+
+
 ## [Chet Gupta](/ai/ChetGupta.md)                                              
 
 
@@ -35,6 +38,9 @@
 
 
 ## [Marketing Funnel](/ai/MarketingFunnel.md)                                  
+
+
+## [Modern Writer](/ai/ModernWriter.md)                                        
 
 
 ## [Building a Successful Online Teaching Business](/ai/OnlineBusiness.md)     

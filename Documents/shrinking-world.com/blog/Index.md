@@ -20,6 +20,7 @@
 * [Speaker Bio](/tech/training-Biography.md)
 
 ## [Teaching & Course Prep](/tech/teach-Index.md)
+
 * [Course Prep with AI](/tech/teach-CoursePrepAI.md)
 * [Japanese Language](/tech/teach-Japanese.md)
 * [Genetics 101](/tech/teach-Genetics.md)
@@ -42,7 +43,6 @@
 
 ## [Tech Notes](/tech/tech-Index.md)
 
-* [My Android Assistant](/tech/tech-ChetGupta.md)
 * [The Internet (1990s)](/tech/tech-Internet.md)
 * [The Personal Computer (1980s)](/tech/tech-PersonalComputer.md)
 * [When will you Retire?](/tech/tech-Retirement.md)
@@ -51,3 +51,11 @@
 * [Shaped by Technology](/tech/tech-Technology.md)
 * [Communication Channels](/tech/tech-CommChannels.md)
 * [The Healthy Mastodon](/tech/tech-HealthyMastodon.md)
+
+## [AI and Content Creation](/ai/ai-Index.md)
+
+* [My Android Assistant](/tech/tech-ChetGupta.md)
+* [Prompting Chat-GPT](/ai/ai-AI_Prompts.md)
+* [AI For Writers](/ai/ai-AI_Writers.md)
+
+

@@ -97,7 +97,7 @@ def create_toot_file():
     for retry in range(5):
         source = create_toot(path)
         if source:
-            edit_file([source, path])
+            edit_file([source, path.parent])
             system('open https://mas.to/')
             return [path]
 

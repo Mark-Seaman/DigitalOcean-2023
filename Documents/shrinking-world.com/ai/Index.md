@@ -61,6 +61,9 @@
 ## [Transformation](/ai/Transformation.md)                                     
 
 
+## [Make Tweets from Article](/ai/Tweet.md)                                    
+
+
 ## [Web Apps Course Announcement](/ai/WebApps.md)                              
 
 

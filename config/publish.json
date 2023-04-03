@@ -16016,7 +16016,7 @@
         "doctype": "folder",
         "path": "Documents/markseaman.org/today/Index.md",
         "folder": 0,
-        "words": 51,
+        "words": 54,
         "retain_object": false
     }
 },
@@ -16680,188 +16680,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 87572,
-    "fields": {
-        "blog": 748,
-        "order": 3,
-        "title": "I Love Software",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/teach/i_love_software.md",
-        "folder": 7,
-        "words": 39,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87573,
-    "fields": {
-        "blog": 748,
-        "order": 4,
-        "title": "Learning to Teach",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/teach/learn_to_teach.md",
-        "folder": 7,
-        "words": 311,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87574,
-    "fields": {
-        "blog": 748,
-        "order": 5,
-        "title": "Dreyfus Model of Learning",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/teach/learning.md",
-        "folder": 7,
-        "words": 573,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87575,
-    "fields": {
-        "blog": 748,
-        "order": 6,
-        "title": "Build courses to teach skills",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/teach/teach.md",
-        "folder": 7,
-        "words": 63,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87576,
-    "fields": {
-        "blog": 748,
-        "order": 7,
-        "title": " A Chance to Teach",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/teach/teaching_chance.md",
-        "folder": 7,
-        "words": 369,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87577,
-    "fields": {
-        "blog": 748,
-        "order": 8,
-        "title": "Building Python Web Apps",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/teach/web_apps_book.md",
-        "folder": 7,
-        "words": 1029,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87578,
-    "fields": {
-        "blog": 748,
-        "order": 3,
-        "title": "The Creative Process",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/write/creative_process.md",
-        "folder": 9,
-        "words": 346,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87579,
-    "fields": {
-        "blog": 748,
-        "order": 4,
-        "title": "The Internet age",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/write/internet_age.md",
-        "folder": 9,
-        "words": 217,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87580,
-    "fields": {
-        "blog": 748,
-        "order": 5,
-        "title": "Mark Today Blogcast",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/write/mark_today_blogcast.md",
-        "folder": 9,
-        "words": 124,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87581,
-    "fields": {
-        "blog": 748,
-        "order": 6,
-        "title": "It's Not About Output",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/write/not_output.md",
-        "folder": 9,
-        "words": 237,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87582,
-    "fields": {
-        "blog": 748,
-        "order": 7,
-        "title": "Incremental Project Development",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/write/project_doodly.md",
-        "folder": 9,
-        "words": 289,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87583,
-    "fields": {
-        "blog": 748,
-        "order": 8,
-        "title": "Write",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/write/write.md",
-        "folder": 9,
-        "words": 61,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87584,
-    "fields": {
-        "blog": 748,
-        "order": 9,
-        "title": "Writing My Story",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/write/writing_my_story.md",
-        "folder": 9,
-        "words": 191,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 87585,
     "fields": {
         "blog": 748,
@@ -17501,6 +17319,258 @@
         "path": "Documents/shrinking-world.com/ai/WritersDoubt.md",
         "folder": 0,
         "words": 324,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87695,
+    "fields": {
+        "blog": 738,
+        "order": 3,
+        "title": "Document not found",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/ai/GeneticsBook.md",
+        "folder": 5,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87696,
+    "fields": {
+        "blog": 748,
+        "order": 3,
+        "title": "cuments/shrinking-world.io/teach/genetics-book.md.md",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/teach/genetics-book.md",
+        "folder": 7,
+        "words": 12,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87697,
+    "fields": {
+        "blog": 748,
+        "order": 4,
+        "title": "I Love Software",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/teach/i_love_software.md",
+        "folder": 7,
+        "words": 39,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87698,
+    "fields": {
+        "blog": 748,
+        "order": 5,
+        "title": "Learning to Teach",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/teach/learn_to_teach.md",
+        "folder": 7,
+        "words": 311,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87699,
+    "fields": {
+        "blog": 748,
+        "order": 6,
+        "title": "Dreyfus Model of Learning",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/teach/learning.md",
+        "folder": 7,
+        "words": 573,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87700,
+    "fields": {
+        "blog": 748,
+        "order": 7,
+        "title": "Build courses to teach skills",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/teach/teach.md",
+        "folder": 7,
+        "words": 63,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87701,
+    "fields": {
+        "blog": 748,
+        "order": 8,
+        "title": " A Chance to Teach",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/teach/teaching_chance.md",
+        "folder": 7,
+        "words": 369,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87702,
+    "fields": {
+        "blog": 748,
+        "order": 9,
+        "title": "Building Python Web Apps",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/teach/web_apps_book.md",
+        "folder": 7,
+        "words": 1029,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87703,
+    "fields": {
+        "blog": 748,
+        "order": 8,
+        "title": "The Shrinking World Digest - March 31, 2023",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/weekly/2023_03_31.md",
+        "folder": 8,
+        "words": 79,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87704,
+    "fields": {
+        "blog": 748,
+        "order": 9,
+        "title": "The Shrinking World Digest - April 7, 2023",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/weekly/2023_04_07.md",
+        "folder": 8,
+        "words": 658,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87705,
+    "fields": {
+        "blog": 748,
+        "order": 3,
+        "title": "cuments/shrinking-world.io/write/chatGPT-prompt.md",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/write/chatGPT-prompt.md",
+        "folder": 9,
+        "words": 272,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87706,
+    "fields": {
+        "blog": 748,
+        "order": 4,
+        "title": "The Creative Process",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/write/creative_process.md",
+        "folder": 9,
+        "words": 346,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87707,
+    "fields": {
+        "blog": 748,
+        "order": 5,
+        "title": "The Internet age",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/write/internet_age.md",
+        "folder": 9,
+        "words": 217,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87708,
+    "fields": {
+        "blog": 748,
+        "order": 6,
+        "title": "Mark Today Blogcast",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/write/mark_today_blogcast.md",
+        "folder": 9,
+        "words": 124,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87709,
+    "fields": {
+        "blog": 748,
+        "order": 7,
+        "title": "It's Not About Output",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/write/not_output.md",
+        "folder": 9,
+        "words": 237,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87710,
+    "fields": {
+        "blog": 748,
+        "order": 8,
+        "title": "Incremental Project Development",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/write/project_doodly.md",
+        "folder": 9,
+        "words": 289,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87711,
+    "fields": {
+        "blog": 748,
+        "order": 9,
+        "title": "Write",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/write/write.md",
+        "folder": 9,
+        "words": 61,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87712,
+    "fields": {
+        "blog": 748,
+        "order": 10,
+        "title": "Writing My Story",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/write/writing_my_story.md",
+        "folder": 9,
+        "words": 191,
         "retain_object": false
     }
 }

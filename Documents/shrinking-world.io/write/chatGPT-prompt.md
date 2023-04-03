@@ -1,5 +1,6 @@
 Documents/shrinking-world.io/write/chatGPT-prompt.md
 
+
 ## Prompting chat-GPT
 
 Working with Chat-GPT requires entirely new skills related to natural language processing, context awareness, experimentation and iteration, and collaboration. By developing these skills, writers can work more effectively with Chat-GPT and use it to generate high-quality content more efficiently.
@@ -16,11 +17,11 @@ Experimentation and Iteration: Working with Chat-GPT requires a willingness to e
 
 Collaboration: Working with Chat-GPT often requires collaboration with other writers and experts in AI and natural language processing. Writers need to be able to work effectively in a team environment and be willing to learn from others.
 
-https://shrinking-world.com/tech/ai-AI_Prompts.md
+
 
 ---
 
-[Prompting Chat-GPT](/write/chatGPT-prompt/)
+[Prompting Chat-GPT](/chatGPT-prompt/)
 
 Read More at "Prompting chat-GPT"
-https://seamansguide.com/quest/Documents/shrinking-world.io/write/chatGPT-prompt.md
+https://shrinking-world.com/tech/ai-AI_Prompts.md

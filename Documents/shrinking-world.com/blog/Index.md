@@ -57,5 +57,6 @@
 * [My Android Assistant](/tech/tech-ChetGupta.md)
 * [Prompting Chat-GPT](/tech/ai-AI_Prompts.md)
 * [AI For Writers](/tech/ai-AI_Writers.md)
+* [Genetics Textbook Project](/tech/ai-GeneticsBook.md)
 
 

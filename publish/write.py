@@ -113,11 +113,14 @@ def ghost_write(args):
         n = (args[1:] and args[1] == 'n')
         print(f'Ghost write ({p}, {n})')
         file = path
-        text = 'RAW TEXT'
+        text = 'MARKDOWN TEXT'
+        link_url = f'https://shrinking-world.com/{file}'
         options = dict(file=file, text=text, template='pub/ghost.md',
                        paragraph=p, numbered_list=n,
-                       page_title='TITLE',
-                       page_url=file, link_title=file, link_url=file)
+                       page_title='I/O TITLE',
+                       page_url=file,
+                       link_title='LINK PAGE TITLE',
+                       link_url=link_url)
         write_post(path,  options)
     edit_file(path)
 

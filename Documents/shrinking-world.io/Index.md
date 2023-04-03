@@ -29,6 +29,7 @@
 ## [Innovation and Technology                              ](/io/teach-Index.md)
 
 * [Course Prep with AI](/io/teach-course_ai_prep.md)                            
+* [cuments/shrinking-world.io/teach/genetics-book.md.md](/io/teach-genetics-book.md)
 * [I Love Software](/io/teach-i_love_software.md)                               
 * [Learning to Teach](/io/teach-learn_to_teach.md)                              
 * [Dreyfus Model of Learning](/io/teach-learning.md)                            
@@ -45,10 +46,13 @@
 * [The Shrinking World - March 3, 2023](/io/weekly-2023_03_03.md)               
 * [The Shrinking World - March 17, 2023](/io/weekly-2023_03_17.md)              
 * [The Shrinking World - March 24, 2023](/io/weekly-2023_03_24.md)              
+* [The Shrinking World Digest - March 31, 2023](/io/weekly-2023_03_31.md)       
+* [The Shrinking World Digest - April 7, 2023](/io/weekly-2023_04_07.md)        
 
 ## [Writing and Publishing](/io/write-Index.md)                                
 
 * [Story in Three Acts](/io/write-3_acts.md)                                    
+* [cuments/shrinking-world.io/write/chatGPT-prompt.md](/io/write-chatGPT-prompt.md)
 * [The Creative Process](/io/write-creative_process.md)                         
 * [The Internet age](/io/write-internet_age.md)                                 
 * [Mark Today Blogcast](/io/write-mark_today_blogcast.md)                       

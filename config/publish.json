@@ -138,7 +138,7 @@
         "domain": null,
         "url": "/tech",
         "logo": null,
-        "words": 20030,
+        "words": 20391,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "blog",
@@ -16358,20 +16358,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 87493,
-    "fields": {
-        "blog": 748,
-        "order": 7,
-        "title": "Key Role of Technology",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/innovate/technology.md",
-        "folder": 4,
-        "words": 167,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 87495,
     "fields": {
         "blog": 748,
@@ -16605,48 +16591,6 @@
         "path": "Documents/shrinking-world.io/innovate/internet_birth.md",
         "folder": 4,
         "words": 159,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87554,
-    "fields": {
-        "blog": 748,
-        "order": 5,
-        "title": "The Personal Computer (1980s)",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/innovate/personal_computer.md",
-        "folder": 4,
-        "words": 506,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87555,
-    "fields": {
-        "blog": 748,
-        "order": 6,
-        "title": "Healthy Social Networking",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/innovate/social_media.md",
-        "folder": 4,
-        "words": 291,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87556,
-    "fields": {
-        "blog": 748,
-        "order": 8,
-        "title": "Video Recording Software",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/innovate/video_recording.md",
-        "folder": 4,
-        "words": 105,
         "retain_object": false
     }
 },
@@ -17342,11 +17286,11 @@
     "fields": {
         "blog": 748,
         "order": 3,
-        "title": "cuments/shrinking-world.io/teach/genetics-book.md.md",
+        "title": "cuments/shrinking-world.io/teach/genetics-book.md",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/teach/genetics-book.md",
         "folder": 7,
-        "words": 12,
+        "words": 353,
         "retain_object": false
     }
 },
@@ -17472,7 +17416,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/write/chatGPT-prompt.md",
         "folder": 9,
-        "words": 272,
+        "words": 271,
         "retain_object": false
     }
 },
@@ -17571,6 +17515,76 @@
         "path": "Documents/shrinking-world.io/write/writing_my_story.md",
         "folder": 9,
         "words": 191,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87713,
+    "fields": {
+        "blog": 748,
+        "order": 5,
+        "title": "cuments/shrinking-world.io/innovate/mastodon.md",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/innovate/mastodon.md",
+        "folder": 4,
+        "words": 415,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87714,
+    "fields": {
+        "blog": 748,
+        "order": 6,
+        "title": "The Personal Computer (1980s)",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/innovate/personal_computer.md",
+        "folder": 4,
+        "words": 506,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87715,
+    "fields": {
+        "blog": 748,
+        "order": 7,
+        "title": "Healthy Social Networking",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/innovate/social_media.md",
+        "folder": 4,
+        "words": 291,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87716,
+    "fields": {
+        "blog": 748,
+        "order": 8,
+        "title": "Key Role of Technology",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/innovate/technology.md",
+        "folder": 4,
+        "words": 167,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87717,
+    "fields": {
+        "blog": 748,
+        "order": 9,
+        "title": "Video Recording Software",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/innovate/video_recording.md",
+        "folder": 4,
+        "words": 105,
         "retain_object": false
     }
 }

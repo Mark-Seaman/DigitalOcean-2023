@@ -21,6 +21,7 @@
 * [Communication Channels](/io/innovate-communication.md)                       
 * [Innovate](/io/innovate-innovate.md)                                          
 * [Birth of the Internet](/io/innovate-internet_birth.md)                       
+* [cuments/shrinking-world.io/innovate/mastodon.md](/io/innovate-mastodon.md)   
 * [The Personal Computer (1980s)](/io/innovate-personal_computer.md)            
 * [Healthy Social Networking](/io/innovate-social_media.md)                     
 * [Key Role of Technology](/io/innovate-technology.md)                          
@@ -29,7 +30,7 @@
 ## [Innovation and Technology                              ](/io/teach-Index.md)
 
 * [Course Prep with AI](/io/teach-course_ai_prep.md)                            
-* [cuments/shrinking-world.io/teach/genetics-book.md.md](/io/teach-genetics-book.md)
+* [cuments/shrinking-world.io/teach/genetics-book.md](/io/teach-genetics-book.md)
 * [I Love Software](/io/teach-i_love_software.md)                               
 * [Learning to Teach](/io/teach-learn_to_teach.md)                              
 * [Dreyfus Model of Learning](/io/teach-learning.md)                            

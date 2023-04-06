@@ -9,24 +9,24 @@ efficiently.
 Here are some skills that writers need to develop to work effectively with
 Chat-GPT:
 
-Understanding Natural Language Processing: Writers need to have a basic understanding of natural
+**Understanding Natural Language Processing**: Writers need to have a basic understanding of natural
 language processing to work with Chat-GPT effectively. This includes knowledge of concepts such as
 sentiment analysis, entity recognition, and language modeling.
 
-Ability to Phrase Questions and Prompts: Since Chat-GPT is a language model, writers need to be able
+**Ability to Phrase Questions and Prompts**: Since Chat-GPT is a language model, writers need to be able
 to phrase questions and prompts in a way that Chat-GPT can understand. This requires an
 understanding of how language models work and what kind of inputs they are designed to process.
 
-Contextual Awareness: Chat-GPT relies heavily on context to generate responses. Writers need to be
+**Contextual Awarenes**s: Chat-GPT relies heavily on context to generate responses. Writers need to be
 able to provide Chat-GPT with the necessary context to generate accurate and relevant responses.
 This requires an understanding of the topic being discussed and the audience's needs and
 preferences.
 
-Experimentation and Iteration: Working with Chat-GPT requires a willingness to experiment and
+**Experimentation and Iteration**: Working with Chat-GPT requires a willingness to experiment and
 iterate. Writers need to be willing to try different approaches and prompts to coax Chat-GPT to
 generate the desired output. This requires persistence and a willingness to learn from mistakes.
 
-Collaboration: Working with Chat-GPT often requires collaboration with other writers and experts in
+**Collaboration**: Working with Chat-GPT often requires collaboration with other writers and experts in
 AI and natural language processing. Writers need to be able to work effectively in a team
 environment and be willing to learn from others.
 
@@ -48,37 +48,45 @@ effective prompts to generate the desired output. This involves developing the s
 earlier, such as understanding natural language processing, contextual awareness, experimentation
 and iteration, and collaboration.
 
+---
 
 **prompt**
 
 write about Building a Chat Book to Prompt chat-GPT
 
-add discussion of how to follow up with another prompt
 
----
+**response**
 
+    Basic Prompts
 
-## Basic Prompts
+    To create a Chat Book, you'll need to provide a list of topics or questions that you want to
+    discuss. Here are some examples to get you started:
 
-To create a Chat Book, you'll need to provide a list of topics or questions that you want to
-discuss. Here are some examples to get you started:
+    * What are your thoughts on artificial intelligence?
+    * Can you tell me a joke?
+    * What do you think is the meaning of life?
+    * What's your favorite book/movie?
+    * Do you believe in ghosts or aliens?
+    * How do you think technology is changing the world?
+    * Who's your favorite historical figure and why?
+    * What's your opinion on climate change?
+    * Can you recommend a good restaurant in your area?
+    * What's your favorite hobby?
 
-* What are your thoughts on artificial intelligence?
-* Can you tell me a joke?
-* What do you think is the meaning of life?
-* What's your favorite book/movie?
-* Do you believe in ghosts or aliens?
-* How do you think technology is changing the world?
-* Who's your favorite historical figure and why?
-* What's your opinion on climate change?
-* Can you recommend a good restaurant in your area?
-* What's your favorite hobby?
+    These are just some ideas to get started, but feel free to add your own topics or questions to make
+    your Chat Book more personalized. 
 
-These are just some ideas to get started, but feel free to add your own topics or questions to make
-your Chat Book more personalized. When you're ready, simply start a conversation with ChatGPT and
+When you're ready, simply start a conversation with ChatGPT and
 ask one of the questions from your Chat Book.
 
 ---
+
+**prompt**
+
+add discussion of how to follow up with another prompt
+
+
+**response**
 
     ## Follow Up
 
@@ -107,6 +115,12 @@ ask one of the questions from your Chat Book.
 
 ---
 
+**prompt**
+
+tell how to control the format of the output
+
+
+**response**
 
 ## Control the Format
 
@@ -131,8 +145,8 @@ options that are recognized by the platform you're using. For example:
 
     To mention ChatGPT, use "@" followed by the name of the model, such as "@ChatGPT".
 
-Keep in mind that not all platforms or applications support these formatting options, so be sure to
-check the documentation for the specific platform you're using to see which options are available.
+    Keep in mind that not all platforms or applications support these formatting options, so be sure to
+    check the documentation for the specific platform you're using to see which options are available.
 
 
 ## Markdown Response
@@ -146,7 +160,8 @@ block quotes, and hyperlinks.
 
 Output as a markdown code block.
 
----
+
+**response**
 
     # Building a Chat Book
 
@@ -205,7 +220,7 @@ Output as a markdown code block.
 Say More. Output as a markdown code block.
 
 
----
+**response**
 
     # Originals by Adam Grant
 
@@ -252,7 +267,6 @@ Say More. Output as a markdown code block.
 
     Overall, "Originals" is a thought-provoking and inspiring read that challenges readers to think
     differently about creativity, innovation, and success.
----
 
 
 ## Control the Length
@@ -263,7 +277,8 @@ Write summary as 500 words.
 
 Output as a markdown code block.
 
----
+
+**response**
 
     # Originals by Adam Grant
 
@@ -317,7 +332,6 @@ Output as a markdown code block.
     You can learn more about "Originals" by visiting [Adam Grant's website]
     (https://www.adamgrant.net/originals).
 
----
 
 
 ## Probe specific Topics
@@ -328,7 +342,7 @@ Write about speaking truth to power.
 
 Output as a markdown code block.
 
----
+**response**
 
     # Speaking Truth to Power
 
@@ -374,7 +388,7 @@ How is originality influenced by birth order.
 
 Output as a markdown code block.
 
----
+**response**
 
     # How Birth Order Influences Originality
 
@@ -417,7 +431,8 @@ Output as a markdown code block.
 
 summarize as a tweet
 
----
+
+**response**
 
     "Birth order can play a role in shaping a person's creativity and risk-taking tendencies. Firstborns
     may be more conformist, while later-borns may be more original. However, there are many other
@@ -429,7 +444,7 @@ summarize as a tweet
 
 summarize in 500 characters for Mastodon
 
----
+**response**
 
     Research suggests that birth order can influence a person's level of originality and willingness to
     take risks. Firstborns may feel more pressure to conform and stick with established ways of doing

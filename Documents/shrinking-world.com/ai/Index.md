@@ -25,6 +25,9 @@
 ## [Email Marketing Tools](/ai/EmailMarketing.md)                              
 
 
+## [Exponential Graph](/ai/ExponentialGraph.md)                                
+
+
 ## [Gout](/ai/Gout.md)                                                         
 
 

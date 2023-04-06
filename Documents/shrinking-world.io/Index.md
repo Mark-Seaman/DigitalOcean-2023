@@ -14,9 +14,11 @@
 * [Finding Meaningful Work](/io/grow-meaningful_work.md)                        
 * [The Brain and Emotions ](/io/grow-neurochemicals.md)                         
 * [Defining Success](/io/grow-success.md)                                       
+* [Control Issues](/io/grow-what-i-control.md)                                  
 
 ## [Document not found](/io/innovate-Index.md)                                 
 
+* [cuments/shrinking-world.io/innovate/chatGPT-prompt.md](/io/innovate-chatGPT-prompt.md)
 * [My Android Assistant](/io/innovate-chet_gupta.md)                            
 * [Communication Channels](/io/innovate-communication.md)                       
 * [Innovate](/io/innovate-innovate.md)                                          
@@ -53,7 +55,7 @@
 ## [Writing and Publishing](/io/write-Index.md)                                
 
 * [Story in Three Acts](/io/write-3_acts.md)                                    
-* [cuments/shrinking-world.io/write/chatGPT-prompt.md](/io/write-chatGPT-prompt.md)
+* [cuments/shrinking-world.io/write/ai-for-writers.md](/io/write-ai-for-writers.md)
 * [The Creative Process](/io/write-creative_process.md)                         
 * [The Internet age](/io/write-internet_age.md)                                 
 * [Mark Today Blogcast](/io/write-mark_today_blogcast.md)                       

@@ -388,7 +388,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/ai",
         "logo": null,
-        "words": 12280,
+        "words": 12181,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -413,7 +413,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/ai",
         "logo": null,
-        "words": 19795,
+        "words": 19856,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -16405,7 +16405,7 @@
         "doctype": "folder",
         "path": "Documents/shrinking-world.io/Index.md",
         "folder": 0,
-        "words": 244,
+        "words": 249,
         "retain_object": false
     }
 },
@@ -16419,7 +16419,7 @@
         "doctype": "folder",
         "path": "Documents/shrinking-world.com/ai/Index.md",
         "folder": 0,
-        "words": 81,
+        "words": 84,
         "retain_object": false
     }
 },

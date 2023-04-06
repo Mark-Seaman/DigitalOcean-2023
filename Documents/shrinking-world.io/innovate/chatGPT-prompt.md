@@ -1,4 +1,4 @@
-Documents/shrinking-world.io/write/chatGPT-prompt.md
+Documents/shrinking-world.io/innovate/chatGPT-prompt.md
 
 
 ## Prompting chat-GPT
@@ -21,7 +21,7 @@ Collaboration: Working with Chat-GPT often requires collaboration with other wri
 
 ---
 
-[Prompting Chat-GPT](/chatGPT-prompt/)
+* [Prompting Chat-GPT](/chatGPT-prompt/)
 
 Read More at "Prompting chat-GPT"
 https://shrinking-world.com/tech/ai-AI_Prompts.md

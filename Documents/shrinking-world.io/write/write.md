@@ -14,9 +14,10 @@ Topics of Interest
 * Blogs
 
 
-Articles on Writing
+### Articles on Writing
 
 
+* [AI For Writers](/ai-for-writers/)
 * [Life Story as a 3-act Play](/3-acts/)
 * [The Creative Process](/creative-process/)
 * [It's Not About Output](/not-output/)

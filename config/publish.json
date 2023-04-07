@@ -16890,20 +16890,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 87691,
-    "fields": {
-        "blog": 738,
-        "order": 0,
-        "title": "Document not found",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.com/blog/tech-ChetGupta.md",
-        "folder": 5,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 87695,
     "fields": {
         "blog": 738,
@@ -17739,6 +17725,20 @@
         "path": "Documents/shrinking-world.com/blog/micropub/CreatorSkills.md",
         "folder": 3,
         "words": 325,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87780,
+    "fields": {
+        "blog": 738,
+        "order": 0,
+        "title": "My Android Assistant",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/ai/ChetGupta.md",
+        "folder": 5,
+        "words": 380,
         "retain_object": false
     }
 }

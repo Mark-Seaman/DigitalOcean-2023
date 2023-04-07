@@ -56,15 +56,16 @@
 * [Ghosts of the Fairgrounds](/journey/Fairgrounds.md)                          
 * [Day on the Volcano](/journey/Volcano.md)                                     
 * [Travel Stories](/journey/TravelStories.md)                                   
+* [When will you Retire?](/journey/Retirement.md)                               
+* [My Life as a Writer](/journey/Writer.md)                                     
 
 ## [Part 8 - Seniority Years](/journey/Part8.md)                               
 
 * [My Unfolding Career](/journey/Career.md)                                     
+* [4 Essential Skills for a Content Creator](/journey/CreatorSkills.md)         
 * [Season of Old Age](/journey/SeasonOfOldAge.md)                               
 * [Grand Mesa Perspective](/journey/GrandMesa.md)                               
-* [When will you Retire?](/journey/Retirement.md)                               
 * [My friend Rodney ](/journey/Rodney.md)                                       
 * [When the World Burned](/journey/WorldBurned.md)                              
 * [Banks of the Missouri](/journey/Missouri.md)                                 
-* [My Life as a Writer](/journey/Writer.md)                                     
 * [Stories To Tell Before I Die](/journey/StoriesToTell.md)                     

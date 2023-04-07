@@ -25,6 +25,7 @@ micropub/Minicourse.md,3,7
 micropub/Course.md,3,8
 micropub/InfoContent.md,3,9
 micropub/Lesson.md,3,10
+micropub/CreatorSkills.md,3,11
 
 tech/Index.md,4
 tech/Internet.md,4,2
@@ -37,7 +38,7 @@ tech/CommChannels.md,4,9
 tech/HealthyMastodon.md,4,10
 
 ai/Index.md,5
-tech-ChetGupta.md,5,0
+ai/ChetGupta.md,5,0
 ai/AI_Writers.md,5,1
 ai/AI_Prompts.md,5,2
 ai/GeneticsBook.md,5,3

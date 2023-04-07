@@ -13,6 +13,9 @@
 ## [Chet Gupta](/ai/ChetGupta.md)                                              
 
 
+## [4 Essential Skills for a Content Creator](/ai/CreatorSkills.md)            
+
+
 ## [Customer Journey](/ai/CustomerJourney.md)                                  
 
 
@@ -65,6 +68,9 @@
 
 
 ## [Template](/ai/Template.md)                                                 
+
+
+## [Shrinking World I/O](/ai/TheShrinkingWorld.md)                             
 
 
 ## [Transformation](/ai/Transformation.md)                                     

@@ -16380,7 +16380,7 @@
         "doctype": "folder",
         "path": "Documents/shrinking-world.com/ai/Index.md",
         "folder": 0,
-        "words": 92,
+        "words": 104,
         "retain_object": false
     }
 },
@@ -17388,7 +17388,7 @@
         "doctype": "chapter",
         "path": "Documents/seamansguide.com/journey/CreatorSkills.md",
         "folder": 8,
-        "words": 830,
+        "words": 325,
         "retain_object": false
     }
 },
@@ -17725,6 +17725,20 @@
         "path": "Documents/shrinking-world.com/ai/WritersDoubt.md",
         "folder": 0,
         "words": 324,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87779,
+    "fields": {
+        "blog": 738,
+        "order": 11,
+        "title": "4 Essential Skills for a Content Creator",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.com/blog/micropub/CreatorSkills.md",
+        "folder": 3,
+        "words": 325,
         "retain_object": false
     }
 }

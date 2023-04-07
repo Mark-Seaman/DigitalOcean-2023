@@ -138,7 +138,7 @@
         "domain": null,
         "url": "/tech",
         "logo": null,
-        "words": 21103,
+        "words": 21322,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "blog",
@@ -388,7 +388,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/ai",
         "logo": null,
-        "words": 23336,
+        "words": 23555,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -17388,7 +17388,7 @@
         "doctype": "folder",
         "path": "Documents/shrinking-world.com/ai/CreatorSkills.md",
         "folder": 0,
-        "words": 1049,
+        "words": 1642,
         "retain_object": false
     }
 },
@@ -17724,7 +17724,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.com/blog/micropub/CreatorSkills.md",
         "folder": 3,
-        "words": 544,
+        "words": 1113,
         "retain_object": false
     }
 },

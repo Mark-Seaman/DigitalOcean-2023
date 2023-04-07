@@ -138,7 +138,7 @@
         "domain": null,
         "url": "/tech",
         "logo": null,
-        "words": 20727,
+        "words": 21103,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "blog",
@@ -17388,7 +17388,7 @@
         "doctype": "folder",
         "path": "Documents/shrinking-world.com/ai/CreatorSkills.md",
         "folder": 0,
-        "words": 830,
+        "words": 1049,
         "retain_object": false
     }
 },
@@ -17724,7 +17724,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.com/blog/micropub/CreatorSkills.md",
         "folder": 3,
-        "words": 325,
+        "words": 544,
         "retain_object": false
     }
 },

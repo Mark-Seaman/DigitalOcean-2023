@@ -14,5 +14,5 @@
     "cover_image": "/static/images/seamansguide.com/journey/journey-cover-400.png",
     "pub_type": "book",
     "menu": "static/js/nav_blog.json",
-    "auto-index": true
+    "auto_index": true
 }

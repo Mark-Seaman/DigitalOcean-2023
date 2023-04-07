@@ -58,6 +58,9 @@
 ## [Season of Old Age](/ai/SeasonOfOldAge.md)                                  
 
 
+## [Software Engineering Course](/ai/SoftwareEngineering.md)                   
+
+
 ## [Spiritual Formation Course](/ai/SpiritualFormationCourse.md)               
 
 

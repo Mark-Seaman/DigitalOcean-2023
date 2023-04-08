@@ -463,7 +463,7 @@
         "domain": null,
         "url": "/tech",
         "logo": null,
-        "words": 0,
+        "words": 852,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "private",
@@ -17900,7 +17900,7 @@
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Index.md",
         "folder": 0,
-        "words": 25,
+        "words": 21,
         "retain_object": false
     }
 },

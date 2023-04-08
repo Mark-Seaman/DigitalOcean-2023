@@ -43,6 +43,7 @@ def create_pubs():
             io="Documents/shrinking-world.io",
             ai="Documents/shrinking-world.com/ai",
             genetics="Documents/Shrinking-World-Pubs/Genetics",
+            sweng="Documents/Shrinking-World-Pubs/SoftwareEngineering",
             #
             # Extra
             # training="Documents/shrinking-world.com/blog/training",

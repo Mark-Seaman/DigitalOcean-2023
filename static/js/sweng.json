@@ -10,5 +10,6 @@
     "description": "Using technology to solve problems",
     "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
     "menu": "static/js/nav_sw.json",
+    "pub_type": "private",
     "auto_index": true
 }

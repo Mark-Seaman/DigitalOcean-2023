@@ -413,7 +413,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/genetics",
         "logo": null,
-        "words": 9540,
+        "words": 13114,
         "cover_image": "/static/images/Shrinking-World-Pubs/Genetics/ConstructingLife.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -438,7 +438,57 @@
         "domain": null,
         "url": "/tech",
         "logo": null,
-        "words": 852,
+        "words": 1624,
+        "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
+        "menu": "static/js/nav_sw.json",
+        "pub_type": "private",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": true,
+        "index_folders": false,
+        "index_months": false
+    }
+},
+{
+    "model": "publish.pub",
+    "pk": 757,
+    "fields": {
+        "name": "genetics",
+        "title": "Constructing Life",
+        "subtitle": "A Blueprint from the Ground Up",
+        "description": "Finally I can get all of the answers I need",
+        "doc_path": "Documents/Shrinking-World-Pubs/Genetics/Book",
+        "image_path": "/static/images/Shrinking-World-Pubs/Genetics",
+        "css": "/static/css/book.css",
+        "domain": "https://shrinking-world.com",
+        "url": "/genetics",
+        "logo": null,
+        "words": 0,
+        "cover_image": "/static/images/Shrinking-World-Pubs/Genetics/ConstructingLife.png",
+        "menu": "static/js/nav_blog.json",
+        "pub_type": "private",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false,
+        "index_folders": false,
+        "index_months": false
+    }
+},
+{
+    "model": "publish.pub",
+    "pk": 758,
+    "fields": {
+        "name": "sweng",
+        "title": "SoftwareEngineering",
+        "subtitle": "Practical Software Development",
+        "description": "Using technology to solve problems",
+        "doc_path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book",
+        "image_path": "/static/images/shrinking-world.com/tech",
+        "css": "/static/css/shrinking-world.css",
+        "domain": null,
+        "url": "/tech",
+        "logo": null,
+        "words": 0,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "private",
@@ -17997,11 +18047,11 @@
     "fields": {
         "blog": 756,
         "order": 0,
-        "title": "Document not found",
+        "title": "SoftwareEngineering",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Index.md",
         "folder": 0,
-        "words": 0,
+        "words": 31,
         "retain_object": false
     }
 },
@@ -18072,6 +18122,258 @@
         "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Title.md",
         "folder": 2,
         "words": 516,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87829,
+    "fields": {
+        "blog": 757,
+        "order": 0,
+        "title": "Constructing Life: A Blueprint from the Ground Up",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Index.md",
+        "folder": 0,
+        "words": 362,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87830,
+    "fields": {
+        "blog": 757,
+        "order": 1,
+        "title": "ssible addendum to Chapter 1: Grammars for all biological building blocks.",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/01.1.md",
+        "folder": 0,
+        "words": 571,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87831,
+    "fields": {
+        "blog": 757,
+        "order": 2,
+        "title": "1. Building with Carbon. Why Carbon? Nutrients and Vitamins",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/01.md",
+        "folder": 0,
+        "words": 2989,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87832,
+    "fields": {
+        "blog": 757,
+        "order": 3,
+        "title": "Chapter 2. DNA, Nucleotides, and the Language of Life",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/02.md",
+        "folder": 0,
+        "words": 1337,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87833,
+    "fields": {
+        "blog": 757,
+        "order": 4,
+        "title": "3. Building Genes to Make Proteins",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/03.md",
+        "folder": 0,
+        "words": 37,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87834,
+    "fields": {
+        "blog": 757,
+        "order": 5,
+        "title": "4. Proteins, Folding, and Protein Complexes",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/04.md",
+        "folder": 0,
+        "words": 879,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87835,
+    "fields": {
+        "blog": 757,
+        "order": 6,
+        "title": "5. [Chromatin, Gene Regulation, Promoters, and Enhancers](05.md)",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/05.md",
+        "folder": 0,
+        "words": 40,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87836,
+    "fields": {
+        "blog": 757,
+        "order": 7,
+        "title": "6. [Mitosis and Chromosome Structure](06.md)",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/06.md",
+        "folder": 0,
+        "words": 41,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87837,
+    "fields": {
+        "blog": 757,
+        "order": 8,
+        "title": "7. Organelles, Specialized Functions, and the Foundations of Organs",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/07.md",
+        "folder": 0,
+        "words": 583,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87838,
+    "fields": {
+        "blog": 757,
+        "order": 9,
+        "title": "8. [Your Body: Trillions of Genius Specialists with the Same Code](08.md)",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/08.md",
+        "folder": 0,
+        "words": 1456,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87839,
+    "fields": {
+        "blog": 757,
+        "order": 10,
+        "title": "Authors",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Author.md",
+        "folder": 0,
+        "words": 22,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87840,
+    "fields": {
+        "blog": 757,
+        "order": 13,
+        "title": "Book Cover",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Cover.md",
+        "folder": 0,
+        "words": 6,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87841,
+    "fields": {
+        "blog": 757,
+        "order": 15,
+        "title": "Introduction",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Intro.md",
+        "folder": 0,
+        "words": 866,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87842,
+    "fields": {
+        "blog": 757,
+        "order": 16,
+        "title": "Constructing Life: A Blueprint from the Ground Up",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Overview.md",
+        "folder": 0,
+        "words": 351,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87843,
+    "fields": {
+        "blog": 758,
+        "order": 0,
+        "title": "Software Engineering Theory & Application",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Title.md",
+        "folder": 0,
+        "words": 516,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87844,
+    "fields": {
+        "blog": 758,
+        "order": 1,
+        "title": "Software Engineering Theory & Application",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Author.md",
+        "folder": 0,
+        "words": 311,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87845,
+    "fields": {
+        "blog": 758,
+        "order": 2,
+        "title": "SoftwareEngineering",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Index.md",
+        "folder": 0,
+        "words": 21,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87846,
+    "fields": {
+        "blog": 758,
+        "order": 3,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/O1.md",
+        "folder": 0,
+        "words": 0,
         "retain_object": false
     }
 }

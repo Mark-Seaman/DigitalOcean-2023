@@ -2,10 +2,13 @@
 
 .DS_Store
 
-# Static Assets
-DigitalOcean-static/
+# Documents
 Documents/seamansguide.com/webapps/textbook.epub
 Documents/Github
+Documents/Shrinking-World-Pubs
+
+# Static Assets
+DigitalOcean-static/
 # static/images/CoverArtwork
 
 # Hidden files

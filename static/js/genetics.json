@@ -8,7 +8,7 @@
     "author": "Josiah Seaman and Mark Seaman",
     "description": "Finally I can get all of the answers I need",
     "css": "/static/css/book.css",
-    "doc_path": "Documents/Shrinking-World-Pubs/Genetics",
+    "doc_path": "Documents/Shrinking-World-Pubs/Genetics/Book",
     "image_path": "/static/images/Shrinking-World-Pubs/Genetics",
     "cover_image": "/static/images/Shrinking-World-Pubs/Genetics/ConstructingLife.png",
     "cover_title": false,
@@ -17,4 +17,3 @@
     "auto_contents": false,
     "auto_index": false
 }
-

@@ -13,7 +13,7 @@
     "cover_image": "/static/images/Shrinking-World-Pubs/Genetics/ConstructingLife.png",
     "cover_title": false,
     "pub_type": "private",
-    "menu": "static/js/nav_blog.json",
+    "menu": "/static/js/nav_blog.json",
     "auto_contents": false,
     "auto_index": false
 }

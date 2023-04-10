@@ -39,6 +39,7 @@ class PubView(TemplateView):
 
 
 class PubListView(TemplateView):
+
     template_name = "blog/list.html"
     model = Pub
     context_object_name = "pubs"

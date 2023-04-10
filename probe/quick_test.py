@@ -26,7 +26,7 @@ def quick_test():
 def pubs():
     print(Pub.objects.filter(name='sweng').delete())
     print(Pub.objects.filter(name='genetics').delete())
-    # build_pubs()
+    build_pubs()
 
 
 def write():

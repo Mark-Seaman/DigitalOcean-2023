@@ -388,7 +388,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/ai",
         "logo": null,
-        "words": 25509,
+        "words": 24343,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",

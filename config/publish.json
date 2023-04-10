@@ -401,7 +401,7 @@
 },
 {
     "model": "publish.pub",
-    "pk": 761,
+    "pk": 763,
     "fields": {
         "name": "genetics",
         "title": "Constructing Life",
@@ -415,7 +415,7 @@
         "logo": null,
         "words": 0,
         "cover_image": "/static/images/Shrinking-World-Pubs/Genetics/ConstructingLife.png",
-        "menu": "/static/js/nav_blog.json",
+        "menu": "static/js/nav_blog.json",
         "pub_type": "private",
         "auto_remove": false,
         "auto_contents": false,
@@ -426,7 +426,7 @@
 },
 {
     "model": "publish.pub",
-    "pk": 762,
+    "pk": 764,
     "fields": {
         "name": "sweng",
         "title": "SoftwareEngineering",
@@ -17587,9 +17587,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87865,
+    "pk": 87883,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 0,
         "title": "Constructing Life: A Blueprint from the Ground Up",
         "doctype": "folder",
@@ -17601,9 +17601,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87866,
+    "pk": 87884,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 1,
         "title": "ssible addendum to Chapter 1: Grammars for all biological building blocks.",
         "doctype": "folder",
@@ -17615,9 +17615,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87867,
+    "pk": 87885,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 2,
         "title": "1. Building with Carbon. Why Carbon? Nutrients and Vitamins",
         "doctype": "folder",
@@ -17629,9 +17629,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87868,
+    "pk": 87886,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 3,
         "title": "Chapter 2. DNA, Nucleotides, and the Language of Life",
         "doctype": "folder",
@@ -17643,9 +17643,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87869,
+    "pk": 87887,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 4,
         "title": "3. Building Genes to Make Proteins",
         "doctype": "folder",
@@ -17657,9 +17657,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87870,
+    "pk": 87888,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 5,
         "title": "4. Proteins, Folding, and Protein Complexes",
         "doctype": "folder",
@@ -17671,9 +17671,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87871,
+    "pk": 87889,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 6,
         "title": "5. [Chromatin, Gene Regulation, Promoters, and Enhancers](05.md)",
         "doctype": "folder",
@@ -17685,9 +17685,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87872,
+    "pk": 87890,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 7,
         "title": "6. [Mitosis and Chromosome Structure](06.md)",
         "doctype": "folder",
@@ -17699,9 +17699,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87873,
+    "pk": 87891,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 8,
         "title": "7. Organelles, Specialized Functions, and the Foundations of Organs",
         "doctype": "folder",
@@ -17713,9 +17713,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87874,
+    "pk": 87892,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 9,
         "title": "8. [Your Body: Trillions of Genius Specialists with the Same Code](08.md)",
         "doctype": "folder",
@@ -17727,9 +17727,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87875,
+    "pk": 87893,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 10,
         "title": "Authors",
         "doctype": "folder",
@@ -17741,23 +17741,23 @@
 },
 {
     "model": "publish.content",
-    "pk": 87876,
+    "pk": 87894,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 13,
         "title": "Book Cover",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/Cover.md",
         "folder": 0,
-        "words": 6,
+        "words": 16,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87877,
+    "pk": 87895,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 15,
         "title": "Introduction",
         "doctype": "folder",
@@ -17769,9 +17769,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87878,
+    "pk": 87896,
     "fields": {
-        "blog": 761,
+        "blog": 763,
         "order": 16,
         "title": "Constructing Life: A Blueprint from the Ground Up",
         "doctype": "folder",
@@ -17783,9 +17783,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87879,
+    "pk": 87897,
     "fields": {
-        "blog": 762,
+        "blog": 764,
         "order": 0,
         "title": "Software Engineering Theory & Application",
         "doctype": "folder",
@@ -17797,9 +17797,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87880,
+    "pk": 87898,
     "fields": {
-        "blog": 762,
+        "blog": 764,
         "order": 1,
         "title": "Software Engineering Theory & Application",
         "doctype": "folder",
@@ -17811,9 +17811,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87881,
+    "pk": 87899,
     "fields": {
-        "blog": 762,
+        "blog": 764,
         "order": 2,
         "title": "SoftwareEngineering",
         "doctype": "folder",
@@ -17825,9 +17825,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87882,
+    "pk": 87900,
     "fields": {
-        "blog": 762,
+        "blog": 764,
         "order": 3,
         "title": "Document not found",
         "doctype": "folder",

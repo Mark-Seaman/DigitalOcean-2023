@@ -1,3 +1,4 @@
+from pathlib import Path
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
 from django.utils.timezone import localtime
@@ -45,8 +46,10 @@ class PubListView(TemplateView):
     def get_context_data(self, **kwargs):
         host = get_host(self.request)
         pub = self.kwargs.get('pub')
-        kwargs = select_blog_doc(host, 'sampler',  "Index.md")
+        kwargs = select_blog_doc(host, 'genetics',  "Index.md")
         kwargs['pubs'] = Pub.objects.filter(pub_type=pub)
+        # if Path('Documents/Shrinking-World-Pubs/setup.py').exists():
+        #     exec()
         # kwargs = super().get_context_data(**kwargs)
         return kwargs
 

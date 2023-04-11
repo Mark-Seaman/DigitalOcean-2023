@@ -7,7 +7,7 @@ See also [Micropub Product Deliverables](micropub-Payload)
 
 ## Basis for Teaching
 
-Articles form the the basis for all teaching. 
+Articles form the the basis for all teaching. Most class room lessons are constructed to fit this patten.
 Humans have a natural attention span of about 20 minutes.  That is why the
 TED talks have an ideal length of 18 minutes to allow the listeners to maximize
 the experience. Within this time of intense concentration a great deal of 

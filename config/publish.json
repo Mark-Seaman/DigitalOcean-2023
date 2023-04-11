@@ -138,7 +138,7 @@
         "domain": null,
         "url": "/tech",
         "logo": null,
-        "words": 21891,
+        "words": 21901,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "blog",
@@ -413,7 +413,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/ai",
         "logo": null,
-        "words": 25509,
+        "words": 24343,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -438,7 +438,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/genetics",
         "logo": null,
-        "words": 9540,
+        "words": 13482,
         "cover_image": "/static/images/Shrinking-World-Pubs/Genetics/ConstructingLife.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -463,7 +463,7 @@
         "domain": null,
         "url": "/tech",
         "logo": null,
-        "words": 852,
+        "words": 4411,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "private",
@@ -488,7 +488,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/genetics",
         "logo": null,
-        "words": 0,
+        "words": 9191,
         "cover_image": "/static/images/Shrinking-World-Pubs/Genetics/ConstructingLife.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -513,7 +513,7 @@
         "domain": null,
         "url": "/tech",
         "logo": null,
-        "words": 0,
+        "words": 852,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "private",
@@ -17838,7 +17838,7 @@
         "doctype": "chapter",
         "path": "Documents/Shrinking-World-Pubs/Genetics/AI/Context.md",
         "folder": 1,
-        "words": 712,
+        "words": 842,
         "retain_object": false
     }
 },
@@ -17932,11 +17932,11 @@
     "fields": {
         "blog": 1249,
         "order": 1,
-        "title": "ssible addendum to Chapter 1: Grammars for all biological building blocks.",
+        "title": "Chapter 1.1: Grammars for all biological building blocks.",
         "doctype": "chapter",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/01.1.md",
         "folder": 2,
-        "words": 571,
+        "words": 569,
         "retain_object": false
     }
 },
@@ -17978,7 +17978,7 @@
         "doctype": "chapter",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/03.md",
         "folder": 2,
-        "words": 37,
+        "words": 1997,
         "retain_object": false
     }
 },
@@ -18128,11 +18128,11 @@
     "fields": {
         "blog": 1250,
         "order": 0,
-        "title": "Document not found",
+        "title": "SoftwareEngineering",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Index.md",
         "folder": 0,
-        "words": 0,
+        "words": 76,
         "retain_object": false
     }
 },
@@ -18380,11 +18380,11 @@
     "fields": {
         "blog": 1251,
         "order": 1,
-        "title": "ssible addendum to Chapter 1: Grammars for all biological building blocks.",
+        "title": "Chapter 1.1: Grammars for all biological building blocks.",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/01.1.md",
         "folder": 0,
-        "words": 571,
+        "words": 569,
         "retain_object": false
     }
 },
@@ -18426,7 +18426,7 @@
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/03.md",
         "folder": 0,
-        "words": 37,
+        "words": 1997,
         "retain_object": false
     }
 },

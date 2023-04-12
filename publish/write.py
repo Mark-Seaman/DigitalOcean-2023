@@ -20,7 +20,7 @@ def write_blog(args=[]):
     # print(f"write blog {args}")
     if not args:
         return '''usage: write [options]
-            
+
             options:
                 blogcast - write a blogcast article
                 ghost - write an article to post on Ghost.org
@@ -43,11 +43,10 @@ def write_blog(args=[]):
         # write blogcast Documents/markseaman.org/today/03/Success
         # write blogcast Documents/spiritual-things.org/transformation/LifeWithGod.ol
         write_blogcast(args[1:])
-    elif args[0] == 'ghost':
-        ghost_write(args[1:])
     elif args[0] == 'green':
         greenhouse()
     elif args[0] == 'io':
+        ghost_write(args[1:])
         edit_io(args[1:])
     elif args[0] == 'genetics':
         edit_genetics()
@@ -94,8 +93,11 @@ def edit_genetics():
 
 def edit_io(args):
     print('The Shrinking World I/O')
+    path = 'Documents/shrinking-world.io'
+    if args:
+        path = ghost_write(args)
     system('open https://shrinking-world.io/ghost/#/site')
-    edit_file('Documents/shrinking-world.io')
+    edit_file(path)
 
 
 def ghost_write(args):
@@ -105,10 +107,7 @@ def ghost_write(args):
         text = render_to_string('pub/ghost_weekly.md', data)
         path.write_text(text)
 
-    path = Path('Documents/shrinking-world.io')/(args[0]+'.md')
-    if 'weekly' in args[0]:
-        write_weekly(args[0])
-    else:
+    def write_article(path, args):
         p = (args[1:] and args[1] == 'p')
         n = (args[1:] and args[1] == 'n')
         print(f'Ghost write ({p}, {n})')
@@ -122,7 +121,13 @@ def ghost_write(args):
                        link_title='LINK PAGE TITLE',
                        link_url=link_url)
         write_post(path,  options)
-    edit_file(path)
+
+    path = Path('Documents/shrinking-world.io/ghost.org')/(args[0]+'.md')
+    if 'weekly' in args[0]:
+        write_weekly(args[0])
+    else:
+        write_article(path, args)
+    return path
 
 
 def greenhouse():

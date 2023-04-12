@@ -138,7 +138,7 @@
         "domain": null,
         "url": "/tech",
         "logo": null,
-        "words": 21901,
+        "words": 21891,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "blog",
@@ -301,32 +301,7 @@
 },
 {
     "model": "publish.pub",
-    "pk": 745,
-    "fields": {
-        "name": "video",
-        "title": "Mark's Video Log",
-        "subtitle": "Interesting Projects and News",
-        "description": "Weekly video with current events and updates.",
-        "doc_path": "Documents/seamanslog.com/video",
-        "image_path": "/static/images/seamanslog.com",
-        "css": "/static/css/seamanslog.css",
-        "domain": null,
-        "url": "/video",
-        "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 300,
-        "cover_image": "/static/images/seamanslog.com/blog-cover-400.png",
-        "menu": "static/js/nav_blog.json",
-        "pub_type": "blog",
-        "auto_remove": false,
-        "auto_contents": false,
-        "auto_index": false,
-        "index_folders": false,
-        "index_months": false
-    }
-},
-{
-    "model": "publish.pub",
-    "pk": 1242,
+    "pk": 746,
     "fields": {
         "name": "today",
         "title": "Mark Today Blogcast",
@@ -351,7 +326,7 @@
 },
 {
     "model": "publish.pub",
-    "pk": 1243,
+    "pk": 747,
     "fields": {
         "name": "org",
         "title": "Shrinking World Training",
@@ -376,7 +351,7 @@
 },
 {
     "model": "publish.pub",
-    "pk": 1244,
+    "pk": 748,
     "fields": {
         "name": "io",
         "title": "The Shrinking World I/O",
@@ -388,7 +363,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/ai",
         "logo": null,
-        "words": 278,
+        "words": 12462,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -401,7 +376,7 @@
 },
 {
     "model": "publish.pub",
-    "pk": 1245,
+    "pk": 749,
     "fields": {
         "name": "ai",
         "title": "AI Conversations",
@@ -426,7 +401,7 @@
 },
 {
     "model": "publish.pub",
-    "pk": 1253,
+    "pk": 763,
     "fields": {
         "name": "genetics",
         "title": "Constructing Life",
@@ -438,7 +413,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/genetics",
         "logo": null,
-        "words": 11149,
+        "words": 9548,
         "cover_image": "/static/images/Shrinking-World-Pubs/Genetics/ConstructingLife.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -451,7 +426,7 @@
 },
 {
     "model": "publish.pub",
-    "pk": 1254,
+    "pk": 764,
     "fields": {
         "name": "sweng",
         "title": "SoftwareEngineering",
@@ -476,7 +451,7 @@
 },
 {
     "model": "publish.pub",
-    "pk": 1255,
+    "pk": 765,
     "fields": {
         "name": "io",
         "title": "The Shrinking World I/O",
@@ -488,7 +463,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/ai",
         "logo": null,
-        "words": 12462,
+        "words": 0,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -16027,77 +16002,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 45276,
-    "fields": {
-        "blog": 745,
-        "order": 1,
-        "title": "Mark's Video Log",
-        "doctype": "folder",
-        "path": "Documents/seamanslog.com/video/Index.md",
-        "folder": 0,
-        "words": 15,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 45277,
-    "fields": {
-        "blog": 745,
-        "order": 1,
-        "title": "Teaching at UNC",
-        "doctype": "chapter",
-        "path": "Documents/seamanslog.com/video/UNC.md",
-        "folder": 1,
-        "words": 98,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 45278,
-    "fields": {
-        "blog": 745,
-        "order": 2,
-        "title": "Gratitude",
-        "doctype": "chapter",
-        "path": "Documents/seamanslog.com/video/Gratitude.md",
-        "folder": 1,
-        "words": 75,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 45279,
-    "fields": {
-        "blog": 745,
-        "order": 3,
-        "title": "Friends and family",
-        "doctype": "chapter",
-        "path": "Documents/seamanslog.com/video/Friends.md",
-        "folder": 1,
-        "words": 112,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87448,
-    "fields": {
-        "blog": 743,
-        "order": 4,
-        "title": "Document not found",
-        "doctype": "chapter",
-        "path": "Documents/seamanfamily.org/Day with a King",
-        "folder": 1,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87449,
+    "pk": 87450,
     "fields": {
         "blog": 738,
         "order": 10,
@@ -16111,9 +16016,23 @@
 },
 {
     "model": "publish.content",
-    "pk": 87450,
+    "pk": 87451,
     "fields": {
-        "blog": 1242,
+        "blog": 743,
+        "order": 4,
+        "title": "Document not found",
+        "doctype": "chapter",
+        "path": "Documents/seamanfamily.org/Day with a King",
+        "folder": 1,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87452,
+    "fields": {
+        "blog": 746,
         "order": 1,
         "title": "Mark Today Blogcast",
         "doctype": "folder",
@@ -16125,9 +16044,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87451,
+    "pk": 87454,
     "fields": {
-        "blog": 1242,
+        "blog": 746,
         "order": 2,
         "title": "Mark Today Blogcast",
         "doctype": "folder",
@@ -16139,9 +16058,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87452,
+    "pk": 87455,
     "fields": {
-        "blog": 1242,
+        "blog": 746,
         "order": 3,
         "title": "Teaching at UNC",
         "doctype": "folder",
@@ -16153,9 +16072,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87453,
+    "pk": 87456,
     "fields": {
-        "blog": 1242,
+        "blog": 746,
         "order": 4,
         "title": "Gratitude",
         "doctype": "folder",
@@ -16167,9 +16086,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87454,
+    "pk": 87457,
     "fields": {
-        "blog": 1242,
+        "blog": 746,
         "order": 5,
         "title": "Friends and family",
         "doctype": "folder",
@@ -16181,9 +16100,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87455,
+    "pk": 87458,
     "fields": {
-        "blog": 1242,
+        "blog": 746,
         "order": 6,
         "title": "Tella Video Recording",
         "doctype": "folder",
@@ -16195,7 +16114,49 @@
 },
 {
     "model": "publish.content",
-    "pk": 87456,
+    "pk": 87460,
+    "fields": {
+        "blog": 747,
+        "order": 1,
+        "title": "Software is essential",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.org/L1_message_slides.md",
+        "folder": 0,
+        "words": 116,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87461,
+    "fields": {
+        "blog": 747,
+        "order": 2,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.org/L2_howto_slides.md",
+        "folder": 0,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87462,
+    "fields": {
+        "blog": 747,
+        "order": 3,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.org/L3_skills_slides.md",
+        "folder": 0,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87463,
     "fields": {
         "blog": 735,
         "order": 56,
@@ -16209,7 +16170,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87457,
+    "pk": 87464,
     "fields": {
         "blog": 735,
         "order": 57,
@@ -16223,49 +16184,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87458,
-    "fields": {
-        "blog": 1243,
-        "order": 1,
-        "title": "Software is essential",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.org/L1_message_slides.md",
-        "folder": 0,
-        "words": 116,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87459,
-    "fields": {
-        "blog": 1243,
-        "order": 2,
-        "title": "Document not found",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.org/L2_howto_slides.md",
-        "folder": 0,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87460,
-    "fields": {
-        "blog": 1243,
-        "order": 3,
-        "title": "Document not found",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.org/L3_skills_slides.md",
-        "folder": 0,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87461,
+    "pk": 87465,
     "fields": {
         "blog": 735,
         "order": 74,
@@ -16274,62 +16193,6 @@
         "path": "Documents/seamansguide.com/quest/SocialMedia.md",
         "folder": 4,
         "words": 1139,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87462,
-    "fields": {
-        "blog": 735,
-        "order": 5,
-        "title": "Process of Learning",
-        "doctype": "chapter",
-        "path": "Documents/seamansguide.com/quest/DreyfusModel.md",
-        "folder": 2,
-        "words": 1258,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87463,
-    "fields": {
-        "blog": 735,
-        "order": 6,
-        "title": "Personal Transformation",
-        "doctype": "chapter",
-        "path": "Documents/seamansguide.com/quest/Grow.md",
-        "folder": 2,
-        "words": 1621,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87464,
-    "fields": {
-        "blog": 735,
-        "order": 8,
-        "title": "My Primary Struggle",
-        "doctype": "chapter",
-        "path": "Documents/seamansguide.com/quest/DoAndBe.md",
-        "folder": 2,
-        "words": 472,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87465,
-    "fields": {
-        "blog": 735,
-        "order": 9,
-        "title": "My Spiritual Journey",
-        "doctype": "chapter",
-        "path": "Documents/seamansguide.com/quest/Health.md",
-        "folder": 2,
-        "words": 914,
         "retain_object": false
     }
 },
@@ -16351,7 +16214,63 @@
     "model": "publish.content",
     "pk": 87467,
     "fields": {
-        "blog": 1242,
+        "blog": 735,
+        "order": 5,
+        "title": "Process of Learning",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/DreyfusModel.md",
+        "folder": 2,
+        "words": 1258,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87468,
+    "fields": {
+        "blog": 735,
+        "order": 6,
+        "title": "Personal Transformation",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/Grow.md",
+        "folder": 2,
+        "words": 1621,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87469,
+    "fields": {
+        "blog": 735,
+        "order": 8,
+        "title": "My Primary Struggle",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/DoAndBe.md",
+        "folder": 2,
+        "words": 472,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87470,
+    "fields": {
+        "blog": 735,
+        "order": 9,
+        "title": "My Spiritual Journey",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/quest/Health.md",
+        "folder": 2,
+        "words": 914,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87471,
+    "fields": {
+        "blog": 746,
         "order": 2,
         "title": "I Love Software",
         "doctype": "folder",
@@ -16363,7 +16282,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87468,
+    "pk": 87472,
     "fields": {
         "blog": 735,
         "order": 0,
@@ -16377,7 +16296,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87469,
+    "pk": 87473,
     "fields": {
         "blog": 735,
         "order": 1,
@@ -16391,7 +16310,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87470,
+    "pk": 87474,
     "fields": {
         "blog": 734,
         "order": 38,
@@ -16405,7 +16324,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87471,
+    "pk": 87475,
     "fields": {
         "blog": 734,
         "order": 43,
@@ -16419,9 +16338,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87472,
+    "pk": 87476,
     "fields": {
-        "blog": 1244,
+        "blog": 748,
         "order": 0,
         "title": "The Shrinking World I/O",
         "doctype": "folder",
@@ -16433,9 +16352,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87510,
+    "pk": 87514,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 0,
         "title": "AI Conversations",
         "doctype": "folder",
@@ -16447,9 +16366,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87511,
+    "pk": 87515,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 1,
         "title": "Content Creator Business",
         "doctype": "folder",
@@ -16461,21 +16380,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87616,
-    "fields": {
-        "blog": 738,
-        "order": 5,
-        "title": "AI and Content Creation",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/blog/ai/Index.md",
-        "folder": 0,
-        "words": 6,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87618,
+    "pk": 87668,
     "fields": {
         "blog": 738,
         "order": 1,
@@ -16489,7 +16394,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87619,
+    "pk": 87669,
     "fields": {
         "blog": 738,
         "order": 2,
@@ -16503,9 +16408,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87620,
+    "pk": 87670,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 2,
         "title": "Chat Book",
         "doctype": "folder",
@@ -16517,9 +16422,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87621,
+    "pk": 87671,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 3,
         "title": "Chet Gupta",
         "doctype": "folder",
@@ -16531,7 +16436,21 @@
 },
 {
     "model": "publish.content",
-    "pk": 87641,
+    "pk": 87690,
+    "fields": {
+        "blog": 738,
+        "order": 5,
+        "title": "AI and Content Creation",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/blog/ai/Index.md",
+        "folder": 0,
+        "words": 6,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87695,
     "fields": {
         "blog": 738,
         "order": 3,
@@ -16545,7 +16464,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87706,
+    "pk": 87751,
     "fields": {
         "blog": 733,
         "order": 74,
@@ -16559,7 +16478,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87707,
+    "pk": 87752,
     "fields": {
         "blog": 733,
         "order": 76,
@@ -16573,7 +16492,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87708,
+    "pk": 87753,
     "fields": {
         "blog": 733,
         "order": 78,
@@ -16587,7 +16506,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87709,
+    "pk": 87754,
     "fields": {
         "blog": 733,
         "order": 79,
@@ -16601,7 +16520,217 @@
 },
 {
     "model": "publish.content",
-    "pk": 87710,
+    "pk": 87755,
+    "fields": {
+        "blog": 749,
+        "order": 4,
+        "title": "4 Essential Skills for a Content Creator",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/CreatorSkills.md",
+        "folder": 0,
+        "words": 1642,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87756,
+    "fields": {
+        "blog": 749,
+        "order": 5,
+        "title": "Customer Journey",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/CustomerJourney.md",
+        "folder": 0,
+        "words": 2028,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87757,
+    "fields": {
+        "blog": 749,
+        "order": 6,
+        "title": "Defining Success",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/DefiningSuccess.md",
+        "folder": 0,
+        "words": 852,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87758,
+    "fields": {
+        "blog": 749,
+        "order": 7,
+        "title": "Discipleship Course",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Discipleship.md",
+        "folder": 0,
+        "words": 513,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87759,
+    "fields": {
+        "blog": 749,
+        "order": 8,
+        "title": "Email Marketing Tools",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/EmailMarketing.md",
+        "folder": 0,
+        "words": 511,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87760,
+    "fields": {
+        "blog": 749,
+        "order": 9,
+        "title": "Exponential Graph",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/ExponentialGraph.md",
+        "folder": 0,
+        "words": 58,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87761,
+    "fields": {
+        "blog": 749,
+        "order": 10,
+        "title": "Gout",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Gout.md",
+        "folder": 0,
+        "words": 408,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87762,
+    "fields": {
+        "blog": 749,
+        "order": 12,
+        "title": "owthHabits.md",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/GrowthHabits.md",
+        "folder": 0,
+        "words": 274,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87763,
+    "fields": {
+        "blog": 749,
+        "order": 13,
+        "title": "Henry Cloud",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/HenryCloud.md",
+        "folder": 0,
+        "words": 386,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87764,
+    "fields": {
+        "blog": 749,
+        "order": 15,
+        "title": "Japanese Course",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Japanese.md",
+        "folder": 0,
+        "words": 863,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87765,
+    "fields": {
+        "blog": 749,
+        "order": 16,
+        "title": "Marketing Funnel",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/MarketingFunnel.md",
+        "folder": 0,
+        "words": 3014,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87766,
+    "fields": {
+        "blog": 749,
+        "order": 17,
+        "title": "Modern Writer",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/ModernWriter.md",
+        "folder": 0,
+        "words": 696,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87767,
+    "fields": {
+        "blog": 749,
+        "order": 18,
+        "title": "Building a Successful Online Teaching Business",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/OnlineBusiness.md",
+        "folder": 0,
+        "words": 498,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87768,
+    "fields": {
+        "blog": 749,
+        "order": 19,
+        "title": "Professional Career",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/ProfessionalCareer.md",
+        "folder": 0,
+        "words": 511,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87769,
+    "fields": {
+        "blog": 749,
+        "order": 20,
+        "title": "Season of Old Age",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/SeasonOfOldAge.md",
+        "folder": 0,
+        "words": 1881,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87779,
     "fields": {
         "blog": 738,
         "order": 11,
@@ -16615,7 +16744,7 @@
 },
 {
     "model": "publish.content",
-    "pk": 87711,
+    "pk": 87780,
     "fields": {
         "blog": 738,
         "order": 0,
@@ -16629,219 +16758,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87712,
+    "pk": 87781,
     "fields": {
-        "blog": 1245,
-        "order": 4,
-        "title": "4 Essential Skills for a Content Creator",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/CreatorSkills.md",
-        "folder": 0,
-        "words": 1642,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87713,
-    "fields": {
-        "blog": 1245,
-        "order": 5,
-        "title": "Customer Journey",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/CustomerJourney.md",
-        "folder": 0,
-        "words": 2028,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87714,
-    "fields": {
-        "blog": 1245,
-        "order": 6,
-        "title": "Defining Success",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/DefiningSuccess.md",
-        "folder": 0,
-        "words": 852,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87715,
-    "fields": {
-        "blog": 1245,
-        "order": 7,
-        "title": "Discipleship Course",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Discipleship.md",
-        "folder": 0,
-        "words": 513,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87716,
-    "fields": {
-        "blog": 1245,
-        "order": 8,
-        "title": "Email Marketing Tools",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/EmailMarketing.md",
-        "folder": 0,
-        "words": 511,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87717,
-    "fields": {
-        "blog": 1245,
-        "order": 9,
-        "title": "Exponential Graph",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/ExponentialGraph.md",
-        "folder": 0,
-        "words": 58,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87718,
-    "fields": {
-        "blog": 1245,
-        "order": 10,
-        "title": "Gout",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Gout.md",
-        "folder": 0,
-        "words": 408,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87719,
-    "fields": {
-        "blog": 1245,
-        "order": 12,
-        "title": "owthHabits.md",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/GrowthHabits.md",
-        "folder": 0,
-        "words": 274,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87720,
-    "fields": {
-        "blog": 1245,
-        "order": 13,
-        "title": "Henry Cloud",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/HenryCloud.md",
-        "folder": 0,
-        "words": 386,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87721,
-    "fields": {
-        "blog": 1245,
-        "order": 15,
-        "title": "Japanese Course",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Japanese.md",
-        "folder": 0,
-        "words": 863,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87722,
-    "fields": {
-        "blog": 1245,
-        "order": 16,
-        "title": "Marketing Funnel",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/MarketingFunnel.md",
-        "folder": 0,
-        "words": 3014,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87723,
-    "fields": {
-        "blog": 1245,
-        "order": 17,
-        "title": "Modern Writer",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/ModernWriter.md",
-        "folder": 0,
-        "words": 696,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87724,
-    "fields": {
-        "blog": 1245,
-        "order": 18,
-        "title": "Building a Successful Online Teaching Business",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/OnlineBusiness.md",
-        "folder": 0,
-        "words": 498,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87725,
-    "fields": {
-        "blog": 1245,
-        "order": 19,
-        "title": "Professional Career",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/ProfessionalCareer.md",
-        "folder": 0,
-        "words": 511,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87726,
-    "fields": {
-        "blog": 1245,
-        "order": 20,
-        "title": "Season of Old Age",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/SeasonOfOldAge.md",
-        "folder": 0,
-        "words": 1881,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 87727,
-    "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 21,
         "title": "Software Engineering Course",
         "doctype": "folder",
@@ -16853,9 +16772,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87728,
+    "pk": 87782,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 22,
         "title": "Spiritual Formation Course",
         "doctype": "folder",
@@ -16867,9 +16786,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87729,
+    "pk": 87783,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 23,
         "title": "Spirituality and Emotional Health",
         "doctype": "folder",
@@ -16881,9 +16800,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87730,
+    "pk": 87784,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 24,
         "title": "TeachingProgression",
         "doctype": "folder",
@@ -16895,9 +16814,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87731,
+    "pk": 87785,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 25,
         "title": "Template",
         "doctype": "folder",
@@ -16909,9 +16828,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87732,
+    "pk": 87786,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 26,
         "title": "Shrinking World I/O",
         "doctype": "folder",
@@ -16923,9 +16842,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87733,
+    "pk": 87787,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 27,
         "title": "Transformation",
         "doctype": "folder",
@@ -16937,9 +16856,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87734,
+    "pk": 87788,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 28,
         "title": "Make Tweets from Article",
         "doctype": "folder",
@@ -16951,9 +16870,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87735,
+    "pk": 87789,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 29,
         "title": "Web Apps Course Announcement",
         "doctype": "folder",
@@ -16965,9 +16884,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87736,
+    "pk": 87790,
     "fields": {
-        "blog": 1245,
+        "blog": 749,
         "order": 30,
         "title": "Writer's Self-doubt",
         "doctype": "folder",
@@ -16979,9 +16898,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87804,
+    "pk": 87883,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 0,
         "title": "Constructing Life: A Blueprint from the Ground Up",
         "doctype": "folder",
@@ -16993,9 +16912,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87805,
+    "pk": 87884,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 1,
         "title": "Chapter 1.1: Grammars for all biological building blocks.",
         "doctype": "folder",
@@ -17007,23 +16926,23 @@
 },
 {
     "model": "publish.content",
-    "pk": 87806,
+    "pk": 87885,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 2,
-        "title": "1. Building with Carbon. Why Carbon? Nutrients and Vitamins",
+        "title": "Chapter 1. Building with Carbon. Why Carbon? Nutrients and Vitamins",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/01.md",
         "folder": 0,
-        "words": 2989,
+        "words": 2990,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87807,
+    "pk": 87886,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 3,
         "title": "Chapter 2. DNA, Nucleotides, and the Language of Life",
         "doctype": "folder",
@@ -17035,51 +16954,51 @@
 },
 {
     "model": "publish.content",
-    "pk": 87808,
+    "pk": 87887,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 4,
-        "title": "3. Building Genes to Make Proteins",
+        "title": "Chapter 3. Building Genes to Make Proteins",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/03.md",
         "folder": 0,
-        "words": 1997,
+        "words": 1821,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87809,
+    "pk": 87888,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 5,
-        "title": "4. Proteins, Folding, and Protein Complexes",
+        "title": "Chapter 4. Proteins, Folding, and Protein Complexes",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/04.md",
         "folder": 0,
-        "words": 879,
+        "words": 837,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87810,
+    "pk": 87889,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 6,
-        "title": "5. [Chromatin, Gene Regulation, Promoters, and Enhancers](05.md)",
+        "title": "Chapter 5. How the parts of Chromatin work together to regulate gene expression",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/05.md",
         "folder": 0,
-        "words": 40,
+        "words": 1826,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87811,
+    "pk": 87890,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 7,
         "title": "6. [Mitosis and Chromosome Structure](06.md)",
         "doctype": "folder",
@@ -17091,9 +17010,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87812,
+    "pk": 87891,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 8,
         "title": "7. Organelles, Specialized Functions, and the Foundations of Organs",
         "doctype": "folder",
@@ -17105,23 +17024,23 @@
 },
 {
     "model": "publish.content",
-    "pk": 87813,
+    "pk": 87892,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 9,
-        "title": "8. [Your Body: Trillions of Genius Specialists with the Same Code](08.md)",
+        "title": "8. Your Body: Trillions of Genius Specialists with the Same Code",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/Genetics/Book/08.md",
         "folder": 0,
-        "words": 1456,
+        "words": 1378,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 87814,
+    "pk": 87893,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 10,
         "title": "Authors",
         "doctype": "folder",
@@ -17133,9 +17052,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87815,
+    "pk": 87894,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 13,
         "title": "Document not found",
         "doctype": "folder",
@@ -17147,9 +17066,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87816,
+    "pk": 87895,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 15,
         "title": "Introduction",
         "doctype": "folder",
@@ -17161,9 +17080,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87817,
+    "pk": 87896,
     "fields": {
-        "blog": 1253,
+        "blog": 763,
         "order": 16,
         "title": "Document not found",
         "doctype": "folder",
@@ -17175,9 +17094,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87818,
+    "pk": 87897,
     "fields": {
-        "blog": 1254,
+        "blog": 764,
         "order": 0,
         "title": "Software Engineering Theory & Application",
         "doctype": "folder",
@@ -17189,9 +17108,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87819,
+    "pk": 87898,
     "fields": {
-        "blog": 1254,
+        "blog": 764,
         "order": 1,
         "title": "Software Engineering Theory & Application",
         "doctype": "folder",
@@ -17203,9 +17122,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87820,
+    "pk": 87899,
     "fields": {
-        "blog": 1254,
+        "blog": 764,
         "order": 2,
         "title": "SoftwareEngineering",
         "doctype": "folder",
@@ -17217,9 +17136,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87821,
+    "pk": 87900,
     "fields": {
-        "blog": 1254,
+        "blog": 764,
         "order": 3,
         "title": "Document not found",
         "doctype": "folder",
@@ -17231,9 +17150,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87824,
+    "pk": 87901,
     "fields": {
-        "blog": 1244,
+        "blog": 748,
         "order": 3,
         "title": "The Shrinking World I/O",
         "doctype": "folder",
@@ -17245,9 +17164,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87825,
+    "pk": 87902,
     "fields": {
-        "blog": 1244,
+        "blog": 748,
         "order": 5,
         "title": "Document not found",
         "doctype": "folder",
@@ -17259,9 +17178,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87826,
+    "pk": 87903,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 0,
         "title": "The Shrinking World I/O",
         "doctype": "folder",
@@ -17273,9 +17192,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87827,
+    "pk": 87904,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 3,
         "title": " [Personal and Professional Growth](/io/grow-Index.md)                                     ",
         "doctype": "folder",
@@ -17287,9 +17206,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87828,
+    "pk": 87905,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 2,
         "title": "Building Trust",
         "doctype": "chapter",
@@ -17301,9 +17220,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87829,
+    "pk": 87906,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 3,
         "title": "Learning to Collaborate",
         "doctype": "chapter",
@@ -17315,9 +17234,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87830,
+    "pk": 87907,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 4,
         "title": "Embrace Reality",
         "doctype": "chapter",
@@ -17329,9 +17248,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87831,
+    "pk": 87908,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 5,
         "title": "The Power of Emotions",
         "doctype": "chapter",
@@ -17343,9 +17262,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87832,
+    "pk": 87909,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 6,
         "title": "Grow",
         "doctype": "chapter",
@@ -17357,9 +17276,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87833,
+    "pk": 87910,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 7,
         "title": "Finding Meaningful Work",
         "doctype": "chapter",
@@ -17371,9 +17290,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87834,
+    "pk": 87911,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 8,
         "title": "The Brain and Emotions ",
         "doctype": "chapter",
@@ -17385,9 +17304,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87835,
+    "pk": 87912,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 9,
         "title": "Season of Old Age",
         "doctype": "chapter",
@@ -17399,9 +17318,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87836,
+    "pk": 87913,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 10,
         "title": "Defining Success",
         "doctype": "chapter",
@@ -17413,9 +17332,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87837,
+    "pk": 87914,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 11,
         "title": "Control Issues",
         "doctype": "chapter",
@@ -17427,9 +17346,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87838,
+    "pk": 87915,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 4,
         "title": "Document not found",
         "doctype": "folder",
@@ -17441,9 +17360,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87839,
+    "pk": 87916,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 1,
         "title": "cuments/shrinking-world.io/innovate/chatGPT-prompt.md",
         "doctype": "chapter",
@@ -17455,9 +17374,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87840,
+    "pk": 87917,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 2,
         "title": "My Android Assistant",
         "doctype": "chapter",
@@ -17469,9 +17388,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87841,
+    "pk": 87918,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 3,
         "title": "Communication Channels",
         "doctype": "chapter",
@@ -17483,9 +17402,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87842,
+    "pk": 87919,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 4,
         "title": "Innovate",
         "doctype": "chapter",
@@ -17497,9 +17416,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87843,
+    "pk": 87920,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 5,
         "title": "Birth of the Internet",
         "doctype": "chapter",
@@ -17511,9 +17430,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87844,
+    "pk": 87921,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 6,
         "title": "cuments/shrinking-world.io/innovate/mastodon.md",
         "doctype": "chapter",
@@ -17525,9 +17444,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87845,
+    "pk": 87922,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 7,
         "title": "The Personal Computer (1980s)",
         "doctype": "chapter",
@@ -17539,9 +17458,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87846,
+    "pk": 87923,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 8,
         "title": "Healthy Social Networking",
         "doctype": "chapter",
@@ -17553,9 +17472,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87847,
+    "pk": 87924,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 9,
         "title": "Key Role of Technology",
         "doctype": "chapter",
@@ -17567,9 +17486,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87848,
+    "pk": 87925,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 10,
         "title": "Video Recording Software",
         "doctype": "chapter",
@@ -17581,9 +17500,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87849,
+    "pk": 87926,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 5,
         "title": "Innovation and Technology                              ",
         "doctype": "folder",
@@ -17595,9 +17514,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87850,
+    "pk": 87927,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 2,
         "title": "Course Prep with AI",
         "doctype": "chapter",
@@ -17609,9 +17528,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87851,
+    "pk": 87928,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 3,
         "title": "cuments/shrinking-world.io/teach/genetics-book.md",
         "doctype": "chapter",
@@ -17623,9 +17542,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87852,
+    "pk": 87929,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 4,
         "title": "I Love Software",
         "doctype": "chapter",
@@ -17637,9 +17556,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87853,
+    "pk": 87930,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 5,
         "title": "Learning to Teach",
         "doctype": "chapter",
@@ -17651,9 +17570,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87854,
+    "pk": 87931,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 6,
         "title": "Dreyfus Model of Learning",
         "doctype": "chapter",
@@ -17665,9 +17584,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87855,
+    "pk": 87932,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 7,
         "title": "Build courses to teach skills",
         "doctype": "chapter",
@@ -17679,9 +17598,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87856,
+    "pk": 87933,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 8,
         "title": " A Chance to Teach",
         "doctype": "chapter",
@@ -17693,9 +17612,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87857,
+    "pk": 87934,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 9,
         "title": "Building Python Web Apps",
         "doctype": "chapter",
@@ -17707,9 +17626,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87858,
+    "pk": 87935,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 6,
         "title": "Weekly Content Summary",
         "doctype": "folder",
@@ -17721,9 +17640,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87859,
+    "pk": 87936,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 1,
         "title": "The Shrinking World - Feb 3, 2023",
         "doctype": "chapter",
@@ -17735,9 +17654,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87860,
+    "pk": 87937,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 2,
         "title": "The Shrinking World - Feb 10, 2023",
         "doctype": "chapter",
@@ -17749,9 +17668,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87861,
+    "pk": 87938,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 3,
         "title": "The Shrinking World - Feb 17, 2023",
         "doctype": "chapter",
@@ -17763,9 +17682,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87862,
+    "pk": 87939,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 4,
         "title": "The Shrinking World - Feb 24, 2023",
         "doctype": "chapter",
@@ -17777,9 +17696,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87863,
+    "pk": 87940,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 5,
         "title": "The Shrinking World - March 3, 2023",
         "doctype": "chapter",
@@ -17791,9 +17710,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87864,
+    "pk": 87941,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 6,
         "title": "The Shrinking World - March 17, 2023",
         "doctype": "chapter",
@@ -17805,9 +17724,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87865,
+    "pk": 87942,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 7,
         "title": "The Shrinking World - March 24, 2023",
         "doctype": "chapter",
@@ -17819,9 +17738,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87866,
+    "pk": 87943,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 8,
         "title": "The Shrinking World Digest - March 31, 2023",
         "doctype": "chapter",
@@ -17833,9 +17752,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87867,
+    "pk": 87944,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 9,
         "title": "The Shrinking World Digest - April 7, 2023",
         "doctype": "chapter",
@@ -17847,9 +17766,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87868,
+    "pk": 87945,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 7,
         "title": "Writing and Publishing",
         "doctype": "folder",
@@ -17861,9 +17780,9 @@
 },
 {
     "model": "publish.content",
-    "pk": 87869,
+    "pk": 87946,
     "fields": {
-        "blog": 1255,
+        "blog": 765,
         "order": 1,
         "title": "Story in Three Acts",
         "doctype": "chapter",
@@ -17875,10 +17794,24 @@
 },
 {
     "model": "publish.content",
-    "pk": 87870,
+    "pk": 87947,
     "fields": {
-        "blog": 1255,
-        "order": 3,
+        "blog": 765,
+        "order": 2,
+        "title": "Headlines for Future Articles",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/write/Headlines.md",
+        "folder": 7,
+        "words": 109,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 87948,
+    "fields": {
+        "blog": 765,
+        "order": 4,
         "title": "cuments/shrinking-world.io/write/ai-for-writers.md",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/ai-for-writers.md",
@@ -17889,10 +17822,10 @@
 },
 {
     "model": "publish.content",
-    "pk": 87871,
+    "pk": 87949,
     "fields": {
-        "blog": 1255,
-        "order": 4,
+        "blog": 765,
+        "order": 5,
         "title": "The Creative Process",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/creative_process.md",
@@ -17903,10 +17836,10 @@
 },
 {
     "model": "publish.content",
-    "pk": 87872,
+    "pk": 87950,
     "fields": {
-        "blog": 1255,
-        "order": 5,
+        "blog": 765,
+        "order": 6,
         "title": "The Internet age",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/internet_age.md",
@@ -17917,10 +17850,10 @@
 },
 {
     "model": "publish.content",
-    "pk": 87873,
+    "pk": 87951,
     "fields": {
-        "blog": 1255,
-        "order": 6,
+        "blog": 765,
+        "order": 7,
         "title": "Mark Today Blogcast",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/mark_today_blogcast.md",
@@ -17931,10 +17864,10 @@
 },
 {
     "model": "publish.content",
-    "pk": 87874,
+    "pk": 87952,
     "fields": {
-        "blog": 1255,
-        "order": 7,
+        "blog": 765,
+        "order": 8,
         "title": "It's Not About Output",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/not_output.md",
@@ -17945,10 +17878,10 @@
 },
 {
     "model": "publish.content",
-    "pk": 87875,
+    "pk": 87953,
     "fields": {
-        "blog": 1255,
-        "order": 8,
+        "blog": 765,
+        "order": 9,
         "title": "Incremental Project Development",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/project_doodly.md",
@@ -17959,10 +17892,10 @@
 },
 {
     "model": "publish.content",
-    "pk": 87876,
+    "pk": 87954,
     "fields": {
-        "blog": 1255,
-        "order": 9,
+        "blog": 765,
+        "order": 10,
         "title": "Write",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/write.md",
@@ -17973,10 +17906,10 @@
 },
 {
     "model": "publish.content",
-    "pk": 87877,
+    "pk": 87955,
     "fields": {
-        "blog": 1255,
-        "order": 10,
+        "blog": 765,
+        "order": 11,
         "title": "Writing My Story",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/writing_my_story.md",

@@ -40,7 +40,7 @@ def create_pubs():
             #
             # Private
             private="Documents/markseaman.info",
-            io="Documents/shrinking-world.io",
+            io="Documents/shrinking-world.io/ghost.org",
             ai="Documents/shrinking-world.com/ai",
             genetics="Documents/Shrinking-World-Pubs/Genetics/Book",
             sweng="Documents/Shrinking-World-Pubs/SoftwareEngineering/Book",

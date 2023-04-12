@@ -1,7 +1,7 @@
 # The Shrinking World I/O
 
 
-## [Document not found](/io/Index.md)                                          
+## [The Shrinking World I/O](/io/Index.md)                                     
 
 
 ## [The Shrinking World I/O](/io/ghost.org-Index.md)                           

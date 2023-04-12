@@ -56,6 +56,7 @@
 ## [Writing and Publishing](/io/write-Index.md)                                
 
 * [Story in Three Acts](/io/write-3_acts.md)                                    
+* [Headlines for Future Articles](/io/write-Headlines.md)                       
 * [cuments/shrinking-world.io/write/ai-for-writers.md](/io/write-ai-for-writers.md)
 * [The Creative Process](/io/write-creative_process.md)                         
 * [The Internet age](/io/write-internet_age.md)                                 

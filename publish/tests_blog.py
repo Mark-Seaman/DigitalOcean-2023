@@ -34,4 +34,4 @@ class BlogFilesTest(DjangoTest):
         self.assertFiles("Documents/spiritual-things.org/daily", 370, 380)
 
     def test_tech_notes(self):
-        self.assertFiles("Documents/shrinking-world.com/blog", 28, 50)
+        self.assertFiles("Documents/shrinking-world.com/blog", 50, 60)

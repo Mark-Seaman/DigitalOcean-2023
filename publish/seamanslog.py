@@ -1,14 +1,15 @@
 from os import system
-from django.template.loader import render_to_string
-from django.utils.timezone import localdate
 from pathlib import Path
 from random import choice
 from re import split
 
-from publish.pub import get_pub, list_content
+from django.template.loader import render_to_string
+from django.utils.timezone import localdate
+
 from publish.days import yesterday
 from publish.document import document_body, document_title, title
 from publish.files import fix_chars, read_file
+from publish.pub import get_pub, list_content
 from workshop.management.commands.edit import edit_file
 
 

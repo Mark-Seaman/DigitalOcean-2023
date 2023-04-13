@@ -19,8 +19,7 @@
             "program": "manage.py",
             "cwd": "${workspaceFolder}",
             "args": [
-                "runserver",
-                "8002"
+                "runserver"
             ],
             "django": true,
             "justMyCode": true

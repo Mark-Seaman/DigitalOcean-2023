@@ -55,7 +55,8 @@ def create_pubs():
 
     def update_record(name, doc_path):
         s = pub_settings(name)
-        b = Pub.objects.get_or_create(name=s["name"], doc_path=doc_path)[0]
+        b = Pub.objects.get_or_create(name=s["name"])[0]
+        b.doc_path = s['doc_path']
         b.title = s["site_title"]
         b.subtitle = s["site_subtitle"]
         b.domain = s.get("domain")

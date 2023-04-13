@@ -130,7 +130,7 @@ def pub_redirect(host, pub, doc):
     if host == "shrinking-world.com" and not pub:
         return f"/tech"
     if host == "seamanslog.com" and not pub:
-        return f"/sampler/today"
+        return f"/io"
     if host == "seamansguide.com" and not pub:
         return f"/publish/book"
     if host == "seamanfamily.org" and not pub:
@@ -141,6 +141,8 @@ def pub_redirect(host, pub, doc):
         return f"/mark"
     if host == "markseaman.info" and not pub:
         return f"/private"
+    if "localhost" in host and not pub:
+        return f"/io"
     return f"/{pub}/{doc}"
 
 

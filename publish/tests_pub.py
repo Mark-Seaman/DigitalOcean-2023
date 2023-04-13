@@ -39,18 +39,6 @@ class DjangoTest(TestCase):
 class PubDataTest(TestCase):
 
     # Pub Data Model
-
-    # name = models.CharField(max_length=200)
-    # title = models.CharField(max_length=200)
-    # subtitle = models.CharField(max_length=200, null=True, blank=True)
-    # description = models.TextField(default="None", null=True, blank=True)
-    # doc_path = models.CharField(max_length=200, default="Documents")
-    # image_path = models.CharField(max_length=200, null=True)
-    # css = models.CharField(max_length=200, null=True)
-    # url = models.URLField(max_length=200)
-    # words = models.IntegerField(default=0)
-    # cover_image = models.CharField(max_length=200, null=True, blank=True)
-
     def setup(self):
         blog1 = Pub.objects.create()
 
@@ -90,9 +78,9 @@ class PubDataTest(TestCase):
 class PubInputOutputTest(DjangoTest):
     def test_build_blogs(self):
         build_pubs()
-        self.assertEqual(len(Pub.objects.all()), 13)
+        self.assertEqual(len(Pub.objects.all()), 18)
         num = len(Content.objects.all())
-        self.assertRange(num, 1110, 1130, "Blog Contents")
+        self.assertRange(num, 1200, 1300, "Blog Contents")
 
 
 # -----------------------
@@ -104,7 +92,7 @@ class FixtureTest(DjangoTest):
 
     def test_with_data(self):
         num = len(Content.objects.all())
-        self.assertRange(num, 1110, 1130, "Blog Contents")
+        self.assertRange(num, 1200, 1300, "Blog Contents")
 
     def test_book_list(self):
         self.assertRange(len(all_books()), 5, 5)
@@ -119,33 +107,33 @@ class FixtureTest(DjangoTest):
 
 class BlogPageTest(DjangoTest):
     def test_home_page(self):
-        page = "http://localhost:8002/"
-        self.assertLines(page, 90, 130)
+        page = "http://localhost:8000/"
+        self.assertLines(page, 180, 190)
 
     def test_sampler_page(self):
-        page = "http://localhost:8002/sampler"
+        page = "http://localhost:8000/sampler"
         self.assertText(page, "Seaman&#x27;s Log")
 
     def test_index_page(self):
-        page = "http://localhost:8002/sampler/Index"
+        page = "http://localhost:8000/sampler/Index"
         self.assertText(page, "Seaman&#x27;s Log")
-        page = "http://localhost:8002/sampler/Index.md"
+        page = "http://localhost:8000/sampler/Index.md"
         self.assertText(page, "Seaman&#x27;s Log")
 
     def test_spirit_page(self):
-        page = "http://localhost:8002/spiritual"
+        page = "http://localhost:8000/spiritual"
         self.assertText(page, "Meditations")
 
     def test_tech_page(self):
-        page = "http://localhost:8002/tech"
+        page = "http://localhost:8000/tech"
         self.assertText(page, "Tech Notes")
 
     def test_write_page(self):
-        page = "http://localhost:8002/write"
+        page = "http://localhost:8000/write"
         self.assertText(page, "Writer's Block")
 
     def test_tech_page(self):
-        page = "http://localhost:8002/mark"
+        page = "http://localhost:8000/mark"
         self.assertText(page, "Mark David Seaman")
 
 
@@ -155,11 +143,11 @@ class BlogPageTest(DjangoTest):
 
 class BookPageTest(DjangoTest):
     def test_book_list_page(self):
-        page = "http://localhost:8002/publish/book"
+        page = "http://localhost:8000/publish/book"
         self.assertLines(page, 180, 250)
 
     def test_book_journey_page(self):
-        page = "http://localhost:8002/publish/journey"
+        page = "http://localhost:8000/publish/journey"
         self.assertLines(page, 90, 130)
 
 

@@ -50,3 +50,4 @@
 * [AI For Writers](/tech/ai-AI_Writers.md)                                      
 * [Prompting chat-GPT](/tech/ai-AI_Prompts.md)                                  
 * [Genetics Textbook Project](/tech/ai-GeneticsBook.md)                         
+* [4 Keys to Effective AI](/tech/ai-AI_Playbook.md)                             

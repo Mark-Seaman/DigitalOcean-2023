@@ -7,13 +7,14 @@ from publish.pub import build_pubs, get_pub, get_pub_contents
 from publish.seamanslog import random_post
 from publish.toc import content_file, read_content_csv, write_content_csv
 from task.models import Activity, Task, TaskType
-from task.task import update_tasks
+from task.task import task_command, update_tasks
 from task.todo import edit_todo_list
 
 
 def quick_test():
     # print("No quick test defined")
-    pubs()
+    tasks()
+    # pubs()
     # courses()
     # todo()
     # write()
@@ -21,6 +22,10 @@ def quick_test():
     # update_pub_content()
     # create_book_covers()
     # Pub.objects.get(name='video').delete()
+
+
+def tasks():
+    task_command(['week'])
 
 
 def pubs():

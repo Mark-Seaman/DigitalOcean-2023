@@ -17587,328 +17587,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 89180,
-    "fields": {
-        "blog": 781,
-        "order": 6,
-        "title": "Defining Success",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/DefiningSuccess.md",
-        "folder": 0,
-        "words": 852,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89181,
-    "fields": {
-        "blog": 781,
-        "order": 7,
-        "title": "Discipleship Course",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Discipleship.md",
-        "folder": 0,
-        "words": 513,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89182,
-    "fields": {
-        "blog": 781,
-        "order": 8,
-        "title": "Email Marketing Tools",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/EmailMarketing.md",
-        "folder": 0,
-        "words": 511,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89183,
-    "fields": {
-        "blog": 781,
-        "order": 9,
-        "title": "Exponential Graph",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/ExponentialGraph.md",
-        "folder": 0,
-        "words": 58,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89184,
-    "fields": {
-        "blog": 781,
-        "order": 10,
-        "title": "Gout",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Gout.md",
-        "folder": 0,
-        "words": 408,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89185,
-    "fields": {
-        "blog": 781,
-        "order": 12,
-        "title": "owthHabits.md",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/GrowthHabits.md",
-        "folder": 0,
-        "words": 274,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89186,
-    "fields": {
-        "blog": 781,
-        "order": 13,
-        "title": "Henry Cloud",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/HenryCloud.md",
-        "folder": 0,
-        "words": 386,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89187,
-    "fields": {
-        "blog": 781,
-        "order": 15,
-        "title": "Japanese Course",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Japanese.md",
-        "folder": 0,
-        "words": 863,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89188,
-    "fields": {
-        "blog": 781,
-        "order": 16,
-        "title": "Marketing Funnel",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/MarketingFunnel.md",
-        "folder": 0,
-        "words": 3014,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89189,
-    "fields": {
-        "blog": 781,
-        "order": 17,
-        "title": "Modern Writer",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/ModernWriter.md",
-        "folder": 0,
-        "words": 696,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89190,
-    "fields": {
-        "blog": 781,
-        "order": 18,
-        "title": "Building a Successful Online Teaching Business",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/OnlineBusiness.md",
-        "folder": 0,
-        "words": 498,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89191,
-    "fields": {
-        "blog": 781,
-        "order": 19,
-        "title": "Professional Career",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/ProfessionalCareer.md",
-        "folder": 0,
-        "words": 511,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89192,
-    "fields": {
-        "blog": 781,
-        "order": 20,
-        "title": "Season of Old Age",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/SeasonOfOldAge.md",
-        "folder": 0,
-        "words": 1881,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89193,
-    "fields": {
-        "blog": 781,
-        "order": 21,
-        "title": "Software Engineering Course",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/SoftwareEngineering.md",
-        "folder": 0,
-        "words": 191,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89194,
-    "fields": {
-        "blog": 781,
-        "order": 22,
-        "title": "Spiritual Formation Course",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/SpiritualFormationCourse.md",
-        "folder": 0,
-        "words": 926,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89195,
-    "fields": {
-        "blog": 781,
-        "order": 23,
-        "title": "Spirituality and Emotional Health",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Spirituality.md",
-        "folder": 0,
-        "words": 660,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89196,
-    "fields": {
-        "blog": 781,
-        "order": 24,
-        "title": "TeachingProgression",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/TeachingProgression.md",
-        "folder": 0,
-        "words": 858,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89197,
-    "fields": {
-        "blog": 781,
-        "order": 25,
-        "title": "Template",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Template.md",
-        "folder": 0,
-        "words": 22,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89198,
-    "fields": {
-        "blog": 781,
-        "order": 26,
-        "title": "Shrinking World I/O",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/TheShrinkingWorld.md",
-        "folder": 0,
-        "words": 237,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89199,
-    "fields": {
-        "blog": 781,
-        "order": 27,
-        "title": "Transformation",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Transformation.md",
-        "folder": 0,
-        "words": 531,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89200,
-    "fields": {
-        "blog": 781,
-        "order": 28,
-        "title": "Make Tweets from Article",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Tweet.md",
-        "folder": 0,
-        "words": 1687,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89201,
-    "fields": {
-        "blog": 781,
-        "order": 29,
-        "title": "Web Apps Course Announcement",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/WebApps.md",
-        "folder": 0,
-        "words": 678,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89202,
-    "fields": {
-        "blog": 781,
-        "order": 30,
-        "title": "Writer's Self-doubt",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/WritersDoubt.md",
-        "folder": 0,
-        "words": 324,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 89203,
     "fields": {
         "blog": 782,
@@ -18156,6 +17834,440 @@
         "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/O1.md",
         "folder": 0,
         "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89221,
+    "fields": {
+        "blog": 767,
+        "order": 16,
+        "title": "My Back Yard",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/poem/BackYard.md",
+        "folder": 1,
+        "words": 106,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89222,
+    "fields": {
+        "blog": 767,
+        "order": 17,
+        "title": "Flight of the Eagle",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/poem/EagleFlight.md",
+        "folder": 1,
+        "words": 200,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89223,
+    "fields": {
+        "blog": 767,
+        "order": 18,
+        "title": "Bald Eagle and Blue Heron",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/poem/EagleHeron.md",
+        "folder": 1,
+        "words": 306,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89224,
+    "fields": {
+        "blog": 768,
+        "order": 16,
+        "title": "My Back Yard",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/poem/BackYard.md",
+        "folder": 1,
+        "words": 106,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89225,
+    "fields": {
+        "blog": 768,
+        "order": 17,
+        "title": "Flight of the Eagle",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/poem/EagleFlight.md",
+        "folder": 1,
+        "words": 200,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89226,
+    "fields": {
+        "blog": 768,
+        "order": 18,
+        "title": "Bald Eagle and Blue Heron",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/poem/EagleHeron.md",
+        "folder": 1,
+        "words": 306,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89227,
+    "fields": {
+        "blog": 781,
+        "order": 6,
+        "title": "AI Query - ",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/DataAnalytics.md.md",
+        "folder": 0,
+        "words": 34,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89228,
+    "fields": {
+        "blog": 781,
+        "order": 7,
+        "title": "Defining Success",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/DefiningSuccess.md",
+        "folder": 0,
+        "words": 852,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89229,
+    "fields": {
+        "blog": 781,
+        "order": 8,
+        "title": "Discipleship Course",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Discipleship.md",
+        "folder": 0,
+        "words": 513,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89230,
+    "fields": {
+        "blog": 781,
+        "order": 9,
+        "title": "Email Marketing Tools",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/EmailMarketing.md",
+        "folder": 0,
+        "words": 511,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89231,
+    "fields": {
+        "blog": 781,
+        "order": 10,
+        "title": "Exponential Graph",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/ExponentialGraph.md",
+        "folder": 0,
+        "words": 58,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89232,
+    "fields": {
+        "blog": 781,
+        "order": 11,
+        "title": "AI Query - ",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/ForTheBirds.md",
+        "folder": 0,
+        "words": 746,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89233,
+    "fields": {
+        "blog": 781,
+        "order": 12,
+        "title": "Gout",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Gout.md",
+        "folder": 0,
+        "words": 408,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89234,
+    "fields": {
+        "blog": 781,
+        "order": 14,
+        "title": "owthHabits.md",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/GrowthHabits.md",
+        "folder": 0,
+        "words": 274,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89235,
+    "fields": {
+        "blog": 781,
+        "order": 15,
+        "title": "Henry Cloud",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/HenryCloud.md",
+        "folder": 0,
+        "words": 386,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89236,
+    "fields": {
+        "blog": 781,
+        "order": 17,
+        "title": "Japanese Course",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Japanese.md",
+        "folder": 0,
+        "words": 863,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89237,
+    "fields": {
+        "blog": 781,
+        "order": 18,
+        "title": "Marketing Funnel",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/MarketingFunnel.md",
+        "folder": 0,
+        "words": 3014,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89238,
+    "fields": {
+        "blog": 781,
+        "order": 19,
+        "title": "Modern Writer",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/ModernWriter.md",
+        "folder": 0,
+        "words": 696,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89239,
+    "fields": {
+        "blog": 781,
+        "order": 20,
+        "title": "Building a Successful Online Teaching Business",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/OnlineBusiness.md",
+        "folder": 0,
+        "words": 498,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89240,
+    "fields": {
+        "blog": 781,
+        "order": 21,
+        "title": "Professional Career",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/ProfessionalCareer.md",
+        "folder": 0,
+        "words": 511,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89241,
+    "fields": {
+        "blog": 781,
+        "order": 22,
+        "title": "Season of Old Age",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/SeasonOfOldAge.md",
+        "folder": 0,
+        "words": 1881,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89242,
+    "fields": {
+        "blog": 781,
+        "order": 23,
+        "title": "Software Engineering Course",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/SoftwareEngineering.md",
+        "folder": 0,
+        "words": 191,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89243,
+    "fields": {
+        "blog": 781,
+        "order": 24,
+        "title": "Spiritual Formation Course",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/SpiritualFormationCourse.md",
+        "folder": 0,
+        "words": 926,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89244,
+    "fields": {
+        "blog": 781,
+        "order": 25,
+        "title": "Spirituality and Emotional Health",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Spirituality.md",
+        "folder": 0,
+        "words": 660,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89245,
+    "fields": {
+        "blog": 781,
+        "order": 26,
+        "title": "TeachingProgression",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/TeachingProgression.md",
+        "folder": 0,
+        "words": 858,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89246,
+    "fields": {
+        "blog": 781,
+        "order": 27,
+        "title": "Template",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Template.md",
+        "folder": 0,
+        "words": 22,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89247,
+    "fields": {
+        "blog": 781,
+        "order": 28,
+        "title": "Shrinking World I/O",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/TheShrinkingWorld.md",
+        "folder": 0,
+        "words": 237,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89248,
+    "fields": {
+        "blog": 781,
+        "order": 29,
+        "title": "Transformation",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Transformation.md",
+        "folder": 0,
+        "words": 531,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89249,
+    "fields": {
+        "blog": 781,
+        "order": 30,
+        "title": "Make Tweets from Article",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/Tweet.md",
+        "folder": 0,
+        "words": 1687,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89250,
+    "fields": {
+        "blog": 781,
+        "order": 31,
+        "title": "Web Apps Course Announcement",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/WebApps.md",
+        "folder": 0,
+        "words": 678,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89251,
+    "fields": {
+        "blog": 781,
+        "order": 32,
+        "title": "Writer's Self-doubt",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.com/ai/WritersDoubt.md",
+        "folder": 0,
+        "words": 324,
         "retain_object": false
     }
 }

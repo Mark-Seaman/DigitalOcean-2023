@@ -22,6 +22,9 @@
 * [The Old Seaman](/quest/OldSeaman.md)                                         
 * [Tierra del Fuego](/quest/TierraDelFuego.md)                                  
 * [The Storm is Here](/quest/Storm.md)                                          
+* [A Yard Full of Birds](/quest/YardBirds.md)                                   
+* [Flight of the Eagle](/quest/EagleFlight.md)                                  
+* [Bald Eagle and Blue Heron](/quest/EagleHeron.md)                             
 
 ## [Part 2 - Human Nature](/quest/Part2.md)                                    
 

@@ -19,6 +19,9 @@
 ## [Customer Journey](/ai/CustomerJourney.md)                                  
 
 
+## [AI Query - ](/ai/DataAnalytics.md.md)                                      
+
+
 ## [Defining Success](/ai/DefiningSuccess.md)                                  
 
 
@@ -29,6 +32,9 @@
 
 
 ## [Exponential Graph](/ai/ExponentialGraph.md)                                
+
+
+## [AI Query - ](/ai/ForTheBirds.md)                                           
 
 
 ## [Gout](/ai/Gout.md)                                                         

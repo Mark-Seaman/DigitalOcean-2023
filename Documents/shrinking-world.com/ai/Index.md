@@ -28,6 +28,9 @@
 ## [Discipleship Course](/ai/Discipleship.md)                                  
 
 
+## [AI Query - ](/ai/DrSeuss.md)                                               
+
+
 ## [Email Marketing Tools](/ai/EmailMarketing.md)                              
 
 
@@ -50,6 +53,9 @@
 
 
 ## [Marketing Funnel](/ai/MarketingFunnel.md)                                  
+
+
+## [AI Query - ](/ai/Mastodon.md)                                              
 
 
 ## [Modern Writer](/ai/ModernWriter.md)                                        

@@ -461,7 +461,7 @@
         "image_path": "/static/images/Shrinking-World-Pubs/Innovation",
         "css": "/static/css/book.css",
         "domain": "https://shrinking-world.com",
-        "url": "/geneinnovationtics",
+        "url": "/innovation",
         "logo": null,
         "words": 0,
         "cover_image": "/static/images/Shrinking-World-Pubs/Innovation/Cover.png",
@@ -18390,7 +18390,7 @@
         "doctype": "chapter",
         "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Index.md",
         "folder": 1,
-        "words": 149,
+        "words": 151,
         "retain_object": false
     }
 },

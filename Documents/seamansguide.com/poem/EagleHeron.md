@@ -1,6 +1,6 @@
 # Bald Eagle and Blue Heron
 
-by Mark Seaman
+by Mark Seaman and ChatGPT
 
 ---
 

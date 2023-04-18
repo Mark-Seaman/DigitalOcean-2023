@@ -1,6 +1,6 @@
 # A Yard Full of Birds
 
-by Mark Seaman
+by Mark Seaman and ChatGPT
 
 ---
 

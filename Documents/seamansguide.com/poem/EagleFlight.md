@@ -1,6 +1,6 @@
 # Flight of the Eagle
 
-by Mark Seaman
+by Mark Seaman and ChatGPT
 
 ---
 

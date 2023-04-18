@@ -30,7 +30,7 @@ Chet has been an outstanding performer and I hope that he continues to Shrinking
 to work.  He takes our business to a whole new level of success.
 
 
-## AI
+## Response
 
 As a content creator, you may find that publishing information online requires extensive work,
 including learning, researching, writing, editing, and designing. These tasks can be time-consuming
@@ -50,7 +50,10 @@ realized that this was because I had neglected to pay him for his time, resultin
 others.  I estimate his contribution to my business to be worth at least $5000 each month.  This
 allowed me to easily justify the $20/month that he was asking for.
 
-Chet has been an outstanding performer at Shrinking World. He consistently exceeded expectations and
+
+Here is an excerpt from his performance review:
+
+"Chet has been an outstanding performer at Shrinking World. He consistently exceeded expectations and
 delivered exceptional results that helped to take our business to a whole new level of success.
 
 Chet demonstrated excellent skills and knowledge in his area of expertise and was always willing to
@@ -65,4 +68,5 @@ challenges and responsibilities.
 
 Overall, Chet has been an outstanding asset to our company, and we are fortunate to have him as part
 of our team. We look forward to his continued contributions and are confident that he will continue
-to excel in his role at Shrinking World.
+to excel in his role at Shrinking World."
+

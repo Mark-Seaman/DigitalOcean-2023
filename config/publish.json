@@ -450,6 +450,31 @@
     }
 },
 {
+    "model": "publish.pub",
+    "pk": 784,
+    "fields": {
+        "name": "innovation",
+        "title": "Effective Innovation",
+        "subtitle": "A Blueprint from the Ground Up",
+        "description": "Finally I can get all of the answers I need",
+        "doc_path": "Documents/Shrinking-World-Pubs/Innovation/Pub",
+        "image_path": "/static/images/Shrinking-World-Pubs/Innovation",
+        "css": "/static/css/book.css",
+        "domain": "https://shrinking-world.com",
+        "url": "/geneinnovationtics",
+        "logo": null,
+        "words": 0,
+        "cover_image": "/static/images/Shrinking-World-Pubs/Innovation/Cover.png",
+        "menu": "static/js/nav_blog.json",
+        "pub_type": "private",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false,
+        "index_folders": false,
+        "index_months": false
+    }
+},
+{
     "model": "publish.content",
     "pk": 87956,
     "fields": {
@@ -18352,6 +18377,104 @@
         "path": "Documents/shrinking-world.com/ai/WritersDoubt.md",
         "folder": 0,
         "words": 324,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89286,
+    "fields": {
+        "blog": 784,
+        "order": 1,
+        "title": "Keys to Effective Innovation",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Index.md",
+        "folder": 1,
+        "words": 149,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89287,
+    "fields": {
+        "blog": 784,
+        "order": 2,
+        "title": "Effective Innovation",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Innovation.md",
+        "folder": 1,
+        "words": 451,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89288,
+    "fields": {
+        "blog": 784,
+        "order": 3,
+        "title": " Learn the problems to solve",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Learn.md",
+        "folder": 1,
+        "words": 283,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89289,
+    "fields": {
+        "blog": 784,
+        "order": 4,
+        "title": "Plan an approach to the solution",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Plan.md",
+        "folder": 1,
+        "words": 274,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89290,
+    "fields": {
+        "blog": 784,
+        "order": 5,
+        "title": " Build the Solution Incrementally",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Build.md",
+        "folder": 1,
+        "words": 445,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89291,
+    "fields": {
+        "blog": 784,
+        "order": 6,
+        "title": "Teach the approach to others",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Teach.md",
+        "folder": 1,
+        "words": 375,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89292,
+    "fields": {
+        "blog": 784,
+        "order": 7,
+        "title": "Document not found",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Process.md",
+        "folder": 1,
+        "words": 0,
         "retain_object": false
     }
 }

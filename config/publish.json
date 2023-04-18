@@ -17511,7 +17511,7 @@
         "doctype": "folder",
         "path": "Documents/shrinking-world.com/ai/Index.md",
         "folder": 0,
-        "words": 108,
+        "words": 118,
         "retain_object": false
     }
 },
@@ -17839,20 +17839,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 89221,
-    "fields": {
-        "blog": 767,
-        "order": 16,
-        "title": "My Back Yard",
-        "doctype": "chapter",
-        "path": "Documents/seamansguide.com/poem/BackYard.md",
-        "folder": 1,
-        "words": 106,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 89222,
     "fields": {
         "blog": 767,
@@ -17876,20 +17862,6 @@
         "path": "Documents/seamansguide.com/poem/EagleHeron.md",
         "folder": 1,
         "words": 306,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 89224,
-    "fields": {
-        "blog": 768,
-        "order": 16,
-        "title": "My Back Yard",
-        "doctype": "chapter",
-        "path": "Documents/seamansguide.com/poem/BackYard.md",
-        "folder": 1,
-        "words": 106,
         "retain_object": false
     }
 },
@@ -18268,6 +18240,34 @@
         "path": "Documents/shrinking-world.com/ai/WritersDoubt.md",
         "folder": 0,
         "words": 324,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89252,
+    "fields": {
+        "blog": 767,
+        "order": 16,
+        "title": "A Yard Full of Birds",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/poem/YardBirds.md",
+        "folder": 1,
+        "words": 197,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 89253,
+    "fields": {
+        "blog": 768,
+        "order": 16,
+        "title": "A Yard Full of Birds",
+        "doctype": "chapter",
+        "path": "Documents/seamansguide.com/poem/YardBirds.md",
+        "folder": 1,
+        "words": 197,
         "retain_object": false
     }
 }

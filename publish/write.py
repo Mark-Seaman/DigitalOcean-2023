@@ -187,7 +187,7 @@ def render_document(**kwargs):
 def write_ai(args):
     if args:
         print('AI', args)
-        path = Path(f'Documents/shrinking-world.com/ai/{args[0]}')
+        path = Path(f'Documents/shrinking-world.com/ai/{args[0]}.md')
         p = (args[1:] and args[1] == 'p')
         n = (args[1:] and args[1] == 'n')
         data = dict(file=path, text='RAW TEXT', template='pub/ai.md',

@@ -21,7 +21,8 @@
         "auto_contents": false,
         "auto_index": true,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -46,7 +47,8 @@
         "auto_contents": false,
         "auto_index": true,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -71,7 +73,8 @@
         "auto_contents": false,
         "auto_index": true,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -96,7 +99,8 @@
         "auto_contents": false,
         "auto_index": false,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -121,7 +125,8 @@
         "auto_contents": false,
         "auto_index": false,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -146,7 +151,8 @@
         "auto_contents": false,
         "auto_index": true,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -171,7 +177,8 @@
         "auto_contents": false,
         "auto_index": false,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -196,7 +203,8 @@
         "auto_contents": true,
         "auto_index": true,
         "index_folders": false,
-        "index_months": true
+        "index_months": true,
+        "simple_index": false
     }
 },
 {
@@ -221,7 +229,8 @@
         "auto_contents": true,
         "auto_index": true,
         "index_folders": false,
-        "index_months": true
+        "index_months": true,
+        "simple_index": false
     }
 },
 {
@@ -246,7 +255,8 @@
         "auto_contents": false,
         "auto_index": false,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -271,7 +281,8 @@
         "auto_contents": false,
         "auto_index": false,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -296,7 +307,8 @@
         "auto_contents": false,
         "auto_index": false,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -321,7 +333,8 @@
         "auto_contents": false,
         "auto_index": false,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -346,7 +359,8 @@
         "auto_contents": false,
         "auto_index": false,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -371,7 +385,8 @@
         "auto_contents": true,
         "auto_index": true,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -396,7 +411,8 @@
         "auto_contents": true,
         "auto_index": true,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -421,7 +437,8 @@
         "auto_contents": false,
         "auto_index": true,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": true
     }
 },
 {
@@ -446,7 +463,8 @@
         "auto_contents": false,
         "auto_index": true,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -471,7 +489,8 @@
         "auto_contents": false,
         "auto_index": false,
         "index_folders": false,
-        "index_months": false
+        "index_months": false,
+        "simple_index": false
     }
 },
 {
@@ -18288,11 +18307,11 @@
     "fields": {
         "blog": 839,
         "order": 1,
-        "title": "Constructing Life: A Blueprint from the Ground Up",
+        "title": "Book Cover",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/MolecularCellBiology/Pub/Cover.md",
         "folder": 0,
-        "words": 198,
+        "words": 201,
         "retain_object": false
     }
 },
@@ -18414,11 +18433,11 @@
     "fields": {
         "blog": 839,
         "order": 3,
-        "title": "Constructing Life: A Blueprint from the Ground Up",
+        "title": "About the Book",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/MolecularCellBiology/Pub/Book.md",
         "folder": 0,
-        "words": 402,
+        "words": 406,
         "retain_object": false
     }
 },

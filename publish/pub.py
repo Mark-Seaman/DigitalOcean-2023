@@ -1,5 +1,6 @@
 from pathlib import Path
 from random import choice
+from shutil import copyfile
 
 from .document import document_body, document_html, document_title
 from .files import read_file, read_json, write_file
@@ -41,6 +42,14 @@ def build_pubs(pub=None):
         if pub.auto_index:
             # print("CREATE Index")
             create_pub_index(pub, get_pub_contents(pub))
+        source = Path(pub.doc_path)/'../Images'
+        dest = Path(pub.image_path[1:])
+        if source.exists():
+            if not dest.exists():
+                dest.mkdir()
+            for f in source.iterdir():
+                print(f"COPY FILES {pub.name} {f} {dest/f.name}")
+                copyfile(f, dest/f.name)
         text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
 
     save_pub_data()

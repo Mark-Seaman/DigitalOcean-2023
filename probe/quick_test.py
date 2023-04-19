@@ -13,8 +13,8 @@ from task.todo import edit_todo_list
 
 def quick_test():
     # print("No quick test defined")
-    tasks()
-    # pubs()
+    # tasks()
+    pubs()
     # courses()
     # todo()
     # write()

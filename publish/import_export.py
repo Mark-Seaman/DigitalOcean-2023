@@ -70,7 +70,8 @@ def create_pubs():
         b.menu = s.get("menu")
         b.logo = s.get("logo")
         b.auto_remove = s.get("auto_remove", False)
-        b.auto_index = s.get("auto_index", False)
+        b.auto_index = s.get("auto_index", False)  # simple_index
+        b.simple_index = s.get("simple_index", False)
         b.auto_contents = s.get("auto_contents", False)
         b.index_folders = s.get("index_folders", False)
         b.index_months = s.get("index_months", False)
@@ -150,6 +151,10 @@ def rename_file(f1, f2):
         Path(f1).rename(Path(f2))
         print(f"rename {f1} {f2}")
     assert Path(f2).exists()
+
+
+def refresh_pub_from_git():
+    system('cd Documents/Shrinking-World-Pubs && git pull')
 
 
 def save_pub_data():

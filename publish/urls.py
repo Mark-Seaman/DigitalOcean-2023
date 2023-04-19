@@ -2,7 +2,7 @@ from django.urls import path
 
 from workshop.book_cover import BookCoverView
 
-from .views import (BlogTodayView, GeneticsView, PubCreateView, PubDeleteView,
+from .views import (BlogTodayView, PubCreateView, PubDeleteView,
                     PubDetailView, PubListView, PubRedirectView, PubUpdateView,
                     PubView, SlideShowView, WorkshopRedirectView, WorkshopView)
 
@@ -48,7 +48,7 @@ urlpatterns = [
     #
     # Display a pub document
     # path("<str:pub>", PubRedirectView.as_view()),
-    path('genetics', GeneticsView.as_view()),
+    # path('cellbiology', CellBiology.as_view()),
     path("<str:pub>", PubDetailView.as_view(), name="blog_detail"),
     path("<str:pub>/<str:doc>", PubView.as_view(), name="pub"),
 ]

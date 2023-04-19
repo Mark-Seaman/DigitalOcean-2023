@@ -89,18 +89,17 @@ alias h='history 100'
 alias p=python
 
 # Git aliases
-alias s='git status'
+alias ga='git add -A . && git commit -m'
+alias gc='pm vc commit'
+alias gco='git checkout'
+alias gd='git diff'
 alias gh='d $g'
 alias gl='git log --name-only'
-alias gd='git diff'
-alias ga='git add -A . && git commit -m'
-alias gco='git checkout'
-alias vc='cd $p && pm vc'
 alias gs='pm vc status'
-alias gc='pm vc commit'
 alias pull='pm vc pull'
 alias push='pm vc push'
-alias deploy='pm vc deploy'
+alias s='git status'
+alias vc='cd $p && pm vc'
 
 # Django aliases
 alias pm='python manage.py'

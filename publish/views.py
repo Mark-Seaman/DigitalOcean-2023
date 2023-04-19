@@ -5,6 +5,8 @@ from django.utils.timezone import localtime
 from django.views.generic import (CreateView, DeleteView, RedirectView,
                                   TemplateView, UpdateView)
 
+from publish.import_export import refresh_pub_from_git
+
 from .models import Pub
 from .pub import doc_view_context, get_host, pub_redirect, select_blog_doc
 from .slides import slides_view_context
@@ -15,8 +17,8 @@ class BlogTodayView(RedirectView):
         return self.request.path.replace("today", localtime().strftime("%m-%d"))
 
 
-class GeneticsView(RedirectView):
-    url = '/genetics/Index.md'
+# class CellBiology(RedirectView):
+#     url = '/cellbiology/Index.md'
 
 
 class PubRedirectView(RedirectView):
@@ -59,6 +61,7 @@ class PubDetailView(TemplateView):
     template_name = "pub/cover.html"
 
     def get_context_data(self, **kwargs):
+        refresh_pub_from_git()
         host = get_host(self.request)
         blog = kwargs.get("pub")
         doc = kwargs.get("doc", "Index.md")

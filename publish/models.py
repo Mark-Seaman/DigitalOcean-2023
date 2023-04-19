@@ -22,6 +22,7 @@ class Pub(models.Model):
     auto_index = models.BooleanField(default=False)
     index_folders = models.BooleanField(default=False)
     index_months = models.BooleanField(default=False)
+    simple_index = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.name} - {self.title}"

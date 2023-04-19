@@ -103,7 +103,7 @@ def table_of_contents(pub, content_tree, word_count=False):
         url = url.replace(pub.doc_path, "")[1:]
         url = url.replace("/", "-")
         # words = int(words) if words else 0
-        if folder:
+        if folder and not pub.simple_index:
             label = f"\n## [{title}](/{pub.name}/{url})"
         else:
             label = f"* [{title}](/{pub.name}/{url})"

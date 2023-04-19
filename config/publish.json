@@ -411,7 +411,7 @@
         "image_path": "/static/images/Shrinking-World-Pubs/Genetics",
         "css": "/static/css/book.css",
         "domain": "https://shrinking-world.com",
-        "url": "/genetics",
+        "url": "/cellbiology",
         "logo": null,
         "words": 0,
         "cover_image": "/static/images/Shrinking-World-Pubs/Genetics/ConstructingLife.png",
@@ -419,7 +419,7 @@
         "pub_type": "private",
         "auto_remove": false,
         "auto_contents": false,
-        "auto_index": false,
+        "auto_index": true,
         "index_folders": false,
         "index_months": false
     }

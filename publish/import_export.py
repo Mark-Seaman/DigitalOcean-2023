@@ -44,6 +44,7 @@ def create_pubs():
             ai="Documents/shrinking-world.com/ai",
             genetics="Documents/Shrinking-World-Pubs/Genetics/Book",
             sweng="Documents/Shrinking-World-Pubs/SoftwareEngineering/Book",
+            innovation="Documents/Shrinking-World-Pubs/Innovation/Pub",
             #
             # Extra
             # training="Documents/shrinking-world.com/blog/training",

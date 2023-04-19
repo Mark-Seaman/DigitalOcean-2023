@@ -18414,7 +18414,7 @@
     "fields": {
         "blog": 784,
         "order": 3,
-        "title": " Learn the problems to solve",
+        "title": "Learn the problems to solve",
         "doctype": "chapter",
         "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Learn.md",
         "folder": 1,
@@ -18470,11 +18470,11 @@
     "fields": {
         "blog": 784,
         "order": 7,
-        "title": "Document not found",
+        "title": "Cycle of Innovation",
         "doctype": "chapter",
         "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Process.md",
         "folder": 1,
-        "words": 0,
+        "words": 323,
         "retain_object": false
     }
 }

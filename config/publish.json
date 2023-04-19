@@ -18298,20 +18298,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 93102,
-    "fields": {
-        "blog": 839,
-        "order": 2,
-        "title": "Authors",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/MolecularCellBiology/Pub/Author.md",
-        "folder": 0,
-        "words": 22,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 93105,
     "fields": {
         "blog": 839,

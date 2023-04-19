@@ -96,6 +96,8 @@ alias gd='git diff'
 alias ga='git add -A . && git commit -m'
 alias gco='git checkout'
 alias vc='cd $p && pm vc'
+alias gs='pm vc status'
+alias gc='pm vc commit'
 alias pull='pm vc pull'
 alias push='pm vc push'
 alias deploy='pm vc deploy'
@@ -141,12 +143,6 @@ function c {
     git commit -m "$*" &&
     git push
     git status
-}
-
-# Small commit on current directory
-function gc {
-    git add -A .       &&
-    git commit -m "$*"
 }
 
 # Copy a file tree

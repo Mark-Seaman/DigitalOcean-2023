@@ -58,6 +58,7 @@ def vc_help():
 def git_cmd(label, cmd):
     print(label)
     for d in vc_dirs():
+        print(d)
         chdir(d)
         text = git_filter(shell(cmd))
         if text and text != "\n":
@@ -96,21 +97,6 @@ def vc_commit(args):
     git_cmd("git commit:", 'git commit -m "%s"' % comment)
 
 
-def vc_push():
-    cmd = """
-        cd ~/Hammer &&
-        git checkout production &&
-        git pull &&
-        git merge main -m "Main Merge" &&
-        git push &&
-        git checkout main &&
-
-        # Show deployment status
-        open https://cloud.digitalocean.com/apps/260d8b80-b11f-4e57-a38d-dea84b9c2396/overview
-    """
-    system(cmd)
-
-
 def vc_diff():
     git_cmd("git diff:", "git diff --color")
 
@@ -121,15 +107,15 @@ def vc_dirs():
     hammer = Path.home() / "Hammer"
     if exists(hammer):
 
-        docs = hammer / "Documents"
-        shrinking = docs / "shrinking-world.com"
-        bacs350 = shrinking / "bacs350"
-        bacs200 = shrinking / "bacs200"
-        cs350 = shrinking / "cs350"
+        docs = hammer / "Documents/Shrinking-World-Pubs"
+        # shrinking = docs / "shrinking-world.com"
+        # bacs350 = shrinking / "bacs350"
+        # bacs200 = shrinking / "bacs200"
+        # cs350 = shrinking / "cs350"
 
         dirs = []
         dirs.append(hammer)
-        # dirs.append(bacs350)
+        dirs.append(docs)
         return [PurePath(d) for d in dirs if d.exists()]
 
 
@@ -154,6 +140,21 @@ def vc_pull(args):
         git checkout main &&
         git pull &&
         git push
+    """
+    system(cmd)
+
+
+def vc_push():
+    cmd = """
+        cd ~/Hammer &&
+        git checkout production &&
+        git pull &&
+        git merge main -m "Main Merge" &&
+        git push &&
+        git checkout main &&
+
+        # Show deployment status
+        open https://cloud.digitalocean.com/apps/260d8b80-b11f-4e57-a38d-dea84b9c2396/overview
     """
     system(cmd)
 

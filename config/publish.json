@@ -17191,7 +17191,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/innovate/innovation.md",
         "folder": 4,
-        "words": 391,
+        "words": 392,
         "retain_object": false
     }
 },
@@ -17304,20 +17304,6 @@
         "path": "Documents/shrinking-world.io/ghost.org/teach/course_ai_prep.md",
         "folder": 5,
         "words": 272,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 94316,
-    "fields": {
-        "blog": 856,
-        "order": 3,
-        "title": "cuments/shrinking-world.io/teach/genetics-book.md",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/teach/genetics-book.md",
-        "folder": 5,
-        "words": 353,
         "retain_object": false
     }
 },
@@ -17541,7 +17527,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_04_14.md",
         "folder": 6,
-        "words": 91,
+        "words": 90,
         "retain_object": false
     }
 },
@@ -18466,6 +18452,20 @@
         "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Process.md",
         "folder": 1,
         "words": 307,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 94399,
+    "fields": {
+        "blog": 856,
+        "order": 3,
+        "title": "cuments/shrinking-world.io/teach/genetics_book.md",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/teach/genetics_book.md",
+        "folder": 5,
+        "words": 353,
         "retain_object": false
     }
 }

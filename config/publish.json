@@ -412,7 +412,7 @@
         "auto_index": true,
         "index_folders": false,
         "index_months": false,
-        "simple_index": false
+        "simple_index": true
     }
 },
 {

@@ -122,11 +122,16 @@ def ghost_write(args):
                        link_url=link_url)
         write_post(path,  options)
 
-    path = Path('Documents/shrinking-world.io/ghost.org')/(args[0]+'.md')
-    if 'weekly' in args[0]:
-        write_weekly(args[0])
+
+    path = Path('Documents/shrinking-world.io/ghost.org')
+    if args:
+        path = path/(args[0]+'.md')
+        if 'weekly' in args[0]:
+            write_weekly(args[0])
+        else:
+            write_article(path, args)
     else:
-        write_article(path, args)
+        edit_file(path)
     return path
 
 

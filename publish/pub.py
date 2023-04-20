@@ -48,7 +48,7 @@ def build_pubs(pub=None):
             if not dest.exists():
                 dest.mkdir()
             for f in source.iterdir():
-                print(f"COPY FILES {pub.name} {f} {dest/f.name}")
+                # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
                 copyfile(f, dest/f.name)
         text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
 

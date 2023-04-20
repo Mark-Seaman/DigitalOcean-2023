@@ -23,6 +23,7 @@
 * [My Android Assistant](/io/innovate-chet_gupta.md)                            
 * [Communication Channels](/io/innovate-communication.md)                       
 * [Innovate](/io/innovate-innovate.md)                                          
+* [le: innovate/innovation.md](/io/innovate-innovation.md)                      
 * [Birth of the Internet](/io/innovate-internet_birth.md)                       
 * [cuments/shrinking-world.io/innovate/mastodon.md](/io/innovate-mastodon.md)   
 * [The Personal Computer (1980s)](/io/innovate-personal_computer.md)            
@@ -51,7 +52,7 @@
 * [The Shrinking World - March 17, 2023](/io/weekly-2023_03_17.md)              
 * [The Shrinking World - March 24, 2023](/io/weekly-2023_03_24.md)              
 * [The Shrinking World Digest - March 31, 2023](/io/weekly-2023_03_31.md)       
-* [The Shrinking World Digest - April 7, 2023](/io/weekly-2023_04_07.md)        
+* [The Shrinking World Digest - April 14, 2023](/io/weekly-2023_04_14.md)       
 
 ## [Writing and Publishing](/io/write-Index.md)                                
 

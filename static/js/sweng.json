@@ -6,10 +6,11 @@
     "title": "Shrinking World Solutions",
     "css": "/static/css/shrinking-world.css",
     "doc_path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book",
-    "image_path": "/static/images/shrinking-world.com/tech",
+    "image_path": "/static/images/Shrinking-World-Pubs/SoftwareEngineering",
     "description": "Using technology to solve problems",
-    "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
+    "cover_image": "/static/images/Shrinking-World-Pubs/SoftwareEngineering/Cover.png",
     "menu": "static/js/nav_sw.json",
     "pub_type": "private",
-    "auto_index": true
+    "auto_index": true,
+    "simple_index": true
 }

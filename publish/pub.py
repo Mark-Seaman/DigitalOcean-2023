@@ -32,6 +32,21 @@ def all_pubs():
 
 
 def build_pubs(pub=None):
+    def copy_static_files(pub):
+        js1 = f'{pub.doc_path}/{pub.name}.json'
+        js2 = f'static/js/{pub.name}.json'
+        if Path(js1).exists():
+            print(js1, js2)
+            copyfile(js1, js2)
+        source = Path(pub.doc_path)/'../Images'
+        dest = Path(pub.image_path[1:])
+        if source.exists():
+            if not dest.exists():
+                dest.mkdir()
+            for f in source.iterdir():
+                # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
+                copyfile(f, dest/f.name)
+
     # delete_pubs()
     log = create_pubs()
 
@@ -42,14 +57,7 @@ def build_pubs(pub=None):
         if pub.auto_index:
             # print("CREATE Index")
             create_pub_index(pub, get_pub_contents(pub))
-        source = Path(pub.doc_path)/'../Images'
-        dest = Path(pub.image_path[1:])
-        if source.exists():
-            if not dest.exists():
-                dest.mkdir()
-            for f in source.iterdir():
-                # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
-                copyfile(f, dest/f.name)
+        copy_static_files(pub)
         text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
 
     save_pub_data()

@@ -16,7 +16,7 @@ Topics of Interest
 
 ### Articles on Writing
 
-
+* [Writing Poems](/poems/)
 * [AI For Writers](/ai-for-writers/)
 * [Life Story as a 3-act Play](/3-acts/)
 * [The Creative Process](/creative-process/)

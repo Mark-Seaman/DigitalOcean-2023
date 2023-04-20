@@ -15,6 +15,7 @@ Use technology to simplify everything
 
 ### Articles on Technology
 
+* [Effective Innovation](/innovation/)
 * [Prompting Chat-GPT](/chatGPT-prompt/)
 * [My Android Assistant](/chet-gupta/)
 * [Healthy Social Networking](/social-media/)

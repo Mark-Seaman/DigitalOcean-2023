@@ -4,6 +4,7 @@ from django.urls import reverse_lazy
 from django.utils.timezone import localtime
 from django.views.generic import (CreateView, DeleteView, RedirectView,
                                   TemplateView, UpdateView)
+from publish.files import read_json
 
 from publish.import_export import refresh_pub_from_git
 
@@ -49,8 +50,8 @@ class PubListView(TemplateView):
     def get_context_data(self, **kwargs):
         host = get_host(self.request)
         pub = self.kwargs.get('pub')
-        # kwargs = select_blog_doc(host, 'genetics',  "Index.md")
         kwargs['pubs'] = Pub.objects.filter(pub_type=pub)
+        kwargs["menu"] = read_json("static/js/nav_blog.json")["menu"]
         # if Path('Documents/Shrinking-World-Pubs/setup.py').exists():
         #     exec()
         # kwargs = super().get_context_data(**kwargs)

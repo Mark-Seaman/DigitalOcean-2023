@@ -10,7 +10,7 @@
     "css": "/static/css/book.css",
     "doc_path": "Documents/Shrinking-World-Pubs/MolecularCellBiology/Pub",
     "image_path": "/static/images/Shrinking-World-Pubs/MolecularCellBiology",
-    "cover_image": "/static/images/Shrinking-World-Pubs/MolecularCellBiology/ConstructingLife.png",
+    "cover_image": "/static/images/Shrinking-World-Pubs/MolecularCellBiology/Cover.png",
     "cover_title": false,
     "pub_type": "private",
     "menu": "static/js/nav_blog.json",

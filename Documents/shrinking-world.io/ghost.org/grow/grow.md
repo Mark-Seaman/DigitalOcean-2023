@@ -14,6 +14,7 @@ Manage the challenges of everyday life
 
 ### Articles about Personal Growth
 
+* [The Expectation Trap](/expectations/)
 * [Control Issues](/what-i-control/)
 * [Defining Success](/success/)
 * [The Brain and Emotions](/neurochemicals/)

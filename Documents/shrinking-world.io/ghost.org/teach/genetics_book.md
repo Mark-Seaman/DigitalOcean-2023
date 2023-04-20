@@ -1,4 +1,4 @@
-Documents/shrinking-world.io/teach/genetics-book.md
+Documents/shrinking-world.io/teach/genetics_book.md
 
 # Genetics Textbook Project
 
@@ -14,6 +14,7 @@ many ways to create content, edit writing, and do research.
 
 
 ## Goals
+
 * Make a good start on a textbook for teaching Genetics to high school students
 * Create a workflow for interacting with Chat-GPT
 * Create a library of Chat-GPT prompts and techniques

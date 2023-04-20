@@ -1,101 +1,68 @@
 # AI Conversations
 
+* [AI Conversations](/ai/Index.md)                                              
 
-## [AI Conversations](/ai/Index.md)                                            
+* [Content Creator Business](/ai/BusinessCourse.md)                             
 
+* [Chat Book](/ai/ChatBook.md)                                                  
 
-## [Content Creator Business](/ai/BusinessCourse.md)                           
+* [Chet Gupta](/ai/ChetGupta.md)                                                
 
+* [4 Essential Skills for a Content Creator](/ai/CreatorSkills.md)              
 
-## [Chat Book](/ai/ChatBook.md)                                                
+* [Customer Journey](/ai/CustomerJourney.md)                                    
 
+* [AI Query - ](/ai/DataAnalytics.md.md)                                        
 
-## [Chet Gupta](/ai/ChetGupta.md)                                              
+* [Defining Success](/ai/DefiningSuccess.md)                                    
 
+* [Discipleship Course](/ai/Discipleship.md)                                    
 
-## [4 Essential Skills for a Content Creator](/ai/CreatorSkills.md)            
+* [AI Query - ](/ai/DrSeuss.md)                                                 
 
+* [Email Marketing Tools](/ai/EmailMarketing.md)                                
 
-## [Customer Journey](/ai/CustomerJourney.md)                                  
+* [Exponential Graph](/ai/ExponentialGraph.md)                                  
 
+* [AI Query - ](/ai/ForTheBirds.md)                                             
 
-## [AI Query - ](/ai/DataAnalytics.md.md)                                      
+* [Gout](/ai/Gout.md)                                                           
 
+* [owthHabits.md](/ai/GrowthHabits.md)                                          
 
-## [Defining Success](/ai/DefiningSuccess.md)                                  
+* [Henry Cloud](/ai/HenryCloud.md)                                              
 
+* [Japanese Course](/ai/Japanese.md)                                            
 
-## [Discipleship Course](/ai/Discipleship.md)                                  
+* [Marketing Funnel](/ai/MarketingFunnel.md)                                    
 
+* [AI Query - ](/ai/Mastodon.md)                                                
 
-## [AI Query - ](/ai/DrSeuss.md)                                               
+* [Modern Writer](/ai/ModernWriter.md)                                          
 
+* [Building a Successful Online Teaching Business](/ai/OnlineBusiness.md)       
 
-## [Email Marketing Tools](/ai/EmailMarketing.md)                              
+* [Professional Career](/ai/ProfessionalCareer.md)                              
 
+* [Season of Old Age](/ai/SeasonOfOldAge.md)                                    
 
-## [Exponential Graph](/ai/ExponentialGraph.md)                                
+* [Software Engineering Course](/ai/SoftwareEngineering.md)                     
 
+* [Spiritual Formation Course](/ai/SpiritualFormationCourse.md)                 
 
-## [AI Query - ](/ai/ForTheBirds.md)                                           
+* [Spirituality and Emotional Health](/ai/Spirituality.md)                      
 
+* [TeachingProgression](/ai/TeachingProgression.md)                             
 
-## [Gout](/ai/Gout.md)                                                         
+* [Template](/ai/Template.md)                                                   
 
+* [Shrinking World I/O](/ai/TheShrinkingWorld.md)                               
 
-## [owthHabits.md](/ai/GrowthHabits.md)                                        
+* [Transformation](/ai/Transformation.md)                                       
 
+* [Make Tweets from Article](/ai/Tweet.md)                                      
 
-## [Henry Cloud](/ai/HenryCloud.md)                                            
+* [Web Apps Course Announcement](/ai/WebApps.md)                                
 
-
-## [Japanese Course](/ai/Japanese.md)                                          
-
-
-## [Marketing Funnel](/ai/MarketingFunnel.md)                                  
-
-
-## [AI Query - ](/ai/Mastodon.md)                                              
-
-
-## [Modern Writer](/ai/ModernWriter.md)                                        
-
-
-## [Building a Successful Online Teaching Business](/ai/OnlineBusiness.md)     
-
-
-## [Professional Career](/ai/ProfessionalCareer.md)                            
-
-
-## [Season of Old Age](/ai/SeasonOfOldAge.md)                                  
-
-
-## [Software Engineering Course](/ai/SoftwareEngineering.md)                   
-
-
-## [Spiritual Formation Course](/ai/SpiritualFormationCourse.md)               
-
-
-## [Spirituality and Emotional Health](/ai/Spirituality.md)                    
-
-
-## [TeachingProgression](/ai/TeachingProgression.md)                           
-
-
-## [Template](/ai/Template.md)                                                 
-
-
-## [Shrinking World I/O](/ai/TheShrinkingWorld.md)                             
-
-
-## [Transformation](/ai/Transformation.md)                                     
-
-
-## [Make Tweets from Article](/ai/Tweet.md)                                    
-
-
-## [Web Apps Course Announcement](/ai/WebApps.md)                              
-
-
-## [Writer's Self-doubt](/ai/WritersDoubt.md)                                  
+* [Writer's Self-doubt](/ai/WritersDoubt.md)                                    
 

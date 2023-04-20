@@ -16665,90 +16665,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 96839,
-    "fields": {
-        "blog": 894,
-        "order": 6,
-        "title": "Grow",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/grow/grow.md",
-        "folder": 3,
-        "words": 57,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 96840,
-    "fields": {
-        "blog": 894,
-        "order": 7,
-        "title": "Finding Meaningful Work",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/grow/meaningful_work.md",
-        "folder": 3,
-        "words": 1156,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 96841,
-    "fields": {
-        "blog": 894,
-        "order": 8,
-        "title": "The Brain and Emotions ",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/grow/neurochemicals.md",
-        "folder": 3,
-        "words": 263,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 96842,
-    "fields": {
-        "blog": 894,
-        "order": 9,
-        "title": "Season of Old Age",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/grow/old-age.md",
-        "folder": 3,
-        "words": 276,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 96843,
-    "fields": {
-        "blog": 894,
-        "order": 10,
-        "title": "Defining Success",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/grow/success.md",
-        "folder": 3,
-        "words": 289,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 96844,
-    "fields": {
-        "blog": 894,
-        "order": 11,
-        "title": "Control Issues",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/grow/what-i-control.md",
-        "folder": 3,
-        "words": 125,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 96845,
     "fields": {
         "blog": 894,
@@ -16813,7 +16729,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/innovate/innovate.md",
         "folder": 4,
-        "words": 64,
+        "words": 67,
         "retain_object": false
     }
 },
@@ -16823,11 +16739,11 @@
     "fields": {
         "blog": 894,
         "order": 5,
-        "title": "le: innovate/innovation.md",
+        "title": "novation",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/innovate/innovation.md",
         "folder": 4,
-        "words": 392,
+        "words": 402,
         "retain_object": false
     }
 },
@@ -17001,48 +16917,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 96863,
-    "fields": {
-        "blog": 894,
-        "order": 7,
-        "title": "Build courses to teach skills",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/teach/teach.md",
-        "folder": 5,
-        "words": 67,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 96864,
-    "fields": {
-        "blog": 894,
-        "order": 8,
-        "title": " A Chance to Teach",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/teach/teaching_chance.md",
-        "folder": 5,
-        "words": 369,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 96865,
-    "fields": {
-        "blog": 894,
-        "order": 9,
-        "title": "Building Python Web Apps",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/teach/web_apps_book.md",
-        "folder": 5,
-        "words": 1029,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 96866,
     "fields": {
         "blog": 894,
@@ -17177,7 +17051,7 @@
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_04_14.md",
         "folder": 6,
-        "words": 107,
+        "words": 77,
         "retain_object": false
     }
 },
@@ -17290,48 +17164,6 @@
         "path": "Documents/shrinking-world.io/ghost.org/write/not_output.md",
         "folder": 7,
         "words": 237,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 96884,
-    "fields": {
-        "blog": 894,
-        "order": 9,
-        "title": "Incremental Project Development",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/write/project_doodly.md",
-        "folder": 7,
-        "words": 289,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 96885,
-    "fields": {
-        "blog": 894,
-        "order": 10,
-        "title": "Write",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/write/write.md",
-        "folder": 7,
-        "words": 66,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 96886,
-    "fields": {
-        "blog": 894,
-        "order": 11,
-        "title": "Writing My Story",
-        "doctype": "chapter",
-        "path": "Documents/shrinking-world.io/ghost.org/write/writing_my_story.md",
-        "folder": 7,
-        "words": 191,
         "retain_object": false
     }
 },
@@ -18102,6 +17934,230 @@
         "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Process.md",
         "folder": 1,
         "words": 307,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96942,
+    "fields": {
+        "blog": 894,
+        "order": 6,
+        "title": "The Expectation Trap: ",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/grow/expectations.md",
+        "folder": 3,
+        "words": 286,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96943,
+    "fields": {
+        "blog": 894,
+        "order": 7,
+        "title": "Grow",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/grow/grow.md",
+        "folder": 3,
+        "words": 61,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96944,
+    "fields": {
+        "blog": 894,
+        "order": 8,
+        "title": "Finding Meaningful Work",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/grow/meaningful_work.md",
+        "folder": 3,
+        "words": 1156,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96945,
+    "fields": {
+        "blog": 894,
+        "order": 9,
+        "title": "The Brain and Emotions ",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/grow/neurochemicals.md",
+        "folder": 3,
+        "words": 263,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96946,
+    "fields": {
+        "blog": 894,
+        "order": 10,
+        "title": "Season of Old Age",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/grow/old-age.md",
+        "folder": 3,
+        "words": 276,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96947,
+    "fields": {
+        "blog": 894,
+        "order": 11,
+        "title": "Defining Success",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/grow/success.md",
+        "folder": 3,
+        "words": 289,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96948,
+    "fields": {
+        "blog": 894,
+        "order": 12,
+        "title": "Control Issues",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/grow/what-i-control.md",
+        "folder": 3,
+        "words": 125,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96949,
+    "fields": {
+        "blog": 894,
+        "order": 7,
+        "title": "thon-web-apps",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/teach/python-web-apps.md",
+        "folder": 5,
+        "words": 194,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96950,
+    "fields": {
+        "blog": 894,
+        "order": 8,
+        "title": "Build courses to teach skills",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/teach/teach.md",
+        "folder": 5,
+        "words": 72,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96951,
+    "fields": {
+        "blog": 894,
+        "order": 9,
+        "title": " A Chance to Teach",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/teach/teaching_chance.md",
+        "folder": 5,
+        "words": 369,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96952,
+    "fields": {
+        "blog": 894,
+        "order": 10,
+        "title": "Building Python Web Apps",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/teach/web_apps_book.md",
+        "folder": 5,
+        "words": 1029,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96953,
+    "fields": {
+        "blog": 894,
+        "order": 10,
+        "title": "The Shrinking World Digest - April 21, 2023",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_04_21.md",
+        "folder": 6,
+        "words": 79,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96954,
+    "fields": {
+        "blog": 894,
+        "order": 9,
+        "title": "ems",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/write/poems.md",
+        "folder": 7,
+        "words": 174,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96955,
+    "fields": {
+        "blog": 894,
+        "order": 10,
+        "title": "Incremental Project Development",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/write/project_doodly.md",
+        "folder": 7,
+        "words": 289,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96956,
+    "fields": {
+        "blog": 894,
+        "order": 11,
+        "title": "Write",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/write/write.md",
+        "folder": 7,
+        "words": 69,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 96957,
+    "fields": {
+        "blog": 894,
+        "order": 12,
+        "title": "Writing My Story",
+        "doctype": "chapter",
+        "path": "Documents/shrinking-world.io/ghost.org/write/writing_my_story.md",
+        "folder": 7,
+        "words": 191,
         "retain_object": false
     }
 }

@@ -5,7 +5,7 @@ from .tests_pub import DjangoTest
 
 class RemoteBlogPagesTest(DjangoTest):
     def test_blog_seamanslog(self):
-        self.assertLines("https://seamanslog.com", 100, 130)
+        self.assertLines("https://seamanslog.com", 180, 190)
 
     def test_blog_spirit(self):
         self.assertLines("https://spiritual-things.org", 100, 121)

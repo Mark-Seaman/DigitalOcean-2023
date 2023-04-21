@@ -5,6 +5,7 @@ from shutil import copyfile
 
 from django.template.loader import render_to_string
 from django.utils.timezone import localdate
+from publish.cover import write_cover
 
 from workshop.management.commands.edit import edit_file
 
@@ -23,7 +24,7 @@ def write_blog(args=[]):
 
             options:
                 blogcast - write a blogcast article
-                ghost - write an article to post on Ghost.org
+                cover - design a cover for a book, blog, or video
                 green - show the Greenhouse for Ideas
                 io - edit the Shrinking World I/O website
                 plant topic - create Markdown for the selected idea
@@ -43,13 +44,15 @@ def write_blog(args=[]):
         # write blogcast Documents/markseaman.org/today/03/Success
         # write blogcast Documents/spiritual-things.org/transformation/LifeWithGod.ol
         write_blogcast(args[1:])
+    elif args[0] == 'cover':
+        write_cover(args[1:])
+    elif args[0] == 'genetics':
+        edit_genetics()
     elif args[0] == 'green':
         greenhouse()
     elif args[0] == 'io':
         ghost_write(args[1:])
         edit_io(args[1:])
-    elif args[0] == 'genetics':
-        edit_genetics()
     elif args[0] == 'plant':
         edit_file(plant(args[1:]))
     elif args[0] == 'markdown':
@@ -121,7 +124,6 @@ def ghost_write(args):
                        link_title='LINK PAGE TITLE',
                        link_url=link_url)
         write_post(path,  options)
-
 
     path = Path('Documents/shrinking-world.io/ghost.org')
     if args:

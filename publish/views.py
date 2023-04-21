@@ -4,10 +4,9 @@ from django.urls import reverse_lazy
 from django.utils.timezone import localtime
 from django.views.generic import (CreateView, DeleteView, RedirectView,
                                   TemplateView, UpdateView)
-from publish.files import read_json
 
-from publish.import_export import refresh_pub_from_git
-
+from .files import read_json
+from .import_export import refresh_pub_from_git
 from .models import Pub
 from .pub import doc_view_context, get_host, pub_redirect, select_blog_doc
 from .slides import slides_view_context
@@ -24,10 +23,23 @@ class BlogTodayView(RedirectView):
 
 class PubRedirectView(RedirectView):
     def get_redirect_url(self, *args, **kwargs):
+        x = bouncer_redirect(kwargs.get('id'))
+        if x:
+            return x
         host = get_host(self.request)
         pub = kwargs.get("pub")
         doc = kwargs.get("doc", 'Index.md')
         return pub_redirect(host, pub, doc)
+
+
+def bouncer_redirect(bouncer_id):
+    if bouncer_id:
+        bounce_table = read_json(
+            'Documents/Shrinking-World-Pubs/_bouncer.json')
+        url = bounce_table.get(str(bouncer_id))
+        if url:
+            print(url)
+            return url
 
 
 class PubView(TemplateView):

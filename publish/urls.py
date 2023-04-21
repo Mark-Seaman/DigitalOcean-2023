@@ -10,6 +10,7 @@ urlpatterns = [
     #
     # Pub Redirect
     path("", PubRedirectView.as_view()),
+    path("<int:id>", PubRedirectView.as_view()),
     path("book/", PubRedirectView.as_view(), name="book_list"),
     path("book/<str:pub>", PubRedirectView.as_view()),
     path("book/<str:pub>/<str:doc>", PubRedirectView.as_view()),

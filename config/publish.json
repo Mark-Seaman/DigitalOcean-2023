@@ -403,7 +403,7 @@
         "domain": "https://shrinking-world.com",
         "url": "/ai",
         "logo": null,
-        "words": 25440,
+        "words": 25538,
         "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -17401,7 +17401,7 @@
         "doctype": "folder",
         "path": "Documents/shrinking-world.com/ai/Index.md",
         "folder": 0,
-        "words": 128,
+        "words": 131,
         "retain_object": false
     }
 },

@@ -494,6 +494,32 @@
     }
 },
 {
+    "model": "publish.pub",
+    "pk": 956,
+    "fields": {
+        "name": "analytics",
+        "title": "Data Analytics",
+        "subtitle": "Priceless and Codeless",
+        "description": "Learning data analytics with Knime",
+        "doc_path": "Documents/Shrinking-World-Pubs/DataAnalytics/Pub",
+        "image_path": "/static/images/Shrinking-World-Pubs/DataAnalytics",
+        "css": "/static/css/book.css",
+        "domain": "https://shrinking-world.com",
+        "url": "/analytics",
+        "logo": null,
+        "words": 0,
+        "cover_image": "/static/images/Shrinking-World-Pubs/DataAnalytics/Cover.png",
+        "menu": "static/js/nav_blog.json",
+        "pub_type": "private",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": true,
+        "index_folders": false,
+        "index_months": false,
+        "simple_index": true
+    }
+},
+{
     "model": "publish.content",
     "pk": 99482,
     "fields": {
@@ -18172,6 +18198,20 @@
         "path": "Documents/shrinking-world.com/ai/WritersDoubt.md",
         "folder": 0,
         "words": 324,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 100747,
+    "fields": {
+        "blog": 956,
+        "order": 1,
+        "title": "Table of Contents",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/DataAnalytics/Pub/Index.md",
+        "folder": 0,
+        "words": 236,
         "retain_object": false
     }
 }

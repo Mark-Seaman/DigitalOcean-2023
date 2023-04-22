@@ -62,6 +62,8 @@
 
 * [Make Tweets from Article](/ai/Tweet.md)                                      
 
+* [Venn Diagram](/ai/VennDiagram.md)                                            
+
 * [Web Apps Course Announcement](/ai/WebApps.md)                                
 
 * [Writer's Self-doubt](/ai/WritersDoubt.md)                                    

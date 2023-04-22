@@ -18225,7 +18225,21 @@
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/DataAnalytics/Pub/Index.md",
         "folder": 0,
-        "words": 8,
+        "words": 11,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 100750,
+    "fields": {
+        "blog": 956,
+        "order": 3,
+        "title": "Chapter 1: Introduction to Data Analytics",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/DataAnalytics/Pub/01.md",
+        "folder": 0,
+        "words": 631,
         "retain_object": false
     }
 }

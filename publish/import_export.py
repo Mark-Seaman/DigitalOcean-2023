@@ -45,6 +45,7 @@ def create_pubs():
             cellbiology="Documents/Shrinking-World-Pubs/MolecularCellBiology/Pub",
             sweng="Documents/Shrinking-World-Pubs/SoftwareEngineering/Book",
             innovation="Documents/Shrinking-World-Pubs/Innovation/Pub",
+            analytics='Documents/Shrinking-World-Pubs/DataAnalytics/Pub',
             #
             # Extra
             # training="Documents/shrinking-world.com/blog/training",

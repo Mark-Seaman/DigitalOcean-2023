@@ -30,6 +30,7 @@ def write_blog(args=[]):
                 plant topic - create Markdown for the selected idea
                 markdown doc - conver the Markdown to HTML
                 masto - select an article, review it, and create a posting
+                new - create a new publication
                 render source dest script template - create a post file
                 slides - create a slide show from an outline
                 seamanslog - edit the blog post for today
@@ -53,12 +54,14 @@ def write_blog(args=[]):
     elif args[0] == 'io':
         ghost_write(args[1:])
         edit_io(args[1:])
-    elif args[0] == 'plant':
-        edit_file(plant(args[1:]))
     elif args[0] == 'markdown':
         markdown(args[1:])
     elif args[0] == 'masto':
         write_masto()
+    elif args[0] == 'new':
+        edit_file(new_pub(args[1:]))
+    elif args[0] == 'plant':
+        edit_file(plant(args[1:]))
     elif args[0] == 'render':
         return write_render(args[1:])
     elif args[0] == 'slides':
@@ -83,7 +86,6 @@ def write_blog(args=[]):
         write_workshop(args[1:])
     else:
         write_pub(args)
-
 
 def edit_genetics():
     x = Path.home()/'Github/Shrinking-World-Pubs/Genetics/Book'
@@ -142,6 +144,20 @@ def greenhouse():
                'Documents/shrinking-world.com/greenhouse/Content.ol',
                'Documents/shrinking-world.com/greenhouse'])
 
+
+def new_pub(args):
+
+    def make_dir(d):
+        if not d.exists():
+            d.mkdir()
+
+    x = Path(f'Documents/Shrinking-World-Pubs/{args[0]}')
+    make_dir(x)
+    make_dir(x/'AI')
+    make_dir(x/'Images')
+    make_dir(x/'Pub')
+    write_cover([x.name])
+    return x
 
 def render_document(**kwargs):
 

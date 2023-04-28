@@ -5,6 +5,7 @@ from shutil import copyfile
 
 from django.template.loader import render_to_string
 from django.utils.timezone import localdate
+from publish.ai import ghost_prompt
 from publish.cover import write_cover
 
 from workshop.management.commands.edit import edit_file
@@ -212,7 +213,8 @@ def write_ai(args):
         print('AI', args)
         pub = get_pub(args[0])
         path = f'{pub.doc_path}/../AI/{args[1]}'
-        print(read_file(path))
+        ghost_prompt(path, f'{pub.doc_path}/../AI/Response.md')
+        # print(read_file(path))
         # path = Path(f'Documents/Shrinking-World-Pubs/i/{args[0]}.md')
         # p = (args[1:] and args[1] == 'p')
         # n = (args[1:] and args[1] == 'n')

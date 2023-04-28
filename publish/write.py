@@ -210,12 +210,15 @@ def render_document(**kwargs):
 def write_ai(args):
     if args:
         print('AI', args)
-        path = Path(f'Documents/shrinking-world.com/ai/{args[0]}.md')
-        p = (args[1:] and args[1] == 'p')
-        n = (args[1:] and args[1] == 'n')
-        data = dict(file=path, text='RAW TEXT', template='pub/ai.md',
-                    paragraph=p, numbered_list=n)
-        write_post(path,  data)
+        pub = get_pub(args[0])
+        path = f'{pub.doc_path}/../AI/{args[1]}'
+        print(read_file(path))
+        # path = Path(f'Documents/Shrinking-World-Pubs/i/{args[0]}.md')
+        # p = (args[1:] and args[1] == 'p')
+        # n = (args[1:] and args[1] == 'n')
+        # data = dict(file=path, text='RAW TEXT', template='pub/ai.md',
+        #             paragraph=p, numbered_list=n)
+        # write_post(path,  data)
     else:
         edit_file(f'Documents/shrinking-world.com/ai')
         system('open https://chat.openai.com/chat')

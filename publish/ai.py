@@ -23,7 +23,7 @@ def transform_prompt(text):
 
 def ghost_prompt(request, response):
     text = read_file(request)
-    text = transform_prompt(text)
+    # text = transform_prompt(text)
     write_file(response, text)
     print(text)
     # print(f'Request {request}, Response: {response}')

@@ -1,14 +1,14 @@
+from django.template.loader import render_to_string
+from django.utils.timezone import localdate
 from os import system
 from pathlib import Path
 from re import sub
 from shutil import copyfile
 
-from django.template.loader import render_to_string
-from django.utils.timezone import localdate
-from publish.ai import ghost_prompt
-from publish.cover import write_cover
-
 from workshop.management.commands.edit import edit_file
+
+from .cover import write_cover
+from .ai import ghost_prompt
 
 from .files import read_file, write_file
 from .models import Content
@@ -212,8 +212,9 @@ def write_ai(args):
     if args:
         print('AI', args)
         pub = get_pub(args[0])
-        path = f'{pub.doc_path}/../AI/{args[1]}'
-        ghost_prompt(path, f'{pub.doc_path}/../AI/Response.md')
+        path1 = f'{pub.doc_path}/../AI/{args[1]}'
+        path2 = f'{pub.doc_path}/../AI/Response.md'
+        ghost_prompt(path1, path2)
         # print(read_file(path))
         # path = Path(f'Documents/Shrinking-World-Pubs/i/{args[0]}.md')
         # p = (args[1:] and args[1] == 'p')

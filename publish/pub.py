@@ -36,7 +36,7 @@ def build_pubs(pub=None):
         js1 = f'{pub.doc_path}/{pub.name}.json'
         js2 = f'static/js/{pub.name}.json'
         if Path(js1).exists():
-            print(js1, js2)
+            # print(js1, js2)
             copyfile(js1, js2)
         source = Path(pub.doc_path)/'../Images'
         dest = Path(pub.image_path[1:])

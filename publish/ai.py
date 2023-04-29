@@ -1,29 +1,25 @@
 import os
 from pathlib import Path
 
-import dotenv
-import openai
+from openai import api_key, ChatCompletion
 
-from publish.files import read_file, write_file
+from config.settings import BASE_DIR
 
-if Path('config/.env').exists():
-    dotenv.read_dotenv('config/.env')
-
-    # Load your API key from an environment variable or secret management service
-    openai.api_key = os.getenv("OPENAI_API_KEY")
+from .files import read_file, write_file
 
 def transform_prompt(text):
-    response = openai.Completion.create(
-        model="gpt-3.5-turbo", 
-        prompt=text, 
-        temperature=0, 
-        max_tokens=7)
-    print(response['choices'][0]['text'])
+    api_key = os.getenv("OPENAI_API_KEY")
+    messages = [
+        dict(role='system', content='You are an assistant'),
+        dict(role='user', content=f'write a summary of this [content]\n\n{text}')
+    ]
+    response = ChatCompletion.create(model="gpt-3.5-turbo", messages=messages, max_tokens=500)
+    return response['choices'][0]['message']['content']
 
 
-def ghost_prompt(request, response):
-    text = read_file(request)
-    # text = transform_prompt(text)
-    write_file(response, text)
+def ghost_prompt(in_file, out_file):
+    # d = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/SoftwareEngineering/AI'
+    text = read_file(in_file)
+    text = transform_prompt(text)
     print(text)
-    # print(f'Request {request}, Response: {response}')
+    write_file(out_file, text)

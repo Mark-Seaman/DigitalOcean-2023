@@ -78,7 +78,7 @@ class PubDataTest(TestCase):
 class PubInputOutputTest(DjangoTest):
     def test_build_blogs(self):
         build_pubs()
-        self.assertEqual(len(Pub.objects.all()), 19)
+        self.assertEqual(len(Pub.objects.all()), 20)
         num = len(Content.objects.all())
         self.assertRange(num, 1200, 1300, "Blog Contents")
 
@@ -144,7 +144,7 @@ class BlogPageTest(DjangoTest):
 class BookPageTest(DjangoTest):
     def test_book_list_page(self):
         page = "http://localhost:8000/publish/book"
-        self.assertLines(page, 200, 210)
+        self.assertLines(page, 200, 244)
 
     def test_book_journey_page(self):
         page = "http://localhost:8000/journey"

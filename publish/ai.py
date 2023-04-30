@@ -16,6 +16,7 @@ def transform_prompt(text):
     response = ChatCompletion.create(model="gpt-3.5-turbo", messages=messages, max_tokens=500)
     return response['choices'][0]['message']['content']
 
+
 def ghost_prompt(in_file, out_file):
     # d = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/SoftwareEngineering/AI'
     text = read_file(in_file)

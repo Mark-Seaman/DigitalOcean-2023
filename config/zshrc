@@ -34,6 +34,14 @@ export green=$d/shrinking-world.com/greenhouse
 export EDITOR="subl -w"
 
 
+# Pub Script
+alias project='pm pub project'
+alias chapter='pm pub chapter'
+alias create='pm pub create'
+alias publish='pm pub publish'
+alias edit='pm pub edit'
+alias files='pm pub files'
+
 # Project Scripts
 alias activity='week activity'
 alias ai='write ai'
@@ -45,7 +53,7 @@ alias docs='subl Documents'
 alias e='subl'
 alias ea='subl ~/Hammer/config/zshrc'
 alias gen='d; write genetics; d ~/Github/Shrinking-World-Pubs'
-alias ghost='write ghost'
+alias ghost='cd ~/Github/GhostWriter'
 alias green='write green'
 alias hammer="source ~/.zshrc && code $p"
 alias i='e $i/history/2023/03'
@@ -53,7 +61,7 @@ alias io='write io'
 alias masto='write masto'
 alias month='task month'
 alias pro='d $g/ProMETA'
-alias pub='d $p/Documents/Shrinking-World-Pubs && e .'
+alias pub='ghost && project'
 alias review='write review'
 alias slides='write slides'
 alias slog='subl $slog'

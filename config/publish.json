@@ -18021,34 +18021,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 100734,
-    "fields": {
-        "blog": 954,
-        "order": 1,
-        "title": "Software Engineering Theory & Application",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Author.md",
-        "folder": 0,
-        "words": 311,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 100735,
-    "fields": {
-        "blog": 954,
-        "order": 2,
-        "title": "SoftwareEngineering",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Index.md",
-        "folder": 0,
-        "words": 21,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 100736,
     "fields": {
         "blog": 954,
@@ -18240,6 +18212,34 @@
         "path": "Documents/Shrinking-World-Pubs/DataAnalytics/Pub/01.md",
         "folder": 0,
         "words": 2447,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 100751,
+    "fields": {
+        "blog": 954,
+        "order": 1,
+        "title": "Book Cover",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Cover.md",
+        "folder": 0,
+        "words": 14,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 100752,
+    "fields": {
+        "blog": 954,
+        "order": 2,
+        "title": "Software Engineering Theory & Application",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Author.md",
+        "folder": 0,
+        "words": 311,
         "retain_object": false
     }
 }

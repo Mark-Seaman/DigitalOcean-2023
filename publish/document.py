@@ -59,7 +59,7 @@ def document_body(text, image_path=None):
 
 
 def document_html(text):
-    return char_fix(markdown(text))
+    return char_fix(markdown(text, extensions=['tables']))
 
 
 def document_title(path):

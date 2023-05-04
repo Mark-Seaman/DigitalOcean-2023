@@ -106,16 +106,15 @@ def vc_dirs():
     # Macs
     hammer = Path.home() / "Hammer"
     if exists(hammer):
-
-        docs = hammer / "Documents/Shrinking-World-Pubs"
-        # shrinking = docs / "shrinking-world.com"
-        # bacs350 = shrinking / "bacs350"
-        # bacs200 = shrinking / "bacs200"
-        # cs350 = shrinking / "cs350"
-
+        pubs = hammer / "Documents/Shrinking-World-Pubs"
+        github = Path.home() / "Github"
+        ghost = github / "GhostWriter"
+        prometa = github / "ProMETA"
         dirs = []
         dirs.append(hammer)
-        dirs.append(docs)
+        dirs.append(prometa)
+        dirs.append(pubs)
+        dirs.append(ghost)
         return [PurePath(d) for d in dirs if d.exists()]
 
 

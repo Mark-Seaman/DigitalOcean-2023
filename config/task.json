@@ -91,7 +91,11 @@
 },
 {
     "model": "task.activity",
+<<<<<<< HEAD
     "pk": 440,
+=======
+    "pk": 272,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Family",
         "type": 5
@@ -99,7 +103,11 @@
 },
 {
     "model": "task.activity",
+<<<<<<< HEAD
     "pk": 441,
+=======
+    "pk": 273,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Church",
         "type": 5
@@ -115,7 +123,19 @@
 },
 {
     "model": "task.activity",
+<<<<<<< HEAD
     "pk": 443,
+=======
+    "pk": 274,
+    "fields": {
+        "name": "Fun",
+        "type": 5
+    }
+},
+{
+    "model": "task.activity",
+    "pk": 275,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Grow",
         "type": 6
@@ -45255,7 +45275,35 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47375,
+=======
+    "pk": 48352,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    Ghost Writer project idea\n    work with Josiah\n    build Ghost Writer repo\n    debug Writer Script",
+        "date": "2023-04-28",
+        "hours": 12,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 48355,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    Ghost Writer Wizard - plan for framework\n    architecture for Writer Script\n    tracking history of written content\n    build details of directory structure and interactive api",
+        "date": "2023-04-29",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 48432,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -45267,7 +45315,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47376,
+=======
+    "pk": 48433,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -45279,7 +45331,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47377,
+=======
+    "pk": 48434,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -45291,7 +45347,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47378,
+=======
+    "pk": 48435,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -45303,10 +45363,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47379,
     "fields": {
         "name": "Fun",
         "activity": 442,
+=======
+    "pk": 48436,
+    "fields": {
+        "name": "Fun",
+        "activity": 274,
+>>>>>>> refs/remotes/origin/main
         "notes": "    Ticket to Paradise",
         "date": "2023-01-26",
         "hours": 2,
@@ -45315,7 +45382,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47380,
+=======
+    "pk": 48437,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -45327,7 +45398,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47381,
+=======
+    "pk": 48438,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -45339,7 +45414,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47382,
+=======
+    "pk": 48439,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -45351,10 +45430,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47383,
     "fields": {
         "name": "Church",
         "activity": 441,
+=======
+    "pk": 48440,
+    "fields": {
+        "name": "Church",
+        "activity": 273,
+>>>>>>> refs/remotes/origin/main
         "notes": "    prep for EHS class with Stacie",
         "date": "2023-01-27",
         "hours": 3,
@@ -45363,10 +45449,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47384,
     "fields": {
         "name": "Family",
         "activity": 440,
+=======
+    "pk": 48441,
+    "fields": {
+        "name": "Family",
+        "activity": 272,
+>>>>>>> refs/remotes/origin/main
         "notes": "    cook ready-made chicken pasta",
         "date": "2023-01-27",
         "hours": 2,
@@ -45375,10 +45468,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47385,
     "fields": {
         "name": "Fun",
         "activity": 442,
+=======
+    "pk": 48442,
+    "fields": {
+        "name": "Fun",
+        "activity": 274,
+>>>>>>> refs/remotes/origin/main
         "notes": "    Mummy",
         "date": "2023-01-27",
         "hours": 2,
@@ -45387,10 +45487,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47386,
     "fields": {
         "name": "Grow",
         "activity": 443,
+=======
+    "pk": 48443,
+    "fields": {
+        "name": "Grow",
+        "activity": 275,
+>>>>>>> refs/remotes/origin/main
         "notes": "    night watch: business and writing ideas",
         "date": "2023-01-28",
         "hours": 1,
@@ -45399,7 +45506,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47387,
+=======
+    "pk": 48444,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -45411,7 +45522,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47388,
+=======
+    "pk": 48445,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -45423,10 +45538,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47389,
     "fields": {
         "name": "Family",
         "activity": 440,
+=======
+    "pk": 48446,
+    "fields": {
+        "name": "Family",
+        "activity": 272,
+>>>>>>> refs/remotes/origin/main
         "notes": "    \n    family night\n    ",
         "date": "2023-01-28",
         "hours": 2,
@@ -45435,7 +45557,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47390,
+=======
+    "pk": 48447,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -45447,10 +45573,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47391,
     "fields": {
         "name": "Fun",
         "activity": 442,
+=======
+    "pk": 48448,
+    "fields": {
+        "name": "Fun",
+        "activity": 274,
+>>>>>>> refs/remotes/origin/main
         "notes": "    Mummy\n    Eli Stone",
         "date": "2023-01-28",
         "hours": 1,
@@ -45459,10 +45592,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47392,
     "fields": {
         "name": "Grow",
         "activity": 443,
+=======
+    "pk": 48449,
+    "fields": {
+        "name": "Grow",
+        "activity": 275,
+>>>>>>> refs/remotes/origin/main
         "notes": "    night watch: Multicast publishing, Blues",
         "date": "2023-01-29",
         "hours": 2,
@@ -45471,7 +45611,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47393,
+=======
+    "pk": 48450,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -45483,10 +45627,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47394,
     "fields": {
         "name": "Church",
         "activity": 441,
+=======
+    "pk": 48451,
+    "fields": {
+        "name": "Church",
+        "activity": 273,
+>>>>>>> refs/remotes/origin/main
         "notes": "    church with Hendricksons\n    La Viña service",
         "date": "2023-01-29",
         "hours": 5,
@@ -45495,10 +45646,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47395,
     "fields": {
         "name": "Family",
         "activity": 440,
+=======
+    "pk": 48452,
+    "fields": {
+        "name": "Family",
+        "activity": 272,
+>>>>>>> refs/remotes/origin/main
         "notes": "    Hendricksons & Webbs at Austin's",
         "date": "2023-01-29",
         "hours": 2,
@@ -45507,10 +45665,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47396,
     "fields": {
         "name": "Fun",
         "activity": 442,
+=======
+    "pk": 48453,
+    "fields": {
+        "name": "Fun",
+        "activity": 274,
+>>>>>>> refs/remotes/origin/main
         "notes": "    The Gray Man",
         "date": "2023-01-29",
         "hours": 3,
@@ -45519,10 +45684,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47397,
     "fields": {
         "name": "Grow",
         "activity": 443,
+=======
+    "pk": 48454,
+    "fields": {
+        "name": "Grow",
+        "activity": 275,
+>>>>>>> refs/remotes/origin/main
         "notes": "    gout day 28 - text to Dr Rhoads\n    night watch: Think Tank\n    weekly reflection",
         "date": "2023-01-30",
         "hours": 2,
@@ -45531,7 +45703,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47398,
+=======
+    "pk": 48455,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -45543,7 +45719,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47399,
+=======
+    "pk": 48456,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -45555,7 +45735,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47400,
+=======
+    "pk": 48457,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -45567,10 +45751,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47401,
     "fields": {
         "name": "Family",
         "activity": 440,
+=======
+    "pk": 48458,
+    "fields": {
+        "name": "Family",
+        "activity": 272,
+>>>>>>> refs/remotes/origin/main
         "notes": "    Garcias - Free Form on iPad",
         "date": "2023-01-30",
         "hours": 2,
@@ -45579,10 +45770,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47402,
     "fields": {
         "name": "Fun",
         "activity": 442,
+=======
+    "pk": 48459,
+    "fields": {
+        "name": "Fun",
+        "activity": 274,
+>>>>>>> refs/remotes/origin/main
         "notes": "    Tales of the Jedi\n    Sim City (level 50)",
         "date": "2023-01-30",
         "hours": 2,
@@ -45591,10 +45789,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47403,
     "fields": {
         "name": "Grow",
         "activity": 443,
+=======
+    "pk": 48460,
+    "fields": {
+        "name": "Grow",
+        "activity": 275,
+>>>>>>> refs/remotes/origin/main
         "notes": "    night watch: Timothy, Hebrews\n    20-below wind chill",
         "date": "2023-01-31",
         "hours": 1,
@@ -45603,7 +45808,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47404,
+=======
+    "pk": 48461,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -45615,7 +45824,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47405,
+=======
+    "pk": 48462,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -45627,10 +45840,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47406,
     "fields": {
         "name": "Family",
         "activity": 440,
+=======
+    "pk": 48463,
+    "fields": {
+        "name": "Family",
+        "activity": 272,
+>>>>>>> refs/remotes/origin/main
         "notes": "    call Dad on birthday\n    ",
         "date": "2023-01-31",
         "hours": 0,
@@ -45639,7 +45859,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47407,
+=======
+    "pk": 48464,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -45651,10 +45875,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47408,
     "fields": {
         "name": "Fun",
         "activity": 442,
+=======
+    "pk": 48465,
+    "fields": {
+        "name": "Fun",
+        "activity": 274,
+>>>>>>> refs/remotes/origin/main
         "notes": "    Mummy Returns\n    Hoopla borrows",
         "date": "2023-01-31",
         "hours": 3,
@@ -45663,7 +45894,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47409,
+=======
+    "pk": 48466,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -45675,7 +45910,11 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47410,
+=======
+    "pk": 48467,
+>>>>>>> refs/remotes/origin/main
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -45687,10 +45926,17 @@
 },
 {
     "model": "task.task",
+<<<<<<< HEAD
     "pk": 47411,
     "fields": {
         "name": "Church",
         "activity": 441,
+=======
+    "pk": 48468,
+    "fields": {
+        "name": "Church",
+        "activity": 273,
+>>>>>>> refs/remotes/origin/main
         "notes": "    Emotionally Healthy Relationships",
         "date": "2023-02-01",
         "hours": 5,

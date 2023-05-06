@@ -3,7 +3,6 @@ from pathlib import Path
 
 from publish.document import document_body, document_html, document_title
 from publish.files import read_file, read_json
-from student.models import Student
 from .models import Author, Content, Course
 
 

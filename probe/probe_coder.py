@@ -3,7 +3,7 @@ from django.utils.timezone import localdate
 from probe.probe import check_file_count, show_files
 from publish.files import read_file
 from publish.text import text_join
-from xworkshop.file_search import probe_files, python_code_files, template_files
+from publish.file_search import probe_files, python_code_files, template_files
 
 
 def test_coder_app_spec():

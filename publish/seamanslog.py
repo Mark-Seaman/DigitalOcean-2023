@@ -10,7 +10,7 @@ from publish.days import yesterday
 from publish.document import document_body, document_title, title
 from publish.files import fix_chars, read_file
 from publish.pub import get_pub, list_content
-from xworkshop.management.commands.edit import edit_file
+from publish.management.commands.edit import edit_file
 
 
 def article_paragraphs(text):

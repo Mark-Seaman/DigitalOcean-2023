@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .book_cover import BookCoverView
+from ..publish.book_cover import BookCoverView
 from .views_views import (
     AccordionView,
     CardView,

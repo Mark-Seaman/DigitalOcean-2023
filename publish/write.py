@@ -6,8 +6,7 @@ from shutil import copyfile
 from django.template.loader import render_to_string
 from django.utils.timezone import localdate
 
-from xworkshop.management.commands.edit import edit_file
-
+from .management.commands.edit import edit_file
 from .ai import ghost_prompt
 from .cover import write_cover
 from .files import read_file, write_file

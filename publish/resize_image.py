@@ -1,7 +1,8 @@
 from os import listdir
 from os.path import exists
-from PIL import Image
 from traceback import format_exc
+
+from PIL import Image
 
 
 def create_thumbnail(infile, outfile):

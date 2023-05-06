@@ -55,7 +55,6 @@ INSTALLED_APPS = [
     "crispy_forms",
     # My Apps
     "publish",
-    "course",
     "probe",
     "task",
     "workshop",

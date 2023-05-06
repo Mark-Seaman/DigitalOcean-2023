@@ -4,7 +4,6 @@ from re import findall, sub
 
 from django.template.loader import render_to_string
 
-from course.slides import render_slides
 from publish.models import Pub
 from publish.pub import get_pub
 from workshop.management.commands.edit import edit_file

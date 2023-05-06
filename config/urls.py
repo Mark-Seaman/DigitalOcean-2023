@@ -22,7 +22,7 @@ urlpatterns = [
     # path("factory/", include("workshop.urls_factory")),
     #
     # Course
-    path("", include("course.urls")),
+    # path("", include("course.urls")),
     #
     # Book & Blogs
     path("", include("publish.urls")),

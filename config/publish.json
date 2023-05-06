@@ -520,6 +520,32 @@
     }
 },
 {
+    "model": "publish.pub",
+    "pk": 977,
+    "fields": {
+        "name": "ghost",
+        "title": "Ghost Writer",
+        "subtitle": "Forging an AI Parternership",
+        "description": "How to use AI to make writing more interesting and fun.",
+        "doc_path": "Documents/Shrinking-World-Pubs/GhostWriter/Pub",
+        "image_path": "/static/images/Shrinking-World-Pubs/GhostWriter",
+        "css": "/static/css/book.css",
+        "domain": "https://shrinking-world.com",
+        "url": "/analytics",
+        "logo": null,
+        "words": 0,
+        "cover_image": "/static/images/Shrinking-World-Pubs/GhostWriter/Cover.png",
+        "menu": "static/js/nav_blog.json",
+        "pub_type": "private",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": true,
+        "index_folders": false,
+        "index_months": false,
+        "simple_index": true
+    }
+},
+{
     "model": "publish.content",
     "pk": 100758,
     "fields": {
@@ -18282,6 +18308,20 @@
         "path": "Documents/Shrinking-World-Pubs/DataAnalytics/Pub/01.md",
         "folder": 0,
         "words": 2447,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 102027,
+    "fields": {
+        "blog": 977,
+        "order": 1,
+        "title": "Ghost Writer - AI for Writers",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/GhostWriter/Pub/TableOfContents.md",
+        "folder": 0,
+        "words": 203,
         "retain_object": false
     }
 }

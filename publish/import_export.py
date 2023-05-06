@@ -39,6 +39,7 @@ def create_pubs():
             # video="Documents/seamanslog.com/video",
             #
             # Private
+            ghost="Documents/Shrinking-World-Pubs/Ghost/Pub",
             private="Documents/markseaman.info",
             io="Documents/shrinking-world.io/ghost.org",
             ai="Documents/shrinking-world.com/ai",

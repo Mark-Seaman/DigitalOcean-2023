@@ -1,8 +1,6 @@
-from django.core.management.base import BaseCommand
 from django.contrib.auth import get_user_model
+from django.core.management.base import BaseCommand
 
-from course.import_export import import_all_courses
-from course.textbook import generate_textbook
 from publish.import_export import load_data
 from publish.pub import build_pubs
 from publish.seamanslog import review_file
@@ -25,9 +23,6 @@ class Command(BaseCommand):
         if cmd == "data":
             print("BUILD DATA")
             load_data()
-        elif cmd == "courses":
-            print("BUILD COURSES")
-            print(import_all_courses())
         elif cmd == "images":
             print("BUILD IMAGES")
             print(build_images())

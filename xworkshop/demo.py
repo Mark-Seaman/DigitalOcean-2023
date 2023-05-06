@@ -1,7 +1,7 @@
 from pathlib import Path
 
-from workshop.app_generator import clone_code, create_new_app, create_new_project, generate_data_type
-from workshop.models import DataFactory
+from xworkshop.app_generator import clone_code, create_new_app, create_new_project, generate_data_type
+from xworkshop.models import DataFactory
 
 
 def generate_demo_apps():

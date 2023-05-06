@@ -57,7 +57,7 @@ INSTALLED_APPS = [
     "publish",
     "probe",
     "task",
-    "workshop",
+    "xworkshop",
 ]
 
 MIDDLEWARE = [

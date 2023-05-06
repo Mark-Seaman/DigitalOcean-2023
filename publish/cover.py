@@ -3,7 +3,7 @@ from django.template.loader import render_to_string
 from PIL import Image
 
 from publish.files import read_file, read_json, write_json
-from workshop.resize_image import crop_image, save_image
+from xworkshop.resize_image import crop_image, save_image
 
 
 def write_cover(args):

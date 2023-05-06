@@ -11,7 +11,7 @@ from publish.seamanslog import (
     extract_message,
     random_article,
 )
-from workshop.management.commands.edit import edit_file
+from xworkshop.management.commands.edit import edit_file
 
 
 def create_files(path, start_day, num_days, path_name, set_text):

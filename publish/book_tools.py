@@ -3,7 +3,7 @@ from pathlib import Path
 from publish.document import document_body
 from publish.files import read_file, write_file
 from publish.text import text_lines, word_count
-from workshop.resize_image import create_cover_images
+from xworkshop.resize_image import create_cover_images
 
 from .models import Content, Pub
 

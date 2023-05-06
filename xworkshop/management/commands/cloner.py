@@ -1,7 +1,7 @@
 from django.core.management.base import BaseCommand, no_translations
 from shutil import copyfile
 
-from workshop.demo import generate_clone_code
+from xworkshop.demo import generate_clone_code
 
 
 class Command(BaseCommand):

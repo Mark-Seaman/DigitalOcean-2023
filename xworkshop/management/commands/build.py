@@ -4,7 +4,7 @@ from django.core.management.base import BaseCommand
 from publish.import_export import load_data
 from publish.pub import build_pubs
 from publish.seamanslog import review_file
-from workshop.imager import build_images, build_logos
+from xworkshop.imager import build_images, build_logos
 
 
 class Command(BaseCommand):

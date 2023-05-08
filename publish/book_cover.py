@@ -1,4 +1,5 @@
 from pathlib import Path
+
 from django.views.generic import TemplateView
 
 from publish.files import read_json

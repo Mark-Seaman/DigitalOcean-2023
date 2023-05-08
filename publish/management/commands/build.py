@@ -4,7 +4,6 @@ from django.core.management.base import BaseCommand
 from publish.import_export import load_data
 from publish.pub import build_pubs
 from publish.seamanslog import review_file
-from xworkshop.imager import build_images, build_logos
 
 
 class Command(BaseCommand):
@@ -23,12 +22,6 @@ class Command(BaseCommand):
         if cmd == "data":
             print("BUILD DATA")
             load_data()
-        elif cmd == "images":
-            print("BUILD IMAGES")
-            print(build_images())
-        elif cmd == "logos":
-            print("BUILD LOGOS")
-            print(build_logos())
         elif cmd == "pubs":
             print("BUILD PUBS")
             print(build_pubs())

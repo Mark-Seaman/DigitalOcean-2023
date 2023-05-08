@@ -2,7 +2,7 @@ from os import system
 
 from django.core.management.base import BaseCommand
 
-from probe.probe import run_tests, reset_tests, accept_results, test_results
+from probe.probe import accept_results, reset_tests, run_tests, test_results
 from probe.quick_test import quick_test
 
 

@@ -2,7 +2,7 @@ from traceback import format_exc
 
 from django.core.management.base import BaseCommand
 
-from xworkshop.vc import vc_command
+from publish.vc import vc_command
 
 # ------------------------------
 # Command Interpreter

@@ -6,10 +6,10 @@ from shutil import copyfile
 from django.template.loader import render_to_string
 from django.utils.timezone import localdate
 
-from .management.commands.edit import edit_file
 from .ai import ghost_prompt
 from .cover import write_cover
 from .files import read_file, write_file
+from .management.commands.edit import edit_file
 from .models import Content
 from .pub import get_pub, show_pub_summaries, show_pub_words
 from .seamanslog import create_toot_file, random_article

@@ -1,3 +1,4 @@
+from posixpath import join
 from re import findall
 
 from publish.files import file_search, recursive_dirs, recursive_files

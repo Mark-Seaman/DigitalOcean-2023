@@ -4,9 +4,9 @@ from re import findall, sub
 
 from django.template.loader import render_to_string
 
+from publish.management.commands.edit import edit_file
 from publish.models import Pub
 from publish.pub import get_pub
-from publish.management.commands.edit import edit_file
 
 from .document import document_body, document_html, document_title
 from .files import read_file, read_json, write_file

@@ -18324,5 +18324,33 @@
         "words": 2447,
         "retain_object": false
     }
+},
+{
+    "model": "publish.content",
+    "pk": 99906,
+    "fields": {
+        "blog": 1441,
+        "order": 2,
+        "title": "Chapter 1 - Introduction",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/GhostWriter/Pub/Chapter1.md",
+        "folder": 0,
+        "words": 1403,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 99907,
+    "fields": {
+        "blog": 1441,
+        "order": 3,
+        "title": "Chapter 2: Micropublishing",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/GhostWriter/Pub/Chapter2.md",
+        "folder": 0,
+        "words": 1671,
+        "retain_object": false
+    }
 }
 ]

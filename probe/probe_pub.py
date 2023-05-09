@@ -1,9 +1,5 @@
-from publish.pub import (
-    build_pubs,
-    save_pub_details,
-    show_pub_json,
-    show_pub_words,
-)
+from publish.pub import (build_pubs, save_pub_details, show_pub_json,
+                         show_pub_words)
 
 
 def test_pub_import():

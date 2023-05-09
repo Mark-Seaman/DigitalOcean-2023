@@ -6,7 +6,7 @@ from .document import document_body, document_html, document_title
 from .files import read_file, read_json
 from .import_export import create_pubs, import_pub, save_pub_data
 from .models import Content, Pub
-from .text import text_join, word_count
+from .text import line_count, text_join, word_count
 from .toc import (create_pub_index, pub_contents)
 
 
@@ -162,9 +162,11 @@ def random_doc_page(path):
 
 
 def save_pub_details():
+    text = ''
     for pub in all_pubs():
-        text = show_pub_details(pub)
+        text += show_pub_details(pub)
         word_count_file(pub).write_text(text)
+    return line_count(text)
 
 
 def select_blog_doc(host, blog, doc):
@@ -209,11 +211,6 @@ def show_pub_content(pub):
         for d in f.get("documents"):
             text += f"\n     {d}\n"
     return text
-
-
-def show_pub_contents():
-    pubs = [pub_contents(pub) for pub in all_pubs()]
-    return text_join(pubs)
 
 
 def show_pub_details(pub):

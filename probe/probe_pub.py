@@ -1,8 +1,9 @@
 from pathlib import Path
 from publish.pub import (
     build_pubs,
+    save_pub_details,
     show_pub_contents,
-    show_pub_index,
+    # show_pub_index,
     show_pub_json,
     show_pub_summaries,
     show_pub_words,
@@ -17,9 +18,9 @@ def test_pub_import():
     return build_pubs()
 
 
-def test_pub_index():
-    text = show_pub_index()
-    return show_pub_index()
+# def test_pub_index():
+#     text = show_pub_index()
+#     return show_pub_index()
 
 
 def test_pub_json():
@@ -27,7 +28,7 @@ def test_pub_json():
 
 
 def test_pub_show():
-    return show_pub_summaries()
+    return save_pub_details()
 
 
 def test_pub_words():

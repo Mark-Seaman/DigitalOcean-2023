@@ -4,7 +4,7 @@ from pprint import pprint
 from course.course import get_course, show_content, weekly_content
 from publish.book_tools import create_book_covers
 from publish.models import Content, Pub
-from publish.pub import build_pubs, get_pub, get_pub_contents, save_pub_details, show_pub_details, show_pub_index
+from publish.pub import build_pubs, get_pub, get_pub_contents, show_pub_words
 from publish.seamanslog import random_post
 from publish.toc import content_file, read_content_csv, write_content_csv
 from task.models import Activity, Task, TaskType
@@ -30,7 +30,8 @@ def tasks():
 
 
 def pubs():
-    save_pub_details()
+    # save_pub_details()
+    print(show_pub_words())
     # pub = get_pub('journey')
     # print(show_pub_details(pub))
     

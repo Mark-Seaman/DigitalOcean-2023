@@ -173,38 +173,6 @@ def random_doc_page(path):
     return x.replace(".md", "")
 
 
-def show_pub_content(pub):
-    text = f"PUB CONTENT - {pub.title}\n\n"
-    folders = get_pub_contents(pub)
-    for f in folders:
-        text += f"\nFOLDER {f.get('path')}\n"
-        for d in f.get("documents"):
-            text += f"\n     {d}\n"
-    return text
-
-
-def show_pub_contents():
-    pubs = [pub_contents(pub) for pub in all_pubs()]
-    return text_join(pubs)
-
-
-def show_pub_details(pub):
-    content = pub.content_set.all()
-    output = f'Pub Contents - {pub.name} - {pub.title}'
-    total_words = 0
-    for f in content.filter(folder=0):
-        folder_words = word_count(read_file(f.path))
-        output += f'\n{f.title} - {f.path} - {folder_words} words\n'
-        for d in content.filter(folder=f.order):
-            words = word_count(read_file(d.path))
-            folder_words += words
-            output += f'    {d.title} - {d.path} - {words} words\n'
-        output += f'    Words in {f.title}: {folder_words} words\n'
-        total_words += folder_words
-    output += f'\nTotal Words in {pub.title}: {total_words} words, {int(total_words/250)} pages\n'
-    return output
-
-
 def save_pub_details():
     for pub in all_pubs():
         text = show_pub_details(pub)
@@ -245,27 +213,59 @@ def select_blog_doc(host, blog, doc):
     return kwargs
 
 
-def show_pub_index(pub=None):
-    pubs = [pub] if pub else all_pubs()
-    output = 'show_pub_index():\n\n'
+def show_pub_content(pub):
+    text = f"PUB CONTENT - {pub.title}\n\n"
+    folders = get_pub_contents(pub)
+    for f in folders:
+        text += f"\nFOLDER {f.get('path')}\n"
+        for d in f.get("documents"):
+            text += f"\n     {d}\n"
+    return text
+
+
+def show_pub_contents():
+    pubs = [pub_contents(pub) for pub in all_pubs()]
+    return text_join(pubs)
+
+
+def show_pub_details(pub):
+    content = pub.content_set.all()
+    output = f'Pub Contents - {pub.name} - {pub.title}'
     total_words = 0
-    for pub in pubs:
-        text = "PUB INDEX\n\n"
-        contents = get_pub_contents(pub)
-        text += f"\n\nPub Index {pub.name} - {pub.title}\n\n"
-        for f in contents:
-            path = Path(f.get("path"))
-            if path.exists():
-                output += f'path: {path}\n\n'
-                text += f"---\n\n{path}\n\n"
-                text += path.read_text()
-            else:
-                text += f"\nMISSING: {path}\n"
-        words = word_count(text)
-        total_words += words
-        output += f'{pub.name} - {pub.doc_path} - {line_count(text)} lines - {words} words\n' 
-    output += f'\n\nTotal Words = {total_words} words, {int(total_words/250)} pages'
+    for f in content.filter(folder=0):
+        folder_words = word_count(read_file(f.path))
+        output += f'\n{f.title} - {f.path} - {folder_words} words\n'
+        for d in content.filter(folder=f.order):
+            words = word_count(read_file(d.path))
+            folder_words += words
+            output += f'    {d.title} - {d.path} - {words} words\n'
+        output += f'    Words in {f.title}: {folder_words} words\n'
+        total_words += folder_words
+    output += f'\nTotal Words in {pub.title}: {total_words} words, {int(total_words/250)} pages\n'
     return output
+
+
+# def show_pub_index(pub=None):
+#     pubs = [pub] if pub else all_pubs()
+#     output = 'show_pub_index():\n\n'
+#     total_words = 0
+#     for pub in pubs:
+#         text = "PUB INDEX\n\n"
+#         contents = get_pub_contents(pub)
+#         text += f"\n\nPub Index {pub.name} - {pub.title}\n\n"
+#         for f in contents:
+#             path = Path(f.get("path"))
+#             if path.exists():
+#                 output += f'path: {path}\n\n'
+#                 text += f"---\n\n{path}\n\n"
+#                 text += path.read_text()
+#             else:
+#                 text += f"\nMISSING: {path}\n"
+#         words = word_count(text)
+#         total_words += words
+#         output += f'{pub.name} - {pub.doc_path} - {line_count(text)} lines - {words} words\n' 
+#     output += f'\n\nTotal Words = {total_words} words, {int(total_words/250)} pages'
+#     return output
 
 
 def show_pub_words(pub=None):
@@ -273,13 +273,19 @@ def show_pub_words(pub=None):
     pubs = [pub] if pub else all_pubs()
     for pub in pubs:
         path = word_count_file(pub)
-        text += f"---\n\n{path}\n\n"
+        text += f"\n\n---\n\n{path}\n\n---\n\n"
         text += path.read_text()
     return text
 
 
 def show_pub_json():
-    return text_join([j.read_text() for j in Path("static/js").iterdir()])
+    text = "PUB JSON\n\n"
+    for js in Path("static/js").iterdir():
+        text += f"\n\n---\n\n{js}\n\n---\n\n"
+        text += js.read_text()
+    return text
+
+    # return text_join([j.read_text() for j in Path("static/js").iterdir()])
 
 
 def show_pub_summaries(pub=None):

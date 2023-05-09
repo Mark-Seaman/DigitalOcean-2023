@@ -18,6 +18,7 @@ def test_pub_import():
 
 
 def test_pub_index():
+    text = show_pub_index()
     return show_pub_index()
 
 

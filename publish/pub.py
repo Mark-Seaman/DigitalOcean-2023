@@ -6,7 +6,7 @@ from .document import document_body, document_html, document_title
 from .files import read_file, read_json, write_file
 from .import_export import create_pubs, import_pub, save_pub_data
 from .models import Content, Pub
-from .text import text_join, word_count
+from .text import line_count, text_join, text_lines, word_count
 from .toc import (create_pub_index, pub_contents, show_word_count,
                   table_of_contents)
 
@@ -188,6 +188,29 @@ def show_pub_contents():
     return text_join(pubs)
 
 
+def show_pub_details(pub):
+    content = pub.content_set.all()
+    output = f'Pub Contents - {pub.name} - {pub.title}'
+    total_words = 0
+    for f in content.filter(folder=0):
+        folder_words = word_count(read_file(f.path))
+        output += f'\n{f.title} - {f.path} - {folder_words} words\n'
+        for d in content.filter(folder=f.order):
+            words = word_count(read_file(d.path))
+            folder_words += words
+            output += f'    {d.title} - {d.path} - {words} words\n'
+        output += f'    Words in {f.title}: {folder_words} words\n'
+        total_words += folder_words
+    output += f'\nTotal Words in {pub.title}: {total_words} words, {int(total_words/250)} pages\n'
+    return output
+
+
+def save_pub_details():
+    for pub in all_pubs():
+        text = show_pub_details(pub)
+        word_count_file(pub).write_text(text)
+
+
 def select_blog_doc(host, blog, doc):
     def load_object(pub):
         return Pub.objects.filter(pk=pub.pk).values()[0]
@@ -223,19 +246,26 @@ def select_blog_doc(host, blog, doc):
 
 
 def show_pub_index(pub=None):
-    text = "PUB INDEX\n\n"
     pubs = [pub] if pub else all_pubs()
+    output = 'show_pub_index():\n\n'
+    total_words = 0
     for pub in pubs:
+        text = "PUB INDEX\n\n"
         contents = get_pub_contents(pub)
         text += f"\n\nPub Index {pub.name} - {pub.title}\n\n"
         for f in contents:
             path = Path(f.get("path"))
             if path.exists():
+                output += f'path: {path}\n\n'
                 text += f"---\n\n{path}\n\n"
                 text += path.read_text()
             else:
                 text += f"\nMISSING: {path}\n"
-    return text
+        words = word_count(text)
+        total_words += words
+        output += f'{pub.name} - {pub.doc_path} - {line_count(text)} lines - {words} words\n' 
+    output += f'\n\nTotal Words = {total_words} words, {int(total_words/250)} pages'
+    return output
 
 
 def show_pub_words(pub=None):

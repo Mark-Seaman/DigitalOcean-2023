@@ -12,7 +12,7 @@ from .ai import ghost_prompt
 
 from .files import read_file, write_file
 from .models import Content
-from .pub import get_pub, show_pub_summaries, show_pub_words
+from .pub import get_pub, show_pub_words
 from .seamanslog import create_toot_file, random_article
 from .slides import create_slides, markdown, plant, write_workshop
 from .text import text_lines
@@ -318,8 +318,6 @@ def write_today():
 
 def write_words(args=[]):
     print(f"write words {args}")
-    if not args:
-        print(show_pub_summaries())
     for pub in args:
         pub = get_pub(pub)
         print(show_pub_words(pub))

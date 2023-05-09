@@ -164,8 +164,9 @@ def random_doc_page(path):
 def save_pub_details():
     text = ''
     for pub in all_pubs():
-        text += show_pub_details(pub)
-        word_count_file(pub).write_text(text)
+        t = show_pub_details(pub)
+        text += t
+        word_count_file(pub).write_text(t)
     return line_count(text)
 
 

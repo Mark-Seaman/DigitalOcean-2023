@@ -52,7 +52,7 @@ def capture_ideas(options):
         x.write("* " + " ".join(options["command"][1:]) + "\n\n")
 
 
-def count_lines(text):
+def line_count(text):
     return len(text_lines(text))
 
 

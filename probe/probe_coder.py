@@ -15,7 +15,7 @@ def test_coder_date():
 
 
 def test_coder_probe_source():
-    return show_files("Probe Code ", probe_files, 350, 375)
+    return show_files("Probe Code ", probe_files, 340, 355)
 
 
 def test_coder_python_source():

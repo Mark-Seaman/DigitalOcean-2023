@@ -3,12 +3,11 @@ from random import choice
 from shutil import copyfile
 
 from .document import document_body, document_html, document_title
-from .files import read_file, read_json, write_file
+from .files import read_file, read_json
 from .import_export import create_pubs, import_pub, save_pub_data
 from .models import Content, Pub
-from .text import text_join, word_count
-from .toc import (create_pub_index, pub_contents, show_word_count,
-                  table_of_contents)
+from .text import line_count, text_join, word_count
+from .toc import (create_pub_index, pub_contents)
 
 
 def all_blogs():
@@ -127,17 +126,6 @@ def get_pub_folders(pub):
 
     return folders
 
-# def import_pubs(pub=None):
-#     text = ""
-#     pubs = [pub] if pub else all_pubs()
-#     for pub in pubs:
-#         import_pub(pub)
-#         if pub.auto_index:
-#             print("CREATE Index")
-#             create_pub_index(pub, get_pub_contents(pub))
-#         text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
-#     return text
-
 
 def list_content(pub):
     return [c for c in Content.objects.filter(blog=pub)]
@@ -173,19 +161,13 @@ def random_doc_page(path):
     return x.replace(".md", "")
 
 
-def show_pub_content(pub):
-    text = f"PUB CONTENT - {pub.title}\n\n"
-    folders = get_pub_contents(pub)
-    for f in folders:
-        text += f"\nFOLDER {f.get('path')}\n"
-        for d in f.get("documents"):
-            text += f"\n     {d}\n"
-    return text
-
-
-def show_pub_contents():
-    pubs = [pub_contents(pub) for pub in all_pubs()]
-    return text_join(pubs)
+def save_pub_details():
+    text = ''
+    for pub in all_pubs():
+        t = show_pub_details(pub)
+        text += t
+        word_count_file(pub).write_text(t)
+    return line_count(text)
 
 
 def select_blog_doc(host, blog, doc):
@@ -222,20 +204,31 @@ def select_blog_doc(host, blog, doc):
     return kwargs
 
 
-def show_pub_index(pub=None):
-    text = "PUB INDEX\n\n"
-    pubs = [pub] if pub else all_pubs()
-    for pub in pubs:
-        contents = get_pub_contents(pub)
-        text += f"\n\nPub Index {pub.name} - {pub.title}\n\n"
-        for f in contents:
-            path = Path(f.get("path"))
-            if path.exists():
-                text += f"---\n\n{path}\n\n"
-                text += path.read_text()
-            else:
-                text += f"\nMISSING: {path}\n"
+def show_pub_content(pub):
+    text = f"PUB CONTENT - {pub.title}\n\n"
+    folders = get_pub_contents(pub)
+    for f in folders:
+        text += f"\nFOLDER {f.get('path')}\n"
+        for d in f.get("documents"):
+            text += f"\n     {d}\n"
     return text
+
+
+def show_pub_details(pub):
+    content = pub.content_set.all()
+    output = f'Pub Contents - {pub.name} - {pub.title}'
+    total_words = 0
+    for f in content.filter(folder=0):
+        folder_words = word_count(read_file(f.path))
+        output += f'\n{f.title} - {f.path} - {folder_words} words\n'
+        for d in content.filter(folder=f.order):
+            words = word_count(read_file(d.path))
+            folder_words += words
+            output += f'    {d.title} - {d.path} - {words} words\n'
+        output += f'    Words in {f.title}: {folder_words} words\n'
+        total_words += folder_words
+    output += f'\nTotal Words in {pub.title}: {total_words} words, {int(total_words/250)} pages\n'
+    return output
 
 
 def show_pub_words(pub=None):
@@ -243,77 +236,17 @@ def show_pub_words(pub=None):
     pubs = [pub] if pub else all_pubs()
     for pub in pubs:
         path = word_count_file(pub)
-        text += f"---\n\n{path}\n\n"
+        text += f"\n\n---\n\n{path}\n\n---\n\n"
         text += path.read_text()
     return text
 
 
 def show_pub_json():
-    return text_join([j.read_text() for j in Path("static/js").iterdir()])
-
-
-def show_pub_summaries(pub=None):
-    def count_words(pub):
-        words = 0
-        for c in Content.objects.filter(blog=pub):
-            words += doc_words(c.path)
-        pub.words = words
-        pub.save()
-
-    def doc_words(path):
-        return word_count(read_file(path))
-
-    def pub_summary(pub):
-        count_words(pub)
-        title = f"{pub.pub_type:8} {pub.name:15} {pub.title:30}"
-        posts = len(Content.objects.filter(blog=pub))
-        return show_word_count(title, pub.words, posts)
-
-    def update_word_counts(pub):
-        path = word_count_file(pub)
-        contents = get_pub_contents(pub)
-        write_file(path, table_of_contents(pub, contents, True))
-
-    def pub_summaries(pub):
-        text = "My Pubs\n\n"
-        total_words = 0
-        total_posts = 0
-        pubs = [pub] if pub else all_pubs()
-        for pub in pubs:
-            text += pub_summary(pub)
-            total_words += pub.words
-            update_word_counts(pub)
-            posts = len(Content.objects.filter(blog=pub))
-            total_posts += posts
-        text += show_word_count("\n\nTotal Words:", total_words, total_posts)
-        return text
-
-    return pub_summaries(pub)
-
-
-def update_pub_content():
-    # pub = get_pub("video")
-    # import_pub(pub)
-    # if pub.auto_index:
-    #     # print("CREATE Index")
-    #     create_pub_index(pub, get_pub_contents(pub))
-
-    # pub = get_pub("today")
-    # contents = get_pub_contents(pub)
-    # print(table_of_contents(pub, contents, False))
-    # show_pub_index(pub)
-    # print(show_pub_words(pub))
-
-    print(show_pub_summaries())
-
-    # print(create_pub_index(pub))
-    # print(test_documents_fix_chars())
-
-    # list_pubs()
-    # show_pubs()
-    # show_pub_json()
-
-    # pub = get_pub("sampler")
+    text = "PUB JSON\n\n"
+    for js in Path("static/js").iterdir():
+        text += f"\n\n---\n\n{js}\n\n---\n\n"
+        text += js.read_text()
+    return text
 
 
 def word_count_file(pub):

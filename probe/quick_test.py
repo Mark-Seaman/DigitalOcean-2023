@@ -1,8 +1,9 @@
 from pathlib import Path
+from pprint import pprint
 
 # from publish.book_tools import create_book_covers
 from publish.models import Content, Pub
-from publish.pub import build_pubs, get_pub, get_pub_contents
+from publish.pub import build_pubs, get_pub, get_pub_contents, show_pub_words
 from publish.seamanslog import random_post
 from publish.toc import content_file, read_content_csv, write_content_csv
 from task.models import Activity, Task, TaskType
@@ -28,10 +29,16 @@ def tasks():
 
 
 def pubs():
-    print(Pub.objects.all().delete())
+    # save_pub_details()
+    print(show_pub_words())
+    # pub = get_pub('journey')
+    # print(show_pub_details(pub))
+    
+   
+    # print(Pub.objects.all().delete())
     # print(Pub.objects.filter(name='sweng').delete())
     # print(Pub.objects.filter(name='genetics').delete())
-    build_pubs()
+    # build_pubs()
 
 
 def write():

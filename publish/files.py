@@ -126,7 +126,7 @@ def line_exclude(word, text):
     return '\n'.join([x for x in text.split('\n') if not word in x])
 
 
-def line_count(path):
+def line_count_file(path):
     '''Read a file and count the lines of text'''
     return len(text_lines(read_file(path)))
 

@@ -223,7 +223,7 @@ def write_ai(args):
         #             paragraph=p, numbered_list=n)
         # write_post(path,  data)
     else:
-        edit_file(f'Documents/shrinking-world.com/ai')
+        # edit_file(f'Documents/shrinking-world.com/ai')
         system('open https://chat.openai.com/chat')
 
 

@@ -175,6 +175,11 @@ function py {
     pip freeze
 }
 
+# Create storyboard files
+function sb {
+    touch $1.md $1.ai $1.txt
+}
+
 
 # DocEnv
 export DJANGO_SUPERUSER_USERNAME='seaman'

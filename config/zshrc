@@ -175,10 +175,10 @@ function py {
     pip freeze
 }
 
-# Create storyboard files
-function sb {
-    touch $1.md $1.ai $1.txt
-}
+# # Create storyboard files
+# function sb {
+#     touch $1.md $1.ai $1.txt
+# }
 
 
 # DocEnv
@@ -193,7 +193,7 @@ export DJANGO_SUPERUSER_EMAIL='seaman'
 # [[ -s "$NVM_DIR/bash_completion" ]] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Python
-. ~/Hammer/.venv/bin/activate
+# . ~/Hammer/.venv/bin/activate
 export PS1="%3~ : "
 
 

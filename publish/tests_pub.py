@@ -78,7 +78,7 @@ class PubDataTest(TestCase):
 class PubInputOutputTest(DjangoTest):
     def test_build_blogs(self):
         build_pubs()
-        self.assertEqual(len(Pub.objects.all()), 20)
+        self.assertEqual(len(Pub.objects.all()), 21)
         num = len(Content.objects.all())
         self.assertRange(num, 1200, 1300, "Blog Contents")
 

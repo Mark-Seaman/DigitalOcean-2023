@@ -1,32 +1,28 @@
 from pathlib import Path
 
-from course.models import Author
-from publish.document import document_body
-from publish.files import write_file, read_file
-from publish.text import text_lines, word_count
-from workshop.resize_image import create_cover_images
+from .document import document_body
+from .files import read_file, write_file
+from .models import Content, Pub
+from .resize_image import create_cover_images
+from .text import text_lines, word_count
 
-from .models import Pub, Content
-# from .pub import book_context, import_books, show_all_books
-
-
-def book_outline(book):
-    outline = ""
-    for p in book_context(book)["parts"]:
-        outline += p["part"].title + "\n"
-        for c in p["chapters"]:
-            path = Path(c.part.book.doc_path) / c.document
-            md = document_body(read_file(path))
-            for line in text_lines(md):
-                if line.startswith("#"):
-                    outline += line.replace("#", "    ")[1:] + "\n"
-            outline += "\n"
-    return outline
+# def book_outline(book):
+#     outline = ""
+#     for p in book_context(book)["parts"]:
+#         outline += p["part"].title + "\n"
+#         for c in p["chapters"]:
+#             path = Path(c.part.book.doc_path) / c.document
+#             md = document_body(read_file(path))
+#             for line in text_lines(md):
+#                 if line.startswith("#"):
+#                     outline += line.replace("#", "    ")[1:] + "\n"
+#             outline += "\n"
+#     return outline
 
 
-def create_book_outlines():
-    for book in Book.objects.all():
-        write_book_outline(book)
+# def create_book_outlines():
+#     for book in Book.objects.all():
+#         write_book_outline(book)
 
 
 # def rebuild_books():
@@ -69,30 +65,30 @@ def create_book_outlines():
 #         write_file(path, outline)
 
 
-def write_book_outline(book):
-    outline = book_outline(book)
-    path = Path("Documents/markseaman.info") / book.name / "Outline.ol"
-    # print(path)
-    write_file(path, outline)
+# def write_book_outline(book):
+#     outline = book_outline(book)
+#     path = Path("Documents/markseaman.info") / book.name / "Outline.ol"
+#     # print(path)
+#     write_file(path, outline)
 
 
-def create_book_covers():
-    # rebuild_books()
-    # resize_book_cover()
+# def create_book_covers():
+#     # rebuild_books()
+#     # resize_book_cover()
 
-    path = "static/images/CoverArtwork/family-cover.png"
-    create_cover_images(path)
-    path = "static/images/CoverArtwork/today-cover.png"
-    create_cover_images(path)
-    path = "static/images/CoverArtwork/tech-cover.png"
-    create_cover_images(path)
-    path = "static/images/CoverArtwork/mark-cover.png"
-    create_cover_images(path)
-    # path = "static/images/CoverArtwork/write-cover.png"
-    # create_cover_images(path)
-    path = "static/images/CoverArtwork/poem-cover.png"
-    path = "static/images/CoverArtwork/journey-cover.png"
-    path = "static/images/CoverArtwork/quest-cover.png"
+#     path = "static/images/CoverArtwork/family-cover.png"
+#     create_cover_images(path)
+#     path = "static/images/CoverArtwork/today-cover.png"
+#     create_cover_images(path)
+#     path = "static/images/CoverArtwork/tech-cover.png"
+#     create_cover_images(path)
+#     path = "static/images/CoverArtwork/mark-cover.png"
+#     create_cover_images(path)
+#     # path = "static/images/CoverArtwork/write-cover.png"
+#     # create_cover_images(path)
+#     path = "static/images/CoverArtwork/poem-cover.png"
+#     path = "static/images/CoverArtwork/journey-cover.png"
+#     path = "static/images/CoverArtwork/quest-cover.png"
 
 
 # def show_book_content():

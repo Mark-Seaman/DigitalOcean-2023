@@ -1,9 +1,9 @@
 from django.utils.timezone import localdate
 
 from probe.probe import check_file_count, show_files
+from publish.file_search import probe_files, python_code_files, template_files
 from publish.files import read_file
 from publish.text import text_join
-from workshop.file_search import probe_files, python_code_files, template_files
 
 
 def test_coder_app_spec():
@@ -19,7 +19,7 @@ def test_coder_probe_source():
 
 
 def test_coder_python_source():
-    return show_files("Python Code ", python_code_files, 9500, 9700)
+    return show_files("Python Code ", python_code_files, 5600, 6000)
 
 
 def test_coder_templates():

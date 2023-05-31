@@ -1,9 +1,10 @@
 from os import system
 from pathlib import Path
+
 from django.test import SimpleTestCase, TestCase
 from requests import get
 
-from .models import Pub, Content
+from .models import Content, Pub
 from .pub import all_blogs, all_books, build_pubs
 from .text import text_lines
 

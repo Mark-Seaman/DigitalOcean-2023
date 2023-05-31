@@ -1,10 +1,9 @@
 from django.urls import path
 
-from workshop.book_cover import BookCoverView
-
-from .views import (BlogTodayView, PubCreateView, PubDeleteView,
-                    PubDetailView, PubListView, PubRedirectView, PubUpdateView,
-                    PubView, SlideShowView, WorkshopRedirectView, WorkshopView)
+from .book_cover import BookCoverView
+from .views import (BlogTodayView, PubCreateView, PubDeleteView, PubDetailView,
+                    PubListView, PubRedirectView, PubUpdateView, PubView,
+                    SlideShowView, WorkshopRedirectView, WorkshopView)
 
 urlpatterns = [
     #

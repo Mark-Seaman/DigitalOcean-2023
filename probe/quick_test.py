@@ -1,8 +1,7 @@
 from pathlib import Path
 from pprint import pprint
 
-from course.course import get_course, show_content, weekly_content
-from publish.book_tools import create_book_covers
+# from publish.book_tools import create_book_covers
 from publish.models import Content, Pub
 from publish.pub import build_pubs, get_pub, get_pub_contents, show_pub_words
 from publish.seamanslog import random_post

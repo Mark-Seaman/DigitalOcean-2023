@@ -7,8 +7,6 @@ from probe.probe import check_lines_in_webpage
 def test_web_pages():
     urls = '''https://shrinking-world.com
 https://markseaman.org
-http://google.com
-https://apple.com
 https://seamanslog.com/publish/
 https://seamanslog.com/book/
 https://seamanslog.com/book/journey

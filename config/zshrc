@@ -10,6 +10,7 @@ vscode1="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 vscode2="/private/var/folders/ch/23b6bkbj5t90h339h0pjyvh80000gn/T/AppTranslocation/*/d/Visual Studio Code 2.app/Contents/Resources/app/bin"
 export PATH="$pyenv:$brew:$sublime:$vscode1:$vscode2:$syspath"
 
+# ------------
 # Variables
 export p=~/Hammer
 export h=~/Hammer
@@ -29,16 +30,20 @@ export slog=$s
 export blog=$d/shrinking-world.com/blog
 export book=$d/seamansguide.com
 export green=$d/shrinking-world.com/greenhouse
-export EDITOR="subl -w"
+export EDITOR="$sublime/subl -w"
 
+
+# ------------
+# ALIASES
 
 # Pub Script
 alias project='pm pub project'
 alias chapter='pm pub chapter'
 alias create='pm pub create'
-alias publish='pm pub publish'
+alias doc='pm pub doc'
 alias edit='pm pub edit'
 alias files='pm pub files'
+alias publish='pm pub publish'
 
 # Project Scripts
 alias activity='week activity'
@@ -134,8 +139,9 @@ alias treset='pm tst reset'
 alias qt='pm tst quick'
 
 
-
+# -----------------
 # Linux functions
+
 function d {
     directory=$1
     [ -z "$1" ] && directory="$p"
@@ -175,17 +181,6 @@ function py {
     pip freeze
 }
 
-# # Create storyboard files
-# function sb {
-#     touch $1.md $1.ai $1.txt
-# }
-
-
-# DocEnv
-export DJANGO_SUPERUSER_USERNAME='seaman'
-export DJANGO_SUPERUSER_PASSWORD='seaman'
-export DJANGO_SUPERUSER_EMAIL='seaman'
-
 
 # # Node environment
 # export NVM_DIR="$HOME/.nvm"
@@ -193,7 +188,7 @@ export DJANGO_SUPERUSER_EMAIL='seaman'
 # [[ -s "$NVM_DIR/bash_completion" ]] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Python
-# . ~/Hammer/.venv/bin/activate
+. ~/Hammer/.venv/bin/activate
 export PS1="%3~ : "
 
 

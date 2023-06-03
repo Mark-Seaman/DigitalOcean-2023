@@ -91,7 +91,7 @@
 },
 {
     "model": "task.activity",
-    "pk": 672,
+    "pk": 676,
     "fields": {
         "name": "Family",
         "type": 5
@@ -99,7 +99,7 @@
 },
 {
     "model": "task.activity",
-    "pk": 673,
+    "pk": 677,
     "fields": {
         "name": "Church",
         "type": 5
@@ -107,7 +107,7 @@
 },
 {
     "model": "task.activity",
-    "pk": 674,
+    "pk": 678,
     "fields": {
         "name": "Fun",
         "type": 6
@@ -115,7 +115,7 @@
 },
 {
     "model": "task.activity",
-    "pk": 675,
+    "pk": 679,
     "fields": {
         "name": "Grow",
         "type": 6
@@ -45783,7 +45783,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50156,
+    "pk": 50193,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -45795,7 +45795,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50157,
+    "pk": 50194,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -45807,7 +45807,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50158,
+    "pk": 50195,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -45819,7 +45819,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50159,
+    "pk": 50196,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -45831,10 +45831,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50160,
+    "pk": 50197,
     "fields": {
         "name": "Fun",
-        "activity": 674,
+        "activity": 678,
         "notes": "    Ticket to Paradise",
         "date": "2023-01-26",
         "hours": 2,
@@ -45843,7 +45843,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50161,
+    "pk": 50198,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -45855,7 +45855,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50162,
+    "pk": 50199,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -45867,7 +45867,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50163,
+    "pk": 50200,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -45879,10 +45879,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50164,
+    "pk": 50201,
     "fields": {
         "name": "Church",
-        "activity": 673,
+        "activity": 677,
         "notes": "    prep for EHS class with Stacie",
         "date": "2023-01-27",
         "hours": 3,
@@ -45891,10 +45891,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50165,
+    "pk": 50202,
     "fields": {
         "name": "Family",
-        "activity": 672,
+        "activity": 676,
         "notes": "    cook ready-made chicken pasta",
         "date": "2023-01-27",
         "hours": 2,
@@ -45903,10 +45903,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50166,
+    "pk": 50203,
     "fields": {
         "name": "Fun",
-        "activity": 674,
+        "activity": 678,
         "notes": "    Mummy",
         "date": "2023-01-27",
         "hours": 2,
@@ -45915,10 +45915,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50167,
+    "pk": 50204,
     "fields": {
         "name": "Grow",
-        "activity": 675,
+        "activity": 679,
         "notes": "    night watch: business and writing ideas",
         "date": "2023-01-28",
         "hours": 1,
@@ -45927,7 +45927,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50168,
+    "pk": 50205,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -45939,7 +45939,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50169,
+    "pk": 50206,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -45951,10 +45951,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50170,
+    "pk": 50207,
     "fields": {
         "name": "Family",
-        "activity": 672,
+        "activity": 676,
         "notes": "    \n    family night\n    ",
         "date": "2023-01-28",
         "hours": 2,
@@ -45963,7 +45963,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50171,
+    "pk": 50208,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -45975,10 +45975,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50172,
+    "pk": 50209,
     "fields": {
         "name": "Fun",
-        "activity": 674,
+        "activity": 678,
         "notes": "    Mummy\n    Eli Stone",
         "date": "2023-01-28",
         "hours": 1,
@@ -45987,10 +45987,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50173,
+    "pk": 50210,
     "fields": {
         "name": "Grow",
-        "activity": 675,
+        "activity": 679,
         "notes": "    night watch: Multicast publishing, Blues",
         "date": "2023-01-29",
         "hours": 2,
@@ -45999,7 +45999,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50174,
+    "pk": 50211,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -46011,10 +46011,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50175,
+    "pk": 50212,
     "fields": {
         "name": "Church",
-        "activity": 673,
+        "activity": 677,
         "notes": "    church with Hendricksons\n    La Viña service",
         "date": "2023-01-29",
         "hours": 5,
@@ -46023,10 +46023,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50176,
+    "pk": 50213,
     "fields": {
         "name": "Family",
-        "activity": 672,
+        "activity": 676,
         "notes": "    Hendricksons & Webbs at Austin's",
         "date": "2023-01-29",
         "hours": 2,
@@ -46035,10 +46035,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50177,
+    "pk": 50214,
     "fields": {
         "name": "Fun",
-        "activity": 674,
+        "activity": 678,
         "notes": "    The Gray Man",
         "date": "2023-01-29",
         "hours": 3,
@@ -46047,10 +46047,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50178,
+    "pk": 50215,
     "fields": {
         "name": "Grow",
-        "activity": 675,
+        "activity": 679,
         "notes": "    gout day 28 - text to Dr Rhoads\n    night watch: Think Tank\n    weekly reflection",
         "date": "2023-01-30",
         "hours": 2,
@@ -46059,7 +46059,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50179,
+    "pk": 50216,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -46071,7 +46071,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50180,
+    "pk": 50217,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -46083,7 +46083,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50181,
+    "pk": 50218,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -46095,10 +46095,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50182,
+    "pk": 50219,
     "fields": {
         "name": "Family",
-        "activity": 672,
+        "activity": 676,
         "notes": "    Garcias - Free Form on iPad",
         "date": "2023-01-30",
         "hours": 2,
@@ -46107,10 +46107,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50183,
+    "pk": 50220,
     "fields": {
         "name": "Fun",
-        "activity": 674,
+        "activity": 678,
         "notes": "    Tales of the Jedi\n    Sim City (level 50)",
         "date": "2023-01-30",
         "hours": 2,
@@ -46119,10 +46119,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50184,
+    "pk": 50221,
     "fields": {
         "name": "Grow",
-        "activity": 675,
+        "activity": 679,
         "notes": "    night watch: Timothy, Hebrews\n    20-below wind chill",
         "date": "2023-01-31",
         "hours": 1,
@@ -46131,7 +46131,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50185,
+    "pk": 50222,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -46143,7 +46143,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50186,
+    "pk": 50223,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -46155,10 +46155,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50187,
+    "pk": 50224,
     "fields": {
         "name": "Family",
-        "activity": 672,
+        "activity": 676,
         "notes": "    call Dad on birthday\n    ",
         "date": "2023-01-31",
         "hours": 0,
@@ -46167,7 +46167,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50188,
+    "pk": 50225,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -46179,10 +46179,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50189,
+    "pk": 50226,
     "fields": {
         "name": "Fun",
-        "activity": 674,
+        "activity": 678,
         "notes": "    Mummy Returns\n    Hoopla borrows",
         "date": "2023-01-31",
         "hours": 3,
@@ -46191,7 +46191,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50190,
+    "pk": 50227,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -46203,7 +46203,7 @@
 },
 {
     "model": "task.task",
-    "pk": 50191,
+    "pk": 50228,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -46215,10 +46215,10 @@
 },
 {
     "model": "task.task",
-    "pk": 50192,
+    "pk": 50229,
     "fields": {
         "name": "Church",
-        "activity": 673,
+        "activity": 677,
         "notes": "    Emotionally Healthy Relationships",
         "date": "2023-02-01",
         "hours": 5,

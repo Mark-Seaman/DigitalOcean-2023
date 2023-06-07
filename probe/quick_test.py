@@ -1,5 +1,6 @@
 from pathlib import Path
 from pprint import pprint
+from probe.coder import coder
 
 # from publish.book_tools import create_book_covers
 from publish.models import Content, Pub
@@ -10,11 +11,11 @@ from task.models import Activity, Task, TaskType
 from task.task import task_command, update_tasks
 from task.todo import edit_todo_list
 
-
 def quick_test():
     # print("No quick test defined")
+    coder()
     # tasks()
-    pubs()
+    # pubs()
     # courses()
     # todo()
     # write()
@@ -22,6 +23,7 @@ def quick_test():
     # update_pub_content()
     # create_book_covers()
     # Pub.objects.get(name='video').delete()
+
 
 
 def tasks():

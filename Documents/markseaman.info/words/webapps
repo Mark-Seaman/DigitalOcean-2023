@@ -1,114 +1,114 @@
 Pub Contents - webapps - Python Web Apps
-Chapter 1 - Development Tools - Documents/seamansguide.com/webapps/chapter/01.md - 1391 words
-     Skill 1 - Visual Studio Code & Github - Documents/seamansguide.com/webapps/skill/01.md - 654 words
-     Skill 2 - Setup Python Environment - Documents/seamansguide.com/webapps/skill/02.md - 384 words
-     Skill 3 - Running a Django Application - Documents/seamansguide.com/webapps/skill/03.md - 319 words
-     Demo 1 - Profile App - Documents/seamansguide.com/webapps/demo/01.md - 469 words
-     Project 1 - Setup Development Tools - Documents/seamansguide.com/webapps/project/01.md - 546 words
-    Words in Chapter 1 - Development Tools: 3763 words
+Chapter 1 - Development Tools - Documents/seamansguide.com/webapps/chapter/01.md - 1390 words
+     Skill 1 - Visual Studio Code & Github - Documents/seamansguide.com/webapps/skill/01.md - 653 words
+     Skill 2 - Setup Python Environment - Documents/seamansguide.com/webapps/skill/02.md - 383 words
+     Skill 3 - Running a Django Application - Documents/seamansguide.com/webapps/skill/03.md - 318 words
+     Demo 1 - Profile App - Documents/seamansguide.com/webapps/demo/01.md - 468 words
+     Project 1 - Setup Development Tools - Documents/seamansguide.com/webapps/project/01.md - 545 words
+    Words in Chapter 1 - Development Tools: 3757 words
 
-Chapter 2 - Application Hosting - Documents/seamansguide.com/webapps/chapter/02.md - 1975 words
-     Skill 4 - Deploy a Static Web Server - Documents/seamansguide.com/webapps/skill/04.md - 181 words
-     Skill 5 - Deploy to Development Server - Documents/seamansguide.com/webapps/skill/05.md - 818 words
-     Skill 6 - Deploy to Production Server - Documents/seamansguide.com/webapps/skill/06.md - 1276 words
-     Demo 2 - App Platform Deployment - Documents/seamansguide.com/webapps/demo/02.md - 637 words
-     Project 2 - Web App Hosting - Documents/seamansguide.com/webapps/project/02.md - 325 words
-    Words in Chapter 2 - Application Hosting: 5212 words
+Chapter 2 - Application Hosting - Documents/seamansguide.com/webapps/chapter/02.md - 1974 words
+     Skill 4 - Deploy a Static Web Server - Documents/seamansguide.com/webapps/skill/04.md - 180 words
+     Skill 5 - Deploy to Development Server - Documents/seamansguide.com/webapps/skill/05.md - 817 words
+     Skill 6 - Deploy to Production Server - Documents/seamansguide.com/webapps/skill/06.md - 1275 words
+     Demo 2 - App Platform Deployment - Documents/seamansguide.com/webapps/demo/02.md - 636 words
+     Project 2 - Web App Hosting - Documents/seamansguide.com/webapps/project/02.md - 324 words
+    Words in Chapter 2 - Application Hosting: 5206 words
 
-Chapter 3 - Basic Application - Documents/seamansguide.com/webapps/chapter/03.md - 906 words
-      Skill 7 - Create a Django App - Documents/seamansguide.com/webapps/skill/07.md - 408 words
-      Skill 8 - View with Variables - Documents/seamansguide.com/webapps/skill/08.md - 457 words
-      Skill 9 - Add Variables to View - Documents/seamansguide.com/webapps/skill/09.md - 344 words
-     Demo 3 - Debugging with Visual Studio - Documents/seamansguide.com/webapps/demo/03.md - 607 words
-     Project 3 - Superhero Pages - Documents/seamansguide.com/webapps/project/03.md - 467 words
-    Words in Chapter 3 - Basic Application: 3189 words
+Chapter 3 - Basic Application - Documents/seamansguide.com/webapps/chapter/03.md - 905 words
+      Skill 7 - Create a Django App - Documents/seamansguide.com/webapps/skill/07.md - 407 words
+      Skill 8 - View with Variables - Documents/seamansguide.com/webapps/skill/08.md - 456 words
+      Skill 9 - Add Variables to View - Documents/seamansguide.com/webapps/skill/09.md - 343 words
+     Demo 3 - Debugging with Visual Studio - Documents/seamansguide.com/webapps/demo/03.md - 606 words
+     Project 3 - Superhero Pages - Documents/seamansguide.com/webapps/project/03.md - 466 words
+    Words in Chapter 3 - Basic Application: 3183 words
 
-Chapter 4 - Views - Documents/seamansguide.com/webapps/chapter/04.md - 835 words
-     Skill 10 - View Inheritance - Documents/seamansguide.com/webapps/skill/10.md - 392 words
-     Skill 11 - Templates - Documents/seamansguide.com/webapps/skill/11.md - 512 words
-     Skill 12 - Complex Variables in Views - Documents/seamansguide.com/webapps/skill/12.md - 684 words
-     Demo 4 - Visual Inheritance - Documents/seamansguide.com/webapps/demo/04.md - 896 words
-     Project 4 - Superhero Profiles - Documents/seamansguide.com/webapps/project/04.md - 599 words
-    Words in Chapter 4 - Views: 3918 words
+Chapter 4 - Views - Documents/seamansguide.com/webapps/chapter/04.md - 834 words
+     Skill 10 - View Inheritance - Documents/seamansguide.com/webapps/skill/10.md - 391 words
+     Skill 11 - Templates - Documents/seamansguide.com/webapps/skill/11.md - 511 words
+     Skill 12 - Complex Variables in Views - Documents/seamansguide.com/webapps/skill/12.md - 683 words
+     Demo 4 - Visual Inheritance - Documents/seamansguide.com/webapps/demo/04.md - 895 words
+     Project 4 - Superhero Profiles - Documents/seamansguide.com/webapps/project/04.md - 598 words
+    Words in Chapter 4 - Views: 3912 words
 
-Chapter 5 - Data - Documents/seamansguide.com/webapps/chapter/05.md - 1149 words
-     Skill 13 - Build Data Models - Documents/seamansguide.com/webapps/skill/13.md - 259 words
-     Skill 14 - List and Detail Views - Documents/seamansguide.com/webapps/skill/14.md - 415 words
-     Skill 15 - Admin Views - Documents/seamansguide.com/webapps/skill/15.md - 441 words
-     Demo 5 - Working with Data - Documents/seamansguide.com/webapps/demo/05.md - 610 words
-     Project 5 - Superhero Database - Documents/seamansguide.com/webapps/project/05.md - 757 words
-    Words in Chapter 5 - Data: 3631 words
+Chapter 5 - Data - Documents/seamansguide.com/webapps/chapter/05.md - 1148 words
+     Skill 13 - Build Data Models - Documents/seamansguide.com/webapps/skill/13.md - 258 words
+     Skill 14 - List and Detail Views - Documents/seamansguide.com/webapps/skill/14.md - 414 words
+     Skill 15 - Admin Views - Documents/seamansguide.com/webapps/skill/15.md - 440 words
+     Demo 5 - Working with Data - Documents/seamansguide.com/webapps/demo/05.md - 609 words
+     Project 5 - Superhero Database - Documents/seamansguide.com/webapps/project/05.md - 756 words
+    Words in Chapter 5 - Data: 3625 words
 
-Chapter 6 - Data views - Documents/seamansguide.com/webapps/chapter/06.md - 1109 words
-     Skill 16 - Data CRUD views - Documents/seamansguide.com/webapps/skill/16.md - 602 words
-     Skill 17 - Development Database - Documents/seamansguide.com/webapps/skill/17.md - 403 words
-     Skill 18 - Production Database - Documents/seamansguide.com/webapps/skill/18.md - 352 words
-     Demo 6 - Blog - Documents/seamansguide.com/webapps/demo/06.md - 802 words
-     Project 6 - Superhero Data Views - Documents/seamansguide.com/webapps/project/06.md - 713 words
-    Words in Chapter 6 - Data views: 3981 words
+Chapter 6 - Data views - Documents/seamansguide.com/webapps/chapter/06.md - 1108 words
+     Skill 16 - Data CRUD views - Documents/seamansguide.com/webapps/skill/16.md - 601 words
+     Skill 17 - Development Database - Documents/seamansguide.com/webapps/skill/17.md - 402 words
+     Skill 18 - Production Database - Documents/seamansguide.com/webapps/skill/18.md - 351 words
+     Demo 6 - Blog - Documents/seamansguide.com/webapps/demo/06.md - 801 words
+     Project 6 - Superhero Data Views - Documents/seamansguide.com/webapps/project/06.md - 712 words
+    Words in Chapter 6 - Data views: 3975 words
 
-Chapter 7 - Users - Documents/seamansguide.com/webapps/chapter/07.md - 764 words
-     Skill 19 - User Registration - Documents/seamansguide.com/webapps/skill/19.md - 193 words
-     Skill 20 - User Login - Documents/seamansguide.com/webapps/skill/20.md - 300 words
-     Skill 21 - User Status - Documents/seamansguide.com/webapps/skill/21.md - 249 words
-     Demo 7 - Blog Authors - Documents/seamansguide.com/webapps/demo/07.md - 648 words
-     Project 7 - User Authentication - Documents/seamansguide.com/webapps/project/07.md - 421 words
-    Words in Chapter 7 - Users: 2575 words
+Chapter 7 - Users - Documents/seamansguide.com/webapps/chapter/07.md - 763 words
+     Skill 19 - User Registration - Documents/seamansguide.com/webapps/skill/19.md - 192 words
+     Skill 20 - User Login - Documents/seamansguide.com/webapps/skill/20.md - 299 words
+     Skill 21 - User Status - Documents/seamansguide.com/webapps/skill/21.md - 248 words
+     Demo 7 - Blog Authors - Documents/seamansguide.com/webapps/demo/07.md - 647 words
+     Project 7 - User Authentication - Documents/seamansguide.com/webapps/project/07.md - 420 words
+    Words in Chapter 7 - Users: 2569 words
 
-Chapter 8 - Testing - Documents/seamansguide.com/webapps/chapter/08.md - 1749 words
-     Skill 22 - Writing Data Tests - Documents/seamansguide.com/webapps/skill/22.md - 285 words
-     Skill 23 - Writing View Tests - Documents/seamansguide.com/webapps/skill/23.md - 442 words
-     Skill 24 - Writing Page Tests - Documents/seamansguide.com/webapps/skill/24.md - 337 words
-     Demo 8 - Automated Testing - Documents/seamansguide.com/webapps/demo/08.md - 576 words
-     Project 8 - Superhero Articles - Documents/seamansguide.com/webapps/project/08.md - 168 words
-    Words in Chapter 8 - Testing: 3557 words
+Chapter 8 - Testing - Documents/seamansguide.com/webapps/chapter/08.md - 1748 words
+     Skill 22 - Writing Data Tests - Documents/seamansguide.com/webapps/skill/22.md - 284 words
+     Skill 23 - Writing View Tests - Documents/seamansguide.com/webapps/skill/23.md - 441 words
+     Skill 24 - Writing Page Tests - Documents/seamansguide.com/webapps/skill/24.md - 336 words
+     Demo 8 - Automated Testing - Documents/seamansguide.com/webapps/demo/08.md - 575 words
+     Project 8 - Superhero Articles - Documents/seamansguide.com/webapps/project/08.md - 167 words
+    Words in Chapter 8 - Testing: 3551 words
 
-Chapter 9 - Complex Views - Documents/seamansguide.com/webapps/chapter/09.md - 552 words
-     Skill 25 - Create a Theme Template - Documents/seamansguide.com/webapps/skill/25.md - 359 words
-     Skill 26 - Simple Views - Documents/seamansguide.com/webapps/skill/26.md - 781 words
-     Skill 27 - Complex Views - Documents/seamansguide.com/webapps/skill/27.md - 720 words
-     Demo 9 - Views Workshop - Documents/seamansguide.com/webapps/demo/09.md - 296 words
-     Project 9 - Production Database - Documents/seamansguide.com/webapps/project/09.md - 75 words
-    Words in Chapter 9 - Complex Views: 2783 words
+Chapter 9 - Complex Views - Documents/seamansguide.com/webapps/chapter/09.md - 551 words
+     Skill 25 - Create a Theme Template - Documents/seamansguide.com/webapps/skill/25.md - 358 words
+     Skill 26 - Simple Views - Documents/seamansguide.com/webapps/skill/26.md - 780 words
+     Skill 27 - Complex Views - Documents/seamansguide.com/webapps/skill/27.md - 719 words
+     Demo 9 - Views Workshop - Documents/seamansguide.com/webapps/demo/09.md - 295 words
+     Project 9 - Production Database - Documents/seamansguide.com/webapps/project/09.md - 74 words
+    Words in Chapter 9 - Complex Views: 2777 words
 
-Chapter 10 - Images - Documents/seamansguide.com/webapps/chapter/10.md - 447 words
-     Skill 28 - Photo upload - Documents/seamansguide.com/webapps/skill/28.md - 166 words
-     Skill 29 - Media Hosting - Documents/seamansguide.com/webapps/skill/29.md - 503 words
-     Skill 30 - Image carousel - Documents/seamansguide.com/webapps/skill/30.md - 299 words
-     Demo 10 - Photo Albums - Documents/seamansguide.com/webapps/demo/10.md - 676 words
-     Project 9 - Superhero Website - Documents/seamansguide.com/webapps/project/10.md - 434 words
-    Words in Chapter 10 - Images: 2525 words
+Chapter 10 - Images - Documents/seamansguide.com/webapps/chapter/10.md - 446 words
+     Skill 28 - Photo upload - Documents/seamansguide.com/webapps/skill/28.md - 165 words
+     Skill 29 - Media Hosting - Documents/seamansguide.com/webapps/skill/29.md - 502 words
+     Skill 30 - Image carousel - Documents/seamansguide.com/webapps/skill/30.md - 298 words
+     Demo 10 - Photo Albums - Documents/seamansguide.com/webapps/demo/10.md - 675 words
+     Project 9 - Superhero Website - Documents/seamansguide.com/webapps/project/10.md - 433 words
+    Words in Chapter 10 - Images: 2519 words
 
-Chapter 11 - Files and Documents - Documents/seamansguide.com/webapps/chapter/11.md - 1216 words
-     Skill 31 - Reading and Writing Tables - Documents/seamansguide.com/webapps/skill/31.md - 316 words
-     Skill 32 - Markdown Documents  - Documents/seamansguide.com/webapps/skill/32.md - 285 words
-     Skill 33 - Save and Restore Objects - Documents/seamansguide.com/webapps/skill/33.md - 384 words
-     Demo 11 - Book Builder - Documents/seamansguide.com/webapps/demo/11.md - 460 words
-     Project 11 - Superhero Documents  - Documents/seamansguide.com/webapps/project/11.md - 49 words
-    Words in Chapter 11 - Files and Documents: 2710 words
+Chapter 11 - Files and Documents - Documents/seamansguide.com/webapps/chapter/11.md - 1215 words
+     Skill 31 - Reading and Writing Tables - Documents/seamansguide.com/webapps/skill/31.md - 315 words
+     Skill 32 - Markdown Documents  - Documents/seamansguide.com/webapps/skill/32.md - 284 words
+     Skill 33 - Save and Restore Objects - Documents/seamansguide.com/webapps/skill/33.md - 383 words
+     Demo 11 - Book Builder - Documents/seamansguide.com/webapps/demo/11.md - 459 words
+     Project 11 - Superhero Documents  - Documents/seamansguide.com/webapps/project/11.md - 48 words
+    Words in Chapter 11 - Files and Documents: 2704 words
 
-Chapter 12 - Development Process - Documents/seamansguide.com/webapps/chapter/12.md - 1440 words
-     Skill 34 - Discover Requirements - Documents/seamansguide.com/webapps/skill/34.md - 574 words
-     Skill 35 - Design & Coding Process - Documents/seamansguide.com/webapps/skill/35.md - 201 words
-     Skill 36 - Test Driven-development - Documents/seamansguide.com/webapps/skill/36.md - 272 words
-     Demo 12 - Static Website Generator - Documents/seamansguide.com/webapps/demo/12.md - 838 words
-     Project 12 - Superhero Image Gallery - Documents/seamansguide.com/webapps/project/12.md - 219 words
-    Words in Chapter 12 - Development Process: 3544 words
+Chapter 12 - Development Process - Documents/seamansguide.com/webapps/chapter/12.md - 1439 words
+     Skill 34 - Discover Requirements - Documents/seamansguide.com/webapps/skill/34.md - 573 words
+     Skill 35 - Design & Coding Process - Documents/seamansguide.com/webapps/skill/35.md - 200 words
+     Skill 36 - Test Driven-development - Documents/seamansguide.com/webapps/skill/36.md - 271 words
+     Demo 12 - Static Website Generator - Documents/seamansguide.com/webapps/demo/12.md - 837 words
+     Project 12 - Superhero Image Gallery - Documents/seamansguide.com/webapps/project/12.md - 218 words
+    Words in Chapter 12 - Development Process: 3538 words
 
-Chapter 13 - Software Release  - Documents/seamansguide.com/webapps/chapter/13.md - 1128 words
-     Skill 37 - Code Generator - Documents/seamansguide.com/webapps/skill/37.md - 587 words
-     Skill 38 - Continuous Integration - Documents/seamansguide.com/webapps/skill/38.md - 335 words
-     Skill 39 - DevOps Practices - Documents/seamansguide.com/webapps/skill/39.md - 400 words
-     Demo 13 - Code Builder - Documents/seamansguide.com/webapps/demo/13.md - 753 words
-     Project 13 - Website Builder  - Documents/seamansguide.com/webapps/project/13.md - 369 words
-    Words in Chapter 13 - Software Release : 3572 words
+Chapter 13 - Software Release  - Documents/seamansguide.com/webapps/chapter/13.md - 1127 words
+     Skill 37 - Code Generator - Documents/seamansguide.com/webapps/skill/37.md - 586 words
+     Skill 38 - Continuous Integration - Documents/seamansguide.com/webapps/skill/38.md - 334 words
+     Skill 39 - DevOps Practices - Documents/seamansguide.com/webapps/skill/39.md - 399 words
+     Demo 13 - Code Builder - Documents/seamansguide.com/webapps/demo/13.md - 752 words
+     Project 13 - Website Builder  - Documents/seamansguide.com/webapps/project/13.md - 368 words
+    Words in Chapter 13 - Software Release : 3566 words
 
-Chapter 14 - Software Engineering - Documents/seamansguide.com/webapps/chapter/14.md - 1627 words
-     Skill 40 - Software Lifecycle - Documents/seamansguide.com/webapps/skill/40.md - 946 words
-     Skill 41 - Planning Grid - Documents/seamansguide.com/webapps/skill/41.md - 367 words
-     Skill 42 - Client Communication - Documents/seamansguide.com/webapps/skill/42.md - 773 words
-     Demo 14 - Software Engineering Notebook - Documents/seamansguide.com/webapps/demo/14.md - 1066 words
-     Project 14 - Software Planner - Documents/seamansguide.com/webapps/project/14.md - 233 words
-    Words in Chapter 14 - Software Engineering: 5012 words
+Chapter 14 - Software Engineering - Documents/seamansguide.com/webapps/chapter/14.md - 1626 words
+     Skill 40 - Software Lifecycle - Documents/seamansguide.com/webapps/skill/40.md - 945 words
+     Skill 41 - Planning Grid - Documents/seamansguide.com/webapps/skill/41.md - 366 words
+     Skill 42 - Client Communication - Documents/seamansguide.com/webapps/skill/42.md - 772 words
+     Demo 14 - Software Engineering Notebook - Documents/seamansguide.com/webapps/demo/14.md - 1065 words
+     Project 14 - Software Planner - Documents/seamansguide.com/webapps/project/14.md - 232 words
+    Words in Chapter 14 - Software Engineering: 5006 words
 
-Total Words in Python Web Apps: 49972 words, 199 pages
+Total Words in Python Web Apps: 49888 words, 199 pages

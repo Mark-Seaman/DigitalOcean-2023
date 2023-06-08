@@ -3,7 +3,7 @@ from genericpath import getmtime
 from glob import glob
 from io import StringIO
 from json import dump, loads
-from os import W_OK, access, getcwd, listdir, makedirs, mkdir, remove, walk
+from os import W_OK, access, getcwd, listdir, remove, walk
 from os.path import dirname, exists, isdir, isfile, join
 from pathlib import Path
 from re import search
@@ -32,7 +32,8 @@ def count_files(directory):
 
 # Create the directory if needed
 def create_directory(path):
-    makedirs(Path(path).resolve(), exist_ok=True)
+    # makedirs(Path(path).resolve(), exist_ok=True)
+    Path(path).mkdir(parents=True, exist_ok=True)
 
 
 # Delete a relative path name
@@ -248,6 +249,13 @@ def recursive_files(path='.', suffix='', exclude=None):
 def table_data(csv_data):
     return list(reader(StringIO(csv_data)))
 
+    # WITH PANDAS
+    # import pandas as pd
+    # from io import StringIO
+    # df = pd.read_csv(StringIO(text), header=None)
+    # df[2] = df[2].fillna(df[1])  # Fill Column 2 when missing
+    # return df.values.tolist()
+
 
 # Get a file list sorted by time (recent last)
 def time_sort_file(d):
@@ -299,24 +307,3 @@ def write_file(filename, text, append=None):
 def write_json(filename, data):
     with open(filename, "w") as f:
         dump(data, f, indent=4)
-
-
-# # Print a flat list
-# def print_list(lst):
-#     for f in lst:
-#         print (f)
-#
-
-# # Print a list two levels deep
-# def print_list2(lst):
-#     for v in lst:
-#         for f in v:
-#             print (f,)
-#         print ()
-
-
-# # Read the input as lines of text
-# def read_input():
-#     text = stdin.read().split('\n')
-#     return filter(lambda x: len(x.rstrip()) > 0, text)
-#

@@ -95,7 +95,7 @@ alias g='grep --color=auto'
 alias l='ls -al'
 alias lc='wc -l'
 alias u='d ..'
-alias host="python -c 'import platform;print(platform.node()[:-5])'"
+alias host="python -c 'import platform;print(platform.node()'"
 alias h='history 100'
 alias p=python
 

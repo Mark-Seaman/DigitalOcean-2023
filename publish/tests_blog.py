@@ -1,29 +1,27 @@
-from pathlib import Path
-
-from .tests_pub import DjangoTest
+from .tests_pub_views import DjangoTest
 
 
 class RemoteBlogPagesTest(DjangoTest):
     def test_blog_seamanslog(self):
-        self.assertLines("https://seamanslog.com", 180, 190)
+        self.assertPageLines("https://seamanslog.com", 180, 190)
 
     def test_blog_spirit(self):
-        self.assertLines("https://spiritual-things.org", 100, 121)
+        self.assertPageLines("https://spiritual-things.org", 100, 121)
 
     def test_blog_tech_notes(self):
-        self.assertLines(
+        self.assertPageLines(
             "https://shrinking-world.com/tech/tech-Index", 100, 120)
 
     def test_blog_micropub(self):
-        self.assertLines(
+        self.assertPageLines(
             "https://shrinking-world.com/tech/micropub-Index", 100, 140)
 
     def test_blog_training(self):
-        self.assertLines(
+        self.assertPageLines(
             "https://shrinking-world.com/tech/training-Index", 100, 120)
 
     def test_blog_mark_seaman(self):
-        self.assertLines("https://markseaman.org", 150, 170)
+        self.assertPageLines("https://markseaman.org", 150, 170)
 
 
 class BlogFilesTest(DjangoTest):

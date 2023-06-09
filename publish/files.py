@@ -193,9 +193,18 @@ def not_excluded(path, exclude):
 
 
 def read_csv_file(path):
-    assert exists(path)
-    with open(path) as f:
-        return [row for row in reader(f)]
+    csv_data = Path(path).read_text()
+    return list(reader(csv_data.splitlines()))
+
+
+def read_csv_text(text):
+    # Use Pandas
+    import pandas as pd
+    from io import StringIO
+
+    df = pd.read_csv(StringIO(text), header=None)
+    df[2] = df[2].fillna(df[1])
+    return df.values.tolist()
 
 
 # Return the text from the file

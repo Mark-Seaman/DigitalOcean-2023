@@ -12,8 +12,9 @@ class DjangoTest(TestCase):
     def assertFiles(self, directory, min, max):
         num_files = len([f for f in Path(directory).rglob("*.md")])
         error = f"files in {directory}: {num_files} is not in range (min {min} and max {max})"
-        self.assertGreaterEqual(num_files, min, error)
-        self.assertLessEqual(num_files, max, error)
+        # self.assertGreaterEqual(num_files, min, error)
+        # self.assertLessEqual(num_files, max, error)
+        self.assertRange(num_files,  min, max, error)
 
     def assertPage(self, page):
         if page.startswith('/'):

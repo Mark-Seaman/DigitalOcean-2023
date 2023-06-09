@@ -2,7 +2,7 @@
 from django.test import TestCase
 
 from .models import Content, Pub
-from .pub import all_blogs, all_books, build_pubs
+from .pub import all_blogs, all_books, all_pubs, build_pubs
 from probe.tests_django import DjangoTest
 
 
@@ -66,10 +66,13 @@ class FixtureTest(DjangoTest):
 
     def test_with_data(self):
         num = len(Content.objects.all())
-        self.assertRange(num, 1200, 1300, "Blog Contents")
+        self.assertRange(num, 1200, 1300, "Content objects")
+
+    def test_pub_list(self):
+        self.assertRange(len(all_pubs()), 21, 21, 'Num Pubs')
 
     def test_book_list(self):
-        self.assertRange(len(all_books()), 5, 5)
+        self.assertRange(len(all_books()), 5, 5, 'Num Books')
 
     def test_blog_list(self):
-        self.assertRange(len(all_blogs()), 5, 7)
+        self.assertRange(len(all_blogs()), 5, 7, 'Num Blogs')

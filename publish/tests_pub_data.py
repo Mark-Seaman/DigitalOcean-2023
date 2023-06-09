@@ -2,7 +2,7 @@
 from django.test import TestCase
 
 from .models import Content, Pub
-from .publication import all_blogs, all_books, all_pubs, build_pubs, get_pub_info
+from .publication import all_blogs, all_books, all_pubs, build_pubs, get_pub_info, rebuild_pubs
 from probe.tests_django import DjangoTest
 
 
@@ -78,4 +78,8 @@ class FixtureTest(DjangoTest):
 
     def test_pub_info(self):
         text = get_pub_info()
-        self.assertNumLines(text, 4800, 4802)
+        self.assertNumLines(text, 4800, 4910)
+
+    def test_rebuld_pubs(self):
+        self.assertRange(len(rebuild_pubs()), 3, 3)
+

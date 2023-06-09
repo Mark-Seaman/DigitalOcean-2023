@@ -125,6 +125,18 @@ def get_link(text):
         return link[0][0], link[0][1]
 
 
+def include_files(text, dir=None):
+    pattern = r"\[\[(.+)\]\]"
+    matches = findall(pattern, text)
+    for filename in matches:
+        try:
+            include = (dir/filename).read_text()
+            text = text.replace(f"[[{filename}]]", f'\n\n{include}\n\n')
+        except FileNotFoundError:
+            print(f"File '{filename}' not found.")
+    return text
+
+
 def line_count(text):
     return len(text_lines(text))
 

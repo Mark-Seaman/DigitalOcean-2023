@@ -4,7 +4,7 @@ from probe.coder import coder
 
 # from publish.book_tools import create_book_covers
 from publish.models import Content, Pub
-from publish.pub import build_pubs, get_pub, get_pub_contents, show_pub_words
+from publish.publication import build_pubs, get_pub, get_pub_contents, show_pub_words
 from publish.seamanslog import random_post
 from publish.toc import content_file, read_content_csv, write_content_csv
 from task.models import Activity, Task, TaskType

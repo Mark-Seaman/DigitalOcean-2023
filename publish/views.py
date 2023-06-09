@@ -8,7 +8,7 @@ from django.views.generic import (CreateView, DeleteView, RedirectView,
 from .files import read_json
 from .import_export import refresh_pub_from_git
 from .models import Pub
-from .pub import doc_view_context, get_host, pub_redirect, select_blog_doc
+from .publication import doc_view_context, get_host, pub_redirect, select_blog_doc
 from .slides import slides_view_context
 
 

@@ -2,7 +2,7 @@
 from django.test import TestCase
 
 from .models import Content, Pub
-from .pub import all_blogs, all_books, all_pubs, build_pubs
+from .publication import all_blogs, all_books, all_pubs, build_pubs
 from probe.tests_django import DjangoTest
 
 

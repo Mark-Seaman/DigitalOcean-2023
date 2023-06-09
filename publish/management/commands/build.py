@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from django.core.management.base import BaseCommand
 
 from publish.import_export import load_data
-from publish.pub import build_pubs
+from publish.publication import build_pubs
 from publish.seamanslog import review_file
 
 

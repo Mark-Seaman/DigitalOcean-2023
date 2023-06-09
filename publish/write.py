@@ -11,7 +11,7 @@ from .cover import write_cover
 from .files import read_file, write_file
 from .management.commands.edit import edit_file
 from .models import Content
-from .pub import get_pub, show_pub_words
+from .publication import get_pub, show_pub_words
 from .seamanslog import create_toot_file, random_article
 from .slides import create_slides, markdown, plant, write_workshop
 from .text import text_lines

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from publish.pub import all_books
+from publish.publication import all_books
 
 from .probe import check_files
 

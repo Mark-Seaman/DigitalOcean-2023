@@ -2,6 +2,8 @@ from pathlib import Path
 from random import choice
 from shutil import copyfile
 
+from publish.shell import banner
+
 from .document import document_body, document_html, document_title
 from .files import read_file, read_json
 from .import_export import create_pubs, import_pub, save_pub_data
@@ -86,8 +88,6 @@ def get_host(request):
 
 def get_pub(name):
     return Pub.objects.get(name=name)
-
-
 def get_pub_contents(pub):
     def doc_objects(pub, folder):
         return (
@@ -113,18 +113,30 @@ def get_pub_contents(pub):
         folders.append(folder)
     return folders
 
+def get_pub_info(pub_name=None):
+    if pub_name:
+        pubs = [get_pub(pub_name)]
+    else:
+        pubs = all_pubs()
+    text = ''
+    for pub in pubs:
+        text += f'{banner(pub.name)}\n\n{pub}\n\n'
+        text += f'Contents:  {get_pub_contents(pub)}\n\n'
+        text += f'{show_pub_content(pub)}\n\n'  
+        text += f'{show_pub_words(pub)}\n\n' 
+    return text
 
-def get_pub_folders(pub):
-    def objects(pub, type):
-        return Content.objects.filter(blog=pub, doctype=type).order_by("order")
+# def get_pub_folders(pub):
+#     def objects(pub, type):
+#         return Content.objects.filter(blog=pub, doctype=type).order_by("order")
 
-    def folders(pub):
-        return [(f, docs(f)) for f in objects(pub, "folder")]
+#     def folders(pub):
+#         return [(f, docs(f)) for f in objects(pub, "folder")]
 
-    def docs(folder):
-        return objects(pub, "chapter").filter(folder=folder)
+#     def docs(folder):
+#         return objects(pub, "chapter").filter(folder=folder)
 
-    return folders
+#     return folders
 
 
 def list_content(pub):

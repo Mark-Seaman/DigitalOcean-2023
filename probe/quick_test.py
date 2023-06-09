@@ -4,7 +4,7 @@ from probe.coder import coder
 
 # from publish.book_tools import create_book_covers
 from publish.models import Content, Pub
-from publish.publication import build_pubs, get_pub, get_pub_contents, show_pub_words
+from publish.publication import build_pubs, get_pub, get_pub_contents, get_pub_info, show_pub_words
 from publish.seamanslog import random_post
 from publish.toc import content_file, read_content_csv, write_content_csv
 from task.models import Activity, Task, TaskType
@@ -13,9 +13,9 @@ from task.todo import edit_todo_list
 
 def quick_test():
     # print("No quick test defined")
-    coder()
+    # coder()
     # tasks()
-    # pubs()
+    pubs()
     # courses()
     # todo()
     # write()
@@ -32,11 +32,10 @@ def tasks():
 
 def pubs():
     # save_pub_details()
-    print(show_pub_words())
+    # print(show_pub_words())
     # pub = get_pub('journey')
     # print(show_pub_details(pub))
-    
-   
+    print(get_pub_info())
     # print(Pub.objects.all().delete())
     # print(Pub.objects.filter(name='sweng').delete())
     # print(Pub.objects.filter(name='genetics').delete())

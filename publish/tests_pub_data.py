@@ -2,7 +2,7 @@
 from django.test import TestCase
 
 from .models import Content, Pub
-from .publication import all_blogs, all_books, all_pubs, build_pubs
+from .publication import all_blogs, all_books, all_pubs, build_pubs, get_pub_info
 from probe.tests_django import DjangoTest
 
 
@@ -60,7 +60,6 @@ class PubInputOutputTest(DjangoTest):
 # -----------------------
 # Pub Fixture
 
-
 class FixtureTest(DjangoTest):
     fixtures = ["config/publish.json"]
 
@@ -76,3 +75,7 @@ class FixtureTest(DjangoTest):
 
     def test_blog_list(self):
         self.assertRange(len(all_blogs()), 5, 7, 'Num Blogs')
+
+    def test_pub_info(self):
+        text = get_pub_info()
+        self.assertNumLines(text, 4800, 4802)

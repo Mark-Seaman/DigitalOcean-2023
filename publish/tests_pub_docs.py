@@ -1,5 +1,6 @@
 from csv import reader
 from probe.tests_django import DjangoTest
+from publish.publication import all_pubs, get_pub_info
 
 
 class PubDocTest(DjangoTest):
@@ -24,3 +25,4 @@ Documents/SHRINKING-WORLD-PUBS,184
                 self.assertFiles(x[0], int(x[1]), int(x[2]))
             else:
                 self.assertFiles(x[0], int(x[1]), int(x[1]))
+

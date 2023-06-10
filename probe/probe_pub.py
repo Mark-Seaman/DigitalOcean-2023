@@ -13,3 +13,4 @@ def test_pub_json():
 def test_pub_show():
     details = save_pub_details()
     return show_pub_words() + '\n\n' + details + '\n'
+

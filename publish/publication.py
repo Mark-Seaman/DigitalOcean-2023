@@ -2,8 +2,10 @@ from pathlib import Path
 from random import choice
 from shutil import copyfile
 
+from publish.shell import banner
+
 from .document import document_body, document_html, document_title
-from .files import read_file, read_json
+from .files import read_csv_file, read_file, read_json
 from .import_export import create_pubs, import_pub, save_pub_data
 from .models import Content, Pub
 from .text import line_count, text_join, word_count
@@ -113,18 +115,40 @@ def get_pub_contents(pub):
         folders.append(folder)
     return folders
 
+def get_pub_info(pub_name=None):
+    if pub_name:
+        pubs = [get_pub(pub_name)]
+    else:
+        pubs = all_pubs()
+    text = ''
+    for pub in pubs:
+        text += f'{banner(pub.name)}\n\n{pub}\n\n'
+        text += f'doc_path: {pub.doc_path}\n\n'
+        text += f'Contents: \n{get_pub_contents(pub)}\n\n'
+        text += f'Summary: \n{show_pub_content(pub)}\n\n'  
+        text += f'Words: \n{show_pub_words(pub)}\n\n' 
+    return text
 
-def get_pub_folders(pub):
-    def objects(pub, type):
-        return Content.objects.filter(blog=pub, doctype=type).order_by("order")
 
-    def folders(pub):
-        return [(f, docs(f)) for f in objects(pub, "folder")]
+def list_publications():
+    pub_paths = read_csv_file('Documents/publications.csv')
+    # for x in Pub.objects.all():
+    #     print(x.doc_path)
+    pubs = [p[0] for p in pub_paths]
+    return pubs
 
-    def docs(folder):
-        return objects(pub, "chapter").filter(folder=folder)
 
-    return folders
+def rebuild_pubs():
+    pubs = list_publications()
+    for p in pubs:
+        x = Pub.objects.filter(doc_path=p)
+        if x:
+            print(f'Rebuilding Pub: {x[0]}')
+
+        else:
+            print(p, 'Not found')
+    pubs = [Pub.objects.get(doc_path=p) for p in pubs]
+    return pubs
 
 
 def list_content(pub):

@@ -17,7 +17,7 @@ Documents/shrinking-world.com,548
 Documents/shrinking-world.io,59
 Documents/shrinking-world.org,3
 Documents/spiritual-things.org,431
-Documents/SHRINKING-WORLD-PUBS,183
+Documents/SHRINKING-WORLD-PUBS,183,184
 '''
         for x in list(reader(data.splitlines())):
             # print(x)

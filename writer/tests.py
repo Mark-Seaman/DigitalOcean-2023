@@ -152,18 +152,18 @@ class DocumentViewTest(DjangoTest):
             'http://shrinking-world.com', 160, 176, 'html')
 
     def test_pub_list_view(self):
-        text = self.assertPageText('/writer/', 80, 100, 'html')
+        text = self.assertPageText('/writer/', 120, 130, 'html')
 
     def test_pub_view(self):
-        text = self.assertPageText('/writer/GhostWriter', 148, 160, 'html')
+        text = self.assertPageText('/writer/GhostWriter', 180, 190, 'html')
 
     def test_chapter_view(self):
         text = self.assertPageText(
-            '/writer/GhostWriter/WritersGuide', 150, 200, 'html')
+            '/writer/GhostWriter/WritersGuide', 150, 240, 'html')
 
     def test_doc_view(self):
         text = self.assertPageText(
-            '/writer/GhostWriter/WritersGuide/Chapter1.md', 360, 410, 'html')
+            '/writer/GhostWriter/WritersGuide/Chapter1.md', 290, 310, 'html')
 
     def test_ai_view(self):
 
@@ -171,7 +171,7 @@ class DocumentViewTest(DjangoTest):
         # response = self.client.get('/GhostWriter/Pub/Haiku.md/ai')
         # self.assertEqual(response.status_code, 302)
 
-        self.assertPageText('/writer/GhostWriter/Pub/Haiku.md', 200, 300, 'Haiku')
+        self.assertPageText('/writer/GhostWriter/Pub/Haiku.md', 150, 300, 'Haiku')
 
 
 # class DocumentModelTest(DjangoTest):

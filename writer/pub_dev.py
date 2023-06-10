@@ -139,7 +139,7 @@ def pub_edit(**kwargs):
     command = f'"{editor}" -w "{path}" "{path2}" "{path3}"'
     print(command)
     system(command)
-    url = f'/{kwargs["pub"]}/{kwargs["chapter"]}/{kwargs["doc"]}'
+    url = pub_url(pub, chapter, doc)
     return url
 
 

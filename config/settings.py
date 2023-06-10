@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     "publish",
     "probe",
     "task",
+    "writer",
 ]
 
 MIDDLEWARE = [

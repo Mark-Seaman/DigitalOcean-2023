@@ -1,0 +1,116 @@
+{% extends 'writer_theme.html' %}
+
+
+{% block content %}
+
+<div class="row">
+
+    {% if doc %}
+
+    <div class="col-lg-6">
+
+        <div class="card">
+            <div class="card-header bg-primary">
+                {{ doc }}
+            </div>
+            <div class="card-body bg-light text-dark m-2 p-5">
+                {% autoescape off%}
+                {{ html }}
+                {% endautoescape %}
+            </div>
+        </div>
+
+    </div>
+    {% else %}
+
+    <div class="col-lg-2">
+
+        {% if pubs %}
+        <div>
+            <strong>Pubs</strong>
+            <ul>
+                {% for pub in pubs %}
+                <li>
+                    {% autoescape off%}
+                    {{ pub }}
+                    {% endautoescape %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif%}
+
+        {% if pub %}
+        <div>
+            <strong>{{ pub }}</strong>
+            <ul>
+                {% for doc in chapters %}
+                <li>
+                    {% autoescape off%}
+                    {{ doc }}
+                    {% endautoescape %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif%}
+
+        {% if chapter %}
+        <div>
+            <strong>{{ chapter }}</strong>
+            <ul>
+                {% for doc in docs %}
+                <li>
+                    {% autoescape off%}
+                    {{ doc }}
+                    {% endautoescape %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif%}
+
+    </div>
+
+    {% endif%}
+
+    {% if ai or human %}
+    <div class="col-lg-4">
+        <div>
+            <a class="btn btn-primary" href="/{{ pub }}/{{ chapter }}/{{ doc }}/">Edit Files</a>
+        </div>
+
+        {% if human %}
+        <div class="card m-2">
+            <div class="card-header bg-success">
+                Human Prompt
+            </div>
+            <div class="card-body">
+                {% autoescape off%}
+                {{ human }}
+                {% endautoescape %}
+            </div>
+        </div>
+        {% endif%}
+
+        {% if ai %}
+        <div class="card m-2">
+            <div class="card-header bg-success">
+                AI Prompt
+            </div>
+            <div class="card-body">
+                {% autoescape off%}
+                {{ ai }}
+                {% endautoescape %}
+
+                <a class="btn btn-primary" href="/{{ pub }}/{{ chapter }}/{{ doc }}/ai">Run Script</a>
+            </div>
+        </div>
+
+        {% endif%}
+
+    </div>
+    {% endif%}
+
+</div>
+{% endblock content %}

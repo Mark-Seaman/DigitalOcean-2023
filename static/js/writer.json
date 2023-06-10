@@ -1,0 +1,14 @@
+{
+    "name": "writer",
+    "site_title": "Ghost Writer",
+    "site_subtitle": "The Author Dream Tool",
+    "url": "/writer",
+    "description": "Use AI for writing and publishing.",
+    "doc_path": "Documents/seamanslog.com/writer",
+    "image_path": "static/images/seamanslog.com/writer",
+    "author": "Mark Seaman",
+    "css": "static/css/blog.css",
+    "words": 0,
+    "cover_image": "/static/images/seamanslog.com/write-cover-400.png",
+    "menu": "static/js/nav_writer.json"
+}

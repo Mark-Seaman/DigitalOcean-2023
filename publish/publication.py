@@ -115,6 +115,7 @@ def get_pub_contents(pub):
         folders.append(folder)
     return folders
 
+
 def get_pub_info(pub_name=None):
     if pub_name:
         pubs = [get_pub(pub_name)]
@@ -123,9 +124,11 @@ def get_pub_info(pub_name=None):
     text = ''
     for pub in pubs:
         text += f'{banner(pub.name)}\n\n{pub}\n\n'
-        text += f'doc_path: {pub.doc_path}\n\n'
-        text += f'Contents: \n{get_pub_contents(pub)}\n\n'
-        text += f'Summary: \n{show_pub_content(pub)}\n\n'  
+        text += f'Title: {pub.title}\n\n'
+        text += f'Tag Line: {pub.subtitle}\n\n'
+        text += f'Document Path: {pub.doc_path}\n\n'
+        # text += f'Contents: \n{get_pub_contents(pub)}\n\n'
+        # text += f'Summary: \n{show_pub_content(pub)}\n\n'  
         text += f'Words: \n{show_pub_words(pub)}\n\n' 
     return text
 
@@ -135,19 +138,6 @@ def list_publications():
     # for x in Pub.objects.all():
     #     print(x.doc_path)
     pubs = [p[0] for p in pub_paths]
-    return pubs
-
-
-def rebuild_pubs():
-    pubs = list_publications()
-    for p in pubs:
-        x = Pub.objects.filter(doc_path=p)
-        if x:
-            print(f'Rebuilding Pub: {x[0]}')
-
-        else:
-            print(p, 'Not found')
-    pubs = [Pub.objects.get(doc_path=p) for p in pubs]
     return pubs
 
 
@@ -185,13 +175,31 @@ def random_doc_page(path):
     return x.replace(".md", "")
 
 
-def save_pub_details():
-    text = ''
-    for pub in all_pubs():
-        t = show_pub_details(pub)
-        text += t
-        word_count_file(pub).write_text(t)
-    return line_count(text)
+def rebuild_pubs():
+    pubs = list_publications()
+    for p in pubs:
+        x = Pub.objects.filter(doc_path=p)
+        if x:
+            print(f'Rebuilding Pub: {x[0]}')
+
+        else:
+            print(p, 'Not found')
+    pubs = [Pub.objects.get(doc_path=p) for p in pubs]
+
+    # Delete & Build
+    # delete_pubs()
+    build_pubs()
+
+    return pubs
+
+
+# def save_pub_details():
+#     text = ''
+#     for pub in all_pubs():
+#         t = show_pub_details(pub)
+#         text += t
+#         word_count_file(pub).write_text(t)
+#     return line_count(text)
 
 
 def select_blog_doc(host, blog, doc):

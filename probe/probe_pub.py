@@ -1,5 +1,4 @@
-from publish.publication import (build_pubs, save_pub_details, show_pub_json,
-                         show_pub_words)
+from publish.publication import build_pubs, get_pub_info, show_pub_json
 
 
 def test_pub_import():
@@ -10,7 +9,6 @@ def test_pub_json():
     return show_pub_json()
 
 
-def test_pub_show():
-    details = save_pub_details()
-    return show_pub_words() + '\n\n' + details + '\n'
+def test_pub_info():
+    return get_pub_info()
 

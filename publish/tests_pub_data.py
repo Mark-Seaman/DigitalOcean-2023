@@ -1,8 +1,10 @@
 
 from django.test import TestCase
 
+from publish.text import line_count
+
 from .models import Content, Pub
-from .publication import all_blogs, all_books, all_pubs, build_pubs, get_pub_info, rebuild_pubs
+from .publication import all_blogs, all_books, all_privates, all_pubs, build_pubs, get_pub_info, rebuild_pubs
 from probe.tests_django import DjangoTest
 
 
@@ -75,11 +77,16 @@ class FixtureTest(DjangoTest):
 
     def test_blog_list(self):
         self.assertRange(len(all_blogs()), 5, 7, 'Num Blogs')
+   
+    def test_private_list(self):
+        self.assertRange(len(all_privates()), 9, 9, 'Num Private Pubs')
 
     def test_pub_info(self):
         text = get_pub_info()
-        self.assertNumLines(text, 4800, 4910)
+        self.assertNumLines(text, 2229, 2319)
 
     def test_rebuld_pubs(self):
         self.assertRange(len(rebuild_pubs()), 3, 3)
+        self.assertRange(len(Content.objects.all()), 1200, 1300, "Content objects")
+        self.assertNumLines(get_pub_info(), 2229, 2319)
 

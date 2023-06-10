@@ -1,11 +1,13 @@
 from pathlib import Path
 from pprint import pprint
 from probe.coder import coder
+from probe.models import Probe, TestResult
 
 # from publish.book_tools import create_book_covers
 from publish.models import Content, Pub
-from publish.publication import build_pubs, get_pub, get_pub_contents, get_pub_info, show_pub_words
+from publish.publication import build_pubs, get_pub, get_pub_contents, get_pub_info, rebuild_pubs, show_pub_words
 from publish.seamanslog import random_post
+from publish.text import line_count
 from publish.toc import content_file, read_content_csv, write_content_csv
 from task.models import Activity, Task, TaskType
 from task.task import task_command, update_tasks
@@ -13,17 +15,12 @@ from task.todo import edit_todo_list
 
 def quick_test():
     # print("No quick test defined")
-    # coder()
-    # tasks()
     pubs()
-    # courses()
-    # todo()
-    # write()
-    # print(update_tasks(days=8,  activity=True))
-    # update_pub_content()
-    # create_book_covers()
-    # Pub.objects.get(name='video').delete()
 
+
+def tests():
+    print(f'{len(Probe.objects.all())} Tests available'  )
+    print(f'{len(TestResult.objects.all())} Tests available'  )
 
 
 def tasks():
@@ -31,42 +28,17 @@ def tasks():
 
 
 def pubs():
-    # save_pub_details()
-    # print(show_pub_words())
-    # pub = get_pub('journey')
-    # print(show_pub_details(pub))
-    print(get_pub_info())
-    # print(Pub.objects.all().delete())
-    # print(Pub.objects.filter(name='sweng').delete())
-    # print(Pub.objects.filter(name='genetics').delete())
-    # build_pubs()
+    rebuild_pubs()
+    print(f'Pub Info: {line_count(get_pub_info())}')
 
 
 def write():
-    # edit_review_file()
-    # edit_toot_file()
-    # edit_blog_files()
     print(random_post("journey"))
-    # article = random_article()
-    # print(extract_message(article["doc"], article["url"]))
 
 
 def todo():
     print("TODO")
     edit_todo_list()
-
-
-def create_sampler_index():
-    def create_content_file(pub):
-        content = content_file(pub)
-        if not content.exists():
-            write_content_csv(pub)
-
-    pub = get_pub("sampler")
-    create_content_file(pub)
-    print(read_content_csv(pub))
-
-    contents = get_pub_contents(pub)
 
 
 def write_webapps_contents():

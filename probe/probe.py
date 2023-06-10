@@ -107,10 +107,17 @@ def execute_probe(probe):
         # print(f'OUTPUT:\n{output}')
         if not output:
             output = 'None'
-        result = TestResult.create(probe=probe, output=output, passed=passed)
+
+        # Update the result for this probe
+        result = TestResult.objects.get_or_create(probe=probe)[0]
+        result.output=output
+        result.passed=passed
+        result.save()
+
         # print(result.probe.name, result.probe.expected, result.output, result.passed)
         return result
-
+    
+    # clear_probe_history(probe.pk)
     return save_results(probe)
 
 

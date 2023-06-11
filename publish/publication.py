@@ -49,7 +49,7 @@ def build_pubs(pub=None):
                 copyfile(f, dest/f.name)
 
     # delete_pubs()
-    log = create_pubs()
+    log = create_pubs(list_publications())
 
     text = ""
     pubs = [pub] if pub else all_pubs()
@@ -137,7 +137,7 @@ def list_publications():
     pub_paths = read_csv_file('Documents/publications.csv')
     # for x in Pub.objects.all():
     #     print(x.doc_path)
-    pubs = [p[0] for p in pub_paths]
+    pubs = [p for p in pub_paths]
     return pubs
 
 
@@ -174,23 +174,46 @@ def random_doc_page(path):
                for f in Path(path).iterdir() if str(f).endswith(".md")])
     return x.replace(".md", "")
 
-
-def rebuild_pubs():
+def pub_json_path(name, doc_path):
+    json1 = f'static/js/{name}.json'
+    if Path(json1):
+        return json1
+    json2 = f'{doc_path}/pub.json'
+    if not Path(json2).exists():
+        return json2
+    json3 = f'../{doc_path}/pub.json'
+    if not Path(json3).exists():
+        return json3
+    return json2
+    
+def verify_pubs():
     pubs = list_publications()
     for p in pubs:
-        x = Pub.objects.filter(doc_path=p)
+        x = Pub.objects.filter(doc_path=p[1], name=p[0])
         if x:
-            print(f'Rebuilding Pub: {x[0]}')
+            x = x[0]
+            print(f'Verify Pub: {x}')
 
+            json = pub_json_path(x.name, x.doc_path)
+            if not Path(json).exists():
+                print(f'   JSON {json} NOT FOUND')
+
+            if not Path(x.doc_path).exists():
+                print(f'   x.doc_path -- NOT FOUND')
         else:
             print(p, 'Not found')
-    pubs = [Pub.objects.get(doc_path=p) for p in pubs]
+
+
+def rebuild_pubs():
+    create_pubs(list_publications())
+    verify_pubs()
+
+    # pubs = [Pub.objects.get(doc_path=p) for p in pubs]
 
     # Delete & Build
     # delete_pubs()
-    build_pubs()
 
-    return pubs
+    # return pubs
 
 
 # def save_pub_details():

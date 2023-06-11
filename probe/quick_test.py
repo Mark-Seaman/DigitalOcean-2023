@@ -18,6 +18,11 @@ def quick_test():
     pubs()
 
 
+def pubs():
+    rebuild_pubs()
+    print(f'Pub Info: {line_count(get_pub_info())}')
+
+
 def tests():
     print(f'{len(Probe.objects.all())} Tests available'  )
     print(f'{len(TestResult.objects.all())} Tests available'  )
@@ -25,11 +30,6 @@ def tests():
 
 def tasks():
     task_command(['week'])
-
-
-def pubs():
-    rebuild_pubs()
-    print(f'Pub Info: {line_count(get_pub_info())}')
 
 
 def write():

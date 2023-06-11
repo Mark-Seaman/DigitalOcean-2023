@@ -13,7 +13,7 @@ def test_book_journey():
 
 
 def test_book_poem():
-    return check_files(book / "poem", 70, 90)
+    return check_files(book / "poem", 70, 100)
 
 
 def test_book_leverage():

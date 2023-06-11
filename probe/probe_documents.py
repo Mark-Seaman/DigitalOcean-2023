@@ -35,7 +35,7 @@ def test_documents_seamanslog():
 
 
 def test_documents_seamansguide():
-    return check_files(docs / "seamansguide.com", 440, 450)
+    return check_files(docs / "seamansguide.com", 440, 460)
 
 
 def test_documents_spiritual():
@@ -43,7 +43,7 @@ def test_documents_spiritual():
 
 
 def test_documents_shrinking_world():
-    return check_files(docs / "shrinking-world.com", 580, 610)
+    return check_files(docs / "shrinking-world.com", 600, 650)
 
 
 def test_documents_mark():

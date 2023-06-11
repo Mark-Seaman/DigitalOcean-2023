@@ -17025,20 +17025,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 105751,
-    "fields": {
-        "blog": 1035,
-        "order": 5,
-        "title": "Innovation and Technology                              ",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.io/ghost.org/teach/Index.md",
-        "folder": 0,
-        "words": 36,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 105752,
     "fields": {
         "blog": 1035,
@@ -17046,7 +17032,7 @@
         "title": "Course Prep with AI",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/teach/course_ai_prep.md",
-        "folder": 5,
+        "folder": 6,
         "words": 271,
         "retain_object": false
     }
@@ -17060,7 +17046,7 @@
         "title": "cuments/shrinking-world.io/teach/genetics_book.md",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/teach/genetics_book.md",
-        "folder": 5,
+        "folder": 6,
         "words": 352,
         "retain_object": false
     }
@@ -17074,7 +17060,7 @@
         "title": "I Love Software",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/teach/i_love_software.md",
-        "folder": 5,
+        "folder": 6,
         "words": 38,
         "retain_object": false
     }
@@ -17088,7 +17074,7 @@
         "title": "Learning to Teach",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/teach/learn_to_teach.md",
-        "folder": 5,
+        "folder": 6,
         "words": 310,
         "retain_object": false
     }
@@ -17102,7 +17088,7 @@
         "title": "Dreyfus Model of Learning",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/teach/learning.md",
-        "folder": 5,
+        "folder": 6,
         "words": 572,
         "retain_object": false
     }
@@ -17116,7 +17102,7 @@
         "title": "thon-web-apps",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/teach/python-web-apps.md",
-        "folder": 5,
+        "folder": 6,
         "words": 194,
         "retain_object": false
     }
@@ -17130,7 +17116,7 @@
         "title": "Build courses to teach skills",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/teach/teach.md",
-        "folder": 5,
+        "folder": 6,
         "words": 71,
         "retain_object": false
     }
@@ -17144,7 +17130,7 @@
         "title": " A Chance to Teach",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/teach/teaching_chance.md",
-        "folder": 5,
+        "folder": 6,
         "words": 368,
         "retain_object": false
     }
@@ -17158,22 +17144,8 @@
         "title": "Building Python Web Apps",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/teach/web_apps_book.md",
-        "folder": 5,
+        "folder": 6,
         "words": 1028,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 105761,
-    "fields": {
-        "blog": 1035,
-        "order": 6,
-        "title": "Weekly Content Summary",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.io/ghost.org/weekly/Index.md",
-        "folder": 0,
-        "words": 60,
         "retain_object": false
     }
 },
@@ -17186,7 +17158,7 @@
         "title": "The Shrinking World - Feb 3, 2023",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_02_03.md",
-        "folder": 6,
+        "folder": 7,
         "words": 145,
         "retain_object": false
     }
@@ -17200,7 +17172,7 @@
         "title": "The Shrinking World - Feb 10, 2023",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_02_10.md",
-        "folder": 6,
+        "folder": 7,
         "words": 121,
         "retain_object": false
     }
@@ -17214,7 +17186,7 @@
         "title": "The Shrinking World - Feb 17, 2023",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_02_17.md",
-        "folder": 6,
+        "folder": 7,
         "words": 122,
         "retain_object": false
     }
@@ -17228,7 +17200,7 @@
         "title": "The Shrinking World - Feb 24, 2023",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_02_24.md",
-        "folder": 6,
+        "folder": 7,
         "words": 117,
         "retain_object": false
     }
@@ -17242,7 +17214,7 @@
         "title": "The Shrinking World - March 3, 2023",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_03_03.md",
-        "folder": 6,
+        "folder": 7,
         "words": 110,
         "retain_object": false
     }
@@ -17256,7 +17228,7 @@
         "title": "The Shrinking World - March 17, 2023",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_03_17.md",
-        "folder": 6,
+        "folder": 7,
         "words": 111,
         "retain_object": false
     }
@@ -17270,7 +17242,7 @@
         "title": "The Shrinking World - March 24, 2023",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_03_24.md",
-        "folder": 6,
+        "folder": 7,
         "words": 112,
         "retain_object": false
     }
@@ -17284,7 +17256,7 @@
         "title": "The Shrinking World Digest - March 31, 2023",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_03_31.md",
-        "folder": 6,
+        "folder": 7,
         "words": 85,
         "retain_object": false
     }
@@ -17298,7 +17270,7 @@
         "title": "The Shrinking World Digest - April 14, 2023",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_04_14.md",
-        "folder": 6,
+        "folder": 7,
         "words": 76,
         "retain_object": false
     }
@@ -17312,22 +17284,8 @@
         "title": "The Shrinking World Digest - April 21, 2023",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/weekly/2023_04_21.md",
-        "folder": 6,
+        "folder": 7,
         "words": 78,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 105772,
-    "fields": {
-        "blog": 1035,
-        "order": 7,
-        "title": "Writing and Publishing",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.io/ghost.org/write/Index.md",
-        "folder": 0,
-        "words": 36,
         "retain_object": false
     }
 },
@@ -17340,7 +17298,7 @@
         "title": "Story in Three Acts",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/3_acts.md",
-        "folder": 7,
+        "folder": 8,
         "words": 240,
         "retain_object": false
     }
@@ -17354,7 +17312,7 @@
         "title": "Headlines for Future Articles",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/Headlines.md",
-        "folder": 7,
+        "folder": 8,
         "words": 108,
         "retain_object": false
     }
@@ -17368,7 +17326,7 @@
         "title": "cuments/shrinking-world.io/write/ai-for-writers.md",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/ai-for-writers.md",
-        "folder": 7,
+        "folder": 8,
         "words": 326,
         "retain_object": false
     }
@@ -17382,7 +17340,7 @@
         "title": "The Creative Process",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/creative_process.md",
-        "folder": 7,
+        "folder": 8,
         "words": 345,
         "retain_object": false
     }
@@ -17396,7 +17354,7 @@
         "title": "The Internet age",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/internet_age.md",
-        "folder": 7,
+        "folder": 8,
         "words": 216,
         "retain_object": false
     }
@@ -17410,7 +17368,7 @@
         "title": "Mark Today Blogcast",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/mark_today_blogcast.md",
-        "folder": 7,
+        "folder": 8,
         "words": 123,
         "retain_object": false
     }
@@ -17424,7 +17382,7 @@
         "title": "It's Not About Output",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/not_output.md",
-        "folder": 7,
+        "folder": 8,
         "words": 236,
         "retain_object": false
     }
@@ -17438,7 +17396,7 @@
         "title": "ems",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/poems.md",
-        "folder": 7,
+        "folder": 8,
         "words": 173,
         "retain_object": false
     }
@@ -17452,7 +17410,7 @@
         "title": "Incremental Project Development",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/project_doodly.md",
-        "folder": 7,
+        "folder": 8,
         "words": 288,
         "retain_object": false
     }
@@ -17466,7 +17424,7 @@
         "title": "Write",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/write.md",
-        "folder": 7,
+        "folder": 8,
         "words": 68,
         "retain_object": false
     }
@@ -17480,7 +17438,7 @@
         "title": "Writing My Story",
         "doctype": "chapter",
         "path": "Documents/shrinking-world.io/ghost.org/write/writing_my_story.md",
-        "folder": 7,
+        "folder": 8,
         "words": 190,
         "retain_object": false
     }
@@ -18350,6 +18308,48 @@
         "path": "Documents/Shrinking-World-Pubs/DataAnalytics/Pub/01.md",
         "folder": 0,
         "words": 2447,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 105846,
+    "fields": {
+        "blog": 1035,
+        "order": 6,
+        "title": "Innovation and Technology                              ",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.io/ghost.org/teach/Index.md",
+        "folder": 0,
+        "words": 36,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 105847,
+    "fields": {
+        "blog": 1035,
+        "order": 7,
+        "title": "Weekly Content Summary",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.io/ghost.org/weekly/Index.md",
+        "folder": 0,
+        "words": 60,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 105848,
+    "fields": {
+        "blog": 1035,
+        "order": 8,
+        "title": "Writing and Publishing",
+        "doctype": "folder",
+        "path": "Documents/shrinking-world.io/ghost.org/write/Index.md",
+        "folder": 0,
+        "words": 36,
         "retain_object": false
     }
 }

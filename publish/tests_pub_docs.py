@@ -4,6 +4,8 @@ from publish.publication import all_pubs, get_pub_info, list_publications
 
 
 class PubDocTest(DjangoTest):
+    fixtures = ["config/publish.json"]
+
     def test_all_docs(self):
         self.assertFiles('Documents', 2051, 2060)
 
@@ -27,4 +29,4 @@ Documents/SHRINKING-WORLD-PUBS,183,184
                 self.assertFiles(x[0], int(x[1]), int(x[1]))
 
     def test_pub_list(self):
-        self.assertRange(len(list_publications()), 3, 3)
+        self.assertRange(len(list_publications()), 21, 21)

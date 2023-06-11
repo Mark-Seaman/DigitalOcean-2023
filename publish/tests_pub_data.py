@@ -86,7 +86,7 @@ class FixtureTest(DjangoTest):
         self.assertNumLines(text, 2229, 2319)
 
     def test_rebuld_pubs(self):
-        self.assertRange(len(rebuild_pubs()), 3, 3)
+        self.assertRange(len(rebuild_pubs()), 21, 21)
         self.assertRange(len(Content.objects.all()), 1200, 1300, "Content objects")
         self.assertNumLines(get_pub_info(), 2229, 2319)
 

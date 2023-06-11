@@ -134,17 +134,36 @@ def get_pub_info(pub_name=None):
 
 
 def list_publications():
-    pub_paths = read_csv_file('Documents/publications.csv')
-    # for x in Pub.objects.all():
-    #     print(x.doc_path)
-    pubs = [p for p in pub_paths]
-    return pubs
+    return read_csv_file('Documents/publications.csv')
 
 
 def list_content(pub):
-    return [c for c in Content.objects.filter(blog=pub)]
+    return list(Content.objects.filter(blog=pub))
 
 
+def pub_json_path(name, doc_path):
+    path = Path(doc_path)
+    json1 = Path(f'static/js/{name}.json')
+    json2 = path/'pub.json'
+    json3 = path.parent/'pub.json'
+
+    if json2.exists():
+        if path.name == 'Pub':
+            json2.rename(json3)
+            return json3
+        return json2
+    
+    if json3.exists():
+        return json3
+    
+    if json1.exists():
+        print("COPY FILE", json1, json2)
+        copyfile(json1, json2)
+        return json1
+    
+    return json2
+    
+    
 def pub_redirect(host, pub, doc):
     if host == "shrinking-world.com" and not pub:
         return f"/tech"
@@ -174,55 +193,10 @@ def random_doc_page(path):
                for f in Path(path).iterdir() if str(f).endswith(".md")])
     return x.replace(".md", "")
 
-def pub_json_path(name, doc_path):
-    json1 = f'static/js/{name}.json'
-    if Path(json1):
-        return json1
-    json2 = f'{doc_path}/pub.json'
-    if not Path(json2).exists():
-        return json2
-    json3 = f'../{doc_path}/pub.json'
-    if not Path(json3).exists():
-        return json3
-    return json2
-    
-def verify_pubs():
-    pubs = list_publications()
-    for p in pubs:
-        x = Pub.objects.filter(doc_path=p[1], name=p[0])
-        if x:
-            x = x[0]
-            print(f'Verify Pub: {x}')
-
-            json = pub_json_path(x.name, x.doc_path)
-            if not Path(json).exists():
-                print(f'   JSON {json} NOT FOUND')
-
-            if not Path(x.doc_path).exists():
-                print(f'   x.doc_path -- NOT FOUND')
-        else:
-            print(p, 'Not found')
-
-
 def rebuild_pubs():
     create_pubs(list_publications())
     verify_pubs()
-
-    # pubs = [Pub.objects.get(doc_path=p) for p in pubs]
-
-    # Delete & Build
-    # delete_pubs()
-
-    # return pubs
-
-
-# def save_pub_details():
-#     text = ''
-#     for pub in all_pubs():
-#         t = show_pub_details(pub)
-#         text += t
-#         word_count_file(pub).write_text(t)
-#     return line_count(text)
+    return list(Pub.objects.all())
 
 
 def select_blog_doc(host, blog, doc):
@@ -302,6 +276,26 @@ def show_pub_json():
         text += f"\n\n---\n\n{js}\n\n---\n\n"
         text += js.read_text()
     return text
+
+def verify_pubs():
+    pubs = list_publications()
+    for p in pubs:
+        x = Pub.objects.filter(doc_path=p[1], name=p[0])
+        if x:
+            x = x[0]
+            # print(f'Verify Pub: {x}')
+
+            if not Path(x.doc_path).exists():
+                print(f'   {x.name} -- {x.doc_path} -- NOT FOUND')
+            # assert not Path(x.doc_path).exists()
+
+            json = pub_json_path(x.name, x.doc_path)
+            if not json.exists():
+                print(f'   JSON {json} NOT FOUND')
+
+        else:
+            assert False
+            print(p, 'Not found')
 
 
 def word_count_file(pub):

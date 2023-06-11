@@ -1,0 +1,20 @@
+{
+    "name": "ai",
+    "site_title": "AI Conversations",
+    "site_subtitle": "Go Ask Chet",
+    "domain": "https://shrinking-world.com",
+    "url": "/ai",
+    "title": "Go Ask Chet",
+    "author": "Mark Seaman",
+    "description": "Finally I can get all of the answers I need",
+    "css": "/static/css/book.css",
+    "doc_path": "Documents/shrinking-world.com/ai",
+    "image_path": "/static/images/shrinking-world.com/ai",
+    "cover_image": "/static/images/shrinking-world.com/tech-cover-400.png",
+    "cover_title": false,
+    "pub_type": "private",
+    "menu": "static/js/nav_blog.json",
+    "auto_contents": true,
+    "auto_index": true,
+    "simple_index": true
+}

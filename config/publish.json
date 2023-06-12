@@ -475,7 +475,7 @@
         "title": "SoftwareEngineering",
         "subtitle": "Practical Software Development",
         "description": "The road to faster, cheaper, better software",
-        "doc_path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book",
+        "doc_path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub",
         "image_path": "/static/images/Shrinking-World-Pubs/SoftwareEngineering",
         "css": "/static/css/shrinking-world.css",
         "domain": null,
@@ -18117,104 +18117,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 107104,
-    "fields": {
-        "blog": 1059,
-        "order": 0,
-        "title": "Software Engineering Theory & Application",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Title.md",
-        "folder": 0,
-        "words": 515,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 107105,
-    "fields": {
-        "blog": 1059,
-        "order": 1,
-        "title": "Book Cover",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Cover.md",
-        "folder": 0,
-        "words": 13,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 107106,
-    "fields": {
-        "blog": 1059,
-        "order": 2,
-        "title": "About the Author",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Author.md",
-        "folder": 0,
-        "words": 309,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 107107,
-    "fields": {
-        "blog": 1059,
-        "order": 3,
-        "title": "Software Apps for Course",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/SoftwareApps.md",
-        "folder": 0,
-        "words": 389,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 107108,
-    "fields": {
-        "blog": 1059,
-        "order": 4,
-        "title": "Milestones for Web-Based Software App",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Milestones.md",
-        "folder": 0,
-        "words": 350,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 107109,
-    "fields": {
-        "blog": 1059,
-        "order": 5,
-        "title": " Software Engineering Textbook Outline",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Outline.md",
-        "folder": 0,
-        "words": 433,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 107110,
-    "fields": {
-        "blog": 1059,
-        "order": 6,
-        "title": "Chapter 1: Introduction to Software Engineering",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/01.md",
-        "folder": 0,
-        "words": 1754,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 107111,
     "fields": {
         "blog": 1060,
@@ -18350,6 +18252,104 @@
         "path": "Documents/Shrinking-World-Pubs/DataAnalytics/Pub/01.md",
         "folder": 0,
         "words": 2447,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 107121,
+    "fields": {
+        "blog": 1059,
+        "order": 0,
+        "title": "Software Engineering Theory & Application",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/Title.md",
+        "folder": 0,
+        "words": 515,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 107122,
+    "fields": {
+        "blog": 1059,
+        "order": 1,
+        "title": "Book Cover",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/Cover.md",
+        "folder": 0,
+        "words": 13,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 107123,
+    "fields": {
+        "blog": 1059,
+        "order": 2,
+        "title": "About the Author",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/Author.md",
+        "folder": 0,
+        "words": 309,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 107124,
+    "fields": {
+        "blog": 1059,
+        "order": 3,
+        "title": "Software Apps for Course",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/SoftwareApps.md",
+        "folder": 0,
+        "words": 389,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 107125,
+    "fields": {
+        "blog": 1059,
+        "order": 4,
+        "title": "Milestones for Web-Based Software App",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/Milestones.md",
+        "folder": 0,
+        "words": 350,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 107126,
+    "fields": {
+        "blog": 1059,
+        "order": 5,
+        "title": " Software Engineering Textbook Outline",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/Outline.md",
+        "folder": 0,
+        "words": 433,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 107127,
+    "fields": {
+        "blog": 1059,
+        "order": 6,
+        "title": "Chapter 1: Introduction to Software Engineering",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/01.md",
+        "folder": 0,
+        "words": 1754,
         "retain_object": false
     }
 }

@@ -194,6 +194,7 @@ def random_doc_page(path):
     return x.replace(".md", "")
 
 def rebuild_pubs():
+    delete_pubs()
     create_pubs(list_publications())
     verify_pubs()
     return list(Pub.objects.all())

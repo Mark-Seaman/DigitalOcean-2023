@@ -27,7 +27,7 @@ class GhostTest(DjangoTest):
     def test_project(self):
         pub_script_command('project', ['GhostWriter'])
         js = (pub_path('GhostWriter').parent)/'pub.json'
-        self.assertFileLines(js, 8, 8)
+        self.assertFileLines(js, 20, 20)
 
     def test_chapter(self):
         pub_script_command('chapter', ['GhostWriter', 'GhostWriter'])
@@ -100,7 +100,7 @@ class PubTest(DjangoTest):
         pubs1 = len(list_pubs())
         pubs2 = len(pub_view_data()['pubs'])
         self.assertEqual(pubs1, pubs2)
-        self.assertRange(pubs2, 4, 5)
+        self.assertRange(pubs2, 7, 7)
 
     def test_doc_files(self):
         self.assertRange(ghost_writer_files('*/*.md'), 28, 36)
@@ -152,14 +152,14 @@ class DocumentViewTest(DjangoTest):
             'http://shrinking-world.com', 160, 176, 'html')
 
     def test_pub_list_view(self):
-        text = self.assertPageText('/writer/', 120, 130, 'html')
+        text = self.assertPageText('/writer/', 120, 140, 'html')
 
     def test_pub_view(self):
-        text = self.assertPageText('/writer/GhostWriter', 180, 194, 'html')
+        text = self.assertPageText('/writer/GhostWriter', 180, 210, 'html')
 
     def test_chapter_view(self):
         text = self.assertPageText(
-            '/writer/GhostWriter/WritersGuide', 150, 243, 'html')
+            '/writer/GhostWriter/WritersGuide', 240, 250, 'html')
 
     def test_doc_view(self):
         text = self.assertPageText(

@@ -1,17 +1,15 @@
 from pathlib import Path
-from pprint import pprint
-from probe.coder import coder
-from probe.models import Probe, TestResult
 
-# from publish.book_tools import create_book_covers
 from publish.models import Content, Pub
-from publish.publication import build_pubs, get_pub, get_pub_contents, get_pub_info, rebuild_pubs, show_pub_words
+from publish.publication import get_pub_info, rebuild_pubs
 from publish.seamanslog import random_post
-from publish.text import line_count
-from publish.toc import content_file, read_content_csv, write_content_csv
+from publish.text import line_count, text_join
 from task.models import Activity, Task, TaskType
-from task.task import task_command, update_tasks
+from task.task import task_command
 from task.todo import edit_todo_list
+
+from .models import Probe, TestResult
+
 
 def quick_test():
     # print("No quick test defined")
@@ -20,12 +18,11 @@ def quick_test():
 
 def pubs():
     rebuild_pubs()
-    print(f'Pub Info: {line_count(get_pub_info())}')
 
 
 def tests():
     print(f'{len(Probe.objects.all())} Tests available'  )
-    print(f'{len(TestResult.objects.all())} Tests available'  )
+    print(f'{len(TestResult.objects.all())} Test Results available'  )
 
 
 def tasks():

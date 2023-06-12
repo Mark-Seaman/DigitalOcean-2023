@@ -1,10 +1,8 @@
-
 from django.test import TestCase
 
-from .models import Content, Pub
-from .publication import all_blogs, all_books, build_pubs
 from probe.tests_django import DjangoTest
 
+from .models import Content, Pub
 
 # -----------------------
 # Local Blog Pub Pages

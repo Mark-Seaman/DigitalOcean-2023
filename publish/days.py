@@ -1,7 +1,7 @@
-from calendar import day_abbr, monthrange, month_name, weekday
+from calendar import day_abbr, monthrange, weekday
 from datetime import datetime, timedelta
-from django.utils.timezone import make_aware, localdate
 
+from django.utils.timezone import localdate, make_aware
 
 # ------------------------------
 # Command Interpreter

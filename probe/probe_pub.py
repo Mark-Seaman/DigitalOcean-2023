@@ -8,7 +8,3 @@ def test_pub_import():
 def test_pub_json():
     return show_pub_json()
 
-
-def test_pub_info():
-    return get_pub_info()
-

@@ -4,54 +4,12 @@ from pathlib import Path
 from task.models import Activity, Task
 
 from .document import get_document
-from .files import read_csv_file, read_json, write_csv_file, write_file
+from .files import read_csv_file, read_json
 from .models import Content, Pub
-from .toc import content_file, create_pub_index, write_content_csv
+from .toc import content_file, write_content_csv
 
 
 def create_pubs(pubs):
-    def create_pub(name, doc_path):
-        return update_record(name, doc_path)
-
-    # def pub_locations():
-    #     return dict(
-    #         #
-    #         # Books
-    #         journey="Documents/seamansguide.com/journey",
-    #         poem="Documents/seamansguide.com/poem",
-    #         quest="Documents/seamansguide.com/quest",
-    #         leverage="Documents/seamansguide.com/leverage",
-    #         webapps="Documents/seamansguide.com/webapps",
-    #         #
-    #         # Blogs
-    #         tech="Documents/shrinking-world.com/blog",
-    #         write="Documents/seamanslog.com/write",
-    #         sampler="Documents/seamanslog.com/sampler",
-    #         spiritual="Documents/spiritual-things.org/daily",
-    #         mark="Documents/markseaman.org",
-    #         family="Documents/seamanfamily.org",
-    #         today="Documents/markseaman.org/today",
-    #         #
-    #         # Slides
-    #         org="Documents/shrinking-world.org",
-    #         #
-    #         # Video
-    #         # video="Documents/seamanslog.com/video",
-    #         #
-    #         # Private
-    #         ghost="Documents/Shrinking-World-Pubs/Ghost/Pub",
-    #         private="Documents/markseaman.info",
-    #         io="Documents/shrinking-world.io/ghost.org",
-    #         ai="Documents/shrinking-world.com/ai",
-    #         cellbiology="Documents/Shrinking-World-Pubs/MolecularCellBiology/Pub",
-    #         sweng="Documents/Shrinking-World-Pubs/SoftwareEngineering/Book",
-    #         innovation="Documents/Shrinking-World-Pubs/Innovation/Pub",
-    #         analytics='Documents/Shrinking-World-Pubs/DataAnalytics/Pub',
-    #         #
-    #         # Extra
-    #         # training="Documents/shrinking-world.com/blog/training",
-    #         # projects="Documents/shrinking-world.com/blog/projects",
-    #     )
 
     def pub_settings(name):
         return read_json(f"static/js/{name}.json")
@@ -80,25 +38,14 @@ def create_pubs(pubs):
         b.save()
         return b
 
-    # def create_pub_list(pubs):
-    #     text = ''
-    #     for pub in pubs:
-    #         text += f"{pub},{pubs[pub]}\n"
-    #     write_file('Documents/publications.csv', text)
+    def import_pub(pub):
+        content = content_file(pub)
+        if pub.auto_contents:
+            # print("CREATE CONTENT")
+            write_content_csv(pub)
+        import_content(pub, content)
+        delete_extra_objects(pub)
 
-    log = "Create pubs:\n\n"
-    # pubs = pub_locations()
-    # pubs = list_publications()
-
-    # create_pub_list(pubs)
-    for pub in pubs:
-        pub = create_pub(pub[0], pub[1])
-        # print(pub)
-        log += f"{pub}\n"
-    return log
-
-
-def import_pub(pub):
     def set_content(pub, doctype, path, folder, order):
         path = Path(pub.doc_path) / path
         x = Content.objects.get_or_create(
@@ -120,6 +67,9 @@ def import_pub(pub):
                 set_content(pub, "chapter", row[0], row[1], row[2])
             elif row:
                 set_content(pub, "folder", row[0], 0, row[1])
+        contents = len(Content.objects.filter(blog=pub))
+        # print(f'Contents objects: {pub.name} {contents}')
+        assert contents>0
 
     def delete_extra_objects(pub):
         Content.objects.filter(blog=pub, retain_object=False).delete()
@@ -127,12 +77,12 @@ def import_pub(pub):
             c.retain_object = False
             c.save()
 
-    content = content_file(pub)
-    if pub.auto_contents:
-        # print("CREATE CONTENT")
-        write_content_csv(pub)
-    import_content(pub, content)
-    delete_extra_objects(pub)
+    log = "Create pubs:\n\n"
+    for pub in pubs:
+        pub = update_record(pub[0], pub[1])
+        import_pub(pub)
+        log += f"{pub}\n"
+    return log
 
 
 def load_data():

@@ -1,17 +1,13 @@
-
-from django.test import TestCase
-
-from publish.text import line_count
-
-from .models import Content, Pub
-from .publication import all_blogs, all_books, all_privates, all_pubs, build_pubs, get_pub_info, rebuild_pubs
 from probe.tests_django import DjangoTest
 
+from .models import Content, Pub
+from .publication import (all_blogs, all_books, all_privates, all_pubs,
+                          build_pubs, get_pub_info, rebuild_pubs)
 
 # -----------------------
 # Pub Data Model
 
-class PubDataTest(TestCase):
+class PubDataTest(DjangoTest):
 
     # Pub Data Model
     def setup(self):
@@ -86,7 +82,8 @@ class FixtureTest(DjangoTest):
         self.assertNumLines(text, 2229, 2319)
 
     def test_rebuld_pubs(self):
-        self.assertRange(len(rebuild_pubs()), 21, 21)
-        self.assertRange(len(Content.objects.all()), 1200, 1300, "Content objects")
+        rebuild_pubs(False)
+        self.assertRange(len(Pub.objects.all()), 21, 21)
+        self.assertRange(len(Content.objects.all()), 1200, 1300, "Content Nodes")
         self.assertNumLines(get_pub_info(), 2229, 2319)
 

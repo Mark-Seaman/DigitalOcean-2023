@@ -17491,11 +17491,11 @@
     "fields": {
         "blog": 1288,
         "order": 0,
-        "title": "Effective AI Playbook",
+        "title": "Effective AI",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Index.md",
         "folder": 0,
-        "words": 33,
+        "words": 73,
         "retain_object": false
     }
 },

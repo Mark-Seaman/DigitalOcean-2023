@@ -8,7 +8,7 @@ from publish.text import text_join, text_lines
 
 
 def doc_html(pub, chapter, doc):
-    return markdown(read_pub_doc(pub, chapter, doc))
+    return markdown(read_pub_doc(pub, chapter, doc),  extensions=['tables'])
 
 
 def doc_title(pub, chapter, doc):

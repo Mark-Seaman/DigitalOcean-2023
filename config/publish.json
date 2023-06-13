@@ -17491,109 +17491,11 @@
     "fields": {
         "blog": 1267,
         "order": 0,
-        "title": "Document not found",
+        "title": "Effective AI Playbook",
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Index.md",
         "folder": 0,
-        "words": 0,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 119787,
-    "fields": {
-        "blog": 1267,
-        "order": 1,
-        "title": "AI Coaching Services",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/AICoach.md",
-        "folder": 0,
-        "words": 346,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 119788,
-    "fields": {
-        "blog": 1267,
-        "order": 2,
-        "title": "4 Keys to Effective AI",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/AIPlaybook.md",
-        "folder": 0,
-        "words": 677,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 119789,
-    "fields": {
-        "blog": 1267,
-        "order": 3,
-        "title": "How Autism and AI Work for Me",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Autism.md",
-        "folder": 0,
-        "words": 404,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 119790,
-    "fields": {
-        "blog": 1267,
-        "order": 4,
-        "title": "Common Mistakes When Using AI",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Mistakes.md",
-        "folder": 0,
-        "words": 1414,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 119791,
-    "fields": {
-        "blog": 1267,
-        "order": 5,
-        "title": "The AI Playbook: Tips and Tactics for Effective AI",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Outline.md",
-        "folder": 0,
-        "words": 772,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 119792,
-    "fields": {
-        "blog": 1267,
-        "order": 6,
-        "title": "5 Keys to ChatGPT Prompt Engineering",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/PromptEngineering.md",
-        "folder": 0,
-        "words": 293,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 119793,
-    "fields": {
-        "blog": 1267,
-        "order": 7,
-        "title": "Writer's Guide to AI",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Write.md",
-        "folder": 0,
-        "words": 810,
+        "words": 33,
         "retain_object": false
     }
 },
@@ -17986,6 +17888,160 @@
         "path": "Documents/Shrinking-World-Pubs/DataAnalytics/Pub/01.md",
         "folder": 0,
         "words": 2447,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 119822,
+    "fields": {
+        "blog": 1267,
+        "order": 1,
+        "title": "4 Keys to Effective AI",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/AIPlaybook.md",
+        "folder": 0,
+        "words": 677,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 119823,
+    "fields": {
+        "blog": 1267,
+        "order": 2,
+        "title": "How Autism and AI Work for Me",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Autism.md",
+        "folder": 0,
+        "words": 526,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 119824,
+    "fields": {
+        "blog": 1267,
+        "order": 3,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Blog/Index.md",
+        "folder": 0,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 119825,
+    "fields": {
+        "blog": 1267,
+        "order": 1,
+        "title": "AI Coaching Services",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Blog/AICoach.md",
+        "folder": 3,
+        "words": 346,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 119826,
+    "fields": {
+        "blog": 1267,
+        "order": 2,
+        "title": "Common Mistakes When Using AI",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Blog/MistakesPost.md",
+        "folder": 3,
+        "words": 365,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 119827,
+    "fields": {
+        "blog": 1267,
+        "order": 3,
+        "title": "5 Keys to ChatGPT Prompt Engineering",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Blog/PromptEngineering.md",
+        "folder": 3,
+        "words": 293,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 119828,
+    "fields": {
+        "blog": 1267,
+        "order": 4,
+        "title": "Build Your Custom Playbook",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/BuildPlaybook.md",
+        "folder": 0,
+        "words": 5,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 119829,
+    "fields": {
+        "blog": 1267,
+        "order": 5,
+        "title": "Getting Started with ChatGPT",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/GettingStarted.md",
+        "folder": 0,
+        "words": 105,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 119830,
+    "fields": {
+        "blog": 1267,
+        "order": 7,
+        "title": "Common Mistakes When Using AI",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Mistakes.md",
+        "folder": 0,
+        "words": 1414,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 119831,
+    "fields": {
+        "blog": 1267,
+        "order": 8,
+        "title": "The AI Playbook: Tips and Tactics for Effective AI",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Outline.md",
+        "folder": 0,
+        "words": 772,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 119832,
+    "fields": {
+        "blog": 1267,
+        "order": 9,
+        "title": "Writer's Guide to AI",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Write.md",
+        "folder": 0,
+        "words": 810,
         "retain_object": false
     }
 }

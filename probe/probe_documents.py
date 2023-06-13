@@ -23,7 +23,7 @@ def test_documents_info():
 
 
 def test_documents_images():
-    return check_files(Path("static") / "images", 480, 550)
+    return check_files(Path("static") / "images", 550, 570)
 
 
 def test_documents_fix_chars():

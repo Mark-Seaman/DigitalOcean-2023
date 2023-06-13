@@ -17,7 +17,7 @@ def quick_test():
 
 
 def pubs():
-    build_pubs(True)
+    build_pubs(True, True)
 
 
 def tests():

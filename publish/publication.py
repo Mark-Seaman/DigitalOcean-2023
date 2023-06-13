@@ -6,7 +6,7 @@ from publish.shell import banner
 
 from .document import document_body, document_html, document_title
 from .files import read_csv_file, read_file, read_json
-from .import_export import create_pubs, pub_json_path, save_pub_data
+from .import_export import create_pub, pub_json_path, save_pub_data
 from .models import Content, Pub
 from .text import line_count, text_join, word_count
 from .toc import create_pub_index
@@ -33,48 +33,44 @@ def all_pubs():
 
 
 def build_pubs(verbose=False, delete=False):
-    if delete:
-        Pub.objects.all().delete()
-        assert len(Pub.objects.all()) == 0
-    create_pubs(list_publications())
+
+    def copy_static_files(pub):
+        source = Path(pub.doc_path)/'../Images'
+        dest = Path(pub.image_path[1:])
+        if source.exists():
+            if not dest.exists():
+                dest.mkdir()
+            for f in source.iterdir():
+                # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
+                copyfile(f, dest/f.name)
+
+    def build_pub_index(pub):
+        if pub.auto_index:
+            if verbose:
+                print(f"CREATE Index - {pub.name}")
+            create_pub_index(pub, get_pub_contents(pub)) 
+
+    def delete_pubs():
+        if delete:
+            if verbose:
+                print("Delete pubs\n")
+            Pub.objects.all().delete()
+            assert len(Pub.objects.all()) == 0
+
+    delete_pubs()
+    if verbose:
+        print("Build pubs:\n")
+    for pub in list_publications():
+        p = create_pub(pub[0], pub[1])
+        if verbose:
+            print(p)
+        copy_static_files(p)
+        build_pub_index(p)
+
+    save_pub_data()
+
     return verify_pubs(verbose)
     
-
-# def build_pubs(pub=None):
-
-#     def copy_static_files(pub):
-#         js1 = f'{pub.doc_path}/{pub.name}.json'
-#         js2 = f'static/js/{pub.name}.json'
-#         if Path(js1).exists():
-#             # print(js1, js2)
-#             copyfile(js1, js2)
-#         source = Path(pub.doc_path)/'../Images'
-#         dest = Path(pub.image_path[1:])
-#         if source.exists():
-#             if not dest.exists():
-#                 dest.mkdir()
-#             for f in source.iterdir():
-#                 # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
-#                 copyfile(f, dest/f.name)
-
-#     # def build_pub(pub):
-#     #     import_pub(pub)
-#     #     if pub.auto_index:
-#     #         # print("CREATE Index")
-#     #         create_pub_index(pub, get_pub_contents(pub))
-#     #     copy_static_files(pub)
-
-#     text = create_pubs(list_publications())
-
-#     # text = ""
-#     # pubs = [pub] if pub else all_pubs()
-#     # for pub in pubs:
-#     #     build_pub(pub)
-#     #     text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
-    
-#     save_pub_data()
-#     return text
-
 
 def doc_view_context(**kwargs):
     path = kwargs.get('path', 'Documents/shrinking-world.com/blog/Index.md')

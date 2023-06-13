@@ -9,29 +9,8 @@ from .files import read_csv_file, read_json
 from .models import Content, Pub
 from .toc import content_file, write_content_csv
 
-def build_pubs(pub=None):
 
-
-    # def build_pub(pub):
-    #     import_pub(pub)
-    #     if pub.auto_index:
-    #         # print("CREATE Index")
-    #         create_pub_index(pub, get_pub_contents(pub))
-    #     copy_static_files(pub)
-
-    text = create_pubs(list_publications())
-
-    # text = ""
-    # pubs = [pub] if pub else all_pubs()
-    # for pub in pubs:
-    #     build_pub(pub)
-    #     text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
-    
-    save_pub_data()
-    return text
-
-
-def create_pubs(pubs):
+def create_pub(pub_name, pub_path):
 
     def update_record(name, doc_path):
         json = pub_json_path(name, doc_path)
@@ -61,7 +40,6 @@ def create_pubs(pubs):
     def import_pub(pub):
         content = content_file(pub)
         if pub.auto_contents:
-            # print("CREATE CONTENT")
             write_content_csv(pub)
         import_content(pub, content)
         delete_extra_objects(pub)
@@ -97,23 +75,9 @@ def create_pubs(pubs):
             c.retain_object = False
             c.save()
 
-    def copy_static_files(pub):
-        source = Path(pub.doc_path)/'../Images'
-        dest = Path(pub.image_path[1:])
-        if source.exists():
-            if not dest.exists():
-                dest.mkdir()
-            for f in source.iterdir():
-                # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
-                copyfile(f, dest/f.name)
-
-    log = "Create pubs:\n\n"
-    for pub in pubs:
-        pub = update_record(pub[0], pub[1])
-        import_pub(pub)
-        copy_static_files(pub)
-        log += f"{pub}\n"
-    return log
+    pub = update_record(pub_name, pub_path)
+    import_pub(pub)
+    return pub
 
 
 def pub_json_path(name, doc_path):

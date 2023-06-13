@@ -2,7 +2,7 @@ from probe.tests_django import DjangoTest
 
 from .models import Content, Pub
 from .publication import (all_blogs, all_books, all_privates, all_pubs,
-                          build_pubs, get_pub_info, rebuild_pubs)
+                          build_pubs, get_pub_info, build_pubs)
 
 # -----------------------
 # Pub Data Model
@@ -82,7 +82,7 @@ class FixtureTest(DjangoTest):
         self.assertNumLines(text, 2229, 2319)
 
     def test_rebuld_pubs(self):
-        rebuild_pubs(False)
+        build_pubs(False, True)
         self.assertRange(len(Pub.objects.all()), 21, 21)
         self.assertRange(len(Content.objects.all()), 1200, 1300, "Content Nodes")
         self.assertNumLines(get_pub_info(), 2229, 2319)

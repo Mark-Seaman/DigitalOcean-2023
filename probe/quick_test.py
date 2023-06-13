@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from publish.models import Content, Pub
-from publish.publication import get_pub_info, rebuild_pubs
+from publish.publication import get_pub_info, list_publications, build_pubs
 from publish.seamanslog import random_post
 from publish.text import line_count, text_join
 from task.models import Activity, Task, TaskType
@@ -17,7 +17,7 @@ def quick_test():
 
 
 def pubs():
-    rebuild_pubs()
+    build_pubs(True)
 
 
 def tests():
@@ -57,38 +57,3 @@ def write_webapps_contents():
         x += 1
     Path("Documents/seamansguide.com/webapps/_content.csv").write_text(csv)
 
-
-def courses():
-
-    print("Build Courses")
-    # weeks = weekly_content(get_course("bacs350"))
-    # weeks = accordion_data()
-    # for w in weeks:
-    #     print(w)
-    # create_course(**bacs350_options())
-    # prepare_lesson(10)
-    # prepare_lesson(11)
-    # import_all_courses()
-
-    # name = "write"
-    # create_blog(name)
-
-    # build_blogs()
-
-    # b = Pub.objects.all().values()[0]
-    # print(b)
-    # f = f"blog.json"
-    # print(f)
-    # write_json(f, b)
-    # book = get_book("journey")
-    # for part in list_parts(book):
-    #     print(part)
-    #     for c in part["chapters"]:
-    #         print(c)
-
-    # print(test_book_import())
-
-    print("Show course content")
-    course = get_course("bacs350")
-    print(show_content(course))
-    # print(test_export_courses())

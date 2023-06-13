@@ -1,5 +1,6 @@
 from os import system
 from pathlib import Path
+from shutil import copyfile
 
 from task.models import Activity, Task
 
@@ -8,14 +9,33 @@ from .files import read_csv_file, read_json
 from .models import Content, Pub
 from .toc import content_file, write_content_csv
 
+def build_pubs(pub=None):
+
+
+    # def build_pub(pub):
+    #     import_pub(pub)
+    #     if pub.auto_index:
+    #         # print("CREATE Index")
+    #         create_pub_index(pub, get_pub_contents(pub))
+    #     copy_static_files(pub)
+
+    text = create_pubs(list_publications())
+
+    # text = ""
+    # pubs = [pub] if pub else all_pubs()
+    # for pub in pubs:
+    #     build_pub(pub)
+    #     text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
+    
+    save_pub_data()
+    return text
+
 
 def create_pubs(pubs):
 
-    def pub_settings(name):
-        return read_json(f"static/js/{name}.json")
-
     def update_record(name, doc_path):
-        s = pub_settings(name)
+        json = pub_json_path(name, doc_path)
+        s = read_json(json)
         b = Pub.objects.get_or_create(name=s["name"])[0]
         b.doc_path = s['doc_path']
         b.title = s["site_title"]
@@ -77,14 +97,44 @@ def create_pubs(pubs):
             c.retain_object = False
             c.save()
 
+    def copy_static_files(pub):
+        source = Path(pub.doc_path)/'../Images'
+        dest = Path(pub.image_path[1:])
+        if source.exists():
+            if not dest.exists():
+                dest.mkdir()
+            for f in source.iterdir():
+                # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
+                copyfile(f, dest/f.name)
+
     log = "Create pubs:\n\n"
     for pub in pubs:
         pub = update_record(pub[0], pub[1])
         import_pub(pub)
+        copy_static_files(pub)
         log += f"{pub}\n"
     return log
 
 
+def pub_json_path(name, doc_path):
+    path = Path(doc_path)
+    json1 = Path(f'static/js/{name}.json')
+    json2 = path/'pub.json'
+    json3 = path.parent/'pub.json'
+    if json2.exists():
+        if path.name == 'Pub':
+            json2.rename(json3)
+            return json3
+        return json2
+    if json3.exists():
+        return json3
+    if json1.exists():
+        print("COPY FILE", json1, json2)
+        copyfile(json1, json2)
+        return json1
+    return json2
+    
+    
 def load_data():
     def reload_pubs():
         Pub.objects.all().delete()

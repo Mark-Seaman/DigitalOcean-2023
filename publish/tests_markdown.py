@@ -53,3 +53,7 @@ class MarkdownTest(DjangoTest):
         # x = markdown(text, extensions=['tables'])
         # print(x)
         self.assertEqual(markdown(text, extensions=['tables']), x)
+
+    def test_csv(self):
+        text = '# CSV Output'
+        self.assertEqual(markdown(text), '<h1>CSV Output</h1>')

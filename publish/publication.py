@@ -6,7 +6,7 @@ from publish.shell import banner
 
 from .document import document_body, document_html, document_title
 from .files import read_csv_file, read_file, read_json
-from .import_export import create_pubs, save_pub_data
+from .import_export import create_pubs, pub_json_path, save_pub_data
 from .models import Content, Pub
 from .text import line_count, text_join, word_count
 from .toc import create_pub_index
@@ -32,43 +32,48 @@ def all_pubs():
     return [p for p in Pub.objects.all()]
 
 
-def build_pubs(pub=None, delete=False):
-
-    def copy_static_files(pub):
-        js1 = f'{pub.doc_path}/{pub.name}.json'
-        js2 = f'static/js/{pub.name}.json'
-        if Path(js1).exists():
-            # print(js1, js2)
-            copyfile(js1, js2)
-        source = Path(pub.doc_path)/'../Images'
-        dest = Path(pub.image_path[1:])
-        if source.exists():
-            if not dest.exists():
-                dest.mkdir()
-            for f in source.iterdir():
-                # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
-                copyfile(f, dest/f.name)
-
-    def build_pub(pub):
-        import_pub(pub)
-        if pub.auto_index:
-            # print("CREATE Index")
-            create_pub_index(pub, get_pub_contents(pub))
-        copy_static_files(pub)
-
+def build_pubs(verbose=False, delete=False):
     if delete:
-        print("DELETE PUBS")
-        delete_pubs()
-    text = create_pubs(list_publications())
-
-    # text = ""
-    # pubs = [pub] if pub else all_pubs()
-    # for pub in pubs:
-    #     build_pub(pub)
-    #     text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
+        Pub.objects.all().delete()
+        assert len(Pub.objects.all()) == 0
+    create_pubs(list_publications())
+    return verify_pubs(verbose)
     
-    save_pub_data()
-    return text
+
+# def build_pubs(pub=None):
+
+#     def copy_static_files(pub):
+#         js1 = f'{pub.doc_path}/{pub.name}.json'
+#         js2 = f'static/js/{pub.name}.json'
+#         if Path(js1).exists():
+#             # print(js1, js2)
+#             copyfile(js1, js2)
+#         source = Path(pub.doc_path)/'../Images'
+#         dest = Path(pub.image_path[1:])
+#         if source.exists():
+#             if not dest.exists():
+#                 dest.mkdir()
+#             for f in source.iterdir():
+#                 # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
+#                 copyfile(f, dest/f.name)
+
+#     # def build_pub(pub):
+#     #     import_pub(pub)
+#     #     if pub.auto_index:
+#     #         # print("CREATE Index")
+#     #         create_pub_index(pub, get_pub_contents(pub))
+#     #     copy_static_files(pub)
+
+#     text = create_pubs(list_publications())
+
+#     # text = ""
+#     # pubs = [pub] if pub else all_pubs()
+#     # for pub in pubs:
+#     #     build_pub(pub)
+#     #     text += f"Pub: {pub.title}, Path: {pub.doc_path}\n"
+    
+#     save_pub_data()
+#     return text
 
 
 def doc_view_context(**kwargs):
@@ -143,25 +148,6 @@ def list_content(pub):
     return list(Content.objects.filter(blog=pub))
 
 
-def pub_json_path(name, doc_path):
-    path = Path(doc_path)
-    json1 = Path(f'static/js/{name}.json')
-    json2 = path/'pub.json'
-    json3 = path.parent/'pub.json'
-    if json2.exists():
-        if path.name == 'Pub':
-            json2.rename(json3)
-            return json3
-        return json2
-    if json3.exists():
-        return json3
-    if json1.exists():
-        print("COPY FILE", json1, json2)
-        copyfile(json1, json2)
-        return json1
-    return json2
-    
-    
 def pub_redirect(host, pub, doc):
     if host == "shrinking-world.com" and not pub:
         return f"/tech"
@@ -192,12 +178,6 @@ def random_doc_page(path):
     return x.replace(".md", "")
 
 
-def rebuild_pubs(verbose=True):
-    Pub.objects.all().delete()
-    assert len(Pub.objects.all()) == 0
-    create_pubs(list_publications())
-    return verify_pubs(verbose)
-    
 
 def select_blog_doc(host, blog, doc):
     def load_object(pub):
@@ -281,7 +261,13 @@ def show_pub_words(pub=None):
 def verify_pubs(verbose):
     pubs = list_publications()
     for p in pubs:
-        pub = Pub.objects.filter(doc_path=p[1], name=p[0])[0]
+        if p:
+            pub = Pub.objects.filter(doc_path=p[1], name=p[0])
+            if pub:
+                pub = pub[0]
+            else:
+                print("NO OBJECT", p)
+                assert False
         # if not Path(pub.doc_path).exists():
         #     print(f'   {pub.name} -- {pub.doc_path} -- NOT FOUND')
         assert Path(pub.doc_path).exists()

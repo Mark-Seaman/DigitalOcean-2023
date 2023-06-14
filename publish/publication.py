@@ -66,9 +66,7 @@ def build_pubs(verbose=False, delete=False):
             print(p)
         copy_static_files(p)
         build_pub_index(p)
-
     save_pub_data()
-
     return verify_pubs(verbose)
     
 

@@ -32,6 +32,15 @@ def all_pubs():
     return [p for p in Pub.objects.all()]
 
 
+def bouncer_redirect(bouncer_id):
+    if bouncer_id:
+        bounce_table = read_csv_file('Documents/Shrinking-World-Pubs/_bouncer.csv')
+        for x in bounce_table:
+            if x[1:] and int(x[0]) == bouncer_id:
+                # print(f"Bounce to {x[1]}")
+                return x[1]
+
+
 def build_pubs(verbose=False, delete=False):
 
     def copy_static_files(pub):

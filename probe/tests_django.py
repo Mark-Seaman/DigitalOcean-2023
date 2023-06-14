@@ -30,6 +30,20 @@ class DjangoTest(TestCase):
         self.assertEqual(response.status_code, 200)
         return text
 
+
+    def assertPageRedirect(self, page, url):
+        if page.startswith('/'):
+            response = self.client.get(page)
+        else:
+            if NO_INTERNET:
+                print('\nNO_INTERNET\n')
+                return
+            else:
+                response = get(page)
+        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.url, url)
+
+
     def assertPageLines(self, page, min, max):
         self.assertNumLines(self.assertPage(page), min, max)
 

@@ -13,6 +13,16 @@ class BlogPageTest(DjangoTest):
         page = "http://localhost:8000/"
         self.assertPageLines(page, 180, 190)
 
+    def test_bouncer_page(self):
+        page = "/11"
+        url = "https://shrinking-world.com/tech/shrinkingworld-ContactMe.md"
+        self.assertPageRedirect(page, url)
+        page = "/81"
+        url = "https://seamansguide.com/journey"
+        self.assertPageRedirect(page, url)
+        page = "http://localhost:8000/sampler"
+        self.assertPageText(page, "Seaman&#x27;s Log")
+
     def test_sampler_page(self):
         page = "http://localhost:8000/sampler"
         self.assertPageText(page, "Seaman&#x27;s Log")

@@ -1,24 +1,20 @@
-from pathlib import Path
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
 from django.utils.timezone import localtime
 from django.views.generic import (CreateView, DeleteView, RedirectView,
                                   TemplateView, UpdateView)
 
-from .files import read_json
+from .files import read_csv_file, read_json
 from .import_export import refresh_pub_from_git
 from .models import Pub
-from .publication import doc_view_context, get_host, pub_redirect, select_blog_doc
+from .publication import (bouncer_redirect, doc_view_context, get_host, pub_redirect,
+                          select_blog_doc)
 from .slides import slides_view_context
 
 
 class BlogTodayView(RedirectView):
     def get_redirect_url(self, *args, **kwargs):
         return self.request.path.replace("today", localtime().strftime("%m-%d"))
-
-
-# class CellBiology(RedirectView):
-#     url = '/cellbiology/Index.md'
 
 
 class PubRedirectView(RedirectView):
@@ -31,15 +27,6 @@ class PubRedirectView(RedirectView):
         doc = kwargs.get("doc", 'Index.md')
         return pub_redirect(host, pub, doc)
 
-
-def bouncer_redirect(bouncer_id):
-    if bouncer_id:
-        bounce_table = read_json(
-            'Documents/Shrinking-World-Pubs/_bouncer.json')
-        url = bounce_table.get(str(bouncer_id))
-        if url:
-            print(url)
-            return url
 
 
 class PubView(TemplateView):

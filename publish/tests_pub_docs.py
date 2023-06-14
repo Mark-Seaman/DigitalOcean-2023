@@ -1,4 +1,5 @@
 from csv import reader
+
 from probe.tests_django import DjangoTest
 from publish.publication import all_pubs, get_pub_info, list_publications
 
@@ -7,10 +8,10 @@ class PubDocTest(DjangoTest):
     fixtures = ["config/publish.json"]
 
     def test_all_docs(self):
-        self.assertFiles('Documents', 2051, 2060)
+        self.assertFiles('Documents', 2051, 2070)
 
     def test_doc_directories(self):
-        data = '''Documents,2051,2060
+        data = '''Documents,2051,2070
 Documents/seamansguide.com,322,322
 Documents/seamanslog.com,405
 Documents/markseaman.org,19

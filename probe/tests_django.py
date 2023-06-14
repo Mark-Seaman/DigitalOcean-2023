@@ -65,5 +65,6 @@ class DjangoTest(TestCase):
         self.assertGreaterEqual(num, min, error)
         self.assertLessEqual(num, max, error)
 
+
     # def test_django_test(self):
         # self.assertTrue(True)

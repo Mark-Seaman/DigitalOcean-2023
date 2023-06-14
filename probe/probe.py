@@ -56,11 +56,6 @@ def check_line_count(label, text, min, max):
     # return f"{label}: min {min} -- max {max}"
 
 
-def check_lines_in_webpage(url, min, max):
-    text = check_webpage(url)
-    return check_line_count(f'Lines in {url}', text, min, max)
-
-
 def check_webpage(url):
     try:
         response = get(url)
@@ -170,6 +165,15 @@ def run_tests():
     for probe in Probe.objects.all():
         print(probe.name)
         result = execute_probe(probe)
+
+
+def save_page(path, url):
+    if not path.exists():
+        text = get(url).text
+        path.write_text(text)
+    else:
+        text = path.read_text()
+    return text
 
 
 def show_files(label, files, min, max):

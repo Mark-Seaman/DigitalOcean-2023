@@ -1,4 +1,5 @@
 from pathlib import Path
+from probe.probe_pages import test_website_pages
 
 from publish.models import Content, Pub
 from publish.publication import get_pub_info, list_publications, build_pubs
@@ -13,7 +14,8 @@ from .models import Probe, TestResult
 
 def quick_test():
     # print("No quick test defined")
-    pubs()
+    # pubs()
+    test_website_pages()
 
 
 def pubs():

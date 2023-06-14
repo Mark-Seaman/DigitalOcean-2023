@@ -420,13 +420,13 @@
     "pk": 2075,
     "fields": {
         "name": "ai",
-        "title": "AI Conversations",
-        "subtitle": "Go Ask Chet",
-        "description": "Finally I can get all of the answers I need",
-        "doc_path": "Documents/shrinking-world.com/ai",
+        "title": "Effective AI",
+        "subtitle": "Create a Productive Partnership",
+        "description": "How to use AI to product higher quality and quantity work.",
+        "doc_path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub",
         "image_path": "/static/images/shrinking-world.com/ai",
         "css": "/static/css/book.css",
-        "domain": "https://shrinking-world.com",
+        "domain": null,
         "url": "/ai",
         "logo": null,
         "words": 0,
@@ -475,7 +475,7 @@
         "title": "SoftwareEngineering",
         "subtitle": "Practical Software Development",
         "description": "The road to faster, cheaper, better software",
-        "doc_path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book",
+        "doc_path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub",
         "image_path": "/static/images/Shrinking-World-Pubs/SoftwareEngineering",
         "css": "/static/css/shrinking-world.css",
         "domain": null,
@@ -17487,482 +17487,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 126609,
-    "fields": {
-        "blog": 2075,
-        "order": 0,
-        "title": "AI Conversations",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Index.md",
-        "folder": 0,
-        "words": 130,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126610,
-    "fields": {
-        "blog": 2075,
-        "order": 1,
-        "title": "Content Creator Business",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/BusinessCourse.md",
-        "folder": 0,
-        "words": 619,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126611,
-    "fields": {
-        "blog": 2075,
-        "order": 2,
-        "title": "Chat Book",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/ChatBook.md",
-        "folder": 0,
-        "words": 2734,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126612,
-    "fields": {
-        "blog": 2075,
-        "order": 3,
-        "title": "Chet Gupta",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/ChetGupta.md",
-        "folder": 0,
-        "words": 639,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126613,
-    "fields": {
-        "blog": 2075,
-        "order": 4,
-        "title": "4 Essential Skills for a Content Creator",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/CreatorSkills.md",
-        "folder": 0,
-        "words": 1641,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126614,
-    "fields": {
-        "blog": 2075,
-        "order": 5,
-        "title": "Customer Journey",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/CustomerJourney.md",
-        "folder": 0,
-        "words": 2028,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126615,
-    "fields": {
-        "blog": 2075,
-        "order": 6,
-        "title": "AI Query - ",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/DataAnalytics.md.md",
-        "folder": 0,
-        "words": 33,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126616,
-    "fields": {
-        "blog": 2075,
-        "order": 7,
-        "title": "Defining Success",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/DefiningSuccess.md",
-        "folder": 0,
-        "words": 852,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126617,
-    "fields": {
-        "blog": 2075,
-        "order": 8,
-        "title": "Discipleship Course",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Discipleship.md",
-        "folder": 0,
-        "words": 512,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126618,
-    "fields": {
-        "blog": 2075,
-        "order": 9,
-        "title": "AI Query - ",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/DrSeuss.md",
-        "folder": 0,
-        "words": 275,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126619,
-    "fields": {
-        "blog": 2075,
-        "order": 10,
-        "title": "Email Marketing Tools",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/EmailMarketing.md",
-        "folder": 0,
-        "words": 510,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126620,
-    "fields": {
-        "blog": 2075,
-        "order": 11,
-        "title": "Exponential Graph",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/ExponentialGraph.md",
-        "folder": 0,
-        "words": 57,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126621,
-    "fields": {
-        "blog": 2075,
-        "order": 12,
-        "title": "AI Query - ",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/ForTheBirds.md",
-        "folder": 0,
-        "words": 745,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126622,
-    "fields": {
-        "blog": 2075,
-        "order": 13,
-        "title": "Gout",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Gout.md",
-        "folder": 0,
-        "words": 407,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126623,
-    "fields": {
-        "blog": 2075,
-        "order": 15,
-        "title": "owthHabits.md",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/GrowthHabits.md",
-        "folder": 0,
-        "words": 274,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126624,
-    "fields": {
-        "blog": 2075,
-        "order": 16,
-        "title": "Henry Cloud",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/HenryCloud.md",
-        "folder": 0,
-        "words": 385,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126625,
-    "fields": {
-        "blog": 2075,
-        "order": 18,
-        "title": "Japanese Course",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Japanese.md",
-        "folder": 0,
-        "words": 863,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126626,
-    "fields": {
-        "blog": 2075,
-        "order": 19,
-        "title": "Marketing Funnel",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/MarketingFunnel.md",
-        "folder": 0,
-        "words": 3014,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126627,
-    "fields": {
-        "blog": 2075,
-        "order": 20,
-        "title": "AI Query - ",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Mastodon.md",
-        "folder": 0,
-        "words": 12,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126628,
-    "fields": {
-        "blog": 2075,
-        "order": 21,
-        "title": "Modern Writer",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/ModernWriter.md",
-        "folder": 0,
-        "words": 695,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126629,
-    "fields": {
-        "blog": 2075,
-        "order": 22,
-        "title": "Building a Successful Online Teaching Business",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/OnlineBusiness.md",
-        "folder": 0,
-        "words": 498,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126630,
-    "fields": {
-        "blog": 2075,
-        "order": 23,
-        "title": "Professional Career",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/ProfessionalCareer.md",
-        "folder": 0,
-        "words": 510,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126631,
-    "fields": {
-        "blog": 2075,
-        "order": 24,
-        "title": "Season of Old Age",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/SeasonOfOldAge.md",
-        "folder": 0,
-        "words": 1880,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126632,
-    "fields": {
-        "blog": 2075,
-        "order": 25,
-        "title": "Software Engineering Course",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/SoftwareEngineering.md",
-        "folder": 0,
-        "words": 191,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126633,
-    "fields": {
-        "blog": 2075,
-        "order": 26,
-        "title": "Spiritual Formation Course",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/SpiritualFormationCourse.md",
-        "folder": 0,
-        "words": 925,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126634,
-    "fields": {
-        "blog": 2075,
-        "order": 27,
-        "title": "Spirituality and Emotional Health",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Spirituality.md",
-        "folder": 0,
-        "words": 660,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126635,
-    "fields": {
-        "blog": 2075,
-        "order": 28,
-        "title": "TeachingProgression",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/TeachingProgression.md",
-        "folder": 0,
-        "words": 857,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126636,
-    "fields": {
-        "blog": 2075,
-        "order": 29,
-        "title": "Template",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Template.md",
-        "folder": 0,
-        "words": 21,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126637,
-    "fields": {
-        "blog": 2075,
-        "order": 30,
-        "title": "Shrinking World I/O",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/TheShrinkingWorld.md",
-        "folder": 0,
-        "words": 236,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126638,
-    "fields": {
-        "blog": 2075,
-        "order": 31,
-        "title": "Transformation",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Transformation.md",
-        "folder": 0,
-        "words": 531,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126639,
-    "fields": {
-        "blog": 2075,
-        "order": 32,
-        "title": "Make Tweets from Article",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/Tweet.md",
-        "folder": 0,
-        "words": 1686,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126640,
-    "fields": {
-        "blog": 2075,
-        "order": 33,
-        "title": "Venn Diagram",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/VennDiagram.md",
-        "folder": 0,
-        "words": 94,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126641,
-    "fields": {
-        "blog": 2075,
-        "order": 34,
-        "title": "Web Apps Course Announcement",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/WebApps.md",
-        "folder": 0,
-        "words": 677,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126642,
-    "fields": {
-        "blog": 2075,
-        "order": 35,
-        "title": "Writer's Self-doubt",
-        "doctype": "folder",
-        "path": "Documents/shrinking-world.com/ai/WritersDoubt.md",
-        "folder": 0,
-        "words": 323,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 126643,
     "fields": {
         "blog": 2076,
@@ -18117,104 +17641,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 126654,
-    "fields": {
-        "blog": 2077,
-        "order": 0,
-        "title": "Software Engineering Theory & Application",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Title.md",
-        "folder": 0,
-        "words": 515,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126655,
-    "fields": {
-        "blog": 2077,
-        "order": 1,
-        "title": "Book Cover",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Cover.md",
-        "folder": 0,
-        "words": 13,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126656,
-    "fields": {
-        "blog": 2077,
-        "order": 2,
-        "title": "About the Author",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Author.md",
-        "folder": 0,
-        "words": 309,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126657,
-    "fields": {
-        "blog": 2077,
-        "order": 3,
-        "title": "Software Apps for Course",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/SoftwareApps.md",
-        "folder": 0,
-        "words": 389,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126658,
-    "fields": {
-        "blog": 2077,
-        "order": 4,
-        "title": "Milestones for Web-Based Software App",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Milestones.md",
-        "folder": 0,
-        "words": 350,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126659,
-    "fields": {
-        "blog": 2077,
-        "order": 5,
-        "title": " Software Engineering Textbook Outline",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/Outline.md",
-        "folder": 0,
-        "words": 433,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 126660,
-    "fields": {
-        "blog": 2077,
-        "order": 6,
-        "title": "Chapter 1: Introduction to Software Engineering",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book/01.md",
-        "folder": 0,
-        "words": 1754,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 126661,
     "fields": {
         "blog": 2078,
@@ -18350,6 +17776,272 @@
         "path": "Documents/Shrinking-World-Pubs/DataAnalytics/Pub/01.md",
         "folder": 0,
         "words": 2447,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126671,
+    "fields": {
+        "blog": 2075,
+        "order": 0,
+        "title": "Effective AI",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Index.md",
+        "folder": 0,
+        "words": 72,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126672,
+    "fields": {
+        "blog": 2075,
+        "order": 1,
+        "title": "4 Keys to Effective AI",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/AIPlaybook.md",
+        "folder": 0,
+        "words": 677,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126673,
+    "fields": {
+        "blog": 2075,
+        "order": 2,
+        "title": "How Autism and AI Work for Me",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Autism.md",
+        "folder": 0,
+        "words": 526,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126674,
+    "fields": {
+        "blog": 2075,
+        "order": 3,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Blog/Index.md",
+        "folder": 0,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126675,
+    "fields": {
+        "blog": 2075,
+        "order": 1,
+        "title": "AI Coaching Services",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Blog/AICoach.md",
+        "folder": 3,
+        "words": 346,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126676,
+    "fields": {
+        "blog": 2075,
+        "order": 2,
+        "title": "Common Mistakes When Using AI",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Blog/MistakesPost.md",
+        "folder": 3,
+        "words": 365,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126677,
+    "fields": {
+        "blog": 2075,
+        "order": 3,
+        "title": "5 Keys to ChatGPT Prompt Engineering",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Blog/PromptEngineering.md",
+        "folder": 3,
+        "words": 293,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126678,
+    "fields": {
+        "blog": 2075,
+        "order": 4,
+        "title": "Build Your Custom Playbook",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/BuildPlaybook.md",
+        "folder": 0,
+        "words": 5,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126679,
+    "fields": {
+        "blog": 2075,
+        "order": 5,
+        "title": "Getting Started with ChatGPT",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/GettingStarted.md",
+        "folder": 0,
+        "words": 105,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126680,
+    "fields": {
+        "blog": 2075,
+        "order": 7,
+        "title": "Common Mistakes When Using AI",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Mistakes.md",
+        "folder": 0,
+        "words": 1414,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126681,
+    "fields": {
+        "blog": 2075,
+        "order": 8,
+        "title": "The AI Playbook: Tips and Tactics for Effective AI",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Outline.md",
+        "folder": 0,
+        "words": 772,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126682,
+    "fields": {
+        "blog": 2075,
+        "order": 9,
+        "title": "Writer's Guide to AI",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/EffectiveAI/Pub/Write.md",
+        "folder": 0,
+        "words": 810,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126683,
+    "fields": {
+        "blog": 2077,
+        "order": 0,
+        "title": "Software Engineering Theory & Application",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/Title.md",
+        "folder": 0,
+        "words": 515,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126684,
+    "fields": {
+        "blog": 2077,
+        "order": 1,
+        "title": "Book Cover",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/Cover.md",
+        "folder": 0,
+        "words": 13,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126685,
+    "fields": {
+        "blog": 2077,
+        "order": 2,
+        "title": "About the Author",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/Author.md",
+        "folder": 0,
+        "words": 309,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126686,
+    "fields": {
+        "blog": 2077,
+        "order": 3,
+        "title": "Software Apps for Course",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/SoftwareApps.md",
+        "folder": 0,
+        "words": 389,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126687,
+    "fields": {
+        "blog": 2077,
+        "order": 4,
+        "title": "Milestones for Web-Based Software App",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/Milestones.md",
+        "folder": 0,
+        "words": 350,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126688,
+    "fields": {
+        "blog": 2077,
+        "order": 5,
+        "title": " Software Engineering Textbook Outline",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/Outline.md",
+        "folder": 0,
+        "words": 433,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 126689,
+    "fields": {
+        "blog": 2077,
+        "order": 6,
+        "title": "Chapter 1: Introduction to Software Engineering",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Pub/01.md",
+        "folder": 0,
+        "words": 1754,
         "retain_object": false
     }
 }

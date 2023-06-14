@@ -84,7 +84,7 @@
 },
 {
     "model": "task.activity",
-    "pk": 528,
+    "pk": 532,
     "fields": {
         "name": "Family",
         "type": 6
@@ -92,7 +92,7 @@
 },
 {
     "model": "task.activity",
-    "pk": 529,
+    "pk": 533,
     "fields": {
         "name": "Church",
         "type": 6
@@ -100,7 +100,7 @@
 },
 {
     "model": "task.activity",
-    "pk": 530,
+    "pk": 534,
     "fields": {
         "name": "Fun",
         "type": 5
@@ -108,7 +108,7 @@
 },
 {
     "model": "task.activity",
-    "pk": 531,
+    "pk": 535,
     "fields": {
         "name": "Grow",
         "type": 5
@@ -10148,7 +10148,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51329,
+    "pk": 51366,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -10160,7 +10160,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51330,
+    "pk": 51367,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -10172,7 +10172,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51331,
+    "pk": 51368,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -10184,7 +10184,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51332,
+    "pk": 51369,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -10196,10 +10196,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51333,
+    "pk": 51370,
     "fields": {
         "name": "Fun",
-        "activity": 530,
+        "activity": 534,
         "notes": "    Ticket to Paradise",
         "date": "2023-01-26",
         "hours": 2,
@@ -10208,7 +10208,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51334,
+    "pk": 51371,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -10220,7 +10220,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51335,
+    "pk": 51372,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -10232,7 +10232,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51336,
+    "pk": 51373,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -10244,10 +10244,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51337,
+    "pk": 51374,
     "fields": {
         "name": "Church",
-        "activity": 529,
+        "activity": 533,
         "notes": "    prep for EHS class with Stacie",
         "date": "2023-01-27",
         "hours": 3,
@@ -10256,10 +10256,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51338,
+    "pk": 51375,
     "fields": {
         "name": "Family",
-        "activity": 528,
+        "activity": 532,
         "notes": "    cook ready-made chicken pasta",
         "date": "2023-01-27",
         "hours": 2,
@@ -10268,10 +10268,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51339,
+    "pk": 51376,
     "fields": {
         "name": "Fun",
-        "activity": 530,
+        "activity": 534,
         "notes": "    Mummy",
         "date": "2023-01-27",
         "hours": 2,
@@ -10280,10 +10280,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51340,
+    "pk": 51377,
     "fields": {
         "name": "Grow",
-        "activity": 531,
+        "activity": 535,
         "notes": "    night watch: business and writing ideas",
         "date": "2023-01-28",
         "hours": 1,
@@ -10292,7 +10292,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51341,
+    "pk": 51378,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -10304,7 +10304,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51342,
+    "pk": 51379,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -10316,10 +10316,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51343,
+    "pk": 51380,
     "fields": {
         "name": "Family",
-        "activity": 528,
+        "activity": 532,
         "notes": "    \n    family night\n    ",
         "date": "2023-01-28",
         "hours": 2,
@@ -10328,7 +10328,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51344,
+    "pk": 51381,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -10340,10 +10340,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51345,
+    "pk": 51382,
     "fields": {
         "name": "Fun",
-        "activity": 530,
+        "activity": 534,
         "notes": "    Mummy\n    Eli Stone",
         "date": "2023-01-28",
         "hours": 1,
@@ -10352,10 +10352,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51346,
+    "pk": 51383,
     "fields": {
         "name": "Grow",
-        "activity": 531,
+        "activity": 535,
         "notes": "    night watch: Multicast publishing, Blues",
         "date": "2023-01-29",
         "hours": 2,
@@ -10364,7 +10364,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51347,
+    "pk": 51384,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -10376,10 +10376,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51348,
+    "pk": 51385,
     "fields": {
         "name": "Church",
-        "activity": 529,
+        "activity": 533,
         "notes": "    church with Hendricksons\n    La Viña service",
         "date": "2023-01-29",
         "hours": 5,
@@ -10388,10 +10388,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51349,
+    "pk": 51386,
     "fields": {
         "name": "Family",
-        "activity": 528,
+        "activity": 532,
         "notes": "    Hendricksons & Webbs at Austin's",
         "date": "2023-01-29",
         "hours": 2,
@@ -10400,10 +10400,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51350,
+    "pk": 51387,
     "fields": {
         "name": "Fun",
-        "activity": 530,
+        "activity": 534,
         "notes": "    The Gray Man",
         "date": "2023-01-29",
         "hours": 3,
@@ -10412,10 +10412,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51351,
+    "pk": 51388,
     "fields": {
         "name": "Grow",
-        "activity": 531,
+        "activity": 535,
         "notes": "    gout day 28 - text to Dr Rhoads\n    night watch: Think Tank\n    weekly reflection",
         "date": "2023-01-30",
         "hours": 2,
@@ -10424,7 +10424,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51352,
+    "pk": 51389,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -10436,7 +10436,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51353,
+    "pk": 51390,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -10448,7 +10448,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51354,
+    "pk": 51391,
     "fields": {
         "name": "Business",
         "activity": 3,
@@ -10460,10 +10460,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51355,
+    "pk": 51392,
     "fields": {
         "name": "Family",
-        "activity": 528,
+        "activity": 532,
         "notes": "    Garcias - Free Form on iPad",
         "date": "2023-01-30",
         "hours": 2,
@@ -10472,10 +10472,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51356,
+    "pk": 51393,
     "fields": {
         "name": "Fun",
-        "activity": 530,
+        "activity": 534,
         "notes": "    Tales of the Jedi\n    Sim City (level 50)",
         "date": "2023-01-30",
         "hours": 2,
@@ -10484,10 +10484,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51357,
+    "pk": 51394,
     "fields": {
         "name": "Grow",
-        "activity": 531,
+        "activity": 535,
         "notes": "    night watch: Timothy, Hebrews\n    20-below wind chill",
         "date": "2023-01-31",
         "hours": 1,
@@ -10496,7 +10496,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51358,
+    "pk": 51395,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -10508,7 +10508,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51359,
+    "pk": 51396,
     "fields": {
         "name": "Teach",
         "activity": 1,
@@ -10520,10 +10520,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51360,
+    "pk": 51397,
     "fields": {
         "name": "Family",
-        "activity": 528,
+        "activity": 532,
         "notes": "    call Dad on birthday\n    ",
         "date": "2023-01-31",
         "hours": 0,
@@ -10532,7 +10532,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51361,
+    "pk": 51398,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -10544,10 +10544,10 @@
 },
 {
     "model": "task.task",
-    "pk": 51362,
+    "pk": 51399,
     "fields": {
         "name": "Fun",
-        "activity": 530,
+        "activity": 534,
         "notes": "    Mummy Returns\n    Hoopla borrows",
         "date": "2023-01-31",
         "hours": 3,
@@ -10556,7 +10556,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51363,
+    "pk": 51400,
     "fields": {
         "name": "Write",
         "activity": 2,
@@ -10568,7 +10568,7 @@
 },
 {
     "model": "task.task",
-    "pk": 51364,
+    "pk": 51401,
     "fields": {
         "name": "Innovate",
         "activity": 15,
@@ -10580,13 +10580,349 @@
 },
 {
     "model": "task.task",
-    "pk": 51365,
+    "pk": 51402,
     "fields": {
         "name": "Church",
-        "activity": 529,
+        "activity": 533,
         "notes": "    Emotionally Healthy Relationships",
         "date": "2023-02-01",
         "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51403,
+    "fields": {
+        "name": "Grow",
+        "activity": 535,
+        "notes": "    planning and review",
+        "date": "2023-06-07",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51404,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    AI Playbook Product Strategy\n    Lesson, Seminar, Workshop\n    Playbooks: Writer, Teacher, Developer\n    AI Coaching Service",
+        "date": "2023-06-07",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51405,
+    "fields": {
+        "name": "Fun",
+        "activity": 534,
+        "notes": "    Pretender\n    Enterprise\n    nts",
+        "date": "2023-06-07",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51406,
+    "fields": {
+        "name": "Write",
+        "activity": 2,
+        "notes": "    product strategy for Pubs",
+        "date": "2023-06-08",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51407,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    create tests for pub code\n    rewrite word count\n    build up Django test asserts\n    write code with AI\n    ",
+        "date": "2023-06-08",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51408,
+    "fields": {
+        "name": "Family",
+        "activity": 532,
+        "notes": "    Josiah at Palomino's\n    talk about career and AI",
+        "date": "2023-06-08",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51409,
+    "fields": {
+        "name": "Church",
+        "activity": 533,
+        "notes": "    Hendricksons for dinner\n    Prometa CTO",
+        "date": "2023-06-08",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51410,
+    "fields": {
+        "name": "Grow",
+        "activity": 535,
+        "notes": "    follow up from Thursday\n    plan new goals",
+        "date": "2023-06-09",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51411,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    design for Ghost Writer integration\n    build tests with Fixture for Pubs",
+        "date": "2023-06-09",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51412,
+    "fields": {
+        "name": "Fun",
+        "activity": 534,
+        "notes": "    Star Trek Enterprise\n    Pretender\n    nts",
+        "date": "2023-06-09",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51413,
+    "fields": {
+        "name": "Business",
+        "activity": 3,
+        "notes": "    request for withdrawal of 35K",
+        "date": "2023-06-09",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51414,
+    "fields": {
+        "name": "Church",
+        "activity": 533,
+        "notes": "    follow up from Prometa",
+        "date": "2023-06-09",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51415,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 14,
+        "notes": "    follow up from Hendricksons visit\n    course outline: Spiritual Formation, Disciple Making\n    CTO/COO job description",
+        "date": "2023-06-09",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51416,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    Integrate Ghost Writer into Hammer\n    build tests for Pub\n    copy files from Ghost Writer into Hammer",
+        "date": "2023-06-10",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51417,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 14,
+        "notes": "    build Import & Export features\n    create test data\n    build 21 django tests",
+        "date": "2023-06-10",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51418,
+    "fields": {
+        "name": "Fun",
+        "activity": 534,
+        "notes": "    Avengers Civil War\n    British Baking",
+        "date": "2023-06-10",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51419,
+    "fields": {
+        "name": "Church",
+        "activity": 533,
+        "notes": "    church in Greeley\n    kids\n    talk with Barb and Nate and Heidi\n    talk with Jose",
+        "date": "2023-06-11",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51420,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    build tests from Pubs\n    refactor JS files\n    refactor CSS files",
+        "date": "2023-06-11",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51421,
+    "fields": {
+        "name": "Family",
+        "activity": 532,
+        "notes": "    Cables Pub\n    Family Pizza Night",
+        "date": "2023-06-11",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51422,
+    "fields": {
+        "name": "Grow",
+        "activity": 535,
+        "notes": "    nap",
+        "date": "2023-06-11",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51423,
+    "fields": {
+        "name": "Fun",
+        "activity": 534,
+        "notes": "    Avengers Civil War\n    Star Trek",
+        "date": "2023-06-11",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51424,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    refactor Pub building\n    create more tests for Pubs\n    simplify code",
+        "date": "2023-06-12",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51425,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 14,
+        "notes": "    Milestones\n    status report\n    review issues",
+        "date": "2023-06-12",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51426,
+    "fields": {
+        "name": "Family",
+        "activity": 532,
+        "notes": "    time with Stacie",
+        "date": "2023-06-12",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51427,
+    "fields": {
+        "name": "Fun",
+        "activity": 534,
+        "notes": "    Star Trek Enterprise\n    Big Bang",
+        "date": "2023-06-12",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51428,
+    "fields": {
+        "name": "Grow",
+        "activity": 535,
+        "notes": "    nap",
+        "date": "2023-06-13",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51429,
+    "fields": {
+        "name": "Innovate",
+        "activity": 15,
+        "notes": "    Josiah Presents at RMAIG \n    drive to Boulder\n    celebrate at Illegal Pete's\n    outline expander\n    build and test new pub structures",
+        "date": "2023-06-13",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 51430,
+    "fields": {
+        "name": "Teach",
+        "activity": 1,
+        "notes": "    Creating a Lesson - AI Coach\n    AI Playbook - Seminar/Microcourse\n    Shrinking World Training Pubs",
+        "date": "2023-06-13",
+        "hours": 3,
         "done": false
     }
 }

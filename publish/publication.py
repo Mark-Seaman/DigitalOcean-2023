@@ -68,9 +68,9 @@ def build_pubs(verbose=False, delete=False):
     if verbose:
         print("Build pubs:\n")
     for pub in list_publications():
-        p = create_pub(pub[0], pub[1])
         if verbose:
-            print(p)
+            print('CREATE -', pub)
+        p = create_pub(pub[0], pub[1])
         build_pub_index(p)
 
     return verify_all_pubs()

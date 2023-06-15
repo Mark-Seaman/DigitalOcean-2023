@@ -1,18 +1,15 @@
 from pathlib import Path
-from probe.probe_images import test_book_images, test_image_pages
-from probe.probe_pages import test_website_pages
-from probe.probe_pub import test_pub_json
-from publish.import_export import create_pub
 
+from publish.import_export import create_pub
 from publish.models import Content, Pub
-from publish.publication import get_pub_info, list_publications, build_pubs, show_pub_json
+from publish.publication import build_pubs, get_pub, get_pub_info
 from publish.seamanslog import random_post
-from publish.text import line_count, text_join
 from task.models import Activity, Task, TaskType
 from task.task import task_command
 from task.todo import edit_todo_list
 
 from .models import Probe, TestResult
+from .probe_images import test_image_pages
 
 
 def quick_test():
@@ -22,15 +19,16 @@ def quick_test():
 
 
 def pubs():
-    # build_pubs(True, True)
-    # print(test_pub_json())
-    create_pub('journey', "Documents/Shrinking-World-Pubs/journey")
+    # for p in Pub.objects.all():
+    #     print (p.name)
 
-    # text = show_pub_json()
-    # for p in pubs:
-    #     print(str(p))
-    text = get_pub_info('journey')
-    print(test_book_images())
+    build_pubs(True, True)
+    # # print(test_pub_json())
+    # get_pub('poem').delete()
+    # print(create_pub('poem', "Documents/Shrinking-World-Pubs/poem/Pub"))
+    # text = get_pub_info('poem')
+    # print(text)
+    # # print(test_image_pages())
 
 
 def tests():

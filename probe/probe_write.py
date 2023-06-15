@@ -10,6 +10,6 @@ def test_write_script():
 
 
 def test_write_render():
-    return write_blog(['render', 'Documents/seamansguide.com/poem/FromTheEdge.md', '', '', 'blog']) +\
+    return write_blog(['render', 'Documents/Shrinking-World-Pubs/poem/Pub/FromTheEdge.md', '', '', 'blog']) +\
         write_blog(
-            ['render', 'Documents/seamansguide.com/poem/x.md', '', 'x', 'x'])
+            ['render', 'Documents/Shrinking-World-Pubs/poem/Pub/x.md', '', 'x', 'x'])

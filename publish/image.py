@@ -63,40 +63,41 @@ def verify_blog_images():
     return output
 
 
-def verify_course_images():
-    output = ""
-    for course in ["bacs200", "bacs350", "cs350"]:
-        doc_path = Path(f"Documents/shrinking-world.com/{course}")
-        settings = read_json(doc_path / "course.json")
-        image_path = settings["images"]
-        images = verify_images(doc_path, image_path)
-        title = banner(settings["site_title"])
-        output += f"\n{title}"
-        output += show_images_found(images)
-    return output
+# def verify_course_images():
+#     output = ""
+#     for course in ["bacs200", "bacs350", "cs350"]:
+#         doc_path = Path(f"Documents/shrinking-world.com/{course}")
+#         settings = read_json(doc_path / "course.json")
+#         image_path = settings["images"]
+#         images = verify_images(doc_path, image_path)
+#         title = banner(settings["site_title"])
+#         output += f"\n{title}"
+#         output += show_images_found(images)
+#     return output
 
 
-def verify_textbook_images():
-    output = ""
-    for text in ["chapter", "skill", "demo", "project"]:
-        doc_path = Path(f"Documents/shrinking-world.com/bacs350/{text}")
-        image_path = "Documents/seamansguide.com/webapps/img"
-        images = verify_images(doc_path, image_path)
-        output += show_images_found(images)
-    return output
+# def verify_textbook_images():
+#     output = ""
+#     for text in ["chapter", "skill", "demo", "project"]:
+#         doc_path = Path(f"Documents/shrinking-world.com/bacs350/{text}")
+#         image_path = "Documents/seamansguide.com/webapps/img"
+#         images = verify_images(doc_path, image_path)
+#         output += show_images_found(images)
+#     return output
 
 
-def verify_book_images():
-    output = ""
-    for book in ["journey", "quest", "poem", "leverage"]:
-        doc_path = Path(f"Documents/seamansguide.com/{book}")
-        settings = read_json(f"static/js/{book}.json")
-        image_path = settings["image_path"][1:]
-        images = verify_images(doc_path, image_path)
-        title = banner(settings["site_title"])
-        output += f"\n{title}"
-        output += show_images_found(images)
-    return output
+# def verify_book_images():
+#     output = ""
+#     for book in ["journey", "quest", "poem", "leverage"]:
+#         pub = get_pub()
+#         doc_path = Path(f"Documents/seamansguide.com/{book}")
+#         settings = read_json(f"static/js/{book}.json")
+#         image_path = settings["image_path"][1:]
+#         images = verify_images(doc_path, image_path)
+#         title = banner(settings["site_title"])
+#         output += f"\n{title}"
+#         output += show_images_found(images)
+#     return output
 
 
 def verify_images(doc_path, image_path):
@@ -109,10 +110,10 @@ def verify_images(doc_path, image_path):
     return images
 
 
-def verify_all_images():
-    print(verify_book_images())
-    print(verify_blog_images())
-    print(verify_course_images())
+# def verify_all_images():
+#     print(verify_book_images())
+#     print(verify_blog_images())
+#     print(verify_course_images())
 
 
 def doc_text(doc_path, image_path):

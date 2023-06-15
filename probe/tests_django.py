@@ -3,7 +3,7 @@ from django.test import TestCase
 from requests import get
 
 from publish.files import read_file
-from publish.text import text_lines
+from publish.text import line_count, text_lines
 
 NO_INTERNET = False
 
@@ -53,9 +53,9 @@ class DjangoTest(TestCase):
             self.assertIn(pattern, text)
         return text
 
-    def assertNumLines(self, text, min, max=1000):
-        lines = len(text_lines(text))
-        self.assertRange(lines, min, max, label=f"Lines in text")
+    def assertNumLines(self, text, min, max=1000, label='Lines of Text'):
+        lines = line_count(text)
+        self.assertRange(lines, min, max, label)
 
     def assertFileLines(self, path, min, max):
         self.assertNumLines(read_file(path), min, max)

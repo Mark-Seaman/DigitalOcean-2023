@@ -5,24 +5,25 @@ from publish.publication import all_books
 from .probe import check_files
 
 
-book = Path("Documents") / "seamansguide.com"
+book1 = Path("Documents") / "Shrinking-World-Pubs"
+book2 = Path("Documents") / "seamansguide.com"
 
 
 def test_book_journey():
-    return check_files(book / "journey", 30, 60)
+    return check_files(book1 / "journey", 30, 60)
 
 
 def test_book_poem():
-    return check_files(book / "poem", 70, 100)
+    return check_files(book1 / "poem", 70, 100)
 
 
 def test_book_leverage():
-    return check_files(book / "leverage", 39, 46)
+    return check_files(book2 / "leverage", 39, 46)
 
 
 def test_book_webapps():
-    return check_files(book / "webapps", 130, 140)
+    return check_files(book2 / "webapps", 130, 140)
 
 
 def test_book_quest():
-    return check_files(book / "quest", 60, 70)
+    return check_files(book1 / "quest", 60, 70)

@@ -15,8 +15,8 @@ def create_pub(pub_name, pub_path):
     def update_record(name, doc_path):
         json = pub_json_path(name, doc_path)
         s = read_json(json)
-        b = Pub.objects.get_or_create(name=s["name"])[0]
-        b.doc_path = s['doc_path']
+        b = Pub.objects.get_or_create(name=name)[0]
+        b.doc_path = doc_path
         b.title = s["site_title"]
         b.subtitle = s["site_subtitle"]
         b.domain = s.get("domain")
@@ -93,6 +93,7 @@ def create_pub(pub_name, pub_path):
 
 def pub_json_path(name, doc_path):
     path = Path(doc_path)
+    path.mkdir(exist_ok=True, parents=True)
     json1 = Path(f'static/js/{name}.json')
     json2 = path/'pub.json'
     json3 = path.parent/'pub.json'

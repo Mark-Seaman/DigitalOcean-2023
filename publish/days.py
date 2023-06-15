@@ -1,5 +1,6 @@
 from calendar import day_abbr, monthrange, weekday
 from datetime import datetime, timedelta
+from os.path import getmtime
 
 from django.utils.timezone import localdate, make_aware
 
@@ -41,6 +42,12 @@ def days_help(args=None):
 
 # ------------------------------
 # Functions
+
+def is_old(path):
+    modified = datetime.fromtimestamp(getmtime(path))
+    now = datetime.now()
+    return (now - modified).days > 1
+
 
 # Convert from a time record to string
 def date_str(t):

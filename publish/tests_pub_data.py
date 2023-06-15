@@ -1,8 +1,14 @@
+from datetime import datetime
+
 from probe.tests_django import DjangoTest
+from os.path import getmtime
+
+from publish.days import is_old
 
 from .models import Content, Pub
 from .publication import (all_blogs, all_books, all_privates, all_pubs,
                           build_pubs, get_pub_info, build_pubs)
+
 
 # -----------------------
 # Pub Data Model
@@ -86,4 +92,7 @@ class FixtureTest(DjangoTest):
         self.assertRange(len(Pub.objects.all()), 21, 21)
         self.assertRange(len(Content.objects.all()), 1200, 1300, "Content Nodes")
         self.assertNumLines(get_pub_info(), 2229, 2319)
+
+    def test_data_file(self):
+        self.assertFalse(is_old("config/publish.json"), 'config/publish.json is old')
 

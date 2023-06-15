@@ -1,10 +1,13 @@
 Thursday
 
-Innovate 2
+Innovate 4
 
     update page redirector for Pubs
     test page redirector
     TDD success measures
+    build tests for old publish.json file
+    save Pub info in 'probe/pubs'
+    
 
 Church 1
 

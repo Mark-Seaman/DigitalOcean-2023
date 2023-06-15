@@ -12,6 +12,12 @@ from subprocess import PIPE, Popen
 
 from publish.text import text_join, text_lines, word_count
 
+def concatonate(file_pattern):
+    text = ''
+    for f in Path().glob(file_pattern):
+        text += f.read_text()
+    return text
+
 
 def content_word_summary(path):
     filetype = '.md'

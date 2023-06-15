@@ -185,6 +185,11 @@ def random_doc_page(path):
     return x.replace(".md", "")
 
 
+def save_pub_info():
+    for pub in all_pubs():
+        text = get_pub_info(pub.name)
+        Path(f'probe/pubs/{pub.name}').write_text(text)
+
 
 def select_blog_doc(host, blog, doc):
     def load_object(pub):

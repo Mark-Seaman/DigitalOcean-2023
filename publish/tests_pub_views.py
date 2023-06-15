@@ -1,6 +1,7 @@
 from django.test import TestCase
 
 from probe.tests_django import DjangoTest
+from publish.publication import pub_redirect
 
 from .models import Content, Pub
 
@@ -23,6 +24,22 @@ class BlogPageTest(DjangoTest):
         page = "http://localhost:8000/sampler"
         self.assertPageText(page, "Seaman&#x27;s Log")
 
+    def test_pub_redirect(self):
+        redirects = (("shrinking-world.com", None, None, '/tech'),
+                     ("seamansguide.com", "journey","Index.md", '/journey/Index.md'),
+                     ("seamansguide.com", None, "journey", '/publish/book'),
+                     ("seamansguide.com", "journey", None, '/private'),
+                     ("seamansguide.com", None, None, '/publish/book'),
+                     ("seamanslog.com", None, None, '/io'),
+                     ("seamanfamily.org", None, None, '/family/Index.md'),
+                     ("seamanslog.com", None, None, '/io'),
+                     ("spiritual-things.org", None, None, '/spiritual/today'),
+                     ("markseaman.org", None, None, '/mark'),
+                     ("markseaman.info", None, None, '/private'),
+                     ("localhost:8000", None, None, '/private'),)
+        for r in redirects:
+            self.assertEqual(pub_redirect(r[0], r[1], r[2]), r[3], f'FAILED: {r}')
+    
     def test_sampler_page(self):
         page = "http://localhost:8000/sampler"
         self.assertPageText(page, "Seaman&#x27;s Log")

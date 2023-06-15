@@ -167,7 +167,11 @@ def pub_redirect(host, pub, doc):
     if host == "markseaman.info" and not pub:
         return f"/private"
     if "localhost" in host and not pub:
-        return f"/io"
+        return f"/private"
+    if not doc or not pub:
+        return f"/private"
+    # if not pub:
+    #     return f"/{doc}"
     return f"/{pub}/{doc}"
 
 

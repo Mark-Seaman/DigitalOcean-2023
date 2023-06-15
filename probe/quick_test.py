@@ -1,8 +1,11 @@
 from pathlib import Path
+from probe.probe_images import test_book_images, test_image_pages
 from probe.probe_pages import test_website_pages
+from probe.probe_pub import test_pub_json
+from publish.import_export import create_pub
 
 from publish.models import Content, Pub
-from publish.publication import get_pub_info, list_publications, build_pubs
+from publish.publication import get_pub_info, list_publications, build_pubs, show_pub_json
 from publish.seamanslog import random_post
 from publish.text import line_count, text_join
 from task.models import Activity, Task, TaskType
@@ -14,12 +17,20 @@ from .models import Probe, TestResult
 
 def quick_test():
     # print("No quick test defined")
-    # pubs()
-    test_website_pages()
+    pubs()
+    # test_website_pages()
 
 
 def pubs():
-    build_pubs(True, True)
+    # build_pubs(True, True)
+    # print(test_pub_json())
+    create_pub('journey', "Documents/Shrinking-World-Pubs/journey")
+
+    # text = show_pub_json()
+    # for p in pubs:
+    #     print(str(p))
+    text = get_pub_info('journey')
+    print(test_book_images())
 
 
 def tests():

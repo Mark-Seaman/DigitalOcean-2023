@@ -122,6 +122,7 @@ def template_files(path='.'):
                 f.startswith('.git') or
                 f.startswith('.Documents/') or
                 f.startswith('Temp') or
+                f.startswith('probe/pages') or
                 f.startswith('Github') or
                 f.startswith('Documents') or
                 f.startswith('.cache') or

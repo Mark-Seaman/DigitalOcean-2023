@@ -1,10 +1,10 @@
 from pathlib import Path
 from probe.tests_django import DjangoTest
-from .files import read_file, write_file
-from .text import word_count
+from .files import concatonate, read_file, recursive_files, write_file
+from .text import line_count, word_count
 
 
-class TextTest(DjangoTest):
+class TextFileTest(DjangoTest):
     
     def test_word_count(self):
         self.assertEqual(word_count("Hello world"), 2)
@@ -24,4 +24,14 @@ class TextTest(DjangoTest):
         text = read_file(f)
         self.assertNumLines(text, 173)
         f.unlink()
+
+    def test_file_list(self):
+        files = len(list(Path('probe').glob('**/*')))
+        self.assertEqual(files, 79, f'files in probe file tree')
+
+    def test_concatonate(self):
+        text = concatonate('probe/**/*.py')
+        x = line_count(text)
+        self.assertEqual(x, 1015, f'lines in Python files for probe file tree')
+
     

@@ -1,6 +1,7 @@
 from pathlib import Path
 from random import choice
 from shutil import copyfile
+from publish.days import is_old
 
 from publish.shell import banner
 
@@ -43,16 +44,6 @@ def bouncer_redirect(bouncer_id):
 
 def build_pubs(verbose=False, delete=False):
 
-    def copy_static_files(pub):
-        source = Path(pub.doc_path)/'../Images'
-        dest = Path(pub.image_path[1:])
-        if source.exists():
-            if not dest.exists():
-                dest.mkdir()
-            for f in source.iterdir():
-                # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
-                copyfile(f, dest/f.name)
-
     def build_pub_index(pub):
         if pub.auto_index:
             if verbose:
@@ -65,6 +56,13 @@ def build_pubs(verbose=False, delete=False):
                 print("Delete pubs\n")
             Pub.objects.all().delete()
             assert len(Pub.objects.all()) == 0
+    
+    def verify_all_pubs():
+        if is_old("config/publish.json"):
+            if verbose:
+                print("Save pubs JSON\n")
+            save_pub_data()
+        verify_pubs(verbose)
 
     delete_pubs()
     if verbose:
@@ -73,10 +71,9 @@ def build_pubs(verbose=False, delete=False):
         p = create_pub(pub[0], pub[1])
         if verbose:
             print(p)
-        copy_static_files(p)
         build_pub_index(p)
-    save_pub_data()
-    return verify_pubs(verbose)
+
+    return verify_all_pubs()
     
 
 def doc_view_context(**kwargs):

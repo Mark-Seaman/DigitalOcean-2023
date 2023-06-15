@@ -1,6 +1,7 @@
 from calendar import day_abbr, monthrange, weekday
 from datetime import datetime, timedelta
 from os.path import getmtime
+from pathlib import Path
 
 from django.utils.timezone import localdate, make_aware
 
@@ -44,6 +45,8 @@ def days_help(args=None):
 # Functions
 
 def is_old(path):
+    if not Path(path).exists():
+        return True
     modified = datetime.fromtimestamp(getmtime(path))
     now = datetime.now()
     return (now - modified).days > 1

@@ -7,7 +7,7 @@ from re import findall, sub
 from django.db.models import Sum
 from django.template.loader import render_to_string
 
-from publish.days import date_str, recent_dates, to_date, yesterday
+from publish.days import date_str, is_old, recent_dates, to_date, yesterday
 from publish.text import text_join, text_lines
 from task.models import Activity, Task, TaskType
 
@@ -215,15 +215,17 @@ def print_task_history(args):
 
 
 def save_task_data():
-    command = '''
-        {
-            python manage.py dumpdata --indent 4 task > config/task.json &&
-            git add config/task.json &&
-            git commit -m "Save task JSON" &&
-            git push
-        } 2>/dev/null >/dev/null
-    '''
-    system(command)
+    if is_old("config/task.json"):
+        print("Save task JSON\n")
+        command = '''
+            {
+                python manage.py dumpdata --indent 4 task > config/task.json &&
+                git add config/task.json &&
+                git commit -m "Save task JSON" &&
+                git push
+            } 2>/dev/null >/dev/null
+        '''
+        system(command)
 
 
 def show_task_summary(days, date):

@@ -12,7 +12,7 @@ class PubDocTest(DjangoTest):
 
     def test_doc_directories(self):
         data = '''Documents,2051,2070
-Documents/seamansguide.com,200,322
+Documents/seamansguide.com,114,114
 Documents/seamanslog.com,405
 Documents/markseaman.org,19
 Documents/markseaman.info,65

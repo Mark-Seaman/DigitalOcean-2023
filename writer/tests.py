@@ -2,10 +2,10 @@ from pathlib import Path
 
 from publish.files import create_directory
 
-from .pub_dev import (doc_html, doc_list, doc_text, doc_title, list_pubs,
+from .pub_dev import (doc_html, doc_list, doc_text, doc_title, pub_list,
                       pub_path, pub_view_data, read_pub_doc)
 from .tests_django import DjangoTest
-from .writer_script import pub_path, pub_script_command
+from .writer_script import pub_path, pub_script
 
 
 class GhostTest(DjangoTest):
@@ -25,20 +25,20 @@ class GhostTest(DjangoTest):
         self.assertFiles(directory, 14, 40)
 
     def test_project(self):
-        pub_script_command('project', ['GhostWriter'])
+        pub_script(['project', 'GhostWriter'])
         js = (pub_path('GhostWriter').parent)/'pub.json'
         self.assertFileLines(js, 20, 20)
 
     def test_chapter(self):
-        pub_script_command('chapter', ['GhostWriter', 'GhostWriter'])
+        pub_script(['chapter', 'GhostWriter', 'GhostWriter'])
         self.assertFileLines(
             pub_path('GhostWriter', 'GhostWriter', 'B-Ideas.txt'), 7, 24)
         self.assertFileLines(
             pub_path('GhostWriter', 'GhostWriter', 'B-Ideas.ai'), 12, 24)
 
     def test_doc(self):
-        pub_script_command(
-            'doc', ['GhostWriter', 'GhostWriter', 'B-Ideas.md'], False)
+        pub_script(
+            ['doc', 'GhostWriter', 'GhostWriter', 'B-Ideas.md'], False)
 
     # def test_outline(self):
     #     text = pub_script_command(
@@ -97,7 +97,7 @@ class PubTest(DjangoTest):
             str(pub_path('GhostWriter', 'Chapter1', 'Chapter1.md')), x)
 
     def test_num_pubs(self):
-        pubs1 = len(list_pubs())
+        pubs1 = len(pub_list())
         pubs2 = len(pub_view_data()['pubs'])
         self.assertEqual(pubs1, pubs2)
         self.assertRange(pubs2, 7, 11)

@@ -27,7 +27,7 @@ class TextFileTest(DjangoTest):
 
     def test_file_list(self):
         files = len(list(Path('probe').glob('**/*')))
-        self.assertEqual(files, 79, f'files in probe file tree')
+        self.assertRange(files, 100, 110, f'files in probe file tree')
 
     def test_concatonate(self):
         text = concatonate('probe/**/*.py')

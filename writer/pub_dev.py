@@ -7,8 +7,45 @@ from publish.document import title
 from publish.text import text_join, text_lines
 
 
+def chapter_list(pub):
+    path = pub_path(pub)
+    x = []
+    chapters = path.iterdir()
+    for chapter in chapters:
+        if chapter.is_dir():
+            x.append(pub_link(pub, chapter.name))
+    return x
+    # return [pub_link(pub, chapter.name) for chapter in path.iterdir() if chapter.is_dir()]
+
+
+def doc_ai(pub, chapter, doc):
+    doc = doc.replace('.md', '.ai')
+    path = pub_path(pub, chapter, doc)
+    if path.exists():
+        return markdown(path.read_text())
+
+
 def doc_html(pub, chapter, doc):
     return markdown(read_pub_doc(pub, chapter, doc),  extensions=['tables'])
+
+
+def doc_human(pub, chapter, doc):
+    doc = doc.replace('.md', '.txt')
+    path = pub_path(pub, chapter, doc)
+    if path.exists():
+        return markdown(path.read_text())
+
+
+def doc_link(pub, chapter, doc):
+    url = f'/writer/{pub}/{chapter}/{doc}'
+    # title = doc_title(pub, chapter, doc)
+    # return f'<a href="{url}">{title}</a>'
+    return f'<a href="{url}">{doc[:-3]}</a>'
+
+
+def doc_list(pub, chapter):
+    path = pub_path(pub, chapter)
+    return [doc_link(pub, chapter, doc.name) for doc in sorted(path.glob('*.md')) if doc.is_file()]
 
 
 def doc_title(pub, chapter, doc):
@@ -20,25 +57,15 @@ def doc_text(pub, chapter, doc):
     return text_join(lines)
 
 
-def list_pubs():
-    path = pub_path()
-    return [pub_link(pub.parent.name) for pub in path.glob('*/pub.json') if pub.parent.is_dir()]
-
-
-def doc_list(pub, chapter):
-    path = pub_path(pub, chapter)
-    return [doc_link(pub, chapter, doc.name) for doc in sorted(path.glob('*.md')) if doc.is_file()]
-
-
-def chapter_list(pub):
-    path = pub_path(pub)
-    x = []
-    chapters = path.iterdir()
-    for chapter in chapters:
-        if chapter.is_dir():
-            x.append(pub_link(pub, chapter.name))
-    return x
-    # return [pub_link(pub, chapter.name) for chapter in path.iterdir() if chapter.is_dir()]
+def get_menu(pub, chapter, doc):
+    items = [("Publications", "/publish/book"),
+             ("Pubs", pub_url())]
+    if pub:
+        items.append(("Chapters", pub_url(pub)),)
+    if chapter:
+        items.append(("Docs", pub_url(pub, chapter)),)
+    return  {"title": ('GhostWriter', '/writer/'), 
+             "items":items}
 
 
 def pub_link(pub, chapter=None):
@@ -51,6 +78,12 @@ def pub_link(pub, chapter=None):
 
     return f'<a href="{url}">{title}</a>'
 
+
+def pub_list():
+    path = pub_path()
+    return [pub_link(pub.parent.name) for pub in path.glob('*/pub.json') if pub.parent.is_dir()]
+
+
 def pub_url(pub=None, chapter=None, doc=None):
     if doc:
         return f'/writer/{pub}/{chapter}/{doc}'
@@ -59,13 +92,6 @@ def pub_url(pub=None, chapter=None, doc=None):
     if pub:
         return f'/writer/{pub}'
     return f'/writer/'
-
-
-def doc_link(pub, chapter, doc):
-    url = f'/writer/{pub}/{chapter}/{doc}'
-    # title = doc_title(pub, chapter, doc)
-    # return f'<a href="{url}">{title}</a>'
-    return f'<a href="{url}">{doc[:-3]}</a>'
 
 
 def pub_path(pub=None, chapter=None, doc=None):
@@ -82,31 +108,6 @@ def pub_path(pub=None, chapter=None, doc=None):
     return path
 
 
-def doc_ai(pub, chapter, doc):
-    doc = doc.replace('.md', '.ai')
-    path = pub_path(pub, chapter, doc)
-    if path.exists():
-        return markdown(path.read_text())
-
-
-def doc_human(pub, chapter, doc):
-    doc = doc.replace('.md', '.txt')
-    path = pub_path(pub, chapter, doc)
-    if path.exists():
-        return markdown(path.read_text())
-
-
-def get_menu(pub, chapter, doc):
-    items = [("Publications", "/publish/book"),
-             ("Pubs", pub_url())]
-    if pub:
-        items.append(("Chapters", pub_url(pub)),)
-    if chapter:
-        items.append(("Docs", pub_url(pub, chapter)),)
-    return  {"title": ('GhostWriter', '/writer/'), 
-             "items":items}
-
-
 def pub_view_data(**kwargs):
     pub = kwargs.get('pub')
     chapter = kwargs.get('chapter')
@@ -121,24 +122,44 @@ def pub_view_data(**kwargs):
         kwargs['docs'] = doc_list(pub, chapter)
     if pub:
         kwargs['chapters'] = chapter_list(pub)
-    kwargs['pubs'] = list_pubs()
+    kwargs['pubs'] = pub_list()
     kwargs['menu'] = get_menu(pub, chapter, doc)
     return kwargs
+
+def edit_files(files):
+    editor = getenv("EDITOR")
+    editor = editor.replace(' -w', '')
+    paths = ''
+    for f in files:
+        paths += f'"{f}" '
+    # editor='/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code'
+    # TODO Windows compatible editor
+    command = f'"{editor}" -w  {paths}'
+    print(command)
+    system(command)
 
 
 def pub_edit(**kwargs):
     pub = kwargs.get('pub')
     chapter = kwargs.get('chapter')
     doc = kwargs.get('doc')
-    path = pub_path(pub, chapter, doc)
-    path2 = str(path).replace('.md', '.txt')
-    path3 = str(path).replace('.md', '.ai')
-    editor = getenv("EDITOR").replace(' -w', '')
-    # editor='/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code'
-    # TODO Windows compatible editor
-    command = f'"{editor}" -w "{path}" "{path2}" "{path3}"'
-    print(command)
-    system(command)
+
+    path1 = pub_path(pub, chapter, doc)
+    path2 = str(path1).replace('.md', '.txt')
+    path3 = str(path1).replace('.md', '.ai')
+    if Path(path2).exists():
+        files = [path1, path2, path3]
+    else:
+        files = [path1, path3]
+    
+    edit_files(files)
+    # editor = getenv("EDITOR").replace(' -w', '')
+    # # editor='/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code'
+    # # TODO Windows compatible editor
+    # command = f'"{editor}" -w "{path1}" "{path2}" "{path3}"'
+    # print(command)
+    # system(command)
+
     url = pub_url(pub, chapter, doc)
     return url
 

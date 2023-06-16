@@ -5,6 +5,7 @@ from markdown import markdown
 
 from publish.document import title
 from publish.text import text_join, text_lines
+# from writer.writer_script import pub_script
 
 
 def chapter_list(pub):
@@ -132,8 +133,6 @@ def edit_files(files):
     paths = ''
     for f in files:
         paths += f'"{f}" '
-    # editor='/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code'
-    # TODO Windows compatible editor
     command = f'"{editor}" -w  {paths}'
     print(command)
     system(command)
@@ -153,19 +152,17 @@ def pub_edit(**kwargs):
         files = [path1, path3]
     
     edit_files(files)
-    # editor = getenv("EDITOR").replace(' -w', '')
-    # # editor='/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code'
-    # # TODO Windows compatible editor
-    # command = f'"{editor}" -w "{path1}" "{path2}" "{path3}"'
-    # print(command)
-    # system(command)
-
     url = pub_url(pub, chapter, doc)
     return url
 
 
 def read_pub_doc(pub, chapter, doc):
     path = pub_path(pub, chapter, doc)
+    if not path.exists():
+        # output = pub_script(['doc', pub, chapter, doc])
+        path.write_text(f'# {chapter} {doc}')
+        path2 = str(path).replace('.md', '.ai')
+        path2.write_text(f'# {chapter} {doc}')
     if not path.exists():
         return f"FILE NOT FOUND: {path}"
     return path.read_text()

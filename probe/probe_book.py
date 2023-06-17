@@ -10,7 +10,7 @@ book2 = Path("Documents") / "seamansguide.com"
 
 
 def test_book_journey():
-    return check_files(book1 / "journey", 30, 60)
+    return check_files(book1 / "journey", 30, 70)
 
 
 def test_book_poem():

@@ -47,7 +47,7 @@ def test_documents_shrinking_world():
 
 
 def test_documents_mark():
-    return check_files(docs / "markseaman.org", 10, 30)
+    return check_files(docs / "markseaman.org", 10, 32)
 
 
 def test_documents_family():

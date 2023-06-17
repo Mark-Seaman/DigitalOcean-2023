@@ -22,8 +22,8 @@ export im=$p/static/images
 export m="$a/rcp/mbw"
 export n=$a/ntsh
 export o=$d/shrinking-world.org
-export s=$d/seamanslog.com/sampler
-export t=$i/history/2023/01
+export s=$d/Shrinking-World-Pubs
+export t=$i/history/2023/06
 export w=$d/seamansguide.com/webapps
 export course=$g/PythonWebApps
 export slog=$s
@@ -95,7 +95,7 @@ alias g='grep --color=auto'
 alias l='ls -al'
 alias lc='wc -l'
 alias u='d ..'
-alias host="python -c 'import platform;print(platform.node()'"
+alias host="python -c 'import platform;print(platform.node())'"
 alias h='history 100'
 alias p=python
 

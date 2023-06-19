@@ -16277,7 +16277,7 @@
         "doctype": "folder",
         "path": "Documents/markseaman.org/Index.md",
         "folder": 0,
-        "words": 306,
+        "words": 377,
         "retain_object": false
     }
 },
@@ -16487,7 +16487,7 @@
         "doctype": "folder",
         "path": "Documents/markseaman.org/today/Index.md",
         "folder": 0,
-        "words": 53,
+        "words": 59,
         "retain_object": false
     }
 },
@@ -18042,6 +18042,48 @@
         "path": "Documents/Shrinking-World-Pubs/DataAnalytics/Pub/01.md",
         "folder": 0,
         "words": 2447,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 124238,
+    "fields": {
+        "blog": 1327,
+        "order": 33,
+        "title": "Mike Webb: Larger Than Life",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/journey/Pub/MikeWebb.md",
+        "folder": 5,
+        "words": 1444,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 124239,
+    "fields": {
+        "blog": 1336,
+        "order": 7,
+        "title": "Document not found",
+        "doctype": "folder",
+        "path": "Documents/markseaman.org/MikeWebb.md",
+        "folder": 0,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 124240,
+    "fields": {
+        "blog": 1338,
+        "order": 7,
+        "title": "Mike Webb - My Mentor",
+        "doctype": "folder",
+        "path": "Documents/markseaman.org/today/06/MikeWebb.md",
+        "folder": 0,
+        "words": 38,
         "retain_object": false
     }
 }

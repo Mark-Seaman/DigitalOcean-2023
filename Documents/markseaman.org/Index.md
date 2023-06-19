@@ -50,3 +50,15 @@ Mark is committed to open source software and makes much of his content open to
 the public for free.
 
 [Learn More](/mark/Invent)
+
+
+## AI Coach
+
+Mark has been studying techniques for using AI to accelerate the creative 
+process.  Whether you are teaching, writing, or programming then AI can help
+you build high-quality content faster and easier.  Mark teaches others how
+to do Prompt Engineering to get ChatGPT to yield the results you need.
+
+He publishes a range of articles and teaching products and is also available for individual
+coaching on  your specific project.
+

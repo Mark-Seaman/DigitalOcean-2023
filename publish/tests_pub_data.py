@@ -87,7 +87,7 @@ class FixtureTest(DjangoTest):
     def test_pub_info(self):
         save_pub_info()
         text = concatonate('probe/pubs/*')
-        self.assertNumLines(text, 2313, 2313)
+        self.assertNumLines(text, 3900, 4000)
 
     def test_rebuld_pubs(self):
         build_pubs(False, True)

@@ -313,18 +313,19 @@ def verify_pubs(verbose):
     pubs = list(Pub.objects.all())
     info = line_count(get_pub_info())
     contents = len(Content.objects.all())
-    # if 2100 < info and info < 2200: 
-    text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
-    text += f'\nPub Info: {info}\n'
-    text += f'\nPub Contents: {contents}\n'
-    if verbose:
-        print(text)
+    min_lines, max_lines = 3640, 3650
+    if min_lines < info and info < max_lines: 
+        text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
+        text += f'\nPub Info: {info}\n'
+        text += f'\nPub Contents: {contents}\n'
+        if verbose:
+            print(text)
+        else:
+            return text
     else:
-        return text
-    # else:
-    #     print(f'** Pub Info: {info} Lines **')
-    #     assert info>2100
-    #     assert info<2200
+        print(f'** Pub Info: {info} Lines **')
+        assert info>min_lines
+        assert info<max_lines
 
 
 def word_count_file(pub):

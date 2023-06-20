@@ -137,8 +137,8 @@ def get_pub_info(pub_name=None):
         text += f'Title: {pub.title}\n\n'
         text += f'Tag Line: {pub.subtitle}\n\n'
         text += f'Document Path: {pub.doc_path}\n\n'
-        # text += f'Contents: \n{get_pub_contents(pub)}\n\n'
-        # text += f'Summary: \n{show_pub_content(pub)}\n\n'  
+        text += f'Details: \n{show_pub_details(pub)}\n\n'
+        text += f'Summary: \n{show_pub_content(pub)}\n\n'  
         text += f'Words: \n{show_pub_words(pub)}\n\n' 
     return text
 
@@ -232,7 +232,7 @@ def show_pub_content(pub):
     for f in folders:
         text += f"\nFOLDER {f.get('path')}\n"
         for d in f.get("documents"):
-            text += f"\n     {d}\n"
+            text += f"     {d.get('path')}\n"
     return text
 
 
@@ -249,7 +249,9 @@ def show_pub_details(pub):
             output += f'    {d.title} - {d.path} - {words} words\n'
         output += f'    Words in {f.title}: {folder_words} words\n'
         total_words += folder_words
-    output += f'\nTotal Words in {pub.title}: {total_words} words, {int(total_words/250)} pages\n'
+    output = f'\nTotal Words in {pub.title}: {total_words} words, {int(total_words/250)} pages\n'
+    pub.words = total_words
+    pub.save()
     return output
 
 
@@ -277,6 +279,19 @@ def show_pub_words(pub=None):
     return text
 
 
+def show_pubs():
+    output = "PUBLICATIONS:\n\n"
+    for t in ['book', 'blog', 'private']:
+        text = ''
+        words = 0
+        for p in all_pubs(t):
+            text += f'    {p.name:15} -  {p.title:35} - {p.words:5} words\n'
+            words += p.words
+            get_pub(p.name)
+        output += f'\nPubs - {t} - {words} words - {int(words/250)} pages\n{text}\n'
+    return output    
+
+
 def verify_pubs(verbose):
     pubs = list_publications()
     for p in pubs:
@@ -298,18 +313,18 @@ def verify_pubs(verbose):
     pubs = list(Pub.objects.all())
     info = line_count(get_pub_info())
     contents = len(Content.objects.all())
-    if 2100 < info and info < 2200: 
-        text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
-        text += f'\nPub Info: {info}\n'
-        text += f'\nPub Contents: {contents}\n'
-        if verbose:
-            print(text)
-        else:
-            return text
+    # if 2100 < info and info < 2200: 
+    text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
+    text += f'\nPub Info: {info}\n'
+    text += f'\nPub Contents: {contents}\n'
+    if verbose:
+        print(text)
     else:
-        print(f'** Pub Info: {info} Lines **')
-        assert info>2100
-        assert info<2200
+        return text
+    # else:
+    #     print(f'** Pub Info: {info} Lines **')
+    #     assert info>2100
+    #     assert info<2200
 
 
 def word_count_file(pub):

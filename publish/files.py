@@ -209,8 +209,15 @@ def not_excluded(path, exclude):
 
 
 def read_csv_file(path):
-    csv_data = Path(path).read_text()
-    return list(reader(csv_data.splitlines()))
+    csv_file = Path(path)
+    if csv_file.exists():
+        csv_data = csv_file.read_text()
+        return list(reader(csv_data.splitlines()))
+    else:
+        error = f"** ERROR: {csv_file} NOT FOUND **"
+        print(error)
+        assert(False, error)
+        return error
 
 
 def read_csv_text(text):

@@ -57,8 +57,6 @@ def create_pub(pub_name, pub_path):
         x.save()
 
     def import_content(pub, index):
-        if not index.exists():
-            print(f'\n\n***********\nMISSING FILE: {index}\n\n')
         content = read_csv_file(index)
         for row in content:
             if row[2:]:

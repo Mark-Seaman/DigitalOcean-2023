@@ -19,14 +19,20 @@ def quick_test():
     # test_website_pages()
 
 
-def pubs():
-    # print(pub_script_command('project quest'.split(' ')))
-    print(pub_script(['project', 'quest']))
-    # print('project quest'.split(' '))
-    # for p in Pub.objects.all():
-    #     print (p.name)
+def show_pubs():
+    for p in Pub.objects.all():
+        print(get_pub(p.name))
 
-    # build_pubs(True, True)
+
+def pubs():
+    # Run pub scripts:
+    # print(pub_script_command('project quest'.split(' ')))
+    # print(pub_script(['project', 'quest']))
+    # print('project quest'.split(' '))
+
+    build_pubs(True, True)
+    show_pubs()
+
 
     # # print(test_pub_json())
     # get_pub('poem').delete()

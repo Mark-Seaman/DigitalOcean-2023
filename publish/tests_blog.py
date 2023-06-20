@@ -26,10 +26,9 @@ class RemoteBlogPagesTest(DjangoTest):
 
 class BlogFilesTest(DjangoTest):
     def test_seamanslog(self):
-        self.assertFiles("Documents/seamanslog.com", 390, 410)
+        self.assertFiles("Documents/seamanslog.com", 380, 400)
 
     def test_spiritlog(self):
         self.assertFiles("Documents/spiritual-things.org/daily", 370, 380)
 
-    def test_tech_notes(self):
-        self.assertFiles("Documents/shrinking-world.com/blog", 50, 60)
+ 

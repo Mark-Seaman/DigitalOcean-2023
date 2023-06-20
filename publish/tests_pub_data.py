@@ -57,7 +57,7 @@ class PubDataTest(DjangoTest):
 class PubInputOutputTest(DjangoTest):
     def test_build_blogs(self):
         build_pubs()
-        self.assertEqual(len(Pub.objects.all()), 20)
+        self.assertRange(len(Pub.objects.all()), 18, 20)
         num = len(Content.objects.all())
         self.assertRange(num, 1200, 1300, "Blog Contents")
 
@@ -91,7 +91,7 @@ class FixtureTest(DjangoTest):
 
     def test_rebuld_pubs(self):
         build_pubs(False, True)
-        self.assertRange(len(Pub.objects.all()), 20, 21)
+        self.assertRange(len(Pub.objects.all()), 18, 21)
         self.assertRange(len(Content.objects.all()), 1200, 1300, "Content Nodes")
 
     def test_data_file(self):

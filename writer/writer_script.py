@@ -109,7 +109,7 @@ def project_script(args):
             json = render_to_string('pub_script/pub.json', data)
             js.write_text(json)
 
-    print(f"Create Pub: {args[0]}")
+    # print(f"Create Pub: {args[0]}")
     if not args:
         return 'usage: project pub-dir'
     # make_json(args[0])

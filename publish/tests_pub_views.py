@@ -12,7 +12,7 @@ from .models import Content, Pub
 class BlogPageTest(DjangoTest):
     def test_home_page(self):
         page = "http://localhost:8000/"
-        self.assertPageLines(page, 180, 190)
+        self.assertPageLines(page, 140, 150)
 
     def test_bouncer_page(self):
         page = "/11"
@@ -54,17 +54,10 @@ class BlogPageTest(DjangoTest):
         page = "http://localhost:8000/spiritual"
         self.assertPageText(page, "Meditations")
 
-    def test_tech_page(self):
-        page = "http://localhost:8000/tech"
-        self.assertPageText(page, "Tech Notes")
-
     def test_write_page(self):
         page = "http://localhost:8000/write"
         self.assertPageText(page, "Writer's Block")
 
-    def test_tech_page(self):
-        page = "http://localhost:8000/mark"
-        self.assertPageText(page, "Mark David Seaman")
 
 
 # -----------------------

@@ -30,16 +30,9 @@ def pubs():
     # print(pub_script(['project', 'quest']))
     # print('project quest'.split(' '))
 
+    # Do complete rebuild
     build_pubs(True, True)
     show_pubs()
-
-
-    # # print(test_pub_json())
-    # get_pub('poem').delete()
-    # print(create_pub('poem', "Documents/Shrinking-World-Pubs/poem/Pub"))
-    # text = get_pub_info('poem')
-    # print(text)
-    # # print(test_image_pages())
 
 
 def tests():

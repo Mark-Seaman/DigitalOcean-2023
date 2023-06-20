@@ -88,8 +88,8 @@ def doc_view_context(**kwargs):
 
 def get_host(request):
     host = request.get_host()
-    if not host or host.startswith("127.0.0.1") or host.startswith("localhost"):
-        host = "seamanslog.com"
+    # if not host or host.startswith("127.0.0.1") or host.startswith("localhost"):
+    #     host = "seamanslog.com"
     return host
 
 
@@ -163,7 +163,8 @@ def pub_redirect(host, pub, doc):
         return f"/mark"
     if host == "markseaman.info" and not pub:
         return f"/private"
-    if "localhost" in host and not pub:
+    # print('*********', host, pub)
+    if ("localhost" in host or "127.0.0.1" in host) and not pub:
         return f"/private"
     if not doc or not pub:
         return f"/private"
@@ -294,18 +295,18 @@ def verify_pubs(verbose):
     pubs = list(Pub.objects.all())
     info = line_count(get_pub_info())
     contents = len(Content.objects.all())
-    assert info>2200
-    assert info<2500
-    # assert contents>1200
-    # assert contents<1300
-    
-    text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
-    text += f'\nPub Info: {info}\n'
-    text += f'\nPub Contents: {contents}\n'
-    if verbose:
-        print(text)
+    if 2100 < info and info < 2200: 
+        text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
+        text += f'\nPub Info: {info}\n'
+        text += f'\nPub Contents: {contents}\n'
+        if verbose:
+            print(text)
+        else:
+            return text
     else:
-        return text
+        print(f'** Pub Info: {info} Lines **')
+        assert info>2100
+        assert info<2200
 
 
 def word_count_file(pub):

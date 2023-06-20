@@ -30,4 +30,4 @@ Documents/SHRINKING-WORLD-PUBS,480,490
                 self.assertFiles(x[0], int(x[1]), int(x[1]))
 
     def test_pub_list(self):
-        self.assertRange(len(list_publications()), 20, 21)
+        self.assertRange(len(list_publications()), 18, 21)

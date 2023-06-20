@@ -2,7 +2,7 @@ from pathlib import Path
 
 from publish.import_export import create_pub
 from publish.models import Content, Pub
-from publish.publication import build_pubs, get_pub, get_pub_info
+from publish.publication import all_pubs, build_pubs, get_pub, get_pub_info
 from publish.seamanslog import random_post
 from task.models import Activity, Task, TaskType
 from task.task import task_command
@@ -20,8 +20,10 @@ def quick_test():
 
 
 def show_pubs():
-    for p in Pub.objects.all():
-        print(get_pub(p.name))
+    for t in ['book', 'blog', 'course', 'private']:
+        print(f'\nPubs - {t}')
+        for p in all_pubs(t):
+            print('    ', get_pub(p.name))
 
 
 def pubs():
@@ -31,7 +33,7 @@ def pubs():
     # print('project quest'.split(' '))
 
     # Do complete rebuild
-    build_pubs(True, True)
+    build_pubs(False, True)
     show_pubs()
 
 

@@ -14,23 +14,26 @@ from .toc import create_pub_index
 
 
 def all_blogs():
-    return [p for p in Pub.objects.filter(pub_type="blog")]
+    return all_pubs('blog')
 
 
 def all_books():
-    return [p for p in Pub.objects.filter(pub_type="book")]
+    return all_pubs('book')
 
 
 def all_courses():
-    return [p for p in Pub.objects.filter(pub_type="course")]
+    return all_pubs('course')
 
 
 def all_privates():
-    return [p for p in Pub.objects.filter(pub_type="private")]
+    return all_pubs('private')
 
 
-def all_pubs():
-    return [p for p in Pub.objects.all()]
+def all_pubs(pub_type=None):
+    if pub_type:
+        return list(Pub.objects.filter(pub_type=pub_type))
+    else:
+        return list(Pub.objects.all())
 
 
 def bouncer_redirect(bouncer_id):
@@ -46,8 +49,8 @@ def build_pubs(verbose=False, delete=False):
 
     def build_pub_index(pub):
         if pub.auto_index:
-            if verbose:
-                print(f"CREATE Index - {pub.name}")
+            # if verbose:
+            #     print(f"CREATE Index - {pub.name}")
             create_pub_index(pub, get_pub_contents(pub)) 
 
     def delete_pubs():

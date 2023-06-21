@@ -2,13 +2,9 @@
     "menu": {
         "title": [
             "Shrinking World",
-            "/tech"
+            "/"
         ],
         "items": [
-            [
-                "Training",
-                "/tech/training-Index"
-            ],
             [
                 "Books",
                 "/publish/book"
@@ -19,7 +15,7 @@
             ],
             [
                 "Contact",
-                "/tech/shrinkingworld-ContactMe"
+                "/marks/ContactMe"
             ]
         ]
     }

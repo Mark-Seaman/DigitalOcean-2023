@@ -153,7 +153,7 @@ def list_content(pub):
 
 def pub_redirect(host, pub, doc):
     if host == "shrinking-world.com" and not pub:
-        return f"/tech"
+        return f"/publish/book"
     if host == "seamanslog.com" and not pub:
         return f"/io"
     if host == "seamansguide.com" and not pub:
@@ -163,7 +163,7 @@ def pub_redirect(host, pub, doc):
     if host == "spiritual-things.org" and not pub:
         return f"/spiritual/today"
     if host == "markseaman.org" and not pub:
-        return f"/mark"
+        return f"/marks"
     if host == "markseaman.info" and not pub:
         return f"/private"
     # print('*********', host, pub)
@@ -171,8 +171,6 @@ def pub_redirect(host, pub, doc):
         return f"/private"
     if not doc or not pub:
         return f"/private"
-    # if not pub:
-    #     return f"/{doc}"
     return f"/{pub}/{doc}"
 
 

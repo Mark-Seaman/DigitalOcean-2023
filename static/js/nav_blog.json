@@ -7,7 +7,7 @@
         "items": [
             [
                 "Mark Seaman",
-                "/mark"
+                "/marks"
             ],
             [
                 "Books",
@@ -16,10 +16,6 @@
             [
                 "Blogs",
                 "/publish/blog"
-            ],
-            [
-                "Shrinking World",
-                "/tech"
             ]
         ]
     }

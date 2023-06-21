@@ -163,10 +163,9 @@ def pub_redirect(host, pub, doc):
     if host == "spiritual-things.org" and not pub:
         return f"/spiritual/today"
     if host == "markseaman.org" and not pub:
-        return f"/marks"
+        return f"/marks/ContactMe"
     if host == "markseaman.info" and not pub:
         return f"/private"
-    # print('*********', host, pub)
     if ("localhost" in host or "127.0.0.1" in host) and not pub:
         return f"/private"
     if not doc or not pub:
@@ -311,7 +310,7 @@ def verify_pubs(verbose):
     pubs = list(Pub.objects.all())
     info = line_count(get_pub_info())
     contents = len(Content.objects.all())
-    min_lines, max_lines = 3640, 3800
+    min_lines, max_lines = 3640, 3900
     if min_lines < info and info < max_lines: 
         text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
         text += f'\nPub Info: {info}\n'

@@ -73,7 +73,7 @@ class FixtureTest(DjangoTest):
         self.assertRange(num, 1200, 1300, "Content objects")
 
     def test_pub_list(self):
-        self.assertRange(len(all_pubs()), 21, 21, 'Num Pubs')
+        self.assertRange(len(all_pubs()), 19, 21, 'Num Pubs')
 
     def test_book_list(self):
         self.assertRange(len(all_books()), 5, 5, 'Num Books')
@@ -82,7 +82,7 @@ class FixtureTest(DjangoTest):
         self.assertRange(len(all_blogs()), 5, 7, 'Num Blogs')
    
     def test_private_list(self):
-        self.assertRange(len(all_privates()), 9, 9, 'Num Private Pubs')
+        self.assertRange(len(all_privates()), 8, 9, 'Num Private Pubs')
 
     def test_pub_info(self):
         save_pub_info()

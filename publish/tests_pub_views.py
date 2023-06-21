@@ -16,7 +16,7 @@ class BlogPageTest(DjangoTest):
 
     def test_bouncer_page(self):
         page = "/11"
-        url = "https://shrinking-world.com/tech/shrinkingworld-ContactMe.md"
+        url = "https://shrinking-world.com/marks/ContactMe"
         self.assertPageRedirect(page, url)
         page = "/81"
         url = "https://seamansguide.com/journey"
@@ -25,7 +25,7 @@ class BlogPageTest(DjangoTest):
         self.assertPageText(page, "Seaman&#x27;s Log")
 
     def test_pub_redirect(self):
-        redirects = (("shrinking-world.com", None, None, '/tech'),
+        redirects = (("shrinking-world.com", None, None, '/publish/book'),
                      ("seamansguide.com", "journey","Index.md", '/journey/Index.md'),
                      ("seamansguide.com", None, "journey", '/publish/book'),
                      ("seamansguide.com", "journey", None, '/private'),
@@ -34,7 +34,7 @@ class BlogPageTest(DjangoTest):
                      ("seamanfamily.org", None, None, '/family/Index.md'),
                      ("seamanslog.com", None, None, '/io'),
                      ("spiritual-things.org", None, None, '/spiritual/today'),
-                     ("markseaman.org", None, None, '/mark'),
+                     ("markseaman.org", None, None, '/marks/ContactMe.md'),
                      ("markseaman.info", None, None, '/private'),
                      ("localhost:8000", None, None, '/private'),)
         for r in redirects:

@@ -9,7 +9,7 @@ class RemoteBlogPagesTest(DjangoTest):
         self.assertPageLines("https://spiritual-things.org", 100, 121)
 
     def test_blog_micropub(self):
-        self.assertPageLines( "https://shrinking-world.com/tech/micropub-Index", 90, 140)
+        self.assertPageLines( "https://shrinking-world.com/tech/Index", 90, 140)
 
     def test_blog_mark_seaman(self):
         self.assertPageLines("https://markseaman.org", 150, 170)

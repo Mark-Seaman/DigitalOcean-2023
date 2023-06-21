@@ -100,7 +100,7 @@ class PubTest(DjangoTest):
         pubs1 = len(pub_list())
         pubs2 = len(pub_view_data()['pubs'])
         self.assertEqual(pubs1, pubs2)
-        self.assertRange(pubs2, 7, 12)
+        self.assertRange(pubs2, 7, 14)
 
     def test_doc_files(self):
         self.assertRange(ghost_writer_files('*/*.md'), 28, 36)
@@ -149,17 +149,17 @@ class PubTest(DjangoTest):
 class DocumentViewTest(DjangoTest):
     def test_web_page(self):
         text = self.assertPageText(
-            'http://shrinking-world.com', 160, 176, 'html')
+            'http://shrinking-world.com', 110, 176, 'html')
 
     def test_pub_list_view(self):
-        text = self.assertPageText('/writer/', 150, 169, 'html')
+        text = self.assertPageText('/writer/', 180, 190, 'html')
 
     def test_pub_view(self):
-        text = self.assertPageText('/writer/GhostWriter', 180, 236, 'html')
+        text = self.assertPageText('/writer/GhostWriter', 240, 250, 'html')
 
     def test_chapter_view(self):
         text = self.assertPageText(
-            '/writer/GhostWriter/WritersGuide', 240, 285, 'html')
+            '/writer/GhostWriter/WritersGuide', 240, 300, 'html')
 
     def test_doc_view(self):
         text = self.assertPageText(

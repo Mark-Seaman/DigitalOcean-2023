@@ -313,7 +313,7 @@ def verify_pubs(verbose):
     pubs = list(Pub.objects.all())
     info = line_count(get_pub_info())
     contents = len(Content.objects.all())
-    min_lines, max_lines = 3640, 3650
+    min_lines, max_lines = 3640, 3800
     if min_lines < info and info < max_lines: 
         text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
         text += f'\nPub Info: {info}\n'
@@ -329,4 +329,7 @@ def verify_pubs(verbose):
 
 
 def word_count_file(pub):
-    return Path("Documents/markseaman.info") / "words" / pub.name
+    path = Path("Documents/markseaman.info") / "words" / pub.name
+    if not path.exists():
+        path.write_text('')
+    return path

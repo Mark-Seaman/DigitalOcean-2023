@@ -1,8 +1,9 @@
 from pathlib import Path
+from probe.probe_pub import test_pub_info
 
 from publish.import_export import create_pub
 from publish.models import Content, Pub
-from publish.publication import all_pubs, build_pubs, get_pub, get_pub_info, show_pubs
+from publish.publication import all_pubs, build_pubs, get_pub, get_pub_info, show_pub_details, show_pubs
 from publish.seamanslog import random_post
 from task.models import Activity, Task, TaskType
 from task.task import task_command
@@ -15,8 +16,7 @@ from .probe_images import test_image_pages
 
 def quick_test():
     # print("No quick test defined")
-    pubs()
-    # test_website_pages()
+    tests()
 
 
 def pubs():
@@ -31,6 +31,12 @@ def pubs():
 
 
 def tests():
+    # pub = get_pub('marks')
+    # print(show_pub_details(pub))
+    # print(get_pub_info(pub.name))
+
+    # test_website_pages()
+
     print(f'{len(Probe.objects.all())} Tests available'  )
     print(f'{len(TestResult.objects.all())} Test Results available'  )
 

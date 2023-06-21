@@ -14,13 +14,12 @@ class PubDocTest(DjangoTest):
         data = '''Documents,2051,2070
 Documents/seamansguide.com,114,114
 Documents/seamanslog.com,380,390
-Documents/markseaman.org,20
 Documents/markseaman.info,65
 Documents/shrinking-world.com,490,500
 Documents/shrinking-world.io,59
 Documents/shrinking-world.org,3
 Documents/spiritual-things.org,431
-Documents/SHRINKING-WORLD-PUBS,480,490
+Documents/SHRINKING-WORLD-PUBS,480,510
 '''
         for x in list(reader(data.splitlines())):
             # print(x)

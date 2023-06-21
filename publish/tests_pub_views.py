@@ -34,7 +34,7 @@ class BlogPageTest(DjangoTest):
                      ("seamanfamily.org", None, None, '/family/Index.md'),
                      ("seamanslog.com", None, None, '/io'),
                      ("spiritual-things.org", None, None, '/spiritual/today'),
-                     ("markseaman.org", None, None, '/marks/ContactMe.md'),
+                     ("markseaman.org", None, None, '/marks/ContactMe'),
                      ("markseaman.info", None, None, '/private'),
                      ("localhost:8000", None, None, '/private'),)
         for r in redirects:

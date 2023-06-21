@@ -16,7 +16,7 @@ from .probe_images import test_image_pages
 
 def quick_test():
     # print("No quick test defined")
-    tests()
+    pubs()
 
 
 def pubs():
@@ -26,7 +26,7 @@ def pubs():
     # print('project quest'.split(' '))
 
     # Do complete rebuild
-    build_pubs(False, False)
+    build_pubs(False, True)
     print(show_pubs())
 
 

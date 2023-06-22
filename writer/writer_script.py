@@ -102,18 +102,21 @@ def project_script(args):
     def make_json(pub_dir):
         pub_name = pub_dir
         pub_root = pub_path() / pub_dir
+        pub_root.mkdir(exist_ok=True, parents=True)
         js = pub_root / f'pub.json'
         if not js.exists():
             data = dict(pub_name=pub_name, pub_dir=pub_dir,
                         tag_line='AI tools for Authors')
             json = render_to_string('pub_script/pub.json', data)
             js.write_text(json)
+        return f'JSON file: {js}\n'
 
-    # print(f"Create Pub: {args[0]}")
+    text = f"Create Pub: {args[0]}\n"
     if not args:
-        return 'usage: project pub-dir'
-    # make_json(args[0])
-    return f'project (pub_dir={args[0]})'
+        text += 'usage: project pub-name'
+        return text 
+    text += make_json(args[0])
+    return text
 
 # def pub_json_path(name, doc_path):
 #     path = Path(doc_path)

@@ -37,7 +37,8 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "tst",
-                "quick"
+                "quick",
+                "8002"
             ],
             "django": true,
             "justMyCode": true
@@ -49,7 +50,8 @@
             "program": "manage.py",
             "cwd": "${workspaceFolder}",
             "args": [
-                "test"
+                "test",
+                "8002"
             ],
             "django": true,
             "justMyCode": true

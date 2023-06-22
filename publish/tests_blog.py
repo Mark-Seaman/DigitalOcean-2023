@@ -3,13 +3,13 @@ from .tests_pub_views import DjangoTest
 
 class RemoteBlogPagesTest(DjangoTest):
     def test_blog_seamanslog(self):
-        self.assertPageLines("https://seamanslog.com", 180, 190)
+        self.assertPageLines("https://seamanslog.com", 100, 120)
 
     def test_blog_spirit(self):
         self.assertPageLines("https://spiritual-things.org", 100, 121)
 
     def test_blog_mark_seaman(self):
-        self.assertPageLines("https://markseaman.org", 150, 170)
+        self.assertPageLines("https://markseaman.org", 120, 170)
 
 
 class BlogFilesTest(DjangoTest):

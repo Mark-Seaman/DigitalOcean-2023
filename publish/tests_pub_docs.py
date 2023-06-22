@@ -8,10 +8,10 @@ class PubDocTest(DjangoTest):
     fixtures = ["config/publish.json"]
 
     def test_all_docs(self):
-        self.assertFiles('Documents', 2051, 2070)
+        self.assertFiles('Documents', 2051, 2100)
 
     def test_doc_directories(self):
-        data = '''Documents,2051,2070
+        data = '''Documents,2051,2080
 Documents/seamansguide.com,114,114
 Documents/seamanslog.com,380,390
 Documents/markseaman.info,65

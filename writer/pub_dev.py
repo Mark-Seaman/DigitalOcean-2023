@@ -130,10 +130,7 @@ def pub_view_data(**kwargs):
 def edit_files(files):
     editor = getenv("EDITOR")
     editor = editor.replace(' -w', '')
-    paths = ''
-    for f in files:
-        paths += f'"{f}" '
-    command = f'"{editor}" -w  {paths}'
+    command = f'"{editor}" -w  {" ".join(files)}'
     print(command)
     system(command)
 
@@ -159,7 +156,6 @@ def pub_edit(**kwargs):
 def read_pub_doc(pub, chapter, doc):
     path = pub_path(pub, chapter, doc)
     if not path.exists():
-        # output = pub_script(['doc', pub, chapter, doc])
         path.write_text(f'# {chapter} {doc}')
         path2 = str(path).replace('.md', '.ai')
         path2.write_text(f'# {chapter} {doc}')

@@ -28,7 +28,7 @@ class Pub(models.Model):
         return f"{self.name} - {self.title}"
 
     def get_absolute_url(self):
-        return reverse_lazy("blog_detail", args=[str(self.id)])
+        return reverse_lazy("pub_detail", args=[str(self.id)])
 
 
 class Content(models.Model):

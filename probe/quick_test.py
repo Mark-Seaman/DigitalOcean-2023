@@ -1,4 +1,5 @@
 from pathlib import Path
+from sys import version_info
 from probe.probe_pub import test_pub_info
 
 from publish.import_export import create_pub
@@ -17,7 +18,8 @@ from .probe_images import test_image_pages
 
 def quick_test():
     # print("No quick test defined")
-    writer()
+    # writer()
+    print(version_info[:2])
 
 
 def pubs():

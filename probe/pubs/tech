@@ -10,62 +10,62 @@ Title: Tech Notes
 
 Tag Line: Practical Software Development
 
-Document Path: Documents/Shrinking-World-Pubs/tech
+Document Path: Documents/shrinking-world.com/blog
 
 Details: 
 
-Total Words in Tech Notes: 22541 words, 90 pages
+Total Words in Tech Notes: 164 words, 0 pages
 
 
 Summary: 
 PUB CONTENT - Tech Notes
 
 
-FOLDER Documents/Shrinking-World-Pubs/tech/shrinkingworld/Index.md
-     Documents/Shrinking-World-Pubs/tech/shrinkingworld/ShrinkingWorld.md
-     Documents/Shrinking-World-Pubs/tech/shrinkingworld/History.md
-     Documents/Shrinking-World-Pubs/tech/shrinkingworld/Services.md
-     Documents/Shrinking-World-Pubs/tech/shrinkingworld/Vision.md
-     Documents/Shrinking-World-Pubs/tech/shrinkingworld/ContactMe.md
+FOLDER Documents/shrinking-world.com/blog/shrinkingworld/Index.md
+     Documents/shrinking-world.com/blog/shrinkingworld/ShrinkingWorld.md
+     Documents/shrinking-world.com/blog/shrinkingworld/History.md
+     Documents/shrinking-world.com/blog/shrinkingworld/Services.md
+     Documents/shrinking-world.com/blog/shrinkingworld/Vision.md
+     Documents/shrinking-world.com/blog/shrinkingworld/ContactMe.md
 
-FOLDER Documents/Shrinking-World-Pubs/tech/training/Index.md
-     Documents/Shrinking-World-Pubs/tech/training/PythonWebApps.md
-     Documents/Shrinking-World-Pubs/tech/training/TrainingCourses.md
-     Documents/Shrinking-World-Pubs/tech/training/VideoCourses.md
-     Documents/Shrinking-World-Pubs/tech/training/TutorialWebApps.md
-     Documents/Shrinking-World-Pubs/tech/training/TutorialCourse.md
-     Documents/Shrinking-World-Pubs/tech/training/IndependentStudy.md
-     Documents/Shrinking-World-Pubs/tech/training/Biography.md
+FOLDER Documents/shrinking-world.com/blog/training/Index.md
+     Documents/shrinking-world.com/blog/training/PythonWebApps.md
+     Documents/shrinking-world.com/blog/training/TrainingCourses.md
+     Documents/shrinking-world.com/blog/training/VideoCourses.md
+     Documents/shrinking-world.com/blog/training/TutorialWebApps.md
+     Documents/shrinking-world.com/blog/training/TutorialCourse.md
+     Documents/shrinking-world.com/blog/training/IndependentStudy.md
+     Documents/shrinking-world.com/blog/training/Biography.md
 
-FOLDER Documents/Shrinking-World-Pubs/tech/micropub/Index.md
-     Documents/Shrinking-World-Pubs/tech/micropub/Mastodon.md
-     Documents/Shrinking-World-Pubs/tech/micropub/Payload.md
-     Documents/Shrinking-World-Pubs/tech/micropub/Message.md
-     Documents/Shrinking-World-Pubs/tech/micropub/Post.md
-     Documents/Shrinking-World-Pubs/tech/micropub/Article.md
-     Documents/Shrinking-World-Pubs/tech/micropub/Seminar.md
-     Documents/Shrinking-World-Pubs/tech/micropub/Minicourse.md
-     Documents/Shrinking-World-Pubs/tech/micropub/Course.md
-     Documents/Shrinking-World-Pubs/tech/micropub/InfoContent.md
-     Documents/Shrinking-World-Pubs/tech/micropub/Lesson.md
-     Documents/Shrinking-World-Pubs/tech/micropub/CreatorSkills.md
+FOLDER Documents/shrinking-world.com/blog/micropub/Index.md
+     Documents/shrinking-world.com/blog/micropub/Mastodon.md
+     Documents/shrinking-world.com/blog/micropub/Payload.md
+     Documents/shrinking-world.com/blog/micropub/Message.md
+     Documents/shrinking-world.com/blog/micropub/Post.md
+     Documents/shrinking-world.com/blog/micropub/Article.md
+     Documents/shrinking-world.com/blog/micropub/Seminar.md
+     Documents/shrinking-world.com/blog/micropub/Minicourse.md
+     Documents/shrinking-world.com/blog/micropub/Course.md
+     Documents/shrinking-world.com/blog/micropub/InfoContent.md
+     Documents/shrinking-world.com/blog/micropub/Lesson.md
+     Documents/shrinking-world.com/blog/micropub/CreatorSkills.md
 
-FOLDER Documents/Shrinking-World-Pubs/tech/tech/Index.md
-     Documents/Shrinking-World-Pubs/tech/tech/Internet.md
-     Documents/Shrinking-World-Pubs/tech/tech/PersonalComputer.md
-     Documents/Shrinking-World-Pubs/tech/tech/Retirement.md
-     Documents/Shrinking-World-Pubs/tech/tech/Teaching.md
-     Documents/Shrinking-World-Pubs/tech/tech/TechTimeline.md
-     Documents/Shrinking-World-Pubs/tech/tech/Technology.md
-     Documents/Shrinking-World-Pubs/tech/tech/CommChannels.md
-     Documents/Shrinking-World-Pubs/tech/tech/HealthyMastodon.md
+FOLDER Documents/shrinking-world.com/blog/tech/Index.md
+     Documents/shrinking-world.com/blog/tech/Internet.md
+     Documents/shrinking-world.com/blog/tech/PersonalComputer.md
+     Documents/shrinking-world.com/blog/tech/Retirement.md
+     Documents/shrinking-world.com/blog/tech/Teaching.md
+     Documents/shrinking-world.com/blog/tech/TechTimeline.md
+     Documents/shrinking-world.com/blog/tech/Technology.md
+     Documents/shrinking-world.com/blog/tech/CommChannels.md
+     Documents/shrinking-world.com/blog/tech/HealthyMastodon.md
 
-FOLDER Documents/Shrinking-World-Pubs/tech/ai/Index.md
-     Documents/Shrinking-World-Pubs/tech/ai/ChetGupta.md
-     Documents/Shrinking-World-Pubs/tech/ai/AI_Writers.md
-     Documents/Shrinking-World-Pubs/tech/ai/AI_Prompts.md
-     Documents/Shrinking-World-Pubs/tech/ai/GeneticsBook.md
-     Documents/Shrinking-World-Pubs/tech/ai/AI_Playbook.md
+FOLDER Documents/shrinking-world.com/blog/ai/Index.md
+     Documents/shrinking-world.com/blog/ai/ChetGupta.md
+     Documents/shrinking-world.com/blog/ai/AI_Writers.md
+     Documents/shrinking-world.com/blog/ai/AI_Prompts.md
+     Documents/shrinking-world.com/blog/ai/GeneticsBook.md
+     Documents/shrinking-world.com/blog/ai/AI_Playbook.md
 
 
 Words: 

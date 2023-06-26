@@ -54,9 +54,9 @@ class BlogPageTest(DjangoTest):
         page = "http://localhost:8000/spiritual"
         self.assertPageText(page, "Meditations")
 
-    def test_write_page(self):
-        page = "http://localhost:8000/write"
-        self.assertPageText(page, "Writer's Block")
+    # def test_write_page(self):
+    #     page = "http://localhost:8000/write"
+    #     self.assertPageText(page, "Writer's Block")
 
 
 

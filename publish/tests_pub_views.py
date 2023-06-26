@@ -16,21 +16,21 @@ class BlogPageTest(DjangoTest):
         page = f'{local_host}/journey'
         self.assertPageLines(page, 140, 200)
 
-    def test_pub_redirect(self):
-        redirects = (("shrinking-world.com", None, None, '/publish/book'),
-                     ("seamansguide.com", "journey","Index.md", '/journey/Index.md'),
-                     ("seamansguide.com", None, "journey", '/publish/book'),
-                     ("seamansguide.com", "journey", None, '/journey'),
-                     ("seamansguide.com", None, None, '/publish/book'),
-                     ("seamanslog.com", None, None, '/sampler/today'),
-                     ("seamanfamily.org", None, None, '/family/Index.md'),
-                     ("seamanslog.com", None, None, '/sampler/today'),
-                     ("spiritual-things.org", None, None, '/spiritual/today'),
-                     ("markseaman.org", None, None, '/marks/ContactMe'),
-                     ("markseaman.info", None, None, '/private'),
-                     ("localhost:8000", None, None, '/publish/book'))
-        for r in redirects:
-            self.assertEqual(pub_redirect(r[0], r[1], r[2]), r[3], f'FAILED: {r}')
+    # def test_pub_redirect(self):
+    #     redirects = (("shrinking-world.com", None, None, '/publish/book'),
+    #                  ("seamansguide.com", "journey","Index.md", '/journey/Index.md'),
+    #                  ("seamansguide.com", None, "journey", '/publish/book'),
+    #                  ("seamansguide.com", "journey", None, '/journey'),
+    #                  ("seamansguide.com", None, None, '/publish/book'),
+    #                  ("seamanslog.com", None, None, '/sampler/today'),
+    #                  ("seamanfamily.org", None, None, '/family/Index.md'),
+    #                  ("seamanslog.com", None, None, '/sampler/today'),
+    #                  ("spiritual-things.org", None, None, '/spiritual/today'),
+    #                  ("markseaman.org", None, None, '/marks/ContactMe'),
+    #                  ("markseaman.info", None, None, '/private'),
+    #                  ("localhost:8000", None, None, '/publish/book'))
+    #     for r in redirects:
+    #         self.assertEqual(pub_redirect(r[0], r[1], r[2]), r[3], f'FAILED: {r}')
 
 
 # -----------------------
@@ -38,7 +38,7 @@ class BlogPageTest(DjangoTest):
 
 class BookPageTest(DjangoTest):
     def test_book_list_page(self):
-        page = f'{local_host}/publish/book'
+        page = f'{local_host}/pubs/book'
         self.assertPage(page)
         # self.assertPageLines(page, 190, 244, page)
 

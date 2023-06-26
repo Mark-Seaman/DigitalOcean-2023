@@ -1,18 +1,24 @@
 Monday
 
-Grow 0
-Church 0
-Family 0
-Write 0
-Teach 0
-Innovate 0
+Write 1
+
+    create design for MarkSeaman.org
+
+Innovate 4
 
     upgrade Python Env on iMac
     build tests for Python Env
     debug Ghost Writer and merge code
     learn about pyenv
     update libraries on Digital Ocean
+    document Pyenv setup
 
+
+
+Teach 0
+Grow 0
+Church 0
+Family 0
 ProMETA 0
 Business 0
 Fun 0

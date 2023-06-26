@@ -167,9 +167,9 @@ def pub_redirect(host, pub, doc):
     if host == "markseaman.info" and not pub:
         return f"/private"
     if ("localhost" in host or "127.0.0.1" in host) and not pub:
-        return f"/publish/book"
-    if not doc:
-        return f"/{pub}"
+        return f"/private"
+    if not doc or not pub:
+        return f"/private"
     return f"/{pub}/{doc}"
 
 
@@ -184,15 +184,12 @@ def random_doc_page(path):
 
 
 def save_pub_info():
-    path = Path(f'probe/pubs')
-    if path.exists():
-        for pub in all_pubs():
-            text = get_pub_info(pub.name)
-            f = path/ '{pub.name}'
-            f.write_text(text)
+    for pub in all_pubs():
+        text = get_pub_info(pub.name)
+        Path(f'probe/pubs/{pub.name}').write_text(text)
 
 
-def select_blog_doc(host, pub, doc):
+def select_blog_doc(host, blog, doc):
     def load_object(pub):
         return Pub.objects.filter(pk=pub.pk).values()[0]
 
@@ -216,7 +213,7 @@ def select_blog_doc(host, pub, doc):
             title=title, html=html, site_title=pub.title, site_subtitle=pub.subtitle
         )
 
-    pub = get_pub(pub)
+    pub = get_pub(blog)
     kwargs = load_object(pub)
     kwargs.update(load_document(pub))
     menu = kwargs.get("menu")
@@ -261,6 +258,12 @@ def show_pub_json(pub=None):
     else:
         pubs = all_pubs()
     return text_join([read_file(pub_json_path(pub.name, pub.doc_path)) for  pub in pubs])
+        
+    # text = "PUB JSON\n\n"
+    # for js in Path("static/js").iterdir():
+    #     text += f"\n\n---\n\n{js}\n\n---\n\n"
+    #     text += js.read_text()
+    # return text
 
 
 def show_pub_words(pub=None):
@@ -289,15 +292,13 @@ def show_pubs():
 def verify_pubs(verbose):
     pubs = list_publications()
     for p in pubs:
-        pub = get_pub(p[0])
-        assert pub
-        # if p:
-        #     pub = Pub.objects.filter(doc_path=p[1], name=p[0])
-        #     if pub:
-        #         pub = pub[0]
-        #     else:
-        #         print("NO OBJECT", p)
-        #         assert False
+        if p:
+            pub = Pub.objects.filter(doc_path=p[1], name=p[0])
+            if pub:
+                pub = pub[0]
+            else:
+                print("NO OBJECT", p)
+                assert False
         # if not Path(pub.doc_path).exists():
         #     print(f'   {pub.name} -- {pub.doc_path} -- NOT FOUND')
         assert Path(pub.doc_path).exists()
@@ -309,27 +310,23 @@ def verify_pubs(verbose):
     pubs = list(Pub.objects.all())
     info = line_count(get_pub_info())
     contents = len(Content.objects.all())
-    # min_lines, max_lines = 0, 1000
-    # assert min_lines < info and info < max_lines
-    # if min_lines < info and info < max_lines: 
-    #     text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
-    #     text += f'\nPub Info: {info}\n'
-    #     text += f'\nPub Contents: {contents}\n'
-    #     if verbose:
-    #         print(text)
-    #     else:
-    #         return text
-    # else:
-    #     print(f'** Pub Info: {info} Lines **')
-    #     assert info>min_lines
-    #     assert info<max_lines
+    min_lines, max_lines = 3640, 3900
+    if min_lines < info and info < max_lines: 
+        text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
+        text += f'\nPub Info: {info}\n'
+        text += f'\nPub Contents: {contents}\n'
+        if verbose:
+            print(text)
+        else:
+            return text
+    else:
+        print(f'** Pub Info: {info} Lines **')
+        assert info>min_lines
+        assert info<max_lines
 
 
 def word_count_file(pub):
-    path = Path("Documents") / "words"
-    if not path.exists():
-        path.mkdir(exist_ok=True, parents=True)
-    path = path / pub.name
+    path = Path("Documents/markseaman.info") / "words" / pub.name
     if not path.exists():
         path.write_text('')
     return path

@@ -3,12 +3,12 @@
 
 # Path Context
 syspath="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-pyenv=/Users/seaman/.pyenv/versions/3.10.4/bin
+pyenv=/Users/seaman/.pyenv/versions/3.11.3/bin
 brew=/opt/homebrew/bin:/opt/homebrew/sbin
 sublime="/Applications/Sublime Text.app/Contents/SharedSupport/bin"
 vscode1="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-vscode2="/private/var/folders/ch/23b6bkbj5t90h339h0pjyvh80000gn/T/AppTranslocation/*/d/Visual Studio Code 2.app/Contents/Resources/app/bin"
-export PATH="$pyenv:$brew:$sublime:$vscode1:$vscode2:$syspath"
+# vscode2="/private/var/folders/ch/23b6bkbj5t90h339h0pjyvh80000gn/T/AppTranslocation/*/d/Visual Studio Code 2.app/Contents/Resources/app/bin"
+export PATH="$pyenv:$brew:$sublime:$vscode1:$syspath"
 
 # ------------
 # Variables
@@ -122,7 +122,7 @@ alias migrate='pm makemigrations && pm migrate'
 alias mm='pm makemigrations'
 alias web='open http://markseaman.info'
 alias w='open http://markseaman.info'
-alias x='pm x'
+# alias x='pm x'
 
 # Servers
 alias imac='ssh seaman@marks-imac.local'
@@ -190,10 +190,10 @@ function py {
 
 # Python
 # . ~/Hammer/.venv/bin/activate
-export PS1="%3~ : "
 
 
 # Start directory
+export PS1="%3~ : "
 cd ~/Hammer
 ls
 figlet `host`

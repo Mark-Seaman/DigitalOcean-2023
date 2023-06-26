@@ -61,7 +61,7 @@ numpy==1.24.3
 openai==0.27.5
 pandas==2.0.1
 pathspec==0.9.0
-Pillow==9.1.1
+Pillow==9.5.0
 platformdirs==2.5.2
 psycopg2-binary==2.9.6
 pycodestyle==2.10.0
@@ -102,6 +102,6 @@ zipp==3.12.0
             self.assertIn(package, installed_packages)
 
     def test_python_version(self):
-        expected_python_version = (3, 10)
+        expected_python_version = (3, 11)
         actual_python_version = version_info[:2]
         self.assertEqual(actual_python_version, expected_python_version)

@@ -3,12 +3,13 @@
 
 # Path Context
 syspath="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-pyenv=/Users/seaman/.pyenv/versions/3.11.3/bin
+pyenv1=/Users/seaman/.pyenv/versions/3.10.4/bin
+pyenv2=/Users/seaman/.pyenv/versions/3.11.3/bin
 brew=/opt/homebrew/bin:/opt/homebrew/sbin
 sublime="/Applications/Sublime Text.app/Contents/SharedSupport/bin"
 vscode1="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 # vscode2="/private/var/folders/ch/23b6bkbj5t90h339h0pjyvh80000gn/T/AppTranslocation/*/d/Visual Studio Code 2.app/Contents/Resources/app/bin"
-export PATH="$pyenv:$brew:$sublime:$vscode1:$syspath"
+export PATH="$pyenv1:$pyenv2:$brew:$sublime:$vscode1:$syspath"
 
 # ------------
 # Variables

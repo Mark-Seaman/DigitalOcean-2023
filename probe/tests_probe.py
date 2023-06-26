@@ -103,6 +103,5 @@ zipp==3.12.0
             self.assertIn(package, installed_packages)
 
     def test_python_version(self):
-        expected_python_version = (3, 11)
-        actual_python_version = version_info[:2]
-        self.assertEqual(actual_python_version, expected_python_version)
+        v = version_info[:2]
+        self.assertTrue(v == (3, 11) or v == (3, 10))

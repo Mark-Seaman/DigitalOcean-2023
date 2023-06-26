@@ -2,8 +2,6 @@ from os import system
 from pathlib import Path
 from shutil import copyfile
 
-from task.models import Activity, Task
-
 from .document import get_document
 from .files import read_csv_file, read_json
 from .models import Content, Pub
@@ -73,20 +71,20 @@ def create_pub(pub_name, pub_path):
             c.retain_object = False
             c.save()
 
-    def copy_static_files(pub):
-        source = Path(pub.doc_path)/'../Images'
-        dest = Path(pub.image_path[1:])
-        if source.exists():
-            if not dest.exists():
-                dest.mkdir()
-            for f in source.iterdir():
-                # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
-                copyfile(f, dest/f.name)
-
     pub = update_record(pub_name, pub_path)
     import_pub(pub)
     copy_static_files(pub)
     return pub
+
+
+def copy_static_files(pub):
+    source = Path(pub.doc_path)/'../Images'
+    dest = Path(pub.image_path[1:])
+    if source.exists():
+        dest.mkdir(exist_ok=True, parents=True)
+        for f in source.iterdir():
+            # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
+            copyfile(f, dest/f.name)
 
 
 def pub_json_path(name, doc_path):
@@ -110,25 +108,13 @@ def pub_json_path(name, doc_path):
     
     
 def load_data():
-    def reload_pubs():
-        Pub.objects.all().delete()
-        system("python manage.py loaddata config/publish.json")
-        Content.objects.filter(words=0).delete()
-        pubs = len(Pub.objects.all())
-        print(f"Loaded {pubs} Pubs")
-        content = len(Content.objects.all())
-        print(f"Loaded {content} Content Posts")
-
-    def reload_tasks():
-        Task.objects.all().delete()
-        system("python manage.py loaddata config/task.json")
-        tasks = len(Task.objects.all())
-        print(f"Loaded {tasks} Tasks")
-        tasks = len(Activity.objects.all())
-        print(f"Loaded {tasks} Activities")
-
-    reload_tasks()
-    reload_pubs()
+    Pub.objects.all().delete()
+    system("python manage.py loaddata config/publish.json")
+    Content.objects.filter(words=0).delete()
+    pubs = len(Pub.objects.all())
+    print(f"Loaded {pubs} Pubs")
+    content = len(Content.objects.all())
+    print(f"Loaded {content} Content Posts")
 
 
 def rename_file(f1, f2):

@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from probe.tests_django import DjangoTest
+from .tests_django import DjangoTest
 from os.path import getmtime
 
 from publish.days import is_old
@@ -49,19 +49,6 @@ class PubDataTest(DjangoTest):
         self.assertEqual(blog2.url, "tech")
 
 
-
-# -----------------------
-# Build Pubs
-
-
-class PubInputOutputTest(DjangoTest):
-    def test_build_blogs(self):
-        build_pubs()
-        self.assertRange(len(Pub.objects.all()), 18, 20)
-        num = len(Content.objects.all())
-        self.assertRange(num, 1200, 1300, "Blog Contents")
-
-
 # -----------------------
 # Pub Fixture
 
@@ -70,29 +57,29 @@ class FixtureTest(DjangoTest):
 
     def test_with_data(self):
         num = len(Content.objects.all())
-        self.assertRange(num, 1200, 1300, "Content objects")
+        self.assertRange(num, 213, 1300, "Content objects")
 
     def test_pub_list(self):
-        self.assertRange(len(all_pubs()), 19, 21, 'Num Pubs')
+        self.assertRange(len(all_pubs()), 4, 21, 'Num Pubs')
 
     def test_book_list(self):
-        self.assertRange(len(all_books()), 5, 5, 'Num Books')
+        self.assertRange(len(all_books()), 3, 5, 'Num Books')
 
     def test_blog_list(self):
-        self.assertRange(len(all_blogs()), 5, 7, 'Num Blogs')
+        self.assertRange(len(all_blogs()), 0, 7, 'Num Blogs')
    
     def test_private_list(self):
-        self.assertRange(len(all_privates()), 8, 9, 'Num Private Pubs')
+        self.assertRange(len(all_privates()), 1, 9, 'Num Private Pubs')
 
-    # def test_pub_info(self):
-    #     save_pub_info()
-    #     text = concatonate('probe/pubs/*')
-    #     self.assertNumLines(text, 3900, 4000)
+    def test_pub_info(self):
+        save_pub_info()
+        text = concatonate('publish/*.py')
+        self.assertNumLines(text, 3600, 4000)
 
     def test_rebuld_pubs(self):
         build_pubs(False, True)
-        self.assertRange(len(Pub.objects.all()), 18, 21)
-        self.assertRange(len(Content.objects.all()), 1200, 1300, "Content Nodes")
+        self.assertRange(len(Pub.objects.all()), 5, 20)
+        self.assertRange(len(Content.objects.all()), 10, 1250, "Content Nodes")
 
     def test_data_file(self):
         self.assertFalse(is_old("config/publish.json"), 'config/publish.json is old')

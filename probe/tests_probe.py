@@ -1,7 +1,8 @@
-from pathlib import Path
-from django.test import TestCase
 import subprocess
+from pathlib import Path
 from sys import version_info
+
+from django.test import TestCase
 
 from probe.models import Probe
 

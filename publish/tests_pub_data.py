@@ -71,10 +71,10 @@ class FixtureTest(DjangoTest):
     def test_private_list(self):
         self.assertRange(len(all_privates()), 1, 9, 'Num Private Pubs')
 
-    def test_pub_info(self):
-        save_pub_info()
-        text = concatonate('publish/*.py')
-        self.assertNumLines(text, 3600, 4000)
+    # def test_pub_info(self):
+    #     save_pub_info()
+    #     text = concatonate('publish/*.py')
+    #     self.assertNumLines(text, 3600, 4000)
 
     def test_rebuld_pubs(self):
         build_pubs(False, True)

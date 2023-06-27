@@ -10,7 +10,7 @@ from publish.text import text_join, text_lines
 from task.models import Activity, Task, TaskType
 from task.task import task_command
 from task.todo import edit_todo_list
-from writer.writer_script import pub_script
+from writer.pub_dev import pub_script
 
 from .models import Probe, TestResult
 from .probe_images import test_image_pages

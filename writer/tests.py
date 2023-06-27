@@ -3,9 +3,8 @@ from pathlib import Path
 from publish.files import create_directory
 
 from .pub_dev import (doc_html, doc_list, doc_text, doc_title, pub_list,
-                      pub_path, doc_view_data, read_pub_doc)
+                      pub_path, doc_view_data, pub_script, read_pub_doc)
 from .tests_django import DjangoTest
-from .writer_script import pub_path, pub_script
 
 
 class GhostTest(DjangoTest):
@@ -31,14 +30,18 @@ class GhostTest(DjangoTest):
 
     def test_chapter(self):
         pub_script(['chapter', 'GhostWriter', 'GhostWriter'])
+        self.assertFile(pub_path('GhostWriter', 'GhostWriter'))
+
+    def test_doc(self):
+        pub_script(['doc', 'GhostWriter', 'GhostWriter', 'B-Ideas.md'])
         self.assertFileLines(
             pub_path('GhostWriter', 'GhostWriter', 'B-Ideas.txt'), 7, 24)
         self.assertFileLines(
             pub_path('GhostWriter', 'GhostWriter', 'B-Ideas.ai'), 12, 24)
-
-    def test_doc(self):
-        pub_script(
-            ['doc', 'GhostWriter', 'GhostWriter', 'B-Ideas.md'], False)
+    
+    def test_new_doc(self):
+        pub_script(['doc', 'ai', 'Creative', 'CreativeWorkflow.md'])
+        self.assertFile(pub_path('ai', 'Creative', 'CreativeWorkflow.md'))
 
     # def test_outline(self):
     #     text = pub_script_command(

@@ -57,14 +57,17 @@
             "justMyCode": true
         },
         {
-            "name": "Build Pubs",
+            "name": "Pub Script",
             "type": "python",
             "request": "launch",
             "program": "manage.py",
             "cwd": "${workspaceFolder}",
             "args": [
-                "build",
-                "pubs"
+                "pub",
+                "edit",
+                "ai",
+                "Creative",
+                "CreativeWorkflow.md"
             ],
             "django": true,
             "justMyCode": true

@@ -42,6 +42,9 @@ class DjangoTest(TestCase):
     def assertFileLines(self, path, min, max):
         self.assertNumLines(read_file(path), min, max)
 
+    def assertFile(self, path):
+        self.assertTrue(Path(path).exists())
+
     def assertRange(self, num, min, max, label="Value"):
         error = f"{label} {num} is not in range (min {min} and max {max})"
         self.assertGreaterEqual(num, min, error)

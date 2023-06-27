@@ -18,18 +18,18 @@ from .probe_images import test_image_pages
 
 def quick_test():
     # print("No quick test defined")
-    # writer()
-    print(version_info[:2])
+    pubs()
 
 
 def pubs():
     # Run pub scripts:
-    # print(pub_script_command('project quest'.split(' ')))
-    # print(pub_script(['project', 'quest']))
-    # print('project quest'.split(' '))
+
+    # pub_name = 'write'
+    # pub_path = 'Documents/Shinking-World-Pubs/write'
+    # create_pub(pub_name, pub_path)
 
     # Do complete rebuild
-    build_pubs(False, True)
+    build_pubs(True, True)
     print(show_pubs())
 
 

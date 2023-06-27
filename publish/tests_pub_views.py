@@ -22,10 +22,9 @@ class BlogPageTest(DjangoTest):
                      ("seamansguide.com", None, "journey", '/pubs/book'),
                      ("seamansguide.com", "journey", None, '/journey'),
                      ("seamansguide.com", None, None, '/pubs/book'),
-                     ("seamanslog.com", None, None, '/sampler/today'),
+                     ("seamanslog.com", None, None, '/sampler'),
                      ("seamanfamily.org", None, None, '/family/Index.md'),
-                     ("seamanslog.com", None, None, '/sampler/today'),
-                     ("spiritual-things.org", None, None, '/spiritual/today'),
+                     ("spiritual-things.org", None, None, '/spiritual'),
                      ("markseaman.org", None, None, '/marks/ContactMe'),
                      ("markseaman.info", None, None, '/private'),
                      ("localhost:8000", None, None, '/pubs/book'))

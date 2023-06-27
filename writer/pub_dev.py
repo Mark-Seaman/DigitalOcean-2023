@@ -105,6 +105,14 @@ def doc_view_data(**kwargs):
     return kwargs
 
 
+def edit_doc_script(args):
+    pub, chapter, doc = args[:3]
+    path = pub_path(pub, chapter, doc)
+    files = pub_doc_files(path)
+    edit_files(files)
+    return path
+
+
 def extract_outline(text, section_number):
     lines = text.split('\n')
     outline = ''
@@ -122,14 +130,6 @@ def extract_outline(text, section_number):
     return outline
 
 
-def edit_doc_script(args):
-    pub, chapter, doc = args[:3]
-    path = pub_path(pub, chapter, doc)
-    files = pub_doc_files(path)
-    edit_files(files)
-    return path
-
-
 def edit_files(files):
     editor = getenv("EDITOR")
     editor = editor.replace(' -w', '')
@@ -139,7 +139,7 @@ def edit_files(files):
 
 
 def get_menu(pub, chapter, doc):
-    items = [("Publications", "/publish/book"),
+    items = [("Publications", "/pubs/book"),
              ("Pubs", pub_url())]
     if pub:
         items.append(("Chapters", pub_url(pub)),)

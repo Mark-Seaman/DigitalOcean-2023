@@ -64,10 +64,7 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "pub",
-                "edit",
-                "ai",
-                "Creative",
-                "CreativeWorkflow.md"
+                "build",
             ],
             "django": true,
             "justMyCode": true

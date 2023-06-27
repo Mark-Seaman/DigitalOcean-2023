@@ -1,7 +1,7 @@
-# The Shrinking World I/O
+# Go Ask Chet
 
 
-## [The Shrinking World I/O](/io/Index.md)                                     
+## [Go Ask Chet](/io/Index.md)                                                 
 
 
 ## [ [Personal and Professional Growth](/io/grow-Index.md)                                     ](/io/grow-Index.md)

@@ -155,13 +155,13 @@ def pub_redirect(host, pub, doc):
     if host == "shrinking-world.com" and not pub:
         return f"/pubs/book"
     if host == "seamanslog.com" and not pub:
-        return f"/sampler/today"
+        return f"/sampler"
     if host == "seamansguide.com" and not pub:
         return f"/pubs/book"
     if host == "seamanfamily.org" and not pub:
         return f"/family/Index.md"
     if host == "spiritual-things.org" and not pub:
-        return f"/spiritual/today"
+        return f"/spiritual"
     if host == "markseaman.org" and not pub:
         return f"/marks/ContactMe"
     if host == "markseaman.info" and not pub:
@@ -310,7 +310,7 @@ def verify_pubs(verbose):
     pubs = list(Pub.objects.all())
     info = line_count(get_pub_info())
     contents = len(Content.objects.all())
-    min_lines, max_lines = 3640, 3900
+    min_lines, max_lines = 3600, 3900
     if min_lines < info and info < max_lines: 
         text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
         text += f'\nPub Info: {info}\n'

@@ -1,7 +1,7 @@
+from json import loads
 from os import system
 from pathlib import Path
 from shutil import copyfile
-import json
 from django.db import models
 
 from .document import get_document
@@ -10,19 +10,10 @@ from .models import Content, Pub
 from .toc import content_file, write_content_csv
 
 
-def create_pub(pub_name, pub_path):
+def create_pub(pub_name, pub_path, verbose=False):
 
     def update_record(name, doc_path):
-        # print('doc_path', doc_path)
-        json_path = pub_json_path(name, doc_path)
-        # print('json_path: ', json_path)
-        text = json_path.read_text()
-        # print('json text:\n', text)
-        data = json.loads(text)
-        # print('json: \n', str(data))
-
-        # with open(json_path, 'r') as file:
-        #     data = json.load(file)
+        data = loads(pub_json_path(name, doc_path).read_text())
         pub, created = Pub.objects.get_or_create(name=name)
         pub.doc_path = doc_path
         for field in Pub._meta.get_fields():
@@ -33,30 +24,6 @@ def create_pub(pub_name, pub_path):
         pub.save()
         return pub
 
-    # def update_record(name, doc_path):
-    #     json = pub_json_path(name, doc_path)
-    #     s = read_json(json)
-    #     b = Pub.objects.get_or_create(name=name)[0]
-    #     b.doc_path = doc_path
-    #     b.title = s["site_title"]
-    #     b.subtitle = s["site_subtitle"]
-    #     b.domain = s.get("domain")
-    #     b.url = s["url"]
-    #     b.description = s["description"]
-    #     b.css = s["css"]
-    #     b.image_path = s["image_path"]
-    #     b.cover_image = s.get("cover_image")
-    #     b.pub_type = s.get("pub_type", "blog")
-    #     b.menu = s.get("menu")
-    #     b.logo = s.get("logo")
-    #     b.auto_remove = s.get("auto_remove", False)
-    #     b.auto_index = s.get("auto_index", False)  # simple_index
-    #     b.simple_index = s.get("simple_index", False)
-    #     b.auto_contents = s.get("auto_contents", False)
-    #     b.index_folders = s.get("index_folders", False)
-    #     b.index_months = s.get("index_months", False)
-    #     b.save()
-    #     return b
 
     def import_pub(pub):
         content = content_file(pub)
@@ -88,15 +55,20 @@ def create_pub(pub_name, pub_path):
             contents = len(Content.objects.filter(blog=pub))
         except:
             print(f"***Error while reading CSV ***  -- {index}")
-        # print(f'Contents objects: {pub.name} {contents}')
+        if verbose:
+            print(f'Import Contents objects: {pub.name} {contents}')
         assert contents>0
 
     def delete_extra_objects(pub):
-        Content.objects.filter(blog=pub, retain_object=False).delete()
+        x = Content.objects.filter(blog=pub, retain_object=False).delete()
+        if verbose:
+            print(f"Deleting old content nodes: {x[0]}\n")
         for c in Content.objects.filter(blog=pub):
             c.retain_object = False
             c.save()
 
+    if verbose:
+        print(f"\n\nCreating Pub: name={pub_name}, path={pub_path}\n")
     pub = update_record(pub_name, pub_path)
     import_pub(pub)
     copy_static_files(pub)

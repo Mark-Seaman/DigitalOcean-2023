@@ -47,10 +47,10 @@ def bouncer_redirect(bouncer_id):
 
 def build_pubs(verbose=False, delete=False):
 
-    def build_pub_index(pub):
+    def build_pub_index(pub, verbose):
         if pub.auto_index:
-            # if verbose:
-            #     print(f"CREATE Index - {pub.name}")
+            if verbose:
+                print(f"CREATE Index - {pub.name}")
             create_pub_index(pub, get_pub_contents(pub)) 
 
     def delete_pubs():
@@ -71,10 +71,8 @@ def build_pubs(verbose=False, delete=False):
     if verbose:
         print("Build pubs:\n")
     for pub in list_publications():
-        if verbose:
-            print('CREATE -', pub)
-        p = create_pub(pub[0], pub[1])
-        build_pub_index(p)
+        p = create_pub(pub[0], pub[1], verbose)
+        build_pub_index(p, verbose)
 
     return verify_all_pubs()
     

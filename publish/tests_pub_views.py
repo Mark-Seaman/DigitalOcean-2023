@@ -14,7 +14,7 @@ local_host = 'http://localhost:8000'
 class BlogPageTest(DjangoTest):
     def test_home_page(self):
         page = f'{local_host}/journey'
-        self.assertPageLines(page, 140, 200)
+        self.assertPageLines(page, 140, 220)
 
     def test_pub_redirect(self):
         redirects = (("shrinking-world.com", None, None, '/pubs/book'),

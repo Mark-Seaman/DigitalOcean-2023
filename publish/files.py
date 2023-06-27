@@ -15,7 +15,7 @@ from publish.text import text_join, text_lines, word_count
 def concatonate(file_pattern):
     text = ''
     for f in Path().glob(file_pattern):
-        text += f.read_text()
+        text += f.read_text() + '\n'
     return text
 
 
@@ -176,10 +176,6 @@ def grep(pattern, file):
 # Check if this file is writable
 def is_writable(path):
     return access(dirname(path), W_OK) and (not exists(path) or access(path, W_OK))
-
-
-# def join_files(file_list):
-#     return text_join([read_file(f) for f in file_list])
 
 
 def join_files(files):

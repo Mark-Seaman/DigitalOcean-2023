@@ -24,12 +24,8 @@ def quick_test():
 def pubs():
     # Run pub scripts:
 
-    # pub_name = 'write'
-    # pub_path = 'Documents/Shinking-World-Pubs/write'
-    # create_pub(pub_name, pub_path)
-
     # Do complete rebuild
-    build_pubs(True, True)
+    build_pubs(False, True)
     print(show_pubs())
 
 

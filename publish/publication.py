@@ -189,7 +189,7 @@ def save_pub_info():
         Path(f'probe/pubs/{pub.name}').write_text(text)
 
 
-def select_blog_doc(host, blog, doc):
+def select_blog_doc(pub, doc):
     def load_object(pub):
         return Pub.objects.filter(pk=pub.pk).values()[0]
 
@@ -213,9 +213,9 @@ def select_blog_doc(host, blog, doc):
             title=title, html=html, site_title=pub.title, site_subtitle=pub.subtitle
         )
 
-    pub = get_pub(blog)
-    kwargs = load_object(pub)
-    kwargs.update(load_document(pub))
+    p = get_pub(pub)
+    kwargs = load_object(p)
+    kwargs.update(load_document(p))
     menu = kwargs.get("menu")
     if menu:
         kwargs["menu"] = read_json(menu)["menu"]

@@ -24,21 +24,21 @@ class PubView(TemplateView):
     template_name = "pub/blog.html"
 
     def get_context_data(self, **kwargs):
-        host = get_host(self.request)
-        blog = kwargs.get("pub")
+        # host = get_host(self.request)
+        pub = kwargs.get("pub")
         doc = kwargs.get("doc", "Index.md")
-        kwargs = select_blog_doc(host, blog, doc)
+        kwargs = select_blog_doc(pub, doc)
         return kwargs
 
 
 class PubListView(TemplateView):
 
-    template_name = "blog/list.html"
+    template_name = "pub/list.html"
     model = Pub
     context_object_name = "pubs"
 
     def get_context_data(self, **kwargs):
-        pub_type = self.kwargs.get('pub')
+        pub_type = self.kwargs.get('pub_type')
         pubs = Pub.objects.filter(pub_type=pub_type)
         menu = read_json("static/js/nav_blog.json")["menu"]
         kwargs = dict(pubs=pubs, menu=menu, site_title="Shrinking Word Publication Library", site_subtitle="A Seaman's Guides")
@@ -50,10 +50,10 @@ class PubDetailView(TemplateView):
 
     def get_context_data(self, **kwargs):
         refresh_pub_from_git()
-        host = get_host(self.request)
-        blog = kwargs.get("pub")
+        # host = get_host(self.request)
+        pub = kwargs.get("pub")
         doc = kwargs.get("doc", "Index.md")
-        kwargs = select_blog_doc(host, blog, doc)
+        kwargs = select_blog_doc(pub, doc)
         return kwargs
 
 

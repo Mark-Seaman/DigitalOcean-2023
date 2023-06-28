@@ -210,10 +210,7 @@ def read_csv_file(path):
         csv_data = csv_file.read_text()
         return list(reader(csv_data.splitlines()))
     else:
-        error = f"** ERROR: {csv_file} NOT FOUND **"
-        print(error)
-        assert(False, error)
-        return error
+        assert False, f"** ERROR: {csv_file} NOT FOUND **"
 
 
 def read_csv_text(text):
@@ -229,12 +226,12 @@ def read_csv_text(text):
 # Return the text from the file
 def read_file(f):
     try:
-        if exists(f):
-            return open(f).read()
+        path = Path(f)
+        if path.exists():
+            return path.read_text()
         return 'No file found, ' + f
     except:
-        print('**CORRUPT FILE, %s**' % f)
-        return '**CORRUPT FILE, %s**' % f
+        assert False, f'** CORRUPT FILE, {f} **' 
 
 
 # Read JSON from a file

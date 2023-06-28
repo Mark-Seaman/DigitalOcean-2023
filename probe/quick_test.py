@@ -1,6 +1,7 @@
 from pathlib import Path
 from sys import version_info
 from probe.probe_pub import test_pub_info
+from publish.files import write_json
 
 from publish.import_export import create_pub
 from publish.models import Content, Pub
@@ -27,6 +28,18 @@ def pubs():
     # Do complete rebuild
     build_pubs(False, True)
     print(show_pubs())
+
+
+def save_model():
+    model = Pub
+    model_instance = model.objects.get(name='journey')
+    json_path = 'journey.pub.json'
+    data = {}
+    for field in model_instance._meta.get_fields():
+        if field.concrete:
+            field_name = field.name
+            data[field_name] = getattr(model_instance, field_name)
+    write_json(json_path, data)
 
 
 def tests():

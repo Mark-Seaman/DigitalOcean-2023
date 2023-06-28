@@ -21,9 +21,11 @@ def create_pub(pub_name, pub_path, verbose=False):
             # print('set ', field_name, data[field_name])
             if field_name in data and data.get(field_name):
                 setattr(pub, field_name, data[field_name])
+        if data.get('site_title') and pub.title != data.get('site_title'):
+            pub.title = data.get('site_title')
+            pub.subtitle = data.get('site_subtitle')
         pub.save()
         return pub
-
 
     def import_pub(pub):
         content = content_file(pub)

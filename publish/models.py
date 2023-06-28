@@ -6,6 +6,7 @@ class Pub(models.Model):
     name = models.CharField(max_length=200)
     title = models.CharField(max_length=200)
     subtitle = models.CharField(max_length=200, null=True, blank=True)
+    author = models.CharField(max_length=100, default='Mark Seaman', blank=True)
     description = models.TextField(default="None", null=True, blank=True)
     doc_path = models.CharField(max_length=200, default="Documents")
     image_path = models.CharField(max_length=200, null=True)

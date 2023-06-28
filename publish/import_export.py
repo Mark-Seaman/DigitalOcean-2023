@@ -23,6 +23,7 @@ def create_pub(pub_name, pub_path, verbose=False):
                 setattr(pub, field_name, data[field_name])
         if data.get('site_title') and pub.title != data.get('site_title'):
             pub.title = data.get('site_title')
+        if data.get('site_subtitle') and pub.subtitle != data.get('site_subtitle'):
             pub.subtitle = data.get('site_subtitle')
         pub.save()
         return pub

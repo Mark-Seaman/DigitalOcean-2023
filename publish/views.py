@@ -31,6 +31,23 @@ class PubView(TemplateView):
         return kwargs
 
 
+class PubLibraryView(TemplateView):
+    template_name = "pub/library.html"
+
+    def get_context_data(self, **kwargs):
+        collections = [
+            get_collection('textbook', 'Textbooks'),
+            get_collection('book', 'Books about Life'),
+            get_collection('blog', 'Blogs'),
+            get_collection('private', 'Private Blogs'),
+            ]
+        menu = read_json("static/js/nav_blog.json")["menu"]
+        kwargs = dict(collections=collections, menu=menu, site_title="Shrinking Word Publication Library", site_subtitle="All Publications")
+        return kwargs
+
+def get_collection(pub_type, title):
+    return {'type': title, 'pubs': Pub.objects.filter(pub_type=pub_type)}
+
 class PubListView(TemplateView):
 
     template_name = "pub/list.html"
@@ -43,7 +60,6 @@ class PubListView(TemplateView):
         menu = read_json("static/js/nav_blog.json")["menu"]
         kwargs = dict(pubs=pubs, menu=menu, site_title="Shrinking Word Publication Library", site_subtitle="A Seaman's Guides")
         return kwargs
-
 
 class PubDetailView(TemplateView):
     template_name = "pub/cover.html"

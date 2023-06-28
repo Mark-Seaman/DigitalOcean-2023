@@ -50,8 +50,7 @@
             "program": "manage.py",
             "cwd": "${workspaceFolder}",
             "args": [
-                "test",
-                "8002"
+                "test"
             ],
             "django": true,
             "justMyCode": true

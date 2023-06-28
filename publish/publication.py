@@ -2,6 +2,8 @@ from pathlib import Path
 from random import choice
 from shutil import copyfile
 from publish.days import is_old
+from publish.files import write_json
+from publish.import_export import pub_json_path
 
 from publish.shell import banner
 
@@ -328,3 +330,24 @@ def word_count_file(pub):
     if not path.exists():
         path.write_text('')
     return path
+
+
+def save_pub_json(pub=None):
+    if pub:
+        pubs = [pub]
+    else:
+        pubs = all_pubs()
+
+    for pub in pubs:
+        json_path = pub_json_path(pub.name, pub.doc_path)
+        data = {}
+        for field in pub._meta.get_fields():
+            if field.concrete:
+                field_name = field.name
+                data[field_name] = getattr(pub, field_name)
+        write_json(json_path, data)
+        json_path = pub_json_path(pub.name, pub.doc_path)
+        print(f'\n\n{json_path}:\n\n', json_path.read_text())
+        json1 = Path(f'static/js/{pub.name}.json')
+        if json1.exists():
+            json1.unlink()

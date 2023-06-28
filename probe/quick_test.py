@@ -1,11 +1,11 @@
 from pathlib import Path
 from sys import version_info
 from probe.probe_pub import test_pub_info
-from publish.files import write_json
 
-from publish.import_export import create_pub, pub_json_path
+from publish.import_export import create_pub
+from publish.publication import save_pub_json
 from publish.models import Content, Pub
-from publish.publication import all_pubs, build_pubs, get_pub, get_pub_info, show_pub_details, show_pubs
+from publish.publication import build_pubs, get_pub, get_pub_info, show_pub_details, show_pubs
 from publish.seamanslog import random_post
 from publish.text import text_join, text_lines
 from task.models import Activity, Task, TaskType
@@ -32,25 +32,8 @@ def pubs():
     build_pubs(False, True)
     print(show_pubs())
 
-
 def save_model():
-    def save_pub_json(name):
-        model = Pub
-        pub = model.objects.get(name=name)
-        json_path = pub_json_path(name, pub.doc_path)
-        data = {}
-        for field in pub._meta.get_fields():
-            if field.concrete:
-                field_name = field.name
-                data[field_name] = getattr(pub, field_name)
-        write_json(json_path, data)
-
-    # name='journey'
-    # save_pub_json(name)
-    for pub in all_pubs():
-        # save_pub_json(pub.name)
-        json_path = pub_json_path(pub.name, pub.doc_path)
-        print(json_path.read_text())
+    save_pub_json()
 
 def tests():
     # pub = get_pub('marks')

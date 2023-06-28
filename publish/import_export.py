@@ -4,6 +4,7 @@ from pathlib import Path
 from shutil import copyfile
 from django.db import models
 
+
 from .document import get_document
 from .files import read_csv_file, read_json
 from .models import Content, Pub
@@ -142,3 +143,5 @@ def save_pub_data():
         } 2>/dev/null  > /dev/null 
     '''
     system(command)
+
+

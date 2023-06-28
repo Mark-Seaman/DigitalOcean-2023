@@ -74,7 +74,7 @@ def create_pub(pub_name, pub_path, verbose=False):
         print(f"\n\nCreating Pub: name={pub_name}, path={pub_path}\n")
     pub = update_record(pub_name, pub_path)
     import_pub(pub)
-    # copy_static_files(pub)
+    copy_static_files(pub)
     return pub
 
 

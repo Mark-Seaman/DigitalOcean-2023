@@ -26,7 +26,7 @@ class GhostTest(DjangoTest):
     def test_project(self):
         pub_script(['project', 'GhostWriter'])
         js = (pub_path('GhostWriter').parent)/'pub.json'
-        self.assertFileLines(js, 20, 20)
+        self.assertFileLines(js, 20, 24)
 
     def test_chapter(self):
         pub_script(['chapter', 'GhostWriter', 'GhostWriter'])

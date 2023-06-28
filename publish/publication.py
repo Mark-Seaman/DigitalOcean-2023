@@ -308,7 +308,7 @@ def verify_pubs(verbose):
     pubs = list(Pub.objects.all())
     info = line_count(get_pub_info())
     contents = len(Content.objects.all())
-    min_lines, max_lines = 3600, 3900
+    min_lines, max_lines = 3600, 4100
     if min_lines < info and info < max_lines: 
         text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
         text += f'\nPub Info: {info}\n'

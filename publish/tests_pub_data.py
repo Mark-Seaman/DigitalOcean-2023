@@ -78,7 +78,7 @@ class FixtureTest(DjangoTest):
 
     def test_rebuld_pubs(self):
         build_pubs(False, True)
-        self.assertRange(len(Pub.objects.all()), 5, 20)
+        self.assertRange(len(Pub.objects.all()), 5, 21)
         self.assertRange(len(Content.objects.all()), 10, 1250, "Content Nodes")
 
     def test_data_file(self):

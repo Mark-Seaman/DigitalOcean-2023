@@ -19,8 +19,7 @@ def create_pub(pub_name, pub_path, verbose=False):
         pub.doc_path = doc_path
         for field in Pub._meta.get_fields():
             field_name = field.name
-            # print('set ', field_name, data[field_name])
-            if field_name in data and data.get(field_name):
+            if field_name in data and field_name!='id' and data.get(field_name):
                 setattr(pub, field_name, data[field_name])
         if data.get('site_title') and pub.title != data.get('site_title'):
             pub.title = data.get('site_title')
@@ -75,7 +74,7 @@ def create_pub(pub_name, pub_path, verbose=False):
         print(f"\n\nCreating Pub: name={pub_name}, path={pub_path}\n")
     pub = update_record(pub_name, pub_path)
     import_pub(pub)
-    copy_static_files(pub)
+    # copy_static_files(pub)
     return pub
 
 

@@ -1,11 +1,13 @@
 from pathlib import Path
 from sys import version_info
 from probe.probe_pub import test_pub_info
+from publish.cover import scale_image
 
 from publish.import_export import create_pub
-from publish.publication import save_pub_json
+from publish.publication import all_pubs, save_pub_json
 from publish.models import Content, Pub
 from publish.publication import build_pubs, get_pub, get_pub_info, show_pub_details, show_pubs
+from publish.resize_image import create_cover_images
 from publish.seamanslog import random_post
 from publish.text import text_join, text_lines
 from task.models import Activity, Task, TaskType
@@ -19,8 +21,7 @@ from .probe_images import test_image_pages
 
 def quick_test():
     # print("No quick test defined")
-    # pubs()
-    save_model()
+    pubs()
 
     return 'OK'
 
@@ -28,12 +29,15 @@ def quick_test():
 def pubs():
     # Run pub scripts:
 
+    # Create Cover Images
+    # path = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/poem/Images/Cover.png'
+    # scale_image(path, 1600, 2560)
+    # create_cover_images(path)
+
     # Do complete rebuild
     build_pubs(False, True)
     print(show_pubs())
 
-def save_model():
-    save_pub_json()
 
 def tests():
     # pub = get_pub('marks')

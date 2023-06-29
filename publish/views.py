@@ -16,8 +16,19 @@ class BouncerRedirectView(RedirectView):
         doc = kwargs.get("doc", 'Index.md')
         return pub_redirect(host, pub, doc)
 
+
+class ContactView(TemplateView):
+    template_name = 'contact.html'
+
+    def get_context_data(self, **kwargs):
+        pub = 'marks'
+        doc = kwargs.get("doc", "contact")
+        kwargs = select_blog_doc(pub, doc)
+        return kwargs
+
+
 class PubRedirectView(RedirectView):
-    url = '/pubs/book'
+    url = '/pubs'
 
 
 class PubView(TemplateView):

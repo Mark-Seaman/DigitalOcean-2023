@@ -164,7 +164,7 @@ def pub_redirect(host, pub, doc):
     if host == "spiritual-things.org" and not pub:
         return f"/spiritual"
     if host == "markseaman.org" and not pub:
-        return f"/marks/ContactMe"
+        return f"/marks/contact"
     if host == "markseaman.info" and not pub:
         return f"/private"
     if ("localhost" in host or "127.0.0.1" in host) and not pub:
@@ -214,6 +214,9 @@ def select_blog_doc(pub, doc):
             title=title, html=html, site_title=pub.title, site_subtitle=pub.subtitle
         )
 
+    # if doc=='contact':
+    #     return
+    
     p = get_pub(pub)
     kwargs = load_object(p)
     kwargs.update(load_document(p))

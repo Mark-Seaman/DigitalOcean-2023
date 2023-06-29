@@ -6,8 +6,8 @@
         ],
         "items": [
             [
-                "Mark Seaman",
-                "/marks/ContactMe"
+                "Textbooks",
+                "/pubs/textbook"
             ],
             [
                 "Books",
@@ -16,6 +16,10 @@
             [
                 "Blogs",
                 "/pubs/blog"
+            ],
+            [
+                "Mark Seaman",
+                "/marks/contact"
             ],
             [
                 "Shrinking World",

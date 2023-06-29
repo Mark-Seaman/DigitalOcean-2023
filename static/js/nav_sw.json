@@ -6,6 +6,10 @@
         ],
         "items": [
             [
+                "Textbooks",
+                "/pubs/textbook"
+            ],
+            [
                 "Books",
                 "/pubs/book"
             ],
@@ -15,7 +19,7 @@
             ],
             [
                 "Contact",
-                "/marks/ContactMe"
+                "/marks/contact"
             ]
         ]
     }

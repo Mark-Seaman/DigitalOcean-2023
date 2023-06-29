@@ -1,9 +1,10 @@
 from django.urls import path
 
-from .views import BouncerRedirectView, PubDetailView, PubLibraryView, PubListView, PubRedirectView, PubView
+from .views import BouncerRedirectView, ContactView, PubDetailView, PubLibraryView, PubListView, PubRedirectView, PubView
 
 urlpatterns = [
 
+    
     # Pub Redirect
     path("", PubRedirectView.as_view()),
     path("pubs", PubLibraryView.as_view(), name="pub_list"),
@@ -12,6 +13,7 @@ urlpatterns = [
 
     # Display a pub document
     path("<str:pub>", PubDetailView.as_view(), name="pub_detail"),
+    path("<str:pub>/contact", ContactView.as_view()),
     path("<str:pub>/<str:doc>", PubView.as_view(), name="pub"),
     
 ]

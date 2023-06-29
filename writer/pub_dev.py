@@ -280,6 +280,7 @@ def doc_script(args, edit=False):
     if not args[2:]:
         return 'usage: doc pub-name chapter-name doc-name'
     pub, chapter, doc = args[:3]
+    chapter_script(args[:2])
     path = pub_path(pub, chapter, doc)
     for d in pub_doc_files(path):
         if not Path(d).exists():

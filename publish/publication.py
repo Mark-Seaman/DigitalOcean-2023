@@ -75,9 +75,9 @@ def build_pubs(verbose=False, delete=False):
     for pub in list_publications():
         p = create_pub(pub[0], pub[1], verbose)
         get_pub(p.name)
-        # build_pub_index(p, verbose)
+        build_pub_index(p, verbose)
 
-    return 'OK' #verify_all_pubs()
+    return verify_all_pubs()
     
 
 def doc_view_context(**kwargs):

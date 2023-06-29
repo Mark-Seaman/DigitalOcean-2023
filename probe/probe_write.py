@@ -1,7 +1,7 @@
 from pathlib import Path
 from publish.files import read_file
 
-from publish.write import plant, write_blog
+from writer.write_old import plant, write_blog
 
 
 def test_write_script():

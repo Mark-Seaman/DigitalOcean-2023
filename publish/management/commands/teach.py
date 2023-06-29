@@ -1,7 +1,7 @@
 from django.core.management.base import BaseCommand
 from course.teach import teaching_prep
 
-from publish.write import write_blog, write_masto, write_review, write_tech, write_words
+from writer.write_old import write_blog, write_masto, write_review, write_tech, write_words
 
 
 class Command(BaseCommand):

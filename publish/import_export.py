@@ -71,24 +71,26 @@ def create_pub(pub_name, pub_path, verbose=False):
             c.save()
 
     if verbose:
-        print(f"\n\nCreating Pub: name={pub_name}, path={pub_path}\n")
+        print(f"\nCreating Pub: name={pub_name}, path={pub_path}")
     pub = update_record(pub_name, pub_path)
     import_pub(pub)
-    copy_static_files(pub)
+    copy_static_files(pub, verbose)
     return pub
 
 
-def copy_static_files(pub):
+def copy_static_files(pub, verbose):
     doc_path = Path(pub.doc_path)
     if doc_path.name != 'Pub':
-        print(f"Old Pub: {pub}")
+        if verbose:
+            print(f"Old Pub: {pub}")
         return
     source = doc_path.parent/'Images'
     dest = Path(pub.image_path[1:])
     assert source.exists()
     dest.mkdir(exist_ok=True, parents=True)
     for f in source.iterdir():
-        # print(f"COPY FILES {pub.name} {f} {dest/f.name}")
+        if verbose:
+            print(f"COPY FILES {pub.name} {f} {dest/f.name}")
         copyfile(f, dest/f.name)
 
 

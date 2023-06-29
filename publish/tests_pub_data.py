@@ -1,14 +1,11 @@
-from datetime import datetime
+from pathlib import Path
 
-from .tests_django import DjangoTest
-from os.path import getmtime
+from probe.tests_django import DjangoTest
 
-from publish.days import is_old
-from publish.files import concatonate
-
+from .days import is_old
 from .models import Content, Pub
 from .publication import (all_blogs, all_books, all_privates, all_pubs,
-                          build_pubs, get_pub_info, build_pubs, save_pub_info)
+                          build_pubs, build_pubs)
 
 
 # -----------------------
@@ -27,7 +24,6 @@ class PubDataTest(DjangoTest):
         self.assertEqual(len(Pub.objects.all()), 2)
 
     def test_blog_detail(self):
-
         Pub.objects.create(name="Write", title="Authoring Tips", url="write")
         Pub.objects.create(name="Tech", title="Pro Pub", url="tech")
         blog1 = Pub.objects.get(name="Write")
@@ -37,7 +33,6 @@ class PubDataTest(DjangoTest):
         self.assertEqual(blog2.url, "tech")
 
     def test_blog_edit(self):
-
         Pub.objects.create(name="Write", title="Authoring Tips", url="write")
         Pub.objects.create(name="Tech", title="Pro Pub", url="tech")
         blog1 = Pub.objects.get(name="Write")
@@ -71,6 +66,8 @@ class FixtureTest(DjangoTest):
     def test_private_list(self):
         self.assertRange(len(all_privates()), 1, 9, 'Num Private Pubs')
 
+    def test_images(self):
+        self.assertRange(len(list(Path('static/images').glob('**'))), 39, 39, 'Images in Static')
     # def test_pub_info(self):
     #     save_pub_info()
     #     text = concatonate('publish/*.py')

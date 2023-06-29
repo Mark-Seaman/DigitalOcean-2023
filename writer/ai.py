@@ -5,7 +5,7 @@ import openai
 
 from publish.files import read_file, write_file
 from publish.text import include_files
-from writer.pub_dev import pub_path, pub_url
+from writer.pub_script import pub_path, pub_url
 
 
 def transform_prompt(prompt):

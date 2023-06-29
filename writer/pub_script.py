@@ -44,6 +44,30 @@ def chapter_script(args):
     return f'chapter ({chapter_path})'
 
 
+def create_outline(args):
+    def markdown_to_outline(text):
+        # Define a regular expression pattern to match headings
+        heading_pattern = r'^(#+)\s+(.*)'
+        lines = text.split('\n')
+        outline = ''
+        for line in lines:
+            # Check if the line matches the heading pattern
+            x = match(heading_pattern, line)
+            if x:
+                # Extract the heading level and text
+                level = len(x.group(1))
+                text = x.group(2)
+                # Add the heading to the outline with the appropriate indentation
+                outline += '    ' * (level - 1) + text + '\n'
+        return outline
+
+    path = pub_path(args[0], args[1], args[2])
+    text = markdown_to_outline(path.read_text())
+    if args[3:]:
+        text = extract_outline(text, args[3])
+    return text
+
+
 def doc_ai(pub, chapter, doc):
     doc = doc.replace('.md', '.ai')
     path = pub_path(pub, chapter, doc)
@@ -72,6 +96,18 @@ def doc_link(pub, chapter, doc):
 def doc_list(pub, chapter):
     path = pub_path(pub, chapter)
     return [doc_link(pub, chapter, doc.name) for doc in sorted(path.glob('*.md')) if doc.is_file()]
+
+
+def doc_script(args, edit=False):
+    if not args[2:]:
+        return 'usage: doc pub-name chapter-name doc-name'
+    pub, chapter, doc = args[:3]
+    chapter_script(args[:2])
+    path = pub_path(pub, chapter, doc)
+    for d in pub_doc_files(path):
+        if not Path(d).exists():
+            Path(d).write_text('new file')
+    return str(path)
 
 
 def doc_title(pub, chapter, doc):
@@ -113,6 +149,17 @@ def edit_doc_script(args):
     return path
 
 
+def execute_pub_script(args):
+    if not args:
+        return 'usage: script script-file'
+    script = Path(args[0])
+    if not script.exists():
+        return f'SCRIPT not found: (script)'
+    commands = text_lines(script.read_text())
+    commands = [pub_script(c.strip().split(' ')) for c in commands if c.strip()]
+    return text_join(commands)
+
+
 def extract_outline(text, section_number):
     lines = text.split('\n')
     outline = ''
@@ -138,6 +185,16 @@ def edit_files(files):
     system(command)
 
 
+def files_script(args):
+    if not args:
+        return 'usage: files pub-name'
+    pub_root = Path(f'{getenv("SHRINKING_WORLD_PUBS")}/{args[0]}')
+    files = pub_root.rglob('*')
+    files = [str(f).replace(str(pub_root)+'/', '    ')
+             for f in files if f.is_file()]
+    return f'Files:\n\n{text_join(files)}'
+
+
 def get_menu(pub, chapter, doc):
     items = [("Publications", "/pubs/book"),
              ("Pubs", pub_url())]
@@ -149,44 +206,25 @@ def get_menu(pub, chapter, doc):
              "items":items}
 
 
-def pub_link(pub, chapter=None):
-    if chapter:
-        url = f'/writer/{pub}/{chapter}'
-        title = chapter
-    else:
-        url = f'/writer/{pub}'
-        title = pub
+def project_script(args):
+    def make_json(pub_dir):
+        pub_name = pub_dir
+        pub_root = pub_path() / pub_dir
+        pub_root.mkdir(exist_ok=True, parents=True)
+        js = pub_root / f'pub.json'
+        if not js.exists():
+            data = dict(pub_name=pub_name, pub_dir=pub_dir,
+                        tag_line='AI tools for Authors')
+            json = render_to_string('pub_script/pub.json', data)
+            js.write_text(json)
+        return f'JSON file: {js}\n'
 
-    return f'<a href="{url}">{title}</a>'
-
-
-def pub_list():
-    path = pub_path()
-    return [pub_link(pub.parent.name) for pub in path.glob('*/pub.json') if pub.parent.is_dir()]
-
-
-def pub_url(pub=None, chapter=None, doc=None):
-    if doc:
-        return f'/writer/{pub}/{chapter}/{doc}'
-    if chapter:
-        return f'/writer/{pub}/{chapter}'
-    if pub:
-        return f'/writer/{pub}'
-    return f'/writer/'
-
-
-def pub_path(pub=None, chapter=None, doc=None):
-    path = Path(f'{getenv("SHRINKING_WORLD_PUBS")}')
-
-    if doc and chapter and pub:
-        path = path/pub/'AI'/chapter/doc
-    elif chapter and pub:
-        path = path/pub/'AI'/chapter
-    elif pub:
-        path = path/pub/'AI'
-    else:
-        path = path
-    return path
+    text = f"Create Pub: {args[0]}\n"
+    if not args:
+        text += 'usage: project pub-name'
+        return text
+    text += make_json(args[0])
+    return text
 
 
 def pub_doc_files(path):
@@ -205,17 +243,94 @@ def pub_edit(**kwargs):
     doc = kwargs.get('doc')
     args = f'edit {pub} {chapter} {doc}'
     edit_doc_script(args)
-    # path1 = pub_path(pub, chapter, doc)
-    # path2 = str(path1).replace('.md', '.txt')
-    # path3 = str(path1).replace('.md', '.ai')
-    # if Path(path2).exists():
-    #     files = [path1, path2, path3]
-    # else:
-    #     files = [path1, path3]
-    # edit_files(files)
-
     url = pub_url(pub, chapter, doc)
     return url
+
+
+def pub_link(pub, chapter=None):
+    if chapter:
+        url = f'/writer/{pub}/{chapter}'
+        title = chapter
+    else:
+        url = f'/writer/{pub}'
+        title = pub
+
+    return f'<a href="{url}">{title}</a>'
+
+
+def pub_list():
+    path = pub_path()
+    return [pub_link(pub.parent.name) for pub in path.glob('*/pub.json') if pub.parent.is_dir()]
+
+
+def pub_path(pub=None, chapter=None, doc=None):
+    path = Path(f'{getenv("SHRINKING_WORLD_PUBS")}')
+
+    if doc and chapter and pub:
+        path = path/pub/'AI'/chapter/doc
+    elif chapter and pub:
+        path = path/pub/'AI'/chapter
+    elif pub:
+        path = path/pub/'AI'
+    else:
+        path = path
+    return path
+
+
+def pub_script(command_args):
+    if not command_args:
+        return "Invalid command: {}".format(command_args) + usage
+    command = command_args[0]
+    args = command_args[1:]
+    if command == 'build':
+        output = build_script(args)
+    elif command == 'project':
+        output = project_script(args)
+    elif command == 'chapter':
+        output = chapter_script(args)
+    elif command == 'doc':
+        output = doc_script(args)
+    elif command == 'edit':
+        output = edit_doc_script(args)
+    # elif command == 'expand':
+    #     output = 'not implemented'
+    elif command == 'files':
+        output = files_script(args)
+    elif command == 'outline':
+        output = create_outline(args)
+    elif command == 'publish':
+        output = publish_script(args)
+    elif command == 'script':
+        output = execute_pub_script(args)
+    elif command == 'test':
+        output = test_script(args)
+    else:
+        output = "Invalid command: {}".format(command) + usage
+    return output
+
+
+def pub_url(pub=None, chapter=None, doc=None):
+    if doc:
+        return f'/writer/{pub}/{chapter}/{doc}'
+    if chapter:
+        return f'/writer/{pub}/{chapter}'
+    if pub:
+        return f'/writer/{pub}'
+    return f'/writer/'
+
+
+def publish_script(args):
+    if not args:
+        return 'usage: publish pub-name'
+    pub_name = args[0]
+    pub = get_pub(pub_name)
+    text = f'\npublish {pub_name}\n'
+    images = Path(pub.doc_path).parent/'Images'
+    if images.exists():
+        text += f'copy the "{pub.image_path}" directory from "{images}"\n'
+        copy_static_files(pub)
+    text += 'rebuild the Pub/Index.md file to match the new contents from "_content.csv" \n'
+    return text
 
 
 def read_pub_doc(pub, chapter, doc):
@@ -251,43 +366,6 @@ usage:
 
 '''
 
-def markdown_to_outline(text):
-    # Define a regular expression pattern to match headings
-    heading_pattern = r'^(#+)\s+(.*)'
-    lines = text.split('\n')
-    outline = ''
-    for line in lines:
-        # Check if the line matches the heading pattern
-        x = match(heading_pattern, line)
-        if x:
-            # Extract the heading level and text
-            level = len(x.group(1))
-            text = x.group(2)
-            # Add the heading to the outline with the appropriate indentation
-            outline += '    ' * (level - 1) + text + '\n'
-    return outline
-
-
-def create_outline(args):
-    path = pub_path(args[0], args[1], args[2])
-    text = markdown_to_outline(path.read_text())
-    if args[3:]:
-        text = extract_outline(text, args[3])
-    return text
-
-
-def doc_script(args, edit=False):
-    if not args[2:]:
-        return 'usage: doc pub-name chapter-name doc-name'
-    pub, chapter, doc = args[:3]
-    chapter_script(args[:2])
-    path = pub_path(pub, chapter, doc)
-    for d in pub_doc_files(path):
-        if not Path(d).exists():
-            Path(d).write_text('new file')
-    return str(path)
-
-
 def test_script(args):
     # if args:
     #     return 'usage: test'
@@ -300,89 +378,4 @@ def test_script(args):
     return f'Test all pubs:\n\n{text}'
 
 
-def pub_script(command_args):
-    if not command_args:
-        return "Invalid command: {}".format(command_args) + usage
-    command = command_args[0]
-    args = command_args[1:]
-    if command == 'build':
-        output = build_script(args)
-    elif command == 'project':
-        output = project_script(args)
-    elif command == 'chapter':
-        output = chapter_script(args)
-    elif command == 'doc':
-        output = doc_script(args)
-    elif command == 'edit':
-        output = edit_doc_script(args)
-    # elif command == 'expand':
-    #     output = 'not implemented'
-    elif command == 'files':
-        output = files_script(args)
-    elif command == 'outline':
-        output = create_outline(args)
-    elif command == 'publish':
-        output = publish_script(args)
-    elif command == 'script':
-        output = execute_pub_script(args)
-    elif command == 'test':
-        output = test_script(args)
-    else:
-        output = "Invalid command: {}".format(command) + usage
-    return output
 
-
-def execute_pub_script(args):
-    if not args:
-        return 'usage: script script-file'
-    script = Path(args[0])
-    if not script.exists():
-        return f'SCRIPT not found: (script)'
-    commands = text_lines(script.read_text())
-    commands = [pub_script(c.strip().split(' ')) for c in commands if c.strip()]
-    return text_join(commands)
-
-
-def files_script(args):
-    if not args:
-        return 'usage: files pub-name'
-    pub_root = Path(f'{getenv("SHRINKING_WORLD_PUBS")}/{args[0]}')
-    files = pub_root.rglob('*')
-    files = [str(f).replace(str(pub_root)+'/', '    ')
-             for f in files if f.is_file()]
-    return f'Files:\n\n{text_join(files)}'
-
-
-def project_script(args):
-    def make_json(pub_dir):
-        pub_name = pub_dir
-        pub_root = pub_path() / pub_dir
-        pub_root.mkdir(exist_ok=True, parents=True)
-        js = pub_root / f'pub.json'
-        if not js.exists():
-            data = dict(pub_name=pub_name, pub_dir=pub_dir,
-                        tag_line='AI tools for Authors')
-            json = render_to_string('pub_script/pub.json', data)
-            js.write_text(json)
-        return f'JSON file: {js}\n'
-
-    text = f"Create Pub: {args[0]}\n"
-    if not args:
-        text += 'usage: project pub-name'
-        return text
-    text += make_json(args[0])
-    return text
-
-
-def publish_script(args):
-    if not args:
-        return 'usage: publish pub-name'
-    pub_name = args[0]
-    pub = get_pub(pub_name)
-    text = f'\npublish {pub_name}\n'
-    images = Path(pub.doc_path).parent/'Images'
-    if images.exists():
-        text += f'copy the "{pub.image_path}" directory from "{images}"\n'
-        copy_static_files(pub)
-    text += 'rebuild the Pub/Index.md file to match the new contents from "_content.csv" \n'
-    return text

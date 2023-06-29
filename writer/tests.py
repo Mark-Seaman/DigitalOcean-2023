@@ -2,7 +2,7 @@ from pathlib import Path
 
 from publish.files import create_directory
 
-from .pub_dev import (doc_html, doc_list, doc_text, doc_title, pub_list,
+from .pub_script import (doc_html, doc_list, doc_text, doc_title, pub_list,
                       pub_path, doc_view_data, pub_script, read_pub_doc)
 from .tests_django import DjangoTest
 

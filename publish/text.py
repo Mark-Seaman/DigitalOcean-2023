@@ -142,7 +142,7 @@ def include_files(text: str, text_dir: Optional[Path] = None) -> str:
     Raises:
         FileNotFoundError: If a file with a given name is not found in the directory hierarchy.
     """
-    from writer.pub_dev import pub_path
+    from writer.pub_script import pub_path
 
     root_dir = pub_path()
     pattern = r"\[\[(.+)\]\]"

@@ -3,7 +3,7 @@ from django.views.generic import RedirectView, TemplateView
 from publish.files import read_json
 
 from .ai import pub_ai
-from .pub_dev import edit_doc_script, edit_files, pub_edit, pub_path, doc_view_data, pub_script, pub_url
+from .pub_script import edit_doc_script, edit_files, pub_edit, pub_path, doc_view_data, pub_script, pub_url
 
 
 class DocumentView(TemplateView):

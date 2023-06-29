@@ -9,7 +9,7 @@ from publish.document import title
 from publish.files import create_directory, read_json
 from publish.import_export import copy_static_files
 from publish.publication import build_pubs, get_pub
-from writer.resize_image import create_cover_images
+from writer.cover import create_book_cover
 from publish.text import text_join, text_lines
 
 
@@ -50,12 +50,8 @@ def cover_script(args):
         return 'usage: pub cover write'
     pub = args[0]
     images = pub_path(pub).parent/'Images'
-    assert images.exists()
-    cover = images/'Cover.png'
-    if cover.exists():
-        print('cover:', cover)
-        create_cover_images(str(cover))
-    return 'OK'
+    create_book_cover(images)
+
 
 def create_outline(args):
     def markdown_to_outline(text):

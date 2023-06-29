@@ -15,16 +15,6 @@ def create_thumbnail(infile, outfile):
             print('Image not available for resize')
 
 
-def create_cover_images(path):
-    image = Image.open(path)
-    print(f'Image: {path} Size: {image.size[0]}x{image.size[1]}')
-    print(f'Shape: 1000x{image.size[1]*1000/image.size[0]}')
-    image = crop_image(image)
-
-    image = save_image(image, path, 1600)
-    image = save_image(image, path, 800)
-    image = save_image(image, path, 400)
-    image = save_image(image, path, 200)
 
 
 # def crop_cover_image():
@@ -39,29 +29,33 @@ def create_cover_images(path):
 #     im.save(path2)
 
 
-def crop_image(image):
+def crop_image(image, verbose):
     if image.size[1]*1000 > image.size[0]*1600:
-        print('Too Tall')
+        if verbose:
+            print('Too Tall')
         size = image.size[0], int(image.size[0]*1600/1000)
     else:
-        print('Too Wide')
+        if verbose:
+            print('Too Wide')
         size = int(image.size[1] * 1000 / 1600), image.size[1]
     offset = 0, 0
     image = image.crop(
         (offset[0], offset[1], size[0]+offset[0], size[1]+offset[1]))
-    print(f'Crop Size: {size[0]}x{size[1]}',
-          f'Shape: 1000x{int(size[1]*1000/size[0])}')
-    print(f'Crop Shape: 1000x{image.size[1]*1000/image.size[0]}')
+    if verbose:
+        print(f'Crop Size: {size[0]}x{size[1]}',
+              f'Shape: 1000x{int(size[1]*1000/size[0])}')
+        print(f'Crop Shape: 1000x{image.size[1]*1000/image.size[0]}')
     return image
 
 
-def save_image(image, path, size):
+def save_image(image, path, size, verbose):
     image = image.resize((size, int(size * 16 / 10)))
     path = path.replace('.png', f'-{size}.png')
     path = path.replace('.jpg', f'-{size}.jpg')
     image.save(path)
-    print(f'Image: {path} Size: {image.size[0]}x{image.size[1]}')
-    print(f'Shape: 1000x{image.size[1] * 1000 / image.size[0]}')
+    if verbose:
+        print(f'Image: {path} Size: {image.size[0]}x{image.size[1]}')
+        print(f'Shape: 1000x{image.size[1] * 1000 / image.size[0]}')
     return image
 
 

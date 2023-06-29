@@ -7,7 +7,6 @@ from publish.import_export import create_pub
 from publish.publication import all_pubs, save_pub_json
 from publish.models import Content, Pub
 from publish.publication import build_pubs, get_pub, get_pub_info, show_pub_details, show_pubs
-from writer.resize_image import create_cover_images
 from publish.seamanslog import random_post
 from publish.text import text_join, text_lines
 from task.models import Activity, Task, TaskType

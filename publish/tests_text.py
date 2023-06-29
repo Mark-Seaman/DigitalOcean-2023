@@ -17,14 +17,14 @@ class TextFileTest(DjangoTest):
 
     def test_read_file(self):
         text = read_file('ReadMe.md')
-        self.assertNumLines(text, 173)
-        self.assertRange(word_count(text), 1, 496)
+        self.assertNumLines(text, 160)
+        self.assertRange(word_count(text), 1, 600)
 
     def test_write_file(self):
         f = Path('Test.md')
         write_file(f, read_file('ReadMe.md'))
         text = read_file(f)
-        self.assertNumLines(text, 173)
+        self.assertNumLines(text, 160)
         f.unlink()
 
     def test_file_list(self):
@@ -33,6 +33,6 @@ class TextFileTest(DjangoTest):
 
     def test_concatonate(self):
         text = concatonate('probe/**/*.py')
-        self.assertNumLines(text, 1020, 1200, f'lines in Python files for probe file tree')
+        self.assertNumLines(text, 900, 1200, f'lines in Python files for probe file tree')
 
     

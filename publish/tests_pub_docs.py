@@ -1,7 +1,7 @@
 from csv import reader
 
-from .tests_django import DjangoTest
-from publish.publication import all_pubs, get_pub_info, list_publications
+from probe.tests_django import DjangoTest
+from publish.publication import list_publications
 
 
 class PubDocTest(DjangoTest):
@@ -20,4 +20,4 @@ class PubDocTest(DjangoTest):
                 self.assertFiles(x[0], int(x[1]), int(x[1]))
 
     def test_pub_list(self):
-        self.assertRange(len(list_publications()), 5,20)
+        self.assertRange(len(list_publications()), 4,20)

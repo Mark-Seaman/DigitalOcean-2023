@@ -7,7 +7,7 @@ from django.template.loader import render_to_string
 from django.utils.timezone import localdate
 
 from .ai import ghost_prompt
-from .cover import write_cover
+from writer.cover import write_cover
 from .files import read_file, write_file
 from .management.commands.edit import edit_file
 from .models import Content

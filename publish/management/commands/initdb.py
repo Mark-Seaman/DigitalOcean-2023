@@ -2,7 +2,7 @@ from django.core.management.base import BaseCommand
 from django.contrib.auth import get_user_model
 
 from publish.book import create_all_books, import_books
-from publish.book_tools import show_book_content
+from writer.book_tools import show_book_content
 from course.content import show_course_content
 from course.import_export import import_all_courses
 from probe.probe import reset_tests, run_tests

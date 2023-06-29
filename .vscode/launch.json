@@ -63,7 +63,8 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "pub",
-                "build",
+                "cover",
+                "write"
             ],
             "django": true,
             "justMyCode": true

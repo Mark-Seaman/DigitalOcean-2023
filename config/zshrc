@@ -85,7 +85,6 @@ alias year='task year'
 # Workflow
 alias cprc='cp ~/Hammer/config/zshrc ~/.zshrc && . ~/.zshrc'
 alias todo='pm todo'
-alias build='cd $p && pm build'
 alias epub='d $w && open textbook.epub'
 alias dropbox='cp $w/textbook.epub ~/Dropbox/Stacie-Mark/PythonWebApps'
 alias treed='tree -d -L 3'

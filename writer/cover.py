@@ -4,7 +4,8 @@ from pathlib import Path
 from django.template.loader import render_to_string
 from PIL import Image
 
-from .files import read_file, read_json, write_json
+from publish.files import read_file, read_json, write_json
+
 from .resize_image import crop_image, save_image
 
 

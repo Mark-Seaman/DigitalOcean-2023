@@ -1,10 +1,10 @@
 from pathlib import Path
 
-from .document import document_body
-from .files import read_file, write_file
-from .models import Content, Pub
+from ..publish.document import document_body
+from ..publish.files import read_file, write_file
+from ..publish.models import Content, Pub
 from .resize_image import create_cover_images
-from .text import text_lines, word_count
+from ..publish.text import text_lines, word_count
 
 # def book_outline(book):
 #     outline = ""

@@ -8,14 +8,14 @@ from django.utils.timezone import localdate
 
 from writer.cover import write_cover
 
-from ..publish.ai import ghost_prompt
-from ..publish.files import read_file, write_file
-from ..publish.management.commands.edit import edit_file
-from ..publish.models import Content
-from ..publish.publication import get_pub, show_pub_words
-from ..publish.seamanslog import create_toot_file, random_article
-from ..publish.slides import create_slides, markdown, plant, write_workshop
-from ..publish.text import text_lines
+from publish.ai import ghost_prompt
+from publish.files import read_file, write_file
+from publish.management.commands.edit import edit_file
+from publish.models import Content
+from publish.publication import get_pub, show_pub_words
+from publish.seamanslog import create_toot_file, random_article
+from publish.slides import create_slides, markdown, plant, write_workshop
+from publish.text import text_lines
 
 
 def write_blog(args=[]):

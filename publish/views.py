@@ -72,7 +72,7 @@ class PubListView(TemplateView):
         return kwargs
 
 class PubDetailView(TemplateView):
-    template_name = "pub/cover.html"
+    template_name = "pub_script/cover.html"
 
     def get_context_data(self, **kwargs):
         refresh_pub_from_git()

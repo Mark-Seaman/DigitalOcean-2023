@@ -34,10 +34,10 @@ def pubs():
     # create_cover_images(path)
 
     # Do complete rebuild
-    # build_pubs(False, True)
-    # print(show_pubs())
+    build_pubs(True, True)
+    print(show_pubs())
 
-    create_pub('write', 'Documents/Shrinking-World-Pubs/write/Pub', True)
+    # create_pub('ai', 'Documents/Shrinking-World-Pubs/ai/Pub', True)
 
 
 def tests():

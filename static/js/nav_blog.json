@@ -1,8 +1,8 @@
 {
     "menu": {
         "title": [
-            "Books & Blogs",
-            "/write/Index"
+            "Shrinking World",
+            "/"
         ],
         "items": [
             [
@@ -18,16 +18,16 @@
                 "/pubs/blog"
             ],
             [
-                "Mark Seaman",
-                "/marks/contact"
-            ],
-            [
-                "Shrinking World",
-                "/tech/shrinkingworld-Services"
+                "Unpublished",
+                "/pubs/private"
             ],
             [
                 "Edit Content",
                 "/writer/"
+            ],
+            [
+                "Mark Seaman",
+                "/marks/contact"
             ]
         ]
     }

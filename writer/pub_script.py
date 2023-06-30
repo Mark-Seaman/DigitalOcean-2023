@@ -21,7 +21,7 @@ def ai_script(args):
 
 
 def build_script(args):
-    text = build_pubs(True, True)
+    text = build_pubs(False, False)
     return f'Build all pubs: {text}'
 
 
@@ -50,7 +50,7 @@ def cover_script(args):
         return 'usage: pub cover write'
     pub = args[0]
     images = pub_path(pub).parent/'Images'
-    create_book_cover(images)
+    return create_book_cover(images)
 
 
 def create_outline(args):

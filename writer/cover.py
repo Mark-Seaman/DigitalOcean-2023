@@ -19,7 +19,7 @@ def create_book_cover(images):
         create_cover_images(str(cover), verbose)
         cover1600 = images/'Cover-1600.png'
         assert cover1600.exists()
-    return 'OK'
+    return str(cover1600)
 
 
 def create_cover_html(path, js):

@@ -18,7 +18,15 @@
                 "/pubs/blog"
             ],
             [
-                "Contact",
+                "Unpublished",
+                "/pubs/private"
+            ],
+            [
+                "Edit Content",
+                "/writer/"
+            ],
+            [
+                "Mark Seaman",
                 "/marks/contact"
             ]
         ]

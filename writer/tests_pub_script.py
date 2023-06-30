@@ -13,31 +13,31 @@ class PubScriptTest(DjangoTest):
         self.assertEqual(3, 3)
 
     def test_create_directory(self):
-        x = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/GhostWriter/AI/test/test/delete-me'
+        x = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/ghost/AI/test/test/delete-me'
         create_directory(x)
         self.assertTrue(Path(x).exists())
 
     def test_pub_files(self):
-        directory = pub_path('GhostWriter')
+        directory = pub_path('ghost')
         self.assertEqual(str(
-            directory), '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/GhostWriter/AI')
+            directory), '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/ghost/AI')
         self.assertFiles(directory, 14, 40)
 
     def test_project(self):
-        pub_script(['project', 'GhostWriter'])
-        js = (pub_path('GhostWriter').parent)/'pub.json'
+        pub_script(['project', 'ghost'])
+        js = (pub_path('ghost').parent)/'pub.json'
         self.assertFileLines(js, 20, 24)
 
     def test_chapter(self):
-        pub_script(['chapter', 'GhostWriter', 'GhostWriter'])
-        self.assertFile(pub_path('GhostWriter', 'GhostWriter'))
+        pub_script(['chapter', 'ghost', 'ghost'])
+        self.assertFile(pub_path('ghost', 'ghost'))
 
     def test_doc(self):
-        pub_script(['doc', 'GhostWriter', 'GhostWriter', 'B-Ideas.md'])
+        pub_script(['doc', 'ghost', 'ghost', 'B-Ideas.md'])
         self.assertFileLines(
-            pub_path('GhostWriter', 'GhostWriter', 'B-Ideas.txt'), 7, 24)
+            pub_path('ghost', 'ghost', 'B-Ideas.txt'), 7, 24)
         self.assertFileLines(
-            pub_path('GhostWriter', 'GhostWriter', 'B-Ideas.ai'), 12, 24)
+            pub_path('ghost', 'ghost', 'B-Ideas.ai'), 12, 24)
     
     def test_new_doc(self):
         pub_script(['doc', 'ai', 'Creative', 'CreativeWorkflow.md'])
@@ -45,17 +45,17 @@ class PubScriptTest(DjangoTest):
 
     # def test_outline(self):
     #     text = pub_script_command(
-    #         'outline', ['GhostWriter', 'Micropublishing', 'C-Outline.md'])
+    #         'outline', ['ghost', 'Micropublishing', 'C-Outline.md'])
     #     self.assertNumLines(text, 6, 6)
     #     # print(text)
 
     # def test_chatter(self):
-    #     output = 'GhostWriter/AI/Pub/Outline.md'
-    #     context = 'GhostWriter/AI/Pub/Persona.md'
-    #     content = 'GhostWriter/AI/Pub/TOC.md'
-    #     task = 'GhostWriter/AI/Pub/Outline.ai'
+    #     output = 'ghost/AI/Pub/Outline.md'
+    #     context = 'ghost/AI/Pub/Persona.md'
+    #     content = 'ghost/AI/Pub/TOC.md'
+    #     task = 'ghost/AI/Pub/Outline.ai'
     #     task = None   # Disable the AI API call
-    #     answer = "Prompt: output=GhostWriter/AI/Pub/Outline.md task=None prompt=None content,context=['GhostWriter/AI/Pub/Persona.md', 'GhostWriter/AI/Pub/TOC.md']"
+    #     answer = "Prompt: output=ghost/AI/Pub/Outline.md task=None prompt=None content,context=['ghost/AI/Pub/Persona.md', 'ghost/AI/Pub/TOC.md']"
     #     self.assertEqual(do_gpt_task([output, task, context, content]), answer)
 
     # def test_chatgpt(self):
@@ -66,7 +66,7 @@ class PubScriptTest(DjangoTest):
 
     # def test_outline_expander(self):
     #     print(pub_script_command(
-    #         'expand', ['GhostWriter', 'Chapter2', 'Chapter2.md']))
+    #         'expand', ['ghost', 'Chapter2', 'Chapter2.md']))
 
 
 def list_files(pub, glob):
@@ -75,10 +75,10 @@ def list_files(pub, glob):
 
 
 def ghost_writer_files(glob):
-    return len(list_files('GhostWriter', glob))
+    return len(list_files('ghost', glob))
 
 
 def ghost_writer_chapters():
-    chapters = doc_view_data(pub='GhostWriter')['chapters']
+    chapters = doc_view_data(pub='ghost')['chapters']
     return len(chapters)
 

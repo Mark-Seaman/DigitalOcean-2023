@@ -40,6 +40,7 @@ export EDITOR="$sublime/subl -w"
 # Pub Script
 alias build='pm pub build'
 alias project='pm pub project'
+alias cover='pm pub cover'
 alias chapter='pm pub chapter'
 alias create='pm pub create'
 alias doc='pm pub doc'

@@ -33,11 +33,10 @@ def pubs():
     # scale_image(path, 1600, 2560)
     # create_cover_images(path)
 
-    # Do complete rebuild
-    build_pubs(True, True)
-    print(show_pubs())
+    create_pub('io', 'Documents/Shrinking-World-Pubs/io/Pub', True)
+    # build_pubs(True, True)
+    # print(show_pubs())
 
-    # create_pub('ai', 'Documents/Shrinking-World-Pubs/ai/Pub', True)
 
 
 def tests():

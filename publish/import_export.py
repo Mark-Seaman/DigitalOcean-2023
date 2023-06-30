@@ -85,13 +85,13 @@ def copy_static_files(pub, verbose):
             print(f"Old Pub: {pub}")
         return
     source = doc_path.parent/'Images'
-    dest = Path(pub.image_path[1:])
-    assert source.exists()
-    dest.mkdir(exist_ok=True, parents=True)
-    for f in source.iterdir():
-        if verbose:
-            print(f"COPY FILES {pub.name} {f} {dest/f.name}")
-        copyfile(f, dest/f.name)
+    if source.exists():
+        dest = Path(pub.image_path[1:])
+        dest.mkdir(exist_ok=True, parents=True)
+        for f in source.iterdir():
+            if verbose:
+                print(f"COPY FILES {pub.name} {f} {dest/f.name}")
+            copyfile(f, dest/f.name)
 
 
 def pub_json_path(name, doc_path):

@@ -6,24 +6,24 @@
     <style>
         .book-cover {
             position: relative;
-            width: 100%;
-            max-width: 800px;
+            width: 700px;
+            height: 1120px;
             margin: 0 auto;
             text-align: center;
         }
 
         .book-cover img {
-            width: 100%;
-            height: auto;
+            width: 700px;
+            height: 1120px;
         }
 
         .book-overlay {
             position: absolute;
-            top: 30%;
+            top: 10%;
             left: 10%;
             width: 80%;
             height: 30%;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.6);
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -38,7 +38,10 @@
         }
 
         .book-author {
-            font-size: 1.5rem;
+            position: absolute;
+            top: 80%;
+            left: 10%;
+            font-size: 4rem;
             color: white;
             margin-bottom: 0.5rem;
         }
@@ -56,7 +59,7 @@
         <img src="./CoverImage.png" alt="{{ title }}">
         <div class="book-overlay">
             <h1 class="book-title">{{ title }}</h1>
-            <p class="book-tagline">{{ tagline }}</p>
+            <p class="book-tagline">{{ subtitle }}</p>
             <h2 class="book-author">{{ author }}</h2>
         </div>
     </div>

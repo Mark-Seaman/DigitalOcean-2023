@@ -11,30 +11,34 @@ from .resize_image import crop_image, save_image
 
 def create_book_cover(images):
     verbose = False
+    images.mkdir(exist_ok=True)
     assert images.exists()
+
+    # Downsample the thumbnails
     cover = images/'Cover.png'
     if cover.exists():
         if verbose: 
             print('cover:', cover)
-        create_cover_images(str(cover), verbose)
+        create_cover_thumbnails(str(cover), verbose)
         cover1600 = images/'Cover-1600.png'
         assert cover1600.exists()
-    return str(cover1600)
+        return str(cover1600)
 
+    # Create the artwork image
+    image = images/'CoverImage.jpeg'
+    if not image.exists():
+        return 'Save cover artwork as "CoverImage.png"'
+    
+    # Create the HTML cover - Render the cover with settings
+    html = images/'Cover.html'
+    js = read_json(images.parent/'pub.json')
+    create_cover_image(images/'CoverImage.jpeg')
+    text = render_to_string('pub_script/cover_design.html', js)
+    html.write_text(text)
+    return 'Do a screen capture and save as "Cover.png"'
+    
 
-def create_cover_html(path, js):
-    if path.exists():
-        return
-    data = read_json(js)
-    create_cover_image(path, **data)
-    text = render_to_string('pub/cover_design.html', data)
-    cover = path/'Cover.html'
-    cover.write_text(text)
-    print(data)
-    print(cover)
-
-
-def create_cover_images(path, verbose):
+def create_cover_thumbnails(path, verbose):
     image = Image.open(path)
     if verbose:
         print(f'Image: {path} Size: {image.size[0]}x{image.size[1]}')
@@ -47,21 +51,13 @@ def create_cover_images(path, verbose):
     image = save_image(image, path, 200, verbose)
 
 
-def create_cover_image(path, **kwargs):
+def create_cover_image(artwork, **kwargs):
     width = kwargs.get('width', 1000)
     height = kwargs.get('height', 1600)
-    cover = path/'CoverImage.png'
-    if not cover.exists():
-        print(kwargs)
-        artwork = kwargs.get('cover_image')
-        if artwork:
-            artwork = Path(path)/artwork
-            if artwork.exists():
-                image = Image.open(artwork)
-                image = reshape_image(image, width, height)
-                image.save(cover)
-        else:
-            print(f'FILE NOT FOUND -- {artwork}')
+    assert artwork.exists()
+    image = Image.open(artwork)
+    image = reshape_image(image, width, height)
+    image.save(artwork)
 
 
 def scale_image(path, width, height):

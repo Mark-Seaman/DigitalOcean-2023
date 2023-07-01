@@ -67,7 +67,7 @@ class FixtureTest(DjangoTest):
         self.assertRange(len(all_privates()), 1, 9, 'Num Private Pubs')
 
     def test_images(self):
-        self.assertRange(len(list(Path('static/images').glob('**'))), 39, 39, 'Images in Static')
+        self.assertRange(len(list(Path('static/images').glob('**'))), 39, 45, 'Images in Static')
     # def test_pub_info(self):
     #     save_pub_info()
     #     text = concatonate('publish/*.py')

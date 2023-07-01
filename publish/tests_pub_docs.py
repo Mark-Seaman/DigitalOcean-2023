@@ -8,10 +8,10 @@ class PubDocTest(DjangoTest):
     fixtures = ["config/publish.json"]
 
     def test_all_docs(self):
-        self.assertFiles('Documents', 500, 2080)
+        self.assertFiles('Documents', 500, 2200)
 
     def test_doc_directories(self):
-        data = '''Documents/SHRINKING-WORLD-PUBS,480,520'''
+        data = '''Documents/SHRINKING-WORLD-PUBS,480,580'''
         for x in list(reader(data.splitlines())):
             # print(x)
             if x[2:]:

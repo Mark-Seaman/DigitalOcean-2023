@@ -88,7 +88,7 @@ def copy_static_files(pub, verbose):
             print(f"Old Pub: {pub}")
         return
     source = doc_path.parent/'Images'
-    if source.exists():
+    if source.exists() and pub.image_path:
         dest = Path(pub.image_path[1:])
         dest.mkdir(exist_ok=True, parents=True)
         for f in source.iterdir():

@@ -29,15 +29,15 @@ class PubScriptTest(DjangoTest):
         self.assertFileLines(js, 20, 24)
 
     def test_chapter(self):
-        pub_script(['chapter', 'ghost', 'ghost'])
-        self.assertFile(pub_path('ghost', 'ghost'))
+        pub_script(['chapter', 'ghost', 'GhostWriter'])
+        self.assertFile(pub_path('ghost', 'GhostWriter'))
 
     def test_doc(self):
-        pub_script(['doc', 'ghost', 'ghost', 'B-Ideas.md'])
+        pub_script(['doc', 'ghost', 'GhostWriter', 'B-Ideas.md'])
         self.assertFileLines(
-            pub_path('ghost', 'ghost', 'B-Ideas.txt'), 7, 24)
+            pub_path('ghost', 'GhostWriter', 'B-Ideas.txt'), 7, 24)
         self.assertFileLines(
-            pub_path('ghost', 'ghost', 'B-Ideas.ai'), 12, 24)
+            pub_path('ghost', 'GhostWriter', 'B-Ideas.ai'), 12, 24)
     
     def test_new_doc(self):
         pub_script(['doc', 'ai', 'Creative', 'CreativeWorkflow.md'])

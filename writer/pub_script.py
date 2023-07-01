@@ -129,7 +129,7 @@ def doc_text(pub, chapter, doc):
 
 
 def doc_view_data(**kwargs):
-    pub = kwargs.get('pub', 'GhostWriter')
+    pub = kwargs.get('pub', 'ghost')
     chapter = kwargs.get('chapter')
     doc = kwargs.get('doc')
 
@@ -150,12 +150,11 @@ def doc_view_data(**kwargs):
     return kwargs
 
 
-def edit_doc_script(args):
-    pub, chapter, doc = args[:3]
+def edit_doc_script(pub, chapter, doc):
     path = pub_path(pub, chapter, doc)
     files = pub_doc_files(path)
     edit_files(files)
-    return path
+    return str(path)
 
 
 def execute_pub_script(args):
@@ -250,8 +249,7 @@ def pub_edit(**kwargs):
     pub = kwargs.get('pub')
     chapter = kwargs.get('chapter')
     doc = kwargs.get('doc')
-    args = f'edit {pub} {chapter} {doc}'
-    edit_doc_script(args)
+    edit_doc_script(pub, chapter, doc,)
     url = pub_url(pub, chapter, doc)
     return url
 
@@ -302,7 +300,7 @@ def pub_script(command_args):
     elif command == 'doc':
         output = doc_script(args)
     elif command == 'edit':
-        output = edit_doc_script(args)
+        output = edit_doc_script(args[0], args[1], args[2])
     # elif command == 'expand':
     #     output = 'not implemented'
     elif command == 'files':

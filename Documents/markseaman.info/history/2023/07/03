@@ -8,9 +8,13 @@ Write 2
 
     AI - Organize
 
-ProMETA 0
+ProMETA 7
 
-
+    shell history expansion
+    create general export
+    create general import
+    create general test for I/O
+    generate fake data for I/O on User, Student
 
 Teach 0
 Grow 0

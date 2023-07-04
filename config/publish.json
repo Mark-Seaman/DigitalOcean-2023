@@ -14,7 +14,7 @@
         "domain": null,
         "url": "/ai",
         "logo": null,
-        "words": 8210,
+        "words": 4335,
         "cover_image": "/static/images/Shrinking-World-Pubs/ai/Cover-800.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -537,48 +537,6 @@
         "index_folders": false,
         "index_months": false,
         "simple_index": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 220920,
-    "fields": {
-        "blog": 2936,
-        "order": 0,
-        "title": "AI Playbook",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/ai/Pub/Index.md",
-        "folder": 0,
-        "words": 58,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 220927,
-    "fields": {
-        "blog": 2936,
-        "order": 4,
-        "title": "Build Your Custom Playbook",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/ai/Pub/BuildPlaybook.md",
-        "folder": 0,
-        "words": 5,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 220928,
-    "fields": {
-        "blog": 2936,
-        "order": 5,
-        "title": "Getting Started with ChatGPT",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/ai/Pub/GettingStarted.md",
-        "folder": 0,
-        "words": 105,
-        "retain_object": false
     }
 },
 {
@@ -17929,20 +17887,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 222271,
-    "fields": {
-        "blog": 2936,
-        "order": 1,
-        "title": "AI Coaching Services",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/ai/Pub/AICoach.md",
-        "folder": 0,
-        "words": 346,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 222272,
     "fields": {
         "blog": 2936,
@@ -17952,34 +17896,6 @@
         "path": "Documents/Shrinking-World-Pubs/ai/Pub/AIPlaybook.md",
         "folder": 0,
         "words": 677,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 222273,
-    "fields": {
-        "blog": 2936,
-        "order": 3,
-        "title": "How Autism and AI Work for Me",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/ai/Pub/Autism.md",
-        "folder": 0,
-        "words": 526,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 222274,
-    "fields": {
-        "blog": 2936,
-        "order": 8,
-        "title": "Common Mistakes When Using AI",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/ai/Pub/MistakesPost.md",
-        "folder": 0,
-        "words": 365,
         "retain_object": false
     }
 },
@@ -18008,6 +17924,34 @@
         "path": "Documents/Shrinking-World-Pubs/ai/Pub/Write.md",
         "folder": 0,
         "words": 810,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 222277,
+    "fields": {
+        "blog": 2936,
+        "order": 3,
+        "title": "Writer's Greenhouse",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/ai/Pub/Greenhouse.md",
+        "folder": 0,
+        "words": 795,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 222278,
+    "fields": {
+        "blog": 2936,
+        "order": 11,
+        "title": "AI Coaching Services",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/ai/Pub/AICoach.md",
+        "folder": 0,
+        "words": 346,
         "retain_object": false
     }
 }

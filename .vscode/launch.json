@@ -63,8 +63,10 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "pub",
-                "cover",
-                "io"
+                "ai",
+                "ai",
+                "Organize",
+                "Blog.md"
             ],
             "django": true,
             "justMyCode": true

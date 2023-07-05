@@ -47,6 +47,7 @@ alias doc='pm pub doc'
 alias edit='pm pub edit'
 alias files='pm pub files'
 alias publish='pm pub publish'
+alias ai='pm pub ai'
 
 # Project Scripts
 alias activity='week activity'

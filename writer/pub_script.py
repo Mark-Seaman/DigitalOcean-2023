@@ -9,8 +9,9 @@ from publish.document import title
 from publish.files import create_directory, read_json
 from publish.import_export import copy_static_files
 from publish.publication import build_pubs, get_pub
-from writer.cover import create_book_cover
 from publish.text import text_join, text_lines
+
+from .cover import create_book_cover
 
 
 def ai_script(args):
@@ -289,6 +290,11 @@ def pub_script(command_args):
         return "Invalid command: {}".format(command_args) + usage
     command = command_args[0]
     args = command_args[1:]
+    if command == 'ai':
+        from .ai import pub_ai
+        if not args[2:]:
+            return 'usage: pub ai ghost GhostWriter Draft.md'
+        pub_ai(pub=args[0], chapter=args[1], doc=args[2])
     if command == 'build':
         output = build_script(args)
     elif command == 'project':

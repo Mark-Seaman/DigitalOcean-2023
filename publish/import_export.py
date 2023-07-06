@@ -81,7 +81,7 @@ def create_pub(pub_name, pub_path, verbose=False):
     return pub
 
 
-def copy_static_files(pub, verbose):
+def copy_static_files(pub, verbose=False):
     doc_path = Path(pub.doc_path)
     if doc_path.name != 'Pub':
         if verbose:

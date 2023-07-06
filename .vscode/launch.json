@@ -63,9 +63,9 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "pub",
+                "publish",
                 "ai",
-                "ai",
-                "Organize",
+                "CoffeeShop",
                 "Blog.md"
             ],
             "django": true,

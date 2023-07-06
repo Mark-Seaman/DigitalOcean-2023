@@ -1,6 +1,7 @@
 from os import getenv, system
 from pathlib import Path
 from re import match
+from shutil import copyfile
 from django.template.loader import render_to_string
 
 from markdown import markdown
@@ -297,8 +298,6 @@ def pub_script(command_args):
         pub_ai(pub=args[0], chapter=args[1], doc=args[2])
     if command == 'build':
         output = build_script(args)
-    elif command == 'project':
-        output = project_script(args)
     elif command == 'chapter':
         output = chapter_script(args)
     elif command == 'cover':
@@ -313,6 +312,8 @@ def pub_script(command_args):
         output = files_script(args)
     elif command == 'outline':
         output = create_outline(args)
+    elif command == 'project':
+        output = project_script(args)
     elif command == 'publish':
         output = publish_script(args)
     elif command == 'script':
@@ -335,15 +336,20 @@ def pub_url(pub=None, chapter=None, doc=None):
 
 
 def publish_script(args):
-    if not args:
-        return 'usage: publish pub-name'
+    if not args[2:]:
+        return 'usage: publish pub-name chapter doc'
     pub_name = args[0]
     pub = get_pub(pub_name)
     text = f'\npublish {pub_name}\n'
     images = Path(pub.doc_path).parent/'Images'
     if images.exists():
         text += f'copy the "{pub.image_path}" directory from "{images}"\n'
-        copy_static_files(pub)
+        copy_static_files(pub, True)
+    source = pub_path(args[0], args[1], args[2])
+    dest = Path(pub.doc_path)/(args[1]+'.md')
+    copyfile(source, dest)
+    files = [str(dest.parent)]
+    edit_files(files)
     text += 'rebuild the Pub/Index.md file to match the new contents from "_content.csv" \n'
     return text
 

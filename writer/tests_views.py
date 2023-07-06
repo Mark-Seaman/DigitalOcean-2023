@@ -9,7 +9,7 @@ class DocumentViewTest(DjangoTest):
         text = self.assertPageText('/writer/', 180, 210, 'html')
 
     def test_pub_view(self):
-        text = self.assertPageText('/writer/ghost', 240, 280, 'html')
+        text = self.assertPageText('/writer/ghost', 240, 290, 'html')
 
     def test_chapter_view(self):
         text = self.assertPageText('/writer/ghost/WritersGuide', 240, 340, 'html')

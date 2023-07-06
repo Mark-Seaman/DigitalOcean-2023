@@ -139,6 +139,15 @@ def vc_pull(args):
         git checkout main &&
         git pull &&
         git push
+
+        cd ~/Github/GhostWriter &&
+        git pull
+        
+        cd ~/Github/ProMETA &&
+        git pull
+        
+        cd ~/Hammer/Documents/Shrinking-World-Pubs &&
+        git pull
     """
     system(cmd)
 
@@ -151,8 +160,10 @@ def vc_push():
         git merge main -m "Main Merge" &&
         git push &&
         git checkout main &&
+        
         cd ~/Hammer/Documents/Shrinking-World-Pubs &&
         git push &&
+        
         # Show deployment status
         open https://cloud.digitalocean.com/apps/260d8b80-b11f-4e57-a38d-dea84b9c2396/overview
     """

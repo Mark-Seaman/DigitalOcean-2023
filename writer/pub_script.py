@@ -269,7 +269,11 @@ def pub_link(pub, chapter=None):
 
 def pub_list():
     path = pub_path()
-    return [pub_link(pub.parent.name) for pub in path.glob('*/pub.json') if pub.parent.is_dir()]
+    pubs = []
+    for pub in path.glob('*/pub.json'):
+        if (pub.parent/'AI').is_dir() and pub.parent.parent.name == "Shrinking-World-Pubs":
+            pubs.append(pub_link(pub.parent.name))
+    return pubs
 
 
 def pub_path(pub=None, chapter=None, doc=None):

@@ -14,7 +14,7 @@
         "domain": null,
         "url": "/ai",
         "logo": null,
-        "words": 4335,
+        "words": 7616,
         "cover_image": "/static/images/Shrinking-World-Pubs/ai/Cover-800.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -17952,6 +17952,48 @@
         "path": "Documents/Shrinking-World-Pubs/ai/Pub/AICoach.md",
         "folder": 0,
         "words": 346,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 222279,
+    "fields": {
+        "blog": 2936,
+        "order": 1,
+        "title": "Creative Process of Writing",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/ai/Pub/CreativeProcess.md",
+        "folder": 0,
+        "words": 2052,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 222280,
+    "fields": {
+        "blog": 2936,
+        "order": 4,
+        "title": "How to Organize Your Thoughts and Write Efficiently Using AI",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/ai/Pub/Organize.md",
+        "folder": 0,
+        "words": 609,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 222281,
+    "fields": {
+        "blog": 2936,
+        "order": 5,
+        "title": "Writing Techniques",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/ai/Pub/CoffeeShop.md",
+        "folder": 0,
+        "words": 620,
         "retain_object": false
     }
 }

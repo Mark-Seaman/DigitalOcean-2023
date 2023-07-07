@@ -12,7 +12,7 @@ from publish.text import text_join, text_lines
 from task.models import Activity, Task, TaskType
 from task.task import task_command
 from task.todo import edit_todo_list
-from writer.pub_script import pub_script
+from writer.pub_script import pub_list, pub_script
 
 from .models import Probe, TestResult
 from .probe_images import test_image_pages
@@ -27,13 +27,14 @@ def quick_test():
 
 def pubs():
     # Run pub scripts:
+    print(pub_list())
 
     # Create Cover Images
     # path = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/poem/Images/Cover.png'
     # scale_image(path, 1600, 2560)
     # create_cover_images(path)
 
-    create_pub('ai', 'Documents/Shrinking-World-Pubs/ai/Pub', True)
+    # create_pub('ai', 'Documents/Shrinking-World-Pubs/ai/Pub', True)
     # build_pub_index(get_pub('ai'), True)
     # build_pubs(True, True)
     # print(show_pubs())

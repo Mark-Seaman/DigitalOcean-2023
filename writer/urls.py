@@ -1,11 +1,13 @@
 from django.urls import path
 
-from writer.views import ApplyAiView, DocumentEditView, DocumentView, ProjectAddView
+from writer.views import (ApplyAiView, ChapterAddView, DocumentEditView,
+                          DocumentView, ProjectAddView)
 
 urlpatterns = [
 
     # Pub Script
     path('project/add', ProjectAddView.as_view()),
+    path('chapter/add', ChapterAddView.as_view()),
 
     # Pub Writer Views
     path("", DocumentView.as_view()),

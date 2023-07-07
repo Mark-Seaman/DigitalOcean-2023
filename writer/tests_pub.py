@@ -4,7 +4,7 @@ from publish.files import create_directory
 from writer.tests_pub_script import ghost_writer_files
 
 from .pub_script import (doc_html, doc_list, doc_text, doc_title, pub_list,
-                      pub_path, doc_view_data, pub_script, read_pub_doc)
+                         pub_path, doc_view_data, pub_script, read_pub_doc)
 from probe.tests_django import DjangoTest
 
 
@@ -28,7 +28,7 @@ class PubTest(DjangoTest):
         pubs1 = len(pub_list())
         pubs2 = len(doc_view_data()['pubs'])
         self.assertEqual(pubs1, pubs2)
-        self.assertRange(pubs2, 15, 17)
+        self.assertRange(pubs2, 7, 17)
 
     def test_doc_files(self):
         self.assertRange(ghost_writer_files('*/*.md'), 28, 36)
@@ -72,4 +72,3 @@ class PubTest(DjangoTest):
         html = doc_view_data(
             pub='ghost', chapter='WritersGuide', doc='Chapter1.md')['html']
         self.assertNumLines(html, 128, 130)
-

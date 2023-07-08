@@ -1,9 +1,10 @@
 {
     "[python]": {
-        "editor.defaultFormatter": "ms-python.python"
+        "editor.defaultFormatter": "ms-python.autopep8"
     },
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
     "editor.codeActionsOnSave": {}
+    // "python.formatting.provider": "none"
 }

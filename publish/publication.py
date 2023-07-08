@@ -98,6 +98,7 @@ def doc_view_context(**kwargs):
 
 
 def get_pub(name):
+    print('get_pub: ', name)
     return Pub.objects.get(name=name)
 
 

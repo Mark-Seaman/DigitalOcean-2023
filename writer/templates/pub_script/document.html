@@ -3,6 +3,28 @@
 
 {% block content %}
 
+<!-- <div>
+    <div class="card m-2">
+        <div class="card-header bg-success text-light">
+            New Content
+        </div>
+        <div class="card-body bg-light text-dark">
+
+            {% if form.non_field_errors %}
+            <p>{{ form.non_field_errors }}</p>
+            {% endif %}
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button class="btn btn-primary m-2">Create Pub Content</button>
+            </form> 
+            <a href="add" class="btn  btn-success">Add New Content</a>
+
+        </div>
+    </div>
+
+</div> -->
+
 <div class="row">
 
     {% if doc %}
@@ -43,7 +65,7 @@
                         </li>
                         {% endfor %}
                     </ul>
-                    <a class="btn btn-success" href="/writer/project/add">Add Project</a>
+                    <a class="btn btn-success" href="/writer/add">Add Project</a>
                 </div>
             </div>
         </div>
@@ -66,6 +88,8 @@
                         </li>
                         {% endfor %}
                     </ul>
+                    <a class="btn btn-success" href="add">Add Chapter</a>
+
                 </div>
             </div>
         </div>
@@ -88,6 +112,7 @@
                         </li>
                         {% endfor %}
                     </ul>
+                    <a class="btn btn-success" href="{{ chapter }}/add">Add Revision</a>
                 </div>
             </div>
         </div>
@@ -99,7 +124,7 @@
     {% if ai or human %}
     <div class="col-lg">
         <div>
-            <a class="btn btn-primary" href="/writer/{{ pub }}/{{ chapter }}/New.md/">New Revision</a>
+            <!-- <a class="btn btn-primary" href="/writer/{{ pub }}/{{ chapter }}/New.md/">New Revision</a> -->
             <a class="btn btn-primary" href="/writer/{{ pub }}/{{ chapter }}/{{ doc }}/">Edit Files</a>
             <a class="btn btn-primary" href="/writer/{{ pub }}/{{ chapter }}/{{ doc }}/">Publish Chapter</a>
         </div>

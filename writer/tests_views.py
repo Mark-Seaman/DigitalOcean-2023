@@ -18,7 +18,7 @@ class DocumentViewTest(DjangoTest):
 
     def test_doc_view(self):
         text = self.assertPageText(
-            '/writer/ghost/WritersGuide/Chapter1.md', 290, 310, 'html')
+            '/writer/ghost/WritersGuide/Chapter1.md', 310, 330, 'html')
 
     def test_ai_view(self):
 

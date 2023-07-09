@@ -256,6 +256,15 @@ def pub_edit(**kwargs):
     return url
 
 
+def pub_publish(**kwargs):
+    pub = kwargs.get('pub')
+    chapter = kwargs.get('chapter')
+    doc = kwargs.get('doc')
+    publish_script([pub, chapter, doc])
+    url = pub_url(pub, chapter, doc)
+    return url
+
+
 def pub_link(pub, chapter=None):
     if chapter:
         url = f'/writer/{pub}/{chapter}'

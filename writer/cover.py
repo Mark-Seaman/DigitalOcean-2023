@@ -10,17 +10,15 @@ from .resize_image import crop_image, save_image
 
 
 def create_book_cover(images):
-    verbose = False
+    verbose = True
     images.mkdir(exist_ok=True)
     assert images.exists()
 
     # Downsample the thumbnails
     cover = images/'Cover.png'
-    if cover.exists():
-        if verbose: 
-            print('cover:', cover)
+    cover1600 = images/'Cover-1600.png'
+    if cover.exists() and not cover1600.exists():
         create_cover_thumbnails(str(cover), verbose)
-        cover1600 = images/'Cover-1600.png'
         assert cover1600.exists()
         return str(cover1600)
 
@@ -41,6 +39,7 @@ def create_book_cover(images):
 def create_cover_thumbnails(path, verbose):
     image = Image.open(path)
     if verbose:
+        print('cover downsample:', path)
         print(f'Image: {path} Size: {image.size[0]}x{image.size[1]}')
         print(f'Shape: 1000x{image.size[1]*1000/image.size[0]}')
     image = crop_image(image, verbose)

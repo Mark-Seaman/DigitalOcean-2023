@@ -3,7 +3,7 @@ from django.views.generic import RedirectView, TemplateView
 from django.views.generic.edit import FormView
 
 from .ai import pub_ai
-from .pub_script import (chapter_script, doc_script, doc_view_data, edit_doc_script, project_script, pub_edit, pub_script,
+from .pub_script import (chapter_script, doc_script, doc_view_data, edit_doc_script, project_script, pub_edit, pub_publish, pub_script,
                          pub_url)
 
 
@@ -62,6 +62,12 @@ class DocumentEditView(RedirectView):
 
     def get_redirect_url(self, **kwargs):
         return pub_edit(**kwargs)
+
+
+class DocumentPublishView(RedirectView):
+
+    def get_redirect_url(self, **kwargs):
+        return pub_publish(**kwargs)
 
 
 class ApplyAiView(RedirectView):

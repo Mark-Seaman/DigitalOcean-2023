@@ -23,14 +23,14 @@ def create_book_cover(images):
         return str(cover1600)
 
     # Create the artwork image
-    image = images/'CoverImage.jpeg'
+    image = images/'CoverImage.jpg'
     if not image.exists():
-        return 'Save cover artwork as "CoverImage.png"'
+        return 'Save cover artwork as "CoverImage.jpg"'
     
     # Create the HTML cover - Render the cover with settings
     html = images/'Cover.html'
     js = read_json(images.parent/'pub.json')
-    create_cover_image(images/'CoverImage.jpeg')
+    create_cover_image(images/'CoverImage.jpg')
     text = render_to_string('pub_script/cover_design.html', js)
     html.write_text(text)
     return 'Do a screen capture and save as "Cover.png"'

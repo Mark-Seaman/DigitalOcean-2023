@@ -88,6 +88,7 @@ def write_blog(args=[]):
     else:
         write_pub(args)
 
+
 def edit_genetics():
     x = Path.home()/'Github/Shrinking-World-Pubs/Genetics/Book'
     y = Path('Documents/Shrinking-World-Pubs/Genetics')
@@ -159,6 +160,7 @@ def new_pub(args):
     make_dir(x/'Pub')
     write_cover([x.name])
     return x
+
 
 def render_document(**kwargs):
 
@@ -245,6 +247,21 @@ def write_blogcast(args=[]):
     f = f'{d}/{f}.md'
     write_file(f, text)
     print(text)
+
+
+def write_cover(args):
+    if args:
+        path = Path(f'Documents/Shrinking-World-Pubs/{args[0]}/Images')
+        js = path/'Cover.json'
+        if js.exists():
+            create_cover_html(path, js)
+        else:
+            data = dict(title='TITLE', tagline="TAG",
+                        author="AUTHOR", cover_image="xxx")
+            write_json(js, data)
+        scale_image(path/'Intro.png', 800, 450)
+        scale_image(path/'Overview.png', 800, 450)
+        scale_image(path/'Teacher.png', 800, 450)
 
 
 def write_masto(args=[]):

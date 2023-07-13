@@ -1,10 +1,8 @@
-from os import path
-from pathlib import Path
 
 from django.template.loader import render_to_string
 from PIL import Image
 
-from publish.files import read_file, read_json, write_json
+from publish.files import read_json
 
 from .resize_image import crop_image, save_image
 
@@ -26,7 +24,7 @@ def create_book_cover(images):
     image = images/'CoverImage.jpg'
     if not image.exists():
         return 'Save cover artwork as "CoverImage.jpg"'
-    
+
     # Create the HTML cover - Render the cover with settings
     html = images/'Cover.html'
     js = read_json(images.parent/'pub.json')
@@ -34,7 +32,7 @@ def create_book_cover(images):
     text = render_to_string('pub_script/cover_design.html', js)
     html.write_text(text)
     return 'Do a screen capture and save as "Cover.png"'
-    
+
 
 def create_cover_thumbnails(path, verbose):
     image = Image.open(path)
@@ -65,35 +63,23 @@ def scale_image(path, width, height):
     image.save(path)
 
 
-def reshape_image(image, width, height):
-    print(f'Image: {path} Size: {image.size[0]}x{image.size[1]}')
-    print(f'Shape: 1000x{int(image.size[1]*1000/image.size[0])}')
+def reshape_image(image, width, height, verbose=False):
+    if verbose:
+        print(f'Image Size: {image.size[0]}x{image.size[1]}')
+        print(f'Image Shape: 1000x{int(image.size[1]*1000/image.size[0])}')
     if image.size[1]*width > image.size[0]*height:
-        print('Too Tall')
+        if verbose:
+            print('Too Tall')
         size = image.size[0], int(image.size[0]*height/width)
     else:
-        print('Too Wide')
+        if verbose:
+            print('Too Wide')
         size = int(image.size[1] * width / height), image.size[1]
     offset = 0, 0
     image = image.crop(
         (offset[0], offset[1], size[0]+offset[0], size[1]+offset[1]))
-    print(f'Crop Size: {size[0]}x{size[1]}',
-          f'Shape: {width}x{int(size[1]*width/size[0])}')
-    print(f'Crop Shape: {width}x{image.size[1]*width/image.size[0]}')
+    if verbose:
+        print(f'Crop Size: {size[0]}x{size[1]}',
+              f'Shape: {width}x{int(size[1]*width/size[0])}')
+        print(f'Crop Shape: {width}x{image.size[1]*width/image.size[0]}')
     return image
-
-
-def write_cover(args):
-    if args:
-        path = Path(f'Documents/Shrinking-World-Pubs/{args[0]}/Images')
-        js = path/'Cover.json'
-        if js.exists():
-            create_cover_html(path, js)
-        else:
-            data = dict(title='TITLE', tagline="TAG",
-                        author="AUTHOR", cover_image="xxx")
-            write_json(js, data)
-        scale_image(path/'Intro.png', 800, 450)
-        scale_image(path/'Overview.png', 800, 450)
-        scale_image(path/'Teacher.png', 800, 450)
-

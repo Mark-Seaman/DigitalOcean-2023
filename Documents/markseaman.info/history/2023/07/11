@@ -1,12 +1,27 @@
 Tuesday
 
-Grow 0
-Church 0
-Family 0
-Write 0
-Teach 0
-Innovate 0
-ProMETA 0
-Business 0
-Fun 0
+Grow 1
 
+    set up sleep monitor
+
+Family 1
+
+    cook salmon
+    time with Stacie
+
+Write 1
+
+    organize AI Playbook
+
+ProMETA 9
+
+    build the student user experience
+    refactor views
+    create standard navbars for Student, Registrar, Admin, Professor
+    identify core functions of each role
+    learn how to build a tabular view
+    create PrometaView as a base class
+
+Fun 2
+
+    Star Trek Voyager

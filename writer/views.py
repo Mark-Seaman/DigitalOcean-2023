@@ -1,9 +1,10 @@
 from django import forms
+from django.shortcuts import redirect
 from django.views.generic import RedirectView, TemplateView
 from django.views.generic.edit import FormView
 
 from .ai import pub_ai
-from .pub_script import (chapter_script, doc_script, doc_view_data, edit_doc_script, project_script, pub_edit, pub_publish, pub_script,
+from .pub_script import (chapter_script, create_pub_content, doc_script, doc_view_data, edit_doc_script, project_script, pub_edit, pub_publish, pub_script,
                          pub_url)
 
 
@@ -39,23 +40,15 @@ class DocumentAddView(FormView):
 
     def form_valid(self, form):
         path = form.cleaned_data['content']
-        try:
-            create_pub_content(path)
-            message = f"Pub '{path}' created successfully!"
-        except OSError as e:
-            message = f"Failed to create directory: {str(e)}"
-        form.add_error(None, message)
-        return self.render_to_response(self.get_context_data(form=form))
-
-
-def create_pub_content(path):
-    args = path.split('/')
-    if args:
-        project_script(args)
-    if args[1:]:
-        chapter_script(args[:2])
-    if args[2:]:
-        doc_script(args[:3])
+        url = create_pub_content(path)
+        return redirect(url)
+        # try:
+        #     url = create_pub_content(path)
+        #     message = f"Pub '{path}' created successfully!"
+        # except OSError as e:
+        #     message = f"Failed to create directory: {str(e)}"
+        # form.add_error(None, message)
+        # return self.render_to_response(self.get_context_data(form=form))
 
 
 class DocumentEditView(RedirectView):

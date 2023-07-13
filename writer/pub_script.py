@@ -44,6 +44,7 @@ def chapter_script(args):
     pub, chapter = args
     chapter_path = pub_path(pub, chapter)
     create_directory(chapter_path)
+    doc_script([pub, chapter, 'Outline.md'])
     return f'chapter ({chapter_path})'
 
 
@@ -77,6 +78,20 @@ def create_outline(args):
     if args[3:]:
         text = extract_outline(text, args[3])
     return text
+
+
+def create_pub_content(path):
+    args = path.split('/')
+    if args[2:]:
+        doc_script(args[:3])
+        return pub_url(args[0], args[1], args[2])
+    elif args[1:]:
+        chapter_script(args[:2])
+        return pub_url(args[0], args[1])
+    elif args:
+        project_script(args)
+        return pub_url(args[0])
+    
 
 
 def doc_ai(pub, chapter, doc):
@@ -113,7 +128,6 @@ def doc_script(args, edit=False):
     if not args[2:]:
         return 'usage: doc pub-name chapter-name doc-name'
     pub, chapter, doc = args[:3]
-    chapter_script(args[:2])
     path = pub_path(pub, chapter, doc)
     for d in pub_doc_files(path):
         if not Path(d).exists():
@@ -234,6 +248,7 @@ def project_script(args):
         text += 'usage: project pub-name'
         return text
     text += make_json(args[0])
+    chapter_script([args[0], 'Index'])
     return text
 
 
@@ -254,7 +269,6 @@ def pub_edit(**kwargs):
     edit_doc_script(pub, chapter, doc,)
     url = pub_url(pub, chapter, doc)
     return url
-
 
 def pub_publish(**kwargs):
     pub = kwargs.get('pub')

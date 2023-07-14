@@ -94,7 +94,7 @@ def copy_static_files(pub, verbose=False):
         for f in source.iterdir():
             if verbose:
                 print(f"COPY FILES {pub.name} {f} {dest/f.name}")
-            if not (dest/f.name.exists()):
+            if not (dest/f.name).exists():
                 copyfile(f, dest/f.name)
 
 

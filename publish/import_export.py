@@ -19,7 +19,7 @@ def create_pub(pub_name, pub_path, verbose=False):
         pub.doc_path = doc_path
         for field in Pub._meta.get_fields():
             field_name = field.name
-            if field_name in data and field_name!='id':
+            if field_name in data and field_name != 'id':
                 if data.get(field_name, 'NONE'):
                     pass
                 else:
@@ -63,7 +63,7 @@ def create_pub(pub_name, pub_path, verbose=False):
             print(f"***Error while reading CSV ***  -- {index}")
         if verbose:
             print(f'Import Contents objects: {pub.name} {contents}')
-        assert contents>0
+        assert contents > 0
 
     def delete_extra_objects(pub):
         x = Content.objects.filter(blog=pub, retain_object=False).delete()
@@ -94,7 +94,8 @@ def copy_static_files(pub, verbose=False):
         for f in source.iterdir():
             if verbose:
                 print(f"COPY FILES {pub.name} {f} {dest/f.name}")
-            copyfile(f, dest/f.name)
+            if not (dest/f.name.exists()):
+                copyfile(f, dest/f.name)
 
 
 def pub_json_path(name, doc_path):
@@ -115,8 +116,8 @@ def pub_json_path(name, doc_path):
         copyfile(json1, json2)
         return json1
     return json2
-    
-    
+
+
 def load_data():
     Pub.objects.all().delete()
     system("python manage.py loaddata config/publish.json")
@@ -151,5 +152,3 @@ def save_pub_data():
         } 2>/dev/null  > /dev/null 
     '''
     system(command)
-
-

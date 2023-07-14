@@ -32,7 +32,7 @@
     <div class="col-lg">
 
         <div class="card">
-            <div class="card-header bg-primary">
+            <div class="card-header bg-primary text-light">
                 {{ doc }}
             </div>
             <div class="card-body bg-light text-dark m-2 p-5">
@@ -121,17 +121,18 @@
 
     {% endif%}
 
-    {% if ai or human %}
+
     <div class="col-lg">
         <div>
             <!-- <a class="btn btn-primary" href="/writer/{{ pub }}/{{ chapter }}/New.md/">New Revision</a> -->
             <a class="btn btn-primary" href="/writer/{{ pub }}/{{ chapter }}/{{ doc }}/">Edit Files</a>
             <a class="btn btn-primary" href="/writer/{{ pub }}/{{ chapter }}/{{ doc }}/publish">Publish Chapter</a>
         </div>
-
+        {% if ai or human %}
         {% if human %}
+
         <div class="card m-2">
-            <div class="card-header bg-success">
+            <div class="card-header bg-success text-light">
                 Human Prompt
             </div>
             <div class="card-body">
@@ -140,11 +141,12 @@
                 {% endautoescape %}
             </div>
         </div>
-        {% endif%}
 
+        {% endif%}
         {% if ai %}
+
         <div class="card m-2">
-            <div class="card-header bg-success">
+            <div class="card-header bg-success text-light">
                 AI Prompt
             </div>
             <div class="card-body">
@@ -157,9 +159,8 @@
         </div>
 
         {% endif%}
-
+        {% endif%}
     </div>
-    {% endif%}
 
 </div>
 {% endblock content %}

@@ -20,9 +20,9 @@ def create_pub(pub_name, pub_path, verbose=False):
         for field in Pub._meta.get_fields():
             field_name = field.name
             if field_name in data and field_name != 'id':
-                if data.get(field_name, 'NONE'):
-                    pass
-                else:
+                if data.get(field_name):
+                    # pass
+                    # else:
                     setattr(pub, field_name, data[field_name])
         if data.get('site_title') and pub.title != data.get('site_title'):
             pub.title = data.get('site_title')

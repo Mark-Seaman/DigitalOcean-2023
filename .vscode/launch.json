@@ -37,8 +37,7 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "tst",
-                "quick",
-                "8002"
+                "quick"
             ],
             "django": true,
             "justMyCode": true

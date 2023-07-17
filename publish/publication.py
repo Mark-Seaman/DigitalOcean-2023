@@ -47,7 +47,7 @@ def bouncer_redirect(bouncer_id):
                 return x[1]
 
 
-def build_pubs(verbose=False, delete=False):
+def build_pubs(**kwargs):
 
     def build_pub_index(pub, verbose):
         if pub.auto_index:
@@ -69,6 +69,8 @@ def build_pubs(verbose=False, delete=False):
             save_pub_data()
         return verify_pubs(verbose)
 
+    verbose=kwargs.get('verbose',False)
+    delete=kwargs.get('delete', False)
     delete_pubs()
     if verbose:
         print("Build pubs:\n")
@@ -262,6 +264,7 @@ def show_pub_json(pub=None):
         pubs =[get_pub(pub)]
     else:
         pubs = all_pubs()
+    print('PUBS: ', pubs)
     return text_join([read_file(pub_json_path(pub.name, pub.doc_path)) for  pub in pubs])
         
     # text = "PUB JSON\n\n"

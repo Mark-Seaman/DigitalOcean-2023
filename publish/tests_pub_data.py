@@ -4,8 +4,7 @@ from probe.tests_django import DjangoTest
 
 from .days import is_old
 from .models import Content, Pub
-from .publication import (all_blogs, all_books, all_privates, all_pubs,
-                          build_pubs, build_pubs)
+from .publication import all_blogs, all_books, all_privates, all_pubs, build_pubs
 
 
 # -----------------------
@@ -62,22 +61,23 @@ class FixtureTest(DjangoTest):
 
     def test_blog_list(self):
         self.assertRange(len(all_blogs()), 0, 7, 'Num Blogs')
-   
+
     def test_private_list(self):
         self.assertRange(len(all_privates()), 1, 9, 'Num Private Pubs')
 
     def test_images(self):
-        self.assertRange(len(list(Path('static/images').glob('**'))), 39, 45, 'Images in Static')
+        self.assertRange(
+            len(list(Path('static/images').glob('**'))), 39, 45, 'Images in Static')
     # def test_pub_info(self):
     #     save_pub_info()
     #     text = concatonate('publish/*.py')
     #     self.assertNumLines(text, 3600, 4000)
 
     def test_rebuld_pubs(self):
-        build_pubs(False, True)
+        build_pubs(delete=True)
         self.assertRange(len(Pub.objects.all()), 5, 21)
         self.assertRange(len(Content.objects.all()), 10, 1250, "Content Nodes")
 
     def test_data_file(self):
-        self.assertFalse(is_old("config/publish.json"), 'config/publish.json is old')
-
+        self.assertFalse(is_old("config/publish.json"),
+                         'config/publish.json is old')

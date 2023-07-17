@@ -24,7 +24,7 @@ class Command(BaseCommand):
             load_data()
         elif cmd == "pubs":
             print("BUILD PUBS")
-            print(build_pubs(True, True))
+            print(build_pubs(verbose=True, verbose=True))
         elif cmd == "review":
             review_file()
         elif cmd == "user":

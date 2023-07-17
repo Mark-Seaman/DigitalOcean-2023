@@ -1,6 +1,8 @@
 from pathlib import Path
 
 from probe.probe import check_files
+from publish.document import doc_text
+from publish.publication import get_pub
 from publish.text import char_fix_files
 
 docs = Path("Documents")
@@ -23,7 +25,16 @@ def test_documents_info():
 
 
 def test_documents_images():
-    return check_files(Path("static") / "images", 550, 570)
+    return check_files(Path("static") / "images", 650, 700)
+
+
+def test_documents_embedded_images():
+    doc_path = Path(f"Documents/Shrinking-World-Pubs/journey/Pub")
+    pub = get_pub('journey')
+    image_path = pub.image_path
+    return doc_text(doc_path / "JFK.md", image_path) + doc_text(
+        doc_path / "MushroomCloud.md", image_path
+    )
 
 
 def test_documents_fix_chars():

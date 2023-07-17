@@ -1,6 +1,6 @@
 from pathlib import Path
 from sys import version_info
-from probe.probe_pub import test_pub_info
+from probe.probe_pub import test_pub_info, test_pub_json
 from writer.cover import scale_image
 
 from publish.import_export import create_pub
@@ -15,28 +15,32 @@ from task.todo import edit_todo_list
 from writer.pub_script import pub_list, pub_script
 
 from .models import Probe, TestResult
-from .probe_images import test_image_pages
 
 
 def quick_test():
     # print("No quick test defined")
     pubs()
 
+    # Run Tests
+    tests()
+
     return 'OK'
 
 
 def pubs():
+
     # Run pub scripts:
-    print(pub_list())
+    # print(pub_list())
 
     # Create Cover Images
     # path = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/poem/Images/Cover.png'
     # scale_image(path, 1600, 2560)
     # create_cover_images(path)
 
+    # Build Pubs
     # create_pub('ai', 'Documents/Shrinking-World-Pubs/ai/Pub', True)
     # build_pub_index(get_pub('ai'), True)
-    # build_pubs(True, True)
+    build_pubs(verbose=True, delete=True)
     # print(show_pubs())
 
 
@@ -50,6 +54,7 @@ def tests():
 
     print(f'{len(Probe.objects.all())} Tests available'  )
     print(f'{len(TestResult.objects.all())} Test Results available'  )
+    test_pub_json()
 
 
 def tasks():

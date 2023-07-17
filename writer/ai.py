@@ -25,17 +25,17 @@ def transform_prompt(prompt):
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=prompt,
-            max_tokens=1000)
+            max_tokens=3000)
 
         message = response['choices'][0]['message']['content']
         prompt.append({"role": "assistant", "content": message})
 
         finish_reason = response['choices'][0]['finish_reason']
         if finish_reason != 'length':
-            return ''.join([m['content'] for m in prompt if m['role'] == 'assistant'])
+            return '\n\n'.join([m['content'] for m in prompt if m['role'] == 'assistant'])
 
     # Return the failed conversation
-    return ''.join([m['content'] for m in prompt if m['role'] == 'assistant'])
+    return '\n\n'.join([m['content'] for m in prompt if m['role'] == 'assistant'])
 
 
 def read_prompt_file(doc_file):
@@ -49,8 +49,7 @@ def update_with_ai(doc_file):
     prompt_file = str(doc_file).replace('.md', '.ai')
     prompt = include_files(read_file(prompt_file), doc_file.parent)
     prompt = read_prompt_file(doc_file)
-    text = f'# {doc_file.name}\n\n' + transform_prompt(prompt)
-    # text = f'# {doc_file.name}\n\n' + prompt
+    text = transform_prompt(prompt)
     write_file(doc_file, text)
 
 

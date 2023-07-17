@@ -10,7 +10,7 @@ from publish.document import title
 from publish.files import create_directory, read_json
 from publish.import_export import copy_static_files
 from publish.publication import build_pubs, get_pub
-from publish.text import text_join, text_lines
+from publish.text import text_join, text_lines, word_count
 
 from .cover import create_book_cover
 
@@ -154,6 +154,7 @@ def doc_view_data(**kwargs):
 
     if doc and chapter and pub:
         kwargs['text'] = read_pub_doc(pub, chapter, doc)
+        kwargs['words'] = word_count(kwargs['text'])
         kwargs['html'] = doc_html(pub, chapter, doc)
         kwargs['ai'] = doc_ai(pub, chapter, doc)
         kwargs['human'] = doc_human(pub, chapter, doc)

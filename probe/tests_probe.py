@@ -104,4 +104,5 @@ zipp==3.12.0
 
     def test_python_version(self):
         v = version_info[:2]
+        # print('Python Version: ', v)
         self.assertTrue(v == (3, 11) or v == (3, 10))

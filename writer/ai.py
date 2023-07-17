@@ -8,15 +8,6 @@ from publish.text import include_files
 from writer.pub_script import pub_path, pub_url
 
 
-def ai_prompt(prompt, system_prompt):
-    state = [
-        dict(role='user', content=prompt)
-    ]
-    if system_prompt:
-        state.append(dict(role='system', content=system_prompt))
-    return state
-
-
 def transform_prompt(prompt):
     openai.api_key = getenv("OPENAI_API_KEY")
 
@@ -39,6 +30,15 @@ def transform_prompt(prompt):
 
 
 def read_prompt_file(doc_file):
+
+    def ai_prompt(prompt, system_prompt):
+        state = [
+            dict(role='user', content=prompt)
+        ]
+        if system_prompt:
+            state.append(dict(role='system', content=system_prompt))
+        return state
+
     prompt_file = str(doc_file).replace('.md', '.ai')
     prompt = include_files(read_file(prompt_file), doc_file.parent)
     system_prompt = include_files('[[System.ai]]', doc_file.parent)

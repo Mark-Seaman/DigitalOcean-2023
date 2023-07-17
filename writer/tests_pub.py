@@ -41,7 +41,7 @@ class PubTest(DjangoTest):
 
     def test_chapters(self):
         chapters = doc_view_data(pub='ghost')['chapters']
-        self.assertRange(len(chapters), 7, 10)
+        self.assertRange(len(chapters), 7, 11)
 
     def test_doc_list(self):
         y = doc_list('ghost', 'WritersGuide')

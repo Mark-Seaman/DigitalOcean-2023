@@ -1,10 +1,9 @@
 from pathlib import Path
 
 from publish.files import create_directory
-from writer.ai import ai_prompt, read_prompt_file
+from writer.ai import read_prompt_file
 
-from .pub_script import (doc_html, doc_list, doc_text, doc_title, pub_list,
-                         pub_path, doc_view_data, pub_script, read_pub_doc)
+from .pub_script import pub_path, doc_view_data, pub_script
 from probe.tests_django import DjangoTest
 
 
@@ -45,12 +44,10 @@ class PubScriptTest(DjangoTest):
         self.assertFile(pub_path('ai', 'Creative', 'CreativeWorkflow.md'))
 
     def test_ai_prompt(self):
-        path = pub_path('spirituality', 'Outline', 'Transformation.md')
-        text, sys = read_prompt_file(path)
-        prompt = ai_prompt(text, sys)
-        print(prompt)
-        # self.assertEqual(text, 'x')
-        # self.assertEqual(sys, 'x')
+        path = pub_path('spirituality', 'Outline', 'Outline.md')
+        prompt = read_prompt_file(path)
+        # print(prompt)
+        self.assertEqual(len(str(prompt)), 284)
 
     # def test_outline(self):
     #     text = pub_script_command(

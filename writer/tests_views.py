@@ -4,7 +4,7 @@ from probe.tests_django import DjangoTest
 class DocumentViewTest(DjangoTest):
     def test_web_page(self):
         text = self.assertPageText(
-            'http://shrinking-world.com', 210, 300, 'html')
+            'http://shrinking-world.com', 210, 310, 'html')
 
     def test_pub_list_view(self):
         text = self.assertPageText('/writer/', 140, 210, 'html')

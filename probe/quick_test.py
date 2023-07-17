@@ -1,25 +1,18 @@
 from pathlib import Path
-from sys import version_info
-from probe.probe_pub import test_pub_info, test_pub_json
-from writer.cover import scale_image
+from probe.probe_pub import test_pub_json
 
-from publish.import_export import create_pub
-from publish.publication import all_pubs, save_pub_json
-from publish.models import Content, Pub
-from publish.publication import build_pubs, get_pub, get_pub_info, show_pub_details, show_pubs
-from publish.seamanslog import random_post
+from publish.publication import build_pubs
 from publish.text import text_join, text_lines
-from task.models import Activity, Task, TaskType
 from task.task import task_command
 from task.todo import edit_todo_list
-from writer.pub_script import pub_list, pub_script
+from writer.pub_script import pub_script
 
 from .models import Probe, TestResult
-
+from .probe_pub import test_show_pubs
 
 def quick_test():
     # print("No quick test defined")
-    pubs()
+    # pubs()
 
     # Run Tests
     tests()
@@ -55,7 +48,7 @@ def tests():
     print(f'{len(Probe.objects.all())} Tests available'  )
     print(f'{len(TestResult.objects.all())} Test Results available'  )
     test_pub_json()
-
+    test_show_pubs()
 
 def tasks():
     task_command(['week'])

@@ -264,7 +264,7 @@ def show_pub_json(pub=None):
         pubs =[get_pub(pub)]
     else:
         pubs = all_pubs()
-    print('PUBS: ', pubs)
+    # print('PUBS: ', pubs)
     return text_join([read_file(pub_json_path(pub.name, pub.doc_path)) for  pub in pubs])
         
     # text = "PUB JSON\n\n"

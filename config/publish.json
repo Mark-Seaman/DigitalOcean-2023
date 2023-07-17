@@ -14,7 +14,7 @@
         "domain": null,
         "url": "/ai",
         "logo": null,
-        "words": 7616,
+        "words": 9449,
         "cover_image": "/static/images/Shrinking-World-Pubs/ai/Cover-800.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "private",
@@ -116,7 +116,7 @@
         "subtitle": "A Blueprint from the Ground Up",
         "author": "Mark Seaman",
         "description": "Finally I can get all of the answers I need",
-        "doc_path": "Documents/Shrinking-World-Pubs/Innovation/Pub",
+        "doc_path": "Documents/Shrinking-World-Pubs/Archive/Innovation/Pub",
         "image_path": "/static/images/Shrinking-World-Pubs/Innovation",
         "css": "/static/css/book.css",
         "domain": "https://shrinking-world.com",
@@ -230,7 +230,7 @@
         "domain": null,
         "url": "/marks",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 1191,
+        "words": 1183,
         "cover_image": "/static/images/MarkSeaman.org/mark-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -540,6 +540,33 @@
     }
 },
 {
+    "model": "publish.pub",
+    "pk": 2101,
+    "fields": {
+        "name": "spirituality",
+        "title": "Life with God",
+        "subtitle": "The search for Authentic Spirituality",
+        "author": "Mark Seaman",
+        "description": "Experiencing God in everyday life.",
+        "doc_path": "Documents/Shrinking-World-Pubs/spirituality/Pub",
+        "image_path": "/static/images/Shrinking-World-Pubs/spirituality",
+        "css": "/static/css/shrinking-world.css",
+        "domain": null,
+        "url": "/spirituality",
+        "logo": null,
+        "words": 7526,
+        "cover_image": "/static/images/Shrinking-World-Pubs/spirituality/Cover.png",
+        "menu": "static/js/nav_sw.json",
+        "pub_type": "blog",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": true,
+        "index_folders": false,
+        "index_months": false,
+        "simple_index": true
+    }
+},
+{
     "model": "publish.content",
     "pk": 126988,
     "fields": {
@@ -830,104 +857,6 @@
         "path": "Documents/seamanfamily.org/FamilySlideShow.md",
         "folder": 1,
         "words": 64,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 127012,
-    "fields": {
-        "blog": 2085,
-        "order": 1,
-        "title": "Keys to Effective Innovation",
-        "doctype": "chapter",
-        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Index.md",
-        "folder": 1,
-        "words": 156,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 127013,
-    "fields": {
-        "blog": 2085,
-        "order": 2,
-        "title": "Effective Innovation",
-        "doctype": "chapter",
-        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Innovation.md",
-        "folder": 1,
-        "words": 388,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 127014,
-    "fields": {
-        "blog": 2085,
-        "order": 3,
-        "title": "Learn the problems to solve",
-        "doctype": "chapter",
-        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Learn.md",
-        "folder": 1,
-        "words": 283,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 127015,
-    "fields": {
-        "blog": 2085,
-        "order": 4,
-        "title": "Plan an approach to the solution",
-        "doctype": "chapter",
-        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Plan.md",
-        "folder": 1,
-        "words": 252,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 127016,
-    "fields": {
-        "blog": 2085,
-        "order": 5,
-        "title": " Build the Solution Incrementally",
-        "doctype": "chapter",
-        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Build.md",
-        "folder": 1,
-        "words": 444,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 127017,
-    "fields": {
-        "blog": 2085,
-        "order": 6,
-        "title": "Teach the approach to others",
-        "doctype": "chapter",
-        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Teach.md",
-        "folder": 1,
-        "words": 353,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 127018,
-    "fields": {
-        "blog": 2085,
-        "order": 7,
-        "title": "Cycle of Innovation",
-        "doctype": "chapter",
-        "path": "Documents/Shrinking-World-Pubs/Innovation/Pub/Process.md",
-        "folder": 1,
-        "words": 306,
         "retain_object": false
     }
 },
@@ -14801,7 +14730,7 @@
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Author.md",
         "folder": 0,
-        "words": 309,
+        "words": 310,
         "retain_object": false
     }
 },
@@ -16146,20 +16075,6 @@
         "path": "Documents/seamansguide.com/webapps/project/14.md",
         "folder": 14,
         "words": 232,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 128240,
-    "fields": {
-        "blog": 2081,
-        "order": 7,
-        "title": "Common Mistakes When Using AI",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/ai/Pub/Mistakes.md",
-        "folder": 0,
-        "words": 1414,
         "retain_object": false
     }
 },
@@ -17994,6 +17909,230 @@
         "path": "Documents/Shrinking-World-Pubs/ai/Pub/CoffeeShop.md",
         "folder": 0,
         "words": 620,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128373,
+    "fields": {
+        "blog": 2081,
+        "order": 6,
+        "title": "How AI Can Revolutionize the Writing Process",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/ai/Pub/EditorialDesk.md",
+        "folder": 0,
+        "words": 1008,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128374,
+    "fields": {
+        "blog": 2081,
+        "order": 7,
+        "title": "Publish Your Masterpiece",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/ai/Pub/Publishing.md",
+        "folder": 0,
+        "words": 825,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128375,
+    "fields": {
+        "blog": 2081,
+        "order": 8,
+        "title": "Common Mistakes When Using AI",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/ai/Pub/Mistakes.md",
+        "folder": 0,
+        "words": 1414,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128376,
+    "fields": {
+        "blog": 2085,
+        "order": 1,
+        "title": "Keys to Effective Innovation",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Archive/Innovation/Pub/Index.md",
+        "folder": 1,
+        "words": 156,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128377,
+    "fields": {
+        "blog": 2085,
+        "order": 2,
+        "title": "Effective Innovation",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Archive/Innovation/Pub/Innovation.md",
+        "folder": 1,
+        "words": 388,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128378,
+    "fields": {
+        "blog": 2085,
+        "order": 3,
+        "title": "Learn the problems to solve",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Archive/Innovation/Pub/Learn.md",
+        "folder": 1,
+        "words": 283,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128379,
+    "fields": {
+        "blog": 2085,
+        "order": 4,
+        "title": "Plan an approach to the solution",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Archive/Innovation/Pub/Plan.md",
+        "folder": 1,
+        "words": 252,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128380,
+    "fields": {
+        "blog": 2085,
+        "order": 5,
+        "title": " Build the Solution Incrementally",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Archive/Innovation/Pub/Build.md",
+        "folder": 1,
+        "words": 444,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128381,
+    "fields": {
+        "blog": 2085,
+        "order": 6,
+        "title": "Teach the approach to others",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Archive/Innovation/Pub/Teach.md",
+        "folder": 1,
+        "words": 353,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128382,
+    "fields": {
+        "blog": 2085,
+        "order": 7,
+        "title": "Cycle of Innovation",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/Archive/Innovation/Pub/Process.md",
+        "folder": 1,
+        "words": 306,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128383,
+    "fields": {
+        "blog": 2101,
+        "order": 1,
+        "title": "Life With God",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/LifeWithGod.md",
+        "folder": 0,
+        "words": 364,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128385,
+    "fields": {
+        "blog": 2101,
+        "order": 2,
+        "title": "Worship",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Worship.md",
+        "folder": 0,
+        "words": 309,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128386,
+    "fields": {
+        "blog": 2101,
+        "order": 3,
+        "title": "Community",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Community.md",
+        "folder": 0,
+        "words": 316,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128387,
+    "fields": {
+        "blog": 2101,
+        "order": 4,
+        "title": "Teaching",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Teaching.md",
+        "folder": 0,
+        "words": 295,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128388,
+    "fields": {
+        "blog": 2101,
+        "order": 5,
+        "title": "Discipleship",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Discipleship.md",
+        "folder": 0,
+        "words": 361,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128389,
+    "fields": {
+        "blog": 2101,
+        "order": 6,
+        "title": "Transformation",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Transformation.md",
+        "folder": 0,
+        "words": 442,
         "retain_object": false
     }
 }

@@ -1,11 +1,13 @@
 from pathlib import Path
 from probe.probe_pub import test_pub_json
+from re import findall, DOTALL
 
 from publish.publication import build_pubs
 from publish.text import text_join, text_lines
 from task.task import task_command
 from task.todo import edit_todo_list
-from writer.pub_script import pub_script
+from writer.outline import create_index, create_outlines_ai, test_extraction
+from writer.pub_script import pub_path, pub_script
 
 from .models import Probe, TestResult
 from .probe_pub import test_show_pubs
@@ -15,9 +17,16 @@ def quick_test():
     # pubs()
 
     # Run Tests
-    tests()
+    # tests()
+    writer()
 
     return 'OK'
+
+def writer():
+    path = pub_path('spirituality','Transformation','Outline.md')
+    # test_extraction(path)
+    # create_index(path)
+    create_outlines_ai(path)
 
 
 def pubs():
@@ -58,17 +67,17 @@ def execute_pub_script(text):
     return text_join([pub_script(line.strip().split(' ')) for line in text_lines(text) if line.strip()])
 
 
-def writer():
-    command = '''
-        project ai
-        chapter ai Tips
-        chapter ai Mistakes
-        chapter ai AIPlaybook
-        chapter ai GettingStarted
-        chapter ai WriteWithAI
-        doc ai Tips Blog.md
-      '''
-    print(execute_pub_script(command))
+# def writer():
+#     command = '''
+#         project ai
+#         chapter ai Tips
+#         chapter ai Mistakes
+#         chapter ai AIPlaybook
+#         chapter ai GettingStarted
+#         chapter ai WriteWithAI
+#         doc ai Tips Blog.md
+#       '''
+#     print(execute_pub_script(command))
 
 
 def todo():

@@ -4,9 +4,8 @@ from django.views.generic import RedirectView, TemplateView
 from django.views.generic.edit import FormView
 
 from .ai import pub_ai
-from .pub_script import (chapter_script, create_pub_content, doc_script, doc_view_data, edit_doc_script, project_script, pub_edit, pub_publish, pub_script,
-                         pub_url)
-
+from .pub_script import create_pub_content, doc_view_data, pub_edit
+from .publish import pub_publish
 
 class DocumentView(TemplateView):
     template_name = "pub_script/document.html"

@@ -271,14 +271,6 @@ def pub_edit(**kwargs):
     url = pub_url(pub, chapter, doc)
     return url
 
-def pub_publish(**kwargs):
-    pub = kwargs.get('pub')
-    chapter = kwargs.get('chapter')
-    doc = kwargs.get('doc')
-    publish_script([pub, chapter, doc])
-    url = pub_url(pub, chapter, doc)
-    return url
-
 
 def pub_link(pub, chapter=None):
     if chapter:
@@ -343,6 +335,7 @@ def pub_script(command_args):
     elif command == 'project':
         output = project_script(args)
     elif command == 'publish':
+        from .publish import publish_script
         output = publish_script(args)
     elif command == 'script':
         output = execute_pub_script(args)
@@ -362,24 +355,6 @@ def pub_url(pub=None, chapter=None, doc=None):
         return f'/writer/{pub}'
     return f'/writer/'
 
-
-def publish_script(args):
-    if not args[2:]:
-        return 'usage: publish pub-name chapter doc'
-    pub_name = args[0]
-    pub = get_pub(pub_name)
-    text = f'\npublish {pub_name}\n'
-    images = Path(pub.doc_path).parent/'Images'
-    if images.exists():
-        text += f'copy the "{pub.image_path}" directory from "{images}"\n'
-        copy_static_files(pub, True)
-    source = pub_path(args[0], args[1], args[2])
-    dest = Path(pub.doc_path)/(args[1]+'.md')
-    copyfile(source, dest)
-    files = [str(dest.parent)]
-    edit_files(files)
-    text += 'rebuild the Pub/Index.md file to match the new contents from "_content.csv" \n'
-    return text
 
 
 def read_pub_doc(pub, chapter, doc):
@@ -418,7 +393,7 @@ usage:
 def test_script(args):
     # if args:
     #     return 'usage: test'
-
+    from publish import publish_script
     text = publish_script(args)
 
     # text = f'Pubs:\n\n{[str(p) for p in all_pubs()]}\n'

@@ -6,7 +6,7 @@ from publish.publication import build_pubs
 from publish.text import text_join, text_lines
 from task.task import task_command
 from task.todo import edit_todo_list
-from writer.outline import create_index, create_outlines_ai, test_extraction
+from writer.outline import write_outlines
 from writer.pub_script import pub_path, pub_script
 
 from .models import Probe, TestResult
@@ -23,10 +23,15 @@ def quick_test():
     return 'OK'
 
 def writer():
-    path = pub_path('spirituality','Transformation','Outline.md')
+    # path = pub_path('spirituality','Transformation','Outline.md')
     # test_extraction(path)
     # create_index(path)
-    create_outlines_ai(path)
+    # create_outlines_ai(path)
+    # outline = path.read_text()
+    # fragments = split_outline(outline)
+    # print(fragments)
+
+    write_outlines(pub_path('spirituality','Transformation'))
 
 
 def pubs():

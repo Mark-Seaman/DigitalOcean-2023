@@ -76,7 +76,7 @@ class FixtureTest(DjangoTest):
     def test_rebuld_pubs(self):
         build_pubs(delete=True)
         self.assertRange(len(Pub.objects.all()), 5, 21)
-        self.assertRange(len(Content.objects.all()), 10, 1250, "Content Nodes")
+        self.assertRange(len(Content.objects.all()), 1200, 1300, "Content Nodes")
 
     def test_data_file(self):
         self.assertFalse(is_old("config/publish.json"),

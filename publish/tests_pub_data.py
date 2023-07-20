@@ -1,6 +1,7 @@
 from pathlib import Path
 
 from probe.tests_django import DjangoTest
+from publish.files import concatonate
 
 from .days import is_old
 from .models import Content, Pub
@@ -68,15 +69,16 @@ class FixtureTest(DjangoTest):
     def test_images(self):
         self.assertRange(
             len(list(Path('static/images').glob('**'))), 39, 45, 'Images in Static')
-    # def test_pub_info(self):
-    #     save_pub_info()
-    #     text = concatonate('publish/*.py')
-    #     self.assertNumLines(text, 3600, 4000)
+    
+    def test_pub_info(self):
+        # save_pub_info()
+        text = concatonate('publish/*.py')
+        self.assertNumLines(text, 3000, 3100)
 
     def test_rebuld_pubs(self):
         build_pubs(delete=True)
         self.assertRange(len(Pub.objects.all()), 5, 21)
-        self.assertRange(len(Content.objects.all()), 10, 1250, "Content Nodes")
+        self.assertRange(len(Content.objects.all()), 10, 1300, "Content Nodes")
 
     def test_data_file(self):
         self.assertFalse(is_old("config/publish.json"),

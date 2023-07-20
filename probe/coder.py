@@ -1,6 +1,5 @@
 from publish.files import read_file, write_file
 
-
 models = '''
 class Professor(models.Model):
     address = models.TextField(null=True, verbose_name=_("Address"))

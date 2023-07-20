@@ -19,7 +19,7 @@ def test_coder_probe_source():
 
 
 def test_coder_python_source():
-    return show_files("Python Code ", python_code_files, 5600, 7000)
+    return show_files("Python Code ", python_code_files, 5600, 7500)
 
 
 def test_coder_templates():

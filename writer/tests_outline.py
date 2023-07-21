@@ -1,8 +1,8 @@
-
-from writer.outline import extract_links, extract_outlines, extract_urls, test_extraction
-
-from .pub_script import pub_path 
 from probe.tests_django import DjangoTest
+from writer.outline import (create_index, extract_links, extract_outlines,
+                            extract_urls, write_outlines)
+
+from .pub_script import pub_path
 
 
 class OutlineTest(DjangoTest):
@@ -17,8 +17,16 @@ class OutlineTest(DjangoTest):
         x = extract_links(path)
         self.assertEqual(len(x), 6)
 
-    # def test_outlines(self):
-    #     path = pub_path('spirituality','Transformation','Outline.md')
-    #     x = extract_outlines(path)
-    #     x = '\n'.join([x for x in x])
-    #     self.assertEqual(len(x), 1047)
+    def test_create_index(self):
+        path = pub_path('spirituality','Worship','Outline.md')
+        create_index(path)
+        
+    def test_outlines(self):
+        path = pub_path('spirituality','Worship')
+        write_outlines(path)
+        
+        # x = '\n'.join([x for x in x])
+        # self.assertEqual(len(x), 1047)
+
+    
+

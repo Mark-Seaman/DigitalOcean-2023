@@ -1,8 +1,10 @@
 from pathlib import Path
-from probe.probe_pub import test_pub_json
-from re import findall, split, DOTALL
+from re import DOTALL, findall, split
+from shutil import copyfile
+
 from django.template.loader import render_to_string
 
+from probe.probe_pub import test_pub_json
 from publish.document import title
 from writer.pub_script import pub_path
 
@@ -34,17 +36,19 @@ def show_outlines(path):
 
     
 def create_ai_file(path, text):
-    if not path.exists():
-        outline = '# '+text.replace('###', '*')
-        text = render_to_string('pub_script/draft.ai', {'outline': outline})
-        path.write_text(text)
+    outline = '# '+text.replace('###', '*')
+    text = render_to_string('pub_script/draft.ai', {'outline': outline})
+    path.write_text(text)
+    md = Path(str(path).replace('.ai', '.md'))
+    if not md.exists():
+        copyfile(path, md)
         print(path)
 
 
 def write_outlines(path):
     outline = path/'Outline.md'
     index = path/'Index.md'
-    o = split_outline(outline.read_text())
+    o = split_outline(outline.read_text())[1:]
     i = extract_links(index)
     for link, topics in zip(i, o):
         f = link[0].replace('.md', '.ai')
@@ -76,25 +80,5 @@ def extract_outlines(file_path):
     url_pattern = r'(### (.*)?\n)*'
     matches = findall(url_pattern, text)
     return [match for match in matches]
-
-
-def test_extraction(path):
-    # urls = extract_urls(path)
-    # for url in urls:
-    #     print(url)
-    # print()
-
-    # links = extract_links(path)
-    # for url,title in links:
-    #     print('Title:', title)
-    #     print('URL:', url)
-    #     print()
-
-    outlines = extract_outlines(path)
-    for title, url, outline in outlines:
-        print('Title:', title)
-        print('URL:', url)
-        print('Outline:', outline)
-        print()
 
 

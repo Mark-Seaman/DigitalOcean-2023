@@ -44,7 +44,7 @@ class PubScriptTest(DjangoTest):
         self.assertFile(pub_path('ai', 'Creative', 'CreativeWorkflow.md'))
 
     def test_ai_prompt(self):
-        path = pub_path('spirituality', 'Outline', 'Outline.md')
+        path = pub_path('spirituality', 'LifeWithGod', 'Outline.md')
         prompt = read_prompt_file(path)
         # print(prompt)
         self.assertEqual(len(str(prompt)), 284)

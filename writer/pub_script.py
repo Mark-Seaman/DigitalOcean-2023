@@ -30,7 +30,7 @@ def build_script(args):
 def chapter_list(pub):
     path = pub_path(pub)
     x = []
-    chapters = path.iterdir()
+    chapters = sorted(path.iterdir())
     for chapter in chapters:
         if chapter.is_dir():
             x.append(pub_link(pub, chapter.name))

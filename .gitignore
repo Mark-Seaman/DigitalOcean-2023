@@ -3,9 +3,10 @@
 .DS_Store
 
 # Documents
-Documents/seamansguide.com/webapps/textbook.epub
 Documents/Github
 Documents/Shrinking-World-Pubs
+Documents/shrinking-world.com/DataAnalytics
+Documents/seamansguide.com/webapps/textbook.epub
 probe/pubs/
 
 # Static Assets

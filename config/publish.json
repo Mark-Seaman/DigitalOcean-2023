@@ -230,7 +230,7 @@
         "domain": null,
         "url": "/marks",
         "logo": "/static/images/MarkSeaman/Mark-Seaman-200.jpg",
-        "words": 1183,
+        "words": 1191,
         "cover_image": "/static/images/MarkSeaman.org/mark-cover-400.png",
         "menu": "static/js/nav_blog.json",
         "pub_type": "blog",
@@ -419,7 +419,7 @@
         "domain": null,
         "url": "/sweng",
         "logo": null,
-        "words": 7526,
+        "words": 7528,
         "cover_image": "/static/images/Shrinking-World-Pubs/SoftwareEngineering/Cover.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "private",
@@ -554,7 +554,7 @@
         "domain": null,
         "url": "/spirituality",
         "logo": null,
-        "words": 7526,
+        "words": 5436,
         "cover_image": "/static/images/Shrinking-World-Pubs/spirituality/Cover.png",
         "menu": "static/js/nav_sw.json",
         "pub_type": "blog",
@@ -18132,7 +18132,133 @@
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Transformation.md",
         "folder": 0,
-        "words": 442,
+        "words": 440,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128390,
+    "fields": {
+        "blog": 2101,
+        "order": 7,
+        "title": "Why personal transformation is essential",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/WhyTransform.md",
+        "folder": 0,
+        "words": 318,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128391,
+    "fields": {
+        "blog": 2101,
+        "order": 8,
+        "title": "The Journey of Discovery",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Journey.md",
+        "folder": 0,
+        "words": 380,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128392,
+    "fields": {
+        "blog": 2101,
+        "order": 9,
+        "title": "Authentic Living ",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Authenticity.md",
+        "folder": 0,
+        "words": 392,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128393,
+    "fields": {
+        "blog": 2101,
+        "order": 10,
+        "title": "Transforming Power",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Power.md",
+        "folder": 0,
+        "words": 360,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128394,
+    "fields": {
+        "blog": 2101,
+        "order": 11,
+        "title": "The Ongoing Process ",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Process.md",
+        "folder": 0,
+        "words": 389,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128395,
+    "fields": {
+        "blog": 2101,
+        "order": 12,
+        "title": "Unshakable Trust",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Trust.md",
+        "folder": 0,
+        "words": 392,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128396,
+    "fields": {
+        "blog": 2101,
+        "order": 13,
+        "title": "Communicating with God",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Prayer.md",
+        "folder": 0,
+        "words": 336,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128397,
+    "fields": {
+        "blog": 2101,
+        "order": 14,
+        "title": "Walking with God through Pain",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Suffering.md",
+        "folder": 0,
+        "words": 414,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 128398,
+    "fields": {
+        "blog": 2101,
+        "order": 15,
+        "title": "Recognizing God in everyday life",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Supernatural.md",
+        "folder": 0,
+        "words": 370,
         "retain_object": false
     }
 }

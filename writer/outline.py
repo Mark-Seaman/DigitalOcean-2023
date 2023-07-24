@@ -15,7 +15,6 @@ def create_index(path):
     matches = findall(pattern, text)
     links = [(match,match) for match in matches]
     text = render_to_string('pub/index.md', {'title': title(text), 'links': links})
-    print(text)
     if not index.exists():
         index.write_text(text)
 
@@ -35,7 +34,6 @@ def create_ai_file(path, text):
     md = Path(str(path).replace('.ai', '.md'))
     if not md.exists():
         copyfile(path, md)
-        print(path)
 
 
 def create_outlines(path):

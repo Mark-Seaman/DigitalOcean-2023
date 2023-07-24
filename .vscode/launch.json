@@ -62,7 +62,7 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "pub",
-                "index",
+                "outline",
                 "spirituality",
                 "Voices"
             ],

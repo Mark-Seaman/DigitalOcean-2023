@@ -18,7 +18,7 @@ class OutlineTest(DjangoTest):
         self.assertEqual(len(x), 6)
 
     def test_create_index(self):
-        path = pub_path('spirituality','Worship','Outline.md')
+        path = pub_path('spirituality','Worship')
         create_index(path)
         
     def test_outlines(self):

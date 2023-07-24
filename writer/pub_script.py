@@ -325,8 +325,6 @@ def pub_script(command_args):
         output = doc_script(args)
     elif command == 'edit':
         output = edit_doc_script(args[0], args[1], args[2])
-    # elif command == 'expand':
-    #     output = 'not implemented'
     elif command == 'files':
         output = files_script(args)
     elif command == 'index':

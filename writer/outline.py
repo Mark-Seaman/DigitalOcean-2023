@@ -4,7 +4,6 @@ from shutil import copyfile
 
 from django.template.loader import render_to_string
 
-from probe.probe_pub import test_pub_json
 from publish.document import title
 
 

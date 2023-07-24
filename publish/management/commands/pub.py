@@ -11,7 +11,6 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         command_args = options['command_args']
-        # command = command_args[0]
-        # args = command_args[1:]
         output = pub_script(command_args)
-        self.stdout.write(output)
+        if output:
+            self.stdout.write(output)

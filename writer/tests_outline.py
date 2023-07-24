@@ -1,6 +1,6 @@
 from probe.tests_django import DjangoTest
 from writer.outline import (create_index, extract_links, extract_outlines,
-                            extract_urls, write_outlines)
+                            extract_urls, create_outlines)
 
 from .pub_script import pub_path
 
@@ -23,7 +23,7 @@ class OutlineTest(DjangoTest):
         
     def test_outlines(self):
         path = pub_path('spirituality','Worship')
-        write_outlines(path)
+        create_outlines(path)
         
         # x = '\n'.join([x for x in x])
         # self.assertEqual(len(x), 1047)

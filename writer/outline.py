@@ -6,19 +6,19 @@ from django.template.loader import render_to_string
 
 from probe.probe_pub import test_pub_json
 from publish.document import title
-from writer.pub_script import pub_path
 
 
 def create_index(path):
-    text = Path(path).read_text()
+    outline = path/'Outline.md'
+    index = path/'Index.md'
+    text = outline.read_text()
     pattern = r'\n## ([^\n]*)?'
     matches = findall(pattern, text)
     links = [(match,match) for match in matches]
     text = render_to_string('pub/index.md', {'title': title(text), 'links': links})
     print(text)
-    outfile = Path(path).parent / 'Index.md'
-    if not outfile.exists():
-        outfile.write_text(text)
+    if not index.exists():
+        index.write_text(text)
 
 
 def show_links(path):
@@ -28,13 +28,7 @@ def show_links(path):
         print('URL:', url)
         print()
 
-def show_outlines(path):
-    outlines = extract_outlines(path)
-    for outline in outlines:
-        print('Outline:', outline)
-        print()
 
-    
 def create_ai_file(path, text):
     outline = '# '+text.replace('###', '*')
     text = render_to_string('pub_script/draft.ai', {'outline': outline})
@@ -45,7 +39,7 @@ def create_ai_file(path, text):
         print(path)
 
 
-def write_outlines(path):
+def create_outlines(path):
     outline = path/'Outline.md'
     index = path/'Index.md'
     o = split_outline(outline.read_text())[1:]
@@ -82,3 +76,10 @@ def extract_outlines(file_path):
     return [match for match in matches]
 
 
+def show_outlines(path):
+    outlines = extract_outlines(path)
+    for outline in outlines:
+        print('Outline:', outline)
+        print()
+
+    

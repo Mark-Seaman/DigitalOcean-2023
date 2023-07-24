@@ -8,12 +8,11 @@ from markdown import markdown
 
 from publish.document import title
 from publish.files import create_directory, read_json
-from publish.import_export import copy_static_files
 from publish.publication import build_pubs, get_pub
 from publish.text import text_join, text_lines, word_count
 
 from .cover import create_book_cover
-
+from .outline import create_index, create_outlines
 
 def ai_script(args):
     if not args[2:]:
@@ -330,8 +329,12 @@ def pub_script(command_args):
     #     output = 'not implemented'
     elif command == 'files':
         output = files_script(args)
+    elif command == 'index':
+        path = pub_path(args[0], args[1])
+        output = create_index(path)
     elif command == 'outline':
-        output = create_outline(args)
+        path = pub_path(args[0], args[1])
+        output = create_outlines(path)
     elif command == 'project':
         output = project_script(args)
     elif command == 'publish':

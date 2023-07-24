@@ -3,6 +3,7 @@ Friday
 Grow 1
 
     reflection
+    study sleep monitor results
 
 Write 3
 
@@ -10,16 +11,16 @@ Write 3
     Worship - 2,000 words
     Voices - outline
 
-ProMETA 1
+ProMETA 6
 
     project implementation planning
+    select professors from section import
+    build professor records (ManyToMany: professor, section)
+    create professor views
+    create script to clean professor data
+    expand tests to 68
 
+Fun 4
 
-    
-Family 0
-Teach 0
-Innovate 0
-Church 0
-Business 0
-Fun 0
-
+    All Creatures Great and Small
+    Portrait of a Spy

@@ -22,7 +22,7 @@ def ai_script(args):
 
 
 def build_script(args):
-    text = build_pubs()
+    text = build_pubs(verbose=True)
     return f'Build all pubs: {text}'
 
 

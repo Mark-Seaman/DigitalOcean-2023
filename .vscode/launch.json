@@ -62,9 +62,7 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "pub",
-                "outline",
-                "spirituality",
-                "Voices"
+                "build"
             ],
             "django": true,
             "justMyCode": true

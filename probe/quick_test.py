@@ -1,9 +1,12 @@
 from pathlib import Path
-from probe.probe_pub import test_pub_json
-from re import findall, DOTALL
+from re import DOTALL, findall
 
-from publish.publication import build_pubs
+from probe.probe_pub import test_pub_json
+from publish.import_export import create_pub
+from publish.publication import (build_pubs, get_pub, get_pub_contents,
+                                 show_pubs)
 from publish.text import text_join, text_lines
+from publish.toc import create_pub_index
 from task.task import task_command
 from task.todo import edit_todo_list
 from writer.outline import create_outlines
@@ -12,13 +15,14 @@ from writer.pub_script import pub_path, pub_script
 from .models import Probe, TestResult
 from .probe_pub import test_show_pubs
 
+
 def quick_test():
     # print("No quick test defined")
-    # pubs()
+    pubs()
 
     # Run Tests
     # tests()
-    writer()
+    # writer()
 
     return 'OK'
 
@@ -45,10 +49,11 @@ def pubs():
     # create_cover_images(path)
 
     # Build Pubs
-    # create_pub('ai', 'Documents/Shrinking-World-Pubs/ai/Pub', True)
-    # build_pub_index(get_pub('ai'), True)
-    build_pubs(verbose=True, delete=True)
-    # print(show_pubs())
+    # create_pub('spirituality', 'Documents/Shrinking-World-Pubs/spirituality/Pub', True)
+    # pub = get_pub('spirituality')
+    # create_pub_index(pub, get_pub_contents(pub)) 
+    # build_pubs(verbose=True, delete=True)
+    print(show_pubs())
 
 
 

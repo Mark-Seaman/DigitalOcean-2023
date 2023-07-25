@@ -62,7 +62,7 @@ def extract_links(file_path):
     text = Path(file_path).read_text()
     url_pattern = r'\[(.*?)\]\((.*?)\)'
     matches = findall(url_pattern, text)
-    urls = [(match[1], match[0]) for match in matches]
+    urls = [(match[1], match[0]) for match in matches[1:]]
     return urls
 
 

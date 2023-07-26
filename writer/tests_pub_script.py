@@ -47,7 +47,7 @@ class PubScriptTest(DjangoTest):
         path = pub_path('spirituality', 'LifeWithGod', 'Outline.md')
         prompt = read_prompt_file(path)
         # print(prompt)
-        self.assertEqual(len(str(prompt)), 284)
+        self.assertEqual(len(str(prompt)), 398)
 
     # def test_outline(self):
     #     text = pub_script_command(

@@ -15,7 +15,7 @@ class OutlineTest(DjangoTest):
     def test_outline_links(self):
         path = pub_path('spirituality','Transformation','Index.md')
         x = extract_links(path)
-        self.assertEqual(len(x), 6)
+        self.assertEqual(len(x), 5)
 
     def test_create_index(self):
         path = pub_path('spirituality','Worship')

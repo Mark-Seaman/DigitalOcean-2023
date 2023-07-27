@@ -1,7 +1,9 @@
 from csv import reader
 
+from django.forms import model_to_dict
+
 from probe.tests_django import DjangoTest
-from publish.publication import list_publications
+from publish.publication import get_pub, list_publications
 
 
 class PubDocTest(DjangoTest):
@@ -21,3 +23,7 @@ class PubDocTest(DjangoTest):
 
     def test_pub_list(self):
         self.assertRange(len(list_publications()), 4,20)
+
+    def test_model_to_dict(self):
+        p = get_pub('journey')
+        print(model_to_dict(p, fields=['id', 'name', 'doc_path'], exclude=['id']))

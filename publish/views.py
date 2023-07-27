@@ -35,9 +35,10 @@ class PubView(TemplateView):
     template_name = "pub/blog.html"
 
     def get_context_data(self, **kwargs):
+        local_host = '127.0.0.1' in self.request.get_host()
         pub = kwargs.get("pub")
         doc = kwargs.get("doc", "Index.md")
-        kwargs = select_blog_doc(pub, doc)
+        kwargs = select_blog_doc(pub, doc, local_host)
         return kwargs
 
 

@@ -1,6 +1,8 @@
 from pathlib import Path
 from random import choice
 from shutil import copyfile
+
+from django.forms import model_to_dict
 from publish.days import is_old
 from publish.files import write_json
 from publish.import_export import pub_json_path
@@ -193,7 +195,7 @@ def save_pub_info():
         Path(f'probe/pubs/{pub.name}').write_text(text)
 
 
-def select_blog_doc(pub, doc):
+def select_blog_doc(pub, doc, local_host=False):
     def load_object(pub):
         return Pub.objects.filter(pk=pub.pk).values()[0]
 
@@ -221,14 +223,26 @@ def select_blog_doc(pub, doc):
     #     return
     
     p = get_pub(pub)
-    kwargs = load_object(p)
+    # kwargs = load_object(p)
+    kwargs = model_to_dict(p)
     kwargs.update(load_document(p))
-    menu = kwargs.get("menu")
-    if menu:
-        kwargs["menu"] = read_json(menu)["menu"]
-
+    kwargs["menu"] = read_menu(kwargs.get("menu"), local_host)
     return kwargs
 
+
+def read_menu(menu, local_host):
+
+    def allow(items):
+        exclude = ['Unpublished', 'Edit Content']
+        return [item for item in items if item[0] not in exclude]
+
+    if menu:
+        m = read_json(menu)
+        if not local_host and "menu" in m and "items" in m["menu"]:
+            items = m["menu"]["items"]
+            m["menu"]["items"] = allow(items)
+        return m["menu"]
+    
 
 def show_pub_content(pub):
     text = f"PUB CONTENT - {pub.title}\n\n"

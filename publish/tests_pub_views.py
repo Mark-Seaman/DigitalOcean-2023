@@ -26,3 +26,4 @@ class BlogPageTest(DjangoTest):
                      ("localhost:8000", None, None, '/pubs/book'))
         for r in redirects:
             self.assertEqual(pub_redirect(r[0], r[1], r[2]), r[3], f'FAILED: {r}')
+

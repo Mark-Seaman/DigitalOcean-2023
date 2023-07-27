@@ -39,10 +39,16 @@ def copy_doc_files(pub, chapter):
     source_dir = pub_path(pub.name, chapter)
     dest_dir = Path(pub.doc_path)
     with open(dest_dir/'_content.csv', "a") as file:
-        links = extract_links(source_dir/'Index.md')
-        for link in links:
-            copyfile(source_dir/link[0], dest_dir/link[0])
-            file.write(f'{link[0]},99,1\n')
+        index = source_dir/'Index.md'
+        if index.exists():
+            links = extract_links(source_dir/'Index.md')
+            for link in links:
+                copyfile(source_dir/link[0], dest_dir/link[0])
+                file.write(f'{link[0]},99,1\n')
+        else:
+            x = f'{chapter}.md'
+            if (source_dir/x).exists():
+                copyfile(source_dir/x, dest_dir/x)
     return str(dest_dir)
 
  

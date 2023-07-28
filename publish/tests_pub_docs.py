@@ -26,4 +26,6 @@ class PubDocTest(DjangoTest):
 
     def test_model_to_dict(self):
         p = get_pub('journey')
-        print(model_to_dict(p, fields=['id', 'name', 'doc_path'], exclude=['id']))
+        x = model_to_dict(p, fields=['id', 'name', 'doc_path'], exclude=['id'])
+        y = {'name': 'journey', 'doc_path': 'Documents/Shrinking-World-Pubs/journey/Pub'}
+        self.assertEqual(x, y)

@@ -3,13 +3,19 @@
 
 # Path Context
 syspath="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-pyenv1=/Users/seaman/.pyenv/versions/3.10.4/bin
-pyenv2=/Users/seaman/.pyenv/versions/3.11.3/bin
 brew=/opt/homebrew/bin:/opt/homebrew/sbin
 sublime="/Applications/Sublime Text.app/Contents/SharedSupport/bin"
 vscode1="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# pyenv1=/Users/seaman/.pyenv/versions/3.10.4/bin
+# pyenv2=/Users/seaman/.pyenv/versions/3.11.3/bin
 # vscode2="/private/var/folders/ch/23b6bkbj5t90h339h0pjyvh80000gn/T/AppTranslocation/*/d/Visual Studio Code 2.app/Contents/Resources/app/bin"
-export PATH="$pyenv1:$pyenv2:$brew:$sublime:$vscode1:$syspath"
+# export PATH="$pyenv1:$pyenv2:$brew:$sublime:$vscode1:$syspath"
+export PATH="$brew:$sublime:$vscode1:$syspath"
+
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 
 # ------------
 # Variables
@@ -37,7 +43,18 @@ export EDITOR="$sublime/subl -w"
 # ------------
 # ALIASES
 
+# Unused
+alias f='echo unused'
+alias i='echo unused'
+alias j='echo unused'
+alias n='echo unused'
+alias o='echo unused'
+alias v='echo unused'
+alias y='echo unused'
+alias z='echo unused'
+
 # Pub Script
+alias b='pm pub build'
 alias build='pm pub build'
 alias project='pm pub project'
 alias cover='pm pub cover'
@@ -47,11 +64,9 @@ alias doc='pm pub doc'
 alias edit='pm pub edit'
 alias files='pm pub files'
 alias publish='pm pub publish'
-alias ai='pm pub ai'
 
 # Project Scripts
 alias activity='week activity'
-alias ai='write ai'
 alias book='subl $book'
 alias course='d $c'
 alias blog='pm write blog'
@@ -63,7 +78,6 @@ alias gen='d; write genetics; d ~/Github/Shrinking-World-Pubs'
 alias ghost='cd ~/Github/GhostWriter'
 alias green='write green'
 alias hammer="source ~/.zshrc && code $p"
-alias i='e $i/history/2023/03'
 alias io='write io'
 alias masto='write masto'
 alias month='task month'
@@ -88,10 +102,10 @@ alias year='task year'
 alias cprc='cp ~/Hammer/config/zshrc ~/.zshrc && . ~/.zshrc'
 alias todo='pm todo'
 alias epub='d $w && open textbook.epub'
-alias dropbox='cp $w/textbook.epub ~/Dropbox/Stacie-Mark/PythonWebApps'
+alias dropbox='open ~/Dropbox/Stacie-Mark'
 alias treed='tree -d -L 3'
 alias m='e Documents/mastodon'
-alias a='d ~/Archive'
+alias a='open https://chat.openai.com/'
 
 # Linux command context
 alias g='grep --color=auto'
@@ -101,6 +115,7 @@ alias u='d ..'
 alias host="python -c 'import platform;print(platform.node())'"
 alias h='history 100'
 alias p=python
+alias w='open http://localhost:8000'
 
 # Git aliases
 alias ga='git add -A . && git commit -m'
@@ -117,15 +132,10 @@ alias vc='cd $p && pm vc'
 
 # Django aliases
 alias pm='python manage.py'
-alias r='pm runserver 8000'
-alias t='reset && pm tst run'
-alias serve='pm runserver 8000'
-alias dt='pm test'
+alias r='pm runserver &> /dev/null &'
+alias k='pkill -f "python manage.py runserver"'
 alias migrate='pm makemigrations && pm migrate'
-alias mm='pm makemigrations'
-alias web='open http://markseaman.info'
-alias w='open http://markseaman.info'
-# alias x='pm x'
+alias x='pm x'
 
 # Servers
 alias imac='ssh seaman@marks-imac.local'
@@ -136,10 +146,13 @@ alias pack='pm pack close'
 alias imager='pm imager'
 
 # Test aliases
+alias t='reset && pm tst run'
 alias tst='pm tst run'
 alias tlike='pm tst like && tst'
 alias tres='pm tst results | less'
 alias treset='pm tst reset'
+alias dt='pm test'
+alias q='pm tst quick'
 alias qt='pm tst quick'
 
 

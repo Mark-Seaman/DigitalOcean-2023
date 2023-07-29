@@ -410,7 +410,7 @@
     "fields": {
         "name": "sweng",
         "title": "Software Engineering",
-        "subtitle": "Practical Software Development",
+        "subtitle": "Practical Software Development Skills",
         "author": "Mark Seaman",
         "description": "The road to faster, cheaper, better software",
         "doc_path": "Documents/Shrinking-World-Pubs/sweng/Pub",
@@ -428,7 +428,7 @@
         "auto_index": true,
         "index_folders": false,
         "index_months": false,
-        "simple_index": true
+        "simple_index": false
     }
 },
 {
@@ -15759,20 +15759,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 224634,
-    "fields": {
-        "blog": 2992,
-        "order": 0,
-        "title": "Software Engineering Theory & Application",
-        "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Title.md",
-        "folder": 0,
-        "words": 515,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 224641,
     "fields": {
         "blog": 2993,
@@ -18181,98 +18167,266 @@
 },
 {
     "model": "publish.content",
-    "pk": 224827,
+    "pk": 224835,
+    "fields": {
+        "blog": 2991,
+        "order": 1,
+        "title": "The Human Brain",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/HumanBrain.md",
+        "folder": 5,
+        "words": 332,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224836,
+    "fields": {
+        "blog": 2991,
+        "order": 2,
+        "title": "Character Development",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Character.md",
+        "folder": 5,
+        "words": 302,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224837,
+    "fields": {
+        "blog": 2991,
+        "order": 3,
+        "title": "Personal Fruit",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Fruit.md",
+        "folder": 5,
+        "words": 337,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224838,
+    "fields": {
+        "blog": 2991,
+        "order": 4,
+        "title": "Spiritual Practices",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Practices.md",
+        "folder": 5,
+        "words": 330,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224848,
     "fields": {
         "blog": 2992,
         "order": 1,
-        "title": "Milestones for Web-based Software App",
+        "title": "Software Engineering Theory & Application",
         "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Milestones.md",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Overview.md",
         "folder": 0,
+        "words": 672,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224849,
+    "fields": {
+        "blog": 2992,
+        "order": 1,
+        "title": "Software Development Life Cycle",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/LifeCycle.md",
+        "folder": 1,
+        "words": 385,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224850,
+    "fields": {
+        "blog": 2992,
+        "order": 2,
+        "title": "Milestones for Web-based Software App",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Milestones.md",
+        "folder": 1,
         "words": 350,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 224828,
+    "pk": 224851,
     "fields": {
         "blog": 2992,
-        "order": 2,
+        "order": 4,
         "title": "Software Development Roles",
-        "doctype": "folder",
+        "doctype": "chapter",
         "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Roles.md",
-        "folder": 0,
+        "folder": 1,
         "words": 529,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 224829,
+    "pk": 224852,
     "fields": {
         "blog": 2992,
-        "order": 3,
-        "title": "Job Description: Software Project Manager",
+        "order": 5,
+        "title": "Planning Grid",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/PlanningGrid.md",
+        "folder": 1,
+        "words": 150,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224853,
+    "fields": {
+        "blog": 2992,
+        "order": 2,
+        "title": "Responsibilities in a Software Development Project",
         "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Requirements.md",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/DevRoles.md",
         "folder": 0,
+        "words": 511,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224854,
+    "fields": {
+        "blog": 2992,
+        "order": 5,
+        "title": "Job Description: Software Project Manager",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Requirements.md",
+        "folder": 2,
         "words": 435,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 224830,
+    "pk": 224855,
     "fields": {
         "blog": 2992,
-        "order": 4,
+        "order": 6,
         "title": "Job Description: Software Designer",
-        "doctype": "folder",
+        "doctype": "chapter",
         "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Design.md",
-        "folder": 0,
+        "folder": 2,
         "words": 336,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 224831,
+    "pk": 224856,
     "fields": {
         "blog": 2992,
-        "order": 5,
+        "order": 7,
         "title": "Job Description: Software Engineer",
-        "doctype": "folder",
+        "doctype": "chapter",
         "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Code.md",
-        "folder": 0,
+        "folder": 2,
         "words": 541,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 224832,
+    "pk": 224857,
     "fields": {
         "blog": 2992,
-        "order": 6,
+        "order": 8,
         "title": "Job Description: QA Engineer",
-        "doctype": "folder",
+        "doctype": "chapter",
         "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Test.md",
-        "folder": 0,
+        "folder": 2,
         "words": 451,
         "retain_object": false
     }
 },
 {
     "model": "publish.content",
-    "pk": 224833,
+    "pk": 224858,
     "fields": {
         "blog": 2992,
-        "order": 7,
-        "title": "Milestone 1: Project Charter",
+        "order": 3,
+        "title": "Software Application Team Project",
         "doctype": "folder",
-        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Milestone-1.md",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/TeamProject.md",
         "folder": 0,
+        "words": 256,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224859,
+    "fields": {
+        "blog": 2992,
+        "order": 1,
+        "title": "Application Project",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Application.md",
+        "folder": 3,
+        "words": 460,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224860,
+    "fields": {
+        "blog": 2992,
+        "order": 2,
+        "title": "Software Application Team Project",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Assignments.md",
+        "folder": 3,
+        "words": 764,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224861,
+    "fields": {
+        "blog": 2992,
+        "order": 4,
+        "title": "Software Project Milestones",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/MilestoneDetails.md",
+        "folder": 0,
+        "words": 616,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224862,
+    "fields": {
+        "blog": 2992,
+        "order": 1,
+        "title": "Milestone 1: Project Charter",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Milestone1.md",
+        "folder": 4,
         "words": 894,
         "retain_object": false
     }

@@ -422,7 +422,7 @@
         "words": 7526,
         "cover_image": "/static/images/Shrinking-World-Pubs/SoftwareEngineering/Cover.png",
         "menu": "static/js/nav_sw.json",
-        "pub_type": "private",
+        "pub_type": "blog",
         "auto_remove": false,
         "auto_contents": false,
         "auto_index": true,
@@ -18428,6 +18428,76 @@
         "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Milestone1.md",
         "folder": 4,
         "words": 894,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224863,
+    "fields": {
+        "blog": 2992,
+        "order": 5,
+        "title": "How Experience Affects Productivity",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Productivity.md",
+        "folder": 0,
+        "words": 540,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224864,
+    "fields": {
+        "blog": 2992,
+        "order": 1,
+        "title": "Learning and Doing",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/LearningDoing.md",
+        "folder": 5,
+        "words": 472,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224865,
+    "fields": {
+        "blog": 2992,
+        "order": 2,
+        "title": "Experience is Learned Skills",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Experience.md",
+        "folder": 5,
+        "words": 428,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224866,
+    "fields": {
+        "blog": 2992,
+        "order": 3,
+        "title": "Stages of Experience: Navigating the Path to Success",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/Stages.md",
+        "folder": 5,
+        "words": 580,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 224867,
+    "fields": {
+        "blog": 2992,
+        "order": 4,
+        "title": "Quantified Learning: Enhancing Skill Development",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/QuantifiedLearning.md",
+        "folder": 5,
+        "words": 780,
         "retain_object": false
     }
 }

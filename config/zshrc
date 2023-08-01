@@ -16,24 +16,19 @@ eval "$(pyenv init -)"
 
 # ------------
 # Variables
+
 export p=~/Hammer
 export h=~/Hammer
 export d=$p/Documents
 export g=$HOME/Github
 export a=$HOME/Archive
-export i=$d/markseaman.info
-export im=$p/static/images
+export i=$p/static/images
 export m="$a/rcp/mbw"
 export n=$a/ntsh
 export o=$d/shrinking-world.org
 export s=$d/Shrinking-World-Pubs
 export t=$i/history/2023/06
 export w=$d/seamansguide.com/webapps
-export course=$g/PythonWebApps
-export slog=$s
-export blog=$d/shrinking-world.com/blog
-export book=$d/seamansguide.com
-export green=$d/shrinking-world.com/greenhouse
 export EDITOR="$sublime/subl -w"
 
 
@@ -133,6 +128,7 @@ alias r='pm runserver &> /dev/null &'
 alias k='pkill -f "python manage.py runserver"'
 alias migrate='pm makemigrations && pm migrate'
 alias x='pm x'
+alias deploy='x deploy'
 
 # Servers
 alias imac='ssh seaman@marks-imac.local'

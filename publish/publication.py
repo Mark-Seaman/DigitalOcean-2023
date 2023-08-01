@@ -149,6 +149,10 @@ def get_pub_info(pub_name=None):
     return text
 
 
+def is_local(host):
+    return '127.0.0.1' in host or 'localhost' in host
+
+
 def list_publications():
     return read_csv_file('Documents/publications.csv')
 

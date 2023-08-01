@@ -3,7 +3,7 @@ from django.views.generic import RedirectView, TemplateView
 from .files import read_json
 from .import_export import refresh_pub_from_git
 from .models import Pub
-from .publication import bouncer_redirect, pub_redirect, read_menu, select_blog_doc
+from .publication import bouncer_redirect, is_local, pub_redirect, read_menu, select_blog_doc
 
 
 class BouncerRedirectView(RedirectView):
@@ -35,9 +35,9 @@ class PubView(TemplateView):
     template_name = "pub/blog.html"
 
     def get_context_data(self, **kwargs):
-        local_host = '127.0.0.1' in self.request.get_host()
         pub = kwargs.get("pub")
         doc = kwargs.get("doc", "Index.md")
+        local_host = is_local(self.request.get_host())
         kwargs = select_blog_doc(pub, doc, local_host)
         return kwargs
 
@@ -52,8 +52,7 @@ class PubLibraryView(TemplateView):
             get_collection('blog', 'Blogs'),
             get_collection('private', 'Private Blogs'),
             ]
-        # menu = read_json("static/js/nav_blog.json")["menu"]
-        local_host = '127.0.0.1' in self.request.get_host()
+        local_host = is_local(self.request.get_host())
         menu = read_menu("static/js/nav_blog.json", local_host)
         kwargs = dict(collections=collections, menu=menu, site_title="Shrinking Word Publication Library", site_subtitle="All Publications")
         return kwargs
@@ -70,8 +69,7 @@ class PubListView(TemplateView):
     def get_context_data(self, **kwargs):
         pub_type = self.kwargs.get('pub_type')
         pubs = Pub.objects.filter(pub_type=pub_type)
-        # menu = read_json("static/js/nav_blog.json")["menu"]
-        local_host = '127.0.0.1' in self.request.get_host()
+        local_host = is_local(self.request.get_host())
         menu = read_menu("static/js/nav_blog.json", local_host)
         kwargs = dict(pubs=pubs, menu=menu, site_title="Shrinking Word Publication Library", site_subtitle="A Seaman's Guides")
         return kwargs
@@ -83,7 +81,7 @@ class PubDetailView(TemplateView):
         refresh_pub_from_git()
         pub = kwargs.get("pub")
         doc = kwargs.get("doc", "Index.md")
-        local_host = '127.0.0.1' in self.request.get_host()
+        local_host = is_local(self.request.get_host())
         kwargs = select_blog_doc(pub, doc, local_host)
         return kwargs
 

@@ -130,7 +130,7 @@ def doc_script(args, edit=False):
     path = pub_path(pub, chapter, doc)
     for d in pub_doc_files(path):
         if not Path(d).exists():
-            Path(d).write_text('new file')
+            Path(d).write_text('')
     return str(path)
 
 

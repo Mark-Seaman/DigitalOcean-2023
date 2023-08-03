@@ -53,5 +53,5 @@ def write_playbook(pub_name):
     playbook = render_to_string('pub_script/playbook_prompts.md', data)
     path = pub_path(pub_name, 'Index', 'Index.md')
     path.write_text(playbook)
-    print(playbook)
+    # print(playbook)
     return 'ok'

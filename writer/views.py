@@ -5,7 +5,7 @@ from django.views.generic.edit import FormView
 
 from .ai import pub_ai
 from .pub_script import create_pub_content, doc_view_data, pub_edit
-from .publish import pub_publish
+from .publisher import pub_publish
 
 class DocumentView(TemplateView):
     template_name = "pub_script/document.html"

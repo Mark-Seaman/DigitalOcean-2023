@@ -336,7 +336,7 @@ def pub_script(command_args):
     elif command == 'project':
         output = project_script(args)
     elif command == 'publish':
-        from .publish import publish_script
+        from .publisher import publish_script
         output = publish_script(args)
     elif command == 'script':
         output = execute_pub_script(args)

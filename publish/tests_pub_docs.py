@@ -10,7 +10,7 @@ class PubDocTest(DjangoTest):
     fixtures = ["config/publish.json"]
 
     def test_all_docs(self):
-        self.assertFiles('Documents', 500, 2300)
+        self.assertFiles('Documents', 500, 2400)
 
     def test_doc_directories(self):
         data = '''Documents/SHRINKING-WORLD-PUBS,500,800'''

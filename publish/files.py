@@ -322,10 +322,13 @@ def write_csv_file(path, table):
 
 
 # Return the text from the file
-def write_file(filename, text, append=None):
-    create_directory(dirname(filename))
-    with open(filename, 'a' if append else 'w') as f:
-        f.write(text)
+def write_file(path, text, append=None, **kwargs):
+    overwrite = kwargs.get('overwrite', False)
+    append = kwargs.get('append', append)
+    create_directory(dirname(path))
+    if overwrite or not Path(path).exists():
+        with open(path, 'a' if append else 'w') as f:
+            f.write(text)
 
 
 # Write JSON to a file

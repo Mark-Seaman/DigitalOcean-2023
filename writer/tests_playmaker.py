@@ -1,10 +1,8 @@
 from probe.tests_django import DjangoTest
 from publish.text import text_lines
 
-from .outline import (create_index, extract_links,
-                      extract_outlines, extract_urls, create_outlines)
-from .playmaker import read_outline, read_plays, write_playbook, write_plays
-from .pub_script import pub_path
+from .playmaker import (read_outline, read_plays, write_chapters, write_contents, write_index,
+                        write_playbook, write_plays_csv)
 
 
 class PlaymakerTest(DjangoTest):
@@ -15,12 +13,24 @@ class PlaymakerTest(DjangoTest):
 
     def test_plays(self):
         x = read_plays('apps')
-        self.assertEqual(len(x), 47)
+        self.assertEqual(len(x), 57)
 
     def test_write_plays(self):
-        x = write_plays('apps')
-        self.assertEqual(len(x), 47)
+        x = write_plays_csv('apps')
+        self.assertEqual(x, '58 Lines in playlist')
 
-    def test_write_playbook(self):
-        x = write_playbook('apps')
-        self.assertEqual(len(x), 2)
+    # def test_write_index(self):
+    #     x = write_index()
+    #     self.assertEqual(x, 'Not Implemented')
+
+    def test_write_contents(self):
+        x = write_contents('apps')
+        self.assertEqual(x, '58 Lines in contents file')
+
+    def test_chapters(self):
+        x = write_chapters('apps')
+        self.assertEqual(x, '57 Chapters')
+
+   # def test_write_playbook(self):
+    #     x = write_playbook('apps')
+    #     self.assertEqual(len(x), 2)

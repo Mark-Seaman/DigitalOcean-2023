@@ -1,8 +1,15 @@
+from pathlib import Path
 from django.template.loader import render_to_string
-
-from publish.files import read_csv_file, write_csv_file
+from publish.files import read_csv_file, write_csv_file, write_file
+from publish.text import text_lines
 
 from .pub_script import pub_path
+
+
+def read_files_table(pub_name):
+    csv = pub_path(pub_name, 'Index', '_plays.csv')
+    table = read_csv_file(csv)
+    return {row[2].strip(): row[0] for row in table}
 
 
 def read_outline(pub_name):
@@ -11,17 +18,62 @@ def read_outline(pub_name):
 
 
 def read_plays(pub_name):
-    path = pub_path(pub_name, 'Index', 'plays.csv')
+    path = pub_path(pub_name, 'Index', '_plays.csv')
     return read_csv_file(path)
 
 
-def write_plays(pub_name):
-    path = pub_path(pub_name, 'Index', 'Outline.md')
+def write_chapters(pub_name):
+
+    def create_chapter(chapter):
+        d = pub_path(pub_name, chapter.replace('.md', ''))
+        d.mkdir(exist_ok=True)
+        # print('mkdir', d)
+        return d
+
+    def move_docs(chapter,doc):
+        d = create_chapter(chapter)
+        f = d.parent/'Index'/doc
+        # print("FILE", f)
+        if f.exists():
+            print(f'mv {f} {d/doc}')
+            f.rename(d/doc)
+
+    path = pub_path(pub_name, 'Index', '_content.csv')
     table = read_csv_file(path)
-    table = [(".md", row[0]) for row in table if row]
-    csv = pub_path(pub_name, 'Index', 'plays.csv')
-    # write_csv_file(csv, table)
-    return read_csv_file(csv)
+    for row in table:
+        if not row[2:]:
+            create_chapter(row[0])
+            chapter = row[0]
+        move_docs(chapter,row[0])
+        move_docs(chapter,row[0].replace('.md', '.ai'))
+    return f'{len(table)} Chapters'
+
+
+def write_contents(pub_name):
+    def folders (table):
+        return {row[2].strip(): i for i,row in enumerate(table)}
+
+    table = read_plays(pub_name)
+    map = folders(table)
+    text = ''
+    for i,row in enumerate(table):
+        file = row[0]
+        folder = map.get(row[1])
+        doc = map.get(row[2])
+        if folder == doc:
+            text += f'{file},{folder}\n'
+        else:
+            text += f'{file},{folder},{doc}\n'
+    path = pub_path(pub_name, 'Index', '_content.csv')
+    write_file(path, text, overwrite=False)
+    return f'{len(text_lines(text))} Lines in contents file'
+
+
+def write_index(pub_name):
+    path = pub_path(pub_name, 'Index', 'Index.md')
+
+    text = path
+    return text
 
 
 def write_playbook(pub_name):
@@ -43,15 +95,39 @@ def write_playbook(pub_name):
         path = pub_path(pub_name, 'Index', play['md'])
         path.write_text(play['prompt'])
 
-    path = pub_path(pub_name, 'Index', 'plays.csv')
+    path = pub_path(pub_name, 'Index', '_plays.csv')
     table = read_csv_file(path)
     table = [play(row) for row in table if row][1:]
     for row in table:
         write_play(row)
 
     data = {'plays': table}
-    playbook = render_to_string('pub_script/playbook_prompts.md', data)
+    text = render_to_string('pub_script/playbook_prompts.md', data)
     path = pub_path(pub_name, 'Index', 'Index.md')
-    path.write_text(playbook)
+    path.write_text(text)
     # print(playbook)
-    return 'ok'
+    return f'{len(text_lines(text))} Lines in playbook'
+
+
+def write_plays_csv(pub_name):
+
+    map = read_files_table(pub_name)
+    path = pub_path(pub_name, 'Index', 'Outline.md')
+    table = read_csv_file(path)
+    text = ''
+    for row in table:
+        if row:
+            if not row[0].startswith('        '):
+                chapter = row[0][4:]
+            title = row[0].strip()
+            if title.startswith('# '):
+                title = title[2:]
+            f = map.get(title, title+'.md')
+            text += f'{f},{chapter},{title}\n'
+
+    csv = pub_path(pub_name, 'Index', '_plays.csv')
+    write_file(csv, text)
+    # return read_csv_file(csv)
+    return f'{len(text_lines(text))} Lines in playlist'
+
+

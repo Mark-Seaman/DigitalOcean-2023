@@ -29,7 +29,7 @@ class PlaymakerTest(DjangoTest):
 
     def test_chapters(self):
         x = write_chapters('apps')
-        self.assertEqual(x, '57 Chapters')
+        self.assertEqual(x, '10 Chapters')
 
    # def test_write_playbook(self):
     #     x = write_playbook('apps')

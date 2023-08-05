@@ -18,13 +18,29 @@ from .probe_pub import test_show_pubs
 
 def quick_test():
     # print("No quick test defined")
-    pubs()
-
+    # pubs()
+    doit()
     # Run Tests
     # tests()
     # writer()
 
     return 'OK'
+
+def doit():
+    tuples = [
+        ("John", 25),
+        ("Alice", 30),
+        ("Bob", 25),
+        ("Eva", 30)
+    ]
+
+    age_dict = {}
+    for name, age in tuples:
+        age_dict.setdefault(age, []).append(name)
+
+    print("Dictionary of Names grouped by Age:")
+    for age, names in sorted(age_dict.items()):
+        print(f"Age {age}: {', '.join(names)}")
 
 def writer():
     # path = pub_path('spirituality','Transformation','Outline.md')

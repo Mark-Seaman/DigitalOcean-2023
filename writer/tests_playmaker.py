@@ -1,7 +1,7 @@
 from probe.tests_django import DjangoTest
 from publish.text import text_lines
 
-from .playmaker import (read_outline, read_plays, write_chapters, write_contents, write_index,
+from .playmaker import (read_outline, read_plays, read_toc, write_chapters, write_contents, write_index,
                         write_playbook, write_plays_csv)
 
 
@@ -30,6 +30,12 @@ class PlaymakerTest(DjangoTest):
     def test_chapters(self):
         x = write_chapters('apps')
         self.assertEqual(x, '10 Chapters')
+
+    def test_toc(self):
+        table, cmap, fmap = read_toc('apps')
+        self.assertEqual(len(table), 58)
+        self.assertEqual(len(cmap), 10)
+        self.assertEqual(len(fmap), 58)
 
    # def test_write_playbook(self):
     #     x = write_playbook('apps')

@@ -22,33 +22,8 @@ def read_plays(pub_name):
     return read_csv_file(path)
 
 
-def write_chapters(pub_name):
-
-    def create_chapter(chapter):
-        d = pub_path(pub_name, chapter.replace('.md', ''))
-        d.mkdir(exist_ok=True)
-        chapter_index(chapter)
-        return d
-
-    def chapter_index(chapter, docs, fmap):
-        cdir = fmap[chapter].replace('.md','')
-        path = pub_path(pub_name, cdir, 'Index.md')
-        print(chapter, cdir, path)
-        text = f'# Chapter {chapter} - {cdir}\n\n'
-        for d in docs:
-            text += f'* [{d}]({d})\n'
-        path.write_text(text)
-
-    # xooxoxxxxoxoooxxooxxxxooxooooo
-
-    # def move_docs(chapter,doc):
-    #     d = create_chapter(chapter)
-    #     f = d.parent/'Index'/doc
-    #     # print("FILE", f)
-    #     if f.exists():
-    #         print(f'mv {f} {d/doc}')
-    #         f.rename(d/doc)
-
+def read_toc(pub_name):
+    
     def chapter_map(table):
         map = {}
         table = [row[:2] for row in table]
@@ -61,27 +36,36 @@ def write_chapters(pub_name):
         for row in table:
             key = ','.join(row[1:])
             map[key] = row[0]
-        # print(map)
         return map
 
     path = pub_path(pub_name, 'Index', '_content.csv')
     table = read_csv_file(path)
     cmap = chapter_map(table)
     fmap = filename_map(table)
-    for chapter in sorted(cmap, key=int):
-        chapter_index(chapter,cmap[chapter], fmap)
+    return table, cmap, fmap
+
+
+def write_chapters(pub_name):
+
+    def create_chapter(chapter, fmap):
+        cdir = fmap[chapter].replace('.md','')
+        d = pub_path(pub_name, cdir.replace('.md', ''))
+        d.mkdir(exist_ok=True)
+        return d
+
+    def chapter_index(chapter, docs, fmap):
+        cdir = fmap[chapter].replace('.md','')
+        path = pub_path(pub_name, cdir, 'Index.md')
+        # print(chapter, cdir, path)
+        text = f'# Chapter {chapter} - {cdir}\n\n'
+        for d in docs:
+            text += f'* [{d}]({d})\n'
+        path.write_text(text)
         
-        # for key in sorted(map, key=int):
-        #     print(f"Chapter {key}: {', '.join(map[key])}")
-    # path = pub_path(pub_name, 'Index', '_content.csv')
-    # table = read_csv_file(path)
-    # for row in table:
-    #     if not row[2:]:
-    #         print('NEW CHAPTER:', row)
-    #         create_chapter(row[0])
-    #         chapter = row[0]
-    #     # move_docs(chapter,row[0])
-    #     # move_docs(chapter,row[0].replace('.md', '.ai'))
+    table, cmap, fmap = read_toc(pub_name)
+    for chapter in sorted(cmap, key=int):
+        create_chapter(chapter, fmap)
+        chapter_index(chapter,cmap[chapter], fmap)
     return f'{len(cmap)} Chapters'
 
 
@@ -107,7 +91,6 @@ def write_contents(pub_name):
 
 def write_index(pub_name):
     path = pub_path(pub_name, 'Index', 'Index.md')
-
     text = path
     return text
 

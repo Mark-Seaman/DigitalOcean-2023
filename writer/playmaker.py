@@ -80,7 +80,7 @@ def write_contents(pub_name):
         else:
             text += f'{file},{folder},{doc}\n'
     path = pub_path(pub_name, 'Index', '_content.csv')
-    write_file(path, text, overwrite=False)
+    write_file(path, text)
     return f'{len(text_lines(text))} Lines in contents file'
 
 
@@ -164,7 +164,7 @@ def write_plays_csv(pub_name):
             text += f'{f},{chapter},{title}\n'
 
     csv = pub_path(pub_name, 'Index', '_plays.csv')
-    write_file(csv, text)
+    write_file(csv, text, overwrite=True)
     # return read_csv_file(csv)
     return f'{len(text_lines(text))} Lines in playlist'
 

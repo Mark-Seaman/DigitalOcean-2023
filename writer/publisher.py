@@ -19,8 +19,13 @@ def publish_script(args):
     if not args:
         return 'usage: publish pub-name chapter doc'
     pub_name = args[0]
-    p = pub_path()/'Pub'
-    p.mkdir(exist_ok=True)
+    source = pub_path('apps')
+    dest = pub_path()/'apps'/'Pub'
+    print('SOURCE:', source, ', DEST:', dest)
+    dest.mkdir(exist_ok=True)
+    copyfile(source/'Index'/'_content.csv', dest/'_content.csv')
+    copyfile(source/'Index'/'Index.md', dest/'Index.md')
+
     print('publish apps')
     if args[2:]:
         pub = get_pub(pub_name)

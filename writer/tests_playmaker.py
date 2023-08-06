@@ -1,7 +1,7 @@
 from probe.tests_django import DjangoTest
 from publish.text import text_lines
 
-from .playmaker import (read_outline, read_plays, read_toc, write_chapters, write_contents, write_index,
+from .playmaker import (publish_playbook, read_outline, read_plays, read_toc, write_chapters, write_contents, write_index,
                         write_playbook, write_plays_csv)
 
 
@@ -19,9 +19,10 @@ class PlaymakerTest(DjangoTest):
         x = write_plays_csv('apps')
         self.assertEqual(x, '58 Lines in playlist')
 
-    # def test_write_index(self):
-    #     x = write_index()
-    #     self.assertEqual(x, 'Not Implemented')
+    def test_write_index(self):
+        x = write_index('apps')
+        # xxoooooooooo
+        self.assertEqual(x, '101 Lines in Index')
 
     def test_write_contents(self):
         x = write_contents('apps')
@@ -32,10 +33,15 @@ class PlaymakerTest(DjangoTest):
         self.assertEqual(x, '10 Chapters')
 
     def test_toc(self):
-        table, cmap, fmap = read_toc('apps')
-        self.assertEqual(len(table), 58)
+        cmap, fmap = read_toc('apps')
         self.assertEqual(len(cmap), 10)
         self.assertEqual(len(fmap), 58)
+
+    # xooxxooxx0
+    def test_publish_playbook(self):
+        x = publish_playbook('apps')
+        self.assertEqual(x, 'OK')
+
 
    # def test_write_playbook(self):
     #     x = write_playbook('apps')

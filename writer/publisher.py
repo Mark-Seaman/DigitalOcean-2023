@@ -16,14 +16,19 @@ def pub_publish(**kwargs):
     return url
 
 def publish_script(args):
-    if not args[2:]:
+    if not args:
         return 'usage: publish pub-name chapter doc'
     pub_name = args[0]
-    pub = get_pub(pub_name)
-    chapter = args[1]
-    text = copy_image_file(pub)
-    edit_files([copy_doc_files(pub, chapter)])
-    return text
+    p = pub_path()/'Pub'
+    p.mkdir(exist_ok=True)
+    print('publish apps')
+    if args[2:]:
+        pub = get_pub(pub_name)
+        chapter = args[1]
+        text = copy_image_file(pub)
+        edit_files([copy_doc_files(pub, chapter)])
+        return text
+    return 'OK'
 
 
 def copy_image_file(pub):

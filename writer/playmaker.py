@@ -1,9 +1,14 @@
 from pathlib import Path
 from django.template.loader import render_to_string
-from publish.files import read_csv_file, write_csv_file, write_file
-from publish.text import text_lines
+from publish.files import count_files, read_csv_file, write_csv_file, write_file
+from publish.text import line_count, text_lines
 
-from .pub_script import pub_path
+from .pub_script import pub_path, pub_script
+
+def publish_playbook(pub_name):
+    print(f'publish_playbook({pub_name})')
+    pub_script(['project', pub_name])
+    return pub_script(['publish', pub_name])
 
 
 def read_files_table(pub_name):
@@ -23,7 +28,7 @@ def read_plays(pub_name):
 
 
 def read_toc(pub_name):
-    
+
     def chapter_map(table):
         map = {}
         table = [row[:2] for row in table]
@@ -42,7 +47,7 @@ def read_toc(pub_name):
     table = read_csv_file(path)
     cmap = chapter_map(table)
     fmap = filename_map(table)
-    return table, cmap, fmap
+    return cmap, fmap
 
 
 def write_chapters(pub_name):
@@ -53,19 +58,9 @@ def write_chapters(pub_name):
         d.mkdir(exist_ok=True)
         return d
 
-    def chapter_index(chapter, docs, fmap):
-        cdir = fmap[chapter].replace('.md','')
-        path = pub_path(pub_name, cdir, 'Index.md')
-        # print(chapter, cdir, path)
-        text = f'# Chapter {chapter} - {cdir}\n\n'
-        for d in docs:
-            text += f'* [{d}]({d})\n'
-        path.write_text(text)
-        
-    table, cmap, fmap = read_toc(pub_name)
+    cmap, fmap = read_toc(pub_name)
     for chapter in sorted(cmap, key=int):
         create_chapter(chapter, fmap)
-        chapter_index(chapter,cmap[chapter], fmap)
     return f'{len(cmap)} Chapters'
 
 
@@ -90,9 +85,33 @@ def write_contents(pub_name):
 
 
 def write_index(pub_name):
-    path = pub_path(pub_name, 'Index', 'Index.md')
-    text = path
-    return text
+
+    def chapter_index(chapter, doc, docs, fmap):
+        cdir = fmap[doc].replace('.md','')
+        path = pub_path(pub_name, cdir, 'Index.md')
+        text = f'## Chapter {chapter} - {cdir}\n\n'
+        for d in docs:
+            text += f'* [{d}]({d})\n'
+        path.write_text(text)
+        
+    def pub_index(cmap, fmap):
+        text = f"# Index for {pub_name}\n\n"
+        for i, chapter in enumerate(sorted(cmap, key=int)):
+            chapter_index(i, chapter, cmap[chapter], fmap)
+            cdir = fmap[chapter].replace('.md','')
+            text += f'{read_index(pub_name, cdir)}\n\n'
+        path = pub_path(pub_name, 'Index', 'Index.md')
+        path.write_text(text)
+        return text
+
+    def read_index(pub_name, chapter):
+        path = pub_path(pub_name, chapter, 'Index.md')
+        return path.read_text()
+
+    cmap, fmap = read_toc(pub_name)
+    text = pub_index(cmap, fmap)
+    # print(text)
+    return f'{line_count(text)} Lines in Index'
 
 
 def write_playbook(pub_name):

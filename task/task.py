@@ -83,7 +83,7 @@ def fix_tasks(**kwargs):
             return a.delete()
 
     def setup_activities():
-        # TaskType.objects.get(name='People').delete()
+        # TaskType.objects.get(name='Learn').delete()
         delete_activity('Fun')
         delete_activity('Grow')
         delete_activity('Code')
@@ -96,7 +96,6 @@ def fix_tasks(**kwargs):
 
         define_activity('Family', 'Public')
         define_activity('Church', 'Public')
-        define_activity('Learn', 'Work')
         define_activity('Innovate', 'Work')
         define_activity('ProMETA', 'Work')
         define_activity('Fun', 'Private')

@@ -7,6 +7,7 @@ from publish.publication import (build_pubs, get_pub, get_pub_contents,
                                  show_pubs)
 from publish.text import text_join, text_lines
 from publish.toc import create_pub_index
+from task.models import Activity, Task, TaskType
 from task.task import task_command
 from task.todo import edit_todo_list
 from writer.outline import create_outlines
@@ -18,39 +19,15 @@ from .probe_pub import test_show_pubs
 
 def quick_test():
     # print("No quick test defined")
-    # pubs()
-    doit()
+    pubs()
+    # print(Activity.objects.filter(name='Learn').delete())
     # Run Tests
     # tests()
     # writer()
 
     return 'OK'
 
-def doit():
-    tuples = [
-        ("John", 25),
-        ("Alice", 30),
-        ("Bob", 25),
-        ("Eva", 30)
-    ]
-
-    age_dict = {}
-    for name, age in tuples:
-        age_dict.setdefault(age, []).append(name)
-
-    print("Dictionary of Names grouped by Age:")
-    for age, names in sorted(age_dict.items()):
-        print(f"Age {age}: {', '.join(names)}")
-
 def writer():
-    # path = pub_path('spirituality','Transformation','Outline.md')
-    # test_extraction(path)
-    # create_index(path)
-    # create_outlines_ai(path)
-    # outline = path.read_text()
-    # fragments = split_outline(outline)
-    # print(fragments)
-
     create_outlines(pub_path('spirituality','Transformation'))
 
 

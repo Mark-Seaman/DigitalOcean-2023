@@ -1,15 +1,26 @@
 Monday
 
-Grow 1
+Family 3
+
+    go to Costco to get Stacie's glasses
+    Rally restaurant
+
+Innovate 2
 
     project planning
+    automatic publishing script - chapter tests
 
-Church 0
-Family 0
-Write 0
-Teach 0
-Innovate 0
-ProMETA 0
-Business 0
-Fun 0
+ProMETA 7
+
+    Meet with Stacie
+    Fix failing tests 
+    Create tests_data.py
+    test_data_import
+    Build to 43 Tests
+    Convert Section files to new Bimesters
+    create default Bimester
+
+Fun 2
+
+    Creatures Great and Small
 

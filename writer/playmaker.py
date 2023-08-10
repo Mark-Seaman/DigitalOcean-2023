@@ -6,7 +6,7 @@ from publish.text import line_count, text_lines
 from .pub_script import pub_path, pub_script
 
 def publish_playbook(pub_name):
-    print(f'publish_playbook({pub_name})')
+    # print(f'publish_playbook({pub_name})')
     pub_script(['project', pub_name])
     return pub_script(['publish', pub_name])
 

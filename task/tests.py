@@ -1,3 +1,4 @@
+from pathlib import Path
 from django.test import TestCase
 
 from task.models import Task
@@ -24,4 +25,9 @@ class TaskDataTest(TestCase):
     #     task_import_files(100)
     #     tasks = Task.objects.all()
     #     self.assertGreater(len(tasks), 422)
+
+    def test_goals(self):
+        goals = Path("Documents/markseaman.info/history/Today.md").read_text()
+        self.assertTrue(goals.startswith('# Goals for Today'))
+        # self.assertEqual(goals, '# Goals for Today')
 

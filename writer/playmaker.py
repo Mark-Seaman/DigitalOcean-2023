@@ -1,8 +1,8 @@
 from pathlib import Path
 from django.template.loader import render_to_string
 from publish.files import count_files, read_csv_file, write_csv_file, write_file
-from publish.text import line_count, text_lines
-
+from publish.text import line_count, no_blank_lines, text_lines
+from publish.document import title
 from .pub_script import pub_path, pub_script
 
 def publish_playbook(pub_name):
@@ -11,15 +11,15 @@ def publish_playbook(pub_name):
     return pub_script(['publish', pub_name])
 
 
-def read_files_table(pub_name):
+def title_map(pub_name):
     csv = pub_path(pub_name, 'Index', '_plays.csv')
     table = read_csv_file(csv)
-    return {row[2].strip(): row[0] for row in table}
+    return {row[1].strip(): row[0] for row in table}
 
 
 def read_outline(pub_name):
     path = pub_path(pub_name, 'Index', 'Outline.md')
-    return path.read_text()
+    return text_lines(no_blank_lines(path.read_text()))[1:]
 
 
 def read_plays(pub_name):
@@ -33,7 +33,10 @@ def read_toc(pub_name):
         map = {}
         table = [row[:2] for row in table]
         for f, c in table:
-            map.setdefault(c, []).append(f)
+            if c != 'None':
+                map.setdefault(c, []).append(f)
+                # print(f, c)
+
         return map
 
     def filename_map(table):
@@ -91,17 +94,22 @@ def write_index(pub_name):
         path = pub_path(pub_name, cdir, 'Index.md')
         text = f'## Chapter {chapter} - {cdir}\n\n'
         for d in docs:
-            text += f'* [{d}]({d})\n'
+            p = pub_path(pub_name, cdir, fmap[doc])
+            t = p.read_text()
+            doc_title = title(t)
+            text += f'* [{doc_title}]({d})\n'
         path.write_text(text)
         
     def pub_index(cmap, fmap):
         text = f"# Index for {pub_name}\n\n"
         for i, chapter in enumerate(sorted(cmap, key=int)):
+            text += f'Chapter {i}: {fmap[chapter]}'
             chapter_index(i, chapter, cmap[chapter], fmap)
-            cdir = fmap[chapter].replace('.md','')
-            text += f'{read_index(pub_name, cdir)}\n\n'
-        path = pub_path(pub_name, 'Index', 'Index.md')
-        path.write_text(text)
+        #     cdir = fmap[chapter].replace('.md','')
+        #     text += f'{read_index(pub_name, cdir)}\n\n'
+        # path = pub_path(pub_name, 'Index', 'Index.md')
+        # path.write_text(text)
+        print(text)
         return text
 
     def read_index(pub_name, chapter):
@@ -148,21 +156,18 @@ def write_playbook(pub_name):
 
 
 def write_plays_csv(pub_name):
-
-    map = read_files_table(pub_name)
-    path = pub_path(pub_name, 'Index', 'Outline.md')
-    table = read_csv_file(path)
+    plays = read_plays('apps')
+    titles = {row[2].strip(): row[0] for row in plays}
+    lines =  read_outline('apps')
     text = ''
-    for row in table:
-        if row:
-            if not row[0].startswith('        '):
-                chapter = row[0][4:]
-            title = row[0].strip()
-            if title.startswith('# '):
-                title = title[2:]
-            f = map.get(title, title+'.md')
-            text += f'{f},{chapter},{title}\n'
-
+    for i,line in enumerate(lines):
+        default = line.replace(' ', '')+'.md'
+        file = titles.get(line.strip(), default)
+        if not line.startswith('        '):
+            c = i
+        row = f'{file},{c},{i},{line}'
+        text += row+'\n'
+    print(text)
     csv = pub_path(pub_name, 'Index', '_plays.csv')
     write_file(csv, text, overwrite=True)
     # return read_csv_file(csv)

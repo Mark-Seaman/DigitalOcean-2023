@@ -3,7 +3,7 @@ from pathlib import Path
 from publish.files import create_directory
 from writer.tests_pub_script import ghost_writer_files
 
-from .pub_script import (doc_html, doc_list, doc_text, doc_title, pub_list,
+from .pub_script import (doc_html, doc_list, doc_text, pub_doc_title, pub_list,
                          pub_path, doc_view_data, pub_script, read_pub_doc)
 from probe.tests_django import DjangoTest
 
@@ -58,7 +58,7 @@ class PubTest(DjangoTest):
 
     def test_doc_title(self):
         x = 'Chapter 1 - Introduction'
-        y = doc_title('ghost', 'WritersGuide', 'Chapter1.md')
+        y = pub_doc_title('ghost', 'WritersGuide', 'Chapter1.md')
         self.assertEqual(y, x)
 
     def test_doc_text(self):

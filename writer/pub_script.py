@@ -134,7 +134,7 @@ def doc_script(args, edit=False):
     return str(path)
 
 
-def doc_title(pub, chapter, doc):
+def pub_doc_title(pub, chapter, doc):
     return title(read_pub_doc(pub, chapter, doc))
 
 

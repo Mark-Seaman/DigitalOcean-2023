@@ -55,7 +55,7 @@ def edit_task_files():
 
     path = Path("Documents/markseaman.info/history")
     open_files(path, 0, 3, path_name, create_history_file)
-
+    edit_file(path/'Today.md')
 
 def edit_spirit_files():
     def path_name(path, date):

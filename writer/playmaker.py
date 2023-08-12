@@ -5,6 +5,38 @@ from publish.text import line_count, no_blank_lines, text_lines
 from publish.document import title
 from .pub_script import pub_path, pub_script
 
+
+def chapter_index(pub_name, chapter, num):
+    plays = read_plays(pub_name)
+    for play in plays:
+        if play[1] == num:
+            title = play[3].strip()
+            if play[2] == num:
+                chap = play[0].replace('.md', '')
+                text = f'## Chapter {chapter} - {title}\n\n'
+            f = play[0]
+            d = f.replace('.md', '')
+            p = pub_path(pub_name, d, f)
+            if p.exists():
+                text += f'* [{title}]({d})\n'
+    path = pub_path(pub_name, chap, 'Index.md')
+    write_file(path, text, overwrite=True)
+    return text
+
+
+def create_docs(pub_name):
+    plays = read_plays(pub_name)
+    for play in plays:
+        f = play[0]
+        d = f.replace('.md', '')
+        p = pub_path(pub_name, d, f)
+        if not p.exists():
+            write_file(p, f'# {play[3]}\n')
+            print('Create', f, play[3])
+        # else:
+        #     print(f, 'Exists')
+
+
 def publish_playbook(pub_name):
     # print(f'publish_playbook({pub_name})')
     pub_script(['project', pub_name])
@@ -56,7 +88,7 @@ def read_toc(pub_name):
 def write_chapters(pub_name):
 
     def create_chapter(chapter, fmap):
-        cdir = fmap[chapter].replace('.md','')
+        cdir = fmap[chapter].replace('.md', '')
         d = pub_path(pub_name, cdir.replace('.md', ''))
         d.mkdir(exist_ok=True)
         return d
@@ -68,13 +100,13 @@ def write_chapters(pub_name):
 
 
 def write_contents(pub_name):
-    def folders (table):
-        return {row[2].strip(): i for i,row in enumerate(table)}
+    def folders(table):
+        return {row[2].strip(): i for i, row in enumerate(table)}
 
     table = read_plays(pub_name)
     map = folders(table)
     text = ''
-    for i,row in enumerate(table):
+    for i, row in enumerate(table):
         file = row[0]
         folder = map.get(row[1])
         doc = map.get(row[2])
@@ -89,37 +121,27 @@ def write_contents(pub_name):
 
 def write_index(pub_name):
 
-    def chapter_index(chapter, doc, docs, fmap):
-        cdir = fmap[doc].replace('.md','')
-        path = pub_path(pub_name, cdir, 'Index.md')
-        text = f'## Chapter {chapter} - {cdir}\n\n'
-        for d in docs:
-            p = pub_path(pub_name, cdir, fmap[doc])
-            t = p.read_text()
-            doc_title = title(t)
-            text += f'* [{doc_title}]({d})\n'
-        path.write_text(text)
-        
-    def pub_index(cmap, fmap):
-        text = f"# Index for {pub_name}\n\n"
-        for i, chapter in enumerate(sorted(cmap, key=int)):
-            text += f'Chapter {i}: {fmap[chapter]}'
-            chapter_index(i, chapter, cmap[chapter], fmap)
-        #     cdir = fmap[chapter].replace('.md','')
-        #     text += f'{read_index(pub_name, cdir)}\n\n'
-        # path = pub_path(pub_name, 'Index', 'Index.md')
-        # path.write_text(text)
-        print(text)
-        return text
+    #     def pub_index(cmap, fmap):
+    #         text = f"# Index for {pub_name}\n\n"
+    #         for i, chapter in enumerate(sorted(cmap, key=int)):
+    #             text += f'Chapter {i}: {fmap[chapter]}'
+    #             chapter_index(i, chapter, cmap[chapter], fmap)
+    #         #     cdir = fmap[chapter].replace('.md','')
+    #         #     text += f'{read_index(pub_name, cdir)}\n\n'
+    #         # path = pub_path(pub_name, 'Index', 'Index.md')
+    #         # path.write_text(text)
+    #         print(text)
+    #         return text
 
-    def read_index(pub_name, chapter):
-        path = pub_path(pub_name, chapter, 'Index.md')
-        return path.read_text()
+    #     def read_index(pub_name, chapter):
+    #         path = pub_path(pub_name, chapter, 'Index.md')
+    #         return path.read_text()
 
-    cmap, fmap = read_toc(pub_name)
-    text = pub_index(cmap, fmap)
-    # print(text)
-    return f'{line_count(text)} Lines in Index'
+    #     cmap, fmap = read_toc(pub_name)
+    #     text = pub_index(cmap, fmap)
+    #     # print(text)
+    #     return f'{line_count(text)} Lines in Index'
+    pass
 
 
 def write_playbook(pub_name):
@@ -157,20 +179,17 @@ def write_playbook(pub_name):
 
 def write_plays_csv(pub_name):
     plays = read_plays('apps')
-    titles = {row[2].strip(): row[0] for row in plays}
-    lines =  read_outline('apps')
+    titles = {row[3].strip(): row[0] for row in plays}
+    lines = read_outline('apps')
     text = ''
-    for i,line in enumerate(lines):
+    for i, line in enumerate(lines):
         default = line.replace(' ', '')+'.md'
         file = titles.get(line.strip(), default)
         if not line.startswith('        '):
             c = i
         row = f'{file},{c},{i},{line}'
         text += row+'\n'
-    print(text)
+    # print(text)
     csv = pub_path(pub_name, 'Index', '_plays.csv')
     write_file(csv, text, overwrite=True)
-    # return read_csv_file(csv)
     return f'{len(text_lines(text))} Lines in playlist'
-
-

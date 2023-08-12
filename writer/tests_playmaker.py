@@ -1,9 +1,9 @@
 from probe.tests_django import DjangoTest
-from publish.files import read_csv_file
+from publish.files import read_csv_file, write_file
 from publish.text import text_lines
 from writer.pub_script import pub_path
 
-from .playmaker import (publish_playbook, title_map, read_outline, read_plays, read_toc, write_chapters, write_contents, write_index,
+from .playmaker import (chapter_index, create_docs, publish_playbook, title_map, read_outline, read_plays, read_toc, write_chapters, write_contents, write_index,
                         write_playbook, write_plays_csv)
 
 
@@ -11,48 +11,46 @@ class PlaymakerTest(DjangoTest):
 
     def test_outline(self):
         x = read_outline('apps')
-        # print(x)
-        # print('---')
-        self.assertEqual(len(x), 57)
+        self.assertEqual(len(x), 56)
         self.assertEqual(x[0], 'AI Playbook for web app development')
         self.assertEqual(x[1], '    Using This Playbook')
-        self.assertEqual(x[2], '        Problem - Prompts - Prompt Engineering')
+        self.assertEqual(
+            x[2], '        Problem - Prompts - Prompt Engineering')
         self.assertEqual(x[50], '    Devops')
 
     def test_plays(self):
         plays = read_plays('apps')
         self.assertEqual(len(plays), 56)
-        self.assertEqual(plays[0][0],'Playbook.md')  
-        self.assertEqual(plays[0][1],'AI Playbook for web app development')  
-        # for y in x:
-        #     print(y)
+        self.assertEqual(plays[0][0], 'Playbook.md')
+        self.assertEqual(plays[0][3], 'AI Playbook for web app development')
 
-    def test_chapter_files(self):
+    def test_title_map(self):
         plays = read_plays('apps')
-        titles = {row[2].strip(): row[0] for row in plays}
-        lines =  read_outline('apps')
-        text = ''
-        for i,line in enumerate(lines):
-            default = line.replace(' ', '')+'.md'
-            file = titles.get(line.strip(), default)
-            if not line.startswith('        '):
-                c = i
-            row = f'{file},{c},{i},{line}'
-            text += row+'\n'
-        write_plays_csv('apps', text)
-        
-        # print(x.keys())
-        # self.assertEqual(list(x.keys())[4], 'Develop Your Own Strategy')
-        # self.assertEqual(x['Develop Your Own Strategy'], '')
-
+        titles = {row[3].strip(): row[0] for row in plays}
+        x = titles.get('Problem - Prompts - Prompt Engineering')
+        self.assertEqual(x, 'PromptEngineering.md')
 
     def test_write_plays(self):
         x = write_plays_csv('apps')
         self.assertEqual(x, '57 Lines in playlist')
 
+    def test_create_docs(self):
+        create_docs('apps')
+        self.assertTrue(pub_path('apps', 'Views', 'Views.md').exists())
 
-    # # xoox
-    # def test_write_index(self):
+    def test_chapter_index(self):
+        chapter_index('apps', '4', '15')
+        p = pub_path('apps', 'Hosting', 'Index.md')
+        # print(text_lines(p.read_text())[4])
+        x = text_lines(p.read_text())[4]
+        self.assertTrue(x, '* [App Platform - Static Server](StaticServer)')
+
+    def test_write_index(self):
+        x = read_plays('apps')
+        plays = [y for y in x if y[1] == y[2]]
+        for i, p in enumerate(plays):
+            chapter_index('apps', i, str(p[1]))
+
     #     x = write_index('apps')
     #     self.assertEqual(x, '101 Lines in Index')
 
@@ -73,7 +71,6 @@ class PlaymakerTest(DjangoTest):
     def test_publish_playbook(self):
         x = publish_playbook('apps')
         self.assertEqual(x, 'OK')
-
 
    # def test_write_playbook(self):
     #     x = write_playbook('apps')

@@ -4,18 +4,29 @@
 
 Inspiring Creativity and Sparking Joy
 
-* Ghost Writer - Content Publisher
-* Ghost Writer - Milestone 1 Example Assignments
+* Play Maker (Content Publisher for Ghost Writer)
 * AI Playbook for App Developers
 * Milestone 1 Assignments
 
 
 ## Mandatory Goals
 
-Required to for Future Wellbeing
+Required for Future Wellbeing
 
-* Plan for UNC Classes 
-    - Syllabi
+* Software Engineering
+    - Syllabus & Canvas
     - Contract
+    - Milestone 1 assignments
+    - Student website
 
+* Web Development
+    - Syllabus & Canvas
+    - Contract
+    - Student website
+
+* Prometa
+    * Release Planning
+    * Simplify
+    * Login & Security
+    * Spanish
 

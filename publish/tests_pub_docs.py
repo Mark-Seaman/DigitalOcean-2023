@@ -10,7 +10,7 @@ class PubDocTest(DjangoTest):
     fixtures = ["config/publish.json"]
 
     def test_all_docs(self):
-        self.assertFiles('Documents', 500, 2400)
+        self.assertFiles('Documents', 500, 2500)
 
     def test_doc_directories(self):
         data = '''Documents/SHRINKING-WORLD-PUBS,700,900'''
@@ -22,10 +22,11 @@ class PubDocTest(DjangoTest):
                 self.assertFiles(x[0], int(x[1]), int(x[1]))
 
     def test_pub_list(self):
-        self.assertRange(len(list_publications()), 4,20)
+        self.assertRange(len(list_publications()), 4, 20)
 
     def test_model_to_dict(self):
         p = get_pub('journey')
         x = model_to_dict(p, fields=['id', 'name', 'doc_path'], exclude=['id'])
-        y = {'name': 'journey', 'doc_path': 'Documents/Shrinking-World-Pubs/journey/Pub'}
+        y = {'name': 'journey',
+             'doc_path': 'Documents/Shrinking-World-Pubs/journey/Pub'}
         self.assertEqual(x, y)

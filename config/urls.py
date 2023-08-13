@@ -3,16 +3,18 @@ from django.urls import path
 from django.urls.conf import include
 
 urlpatterns = [
-    
+
     # Admin
     path("admin/", admin.site.urls),
 
     # Accounts
     # path('accounts/', include('django.contrib.auth.urls')),
     # path('accounts/', include('doc.urls_accounts')),
-    
+
     # Task
     path("", include("task.urls")),
+    # SW engineering
+    path("", include("sweng.urls")),
     #
     # Hammer Test
     path("test/", include("probe.urls_probe")),

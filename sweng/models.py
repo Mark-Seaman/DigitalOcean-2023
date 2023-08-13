@@ -1,3 +1,4 @@
+from django.contrib.auth.models import AbstractUser, Group, Permission
 from django.db import models
 
 # Create your models here.
@@ -22,3 +23,25 @@ class Student(models.Model):
 
     def __str__(self):
         return f'{self.user.first_name} {self.user.last_name}'
+
+
+class SWUser(AbstractUser):
+    email = models.EmailField(unique=True)
+
+    def __str__(self):
+        return self.email
+
+    # Set a unique related_name for the groups field
+    groups = models.ManyToManyField(
+        Group,
+        verbose_name='groups',
+        related_name='sw_users'  # Use a different name, e.g., 'sw_users'
+    )
+
+    # Set a unique related_name for the user_permissions field
+    user_permissions = models.ManyToManyField(
+        Permission,
+        verbose_name='user permissions',
+        # Use a different name, e.g., 'sw_users_permissions'
+        related_name='sw_users_permissions'
+    )

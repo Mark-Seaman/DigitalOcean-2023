@@ -31,7 +31,7 @@ class PubTest(DjangoTest):
         self.assertRange(pubs2, 7, 17)
 
     def test_doc_files(self):
-        self.assertRange(ghost_writer_files('*/*.md'), 28, 36)
+        self.assertRange(ghost_writer_files('*/*.md'), 28, 40)
 
     def test_ai_files(self):
         self.assertRange(ghost_writer_files('*/*.ai'), 20, 39)

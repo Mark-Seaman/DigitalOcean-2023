@@ -50,7 +50,7 @@ def update_with_ai(doc_file):
     prompt = include_files(read_file(prompt_file), doc_file.parent)
     prompt = read_prompt_file(doc_file)
     text = transform_prompt(prompt)
-    write_file(doc_file, text)
+    write_file(doc_file, text, overwrite=True)
 
 
 def pub_ai(**kwargs):

@@ -14,10 +14,10 @@ Inspiring Creativity and Sparking Joy
 Required for Future Wellbeing
 
 * Software Engineering
-    - Syllabus & Canvas
-    - Contract
     - Milestone 1 assignments
     - Student website
+    - Syllabus & Canvas
+    - Contract
 
 * Web Development
     - Syllabus & Canvas
@@ -25,8 +25,8 @@ Required for Future Wellbeing
     - Student website
 
 * Prometa
-    * Release Planning
-    * Simplify
     * Login & Security
+    * Simplify
+    * Release Planning
     * Spanish
 

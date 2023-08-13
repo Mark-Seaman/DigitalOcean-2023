@@ -14,7 +14,7 @@
     "words": 83659,
     "cover_image": "/static/images/seamansguide.com/leverage/Leverage_Principle.1000.jpg",
     "menu": "static/js/nav_sw.json",
-    "pub_type": "textbook",
+    "pub_type": "course",
     "auto_remove": false,
     "auto_contents": false,
     "auto_index": false,

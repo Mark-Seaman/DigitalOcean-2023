@@ -47,7 +47,7 @@ class PubLibraryView(TemplateView):
 
     def get_context_data(self, **kwargs):
         collections = [
-            get_collection('textbook', 'Textbooks'),
+            get_collection('course', 'Courses'),
             get_collection('book', 'Books about Life'),
             get_collection('blog', 'Blogs'),
             get_collection('private', 'Private Blogs'),

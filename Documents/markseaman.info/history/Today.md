@@ -1,12 +1,10 @@
 # Goals for Today
 
-## Aspirational Goals
+## Priorities
 
-Inspiring Creativity and Sparking Joy
-
-* Play Maker (Content Publisher for Ghost Writer)
-* AI Playbook for App Developers
-* Milestone 1 Assignments
+* Prometa - Login & Security
+* Prometa - Simplify
+* Prometa - Spanish
 
 
 ## Mandatory Goals
@@ -29,4 +27,13 @@ Required for Future Wellbeing
     * Simplify
     * Release Planning
     * Spanish
+
+
+## Aspirational Goals
+
+Inspiring Creativity and Sparking Joy
+
+* Play Maker (Content Publisher for Ghost Writer)
+* AI Playbook for App Developers
+* Milestone 1 Assignments
 

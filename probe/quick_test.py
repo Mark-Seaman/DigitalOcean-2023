@@ -19,11 +19,12 @@ from .probe_pub import test_show_pubs
 
 def quick_test():
     # print("No quick test defined")
-    pubs()
+    # pubs()
     # print(Activity.objects.filter(name='Learn').delete())
     # Run Tests
     # tests()
     # writer()
+    task_command(['week'])
 
     return 'OK'
 

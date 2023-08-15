@@ -1,0 +1,80 @@
+{% extends 'course_theme.html' %}
+
+
+
+{% block content %}
+
+<div class="container  p-5">
+
+    {% autoescape off %}
+    {{ html }}
+    {% endautoescape %}
+
+    {% if student %}
+    {% include 'student/_student.html' %}
+    {% endif %}
+
+    {% include '_accordion.html' %}
+
+    <!-- 
+    {% for w in weeks %}
+
+    <div class="card-week">
+        <div class="card-header green ">
+            {{ w.week.week.title }}
+        </div>
+        <div class="card-body light">
+
+            <div class="row">
+
+                {% for x in w.lessons %}
+                <div class="col-lg-4">
+
+                    <div class="card-lesson">
+                        <div class="card-header blue">
+                            {{ x.title }}
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li><a href="{{ x.slides }}" target="slides">Slides</a></li>
+                                <li><a href="{{ x.notes }}" target="notes">Notes</a></li>
+                                {% if x.video %}
+                                <li><a href="{{ x.video }}" target="video">Video</a></li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {% endfor %}
+
+
+                <div class="col-lg-4">
+                    <div class="card-lesson">
+                        <div class="card-header yellow">
+                            Code Practice
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                {% for x in w.practice %}
+                                <li><a href="{{ x.url }}" target="notes">{{ x.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+
+                    </div>
+                </div> 
+             </div>
+        </div>
+    </div> 
+    {% endfor %}
+-->
+
+
+</div>
+
+{% endblock content %}
+
+
+{% block footer %}
+{% endblock footer %}

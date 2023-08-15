@@ -1,0 +1,21 @@
+<header class="p-1 p-lg-3">
+    <div class="row media">
+
+        <div class="col-9 media-body">
+            {% autoescape off %}
+                <h1 class="ml-1 ml-lg-5">
+                    <a href="{{ site_url }}">{{ site_title }}</a>
+                </h1>
+                <h2 class="ml-1 ml-lg-5">{{ site_subtitle }}</h2>
+            {% endautoescape %}
+
+        </div>
+{#        <div class="col-3 d-none d-lg-block">#}
+{#            {% if logo %}#}
+{#                <img class="m-3 rounded-circle image-fluid" src="{{ logo }}" alt="Logo" width="150">#}
+{#            {% endif %}#}
+{#        </div>#}
+
+    </div>
+</header>
+

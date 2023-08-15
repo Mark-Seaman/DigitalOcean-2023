@@ -13,6 +13,10 @@ urlpatterns = [
 
     # Task
     path("", include("task.urls")),
+
+    # Course
+    path("", include("course.urls")),
+
     # SW engineering
     path("", include("sweng.urls")),
     #

@@ -1,0 +1,46 @@
+{% extends 'course_theme.html' %}
+
+
+
+{% block content %}
+
+    <div class="container-fluid p-5">
+
+        <h1>{{ title }}</h1>
+
+{#        {% for c in chapters %}#}
+{##}
+{#            <div>#}
+{#                <h4>#}
+{#                    <a href="https://seamansguide.com/textbook/textbook.html#{{ c.chapter.id }}" target="chapter">#}
+{#                        {{ c.chapter.title }}#}
+{#                    </a>#}
+{#                </h4>#}
+{##}
+{#                <ul>#}
+{#                    <li>#}
+{#                        <a href="{{ c.chapter.page }}" target="chapter">{{ c.chapter.title }}</a>#}
+{#                    </li>#}
+{#                    {% for skill in c.skills %}#}
+{#                        <li>#}
+{#                            <a href="{{ skill.page }}" target="chapter">{{ skill.title }}</a>#}
+{#                        </li>#}
+{#                    {% endfor %}#}
+{#                    <li>#}
+{#                        <a href="{{ c.demo.page }}" target="chapter">{{ c.demo.title }}</a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <a href="{{ c.project.page }}" target="chapter">{{ c.project.title }}</a>#}
+{#                    </li>#}
+{#                </ul>#}
+{#            </div>#}
+{##}
+{#        {% endfor %}#}
+
+    </div>
+
+{% endblock content %}
+
+
+{% block footer %}
+{% endblock footer %}

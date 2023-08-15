@@ -1,0 +1,150 @@
+{% extends "course_theme.html" %}
+
+
+{% block content %}
+
+    <div class="container">
+
+        <h2>URL Crusher Score</h2>
+        <h3>Student Name: {{ object.name }}</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Correct Answers: <b>{{ object.correct }}</b></h3>
+            </div>
+            <div class="col-md-4">
+                <h3>Incorrect Answers: <b>{{ object.incorrect }}</b></h3>
+            </div>
+            <div class="col-md-4">
+                <h3>Questions Remaining: <b>{{ object.left }}</b></h3>
+            </div>
+        </div>
+
+        {% if all_done %}
+
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            Game Over - You Win!
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                <img class="image" src="/static/smiley1.jpg" alt="Happy Face">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        {% else %}
+
+            {#        <div class="row">#}
+            {#            <div class="col">#}
+            {#                <div class="card">#}
+            {#                    <div class="card-header">#}
+            {#                        Q & A#}
+            {#                    </div>#}
+            {#                    <div class="card-body">#}
+            {#                        <h3>QUESTION:</h3>#}
+            {#                        <pre>{{ q }}</pre>#}
+            {#                        <h3>ANSWER:</h3>#}
+            {#                        <pre>{{ object.answer }}</pre>#}
+            {#                    </div>#}
+            {#                </div>#}
+            {#            </div>#}
+            {#        </div>#}
+
+            <div class="row">
+
+                {% if q %}
+                    <div class="col-md-6">
+
+                        <div class="card">
+                            <div class="card-header">
+                                Question
+                            </div>
+                            <div class="card-body">
+                                <p>When Loading Page </p>
+                                <p><b>{{ q.page }}</b></p>
+                                <p>What is the <b>{{ q.url_type }} URL</b> for the href that points to</p>
+                                <p><b>{{ q.url }}</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                {% endif %}
+
+
+                {% if a %}
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                Answer
+                            </div>
+                            <div class="card-body">
+                                <div class="pull-right">
+                                    {% if q.iscorrect %}
+                                        <p class="answer-correct">Correct!</p>
+                                        <p>
+                                            <img class="image" src="/static/smiley1.jpg"
+                                                 alt="Happy Face"
+                                                 width="100">
+                                        </p>
+
+                                    {% else %}
+                                        <p class="answer-incorrect">Wrong!</p>
+                                        <p>
+                                            <img class="image" src="/static/sad1.jpg"
+                                                 alt="Sad Face"
+                                                 width="100">
+                                            Why?
+                                        </p>
+                                    {% endif %}
+                                </div>
+                                <div>
+                                    <p>Your Answer: <b>{{ object.answer }}</b></p>
+
+                                    {% if not q.iscorrect %}
+                                        <p>Correct Answer: <b>{{ q.correct }}</b></p>
+                                    {% endif %}
+
+                                    <p>Hint: {{ q.hint }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            <a href="../url-question/{{ object.pk }}" class="unc-button">
+                                Next Question
+                            </a>
+                        </p>
+                    </div>
+
+                {% else %}
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                Answer
+                            </div>
+                            <div class="card-body">
+                                <form action="../url-question/{{ object.pk }}" method="post">
+
+                                    {% csrf_token %}
+                                    {% include '_edit.html' %}
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                {% endif %}
+
+            </div>
+
+        {% endif %}
+
+    </div>
+
+
+{% endblock content %}

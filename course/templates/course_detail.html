@@ -1,0 +1,120 @@
+{% extends 'course_theme.html' %}
+
+
+
+{% block content %}
+
+    <div class="container mt-5">
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+
+                {% for card in weeks %}
+
+                    <div class="accordion-item">
+
+                        <div class="accordion-header" id="heading-{{ card.id }}">
+
+                            <button class="accordion-button {{ card.collapsed }}" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-{{ card.id }}" aria-expanded="{{ card.aria }}"
+                                    aria-controls="collapse-{{ card.id }}">
+                                {{ card.title }}
+                            </button>
+
+                        </div>
+
+                        <div id="collapse-{{ card.id }}" class="accordion-collapse collapse {{ card.show }}"
+                             aria-labelledby="heading-{{ card.id }}" data-bs-parent="#accordionExample">
+
+                            <div class="accordion-body bg-light">
+
+                                <div class="row">
+                                    {% if card.chapter %}
+                                        <div class="col-lg m-3">
+                                            <div class="card">
+                                                <div class="card-header unc-light">
+                                                    {{ card.chapter.title }}
+                                                </div>
+                                                <div class="card-body bg-light">
+
+                                                    <ul>
+                                                        <li>
+                                                            <a href="{{ card.chapter.url }}"
+                                                               target="{{ card.chapter.type }}">{{ card.chapter.title }}</a>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+
+                                    {% if card.project %}
+
+                                        <div class="col-lg m-3">
+                                            <div class="card">
+                                                <div class="card-header unc-light">
+                                                    {{ card.project.title }} - Due on {{ card.project.date }}
+                                                </div>
+                                                <div class="card-body bg-light">
+
+                                                    <ul>
+                                                        <li>
+                                                            <a href="{{ card.project.url }}"
+                                                               target="{{ card.project.type }}">{{ card.project.title }}</a>
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+
+
+                                </div>
+
+                                <div class="row">
+
+                                    {% for lesson in card.skills %}
+
+                                        <div class="col-lg m-3">
+                                            <div class="card">
+                                                <div class="card-header unc-dark">
+                                                    {{ lesson.date }}
+                                                </div>
+                                                <div class="card-body bg-light">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="{{ lesson.url }}"
+                                                               target="{{ lesson.type }}">{{ lesson.title }}</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{ lesson.url_slides }}"
+                                                               target="slides">Lecture Slides</a>
+                                                        </li>
+                                                        {% if lesson.url_lecture %}
+                                                            <li>
+                                                                <a href="{{ lesson.url_lecture }}"
+                                                                   target="video">Lecture Video</a>
+                                                            </li>
+                                                        {% endif %}
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    {% endfor %}
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

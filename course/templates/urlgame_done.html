@@ -1,0 +1,29 @@
+{% extends "course_theme.html" %}
+
+
+{% block content %}
+    <div class="container">
+
+        <h1>{{ title }}</h1>
+        <h3>Student Name: {{ ip }}</h3>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Correct Answers: <b>{{ correct }}</b></h3>
+            </div>
+            <div class="col-md-4">
+                <h3>Incorrect Answers: <b>{{ incorrect }}</b></h3>
+            </div>
+            <div class="col-md-4">
+                <h3>Questions Remaining: <b>{{ left }}</b></h3>
+            </div>
+        </div>
+
+        <h2>Game Over - You Win!</h2>
+
+        <p>
+            <img class="image" src="/static/images/course/bacs200/smiley1.jpg" alt="Happy Face">
+        </p>
+    </div>
+
+{% endblock %}

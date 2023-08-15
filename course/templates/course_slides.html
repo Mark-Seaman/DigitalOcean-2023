@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>{{ title }}</title>
+
+        <link rel="stylesheet" href="/static/reveal.js/dist/reset.css">
+        <link rel="stylesheet" href="/static/reveal.js/dist/reveal.css">
+        <link rel="stylesheet" href="/static/reveal.js/dist/theme/{{ theme }}" id="theme">
+
+        <!-- Theme used for syntax highlighted code -->
+        <link rel="stylesheet" href="/static/reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+        <link rel="stylesheet" href="/static/css/slides.css">
+    </head>
+
+    <body>
+
+        <div class="reveal">
+            <div class="slides">
+
+                <section class="section title"
+                         data-background-image="{{ cover }}">
+                    <h1 class="title">{{ title }}</h1>
+                    <img class="logo  title" src="{{ logo }}" alt="{{ logo }}">
+                    <h2 class="title subtitle">{{ author }}</h2>
+                    <h2 class="title subtitle">{{ organization }}</h2>
+                </section>
+
+                {% autoescape off %}
+                    {{ text }}
+                {% endautoescape %}
+
+            </div>
+        </div>
+
+        <script src="/static/reveal.js/dist/reveal.js"></script>
+        <script src="/static/reveal.js/plugin/notes/notes.js"></script>
+        <script src="/static/reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="/static/reveal.js/plugin/highlight/highlight.js"></script>
+        <script>
+            // More info about initialization & config:
+            // - https://revealjs.com/initialization/
+            // - https://revealjs.com/config/
+            Reveal.initialize({
+                hash: true,
+
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+            });
+
+        </script>
+    </body>
+
+</html>

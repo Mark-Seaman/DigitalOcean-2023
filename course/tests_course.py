@@ -1,14 +1,15 @@
 from django.test import TestCase
 from django.urls import reverse
 
-from course.course import bacs200_options, bacs350_options, create_course
+from course.course import cs350_options, bacs350_options, create_course
+from course.import_export import import_all_courses
 
 from .models import Course
 
 
 class CourseDataTest(TestCase):
     def setUp(self):
-        self.course1 = bacs200_options()
+        self.course1 = cs350_options()
         self.course2 = bacs350_options()
 
     def test_add_course(self):
@@ -45,7 +46,7 @@ class CourseViewsTest(TestCase):
 
     def setUp(self):
         # self.user, self.user_args = create_test_user()
-        self.course1 = bacs200_options()
+        self.course1 = cs350_options()
         self.course2 = bacs350_options()
 
     def test_course_list_view(self):
@@ -65,7 +66,10 @@ class CourseViewsTest(TestCase):
         response = self.client.get(reverse("course_index", args=["bacs350"]))
         self.assertContains(response, "Python Web Apps")
 
+    def test_course_build(self):
+        import_all_courses(verbose=True)
 
+        
 # class CourseFixtureTest(TestCase):
 #
 #     def test_import_courses(self):

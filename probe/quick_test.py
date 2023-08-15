@@ -1,5 +1,6 @@
 from pathlib import Path
 from re import DOTALL, findall
+from course.import_export import import_all_courses
 
 from probe.probe_pub import test_pub_json
 from publish.import_export import create_pub
@@ -24,7 +25,7 @@ def quick_test():
     # Run Tests
     # tests()
     # writer()
-    task_command(['week'])
+    import_all_courses(verbose=True)
 
     return 'OK'
 

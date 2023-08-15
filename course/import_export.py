@@ -3,13 +3,13 @@ from pathlib import Path
 from publish.document import document_title
 from publish.files import read_csv_file
 from publish.text import text_join
-from course.course import bacs350_options, create_course
+from course.course import bacs350_options, create_course, cs350_options
 from course.models import Content, Course
 
 from csv import reader
 
 
-def import_course(course):
+def import_course(course, delete, verbose):
     def create_content(course, row):
         # print(row)
         if row[3:]:
@@ -24,7 +24,7 @@ def import_course(course):
         if path.exists() and path.is_file():
             x.path = path
             x.title = document_title(path)
-            x.folder = Content.objects.get(doctype="week", order=week)
+            x.folder = Content.objects.get(course=course, doctype="week", order=week)
         elif doctype == "week":
             x.path = None
             x.title = f"Week {week}"
@@ -32,11 +32,17 @@ def import_course(course):
         # print(x)
         return x
 
-    delete_content(course)
+    if delete:
+        if verbose:
+            print('DELETE', course.name)   
+        delete_content(course)
     content = read_csv_file(course_content_file(course))
     for row in content:
         create_content(course, row)
-
+        if verbose:
+            print('CREATE CONTENT:', course, row)
+    if verbose:
+        print(f'{len(Content.objects.filter(course=course))} content objects created for {course.name}')
 
 def delete_content(course):
     Content.objects.filter(course=course).delete()
@@ -71,14 +77,15 @@ def course_content_file(course):
     return Path(course.doc_path) / "content.csv"
 
 
-def import_all_courses():
-    # Course.objects.all().delete()
-    # import_course(create_course(**bacs200_options()))
-    # import_course(create_course(**cs350_options()))
-    c = Course.objects.filter(name="cs350")
-    if c:
-        c[0].delete()
-    c = Course.objects.filter(name="bacs200")
-    if c:
-        c[0].delete()
-    import_course(create_course(**bacs350_options()))
+def import_all_courses(**kwargs):
+    delete = kwargs.get('delete', False)
+    verbose = kwargs.get('verbose', False)
+    course =  kwargs.get('course')
+    courses = [course] if course else ['cs350', 'bacs350']
+    for c in courses :
+        options = {'cs350': cs350_options, 'bacs350': bacs350_options}
+        if verbose:
+            print(options[c]())
+        course = create_course(**(options[c]()))
+        import_course(course, delete, verbose)
+

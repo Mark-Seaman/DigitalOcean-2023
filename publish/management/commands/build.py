@@ -1,5 +1,6 @@
 from django.contrib.auth import get_user_model
 from django.core.management.base import BaseCommand
+from course.import_export import import_all_courses
 
 from publish.import_export import load_data
 from publish.publication import build_pubs
@@ -22,6 +23,9 @@ class Command(BaseCommand):
         if cmd == "data":
             print("BUILD DATA")
             load_data()
+        elif cmd == "courses":
+            print('BUILD COURSES')
+            import_all_courses()
         elif cmd == "pubs":
             print("BUILD PUBS")
             print(build_pubs(verbose=True, delete=True))

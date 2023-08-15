@@ -7,7 +7,7 @@ from publish.files import read_file, read_json
 from .models import Content, Course
 
 
-def accordion_data(week):
+def accordion_data(course, week):
 
     def card_data(title="Random Card", data=None, color='bg-primary text-light', width='col-lg-12', link=None):
         return dict(title=title, data=data, color=color, width=width)
@@ -20,20 +20,20 @@ def accordion_data(week):
             card.update(dict(id=i, collapsed='collapsed', show='', aria='false'))
         return card
 
-    weeks = weekly_content(get_course('bacs350'))
+    weeks = weekly_content(course)
     return [card_content(i, week-1, c) for i, c in enumerate(weeks)]
 
 
-def bacs200_options():
-    return dict(
-        name="bacs200",
-        title="UNC BACS 200 - Intro to Web Development",
-        subtitle="Intro to Web Development for Small Business",
-        doc_path="Documents/shrinking-world.com/bacs200",
-        description="None",
-        num_projects=14,
-        num_lessons=45,
-    )
+# def bacs200_options():
+#     return dict(
+#         name="bacs200",
+#         title="UNC BACS 200 - Intro to Web Development",
+#         subtitle="Intro to Web Development for Small Business",
+#         doc_path="Documents/shrinking-world.com/bacs200",
+#         description="None",
+#         num_projects=14,
+#         num_lessons=45,
+#     )
 
 
 def bacs350_options():
@@ -46,7 +46,6 @@ def bacs350_options():
         num_projects=14,
         num_lessons=42,
     )
-
 
 def course_settings(**kwargs):
     def read_course_settings(course):
@@ -112,10 +111,10 @@ def get_course_content(user, **kwargs):
     else:
         # if not user.is_anonymous:
             # kwargs["student"] = Student.get_me(user)
-        if user.username == "MarkSeaman":
-            week = 14
+        # if user.username == "MarkSeaman":
+        #     week = 14
         # kwargs.update(course_content(week))
-        kwargs['accordion'] = accordion_data(week)[:week]
+        kwargs['accordion'] = accordion_data(course, week)[:week]
     return kwargs
 
 

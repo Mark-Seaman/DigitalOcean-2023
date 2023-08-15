@@ -12,7 +12,6 @@ class CourseContentView(TemplateView):
 
     def get_context_data(self, **kwargs):
         kwargs = get_course_content(self.request.user, **kwargs)
-
         return kwargs
 
 

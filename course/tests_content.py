@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from .course import bacs200_options, bacs350_options, create_course
+from .course import cs350_options, bacs350_options, create_course
 from .import_export import import_all_courses
 from .models import Content, Course
 

@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.urls import reverse
 
-from course.course import cs350_options, bacs350_options, create_course
+from course.course import cs350_options, bacs350_options, create_course, find_artifacts
 from course.import_export import import_all_courses
 
 from .models import Course
@@ -36,6 +36,9 @@ class CourseDataTest(TestCase):
         b.delete()
         self.assertEqual(len(Course.objects.all()), 0)
 
+    def test_course_artifacts(self):
+        import_all_courses()
+        find_artifacts('cs350')
 
 class CourseViewsTest(TestCase):
     def login(self):
@@ -67,7 +70,7 @@ class CourseViewsTest(TestCase):
         self.assertContains(response, "Python Web Apps")
 
     def test_course_build(self):
-        import_all_courses(verbose=True)
+        import_all_courses(verbose=False)
 
         
 # class CourseFixtureTest(TestCase):

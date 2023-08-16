@@ -20,4 +20,4 @@ class CourseDataTest(TestCase):
 
     def test_import(self):
         import_all_courses()
-        self.assertEqual(len(Content.objects.all()), 121)
+        self.assertEqual(len(Content.objects.all()), 163)

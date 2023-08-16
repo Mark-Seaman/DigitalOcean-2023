@@ -50,7 +50,7 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "test",
-                "sweng"
+                "course"
             ],
             "django": true,
             "justMyCode": true

@@ -17,7 +17,8 @@ def accordion_data(course, week):
         if i == active:
             card.update(dict(id=i, collapsed='', show='show', aria='true'))
         else:
-            card.update(dict(id=i, collapsed='collapsed', show='', aria='false'))
+            card.update(
+                dict(id=i, collapsed='collapsed', show='', aria='false'))
         return card
 
     weeks = weekly_content(course)
@@ -47,10 +48,12 @@ def bacs350_options():
         num_lessons=42,
     )
 
+
 def course_settings(**kwargs):
     def read_course_settings(course):
         return read_json(
-            Path("Documents") / "shrinking-world.com" / course.name / "course.json"
+            Path("Documents") / "shrinking-world.com" /
+            course.name / "course.json"
         )
 
     course = get_course(kwargs["course"])
@@ -93,6 +96,22 @@ def cs350_options():
     )
 
 
+def find_artifacts(course):
+    def list_files(c, doc_type):
+        d = Path(c.doc_path)/doc_type
+        if d.exists():
+            print(doc_type, 'files')
+            for a in d.iterdir():
+                print(a)
+
+    c = get_course(course)
+    print(c.name, c.title, c.doc_path)
+    list_files(c, '.')
+    list_files(c, 'lesson')
+    list_files(c, 'video')
+    list_files(c, 'project')
+
+
 def get_course(course_name):
     return Course.objects.get(name=course_name)
 
@@ -110,7 +129,7 @@ def get_course_content(user, **kwargs):
         kwargs.update(dict(title="Python Web Apps", html=html))
     else:
         # if not user.is_anonymous:
-            # kwargs["student"] = Student.get_me(user)
+        # kwargs["student"] = Student.get_me(user)
         # if user.username == "MarkSeaman":
         #     week = 14
         # kwargs.update(course_content(week))

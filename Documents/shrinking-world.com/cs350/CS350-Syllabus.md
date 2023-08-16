@@ -24,7 +24,7 @@ Learn about how we build software from requirements gathering through maintenanc
 
 
 ## PREREQUISITES: 
-- CS 200 (Object-Oriented Analysis, Design, and Programming) with a minimum grade of “C”
+- CS 200 (Object-Oriented Analysis, Design, and Programming) with a minimum grade of "C”
 - Knowledge of general programming concepts, and an object-oriented programming language.
 
 
@@ -110,6 +110,6 @@ At Monfort College of Business, our mission is to prepare you to  become success
 
 Each  class at MCB has different rules and requirements for using generative  AI tools, and it is your responsibility to follow the guidelines in the  syllabus of each class. Ask your professor if you have any questions  about the policies in the syllabus.  Please note that AI-related  plagiarism detection tools are available to us now.  Remember to use all  available resources appropriately to enhance your learning. You are  expected to submit your own work. 
  
- i “Generative Al is a type of  artificial intelligence (AI) that uses machine learning algorithms to  create new and original content like images, videos, text, and audio  based on user-defined prompts by utilizing algorithms to recognize  patterns in input data”  
+ i "Generative Al is a type of  artificial intelligence (AI) that uses machine learning algorithms to  create new and original content like images, videos, text, and audio  based on user-defined prompts by utilizing algorithms to recognize  patterns in input data”  
 
 (https://www.weforum.org/agenda/2023/02/generative-ai-explain-algorithms-work/).   

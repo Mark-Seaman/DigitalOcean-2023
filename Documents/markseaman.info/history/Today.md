@@ -2,6 +2,9 @@
 
 ## Priorities
 
+* Teach - Course Resources
+* Teach - Sensei Milestone 1
+* Teach - App Team Signup
 * Prometa - Login & Security
 * Prometa - Simplify
 * Prometa - Spanish
@@ -9,7 +12,7 @@
 
 ## Mandatory Goals
 
-Required for Future Wellbeing
+Required for Future Well-being
 
 * Software Engineering
     - Milestone 1 assignments

@@ -100,12 +100,13 @@ def find_artifacts(course):
     def list_files(c, doc_type):
         d = Path(c.doc_path)/doc_type
         if d.exists():
-            print(doc_type, 'files')
-            for a in d.iterdir():
-                print(a)
+            pass
+            # print(doc_type, 'files')
+            # for a in d.iterdir():
+            #     print(a)
 
     c = get_course(course)
-    print(c.name, c.title, c.doc_path)
+    # print(c.name, c.title, c.doc_path)
     list_files(c, '.')
     list_files(c, 'lesson')
     list_files(c, 'video')

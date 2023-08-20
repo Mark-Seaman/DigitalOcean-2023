@@ -1,42 +1,21 @@
-# Goals for Today
+# Priorities for Today
 
-## Priorities
+## 80% Benefit, 20% Effort
 
-* Teach - Course Resources
-* Teach - Sensei Milestone 1
-* Teach - App Team Signup
-* Prometa - Login & Security
-* Prometa - Simplify
-* Prometa - Spanish
-
-
-## Mandatory Goals
-
-Required for Future Well-being
-
-* Software Engineering
-    - Milestone 1 assignments
-    - Student website
-    - Syllabus & Canvas
-    - Contract
-
-* Web Development
-    - Syllabus & Canvas
-    - Contract
-    - Student website
-
-* Prometa
-    * Login & Security
-    * Simplify
-    * Release Planning
-    * Spanish
+Integrate changes 
+Build Shrinking World Pub - Software
+    - Intro
+    - Team Project - selections, overview
+    - Milestone 1 - Lesson 1-2 (M, W)
+Shrinking World Course - Software Engineer
+Shrinking World Course - Payments
+Build Canvas shell
 
 
-## Aspirational Goals
 
-Inspiring Creativity and Sparking Joy
+## 20% Benefit, 80% Effort
 
-* Play Maker (Content Publisher for Ghost Writer)
-* AI Playbook for App Developers
-* Milestone 1 Assignments
-
+Build Shrinking World Pub - Software
+    - Milestone 1 - Assignments
+    - Ghost Writer Repo
+Build Shrinking World Pub - Web Dev

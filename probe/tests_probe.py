@@ -50,7 +50,9 @@ charset-normalizer==2.0.12
 click==8.1.3
 dj-database-url==0.5.0
 Django==4.0.5
+django-countries==7.5.1
 django-crispy-forms==1.14.0
+Faker==18.11.2
 frozenlist==1.3.3
 gunicorn==20.1.0
 idna==3.3
@@ -80,6 +82,7 @@ toot==0.31.0
 tqdm==4.65.0
 typing_extensions==4.6.3
 tzdata==2023.3
+Unidecode==1.3.6
 urllib3==1.26.9
 urwid==2.1.2
 wcwidth==0.2.5

@@ -213,6 +213,12 @@ def select_blog_doc(pub, doc, local_host=False):
         # Load the correct document
         if path.exists():
             markdown = document_body(read_file(path), pub.image_path)
+            github = 'https://github.com/Mark-Seaman/SoftwareEngineering'
+            server = 'https://seamanslog.com'
+            team = 'https://seamanslog.com/sweng/m1-Instructor_1.md'
+            markdown = markdown.replace('{{ github }}', github)
+            markdown = markdown.replace('{{ server }}', server)
+            markdown = markdown.replace('{{ team }}', team)
             title = document_title(path)
             html = document_html(markdown)
         else:

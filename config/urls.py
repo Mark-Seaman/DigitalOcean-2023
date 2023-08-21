@@ -17,9 +17,6 @@ urlpatterns = [
     # Course
     path("", include("course.urls")),
 
-    # SW engineering
-    path("", include("sweng.urls")),
-    #
     # Hammer Test
     path("test/", include("probe.urls_probe")),
 

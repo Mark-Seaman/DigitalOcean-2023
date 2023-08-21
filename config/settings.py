@@ -59,7 +59,6 @@ INSTALLED_APPS = [
     "course",
     "publish",
     "probe",
-    "sweng",
     "task",
     "writer",
 ]

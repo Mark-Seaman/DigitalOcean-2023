@@ -79,3 +79,12 @@ class Content(models.Model):
             return f"{self.course.name} week {self.folder.order} - {self.doctype} {self.order} - {self.title}"
         else:
             return f"{self.course.name} -- {self.doctype} {self.order} - {self.title}"
+
+# --------------------
+# Student
+
+class Student(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True, editable=False)
+    course = models.ForeignKey(Course, on_delete=models.CASCADE, null=True, editable=False)
+    github = models.URLField(null=True, blank=True)
+    server = models.URLField(null=True, blank=True)

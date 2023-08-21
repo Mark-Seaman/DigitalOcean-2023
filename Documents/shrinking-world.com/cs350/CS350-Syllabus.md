@@ -38,11 +38,12 @@ Upon successfully completing this course, students will:
 ## Textbook and Services
 
 **Textbook:**
-No textbook is required. Numerous readings from internet sites will be assigned throughout the class.
-A free copy of the Leverage Principle by Mark Seaman will be provided to each student online.
-- [Leverage Principle - Online Copy](https://shrinking-world.com/book/Leverage/Index)
-- Also available from Amazon for $19.95: [Amazon Link](https://www.amazon.com/Leverage-Principle-Architects-Optimizing-Development-ebook/dp/B01945JLIS)
 
+Software Engineering interactive course
+
+$140 course discounted to $35 for UNC Students by instructor
+
+https://shrinking-world.org/p/software-engineering-with-ai
 
 ## Grading
 

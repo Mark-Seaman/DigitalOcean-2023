@@ -56,8 +56,10 @@ Upon completion of BACS 350, students will be able to:
 **Textbook:**  
 
 Building Python Web Apps by Mark Seaman. (Amazon Link $20 supplied free to UNC Students by instructor)
+https://www.amazon.com/dp/B0BB1LPCQ9
 
 Web App Interactive Course ($140 course discounted to $35 for UNC Students by instructor)
+https://shrinking-world.org/p/learn-to-build-python-web-apps-in-1-month
 
 
 **Web Hosting Service:**  

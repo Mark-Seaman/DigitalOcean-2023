@@ -1,12 +1,14 @@
 from pathlib import Path
 
+from django.forms import ValidationError
+
 from publish.document import document_title
 from publish.files import read_csv_file
 from publish.text import text_join
 from course.course import bacs350_options, create_course, cs350_options
 from course.models import Content, Course
 
-from csv import reader
+from csv import DictReader, DictWriter, reader
 
 
 def import_course(course, delete, verbose):
@@ -88,4 +90,39 @@ def import_all_courses(**kwargs):
             print(options[c]())
         course = create_course(**(options[c]()))
         import_course(course, delete, verbose)
+
+# -------------------
+# Export
+
+
+def export_records(file_path, model, **kwargs):
+
+    def model_fields(model):
+        return [f.name for f in model._meta.fields if f.name != 'id']
+
+    fieldnames = kwargs.get('fields', model_fields(model))
+    data = model.objects.values(*fieldnames)
+    with open(file_path, 'w', newline='') as file:
+        writer = DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(data)
+    return f"{len(model.objects.all())} {model.__name__} objects exported to {file_path}\n"
+
+
+# -------------------
+# Import
+
+def import_records(file_path, creator):
+    created = 0
+    skipped = 0
+    with open(file_path) as file:
+        reader = DictReader(file)
+        for row in reader:
+            try:
+                creator(**row)
+                created += 1
+            except ValidationError as e:
+                skipped += 1
+                print(f'Skipped: {row}. Reason: {str(e)}')
+    return f'{file_path}: {created} records imported (Skipped {skipped})\n'
 

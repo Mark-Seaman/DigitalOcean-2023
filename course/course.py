@@ -125,16 +125,11 @@ def get_course_content(user, **kwargs):
     course = kwargs["course_object"]
     week = kwargs["week"]
 
-    if kwargs.get("doctype") and kwargs.get("order"):
+    if not user.is_anonymous:
+        kwargs['accordion'] = accordion_data(course, week)[:week]
+    else:
         html = read_document(course, kwargs)
         kwargs.update(dict(title="Python Web Apps", html=html))
-    else:
-        # if not user.is_anonymous:
-        # kwargs["student"] = Student.get_me(user)
-        # if user.username == "MarkSeaman":
-        #     week = 14
-        # kwargs.update(course_content(week))
-        kwargs['accordion'] = accordion_data(course, week)[:week]
     return kwargs
 
 
@@ -168,12 +163,18 @@ def resource_title(x):
 
 
 def read_document(course, kwargs):
-    doctype = kwargs["doctype"]
-    order = kwargs["order"]
+    doctype = kwargs.get("doctype")
+    order = kwargs.get("order")
+    doc = kwargs.get("doc","StudentWorkspace.md")
+
     if doctype == "chapter" or doctype == "skill":
         path = f"Documents/shrinking-world.com/{course.name}/docs/Purchase.md"
-    else:
+    elif doctype == "docs" and doc:
+        path = f"Documents/shrinking-world.com/{course.name}/docs/{doc}"
+    elif doctype and order:
         path = f"Documents/shrinking-world.com/{course.name}/{doctype}/{order:02}.md"
+    else:
+        path = f"Documents/shrinking-world.com/{course.name}/docs/StudentWorkspace.md"
     markdown = document_body(read_file(path))
     html = document_html(markdown)
     return html

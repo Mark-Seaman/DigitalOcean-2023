@@ -1,0 +1,15 @@
+{% extends 'course_theme.html' %}
+
+
+{% block content %}
+
+<h1>Team {{ team }}</h1>
+
+<p>Team Members</p>
+<ul>
+    {% for m in team_members %}
+    <li>{{ m }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}

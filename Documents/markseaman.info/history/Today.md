@@ -3,10 +3,11 @@
 ## 80% Benefit, 20% Effort
 
 * Student sign up
-* Canvas content update
-* First day of class
+* Follow up with student purchases
+* Project Team Assignments
 
 
 ## 20% Benefit, 80% Effort
 
-* 
+* Voices of Ministry
+* Recipe for a Death March

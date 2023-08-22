@@ -9,7 +9,7 @@ urlpatterns = [
 
     # Student
     # path('', include('student.urls')),
-    # path('course/<str:course>/home', StudentView.as_view(),  name='student_view'),
+    path('course/<str:course>/home', CourseContentView.as_view(),  name='student_view'),
     path('course/login/', login_view, name='login'),
     path('course/login_email/', login_email_view),
     path('course/home', home_view, name='home'),

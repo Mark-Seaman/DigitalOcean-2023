@@ -1,5 +1,6 @@
 from django.test import TestCase, Client
-from django.contrib.auth import get_user_model
+from django.contrib.auth.hashers import make_password
+from django.contrib.auth import authenticate, get_user_model, login
 
 
 class LoginUnitTest(TestCase):
@@ -46,3 +47,10 @@ class LoginUnitTest(TestCase):
         # self.assertRedirects(response, '/course/home')  # Replace with your expected redirect URL
         # Expecting the login page to be re-rendered
         self.assertEqual(response.status_code, 200)
+
+    def test_authenticate(self):
+        # print(self.password, '---', self.user.password)
+        self.assertNotEqual(self.password, self.user.password)
+        self.assertEqual(authenticate(
+            username=self.user.username, password=self.password), self.user)
+        self.assertTrue(self.user.check_password(self.password))

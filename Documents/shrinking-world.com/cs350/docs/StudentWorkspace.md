@@ -19,3 +19,6 @@ After you purchase the class you will login to your Workspace account with the
 **email** used when you registered and an initial password of "**CS350**".  (Note: It may take 24 hours for me to create the login on the workspace server)
 
 Then follow the instructions to work on your team project.
+
+[Team Projects](/course/cs350/docs/TeamProjects.md)
+

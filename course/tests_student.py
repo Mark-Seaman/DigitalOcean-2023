@@ -3,7 +3,7 @@ from course.course import bacs350_options, create_course, cs350_options
 
 from probe.tests_django import DjangoTest
 
-from .student import create_student, import_students, students
+from .student import create_student, export_students, import_students, list_students, students
 from .models import Student
 
 
@@ -46,15 +46,15 @@ class StudentModelTest(DjangoTest):
 
     def test_import(self):
         x = import_students('students.csv')
-        for s in students():
-            print(s.user.email, s.course)
-    #     # print(x)
-    #     x = export_students('data/test/students.csv')
-    #     self.assertEqual(
-    #         x, '172 Student objects exported to data/test/students.csv\n')
-        # self.assertEqual(len(students(course__name='CS350')), 16)
+        self.assertEqual(len(students(course__name='cs350')), 12)
+        self.assertEqual(len(students(course__name='bacs350')), 4)
 
-    # def test_list_students(self):
-    #     self.assertEqual(len(students(user__last_name='Acosta')), 2)
-    #     self.assertEqual(len(students(user__first_name='Carlos')), 5)
-    #     self.assertEqual(len(students(user__email__contains='gmail')), 125)
+    def test_list_students(self):
+        x = import_students('students.csv')
+        # for s in list_students():
+        #     print(s)
+        self.assertEqual(len(list_students()), 16)
+
+    def test_export(self):
+        import_students('students.csv')
+        export_students('./students2.csv')

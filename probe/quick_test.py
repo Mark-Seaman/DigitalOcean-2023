@@ -1,14 +1,11 @@
 from pathlib import Path
-from re import DOTALL, findall
-from course.import_export import import_all_courses
 
+from course.import_export import import_all_courses
+from course.models import Course, Student
+from course.student import import_students, students
 from probe.probe_pub import test_pub_json
-from publish.import_export import create_pub
-from publish.publication import (build_pubs, get_pub, get_pub_contents,
-                                 show_pubs)
+from publish.publication import show_pubs
 from publish.text import text_join, text_lines
-from publish.toc import create_pub_index
-from task.models import Activity, Task, TaskType
 from task.task import task_command
 from task.todo import edit_todo_list
 from writer.outline import create_outlines
@@ -21,16 +18,25 @@ from .probe_pub import test_show_pubs
 def quick_test():
     # print("No quick test defined")
     # pubs()
-    # print(Activity.objects.filter(name='Learn').delete())
-    # Run Tests
     # tests()
     # writer()
-    import_all_courses(verbose=True)
+    course()
+
+
+def course():
+    import_all_courses(verbose=False)
+    Student.objects.all().delete()
+    import_students('students2.csv')
+    for s in Student.objects.all():
+        print(f'{s.name:30} {s.user.email:30} {s.course.name}')
+    assert len(students(course__name='cs350')) == 12
+    assert len(students(course__name='bacs350')) == 4
 
     return 'OK'
 
+
 def writer():
-    create_outlines(pub_path('spirituality','Transformation'))
+    create_outlines(pub_path('spirituality', 'Transformation'))
 
 
 def pubs():
@@ -46,10 +52,9 @@ def pubs():
     # Build Pubs
     # create_pub('spirituality', 'Documents/Shrinking-World-Pubs/spirituality/Pub', True)
     # pub = get_pub('spirituality')
-    # create_pub_index(pub, get_pub_contents(pub)) 
+    # create_pub_index(pub, get_pub_contents(pub))
     # build_pubs(verbose=True, delete=True)
     print(show_pubs())
-
 
 
 def tests():
@@ -59,10 +64,11 @@ def tests():
 
     # test_website_pages()
 
-    print(f'{len(Probe.objects.all())} Tests available'  )
-    print(f'{len(TestResult.objects.all())} Test Results available'  )
+    print(f'{len(Probe.objects.all())} Tests available')
+    print(f'{len(TestResult.objects.all())} Test Results available')
     test_pub_json()
     test_show_pubs()
+
 
 def tasks():
     task_command(['week'])
@@ -108,4 +114,3 @@ def write_webapps_contents():
         csv += f"project/{i+1:02}.md,{chapter},{x}\n"
         x += 1
     Path("Documents/seamansguide.com/webapps/_content.csv").write_text(csv)
-

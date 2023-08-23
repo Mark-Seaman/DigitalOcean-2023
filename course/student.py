@@ -2,6 +2,7 @@ from csv import DictReader
 from django.contrib.auth import get_user_model
 from django.forms import model_to_dict
 from django.utils.translation import gettext_lazy as _
+from django.contrib.auth.hashers import make_password
 
 from publish.files import write_csv_file
 
@@ -26,8 +27,9 @@ def make_user(**kwargs):
     first, last = name.split(' ')[:2]
     username = f'{first}{last}'.replace(' ', '')
     email = kwargs.get('email', f'{username}@shrinking-world.com')
+    password = 'CS350' if kwargs.get('course') == 'cs350' else 'BACS350'
     kwargs = dict(username=username, first_name=first,
-                  last_name=last, email=email)
+                  last_name=last, email=email, password=make_password(password))
     user, _ = get_user_model().objects.get_or_create(
         username=username, defaults=kwargs)
     user.username = username
@@ -38,18 +40,22 @@ def make_user(**kwargs):
 
 
 def create_student(**kwargs):
-    user = make_user(**kwargs)
-    course_name = kwargs.get('course')
-    if course_name:
-        course = Course.objects.get(name=course_name)
-        student, _ = Student.objects.get_or_create(user=user, course=course)
-        return student
+    if not kwargs.get('name') == 'Stacie Seaman':
+        user = make_user(**kwargs)
+        # print(kwargs)
+        course_name = kwargs.get('course')
+        if course_name:
+            course = Course.objects.get(name=course_name)
+            kwargs = dict(course=course)
+            student, _ = Student.objects.get_or_create(
+                user=user, course=course, defaults=kwargs)
+            return student
 
 
 def list_students():
     def record(x):
         url1 = f'/student/{x.pk}/'
-        label1 = f'{x.name} Profile'
+        label1 = f'{x.user.email} Profile'
         return dict(name=x.name,
                     email=x.user.email,
                     url1=button_html(url1, label1))
@@ -81,22 +87,26 @@ def students(**kwargs):
 
 def export_students(path=None):
     def row(s):
-        return [s.user.first_name, s.user.last_name, s.email, s.whatsapp, s.country, s.program]
+        return [s.name, s.user.email, s.course.name]
 
-    header = ['first_name', 'last_name', 'email',
-              'whatsapp', 'country', 'program']
+    header = ['user', 'user_email', 'course']
     table = [header] + [row(s) for s in students()]
     write_csv_file(path, table)
     return f"{len(Student.objects.all())} Student objects exported to {path}\n"
 
 
 def import_students(path):
-    # return import_records(path, create_student)
+    def select_course(**kwargs):
+        course = row.get('product_name', row.get('course'))
+        if course == 'Software Engineering':
+            course = 'cs350'
+        if course == 'Python Web Apps':
+            course = 'bacs350'
+        return course
+
     with open(path) as file:
         reader = DictReader(file)
         for row in reader:
             name = row.get('user')
             email = row.get('user_email')
-            course = 'cs350' if row.get(
-                'product_name') == 'Software Engineering' else 'bacs350'
-            create_student(name=name, email=email, course=course)
+            create_student(name=name, email=email, course=select_course(**row))

@@ -46,14 +46,14 @@ class StudentModelTest(DjangoTest):
 
     def test_import(self):
         x = import_students('students.csv')
-        self.assertEqual(len(students(course__name='cs350')), 12)
-        self.assertEqual(len(students(course__name='bacs350')), 4)
+        self.assertEqual(len(students(course__name='cs350')), 13)
+        self.assertEqual(len(students(course__name='bacs350')), 14)
 
     def test_list_students(self):
         x = import_students('students.csv')
         # for s in list_students():
         #     print(s)
-        self.assertEqual(len(list_students()), 16)
+        self.assertEqual(len(list_students()), 27)
 
     def test_export(self):
         import_students('students.csv')

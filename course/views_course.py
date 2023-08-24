@@ -42,25 +42,27 @@ def login_email_view(request):
         user = get_user_model().objects.filter(email=email).first()
         if user and user.check_password(password):
             login(request, user)
-            return redirect('/course/home')  # Replace 'home' with the name of your desired redirect URL
+            # Replace 'home' with the name of your desired redirect URL
+            return redirect('/pubs/course')
         else:
             error_message = "Invalid credentials. Please try again."
             return render(request, 'login_email.html', {'error_message': error_message})
     return render(request, 'login_email.html')
 
 
-def login_view(request):
+def login_username_view(request):
     if request.method == 'POST':
         username = request.POST['username']
         password = request.POST['password']
         user = authenticate(request, username=username, password=password)
         if user is not None:
             login(request, user)
-            return redirect('/course/home')  # Replace 'home' with the name of your desired redirect URL
+            # Replace 'home' with the name of your desired redirect URL
+            return redirect('/pubs/course')
         else:
             error_message = "Invalid credentials. Please try again."
-            return render(request, 'login.html', {'error_message': error_message})
-    return render(request, 'login.html')
+            return render(request, 'login_username.html', {'error_message': error_message})
+    return render(request, 'login_username.html')
 
 
 @login_required

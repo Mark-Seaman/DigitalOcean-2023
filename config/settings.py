@@ -54,7 +54,7 @@ INSTALLED_APPS = [
 
     # Third-party
     "crispy_forms",
-    
+
     # My Apps
     "course",
     "publish",
@@ -73,11 +73,11 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-LOGIN_URL = '/course/login/'
+LOGIN_URL = '/login/'
 
-LOGIN_REDIRECT_URL = "/course/home/"
+# LOGIN_REDIRECT_URL = "/"
 
-LOGOUT_REDIRECT_URL = "/course/home/"
+# LOGOUT_REDIRECT_URL = "/"
 
 ROOT_URLCONF = "config.urls"
 

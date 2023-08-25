@@ -8,7 +8,7 @@ from course.student import import_students, students
 from probe.probe_pub import test_pub_json
 from publish.publication import show_pubs
 from publish.text import text_join, text_lines
-from task.task import task_command
+from task.task import fix_tasks, task_command
 from task.todo import edit_todo_list
 from writer.outline import create_outlines
 from writer.pub_script import pub_path, pub_script
@@ -22,7 +22,8 @@ def quick_test():
     # pubs()
     # tests()
     # writer()
-    course()
+    # course()
+    tasks()
 
 
 def course():
@@ -94,6 +95,7 @@ def tests():
 
 
 def tasks():
+    fix_tasks()
     task_command(['week'])
 
 

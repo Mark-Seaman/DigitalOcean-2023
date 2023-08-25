@@ -70,7 +70,6 @@ def course_settings(**kwargs):
 #     user = get_user_model().objects.get(username="seaman")
 #     return Author.objects.get_or_create(name=name, user=user)[0]
 
-
 def create_course(**kwargs):
     c = Course.objects.get_or_create(name=kwargs.get("name"))[0]
     c.title = kwargs.get("title")
@@ -82,6 +81,11 @@ def create_course(**kwargs):
     c.num_lessons = kwargs.get("num_lessons", 42)
     c.save()
     return c
+
+
+def create_courses():
+    course1 = create_course(**cs350_options())
+    course2 = create_course(**bacs350_options())
 
 
 def cs350_options():
@@ -98,19 +102,22 @@ def cs350_options():
 
 def find_artifacts(course):
     def list_files(c, doc_type):
+        results = []
         d = Path(c.doc_path)/doc_type
         if d.exists():
-            pass
-            # print(doc_type, 'files')
-            # for a in d.iterdir():
-            #     print(a)
+            # print(doc_type, 'files:')
+            for a in sorted(d.iterdir()):
+                results.append(str(a))
+        return results
 
     c = get_course(course)
     # print(c.name, c.title, c.doc_path)
-    list_files(c, '.')
-    list_files(c, 'lesson')
-    list_files(c, 'video')
-    list_files(c, 'project')
+    lessons = list_files(c, 'lesson')
+    projects = list_files(c, 'project')
+    docs = list_files(c, 'docs')
+    # list_files(c, '.')
+    # videos = list_files(c, 'video')
+    return lessons+projects+docs
 
 
 def get_course(course_name):
@@ -165,7 +172,7 @@ def resource_title(x):
 def read_document(course, kwargs):
     doctype = kwargs.get("doctype")
     order = kwargs.get("order")
-    doc = kwargs.get("doc","StudentWorkspace.md")
+    doc = kwargs.get("doc", "StudentWorkspace.md")
 
     if doctype == "chapter" or doctype == "skill":
         path = f"Documents/shrinking-world.com/{course.name}/docs/Purchase.md"

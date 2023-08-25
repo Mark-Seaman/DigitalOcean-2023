@@ -3,6 +3,7 @@ from django.contrib.auth import get_user_model
 from django.forms import model_to_dict
 from django.utils.translation import gettext_lazy as _
 from django.contrib.auth.hashers import make_password
+from course.course import create_courses
 
 from publish.files import write_csv_file
 
@@ -35,6 +36,7 @@ def make_user(**kwargs):
     user.username = username
     user.first_name = first
     user.last_name = last
+    user.password = make_password(password)
     user.save()
     return user
 
@@ -81,8 +83,13 @@ def student_detail(student):
     return model_to_dict(student, fields=('name', 'email', 'course'))
 
 
-def students(**kwargs):
-    return Student.objects.filter(**kwargs).order_by('user__last_name')
+def students(verbose=False, **kwargs):
+    all = Student.objects.filter(**kwargs).order_by('user__last_name')
+    if verbose:
+        for s in all:
+            print(
+                f'{s.name:30} {s.user.email:30} {s.course.name:10}')
+    return all
 
 
 def export_students(path=None):
@@ -104,6 +111,7 @@ def import_students(path):
             course = 'bacs350'
         return course
 
+    create_courses()
     with open(path) as file:
         reader = DictReader(file)
         for row in reader:

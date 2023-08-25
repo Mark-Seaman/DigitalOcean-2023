@@ -22,8 +22,8 @@ def quick_test():
     # pubs()
     # tests()
     # writer()
-    # course()
-    tasks()
+    # tasks()
+    course()
 
 
 def course():
@@ -32,9 +32,9 @@ def course():
     # import_students('students2.csv')
     # for s in Student.objects.all():
     # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
-
-    assert len(students(course__name='cs350')) == 12
-    assert len(students(course__name='bacs350')) == 4
+    students(True)
+    # assert len(students(course__name='cs350')) == 13
+    # assert len(students(course__name='bacs350')) == 14
 
     s = Student.objects.get(
         user__username='RyanLunas', course__name='cs350')

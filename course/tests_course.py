@@ -1,10 +1,14 @@
+from django.contrib.auth import authenticate, get_user_model, login
+from django.contrib.auth.hashers import make_password
 from django.test import TestCase
 from django.urls import reverse
 
-from course.course import cs350_options, bacs350_options, create_course, find_artifacts
-from course.import_export import import_all_courses
+from publish.text import text_join
 
-from .models import Course
+from .course import create_courses, cs350_options, bacs350_options, create_course, find_artifacts
+from .import_export import import_all_courses
+from .models import Course, Student
+from .student import import_students, students
 
 
 class CourseDataTest(TestCase):
@@ -17,7 +21,8 @@ class CourseDataTest(TestCase):
         create_course(**self.course1)
         create_course(**self.course2)
         x = Course.objects.get(pk=2)
-        self.assertEqual(str(x), "2 - bacs350 - UNC BACS 350 - Web Apps with Python")
+        self.assertEqual(
+            str(x), "2 - bacs350 - UNC BACS 350 - Web Apps with Python")
         self.assertEqual(x.title, "UNC BACS 350 - Web Apps with Python")
         self.assertEqual(len(Course.objects.all()), 2)
 
@@ -38,7 +43,17 @@ class CourseDataTest(TestCase):
 
     def test_course_artifacts(self):
         import_all_courses()
-        find_artifacts('cs350')
+        items = find_artifacts('cs350')
+        self.assertEqual(len(items), 88)
+        items = find_artifacts('bacs350')
+        # print(text_join(items))
+        self.assertEqual(len(items), 98)
+
+    def test_create_courses(self):
+        create_courses()
+        create_courses()
+        self.assertEqual(len(Course.objects.all()), 2)  # don't duplicate
+
 
 class CourseViewsTest(TestCase):
     def login(self):
@@ -63,8 +78,10 @@ class CourseViewsTest(TestCase):
         self.assertContains(response, "<tr>", count=3)
 
     def test_course_detail_view(self):
-        self.assertEqual(reverse("course_index", args=["bacs200"]), "/course/bacs200")
-        self.assertEqual(reverse("course_index", args=["bacs350"]), "/course/bacs350")
+        self.assertEqual(reverse("course_index", args=[
+                         "bacs200"]), "/course/bacs200")
+        self.assertEqual(reverse("course_index", args=[
+                         "bacs350"]), "/course/bacs350")
         create_course(**self.course2)
         response = self.client.get(reverse("course_index", args=["bacs350"]))
         self.assertContains(response, "Python Web Apps")
@@ -72,7 +89,7 @@ class CourseViewsTest(TestCase):
     def test_course_build(self):
         import_all_courses(verbose=False)
 
-        
+
 # class CourseFixtureTest(TestCase):
 #
 #     def test_import_courses(self):

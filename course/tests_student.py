@@ -1,5 +1,7 @@
+from django.contrib.auth import authenticate, get_user_model, login
+from django.contrib.auth.hashers import make_password
 from datetime import datetime
-from course.course import bacs350_options, create_course, cs350_options
+from course.course import bacs350_options, create_course, create_courses, cs350_options
 
 from probe.tests_django import DjangoTest
 
@@ -10,8 +12,7 @@ from .models import Student
 class StudentModelTest(DjangoTest):
 
     def setUp(self):
-        self.course1 = create_course(**cs350_options())
-        self.course2 = create_course(**bacs350_options())
+        create_courses()
 
     def test_student_add(self):
         student = create_student(name='Test Student', course='cs350')
@@ -44,17 +45,64 @@ class StudentModelTest(DjangoTest):
         self.assertEqual(student.user.last_name, 'Student')
         self.assertEqual(student.user.email, 'x1@me.us')
 
-    def test_import(self):
-        x = import_students('students.csv')
+    def test_export_students(self):
+        import_students('students.csv')
+        export_students('./students2.csv')
+
+    def test_import_students(self):
+        import_students('students2.csv')
+        self.assertEqual(len(students()), 27)
+        self.assertEqual(len(students(course__name='cs350')), 13)
+        self.assertEqual(len(students(course__name='bacs350')), 14)
+        self.assertEqual(len(list_students()), 27)
+
+    def test_students(self):
+        import_students('students2.csv')
+        s1 = Student.objects.get(
+            user__username='RyanLunas', course__name='cs350')
+        self.assertEqual(s1.name, 'Ryan Lunas')
+        self.assertEqual(s1.course.name, 'cs350')
+        s2 = Student.objects.get(
+            user__username='RyanLunas', course__name='bacs350')
+        self.assertEqual(s2.name, 'Ryan Lunas')
+        self.assertEqual(s2.course.name, 'bacs350')
+        self.assertEqual(s1.user.email, 'luna0500@bears.unco.edu')
+        self.assertEqual(s2.user.email, 'luna0500@bears.unco.edu')
+
+    def test_students(self):
+        import_students('students2.csv')
+        self.assertEqual(len(students()), 27)
         self.assertEqual(len(students(course__name='cs350')), 13)
         self.assertEqual(len(students(course__name='bacs350')), 14)
 
-    def test_list_students(self):
-        x = import_students('students.csv')
-        # for s in list_students():
-        #     print(s)
-        self.assertEqual(len(list_students()), 27)
+        s1 = Student.objects.get(
+            user__username='RyanLunas', course__name='cs350')
+        self.assertEqual(s1.name, 'Ryan Lunas')
+        self.assertEqual(s1.course.name, 'cs350')
+        s2 = Student.objects.get(
+            user__username='RyanLunas', course__name='bacs350')
+        self.assertEqual(s2.name, 'Ryan Lunas')
+        self.assertEqual(s2.course.name, 'bacs350')
+        self.assertEqual(s1.user.email, 'luna0500@bears.unco.edu')
+        self.assertEqual(s2.user.email, 'luna0500@bears.unco.edu')
 
-    def test_export(self):
-        import_students('students.csv')
-        export_students('./students2.csv')
+    def test_student_login(self):
+        import_students('students2.csv')
+        s = Student.objects.get(
+            user__username='RyanLunas', course__name='cs350')
+        # s.user.password = make_password('CS350')
+        # s.user.save()
+        a = authenticate(username=s.user.username, password='CS350')
+        self.assertEqual(a, s.user)
+        self.assertNotEqual(s.user.password, 'CS350')
+        # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
+
+    def test_email_login(self):
+        import_students('students2.csv')
+        s = Student.objects.get(
+            user__email='luna0500@bears.unco.edu', course__name='cs350')
+        # s.user.password = make_password('CS350')
+        # s.user.save()
+        self.assertEqual(s.name, 'Ryan Lunas')
+        self.assertEqual(s.user.check_password('CS350'), True)
+        # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')

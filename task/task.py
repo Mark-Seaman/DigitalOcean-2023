@@ -84,25 +84,27 @@ def fix_tasks(**kwargs):
 
     def setup_activities():
         # TaskType.objects.get(name='Learn').delete()
-        delete_activity('Fun')
-        delete_activity('Grow')
-        delete_activity('Code')
-        delete_activity('Church')
-        delete_activity('Family')
-        delete_activity('Software')
-        delete_activity('People')
-        delete_activity('Network')
-        delete_activity('Tools')
+        # delete_activity('Fun')
+        # delete_activity('Grow')
+        # delete_activity('Code')
+        # delete_activity('Church')
+        # delete_activity('Family')
+        # delete_activity('Software')
+        # delete_activity('People')
+        # delete_activity('Network')
+        # delete_activity('Tools')
 
         define_activity('Family', 'Public')
         define_activity('Church', 'Public')
         define_activity('Innovate', 'Work')
         define_activity('Teach', 'Work')
+        define_activity('Write', 'Work')
+        define_activity('Business', 'Work')
         define_activity('ProMETA', 'Work')
         define_activity('Fun', 'Private')
         define_activity('Grow', 'Private')
 
-        rename_task('Learn', 'Innovate')
+        # rename_task('Learn', 'Innovate')
         # rename_task('Software', 'Innovate')
         # rename_task('Network', 'Write')
         # rename_task('People', 'Family')
@@ -262,7 +264,7 @@ def show_task_summary(days, date):
                 summary.append((group, (activity, t[1], t[2])))
             else:
                 print('\n*********** No Activity', t[0].strip())
-                assert (False)
+                # assert (False)
         return summary
 
     totals = time_totals(days, date)

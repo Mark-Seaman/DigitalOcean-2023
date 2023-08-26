@@ -5,7 +5,8 @@ from django.contrib.auth import authenticate, get_user_model, login
 
 class LoginUnitTest(TestCase):
 
-    def setUp(self):
+    @classmethod
+    def setUpTestData(self):
         self.client = Client()
         self.username = 'testuser'
         self.email = 'testuser@example.com'

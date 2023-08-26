@@ -18,6 +18,16 @@ class CourseContentView(TemplateView):
         return kwargs
 
 
+class WorkspaceView(TemplateView):
+    template_name = 'workspace.html'
+
+    def get_context_data(self, **kwargs):
+        kwargs = super().get_context_data(**kwargs)
+        # kwargs.update(read_json(Path('Documents') / 'course' / 'course.json'))
+        kwargs.update(workspace_data(**kwargs))
+        return kwargs
+
+
 class CourseListView(ListView):
     template_name = 'course_list.html'
     model = Course

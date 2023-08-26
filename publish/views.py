@@ -51,14 +51,17 @@ class PubLibraryView(TemplateView):
             get_collection('book', 'Books about Life'),
             get_collection('blog', 'Blogs'),
             get_collection('private', 'Private Blogs'),
-            ]
+        ]
         local_host = is_local(self.request.get_host())
         menu = read_menu("static/js/nav_blog.json", local_host)
-        kwargs = dict(collections=collections, menu=menu, site_title="Shrinking Word Publication Library", site_subtitle="All Publications")
+        kwargs = dict(collections=collections, menu=menu,
+                      site_title="Shrinking Word Publication Library", site_subtitle="All Publications")
         return kwargs
+
 
 def get_collection(pub_type, title):
     return {'type': title, 'pubs': Pub.objects.filter(pub_type=pub_type)}
+
 
 class PubListView(TemplateView):
 
@@ -71,8 +74,10 @@ class PubListView(TemplateView):
         pubs = Pub.objects.filter(pub_type=pub_type)
         local_host = is_local(self.request.get_host())
         menu = read_menu("static/js/nav_blog.json", local_host)
-        kwargs = dict(pubs=pubs, menu=menu, site_title="Shrinking Word Publication Library", site_subtitle="A Seaman's Guides")
+        kwargs = dict(pubs=pubs, menu=menu, site_title="Shrinking Word Publication Library",
+                      site_subtitle="A Seaman's Guides")
         return kwargs
+
 
 class PubDetailView(TemplateView):
     template_name = "pub_script/cover.html"
@@ -84,40 +89,3 @@ class PubDetailView(TemplateView):
         local_host = is_local(self.request.get_host())
         kwargs = select_blog_doc(pub, doc, local_host)
         return kwargs
-
-
-# class PubCreateView(LoginRequiredMixin, CreateView):
-#     template_name = "blog/add.html"
-#     model = Pub
-#     fields = "__all__"
-
-
-# class PubUpdateView(LoginRequiredMixin, UpdateView):
-#     template_name = "blog/edit.html"
-#     model = Pub
-#     fields = "__all__"
-
-
-# class PubDeleteView(LoginRequiredMixin, DeleteView):
-#     model = Pub
-#     template_name = "blog/delete.html"
-#     success_url = reverse_lazy("blog_list")
-
-
-# class SlideShowView(TemplateView):
-#     template_name = 'course_slides.html'
-
-#     def get_context_data(self, **kwargs):
-#         return slides_view_context(**kwargs)
-
-
-
-# class BookCoverView(TemplateView):
-#     template_name = 'book_cover.html'
-
-#     def get_context_data(self, **kwargs):
-#         json = Path('static/js/today.json')
-#         kwargs = read_json(json)
-#         kwargs['cover_title'] = True
-#         kwargs['css'] = '/static/css/shrinking-world.css'
-#         return kwargs

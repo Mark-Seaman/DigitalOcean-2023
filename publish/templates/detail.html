@@ -1,0 +1,26 @@
+{% extends 'theme.html' %}
+
+{% block content %}
+
+<table class="table">
+    <tr>
+        {% for field in object.get_fields %}
+        <th>{{ field.verbose_name }}</th>
+        {% endfor %}
+    </tr>
+
+    {% for label, value in object.get_fields %}
+    <tr>
+        <td><b>{{ label }}</b></td>
+        <td>{{ value }}<br><br></td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+<!-- <p>
+    {% autoescape off %}{{ edit_button }}{% endautoescape %}
+    {% autoescape off %}{{ list_button }}{% endautoescape %}
+</p> -->
+
+{% endblock content %}

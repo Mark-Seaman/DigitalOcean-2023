@@ -2,11 +2,13 @@ from django.contrib.auth import authenticate, get_user_model, login
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 from django.views.generic import ListView, TemplateView
+from django.views.generic.edit import UpdateView
 from pathlib import Path
+from course.workspace import workspace_data
 
 from publish.files import read_json
 from .course import get_course_content
-from .models import Course
+from .models import Course, Student
 from .slides import slides_view_context
 
 
@@ -23,9 +25,35 @@ class WorkspaceView(TemplateView):
 
     def get_context_data(self, **kwargs):
         kwargs = super().get_context_data(**kwargs)
-        # kwargs.update(read_json(Path('Documents') / 'course' / 'course.json'))
+        kwargs['user'] = self.request.user
         kwargs.update(workspace_data(**kwargs))
         return kwargs
+
+
+class StudentProfileView(UpdateView):
+    template_name = 'edit.html'
+    model = Student
+    fields = ['name', 'email', 'github', 'server']
+    success_url = '/workspace'
+
+    def get_context_data(self, **kwargs):
+        kwargs = super().get_context_data(**kwargs)
+        kwargs.update(read_json(Path('Documents') / 'course' / 'course.json'))
+        return kwargs
+
+    def get_initial(self):
+        initial = super().get_initial()
+        initial['email'] = self.object.user.email
+        initial['name'] = f'{self.object.user.first_name} {self.object.user.last_name}'
+        return initial
+
+    def form_valid(self, form):
+        student = form.save(commit=False)
+        student.user.email = form.cleaned_data['email']
+        name = form.cleaned_data['name'].split(' ')[:2]
+        student.user.first_name, student.user.last_name = name
+        student.user.save()
+        return super().form_valid(form)
 
 
 class CourseListView(ListView):

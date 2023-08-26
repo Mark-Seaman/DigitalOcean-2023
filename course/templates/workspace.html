@@ -1,0 +1,45 @@
+{% extends 'course_theme.html' %}
+
+
+
+{% block content %}
+
+<div class="container  p-5">
+
+    {% autoescape off %}
+    {{ html }}
+    {% endautoescape %}
+
+    {% if student %}
+    <h1>{{ student.name }}</h1>
+
+    <a href="/student/{{ student.pk }}" class="btn btn-success">Edit Profile</a>
+    <p>Email: <b>{{ student.user.email }}</b></p>
+    <p>Course: <b>{{ student.course.title }}</b></p>
+
+    <p>Github:
+        {% if student.github %}
+        <a href="{{ student.github }}">{{ student.github }}</a>
+        {% else %}
+        <b>NO GITHUB REPO</b>
+        {% endif %}
+    </p>
+    <p>Server:
+        {% if student.server %}
+        <a href="{{ student.server }}">{{ student.server }}</a>
+        {% else %}
+        <b>NO SERVER</b>
+        {% endif %}
+    </p>
+    <p>
+        ID: {{ student.pk }}
+    </p>
+    {% endif %}
+
+</div>
+
+{% endblock content %}
+
+
+{% block footer %}
+{% endblock footer %}

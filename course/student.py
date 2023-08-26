@@ -30,7 +30,7 @@ def make_user(**kwargs):
     email = kwargs.get('email', f'{username}@shrinking-world.com')
     password = 'CS350' if kwargs.get('course') == 'cs350' else 'BACS350'
     kwargs = dict(username=username, first_name=first,
-                  last_name=last, email=email, password=make_password(password))
+                  last_name=last, email=email, password=password)
     user, _ = get_user_model().objects.get_or_create(
         username=username, defaults=kwargs)
     user.username = username

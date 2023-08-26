@@ -14,8 +14,6 @@ urlpatterns = [
 
     path('course/<str:course>/home',
          CourseContentView.as_view(),  name='student_view'),
-    path('course/login/', login_username_view),
-    path('course/home', home_view, name='home'),
 
     # Course
     path('course', CourseListView.as_view(), name='course_list'),

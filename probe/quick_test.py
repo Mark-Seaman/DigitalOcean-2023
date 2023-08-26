@@ -27,31 +27,35 @@ def quick_test():
 
 
 def course():
+    s = Student.objects.get(
+        user__email='luna0500@bears.unco.edu', course__name='cs350')
+    print('login: ', s.name, 'OK' if s.user.check_password('CS350') else 'Failed')
+
     # import_all_courses(verbose=False)
     # Student.objects.all().delete()
     # import_students('students2.csv')
     # for s in Student.objects.all():
     # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
-    students(True)
-    # assert len(students(course__name='cs350')) == 13
-    # assert len(students(course__name='bacs350')) == 14
+    # students(True)
+    # # assert len(students(course__name='cs350')) == 13
+    # # assert len(students(course__name='bacs350')) == 14
 
-    s = Student.objects.get(
-        user__username='RyanLunas', course__name='cs350')
-    u = s.user
-    assert s
-    assert u
+    # s = Student.objects.get(
+    #     user__username='RyanLunas', course__name='cs350')
+    # u = s.user
+    # assert s
+    # assert u
 
-    # u.password = make_password('CS350')
-    # u.save()
+    # # u.password = make_password('CS350')
+    # # u.save()
 
-    print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
+    # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
 
-    # make_password('CS350')
-    a = authenticate(username=u.username, password='CS350')
-    c = u.check_password('CS350')
+    # # make_password('CS350')
+    # a = authenticate(username=u.username, password='CS350')
+    # c = u.check_password('CS350')
 
-    print(f'{s.name} -- auth {a} -- password {c}')
+    # print(f'{s.name} -- auth {a} -- password {c}')
     # u = get_user_model().objects.filter(email=email).first()
     #     if user and user.check_password(password)
     # user = authenticate(request, username=username, password=password)

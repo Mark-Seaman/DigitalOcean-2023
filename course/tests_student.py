@@ -90,8 +90,6 @@ class StudentModelTest(DjangoTest):
         import_students('students2.csv')
         s = Student.objects.get(
             user__username='RyanLunas', course__name='cs350')
-        # s.user.password = make_password('CS350')
-        # s.user.save()
         a = authenticate(username=s.user.username, password='CS350')
         self.assertEqual(a, s.user)
         self.assertNotEqual(s.user.password, 'CS350')
@@ -101,8 +99,6 @@ class StudentModelTest(DjangoTest):
         import_students('students2.csv')
         s = Student.objects.get(
             user__email='luna0500@bears.unco.edu', course__name='cs350')
-        # s.user.password = make_password('CS350')
-        # s.user.save()
         self.assertEqual(s.name, 'Ryan Lunas')
         self.assertEqual(s.user.check_password('CS350'), True)
         # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')

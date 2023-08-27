@@ -129,12 +129,16 @@ def get_course_content(user, **kwargs):
     course = kwargs["course_object"]
     week = kwargs["week"]
     doctype = kwargs.get('doctype')
-    if doctype:
+    if user.is_anonymous:
+        kwargs['doctype'] = 'docs'
+        kwargs['doc'] = 'StudentWorkspace.md'
+        html = read_document(course, kwargs)
+        kwargs.update(dict(title=course.title, html=html))
+    elif doctype:
         html = read_document(course, kwargs)
         kwargs.update(dict(title=course.title, html=html))
     else:
         kwargs['accordion'] = accordion_data(course, week)[:week]
-    # if not user.is_anonymous:
 
     return kwargs
 

@@ -25,7 +25,7 @@ class LoginUnitTest(TestCase):
         # Expecting a redirect after successful login
         self.assertEqual(response.status_code, 302)
         # Replace with your expected redirect URL
-        self.assertRedirects(response, '/pubs/course')
+        self.assertRedirects(response, '/course')
 
     def test_login_valid_user(self):
         response = self.client.post(
@@ -33,7 +33,7 @@ class LoginUnitTest(TestCase):
         # Expecting a redirect after successful login
         self.assertEqual(response.status_code, 302)
         # Replace with your expected redirect URL
-        self.assertRedirects(response, '/pubs/course')
+        self.assertRedirects(response, '/course')
 
     def test_login_invalid_user(self):
         response = self.client.post(

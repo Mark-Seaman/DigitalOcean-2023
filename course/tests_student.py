@@ -101,7 +101,7 @@ class StudentModelTest(DjangoTest):
 
         self.assertEqual(s.name, 'Ryan Lunas')
         self.assertEqual(s.user.check_password('CS350'), True)
-        print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
+        # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
 
     def login(self):
         response = self.client.login(

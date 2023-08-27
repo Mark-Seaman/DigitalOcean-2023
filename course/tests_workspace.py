@@ -85,10 +85,9 @@ class StudentWorkspaceTest(DjangoTest):
         self.assertContains(response, 'Index File for Project 1')
 
     def test_student_info(self):
-        s = Student.objects.get(
-            user__email='luna0500@bears.unco.edu', course__name='cs350')
-        response = self.client.login(
-            username=s.user.username,  password='CS350')
+        e = 'luna0500@bears.unco.edu'
+        s = Student.objects.get(user__email=e, course__name='cs350')
+        response = self.client.login(username='RyanLunas',  password='CS350')
         response = self.client.get("/workspace/bacs350/1/Index.md")
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, 'RyanLunas')
@@ -99,6 +98,37 @@ class StudentWorkspaceTest(DjangoTest):
         self.assertEqual(self.client.login(
             username=s.user.username,  password='x'), False)
 
+
+# ---------------
+# Test Log
+# count the number of tests & assertions
+# track number of test executions for every 5 minutes
+# measure time to execute one iteration and all tests
+# 116 tests
+
+# 00 xoxo <--
+# 10 oxxoo
+# 20 ooooxxoo
+# 30 ooooooxooo
+# 40 xoxxoooo
+# 50 xooooo
+
+# ---------------
+# TO DO
+#   * /course/bacs350, /course/cs350
+#   * Welcome UNC students
+#   * Require login
+#   * Navbar menu
+#   * Workspace home
+#   * Show both classes
+#   * bacs lessons, project
+#   * cs lessons, project
+#   * Instructor Github
+#   *
+#   *
+#   *
+# ---------------
+
     # def test_email_login(self):
     #     s = Student.objects.get(
     #         user__email='luna0500@bears.unco.edu', course__name='cs350')
@@ -107,26 +137,6 @@ class StudentWorkspaceTest(DjangoTest):
 
     # def test_student_edit(self):
     #     pass
-
-# ---------------
-# Test Log
-# count the number of tests & assertions
-# track number of test executions for every 5 minutes
-# measure time to execute one iteration and all tests
-# 114 tests
-
-# 00 x <--
-# 10 oxxo
-# 15 o
-# 20 oooo
-# 25 xxoo
-# 30 ooo
-# 35 oooxooo
-# 40 xox
-# 45 xoooo
-# 50 xoo
-# 55 ooo
-
     # def test_student_info(self):
     #     pass
 

@@ -49,7 +49,7 @@ def create_student(**kwargs):
         if course_name:
             course = Course.objects.get(name=course_name)
             kwargs = dict(course=course, github='https://github.com',
-                          server='https://digitalocean.com')
+                          server='https://digitalocean.com', name=f'{user.first_name} {user.last_name}')
             student, _ = Student.objects.get_or_create(
                 user=user, course=course, defaults=kwargs)
             return student

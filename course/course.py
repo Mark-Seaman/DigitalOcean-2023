@@ -125,18 +125,17 @@ def get_course(course_name):
 
 
 def get_course_content(user, **kwargs):
-    # def course_content(num_weeks):
-    #     return dict(title="Python Web Apps", weeks=weekly_content(course)[:num_weeks])
-
     kwargs = course_settings(**kwargs)
     course = kwargs["course_object"]
     week = kwargs["week"]
-
-    if not user.is_anonymous:
-        kwargs['accordion'] = accordion_data(course, week)[:week]
-    else:
+    doctype = kwargs.get('doctype')
+    if doctype:
         html = read_document(course, kwargs)
-        kwargs.update(dict(title="Python Web Apps", html=html))
+        kwargs.update(dict(title=course.title, html=html))
+    else:
+        kwargs['accordion'] = accordion_data(course, week)[:week]
+    # if not user.is_anonymous:
+
     return kwargs
 
 

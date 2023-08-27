@@ -44,15 +44,13 @@ class CourseDataTest(TestCase):
 
 
 class CourseViewsTest(TestCase):
-    # def login(self):
-    #     response = self.client.login(
-    #         username=self.user.username, password=self.user_args["password"]
-    #     )
-    #     self.assertEqual(response, True)
 
     @classmethod
     def setUpTestData(cls):
         import_all_courses(verbose=False)
+
+    #   response = self.client.login(username='RyanLunas', password='CS350')
+    #   self.assertEqual(response, True)
 
     def test_course_artifacts(self):
         items = find_artifacts('cs350')
@@ -77,6 +75,25 @@ class CourseViewsTest(TestCase):
         response = self.client.get(reverse("course_index", args=["bacs350"]))
         self.assertContains(response, "Python Web Apps")
 
+    # def test_course_view(self):
+    #     self.assertEqual(reverse("course_list"), "/course")
+    #     response = self.client.get("/course")
+    #     self.assertEqual(response.status_code, 200)
+
+
+# ---------------
+# Test Log
+# count the number of tests & assertions
+# track number of test executions for every 5 minutes
+# measure time to execute one iteration and all tests
+# 114 tests
+
+# 00 x <--
+# 10 oxxo
+# 20 oooo
+# 30 ooo
+# 40 xox
+# 50 xoo
 
 # class CourseFixtureTest(TestCase):
 #

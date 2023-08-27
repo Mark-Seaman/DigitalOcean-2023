@@ -9,14 +9,13 @@ urlpatterns = [
 
     # Student
     path('login/', login_email_view, name='login'),
-    path('login_username/', login_username_view),
     path('logout/', LogoutView.as_view(), name='logout'),
+    path('login_username/', login_username_view),
 
     path('course/<str:course>/home',
          CourseContentView.as_view(),  name='student_view'),
 
     # Course
-    path('course', CourseListView.as_view(), name='course_list'),
     path('workspace', WorkspaceView.as_view()),
     path('workspace/<str:course>', WorkspaceView.as_view()),
     path('workspace/<str:course>/<int:project>', WorkspaceView.as_view()),
@@ -25,6 +24,7 @@ urlpatterns = [
     path('student/<int:pk>', StudentProfileView.as_view()),
 
     # Lessons and Projects
+    path('course', CourseListView.as_view(), name='course_list'),
     path('course/<str:course>', CourseContentView.as_view(), name='course_index'),
     path('course/<str:course>/slides/<int:order>',
          SlidesView.as_view(), name='slides'),

@@ -75,9 +75,9 @@ MIDDLEWARE = [
 
 LOGIN_URL = '/login/'
 
-# LOGIN_REDIRECT_URL = "/"
+LOGIN_REDIRECT_URL = "/course"
 
-# LOGOUT_REDIRECT_URL = "/"
+LOGOUT_REDIRECT_URL = "/course"
 
 ROOT_URLCONF = "config.urls"
 

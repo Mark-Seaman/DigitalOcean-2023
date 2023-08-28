@@ -1,6 +1,7 @@
 from django.contrib.auth import authenticate, get_user_model, login
 from django.contrib.auth.hashers import make_password
 from pathlib import Path
+from course.course import create_courses
 
 from course.import_export import import_all_courses
 from course.models import Course, Student
@@ -28,6 +29,7 @@ def quick_test():
 
 
 def course():
+    create_courses()
     import_students(workspace_path(course='bacs350', project='_students.csv'))
     s = Student.objects.get(
         user__email='mark.seaman@shrinking-world.com', course__name='bacs350')

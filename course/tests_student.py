@@ -91,9 +91,9 @@ class StudentModelTest(DjangoTest):
     def test_student_login(self):
         s = Student.objects.get(
             user__username='RyanLunas', course__name='cs350')
-        a = authenticate(username=s.user.username, password='CS350')
+        a = authenticate(username=s.user.username, password='UNC')
         self.assertEqual(a, s.user)
-        self.assertNotEqual(s.user.password, 'CS350')
+        self.assertNotEqual(s.user.password, 'UNC')
         # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
 
     def test_email_login(self):
@@ -101,7 +101,7 @@ class StudentModelTest(DjangoTest):
             user__email='luna0500@bears.unco.edu', course__name='cs350')
 
         self.assertEqual(s.name, 'Ryan Lunas')
-        self.assertEqual(s.user.check_password('CS350'), True)
+        self.assertEqual(s.user.check_password('UNC'), True)
         # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
 
     def login(self):

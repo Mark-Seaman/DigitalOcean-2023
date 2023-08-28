@@ -15,7 +15,8 @@ def workspace_path(**kwargs):
         project = str(project)
     doc = kwargs.get('doc')
 
-    path = Path(f'{getenv("SHRINKING_WORLD_PUBS")}')
+    # path = Path(f'{getenv("SHRINKING_WORLD_PUBS")}')
+    path = Path('Documents/Shrinking-World-Pubs')
 
     if doc and project and course:
         path = path/course/project/doc

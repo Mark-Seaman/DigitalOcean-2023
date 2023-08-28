@@ -28,7 +28,8 @@ def make_user(**kwargs):
     first, last = name.split(' ')[:2]
     username = f'{first}{last}'.replace(' ', '')
     email = kwargs.get('email', f'{username}@shrinking-world.com')
-    password = 'CS350' if kwargs.get('course') == 'cs350' else 'BACS350'
+    # password = 'CS350' if kwargs.get('course') == 'cs350' else 'BACS350'
+    password = 'UNC'
     kwargs = dict(username=username, first_name=first,
                   last_name=last, email=email, password=password)
     user, _ = get_user_model().objects.get_or_create(

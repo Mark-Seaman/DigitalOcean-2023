@@ -5,6 +5,7 @@ from pathlib import Path
 from course.import_export import import_all_courses
 from course.models import Course, Student
 from course.student import import_students, students
+from course.workspace import workspace_path
 from probe.probe_pub import test_pub_json
 from publish.publication import show_pubs
 from publish.text import text_join, text_lines
@@ -27,9 +28,16 @@ def quick_test():
 
 
 def course():
+    import_students(workspace_path(course='bacs350', project='_students.csv'))
     s = Student.objects.get(
-        user__email='luna0500@bears.unco.edu', course__name='cs350')
-    print('login: ', s.name, 'OK' if s.user.check_password('CS350') else 'Failed')
+        user__email='mark.seaman@shrinking-world.com', course__name='bacs350')
+    print('login: ', s.name, 'BACS350' if s.user.check_password(
+        'BACS350') else 'Failed')
+    print('login: ', s.name, 'UNC' if s.user.check_password('UNC') else 'Failed')
+    s = Student.objects.get(
+        user__email='mark.seaman@shrinking-world.com', course__name='cs350')
+    print('login: ', s.name, 'CS350' if s.user.check_password('CS350') else 'Failed')
+    print('login: ', s.name, 'UNC' if s.user.check_password('UNC') else 'Failed')
 
     # import_all_courses(verbose=False)
     # Student.objects.all().delete()

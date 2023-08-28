@@ -11,25 +11,25 @@ class StudentWorkspaceTest(DjangoTest):
     def setUpTestData(cls):
         s = workspace_path(course='bacs350', project='_students.csv')
         import_students(s)
-        # y = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/bacs350/_students.csv'
+        # y = 'Documents/Shrinking-World-Pubs/bacs350/_students.csv'
         # self.assertTrue(s.exists())  # No student list
         # self.assertEqual(str(s), y)  # Student roster
 
     def test_workspace_exists(self):
         x = workspace_path(course='bacs350')
-        y = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/bacs350'
+        y = 'Documents/Shrinking-World-Pubs/bacs350'
         self.assertEqual(str(x), y)
         self.assertTrue(x.exists())
 
     def test_project_exists(self):
         x = workspace_path(course='bacs350', project='1')
-        y = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/bacs350/1'
+        y = 'Documents/Shrinking-World-Pubs/bacs350/1'
         self.assertEqual(str(x), y)
         self.assertTrue(x.exists())
 
     def test_doc_exists(self):
         x = workspace_path(course='bacs350', project='1', doc='Index.md')
-        y = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/bacs350/1/Index.md'
+        y = 'Documents/Shrinking-World-Pubs/bacs350/1/Index.md'
         self.assertEqual(str(x), y)
         self.assertTrue(x.exists())
 
@@ -56,7 +56,7 @@ class StudentWorkspaceTest(DjangoTest):
     def test_workspace_view(self):
         w = dict(course='bacs350', project='1', doc='Index.md')
         x = str(workspace_path(**w))
-        y = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/bacs350/1/Index.md'
+        y = 'Documents/Shrinking-World-Pubs/bacs350/1/Index.md'
         self.assertEqual(x, y)
         response = self.client.get("/workspace")
         self.assertEqual(response.status_code, 200)

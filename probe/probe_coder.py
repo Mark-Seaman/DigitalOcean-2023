@@ -19,10 +19,10 @@ def test_coder_probe_source():
 
 
 def test_coder_python_source():
-    return show_files("Python Code ", python_code_files, 9000, 10000)
+    return show_files("Python Code ", python_code_files, 8000, 10000)
 
 
 def test_coder_templates():
     text = "test_template_files: Templates " + \
-        check_file_count(template_files(), 40, 50)
+        check_file_count(template_files(), 70, 80)
     return text + text_join(template_files())

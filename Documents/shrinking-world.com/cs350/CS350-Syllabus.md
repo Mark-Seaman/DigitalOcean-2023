@@ -38,11 +38,12 @@ Upon successfully completing this course, students will:
 ## Textbook and Services
 
 **Textbook:**
-No textbook is required. Numerous readings from internet sites will be assigned throughout the class.
-A free copy of the Leverage Principle by Mark Seaman will be provided to each student online.
-- [Leverage Principle - Online Copy](https://shrinking-world.com/book/Leverage/Index)
-- Also available from Amazon for $19.95: [Amazon Link](https://www.amazon.com/Leverage-Principle-Architects-Optimizing-Development-ebook/dp/B01945JLIS)
 
+Software Engineering interactive course
+
+$140 course discounted to $35 for UNC Students by instructor
+
+https://shrinking-world.org/p/software-engineering-with-ai
 
 ## Grading
 
@@ -92,24 +93,13 @@ All projects must be completed by the last day of class.
 - Make sure you read announcements on Sensei and Canvas completely. They will typically include each location of materials for the assignment or document.
 
 
-## MCB Statement on Using Generative AI 
+## GLOBAL DIMENSION COVERAGE:
+  Students will be introduced to the international dimensions of computer applications, e-commerce, and technology trends. 
 
-Generative AIi tools can  be good resources for enhancing teaching and learning.  These tools also  have limitations and can hinder learning if not used appropriately.  It  is imperative that we all understand the opportunities, problems, and  ethical issues associated with the use of generative AI tools. 
-
-- Be aware of risks to privacy and intellectual property. 
-- Be aware that AI-generated content may contain biases. 
-- Be aware that AI-generated content may contain incorrect and outdated information. 
--  Be aware that some forms of AI use constitute plagiarism or copyright  infringement.  You cannot submit AI- generated content as your own work.  
-
-At Monfort College of Business, our mission is to prepare you to  become successful leaders.  We strive to be innovative in our teaching  to enhance your learning.  Incorporating AI as a learning tool has  benefits.  If it is used inappropriately, however, it is considered  academic dishonesty. For example, submitting work prepared by someone  else, including AI, and claiming the work is your own is dishonest.  As  noted in the MCB Student Code of Professional Conduct, academic  dishonesty can result in disciplinary action. Potential disciplinary  actions include the following: 
-
-- A failing grade for an assignment 
-- A failing grade for a class 
-- Suspension from MCB 
-- Expulsion from MCB 
-
-Each  class at MCB has different rules and requirements for using generative  AI tools, and it is your responsibility to follow the guidelines in the  syllabus of each class. Ask your professor if you have any questions  about the policies in the syllabus.  Please note that AI-related  plagiarism detection tools are available to us now.  Remember to use all  available resources appropriately to enhance your learning. You are  expected to submit your own work. 
  
- i "Generative Al is a type of  artificial intelligence (AI) that uses machine learning algorithms to  create new and original content like images, videos, text, and audio  based on user-defined prompts by utilizing algorithms to recognize  patterns in input data”  
+## ETHICAL DIMENSION COVERAGE:
+   Ethical considerations around security, protect ion, intrusion, computer viruses and pirating of software are discussed. Special consideration is paid to the requirements of privacy for e-commerce customers. Discussion of plagiarism and University Honor Code are conducted. 
 
-(https://www.weforum.org/agenda/2023/02/generative-ai-explain-algorithms-work/).   
+ 
+
+https://mcb.unco.edu/pdf/Standard-Statements-2023.pdf

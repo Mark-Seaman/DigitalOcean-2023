@@ -1,15 +1,12 @@
-/* .reveal h1 {
+.reveal h1 {
     font-size: 200%;
     color: white;
-    text-outline: black 2px 2px;
-    text-shadow: 2px 2px 5px #0a0a0a;
     text-align: center;
 
 }
 
 .reveal .title {
     text-align: center;
-    text-shadow: 2px 2px 5px black;
 }
 
 .reveal h2.subtitle {
@@ -17,19 +14,17 @@
 }
 
 .reveal h2 {
-    /*font-size: 150%;*/
-color: white;
-text-shadow: 2px 2px 5px #0a0a0a;
+    font-size: 150%;
+    color: white;
 }
 
 .reveal h3 {
     color: darkgreen;
-    text-shadow: 2px 2px 5px #0a0a0a;
 }
 
 
 .reveal li {
-    color: darkgreen;
+    color: #222;
 }
 
 .reveal img {
@@ -53,5 +48,3 @@ text-shadow: 2px 2px 5px #0a0a0a;
 code.html {
     /*background-color: darkgray;*/
 }
-
-*/

@@ -27,14 +27,16 @@ def make_user(**kwargs):
     first, last = name.split(' ')[:2]
     username = f'{first}{last}'.replace(' ', '')
     email = kwargs.get('email', f'{username}@shrinking-world.com')
-    password = 'CS350' if kwargs.get('course') == 'cs350' else 'BACS350'
+    # password = 'CS350' if kwargs.get('course') == 'cs350' else 'BACS350'
+    password = 'UNC'
     kwargs = dict(username=username, first_name=first,
-                  last_name=last, email=email, password=make_password(password))
+                  last_name=last, email=email, password=password)
     user, _ = get_user_model().objects.get_or_create(
         username=username, defaults=kwargs)
     user.username = username
     user.first_name = first
     user.last_name = last
+    user.password = make_password(password)
     user.save()
     return user
 
@@ -46,9 +48,15 @@ def create_student(**kwargs):
         course_name = kwargs.get('course')
         if course_name:
             course = Course.objects.get(name=course_name)
-            kwargs = dict(course=course)
+            name = f'{user.first_name} {user.last_name}'
+            email = user.email
+            kwargs = dict(course=course, github='https://github.com',
+                          server='https://digitalocean.com')
             student, _ = Student.objects.get_or_create(
                 user=user, course=course, defaults=kwargs)
+            student.name = name
+            student.email = email
+            student.save()
             return student
 
 
@@ -81,8 +89,18 @@ def student_detail(student):
     return model_to_dict(student, fields=('name', 'email', 'course'))
 
 
-def students(**kwargs):
-    return Student.objects.filter(**kwargs).order_by('user__last_name')
+def students(verbose=False, **kwargs):
+    all = Student.objects.filter(**kwargs).order_by('user__last_name')
+    if verbose:
+        for s in all:
+            try:
+                if not s or s is None:
+                    print('NONE')
+                else:
+                    print(f'{s.name:30} {s.email:30} {s.course.name}')
+            except:
+                print('EXCEPTION')
+    return all
 
 
 def export_students(path=None):

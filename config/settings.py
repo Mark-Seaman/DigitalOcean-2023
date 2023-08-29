@@ -54,12 +54,11 @@ INSTALLED_APPS = [
 
     # Third-party
     "crispy_forms",
-    
+
     # My Apps
     "course",
     "publish",
     "probe",
-    "sweng",
     "task",
     "writer",
 ]
@@ -76,9 +75,9 @@ MIDDLEWARE = [
 
 LOGIN_URL = '/login/'
 
-LOGIN_REDIRECT_URL = "/home/"
+LOGIN_REDIRECT_URL = "/course"
 
-LOGOUT_REDIRECT_URL = "/home/"
+LOGOUT_REDIRECT_URL = "/course"
 
 ROOT_URLCONF = "config.urls"
 

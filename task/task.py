@@ -84,24 +84,27 @@ def fix_tasks(**kwargs):
 
     def setup_activities():
         # TaskType.objects.get(name='Learn').delete()
-        delete_activity('Fun')
-        delete_activity('Grow')
-        delete_activity('Code')
-        delete_activity('Church')
-        delete_activity('Family')
-        delete_activity('Software')
-        delete_activity('People')
-        delete_activity('Network')
-        delete_activity('Tools')
+        # delete_activity('Fun')
+        # delete_activity('Grow')
+        # delete_activity('Code')
+        # delete_activity('Church')
+        # delete_activity('Family')
+        # delete_activity('Software')
+        # delete_activity('People')
+        # delete_activity('Network')
+        # delete_activity('Tools')
 
         define_activity('Family', 'Public')
         define_activity('Church', 'Public')
         define_activity('Innovate', 'Work')
+        define_activity('Teach', 'Work')
+        define_activity('Write', 'Work')
+        define_activity('Business', 'Work')
         define_activity('ProMETA', 'Work')
         define_activity('Fun', 'Private')
         define_activity('Grow', 'Private')
 
-        rename_task('Learn', 'Innovate')
+        # rename_task('Learn', 'Innovate')
         # rename_task('Software', 'Innovate')
         # rename_task('Network', 'Write')
         # rename_task('People', 'Family')
@@ -137,10 +140,12 @@ def incomplete_days(days, end=None):
 
 def missing_days(days, date):
     text = f'Missing Days: recent {days} days  {date_str(date)}\n\n'
-    for d in recent_dates(days, date):
+    bad_dates = recent_dates(days, date)
+    for d in bad_dates:
         if not Task.objects.filter(date=d):
             text += f'Missing {d}\n'
-    return text
+    if bad_dates:
+        return text
 
 
 def monthly_tasks(month):
@@ -259,7 +264,7 @@ def show_task_summary(days, date):
                 summary.append((group, (activity, t[1], t[2])))
             else:
                 print('\n*********** No Activity', t[0].strip())
-                assert (False)
+                # assert (False)
         return summary
 
     totals = time_totals(days, date)
@@ -364,11 +369,14 @@ def task_import_files(days=7, date=None):
                 tasks.append("%s -- %s hours" % (t.name, t.hours))
 
     def new_task(date, name, hours, notes):
-        t = Task.objects.get_or_create(date=date, name=name)[0]
-        t.activity = Activity.objects.get(name=name)
-        t.hours = hours
-        t.notes = "\n".join(notes)
-        t.save()
+        try:
+            t = Task.objects.get_or_create(date=date, name=name)[0]
+            t.activity = Activity.objects.get(name=name)
+            t.hours = hours
+            t.notes = "\n".join(notes)
+            t.save()
+        except:
+            print('*******>', date, name, hours, notes)
         return t
 
     dates = recent_dates(days, date)
@@ -457,9 +465,11 @@ def time_table(period, days, date=None):
 
 def show_incomplete_days(days, date):
     text = f'Incomplete Days: recent {days} days {date_str(date)}\n\n'
-    for t in incomplete_days(days, date):
+    bad_dates = incomplete_days(days, date)
+    for t in bad_dates:
         text += f'{t[0]} - {t[1]} hours\n'
-    return text
+    if bad_dates:
+        return text
 
 
 def update_tasks(**kwargs):
@@ -474,14 +484,17 @@ def update_tasks(**kwargs):
     # Task.objects.all().delete()
     # print(fix_tasks())
 
-    text = task_import_files(days, date)
-    text += f'Records: {len(Task.objects.all())}\n\n'
-    text += f'{missing_days(days, date)}\n'
-    text += f'{show_incomplete_days(days, date)}\n'
-    text += f'Totals: {days} days, {date_str(date)} {time_summary(days, date)}\n'
-    text += f'Summary:\n\n{show_task_summary(days, date)}\n\n\n'
+    imported = task_import_files(days, date)
+    records = len(Task.objects.all())
+    missing = missing_days(days, date)
+    incomplete = show_incomplete_days(days, date)
+    totals = f'Totals: {days} days, {date_str(date)} {time_summary(days, date)}\n'
+    summary = f'Summary:\n\n{show_task_summary(days, date)}\n\n\n'
+    tasks = f'Activities:\n\n{activity(days, date)}\n'
+
+    text = f'{missing} {incomplete} {summary}'
     if show_activity:
-        text += f'Activities:\n\n{activity(days, date)}\n'
+        text += tasks
     return text
 
 

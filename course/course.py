@@ -1,5 +1,8 @@
 from django.contrib.auth import get_user_model
 from pathlib import Path
+from course.import_export import bacs350_options, create_course, cs350_options
+from course.student import create_student, export_students, import_students, students
+from course.workspace import workspace_path
 
 from publish.document import document_body, document_html, document_title
 from publish.files import read_file, read_json
@@ -25,30 +28,6 @@ def accordion_data(course, week):
     return [card_content(i, week-1, c) for i, c in enumerate(weeks)]
 
 
-# def bacs200_options():
-#     return dict(
-#         name="bacs200",
-#         title="UNC BACS 200 - Intro to Web Development",
-#         subtitle="Intro to Web Development for Small Business",
-#         doc_path="Documents/shrinking-world.com/bacs200",
-#         description="None",
-#         num_projects=14,
-#         num_lessons=45,
-#     )
-
-
-def bacs350_options():
-    return dict(
-        name="bacs350",
-        title="UNC BACS 350 - Web Apps with Python",
-        subtitle="Intermediate Web Development",
-        doc_path="Documents/shrinking-world.com/bacs350",
-        description="None",
-        num_projects=14,
-        num_lessons=42,
-    )
-
-
 def course_settings(**kwargs):
     def read_course_settings(course):
         return read_json(
@@ -66,51 +45,29 @@ def course_settings(**kwargs):
     return kwargs
 
 
-# def create_author(name):
-#     user = get_user_model().objects.get(username="seaman")
-#     return Author.objects.get_or_create(name=name, user=user)[0]
-
-
-def create_course(**kwargs):
-    c = Course.objects.get_or_create(name=kwargs.get("name"))[0]
-    c.title = kwargs.get("title")
-    c.subtitle = kwargs.get("subtitle")
-    c.author = kwargs.get("author", 1)
-    c.doc_path = kwargs.get("doc_path")
-    c.description = kwargs.get("description")
-    c.num_projects = kwargs.get("num_projects", 14)
-    c.num_lessons = kwargs.get("num_lessons", 42)
-    c.save()
-    return c
-
-
-def cs350_options():
-    return dict(
-        name="cs350",
-        title="UNC CS 350 - Software Engineering",
-        subtitle="Practical Software Engineering Skills",
-        doc_path="Documents/shrinking-world.com/cs350",
-        description="None",
-        num_projects=7,
-        num_lessons=42,
-    )
+def create_courses():
+    course1 = create_course(**cs350_options())
+    course2 = create_course(**bacs350_options())
 
 
 def find_artifacts(course):
     def list_files(c, doc_type):
+        results = []
         d = Path(c.doc_path)/doc_type
         if d.exists():
-            pass
-            # print(doc_type, 'files')
-            # for a in d.iterdir():
-            #     print(a)
+            # print(doc_type, 'files:')
+            for a in sorted(d.iterdir()):
+                results.append(str(a))
+        return results
 
     c = get_course(course)
     # print(c.name, c.title, c.doc_path)
-    list_files(c, '.')
-    list_files(c, 'lesson')
-    list_files(c, 'video')
-    list_files(c, 'project')
+    lessons = list_files(c, 'lesson')
+    projects = list_files(c, 'project')
+    docs = list_files(c, 'docs')
+    # list_files(c, '.')
+    # videos = list_files(c, 'video')
+    return lessons+projects+docs
 
 
 def get_course(course_name):
@@ -118,23 +75,21 @@ def get_course(course_name):
 
 
 def get_course_content(user, **kwargs):
-    # def course_content(num_weeks):
-    #     return dict(title="Python Web Apps", weeks=weekly_content(course)[:num_weeks])
-
     kwargs = course_settings(**kwargs)
     course = kwargs["course_object"]
     week = kwargs["week"]
-
-    if kwargs.get("doctype") and kwargs.get("order"):
+    doctype = kwargs.get('doctype')
+    if user.is_anonymous:
+        kwargs['doctype'] = 'docs'
+        kwargs['doc'] = 'StudentWorkspace.md'
         html = read_document(course, kwargs)
-        kwargs.update(dict(title="Python Web Apps", html=html))
+        kwargs.update(dict(title=course.title, html=html))
+    elif doctype:
+        html = read_document(course, kwargs)
+        kwargs.update(dict(title=course.title, html=html))
     else:
-        # if not user.is_anonymous:
-        # kwargs["student"] = Student.get_me(user)
-        # if user.username == "MarkSeaman":
-        #     week = 14
-        # kwargs.update(course_content(week))
         kwargs['accordion'] = accordion_data(course, week)[:week]
+
     return kwargs
 
 
@@ -153,6 +108,23 @@ def get_content(course):
     return weeks
 
 
+def initialize_course_data(**kwargs):
+    verbose = kwargs.get('verbose')
+    delete = kwargs.get('delete')
+    sales = kwargs.get('sales')
+    if delete:
+        get_user_model().objects.all().delete()
+    create_courses()
+    if sales:
+        import_students(workspace_path(course='bacs350', project='_sales.csv'))
+        create_student(name='Mark Seaman',
+                       email='mark.seaman@shrinking-world.com', course='cs350')
+        create_student(name='Mark Seaman',
+                       email='mark.seaman@shrinking-world.com', course='bacs350')
+    export_students(workspace_path(course='bacs350', project='_students.csv'))
+    students(verbose=verbose)
+
+
 def show_content(course):
     content = ""
     weeks = get_content(course)
@@ -168,12 +140,18 @@ def resource_title(x):
 
 
 def read_document(course, kwargs):
-    doctype = kwargs["doctype"]
-    order = kwargs["order"]
+    doctype = kwargs.get("doctype")
+    order = kwargs.get("order")
+    doc = kwargs.get("doc", "StudentWorkspace.md")
+
     if doctype == "chapter" or doctype == "skill":
         path = f"Documents/shrinking-world.com/{course.name}/docs/Purchase.md"
-    else:
+    elif doctype == "docs" and doc:
+        path = f"Documents/shrinking-world.com/{course.name}/docs/{doc}"
+    elif doctype and order:
         path = f"Documents/shrinking-world.com/{course.name}/{doctype}/{order:02}.md"
+    else:
+        path = f"Documents/shrinking-world.com/{course.name}/docs/StudentWorkspace.md"
     markdown = document_body(read_file(path))
     html = document_html(markdown)
     return html

@@ -57,7 +57,8 @@ class Course(models.Model):
 
 
 class Content(models.Model):
-    course = models.ForeignKey("Course", on_delete=models.CASCADE, editable=False)
+    course = models.ForeignKey(
+        "Course", on_delete=models.CASCADE, editable=False)
     order = models.IntegerField()
     title = models.CharField(max_length=200, default="No title")
     doctype = models.CharField(max_length=200)
@@ -79,3 +80,21 @@ class Content(models.Model):
             return f"{self.course.name} week {self.folder.order} - {self.doctype} {self.order} - {self.title}"
         else:
             return f"{self.course.name} -- {self.doctype} {self.order} - {self.title}"
+
+# --------------------
+# Student
+
+
+class Student(models.Model):
+    user = models.ForeignKey(
+        User, on_delete=models.CASCADE, null=True, editable=False)
+    course = models.ForeignKey(
+        Course, on_delete=models.CASCADE, null=True, editable=False)
+    github = models.URLField(null=True, blank=True)
+    server = models.URLField(null=True, blank=True)
+    name = models.CharField(max_length=200, null=True)
+    email = models.EmailField(max_length=200, null=True)
+
+    # @property
+    # def name(self):
+    #     return f"{self.user.first_name} {self.user.last_name}"

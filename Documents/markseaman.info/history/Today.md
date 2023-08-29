@@ -2,20 +2,10 @@
 
 ## 80% Benefit, 20% Effort
 
-Integrate changes 
-Build Shrinking World Pub - Software
-    - Intro
-    - Team Project - selections, overview
-    - Milestone 1 - Lesson 1-2 (M, W)
-Shrinking World Course - Software Engineer
-Shrinking World Course - Payments
-Build Canvas shell
-
+* Shrinking World Project Workspace
 
 
 ## 20% Benefit, 80% Effort
 
-Build Shrinking World Pub - Software
-    - Milestone 1 - Assignments
-    - Ghost Writer Repo
-Build Shrinking World Pub - Web Dev
+* Voices of Ministry
+* Recipe for a Death March

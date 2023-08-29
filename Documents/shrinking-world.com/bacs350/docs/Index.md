@@ -44,3 +44,4 @@
 * [View Inheritance Design Pattern](ViewInheritance.html)
 * [Welcome to BACS 350](Welcome.html)
 * [What is Django?](WhatIsDjango.html)
+* [Student Workspace](StudentWorkspace)

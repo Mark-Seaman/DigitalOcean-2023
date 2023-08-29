@@ -29,7 +29,7 @@ def quick_test():
 
 
 def course():
-    initialize_course_data(delete=False, verbose=True, sales=False)
+    initialize_course_data(delete=False, verbose=False, sales=False)
 
     s = Student.objects.get(
         user__username='RyanLunas', course__name='cs350')

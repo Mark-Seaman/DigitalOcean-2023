@@ -67,7 +67,7 @@ class CourseListView(ListView):
         create_courses()
         s = workspace_path(course='bacs350', project='_students.csv')
         import_students(s)
-        students(verbose=True)
+        # students(verbose=True)
         return kwargs
 
 

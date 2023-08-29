@@ -18,7 +18,7 @@ class StudentModelTest(DjangoTest):
 
     def test_student_add(self):
         student = create_student(name='Test Student', course='cs350')
-        self.assertEqual(len(students()), 30)
+        self.assertEqual(len(students()), 34)
         self.assertEqual(student.user.username, 'TestStudent')
         self.assertEqual(student.user.first_name, 'Test')
         self.assertEqual(student.user.last_name, 'Student')
@@ -28,7 +28,7 @@ class StudentModelTest(DjangoTest):
         create_student(name='Test Student', email='new_email@me.us',
                        user__last_name="Seaman", course='cs350')
         student = create_student(name='Test Student', course='cs350')
-        self.assertEqual(len(students()), 30)
+        self.assertEqual(len(students()), 34)
         self.assertEqual(student.user.username, 'TestStudent')
         self.assertEqual(student.user.first_name, 'Test')
         self.assertEqual(student.user.last_name, 'Student')
@@ -39,7 +39,7 @@ class StudentModelTest(DjangoTest):
                        email='x1@me.us', course='cs350')
         create_student(name='Test Student2',
                        email='x2@me.us', course='cs350')
-        self.assertEqual(len(students()), 31)
+        self.assertEqual(len(students()), 35)
         student = Student.objects.get(user__email='x2@me.us')
         self.assertEqual(student.user.last_name, 'Student2')
         self.assertEqual(student.user.email, 'x2@me.us')
@@ -52,10 +52,10 @@ class StudentModelTest(DjangoTest):
         export_students('./students2.csv')
 
     def test_import_students(self):
-        self.assertEqual(len(students()), 29)
-        self.assertEqual(len(students(course__name='cs350')), 14)
-        self.assertEqual(len(students(course__name='bacs350')), 15)
-        self.assertEqual(len(list_students()), 29)
+        self.assertEqual(len(students()), 33)
+        self.assertEqual(len(students(course__name='cs350')), 17)
+        self.assertEqual(len(students(course__name='bacs350')), 16)
+        self.assertEqual(len(list_students()), 33)
 
     def test_students(self):
         s1 = Student.objects.get(
@@ -70,9 +70,9 @@ class StudentModelTest(DjangoTest):
         self.assertEqual(s2.user.email, 'luna0500@bears.unco.edu')
 
     def test_students(self):
-        self.assertEqual(len(students()), 29)
-        self.assertEqual(len(students(course__name='cs350')), 14)
-        self.assertEqual(len(students(course__name='bacs350')), 15)
+        self.assertEqual(len(students()), 33)
+        self.assertEqual(len(students(course__name='cs350')), 17)
+        self.assertEqual(len(students(course__name='bacs350')), 16)
 
         s1 = Student.objects.get(
             user__username='RyanLunas', course__name='cs350')

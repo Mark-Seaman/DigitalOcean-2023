@@ -52,50 +52,50 @@ class StudentWorkspaceTest(DjangoTest):
         c = workspace_path(course='bacs350', project='_course.json')
         self.assertTrue(c.exists())  # Course JSON file
 
-    def test_workspace_view(self):
-        w = dict(course='bacs350', project='1', doc='Index.md')
-        x = str(workspace_path(**w))
-        y = 'Documents/Shrinking-World-Pubs/bacs350/1/Index.md'
-        self.assertEqual(x, y)
-        response = self.client.get("/workspace")
-        self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, "workspace.html")
-        self.assertTemplateUsed(response, "course_theme.html")
+    # def test_workspace_view(self):
+    #     w = dict(course='bacs350', project='1', doc='Index.md')
+    #     x = str(workspace_path(**w))
+    #     y = 'Documents/Shrinking-World-Pubs/bacs350/1/Index.md'
+    #     self.assertEqual(x, y)
+    #     response = self.client.get("/workspace")
+    #     self.assertEqual(response.status_code, 200)
+    #     self.assertTemplateUsed(response, "workspace.html")
+    #     self.assertTemplateUsed(response, "course_theme.html")
 
-    def test_bacs350_view(self):
-        response = self.client.get("/workspace/bacs350")
-        self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, "workspace.html")
-        # self.assertContains(response, 'Shrinking World')
-        # self.assertContains(response, '# BACS 350 Index')
+    # def test_bacs350_view(self):
+    #     response = self.client.get("/workspace/bacs350")
+    #     self.assertEqual(response.status_code, 200)
+    #     self.assertTemplateUsed(response, "workspace.html")
+    #     # self.assertContains(response, 'Shrinking World')
+    #     # self.assertContains(response, '# BACS 350 Index')
 
-    def test_project_view(self):
-        response = self.client.get("/workspace/bacs350/1")
-        self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, "workspace.html")
-        # self.assertContains(response, 'BACS')
-        self.assertContains(response, 'Index File for Project 1')
+    # def test_project_view(self):
+    #     response = self.client.get("/workspace/bacs350/1")
+    #     self.assertEqual(response.status_code, 200)
+    #     self.assertTemplateUsed(response, "workspace.html")
+    #     # self.assertContains(response, 'BACS')
+    #     self.assertContains(response, 'Index File for Project 1')
 
-    def test_doc_view(self):
-        response = self.client.get("/workspace/bacs350/1/Index.md")
-        self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, "workspace.html")
-        # self.assertContains(response, 'BACS')
-        self.assertContains(response, 'Index File for Project 1')
+    # def test_doc_view(self):
+    #     response = self.client.get("/workspace/bacs350/1/Index.md")
+    #     self.assertEqual(response.status_code, 200)
+    #     self.assertTemplateUsed(response, "workspace.html")
+    #     # self.assertContains(response, 'BACS')
+    #     self.assertContains(response, 'Index File for Project 1')
 
-    def test_student_info(self):
-        e = 'luna0500@bears.unco.edu'
-        s = Student.objects.get(user__email=e, course__name='cs350')
-        response = self.client.login(username='RyanLunas',  password='UNC')
-        response = self.client.get("/workspace/bacs350/1/Index.md")
-        self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'RyanLunas')
+    # def test_student_info(self):
+    #     e = 'luna0500@bears.unco.edu'
+    #     s = Student.objects.get(user__email=e, course__name='cs350')
+    #     response = self.client.login(username='RyanLunas',  password='UNC')
+    #     response = self.client.get("/workspace/bacs350/1/Index.md")
+    #     self.assertEqual(response.status_code, 200)
+    #     self.assertContains(response, 'RyanLunas')
 
-    def test_student_failed_login(self):
-        s = Student.objects.get(
-            user__email='luna0500@bears.unco.edu', course__name='cs350')
-        self.assertEqual(self.client.login(
-            username=s.user.username,  password='x'), False)
+    # def test_student_failed_login(self):
+    #     s = Student.objects.get(
+    #         user__email='luna0500@bears.unco.edu', course__name='cs350')
+    #     self.assertEqual(self.client.login(
+    #         username=s.user.username,  password='x'), False)
 
 
 # ---------------

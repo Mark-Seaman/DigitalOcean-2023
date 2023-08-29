@@ -3,7 +3,7 @@ from django.conf.urls.static import static
 from django.contrib.auth.views import LogoutView
 from django.urls import include, path
 
-from .views import CourseContentView, CourseListView, SlidesView, StudentProfileView, home_view, login_email_view, login_username_view
+from .views import CourseContentView, CourseListView, ImportDataView, SlidesView, StudentListView, StudentProfileView, home_view, login_email_view, login_username_view
 
 urlpatterns = [
 
@@ -22,6 +22,8 @@ urlpatterns = [
     #     path('workspace/<str:course>/<int:project>/<str:doc>',
     #          WorkspaceView.as_view(), name='workspace'),
     path('student/<int:pk>', StudentProfileView.as_view()),
+    path('students', StudentListView.as_view()),
+    path('import', ImportDataView.as_view()),
 
     # Lessons and Projects
     path('course', CourseListView.as_view(), name='course_list'),

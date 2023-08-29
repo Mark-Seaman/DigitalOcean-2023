@@ -15,7 +15,7 @@ def table_data(title, rows, columns):
 
 
 def button_html(url, text):
-    return f'<a class="btn" href="{url}">{text}</a>'
+    return f'<a class="btn btn-success" href="{url}">{text}</a>'
 
 
 def link_html(url, text):
@@ -62,11 +62,16 @@ def create_student(**kwargs):
 
 def list_students():
     def record(x):
-        url1 = f'/student/{x.pk}/'
-        label1 = f'{x.user.email} Profile'
-        return dict(name=x.name,
+        url1 = f'/student/{x.pk}'
+        label1 = x.name
+        url2 = x.github
+        label2 = x.github
+        url3 = x.server
+        label3 = x.server
+        return dict(url1=link_html(url1, label1),
                     email=x.user.email,
-                    url1=button_html(url1, label1))
+                    url2=link_html(url2, label2),
+                    url3=link_html(url3, label3))
 
     objects = Student.objects.all().order_by('user__last_name')
     objects = [record(x) for x in objects]
@@ -76,7 +81,7 @@ def list_students():
 def student_list_data():
     title = f'UNC Students'
     tables = []
-    fields = ['Student name', 'Email', 'Course']
+    fields = ['Student', 'Email', 'Github', 'Server']
     tables.append(table_data(title, list_students(), fields))
     data = {
         'tables': tables,

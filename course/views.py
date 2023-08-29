@@ -1,10 +1,12 @@
+from typing import Any, Optional
 from django.contrib.auth import authenticate, get_user_model, login
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
-from django.views.generic import ListView, TemplateView
+from django.views.generic import ListView, RedirectView, TemplateView
 from django.views.generic.edit import UpdateView
 from pathlib import Path
-from course.student import import_students, students
+from course.import_export import import_all_courses
+from course.student import import_students, student_list_data, students
 from course.workspace import workspace_data, workspace_path
 
 from publish.files import read_json
@@ -28,6 +30,25 @@ class WorkspaceView(TemplateView):
         kwargs = super().get_context_data(**kwargs)
         kwargs['user'] = self.request.user
         kwargs.update(workspace_data(**kwargs))
+        return kwargs
+
+
+class ImportDataView(RedirectView):
+    def get_redirect_url(self, **kwargs):
+        create_courses()
+        s = workspace_path(course='bacs350', project='_students.csv')
+        import_students(s)
+        import_all_courses()
+        # students(verbose=True)
+        return '/course/cs350'
+
+
+class StudentListView(TemplateView):
+    template_name = 'students.html'
+
+    def get_context_data(self, **kwargs):
+        kwargs = super().get_context_data(**kwargs)
+        kwargs.update(student_list_data())
         return kwargs
 
 
@@ -64,10 +85,6 @@ class CourseListView(ListView):
     def get_context_data(self, **kwargs):
         kwargs = super().get_context_data(**kwargs)
         kwargs.update(read_json(Path('Documents') / 'course' / 'course.json'))
-        create_courses()
-        s = workspace_path(course='bacs350', project='_students.csv')
-        import_students(s)
-        # students(verbose=True)
         return kwargs
 
 

@@ -1,4 +1,5 @@
 from django.urls import reverse
+from course.course import create_courses
 from course.models import Student
 from course.student import import_students
 from course.workspace import workspace_path
@@ -9,11 +10,9 @@ class StudentWorkspaceTest(DjangoTest):
 
     @classmethod
     def setUpTestData(cls):
+        create_courses()
         s = workspace_path(course='bacs350', project='_students.csv')
         import_students(s)
-        # y = 'Documents/Shrinking-World-Pubs/bacs350/_students.csv'
-        # self.assertTrue(s.exists())  # No student list
-        # self.assertEqual(str(s), y)  # Student roster
 
     def test_workspace_exists(self):
         x = workspace_path(course='bacs350')

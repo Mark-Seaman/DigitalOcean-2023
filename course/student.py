@@ -3,7 +3,6 @@ from django.contrib.auth import get_user_model
 from django.forms import model_to_dict
 from django.utils.translation import gettext_lazy as _
 from django.contrib.auth.hashers import make_password
-from course.course import create_courses
 
 from publish.files import write_csv_file
 
@@ -49,10 +48,15 @@ def create_student(**kwargs):
         course_name = kwargs.get('course')
         if course_name:
             course = Course.objects.get(name=course_name)
+            name = f'{user.first_name} {user.last_name}'
+            email = user.email
             kwargs = dict(course=course, github='https://github.com',
-                          server='https://digitalocean.com', name=f'{user.first_name} {user.last_name}')
+                          server='https://digitalocean.com')
             student, _ = Student.objects.get_or_create(
                 user=user, course=course, defaults=kwargs)
+            student.name = name
+            student.email = email
+            student.save()
             return student
 
 
@@ -89,8 +93,13 @@ def students(verbose=False, **kwargs):
     all = Student.objects.filter(**kwargs).order_by('user__last_name')
     if verbose:
         for s in all:
-            print(
-                f'{s.name:30} {s.user.email:30} {s.course.name:10}')
+            try:
+                if not s or s is None:
+                    print('NONE')
+                else:
+                    print(f'{s.name:30} {s.email:30} {s.course.name}')
+            except:
+                print('EXCEPTION')
     return all
 
 
@@ -113,7 +122,6 @@ def import_students(path):
             course = 'bacs350'
         return course
 
-    create_courses()
     with open(path) as file:
         reader = DictReader(file)
         for row in reader:

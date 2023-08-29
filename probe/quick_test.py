@@ -1,7 +1,7 @@
 from django.contrib.auth import authenticate, get_user_model, login
 from django.contrib.auth.hashers import make_password
 from pathlib import Path
-from course.course import create_courses
+from course.course import initialize_course_data
 
 from course.import_export import import_all_courses
 from course.models import Course, Student
@@ -29,27 +29,7 @@ def quick_test():
 
 
 def course():
-    create_courses()
-    import_students('students2.csv')
-    export_students(workspace_path(course='bacs350', project='_students.csv'))
-    # import_students(workspace_path(course='bacs350', project='_students.csv'))
-    # s = Student.objects.get(
-    #     user__email='mark.seaman@shrinking-world.com', course__name='bacs350')
-    # print('login: ', s.name, 'BACS350' if s.user.check_password(
-    #     'BACS350') else 'Failed')
-    # print('login: ', s.name, 'UNC' if s.user.check_password('UNC') else 'Failed')
-    # s = Student.objects.get(
-    #     user__email='mark.seaman@shrinking-world.com', course__name='cs350')
-    # print('login: ', s.name, 'CS350' if s.user.check_password('CS350') else 'Failed')
-    # print('login: ', s.name, 'UNC' if s.user.check_password('UNC') else 'Failed')
-
-    # import_all_courses(verbose=False)
-    # Student.objects.all().delete()
-    # for s in Student.objects.all():
-    #     print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
-    # students(True)
-    # # assert len(students(course__name='cs350')) == 13
-    # # assert len(students(course__name='bacs350')) == 14
+    initialize_course_data(delete=False, verbose=True, sales=False)
 
     s = Student.objects.get(
         user__username='RyanLunas', course__name='cs350')
@@ -57,21 +37,8 @@ def course():
     assert s
     assert u
 
-    # # u.password = make_password('CS350')
-    # # u.save()
-
-    # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
-
-    # # make_password('CS350')
     a = authenticate(username=u.username, password='UNC')
     print(a)
-    # c = u.check_password('CS350')
-
-    # print(f'{s.name} -- auth {a} -- password {c}')
-    # u = get_user_model().objects.filter(email=email).first()
-    #     if user and user.check_password(password)
-    # user = authenticate(request, username=username, password=password)
-    #     if user is not None:
     return 'OK'
 
 

@@ -1,13 +1,9 @@
-from django.contrib.auth import authenticate, get_user_model, login
-from django.contrib.auth.hashers import make_password
-from datetime import datetime
-
-from django.urls import reverse
-from course.course import bacs350_options, create_course, create_courses, cs350_options
-from course.workspace import workspace_path
+from django.contrib.auth import authenticate
 
 from probe.tests_django import DjangoTest
 
+from .course import create_courses
+from .workspace import workspace_path
 from .student import create_student, export_students, import_students, list_students, students
 from .models import Student
 
@@ -16,6 +12,7 @@ class StudentModelTest(DjangoTest):
 
     @classmethod
     def setUpTestData(cls):
+        create_courses()
         s = workspace_path(course='bacs350', project='_students.csv')
         import_students(s)
 

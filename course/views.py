@@ -4,10 +4,11 @@ from django.shortcuts import render, redirect
 from django.views.generic import ListView, TemplateView
 from django.views.generic.edit import UpdateView
 from pathlib import Path
-from course.workspace import workspace_data
+from course.student import import_students, students
+from course.workspace import workspace_data, workspace_path
 
 from publish.files import read_json
-from .course import get_course_content
+from .course import create_courses, get_course_content
 from .models import Course, Student
 from .slides import slides_view_context
 
@@ -63,6 +64,10 @@ class CourseListView(ListView):
     def get_context_data(self, **kwargs):
         kwargs = super().get_context_data(**kwargs)
         kwargs.update(read_json(Path('Documents') / 'course' / 'course.json'))
+        create_courses()
+        s = workspace_path(course='bacs350', project='_students.csv')
+        import_students(s)
+        students(verbose=True)
         return kwargs
 
 

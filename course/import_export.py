@@ -5,10 +5,46 @@ from django.forms import ValidationError
 from publish.document import document_title
 from publish.files import read_csv_file
 from publish.text import text_join
-from course.course import bacs350_options, create_course, cs350_options
 from course.models import Content, Course
 
 from csv import DictReader, DictWriter, reader
+
+
+def bacs350_options():
+    return dict(
+        name="bacs350",
+        title="UNC BACS 350 - Web Apps with Python",
+        subtitle="Intermediate Web Development",
+        doc_path="Documents/shrinking-world.com/bacs350",
+        description="None",
+        num_projects=14,
+        num_lessons=42,
+    )
+
+
+def create_course(**kwargs):
+    c = Course.objects.get_or_create(name=kwargs.get("name"))[0]
+    c.title = kwargs.get("title")
+    c.subtitle = kwargs.get("subtitle")
+    c.author = kwargs.get("author", 1)
+    c.doc_path = kwargs.get("doc_path")
+    c.description = kwargs.get("description")
+    c.num_projects = kwargs.get("num_projects", 14)
+    c.num_lessons = kwargs.get("num_lessons", 42)
+    c.save()
+    return c
+
+
+def cs350_options():
+    return dict(
+        name="cs350",
+        title="UNC CS 350 - Software Engineering",
+        subtitle="Practical Software Engineering Skills",
+        doc_path="Documents/shrinking-world.com/cs350",
+        description="None",
+        num_projects=7,
+        num_lessons=42,
+    )
 
 
 def import_course(course, delete, verbose):
@@ -26,7 +62,8 @@ def import_course(course, delete, verbose):
         if path.exists() and path.is_file():
             x.path = path
             x.title = document_title(path)
-            x.folder = Content.objects.get(course=course, doctype="week", order=week)
+            x.folder = Content.objects.get(
+                course=course, doctype="week", order=week)
         elif doctype == "week":
             x.path = None
             x.title = f"Week {week}"
@@ -36,7 +73,7 @@ def import_course(course, delete, verbose):
 
     if delete:
         if verbose:
-            print('DELETE', course.name)   
+            print('DELETE', course.name)
         delete_content(course)
     content = read_csv_file(course_content_file(course))
     for row in content:
@@ -44,7 +81,9 @@ def import_course(course, delete, verbose):
         if verbose:
             print('CREATE CONTENT:', course, row)
     if verbose:
-        print(f'{len(Content.objects.filter(course=course))} content objects created for {course.name}')
+        print(
+            f'{len(Content.objects.filter(course=course))} content objects created for {course.name}')
+
 
 def delete_content(course):
     Content.objects.filter(course=course).delete()
@@ -82,9 +121,9 @@ def course_content_file(course):
 def import_all_courses(**kwargs):
     delete = kwargs.get('delete', False)
     verbose = kwargs.get('verbose', False)
-    course =  kwargs.get('course')
+    course = kwargs.get('course')
     courses = [course] if course else ['cs350', 'bacs350']
-    for c in courses :
+    for c in courses:
         options = {'cs350': cs350_options, 'bacs350': bacs350_options}
         if verbose:
             print(options[c]())
@@ -125,4 +164,3 @@ def import_records(file_path, creator):
                 skipped += 1
                 print(f'Skipped: {row}. Reason: {str(e)}')
     return f'{file_path}: {created} records imported (Skipped {skipped})\n'
-

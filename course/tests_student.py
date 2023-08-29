@@ -51,7 +51,7 @@ class StudentModelTest(DjangoTest):
         self.assertEqual(student.user.email, 'x1@me.us')
 
     def test_export_students(self):
-        # import_students('students.csv')  # Import new students
+        import_students('students.csv')  # Import new students
         export_students('./students2.csv')
 
     def test_import_students(self):

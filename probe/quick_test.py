@@ -5,7 +5,7 @@ from course.course import create_courses
 
 from course.import_export import import_all_courses
 from course.models import Course, Student
-from course.student import import_students, students
+from course.student import export_students, import_students, students
 from course.workspace import workspace_path
 from probe.probe_pub import test_pub_json
 from publish.publication import show_pubs
@@ -30,31 +30,32 @@ def quick_test():
 
 def course():
     create_courses()
-    import_students(workspace_path(course='bacs350', project='_students.csv'))
-    s = Student.objects.get(
-        user__email='mark.seaman@shrinking-world.com', course__name='bacs350')
-    print('login: ', s.name, 'BACS350' if s.user.check_password(
-        'BACS350') else 'Failed')
-    print('login: ', s.name, 'UNC' if s.user.check_password('UNC') else 'Failed')
-    s = Student.objects.get(
-        user__email='mark.seaman@shrinking-world.com', course__name='cs350')
-    print('login: ', s.name, 'CS350' if s.user.check_password('CS350') else 'Failed')
-    print('login: ', s.name, 'UNC' if s.user.check_password('UNC') else 'Failed')
+    import_students('students2.csv')
+    export_students(workspace_path(course='bacs350', project='_students.csv'))
+    # import_students(workspace_path(course='bacs350', project='_students.csv'))
+    # s = Student.objects.get(
+    #     user__email='mark.seaman@shrinking-world.com', course__name='bacs350')
+    # print('login: ', s.name, 'BACS350' if s.user.check_password(
+    #     'BACS350') else 'Failed')
+    # print('login: ', s.name, 'UNC' if s.user.check_password('UNC') else 'Failed')
+    # s = Student.objects.get(
+    #     user__email='mark.seaman@shrinking-world.com', course__name='cs350')
+    # print('login: ', s.name, 'CS350' if s.user.check_password('CS350') else 'Failed')
+    # print('login: ', s.name, 'UNC' if s.user.check_password('UNC') else 'Failed')
 
     # import_all_courses(verbose=False)
     # Student.objects.all().delete()
-    # import_students('students2.csv')
     # for s in Student.objects.all():
-    # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
+    #     print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
     # students(True)
     # # assert len(students(course__name='cs350')) == 13
     # # assert len(students(course__name='bacs350')) == 14
 
-    # s = Student.objects.get(
-    #     user__username='RyanLunas', course__name='cs350')
-    # u = s.user
-    # assert s
-    # assert u
+    s = Student.objects.get(
+        user__username='RyanLunas', course__name='cs350')
+    u = s.user
+    assert s
+    assert u
 
     # # u.password = make_password('CS350')
     # # u.save()
@@ -62,7 +63,8 @@ def course():
     # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
 
     # # make_password('CS350')
-    # a = authenticate(username=u.username, password='CS350')
+    a = authenticate(username=u.username, password='UNC')
+    print(a)
     # c = u.check_password('CS350')
 
     # print(f'{s.name} -- auth {a} -- password {c}')

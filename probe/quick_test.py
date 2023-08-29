@@ -1,16 +1,14 @@
 from django.contrib.auth import authenticate, get_user_model, login
 from django.contrib.auth.hashers import make_password
 from pathlib import Path
-from course.course import initialize_course_data
 
 from course.import_export import import_all_courses
 from course.models import Course, Student
-from course.student import export_students, import_students, students
-from course.workspace import workspace_path
+from course.student import import_students, students
 from probe.probe_pub import test_pub_json
 from publish.publication import show_pubs
 from publish.text import text_join, text_lines
-from task.task import fix_tasks, task_command
+from task.task import task_command
 from task.todo import edit_todo_list
 from writer.outline import create_outlines
 from writer.pub_script import pub_path, pub_script
@@ -24,12 +22,18 @@ def quick_test():
     # pubs()
     # tests()
     # writer()
-    # tasks()
     course()
 
 
 def course():
-    initialize_course_data(delete=False, verbose=False, sales=False)
+    # import_all_courses(verbose=False)
+    # Student.objects.all().delete()
+    # import_students('students2.csv')
+    # for s in Student.objects.all():
+    # print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
+
+    assert len(students(course__name='cs350')) == 12
+    assert len(students(course__name='bacs350')) == 4
 
     s = Student.objects.get(
         user__username='RyanLunas', course__name='cs350')
@@ -37,8 +41,20 @@ def course():
     assert s
     assert u
 
-    a = authenticate(username=u.username, password='UNC')
-    print(a)
+    # u.password = make_password('CS350')
+    # u.save()
+
+    print(f'{s.name:30} {s.user.email:30} {s.course.name:10} {s.user.password}')
+
+    # make_password('CS350')
+    a = authenticate(username=u.username, password='CS350')
+    c = u.check_password('CS350')
+
+    print(f'{s.name} -- auth {a} -- password {c}')
+    # u = get_user_model().objects.filter(email=email).first()
+    #     if user and user.check_password(password)
+    # user = authenticate(request, username=username, password=password)
+    #     if user is not None:
     return 'OK'
 
 
@@ -78,7 +94,6 @@ def tests():
 
 
 def tasks():
-    fix_tasks()
     task_command(['week'])
 
 

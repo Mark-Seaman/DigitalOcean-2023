@@ -92,9 +92,7 @@ class Student(models.Model):
         Course, on_delete=models.CASCADE, null=True, editable=False)
     github = models.URLField(null=True, blank=True)
     server = models.URLField(null=True, blank=True)
-    name = models.CharField(max_length=200, null=True)
-    email = models.EmailField(max_length=200, null=True)
 
-    # @property
-    # def name(self):
-    #     return f"{self.user.first_name} {self.user.last_name}"
+    @property
+    def name(self):
+        return f"{self.user.first_name} {self.user.last_name}"

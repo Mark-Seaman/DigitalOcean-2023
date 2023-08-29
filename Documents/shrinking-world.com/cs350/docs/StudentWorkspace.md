@@ -22,6 +22,3 @@ Then follow the instructions to work on your team project.
 
 [Team Projects](/course/cs350/docs/TeamProjects.md)
 
-<a href="/login/" class="btn btn-success m-5">Login</a>
-<a href="https://shrinking-world.org/p/software-engineering-with-ai" class="btn btn-success m-5">Sign Up</a>
-

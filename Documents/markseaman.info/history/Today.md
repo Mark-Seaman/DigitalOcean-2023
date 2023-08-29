@@ -2,7 +2,9 @@
 
 ## 80% Benefit, 20% Effort
 
-* Shrinking World Project Workspace
+* Student sign up
+* Follow up with student purchases
+* Project Team Assignments
 
 
 ## 20% Benefit, 80% Effort

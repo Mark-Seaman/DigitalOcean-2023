@@ -85,7 +85,13 @@ def login_email_view(request):
         user = get_user_model().objects.filter(email=email).first()
         if user and user.check_password(password):
             login(request, user)
-            return redirect('/course')
+            if Student.objects.filter(email=email, course__name='cs350'):
+                return redirect('/course/cs350')
+            elif Student.objects.filter(email=email, course__name='bacs350'):
+                return redirect('/course/bacs350')
+            else:
+                return redirect('/course')
+
         else:
             error_message = "Invalid credentials. Please try again."
             return render(request, 'login_email.html', {'error_message': error_message})

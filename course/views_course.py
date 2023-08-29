@@ -1,6 +1,3 @@
-from django.contrib.auth import authenticate, get_user_model, login
-from django.contrib.auth.decorators import login_required
-from django.shortcuts import render, redirect
 from django.views.generic import ListView, TemplateView
 from pathlib import Path
 
@@ -33,40 +30,3 @@ class SlidesView(TemplateView):
 
     def get_context_data(self, **kwargs):
         return slides_view_context(**kwargs)
-
-
-def login_email_view(request):
-    if request.method == 'POST':
-        email = request.POST['email']
-        password = request.POST['password']
-        user = get_user_model().objects.filter(email=email).first()
-        if user and user.check_password(password):
-            login(request, user)
-            return redirect('/course/home')  # Replace 'home' with the name of your desired redirect URL
-        else:
-            error_message = "Invalid credentials. Please try again."
-            return render(request, 'login_email.html', {'error_message': error_message})
-    return render(request, 'login_email.html')
-
-
-def login_view(request):
-    if request.method == 'POST':
-        username = request.POST['username']
-        password = request.POST['password']
-        user = authenticate(request, username=username, password=password)
-        if user is not None:
-            login(request, user)
-            return redirect('/course/home')  # Replace 'home' with the name of your desired redirect URL
-        else:
-            error_message = "Invalid credentials. Please try again."
-            return render(request, 'login.html', {'error_message': error_message})
-    return render(request, 'login.html')
-
-
-@login_required
-def home_view(request):
-    user = request.user
-    context = {
-        'user': user
-    }
-    return render(request, 'course_home.html', context)

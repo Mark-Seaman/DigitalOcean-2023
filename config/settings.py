@@ -59,6 +59,7 @@ INSTALLED_APPS = [
     "course",
     "publish",
     "probe",
+    "sweng",
     "task",
     "writer",
 ]
@@ -73,11 +74,11 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-LOGIN_URL = '/course/login/'
+LOGIN_URL = '/login/'
 
-LOGIN_REDIRECT_URL = "/course/home/"
+LOGIN_REDIRECT_URL = "/home/"
 
-LOGOUT_REDIRECT_URL = "/course/home/"
+LOGOUT_REDIRECT_URL = "/home/"
 
 ROOT_URLCONF = "config.urls"
 

@@ -10,7 +10,7 @@ from course.student import import_students, student_list_data, students
 from course.workspace import workspace_data, workspace_path
 
 from publish.files import read_json
-from .course import create_courses, get_course_content
+from .course import create_courses, get_course_content, initialize_course_data
 from .models import Course, Student
 from .slides import slides_view_context
 
@@ -35,11 +35,14 @@ class WorkspaceView(TemplateView):
 
 class ImportDataView(RedirectView):
     def get_redirect_url(self, **kwargs):
-        create_courses()
-        s = workspace_path(course='bacs350', project='_students.csv')
-        import_students(s)
-        import_all_courses()
+        initialize_course_data(delete=False, verbose=False, sales=False)
+
+        # create_courses()
+        # s = workspace_path(course='bacs350', project='_students.csv')
+        # import_students(s)
+        # import_all_courses()
         # students(verbose=True)
+
         return '/course/cs350'
 
 

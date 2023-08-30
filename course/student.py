@@ -69,6 +69,7 @@ def list_students():
         url3 = x.server
         label3 = x.server
         return dict(url1=link_html(url1, label1),
+                    course=x.course.name,
                     email=x.user.email,
                     url2=link_html(url2, label2),
                     url3=link_html(url3, label3))
@@ -81,7 +82,7 @@ def list_students():
 def student_list_data():
     title = f'UNC Students'
     tables = []
-    fields = ['Student', 'Email', 'Github', 'Server']
+    fields = ['Student', 'Course', 'Email', 'Github', 'Server']
     tables.append(table_data(title, list_students(), fields))
     data = {
         'tables': tables,

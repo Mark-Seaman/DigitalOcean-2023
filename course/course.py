@@ -7,7 +7,7 @@ from course.workspace import workspace_path
 from publish.document import document_body, document_html, document_title
 from publish.files import read_file, read_json
 # from student.models import Student
-from .models import Content, Course
+from .models import Content, Course, Student
 
 
 def accordion_data(course, week):
@@ -79,6 +79,7 @@ def get_course_content(user, **kwargs):
     course = kwargs["course_object"]
     week = kwargs["week"]
     doctype = kwargs.get('doctype')
+    student = Student.objects.filter(course=course, user=user).first()
     if user.is_anonymous:
         kwargs['doctype'] = 'docs'
         kwargs['doc'] = 'StudentWorkspace.md'
@@ -86,9 +87,10 @@ def get_course_content(user, **kwargs):
         kwargs.update(dict(title=course.title, html=html))
     elif doctype:
         html = read_document(course, kwargs)
-        kwargs.update(dict(title=course.title, html=html))
+        kwargs.update(dict(title=course.title, html=html, student=student))
     else:
         kwargs['accordion'] = accordion_data(course, week)[:week]
+        kwargs['student'] = student
 
     return kwargs
 

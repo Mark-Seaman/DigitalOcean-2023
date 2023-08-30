@@ -11,7 +11,14 @@
     {% endautoescape %}
 
     {% if student %}
-    {% include 'student/_student.html' %}
+    <h2>{{ student.name }}</h2>
+    <ul>
+        <li>{{ student.email }}</li>
+        <li>{{ student.github }}</li>
+        <li>{{ student.server }}</li>
+    </ul>
+    <a href="/student/{{ student.pk }}">Edit Profile</a>
+
     {% endif %}
 
     {% include '_accordion.html' %}

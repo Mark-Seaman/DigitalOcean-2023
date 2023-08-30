@@ -56,7 +56,9 @@ class StudentProfileView(UpdateView):
     template_name = 'edit.html'
     model = Student
     fields = ['name', 'email', 'github', 'server']
-    success_url = '/workspace'
+
+    def get_success_url(self):
+        return f'/course/{self.object.course.name}'
 
     def get_context_data(self, **kwargs):
         kwargs = super().get_context_data(**kwargs)

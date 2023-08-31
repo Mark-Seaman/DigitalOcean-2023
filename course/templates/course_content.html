@@ -11,20 +11,7 @@
     {% endautoescape %}
 
     {% if student %}
-    <div class="card m-5">
-        <div class="card-header">
-            <h2>{{ student.name }}</h2>
-        </div>
-        <div class="card-body">
-            <ul>
-                <li>{{ student.email }}</li>
-                <li><a href="{{ student.github }}">{{ student.github }}</a></li>
-                <li><a href="{{ student.server }}">{{ student.server }}</a></li>
-            </ul>
-            <a href="/student/{{ student.pk }}" class="btn btn-success">Edit Profile</a>
-
-        </div>
-    </div>
+    {% include 'student/_student.html' %}
     {% endif %}
 
     {% include '_accordion.html' %}

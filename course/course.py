@@ -1,13 +1,13 @@
 from django.contrib.auth import get_user_model
 from pathlib import Path
-from course.import_export import bacs350_options, create_course, cs350_options, import_all_courses
+from course.import_export import bacs350_options, create_course, cs350_options
 from course.student import create_student, export_students, import_students, students
 from course.workspace import workspace_path
 
 from publish.document import document_body, document_html, document_title
 from publish.files import read_file, read_json
 # from student.models import Student
-from .models import Content, Course, Student
+from .models import Content, Course
 
 
 def accordion_data(course, week):
@@ -79,22 +79,16 @@ def get_course_content(user, **kwargs):
     course = kwargs["course_object"]
     week = kwargs["week"]
     doctype = kwargs.get('doctype')
-
     if user.is_anonymous:
         kwargs['doctype'] = 'docs'
         kwargs['doc'] = 'StudentWorkspace.md'
         html = read_document(course, kwargs)
         kwargs.update(dict(title=course.title, html=html))
+    elif doctype:
+        html = read_document(course, kwargs)
+        kwargs.update(dict(title=course.title, html=html))
     else:
-        student = Student.objects.filter(course=course, user=user)
-        if student:
-            student = student.first()
-        if doctype:
-            html = read_document(course, kwargs)
-            kwargs.update(dict(title=course.title, html=html, student=student))
-        else:
-            kwargs['accordion'] = accordion_data(course, week)[:week]
-            kwargs['student'] = student
+        kwargs['accordion'] = accordion_data(course, week)[:week]
 
     return kwargs
 
@@ -121,16 +115,13 @@ def initialize_course_data(**kwargs):
     if delete:
         get_user_model().objects.all().delete()
     create_courses()
-    import_all_courses()
     if sales:
         import_students(workspace_path(course='bacs350', project='_sales.csv'))
         create_student(name='Mark Seaman',
                        email='mark.seaman@shrinking-world.com', course='cs350')
         create_student(name='Mark Seaman',
                        email='mark.seaman@shrinking-world.com', course='bacs350')
-        export_students(workspace_path(
-            course='bacs350', project='_students.csv'))
-    import_students(workspace_path(course='bacs350', project='_students.csv'))
+    export_students(workspace_path(course='bacs350', project='_students.csv'))
     students(verbose=verbose)
 
 

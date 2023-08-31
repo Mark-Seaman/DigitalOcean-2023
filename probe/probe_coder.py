@@ -24,5 +24,5 @@ def test_coder_python_source():
 
 def test_coder_templates():
     text = "test_template_files: Templates " + \
-        check_file_count(template_files(), 70, 90)
+        check_file_count(template_files(), 70, 80)
     return text + text_join(template_files())

@@ -42,8 +42,7 @@ def all_pubs(pub_type=None):
 
 def bouncer_redirect(bouncer_id):
     if bouncer_id:
-        bounce_table = read_csv_file(
-            'Documents/Shrinking-World-Pubs/_bouncer.csv')
+        bounce_table = read_csv_file('Documents/Shrinking-World-Pubs/_bouncer.csv')
         for x in bounce_table:
             if x[1:] and int(x[0]) == bouncer_id:
                 # print(f"Bounce to {x[1]}")
@@ -56,7 +55,7 @@ def build_pubs(**kwargs):
         if pub.auto_index:
             if verbose:
                 print(f"CREATE Index - {pub.name}")
-            create_pub_index(pub, get_pub_contents(pub))
+            create_pub_index(pub, get_pub_contents(pub)) 
 
     def delete_pubs():
         if delete:
@@ -64,7 +63,7 @@ def build_pubs(**kwargs):
                 print("Delete pubs\n")
             Pub.objects.all().delete()
             assert len(Pub.objects.all()) == 0
-
+    
     def verify_all_pubs():
         if is_old("config/publish.json"):
             if verbose:
@@ -72,8 +71,8 @@ def build_pubs(**kwargs):
             save_pub_data()
         return verify_pubs(verbose)
 
-    verbose = kwargs.get('verbose', False)
-    delete = kwargs.get('delete', False)
+    verbose=kwargs.get('verbose',False)
+    delete=kwargs.get('delete', False)
     delete_pubs()
     if verbose:
         print("Build pubs:\n")
@@ -83,7 +82,7 @@ def build_pubs(**kwargs):
         build_pub_index(p, verbose)
 
     return verify_all_pubs()
-
+    
 
 def doc_view_context(**kwargs):
     path = kwargs.get('path', 'Documents/shrinking-world.com/blog/Index.md')
@@ -103,12 +102,8 @@ def doc_view_context(**kwargs):
 
 
 def get_pub(name):
-    try:
-        # print('get_pub: ', name)
-        return Pub.objects.get(name=name)
-    except:
-        print(f'**** Exception in get_pub ({name})')
-        return
+    # print('get_pub: ', name)
+    return Pub.objects.get(name=name)
 
 
 def get_pub_contents(pub):
@@ -149,8 +144,8 @@ def get_pub_info(pub_name=None):
         text += f'Tag Line: {pub.subtitle}\n\n'
         text += f'Document Path: {pub.doc_path}\n\n'
         text += f'Details: \n{show_pub_details(pub)}\n\n'
-        text += f'Summary: \n{show_pub_content(pub)}\n\n'
-        text += f'Words: \n{show_pub_words(pub)}\n\n'
+        text += f'Summary: \n{show_pub_content(pub)}\n\n'  
+        text += f'Words: \n{show_pub_words(pub)}\n\n' 
     return text
 
 
@@ -236,7 +231,7 @@ def select_blog_doc(pub, doc, local_host=False):
 
     # if doc=='contact':
     #     return
-
+    
     p = get_pub(pub)
     # kwargs = load_object(p)
     kwargs = model_to_dict(p)
@@ -257,7 +252,7 @@ def read_menu(menu, local_host):
             items = m["menu"]["items"]
             m["menu"]["items"] = allow(items)
         return m["menu"]
-
+    
 
 def show_pub_content(pub):
     text = f"PUB CONTENT - {pub.title}\n\n"
@@ -290,12 +285,12 @@ def show_pub_details(pub):
 
 def show_pub_json(pub=None):
     if pub:
-        pubs = [get_pub(pub)]
+        pubs =[get_pub(pub)]
     else:
         pubs = all_pubs()
     # print('PUBS: ', pubs)
-    return text_join([read_file(pub_json_path(pub.name, pub.doc_path)) for pub in pubs])
-
+    return text_join([read_file(pub_json_path(pub.name, pub.doc_path)) for  pub in pubs])
+        
     # text = "PUB JSON\n\n"
     # for js in Path("static/js").iterdir():
     #     text += f"\n\n---\n\n{js}\n\n---\n\n"
@@ -323,7 +318,7 @@ def show_pubs():
             words += p.words
             get_pub(p.name)
         output += f'\nPubs - {t} - {words} words - {int(words/250)} pages\n{text}\n'
-    return output
+    return output    
 
 
 def verify_pubs(verbose):
@@ -348,7 +343,7 @@ def verify_pubs(verbose):
     info = line_count(get_pub_info())
     contents = len(Content.objects.all())
     min_lines, max_lines = 3600, 6400
-    if min_lines < info and info < max_lines:
+    if min_lines < info and info < max_lines: 
         text = f'Rebuild Pubs:  {text_join([str(p) for p in  pubs])}\n'
         text += f'\nPub Info: {info}\n'
         text += f'\nPub Contents: {contents}\n'
@@ -358,8 +353,8 @@ def verify_pubs(verbose):
             return text
     else:
         print(f'** Pub Info: {info} Lines **')
-        assert info > min_lines
-        assert info < max_lines
+        assert info>min_lines
+        assert info<max_lines
 
 
 def word_count_file(pub):

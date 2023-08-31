@@ -4,8 +4,7 @@ from .views import BouncerRedirectView, ContactView, PubDetailView, PubLibraryVi
 
 urlpatterns = [
 
-    path('favicon.ico', PubLibraryView.as_view()),
-
+    
     # Pub Redirect
     path("", PubRedirectView.as_view()),
     path("pubs", PubLibraryView.as_view(), name="pub_list"),
@@ -16,5 +15,5 @@ urlpatterns = [
     path("<str:pub>", PubDetailView.as_view(), name="pub_detail"),
     path("<str:pub>/contact", ContactView.as_view()),
     path("<str:pub>/<str:doc>", PubView.as_view(), name="pub"),
-
+    
 ]

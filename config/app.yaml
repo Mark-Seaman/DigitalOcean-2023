@@ -3,7 +3,7 @@ alerts:
 - rule: DOMAIN_FAILED
 databases:
 - engine: PG
-  name: db
+  name: db-hammer
   num_nodes: 1
   size: db-s-dev-database
   version: "12"
@@ -46,33 +46,30 @@ region: nyc
 services:
 - environment_slug: python
   envs:
-  - key: DATABASE_ENGINE
-    scope: RUN_AND_BUILD_TIME
-    value: django.db.backends.sqlite3
-  - key: DATABASE_NAME
-    scope: RUN_AND_BUILD_TIME
-    value: config/hammer.db
   - key: DISABLE_COLLECTSTATIC
     scope: RUN_AND_BUILD_TIME
     value: "1"
   - key: DATABASE_URL
     scope: RUN_TIME
-    value: ${db.DATABASE_URL}
+    value: ${db-hammer.DATABASE_URL}
   - key: POSTGRES_DB
     scope: RUN_AND_BUILD_TIME
-    value: ${db.DATABASE}
+    value: ${db-hammer.DATABASE}
   - key: POSTGRES_HOST
     scope: RUN_AND_BUILD_TIME
-    value: ${db.HOSTNAME}
+    value: ${db-hammer.HOSTNAME}
   - key: POSTGRES_USER
     scope: RUN_AND_BUILD_TIME
-    value: ${db.USERNAME}
+    value: ${db-hammer.USERNAME}
   - key: POSTGRES_PASSWORD
     scope: RUN_AND_BUILD_TIME
-    value: ${db.PASSWORD}
+    value: ${db-hammer.PASSWORD}
   - key: POSTGRES_PORT
     scope: RUN_AND_BUILD_TIME
-    value: ${db.PORT}
+    value: ${db-hammer.PORT}
+  - key: SHRINKING_WORLD_PUBS
+    scope: RUN_AND_BUILD_TIME
+    value: Documents/Shrinking-World-Pubs
   github:
     branch: production
     deploy_on_push: true

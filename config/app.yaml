@@ -29,6 +29,18 @@ domains:
 - domain: shrinking-world.com
   type: ALIAS
   zone: shrinking-world.com
+ingress:
+  rules:
+  - component:
+      name: hammer-app
+    match:
+      path:
+        prefix: /
+  - component:
+      name: hammer-app-static
+    match:
+      path:
+        prefix: /static
 name: hammer-app
 region: nyc
 services:
@@ -67,12 +79,13 @@ services:
     repo: Mark-Seaman/DigitalOcean
   http_port: 8080
   instance_count: 1
-  instance_size_slug: basic-xxs
+  instance_size_slug: basic-xs
   name: hammer-app
-  routes:
-  - path: /
   run_command: |
     python manage.py migrate --no-input
+    cd Documents
+    git clone https://github.com/Mark-Seaman/Shrinking-World-Pubs.git
+    cd
     gunicorn --worker-tmp-dir /dev/shm config.wsgi
   source_dir: /
 static_sites:
@@ -82,6 +95,4 @@ static_sites:
     deploy_on_push: true
     repo: Mark-Seaman/DigitalOcean
   name: hammer-app-static
-  routes:
-  - path: /static
   source_dir: /static

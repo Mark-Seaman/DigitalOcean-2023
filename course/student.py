@@ -7,7 +7,7 @@ from django.contrib.auth.hashers import make_password
 from publish.files import write_csv_file
 
 from .import_export import import_records
-# from .models import Course, Student
+from .models import Course, Student
 
 
 def table_data(title, rows, columns):

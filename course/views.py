@@ -12,7 +12,7 @@ from course.workspace import workspace_data, workspace_path
 from publish.files import read_json
 from publish.publication import build_pubs
 from .course import create_courses, get_course_content, initialize_course_data
-# from .models import Student
+from .models import Student
 from .models import Course
 from .slides import slides_view_context
 
@@ -38,12 +38,6 @@ class WorkspaceView(TemplateView):
 class ImportDataView(RedirectView):
     def get_redirect_url(self, **kwargs):
         initialize_course_data(delete=False, verbose=False, sales=False)
-
-        # create_courses()
-        # s = workspace_path(course='bacs350', project='_students.csv')
-        # import_students(s)
-        # import_all_courses()
-        # students(verbose=True)
         build_pubs()
         return '/course/cs350'
 
@@ -59,7 +53,7 @@ class StudentListView(TemplateView):
 
 class StudentProfileView(UpdateView):
     template_name = 'edit.html'
-    # model = Student
+    model = Student
     fields = ['name', 'email', 'github', 'server']
 
     def get_success_url(self):

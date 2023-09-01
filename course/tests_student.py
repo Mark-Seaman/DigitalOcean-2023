@@ -2,7 +2,7 @@ from django.contrib.auth import authenticate
 
 from probe.tests_django import DjangoTest
 
-from .course import create_courses
+from .course import create_courses, sales_to_students
 from .workspace import workspace_path
 from .student import create_student, export_students, import_students, list_students, students
 from .models import Student
@@ -48,13 +48,19 @@ class StudentModelTest(DjangoTest):
         self.assertEqual(student.user.email, 'x1@me.us')
 
     def test_export_students(self):
-        import_students('students.csv')  # Import new students
-        export_students('./students2.csv')
+        s = workspace_path(course='bacs350', project='_students.csv')
+        import_students(s)
+        s2 = workspace_path(course='bacs350', project='_students2.csv')
+        export_students(s2)
 
     def test_import_students(self):
         self.assertEqual(len(students()), 34)
         self.assertEqual(len(students(course__name='cs350')), 17)
         self.assertEqual(len(students(course__name='bacs350')), 17)
+        self.assertEqual(len(list_students()), 34)
+
+    def test_sales(self):
+        sales_to_students()
         self.assertEqual(len(list_students()), 34)
 
     def test_students(self):

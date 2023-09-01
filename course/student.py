@@ -24,6 +24,7 @@ def link_html(url, text):
 
 def make_user(**kwargs):
     name = kwargs.get('name')
+    # print('name:', name)
     first, last = name.split(' ')[:2]
     username = f'{first}{last}'.replace(' ', '')
     email = kwargs.get('email', f'{username}@shrinking-world.com')
@@ -63,8 +64,9 @@ def create_student(**kwargs):
 def list_students():
     def record(x):
         try:
-            if not x.name:
+            if not x.name or not x.email:
                 x.name = f'{x.user.first_name} {x.user.last_name}'
+                x.email = x.user.email
                 x.save()
             url1 = f'/student/{x.pk}'
             label1 = x.name
@@ -119,15 +121,25 @@ def export_students(path=None):
     def row(s):
         return [s.name, s.user.email, s.course.name]
 
-    header = ['user', 'user_email', 'course']
+    header = ['name', 'email', 'course']
     table = [header] + [row(s) for s in students()]
     write_csv_file(path, table)
     return f"{len(Student.objects.all())} Student objects exported to {path}\n"
 
 
 def import_students(path):
+    with open(path) as file:
+        reader = DictReader(file)
+        for row in reader:
+            name = row.get('name')
+            email = row.get('email')
+            course = row.get('course')
+            create_student(name=name, email=email, course=course)
+
+
+def import_sales(path):
     def select_course(**kwargs):
-        course = row.get('product_name', row.get('course'))
+        course = row.get('product_name')
         if course == 'Software Engineering':
             course = 'cs350'
         if course == 'Python Web Apps':

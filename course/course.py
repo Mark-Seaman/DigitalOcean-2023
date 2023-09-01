@@ -1,7 +1,7 @@
 from django.contrib.auth import get_user_model
 from pathlib import Path
 from course.import_export import bacs350_options, create_course, cs350_options, import_all_courses
-from course.student import create_student, export_students, import_students, students
+from course.student import create_student, export_students, import_sales, import_students, students
 from course.workspace import workspace_path
 
 from publish.document import document_body, document_html, document_title
@@ -128,16 +128,21 @@ def initialize_course_data(**kwargs):
         get_user_model().objects.all().delete()
     create_courses()
     import_all_courses()
-    # if sales:
-    #     import_students(workspace_path(course='bacs350', project='_sales.csv'))
-    #     create_student(name='Mark Seaman',
-    #                    email='mark.seaman@shrinking-world.com', course='cs350')
-    #     create_student(name='Mark Seaman',
-    #                    email='mark.seaman@shrinking-world.com', course='bacs350')
-    #     export_students(workspace_path(
-    #         course='bacs350', project='_students.csv'))
-    # import_students(workspace_path(course='bacs350', project='_students.csv'))
-    # students(verbose=True)
+    if sales:
+        sales_to_students()
+    import_students(workspace_path(course='bacs350', project='_students.csv'))
+    students(verbose=True)
+
+
+def sales_to_students():
+    import_sales(workspace_path(course='bacs350', project='_sales.csv'))
+    create_student(name='Mark Seaman',
+                   email='mark.seaman@shrinking-world.com', course='cs350')
+    create_student(name='Mark Seaman',
+                   email='mark.seaman@shrinking-world.com', course='bacs350')
+    export_students(workspace_path(
+        course='bacs350', project='_students.csv'))
+    import_students(workspace_path(course='bacs350', project='_students.csv'))
 
 
 def show_content(course):

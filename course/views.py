@@ -10,6 +10,7 @@ from course.student import import_students, student_list_data, students
 from course.workspace import workspace_data, workspace_path
 
 from publish.files import read_json
+from publish.publication import build_pubs
 from .course import create_courses, get_course_content, initialize_course_data
 from .models import Course, Student
 from .slides import slides_view_context
@@ -42,7 +43,7 @@ class ImportDataView(RedirectView):
         # import_students(s)
         # import_all_courses()
         # students(verbose=True)
-
+        build_pubs()
         return '/course/cs350'
 
 

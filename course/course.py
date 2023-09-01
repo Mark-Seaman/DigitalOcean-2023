@@ -136,8 +136,8 @@ def initialize_course_data(**kwargs):
     #                    email='mark.seaman@shrinking-world.com', course='bacs350')
     #     export_students(workspace_path(
     #         course='bacs350', project='_students.csv'))
-    import_students(workspace_path(course='bacs350', project='_students.csv'))
-    students(verbose=True)
+    # import_students(workspace_path(course='bacs350', project='_students.csv'))
+    # students(verbose=True)
 
 
 def show_content(course):

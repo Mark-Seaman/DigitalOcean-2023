@@ -1,0 +1,8 @@
+#!/bin/bash
+# Run the Django Server
+
+cd $h
+python manage.py runserver &> /dev/null &
+sleep 1
+open http://localhost:8000
+

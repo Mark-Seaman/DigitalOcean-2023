@@ -85,15 +85,15 @@ class Content(models.Model):
 # Student
 
 
-class Student(models.Model):
-    user = models.ForeignKey(
-        User, on_delete=models.CASCADE, null=True, editable=False)
-    course = models.ForeignKey(
-        Course, on_delete=models.CASCADE, null=True, editable=False)
-    github = models.URLField(null=True, blank=True)
-    server = models.URLField(null=True, blank=True)
-    name = models.CharField(max_length=200, null=True)
-    email = models.EmailField(max_length=200, null=True)
+# class Student(models.Model):
+#     user = models.ForeignKey(
+#         User, on_delete=models.CASCADE, null=True, editable=False)
+#     course = models.ForeignKey(
+#         Course, on_delete=models.CASCADE, null=True, editable=False)
+#     github = models.URLField(null=True, blank=True)
+#     server = models.URLField(null=True, blank=True)
+#     name = models.CharField(max_length=200, null=True)
+#     email = models.EmailField(max_length=200, null=True)
 
     # @property
     # def name(self):

@@ -124,7 +124,7 @@ alias vc='cd $p && pm vc'
 
 # Django aliases
 alias pm='python manage.py'
-alias r='pm runserver &> /dev/null &'
+alias r='sh $h/config/runserver'
 alias k='pkill -f "python manage.py runserver"'
 alias migrate='pm makemigrations && pm migrate'
 alias x='pm x'

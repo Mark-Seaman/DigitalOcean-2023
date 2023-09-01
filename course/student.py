@@ -62,17 +62,23 @@ def create_student(**kwargs):
 
 def list_students():
     def record(x):
-        url1 = f'/student/{x.pk}'
-        label1 = x.name
-        url2 = x.github
-        label2 = x.github
-        url3 = x.server
-        label3 = x.server
-        return dict(url1=link_html(url1, label1),
-                    course=x.course.name,
-                    email=x.user.email,
-                    url2=link_html(url2, label2),
-                    url3=link_html(url3, label3))
+        try:
+            if not x.name:
+                x.name = f'{x.user.first_name} {x.user.last_name}'
+                x.save()
+            url1 = f'/student/{x.pk}'
+            label1 = x.name
+            url2 = x.github
+            label2 = x.github
+            url3 = x.server
+            label3 = x.server
+            return dict(url1=link_html(url1, label1),
+                        course=x.course.name,
+                        email=x.user.email,
+                        url2=link_html(url2, label2),
+                        url3=link_html(url3, label3))
+        except:
+            print("**** EXCEPTION: x")
 
     objects = Student.objects.all().order_by('user__last_name')
     objects = [record(x) for x in objects]

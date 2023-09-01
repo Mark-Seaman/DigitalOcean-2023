@@ -238,10 +238,11 @@ def select_blog_doc(pub, doc, local_host=False):
     #     return
 
     p = get_pub(pub)
-    # kwargs = load_object(p)
-    kwargs = model_to_dict(p)
-    kwargs.update(load_document(p))
-    kwargs["menu"] = read_menu(kwargs.get("menu"), local_host)
+    if p:
+        # kwargs = load_object(p)
+        kwargs = model_to_dict(p)
+        kwargs.update(load_document(p))
+        kwargs["menu"] = read_menu(kwargs.get("menu"), local_host)
     return kwargs
 
 

@@ -12,7 +12,8 @@ from course.workspace import workspace_data, workspace_path
 from publish.files import read_json
 from publish.publication import build_pubs
 from .course import create_courses, get_course_content, initialize_course_data
-from .models import Course, Student
+# from .models import Student
+from .models import Course
 from .slides import slides_view_context
 
 
@@ -58,7 +59,7 @@ class StudentListView(TemplateView):
 
 class StudentProfileView(UpdateView):
     template_name = 'edit.html'
-    model = Student
+    # model = Student
     fields = ['name', 'email', 'github', 'server']
 
     def get_success_url(self):

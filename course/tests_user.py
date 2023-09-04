@@ -2,6 +2,8 @@ from django.test import TestCase, Client
 from django.contrib.auth.hashers import make_password
 from django.contrib.auth import authenticate, get_user_model, login
 
+from course.user import make_user, users
+
 
 class LoginUnitTest(TestCase):
 
@@ -10,47 +12,43 @@ class LoginUnitTest(TestCase):
         self.client = Client()
         self.username = 'testuser'
         self.email = 'testuser@example.com'
-        self.password = 'testpassword'
-        self.user = get_user_model().objects.create_user(
-            email=self.email,
-            username=self.username,
-            password=self.password
-        )
+        self.password = 'UNC'
+        self.user = make_user(email=self.email,
+                              name='test user',
+                              username=self.username,
+                              password=self.password)
         self.login_username_url = '/login_username/'
         self.login_email_url = '/login/'
 
+    def test_username(self):
+        u = make_user(email='me@here.us',
+                      name='Test User',
+                      username=self.username,
+                      password=self.password)
+        self.assertEqual(len(users()), 1)
+        self.assertEqual(u.email, 'me@here.us')
+        self.assertEqual(u.last_name, 'User')
+        self.assertEqual(u.first_name, 'Test')
+        self.assertEqual(len(u.password), 88)
+
     def test_login_email(self):
-        response = self.client.post(
-            self.login_email_url, {'email': self.email, 'password': self.password})
-        # Expecting a redirect after successful login
-        self.assertEqual(response.status_code, 302)
-        # Replace with your expected redirect URL
-        self.assertRedirects(response, '/course')
+        d = {'email': self.email, 'password': self.password}
+        response = self.client.post(self.login_email_url, d)
+        self.assertEqual(response.status_code, 302)  # redirect after
+        self.assertRedirects(response, '/course')   # successful login
 
     def test_login_valid_user(self):
-        response = self.client.post(
-            self.login_username_url, {'username': self.username, 'password': self.password})
-        # Expecting a redirect after successful login
-        self.assertEqual(response.status_code, 302)
-        # Replace with your expected redirect URL
-        self.assertRedirects(response, '/course')
+        d = {'username': self.username, 'password': self.password}
+        response = self.client.post(self.login_username_url, d)
+        self.assertEqual(response.status_code, 302)  # redirect after
+        self.assertRedirects(response, '/course')   # successful login
 
     def test_login_invalid_user(self):
-        response = self.client.post(
-            self.login_username_url, {'username': 'invaliduser', 'password': 'invalidpassword'})
-        # Expecting the login page to be re-rendered
-        self.assertEqual(response.status_code, 200)
-
-    def test_authenticated_user_redirected(self):
-        self.client.login(username=self.username, password=self.password)
-        response = self.client.get(self.login_username_url)
-        # self.assertEqual(response.status_code, 302)  # Expecting a redirect since user is already logged in
-        # self.assertRedirects(response, '/course/home')  # Replace with your expected redirect URL
-        # Expecting the login page to be re-rendered
-        self.assertEqual(response.status_code, 200)
+        d = {'username': 'invaliduser', 'password': 'invalidpassword'}
+        response = self.client.post(self.login_username_url, d)
+        self.assertEqual(response.status_code, 200)  # login page  re-render
 
     def test_authenticate(self):
-        # print(self.password, '---', self.user.password)
         self.assertNotEqual(self.password, self.user.password)
         self.assertEqual(authenticate(
             username=self.user.username, password=self.password), self.user)

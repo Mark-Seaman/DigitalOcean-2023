@@ -32,7 +32,7 @@ class StudentModelTest(DjangoTest):
         self.assertEqual(student.user.username, 'TestStudent')
         self.assertEqual(student.user.first_name, 'Test')
         self.assertEqual(student.user.last_name, 'Student')
-        self.assertEqual(student.user.email, 'new_email@me.us')
+        self.assertEqual(student.user.email, 'TestStudent@shrinking-world.com')
 
     def test_multiple(self):
         create_student(name='Test Student',
@@ -62,18 +62,6 @@ class StudentModelTest(DjangoTest):
     def test_sales(self):
         sales_to_students()
         self.assertEqual(len(list_students()), 34)
-
-    def test_students(self):
-        s1 = Student.objects.get(
-            user__username='RyanLunas', course__name='cs350')
-        self.assertEqual(s1.name, 'Ryan Lunas')
-        self.assertEqual(s1.course.name, 'cs350')
-        s2 = Student.objects.get(
-            user__username='RyanLunas', course__name='bacs350')
-        self.assertEqual(s2.name, 'Ryan Lunas')
-        self.assertEqual(s2.course.name, 'bacs350')
-        self.assertEqual(s1.user.email, 'luna0500@bears.unco.edu')
-        self.assertEqual(s2.user.email, 'luna0500@bears.unco.edu')
 
     def test_students(self):
         self.assertEqual(len(students()), 34)

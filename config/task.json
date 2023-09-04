@@ -94,7 +94,7 @@
 },
 {
     "model": "task.task",
-    "pk": 149,
+    "pk": 334,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -106,7 +106,7 @@
 },
 {
     "model": "task.task",
-    "pk": 150,
+    "pk": 335,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -118,7 +118,7 @@
 },
 {
     "model": "task.task",
-    "pk": 151,
+    "pk": 336,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -130,7 +130,7 @@
 },
 {
     "model": "task.task",
-    "pk": 152,
+    "pk": 337,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -142,7 +142,7 @@
 },
 {
     "model": "task.task",
-    "pk": 153,
+    "pk": 338,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -154,7 +154,7 @@
 },
 {
     "model": "task.task",
-    "pk": 154,
+    "pk": 339,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -166,7 +166,7 @@
 },
 {
     "model": "task.task",
-    "pk": 155,
+    "pk": 340,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -178,7 +178,7 @@
 },
 {
     "model": "task.task",
-    "pk": 156,
+    "pk": 341,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -190,7 +190,7 @@
 },
 {
     "model": "task.task",
-    "pk": 157,
+    "pk": 342,
     "fields": {
         "name": "Church",
         "activity": 2,
@@ -202,7 +202,7 @@
 },
 {
     "model": "task.task",
-    "pk": 158,
+    "pk": 343,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -214,7 +214,7 @@
 },
 {
     "model": "task.task",
-    "pk": 159,
+    "pk": 344,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -226,7 +226,7 @@
 },
 {
     "model": "task.task",
-    "pk": 160,
+    "pk": 345,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -238,7 +238,7 @@
 },
 {
     "model": "task.task",
-    "pk": 161,
+    "pk": 346,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -250,7 +250,7 @@
 },
 {
     "model": "task.task",
-    "pk": 162,
+    "pk": 347,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -262,7 +262,7 @@
 },
 {
     "model": "task.task",
-    "pk": 163,
+    "pk": 348,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -274,7 +274,7 @@
 },
 {
     "model": "task.task",
-    "pk": 164,
+    "pk": 349,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -286,7 +286,7 @@
 },
 {
     "model": "task.task",
-    "pk": 165,
+    "pk": 350,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -298,7 +298,7 @@
 },
 {
     "model": "task.task",
-    "pk": 166,
+    "pk": 351,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -310,7 +310,7 @@
 },
 {
     "model": "task.task",
-    "pk": 167,
+    "pk": 352,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -322,7 +322,7 @@
 },
 {
     "model": "task.task",
-    "pk": 168,
+    "pk": 353,
     "fields": {
         "name": "Church",
         "activity": 2,
@@ -334,7 +334,7 @@
 },
 {
     "model": "task.task",
-    "pk": 169,
+    "pk": 354,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -346,7 +346,7 @@
 },
 {
     "model": "task.task",
-    "pk": 170,
+    "pk": 355,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -358,7 +358,7 @@
 },
 {
     "model": "task.task",
-    "pk": 171,
+    "pk": 356,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -370,7 +370,7 @@
 },
 {
     "model": "task.task",
-    "pk": 172,
+    "pk": 357,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -382,7 +382,7 @@
 },
 {
     "model": "task.task",
-    "pk": 173,
+    "pk": 358,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -394,7 +394,7 @@
 },
 {
     "model": "task.task",
-    "pk": 174,
+    "pk": 359,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -406,7 +406,7 @@
 },
 {
     "model": "task.task",
-    "pk": 175,
+    "pk": 360,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -418,7 +418,7 @@
 },
 {
     "model": "task.task",
-    "pk": 176,
+    "pk": 361,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -430,7 +430,7 @@
 },
 {
     "model": "task.task",
-    "pk": 177,
+    "pk": 362,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -442,7 +442,7 @@
 },
 {
     "model": "task.task",
-    "pk": 178,
+    "pk": 363,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -454,7 +454,7 @@
 },
 {
     "model": "task.task",
-    "pk": 179,
+    "pk": 364,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -466,7 +466,7 @@
 },
 {
     "model": "task.task",
-    "pk": 180,
+    "pk": 365,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -478,7 +478,7 @@
 },
 {
     "model": "task.task",
-    "pk": 181,
+    "pk": 366,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -490,7 +490,7 @@
 },
 {
     "model": "task.task",
-    "pk": 182,
+    "pk": 367,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -502,7 +502,7 @@
 },
 {
     "model": "task.task",
-    "pk": 183,
+    "pk": 368,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -514,7 +514,7 @@
 },
 {
     "model": "task.task",
-    "pk": 184,
+    "pk": 369,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -526,13 +526,337 @@
 },
 {
     "model": "task.task",
-    "pk": 185,
+    "pk": 370,
     "fields": {
         "name": "Church",
         "activity": 2,
         "notes": "    Emotionally Healthy Relationships",
         "date": "2023-02-01",
         "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 371,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-08-26",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 372,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    ideas for Student Project Workspace\n    design for Student Project Workspace\n    URLs (/course/<int:course>/<int:student>/<int:project>/<int:docs>)\n    create workspace code with TDD",
+        "date": "2023-08-26",
+        "hours": 9,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 373,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    family celebration with Josiah",
+        "date": "2023-08-26",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 374,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk\n    nap",
+        "date": "2023-08-27",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 375,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    church service",
+        "date": "2023-08-27",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 376,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    visit UNC with Lancasters",
+        "date": "2023-08-27",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 377,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    build email login",
+        "date": "2023-08-27",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 378,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    White Collar",
+        "date": "2023-08-27",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 379,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    Josiah speaks at both classes\n    server builds will not complete\n    problems with class preparation",
+        "date": "2023-08-28",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 380,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-08-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 381,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    read books\n    buy American Nations",
+        "date": "2023-08-28",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 382,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-08-29",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 383,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Sol de Jalisco with Lancasters",
+        "date": "2023-08-29",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 384,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    work on server problem",
+        "date": "2023-08-29",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 385,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Games",
+        "date": "2023-08-29",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 386,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    personal crisis\n    ",
+        "date": "2023-08-30",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 387,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    work on server issue at Digital Ocean",
+        "date": "2023-08-30",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 388,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Stacie has bike tire blowout",
+        "date": "2023-08-30",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 389,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Ahsoka",
+        "date": "2023-08-30",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 390,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    resolve server deployment issue\n    change build script \n    write Julio",
+        "date": "2023-08-31",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 391,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    trip to Estes Park with Lancasters\n    walk around Lilly Lake",
+        "date": "2023-08-31",
+        "hours": 9,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 392,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    nap",
+        "date": "2023-08-31",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 393,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    watch TV with Stacie",
+        "date": "2023-08-31",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 394,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    \n    record time\n    walk\n    watch balloons launch\n    self awareness and emotional needs",
+        "date": "2023-09-01",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 395,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    create import view to build pubs, courses, students\n    update code on Digital Ocean\n    fix issue with SHRINKING-WORLD-PUBS var\n    remove Student data model\n    add Student data model\n    iterations on production server\n    exception handling",
+        "date": "2023-09-01",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 396,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    communicate with students",
+        "date": "2023-09-01",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 397,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    visit with Duke and Marie\n    ",
+        "date": "2023-09-01",
+        "hours": 4,
         "done": false
     }
 }

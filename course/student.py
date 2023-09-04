@@ -3,6 +3,7 @@ from django.contrib.auth import get_user_model
 from django.forms import model_to_dict
 from django.utils.translation import gettext_lazy as _
 from django.contrib.auth.hashers import make_password
+from course.user import make_user
 
 from publish.files import write_csv_file
 
@@ -20,26 +21,6 @@ def button_html(url, text):
 
 def link_html(url, text):
     return f'<a class="text-success" href="{url}">{text}</a>'
-
-
-def make_user(**kwargs):
-    name = kwargs.get('name')
-    # print('name:', name)
-    first, last = name.split(' ')[:2]
-    username = f'{first}{last}'.replace(' ', '')
-    email = kwargs.get('email', f'{username}@shrinking-world.com')
-    # password = 'CS350' if kwargs.get('course') == 'cs350' else 'BACS350'
-    password = 'UNC'
-    kwargs = dict(username=username, first_name=first,
-                  last_name=last, email=email, password=password)
-    user, _ = get_user_model().objects.get_or_create(
-        username=username, defaults=kwargs)
-    user.username = username
-    user.first_name = first
-    user.last_name = last
-    user.password = make_password(password)
-    user.save()
-    return user
 
 
 def create_student(**kwargs):

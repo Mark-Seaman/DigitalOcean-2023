@@ -131,7 +131,7 @@ def initialize_course_data(**kwargs):
     if sales:
         sales_to_students()
     import_students(workspace_path(course='bacs350', project='_students.csv'))
-    students(verbose=True)
+    students(verbose=verbose)
 
 
 def sales_to_students():

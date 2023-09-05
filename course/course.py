@@ -6,7 +6,7 @@ from course.workspace import workspace_path
 
 from publish.document import document_body, document_html, document_title
 from publish.files import read_file, read_json
-from .models import Student
+from .models import Student, Team
 from .models import Content, Course
 
 
@@ -204,67 +204,3 @@ def weekly_content(course, full_agenda=False):
         return dict(week=week, practice=practice, lessons=lessons, book=book)
 
     return [weekly_agenda(week) for week in get_content(course)]
-
-
-# def course_agenda(course, week=None, full_agenda=False):
-#     if week:
-#         content = Content.objects.filter(course=course, week=week)
-#     else:
-#         content = Content.objects.filter(course=course)
-#     if not full_agenda:
-#         content = content.exclude(doctype="skill").exclude(doctype="chapter")
-#     return content.order_by("course", "doctype", "order")
-#
-#
-# def show_course_agenda(course):
-#     text = f"\n\nContent for {course.name}\n\n"
-#     for x in course_agenda(course):
-#         text += f"Week- {x.title.strip()}\n"
-#     return text
-
-
-# def setup_course(course_name):
-#     course = Course.objects.get(name=course_name)
-#     import_course(course)
-#     return show_course_agenda(course)
-
-
-# def import_course(course):
-#     def create_content(course, order, week, doctype):
-#         doc = Path(course.doc_path) / doctype / f"{int(order):02}.md"
-#         if doc.exists():
-#             p = Content.objects.get_or_create(
-#                 course=course, doctype=doctype, order=order
-#             )[0]
-#             p.title = resource_title(p)
-#             p.week = week
-#             p.save()
-#             return p
-#
-#     def import_from_schedule(course):
-#         schedule = read_csv_file(Path(course.doc_path) / "schedule.csv")
-#         for i, row in enumerate(schedule):
-#             if row[2]:
-#                 # lesson = create_lesson(course, **dict(date=row[0], week=row[1], order=row[2]))
-#                 create_content(course, row[2], row[1], "lesson")
-#             if row[1]:
-#                 # create_project(course, **dict(date=row[0], order=row[1]))
-#                 create_content(course, row[1], row[1], "project")
-#
-#     def import_course_from_files(course):
-#         for i in range(14):
-#             w = i + 1
-#             create_content(course, w, w, "chapter")
-#             create_content(course, w, w, "demo")
-#             create_content(course, w, w, "project")
-#             create_content(course, (i * 3 + 1), w, "skill")
-#             create_content(course, (i * 3 + 2), w, "skill")
-#             create_content(course, (i * 3 + 3), w, "skill")
-#             create_content(course, (i * 2 + 1), w, "lesson")
-#             create_content(course, (i * 2 + 2), w, "lesson")
-#
-#     Content.objects.filter(course=course).delete()
-#     if course.name == "bacs350":
-#         return import_course_from_files(course)
-#     else:
-#         import_from_schedule(course)

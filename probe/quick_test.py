@@ -1,12 +1,6 @@
-from django.contrib.auth import authenticate, get_user_model, login
-from django.contrib.auth.hashers import make_password
 from pathlib import Path
-from course.course import initialize_course_data
+from course.team import setup_team_pages, setup_teams
 
-from course.import_export import import_all_courses
-from course.models import Course, Student
-from course.student import export_students, import_students, students
-from course.workspace import workspace_path
 from probe.probe_pub import test_pub_json
 from publish.publication import show_pubs
 from publish.text import text_join, text_lines
@@ -29,16 +23,10 @@ def quick_test():
 
 
 def course():
-    initialize_course_data(delete=False, verbose=True, sales=True)
+    # initialize_course_data(delete=False, verbose=True, sales=True)
+    setup_teams()
+    setup_team_pages()
 
-    s = Student.objects.get(
-        user__username='RyanLunas', course__name='cs350')
-    u = s.user
-    assert s
-    assert u
-
-    a = authenticate(username=u.username, password='UNC')
-    print(a)
     return 'OK'
 
 

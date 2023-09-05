@@ -1,20 +1,20 @@
-from typing import Any, Optional
 from django.contrib.auth import authenticate, get_user_model, login
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 from django.views.generic import ListView, RedirectView, TemplateView
 from django.views.generic.edit import UpdateView
 from pathlib import Path
-from course.import_export import import_all_courses
-from course.student import import_students, student_list_data, students
-from course.workspace import workspace_data, workspace_path
 
 from publish.files import read_json
 from publish.publication import build_pubs
-from .course import create_courses, get_course_content, initialize_course_data
+
+from .course import get_course_content, initialize_course_data
+from .team import team_view_data
 from .models import Student
 from .models import Course
 from .slides import slides_view_context
+from .student import student_list_data
+from .workspace import workspace_data
 
 
 class CourseContentView(TemplateView):
@@ -94,6 +94,14 @@ class SlidesView(TemplateView):
 
     def get_context_data(self, **kwargs):
         return slides_view_context(**kwargs)
+
+
+class TeamView(TemplateView):
+    template_name = 'course_content.html'
+
+    def get_context_data(self, **kwargs):
+        kwargs['course'] = 'cs350'
+        return team_view_data(self.request.user, **kwargs)
 
 
 def login_email_view(request):

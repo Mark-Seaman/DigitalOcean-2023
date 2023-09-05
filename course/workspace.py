@@ -55,11 +55,3 @@ def workspace_data(**kwargs):
     if not user.is_anonymous:
         kwargs['student'] = students(user=user).first()
     return kwargs
-
-    # kwargs.update(read_json(Path('Documents') / 'course' / 'course.json'))
-    # kwargs = course_settings(**kwargs)
-    # course = kwargs["course_object"]
-    # week = kwargs["week"]
-    # if not user.is_anonymous:
-    #     kwargs['accordion'] = accordion_data(course, week)[:week]
-    # kwargs['title'] = 'STUDENT PROJECT WORKSPACE'

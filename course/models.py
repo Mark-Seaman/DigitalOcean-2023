@@ -94,7 +94,13 @@ class Student(models.Model):
     server = models.URLField(null=True, blank=True)
     name = models.CharField(max_length=200, null=True)
     email = models.EmailField(max_length=200, null=True)
+    team = models.IntegerField(null=True, blank=True)
 
-    # @property
-    # def name(self):
-    #     return f"{self.user.first_name} {self.user.last_name}"
+
+# --------------------
+# Team
+
+class Team(models.Model):
+    name = models.CharField(max_length=200, null=True)
+    github = models.URLField(null=True, blank=True)
+    server = models.URLField(null=True, blank=True)

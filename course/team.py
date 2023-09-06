@@ -87,20 +87,12 @@ def team_view_data(user, **kwargs):
         html = read_document(course, kwargs)
         kwargs.update(dict(title=course.title, html=html))
     elif not team:
-        create_page('1')
         kwargs['doctype'] = 'docs'
         kwargs['doc'] = 'TeamProjects.md'
         html = read_document(course, kwargs)
         kwargs.update(dict(title=course.title, html=html))
-
     elif not milestone:
-        # text = create_page(team)
-        # markdown = document_body(text)
-        # html = document_html(markdown)
-        # kwargs.update(dict(title=course.title, html=html))
-        # create_page('1')
-        path = page_path(team, doc)/'TeamProject.md'
-        kwargs.update(read_page(path))
+        kwargs.update(get_page(str(team)))
     return kwargs
 
 

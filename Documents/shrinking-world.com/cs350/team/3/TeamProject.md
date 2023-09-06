@@ -4,16 +4,11 @@ CS 350 Project Showcase
 
 ## Team Instagram
 
-**github** - []()
+**github** - [https://github.com/Esi-Mena/Instagram](https://github.com/Esi-Mena/Instagram)
 
-**server** - []()
+**server** - [https://instagram-production.up.railway.app](https://instagram-production.up.railway.app)
 
 ## Team Members
 
 Milestone 1 Assignments
-
-- Katie Haney-Osborn - Requirements
-- Elfaz Mandefro - Design
-- Esi Mena - Code
-- Max Seybert - Test
 

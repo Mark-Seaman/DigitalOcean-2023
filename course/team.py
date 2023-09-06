@@ -1,25 +1,79 @@
 from pathlib import Path
 from django.template.loader import render_to_string
 
-from publish.document import document_body, document_html
+from publish.document import document_body, document_html, document_title, title
 
 from .course import course_settings, read_document
 from .models import Team
 
 
-def create_page(team=None, milestone=None, role=None):
-    # print(f'create page: {team} {milestone} {role}')
-    if team:
-        t = Team.objects.get(pk=team)
-        print(f'create page: {team} {milestone} {role}')
-        print(t.pk, t.name, t.github, t.server)
-        path = Path(f'Documents/shrinking-world.com/cs350/team/{t.pk}')
-        path.mkdir(exist_ok=True, parents=True)
-        md = render_to_string('team.md', {'team': t})
-        path = path/'TeamProject.md'
-        if not path.exists():
-            path.write_text(md)
-        return path.read_text()
+def get_page(team=None, milestone=None, role=None):
+    if not team:
+        path = page_path('TeamProjects.md')
+        write_page(path)
+        return read_page(path)
+    t = Team.objects.get(pk=team)
+    if not milestone:
+        path = page_path('TeamProject.md', team)
+        write_page(path, t)
+        return read_page(path)
+    if not role:
+        path = page_path('Milestone.md', team, milestone)
+        write_page(path, t, milestone)
+        return read_page(path)
+
+    # path = page_path(role)
+    # if role == 1:
+
+    # write_page(path, t)
+    # return read_page(path)
+
+
+def write_team_page(path, team, milestone=None):
+    path.parent.mkdir(exist_ok=True, parents=True)
+    t = Team.objects.get(pk=team)
+    template = 'team.md'
+    md = render_to_string(template, {'team': t, 'milestone': milestone})
+    if not path.exists():
+        path.write_text(md)
+
+
+def write_page(path, team=None, milestone=None):
+    path.parent.mkdir(exist_ok=True, parents=True)
+    if path.name == 'TeamProject.md':
+        template = 'team.md'
+    if path.name == 'Milestone.md':
+        template = 'milestone.md'
+    md = render_to_string(template, {'team': team, 'milestone': milestone})
+    if not path.exists():
+        path.write_text(md)
+
+
+def read_page(path):
+    text = path.read_text()
+    t = title(text)
+    markdown = document_body(text)
+    html = document_html(markdown)
+    return dict(title=t, html=html, path=path)
+
+
+def page_path(doc=None, team=None, milestone=None, role=None):
+    path = Path(f'Documents/shrinking-world.com/cs350/team')
+    if not doc:
+        return path
+    if not team:
+        return path/doc
+    if not milestone:
+        return path/team/doc
+    if not role:
+        return path/team/milestone/doc
+    return path/team/milestone/role/doc
+
+    # t = Team.objects.get(pk=team)
+    # # print(f'create page: {team} {milestone} {role}')
+    # # print(t.pk, t.name, t.github, t.server)
+    # path = Path(f'Documents/shrinking-world.com/cs350/team/{t.pk}')
+    # return path
 
 
 def team_view_data(user, **kwargs):
@@ -33,22 +87,27 @@ def team_view_data(user, **kwargs):
         html = read_document(course, kwargs)
         kwargs.update(dict(title=course.title, html=html))
     elif not team:
+        create_page('1')
         kwargs['doctype'] = 'docs'
         kwargs['doc'] = 'TeamProjects.md'
         html = read_document(course, kwargs)
         kwargs.update(dict(title=course.title, html=html))
+
     elif not milestone:
-        text = create_page(team)
-        markdown = document_body(text)
-        html = document_html(markdown)
-        kwargs.update(dict(title=course.title, html=html))
+        # text = create_page(team)
+        # markdown = document_body(text)
+        # html = document_html(markdown)
+        # kwargs.update(dict(title=course.title, html=html))
+        # create_page('1')
+        path = page_path(team, doc)/'TeamProject.md'
+        kwargs.update(read_page(path))
     return kwargs
 
 
 def setup_team_pages():
-
     for t in Team.objects.all():
-        create_page(t.pk)
+        get_page(str(t.pk))
+        get_page(str(t.pk), '1')
 
 
 def setup_teams():

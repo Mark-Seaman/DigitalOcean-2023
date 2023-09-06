@@ -6,11 +6,11 @@ Milestone 1 is the check point for launching a new project with a clear understa
 of the business proposition, scope and priorities of the project, and the technology
 that will be used to create the desired solution.
 
-**Team Github Repo**:  []()
+**Team Github Repo**:  [https://github.com/Esi-Mena/Instagram](https://github.com/Esi-Mena/Instagram)
 
-**Team Application Server**:  []()
+**Team Application Server**:  [https://instagram-production.up.railway.app](https://instagram-production.up.railway.app)
 
-**Team Status Website**:  [Project Documents](/Documents)
+**Team Status Website**:  [Project Documents](https://github.com/Esi-Mena/Instagram/Documents)
 
 ---
 

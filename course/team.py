@@ -81,6 +81,7 @@ def team_view_data(user, **kwargs):
     course = kwargs["course_object"]
     team = kwargs.get('team')
     milestone = kwargs.get('milestone')
+    role = kwargs.get('role')
     if user.is_anonymous:
         kwargs['doctype'] = 'docs'
         kwargs['doc'] = 'StudentWorkspace.md'
@@ -93,6 +94,8 @@ def team_view_data(user, **kwargs):
         kwargs.update(dict(title=course.title, html=html))
     elif not milestone:
         kwargs.update(get_page(str(team)))
+    elif not role:
+        kwargs.update(get_page(str(team), str(milestone)))
     return kwargs
 
 
@@ -120,13 +123,13 @@ def setup_teams():
     x.save()
 
     x = Team.objects.get(pk=3)
-    x.github = ''
-    x.server = ''
+    x.github = 'https://github.com/Esi-Mena/Instagram'
+    x.server = 'https://instagram-production.up.railway.app'
     x.save()
 
     x = Team.objects.get(pk=4)
     x.github = 'https://github.com/JLeFevre559/CS350-Clipboard'
-    x.server = 'https://clipboard-unco-cs350.vercel.app/'
+    x.server = 'https://clipboard-unco-cs350.vercel.app'
     x.save()
 
     x = Team.objects.get(pk=5)

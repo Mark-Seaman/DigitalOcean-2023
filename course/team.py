@@ -113,7 +113,7 @@ def setup_teams():
     Team.objects.get_or_create(name='Ghost Writer', pk=5)
 
     x = Team.objects.get(pk=1)
-    x.github = ''
+    x.github = 'https://github.com/josh-flatt/cs350'
     x.server = ''
     x.save()
 

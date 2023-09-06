@@ -3,9 +3,9 @@
 ## 80% Benefit, 20% Effort
 
 * Shrinking World Project Workspace
+* Milestone 1 Requirements
 
 
 ## 20% Benefit, 80% Effort
 
-* Voices of Ministry
-* Recipe for a Death March
+* Dr Rhoads

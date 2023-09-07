@@ -63,14 +63,14 @@ class TeamPagesTest(DjangoTest):
         self.assertEqual(len(x['html']), 888)
         y = 'Development Test - Milestone 1 - Project Charter'
         self.assertEqual(x['title'], y)
-        print(len(x['html']), 'characters')
+        # print(len(x['html']), 'characters')
         x['path'].unlink()
 
         x = get_page('6', '2')
         self.assertEqual(len(x['html']), 888)
         y = 'Development Test - Milestone 2 - Project Charter'
         self.assertEqual(x['title'], y)
-        print(len(x['html']), 'characters')
+        # print(len(x['html']), 'characters')
         x['path'].unlink()
 
     def test_get_page(self):
@@ -80,6 +80,6 @@ class TeamPagesTest(DjangoTest):
         self.assertEqual(x['title'], 'Team Project Workspace')
         x['path'].unlink()
 
-    def test_create_team_pages(self):
-        for t in Team.objects.all():
-            print(t)
+    # def test_create_team_pages(self):
+    #     for t in Team.objects.all():
+    #         print(t)

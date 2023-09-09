@@ -36,6 +36,7 @@ urlpatterns = [
     path('course/<str:course>', CourseContentView.as_view(), name='course_index'),
     path('course/<str:course>/slides/<int:order>',
          SlidesView.as_view(), name='slides'),
+    path('course/<str:course>/students', StudentListView.as_view()),
     path('course/<str:course>/<str:doctype>/<int:order>',
          CourseContentView.as_view()),
     path('course/<str:course>/<str:doctype>/<str:doc>',

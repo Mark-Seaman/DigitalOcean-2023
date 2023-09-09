@@ -42,7 +42,7 @@ def create_student(**kwargs):
             return student
 
 
-def list_students():
+def list_students(course):
     def record(x):
         try:
             if not x.name or not x.email:
@@ -63,16 +63,18 @@ def list_students():
         except:
             print("**** EXCEPTION: x")
 
-    objects = Student.objects.all().order_by('user__last_name')
+    objects = students()
+    if course:
+        objects = objects.filter(course__name=course)
     objects = [record(x) for x in objects]
     return objects
 
 
-def student_list_data():
+def student_list_data(course):
     title = f'UNC Students'
     tables = []
     fields = ['Student', 'Course', 'Email', 'Github', 'Server']
-    tables.append(table_data(title, list_students(), fields))
+    tables.append(table_data(title, list_students(course), fields))
     data = {
         'tables': tables,
         'add_button': button_html("/student/add", 'Add New Student'),
@@ -85,7 +87,8 @@ def student_detail(student):
 
 
 def students(verbose=False, **kwargs):
-    all = Student.objects.filter(**kwargs).order_by('user__last_name')
+    all = Student.objects.filter(
+        **kwargs).order_by('course__name', 'user__last_name')
     if verbose:
         for s in all:
             try:

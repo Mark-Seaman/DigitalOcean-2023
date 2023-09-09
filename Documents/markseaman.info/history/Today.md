@@ -4,8 +4,9 @@
 
 * Shrinking World Project Workspace
 * Milestone 1 Requirements
+* Milestone 2 Requirements
 
 
 ## 20% Benefit, 80% Effort
 
-* Dr Rhoads
+* Grade BACS350

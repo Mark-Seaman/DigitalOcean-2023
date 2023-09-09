@@ -22,27 +22,27 @@ that will be used to create the desired solution.
 - Elmore Siahaan - Test
 
 
-## Milestone 1 Documents
+## [Milestone 1 Documents](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-1)
 
-* [Requirements](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Requirements) - 
+* [Requirements](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-1/Requirements) - 
     * Project Charter
     * Project Scope and Budget
     * AI Prompts
     * Status Report with Video
 
-* [Design](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Design) - 
+* [Design](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-1/Design) - 
     * Technology Selection Report
     * Tool Chain Setup Guide
     * AI Prompts
     * Status Report with Video
 
-* [Code](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Code) - 
+* [Code](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-1/Code) - 
     * Github Repo
     * Documentation Guide
     * AI Prompts
     * Status Report with Video
 
-* [Test](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Test) - 
+* [Test](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-1/Test) - 
     * Application Server URL
     * App Hosting Guide
     * AI Prompts

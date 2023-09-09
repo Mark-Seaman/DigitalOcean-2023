@@ -1,26 +1,14 @@
-# LinkedIn - Milestone 1 - Project Charter
+# Client Feedback - LinkedIn - Milestone 1
 
-Description of Project ...   one paragraph
-
-Milestone 1 is the check point for launching a new project with a clear understanding
-of the business proposition, scope and priorities of the project, and the technology
-that will be used to create the desired solution.
+## Milestone Incomplete
 
 **Team Github Repo**:  [https://github.com/josh-flatt/cs350](https://github.com/josh-flatt/cs350)
 
-**Team Application Server**:  [NO SERVER DEFINED]()
+**Team Application Server**:  []()
 
-**Team Status Website**:  [Project Documents](https://github.com/josh-flatt/cs350/Documents)
+**Team Status Website**:  [Project Documents](https://github.com/josh-flatt/cs350/tree/main/Documents)
 
 ---
-
-### Milestone 1 Assignments
-
-- Ryan Lunas - Requirements
-- Evan Duffield - Design
-- Josh Flatt - Code
-- Kyle Longaker - Test
-
 
 ## Milestone 1 Documents
 
@@ -47,3 +35,4 @@ that will be used to create the desired solution.
     * App Hosting Guide
     * AI Prompts
     * Status Report with Video
+

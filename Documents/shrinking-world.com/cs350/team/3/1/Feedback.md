@@ -1,26 +1,14 @@
-# Instagram - Milestone 1 - Project Charter
+# Client Feedback - Instagram - Milestone 1
 
-Description of Project ...   one paragraph
-
-Milestone 1 is the check point for launching a new project with a clear understanding
-of the business proposition, scope and priorities of the project, and the technology
-that will be used to create the desired solution.
+## Milestone Incomplete
 
 **Team Github Repo**:  [https://github.com/Esi-Mena/Instagram](https://github.com/Esi-Mena/Instagram)
 
 **Team Application Server**:  [https://instagram-production.up.railway.app](https://instagram-production.up.railway.app)
 
-**Team Status Website**:  [Project Documents](https://github.com/Esi-Mena/Instagram/tree/main/Documents)
+**Team Status Website**:  [Project Documents](https://github.com/Esi-Mena/Instagram/Documents)
 
 ---
-
-## Milestone 1 Assignments
-
-- Katie Haney-Osborn -  Requirements
-- Elfaz Mandefro - Design 
-- Esi Mena - Code
-- Maxwell Seybert - Test
-
 
 ## Milestone 1 Documents
 

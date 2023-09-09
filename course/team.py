@@ -20,6 +20,8 @@ def get_page(team=None, milestone=None, role=None):
     if not role:
         path = page_path('Milestone.md', team, milestone)
         write_page(path, t, milestone)
+        # path = page_path('Feedback.md', team, milestone)
+        # write_page(path, t, milestone)
         return read_page(path)
 
     # path = page_path(role)
@@ -39,13 +41,15 @@ def write_team_page(path, team, milestone=None):
 
 
 def write_page(path, team=None, milestone=None):
-    path.parent.mkdir(exist_ok=True, parents=True)
-    if path.name == 'TeamProject.md':
-        template = 'team.md'
-    if path.name == 'Milestone.md':
-        template = 'milestone.md'
-    md = render_to_string(template, {'team': team, 'milestone': milestone})
     if not path.exists():
+        path.parent.mkdir(exist_ok=True, parents=True)
+        if path.name == 'TeamProject.md':
+            template = 'team.md'
+        if milestone == '1' and path.name == 'Milestone.md':
+            template = 'milestone1.md'
+        # if milestone == '1' and path.name == 'Feedback.md':
+        #     template = 'feedback1.md'
+        md = render_to_string(template, {'team': team, 'milestone': milestone})
         path.write_text(md)
 
 

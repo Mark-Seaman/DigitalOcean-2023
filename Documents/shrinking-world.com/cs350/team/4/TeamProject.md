@@ -10,9 +10,16 @@ CS 350 Project Showcase
 
 ## Team Members
 
-Milestone 1 Assignments
+### [Milestone 1 Assignments](4/1)
 
 - Conner Hubbell - Requirements
 - Alex Hart - Design
 - Shane Loewe - Code
 - Joel Lefevre - Test
+
+### Milestone 2 Assignments
+
+- Joel Lefevre - Requirements
+- Conner Hubbell - Design
+- Alex Hart - Code
+- Shane Loewe - Test

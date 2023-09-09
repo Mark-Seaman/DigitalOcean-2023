@@ -25,6 +25,18 @@
 
                 <div class="accordion-body row">
 
+                    <div class="col-lg-4">
+                        <div class="card-lesson">
+                            <div class="card-header green">
+                                Reading
+                            </div>
+                            <div class="card-body">
+                                <a href="/webapps" target="reading">Chapter {{ card.id }}</a>
+                            </div>
+
+                        </div>
+                    </div>
+
                     {% for x in card.data.lessons %}
 
                     <div class="col-lg-4">

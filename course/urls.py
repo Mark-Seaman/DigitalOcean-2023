@@ -21,8 +21,9 @@ urlpatterns = [
     #     path('workspace/<str:course>/<int:project>', WorkspaceView.as_view()),
     #     path('workspace/<str:course>/<int:project>/<str:doc>',
     #          WorkspaceView.as_view(), name='workspace'),
+
     path('student/<int:pk>', StudentProfileView.as_view()),
-    path('students', StudentListView.as_view()),
+    #     path('students', StudentListView.as_view()),
     path('import', ImportDataView.as_view()),
 
     # Software Engineering

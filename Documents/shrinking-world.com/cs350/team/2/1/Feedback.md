@@ -1,26 +1,14 @@
-# Amazon - Milestone 1 - Project Charter
+# Client Feedback - Amazon - Milestone 1
 
-Description of Project ...   one paragraph
-
-Milestone 1 is the check point for launching a new project with a clear understanding
-of the business proposition, scope and priorities of the project, and the technology
-that will be used to create the desired solution.
+## Milestone Incomplete
 
 **Team Github Repo**:  [https://github.com/alexhovick/ShopZoneCS350](https://github.com/alexhovick/ShopZoneCS350)
 
 **Team Application Server**:  [https://shopzone-app.netlify.app](https://shopzone-app.netlify.app)
 
-**Team Status Website**:  [Project Documents](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents)
+**Team Status Website**:  [Project Documents](https://github.com/alexhovick/ShopZoneCS350/Documents)
 
 ---
-
-## Milestone 1 Assignments
-
-- Dale Barriga - Requirements
-- Seth Hatch - Design
-- Alex Hovick - Code
-- Elmore Siahaan - Test
-
 
 ## Milestone 1 Documents
 

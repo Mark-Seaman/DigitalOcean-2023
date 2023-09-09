@@ -10,9 +10,16 @@ CS 350 Project Showcase
 
 ## Team Members
 
-Milestone 1 Assignments
+### [Milestone 1 Assignments](2/1)
 
 - Dale Barriga - Requirements
 - Seth Hatch - Design
 - Alex Hovick - Code
 - Elmore Siahaan - Test
+
+### Milestone 2 Assignments
+
+- Elmore Siahaan - Requirements
+- Dale Barriga - Design
+- Seth Hatch - Code
+- Alex Hovick - Test

@@ -10,3 +10,10 @@ CS 350 Project Showcase
 
 ## Team Members
 
+Every Milestone
+
+- Mark Seaman - Requirements
+- Mark Seaman - Design
+- Mark Seaman - Code
+- Mark Seaman - Test
+

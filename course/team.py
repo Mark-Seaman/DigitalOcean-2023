@@ -119,7 +119,7 @@ def setup_teams():
 
     x = Team.objects.get(pk=2)
     x.github = 'https://github.com/alexhovick/ShopZoneCS350'
-    x.server = 'https://clever-cucurucho-a93faa.netlify.app'
+    x.server = 'https://shopzone-app.netlify.app'
     x.save()
 
     x = Team.objects.get(pk=3)

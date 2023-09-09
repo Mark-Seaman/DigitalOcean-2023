@@ -47,7 +47,7 @@ class StudentListView(TemplateView):
 
     def get_context_data(self, **kwargs):
         kwargs = super().get_context_data(**kwargs)
-        kwargs.update(student_list_data())
+        kwargs.update(student_list_data(kwargs.get('course')))
         return kwargs
 
 

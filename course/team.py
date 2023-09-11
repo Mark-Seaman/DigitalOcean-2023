@@ -141,5 +141,5 @@ def setup_teams():
     x.server = 'https://shrinking-world.com/sweng'
     x.save()
 
-    for t in Team.objects.all():
-        print(t.pk, t.name, t.github, t.server)
+    # for t in Team.objects.all():
+    #     print(t.pk, t.name, t.github, t.server)

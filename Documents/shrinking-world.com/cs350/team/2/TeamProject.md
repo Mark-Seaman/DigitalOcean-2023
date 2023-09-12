@@ -6,9 +6,10 @@ CS 350 Project Showcase
 
 **github** - [https://github.com/alexhovick/ShopZoneCS350](https://github.com/alexhovick/ShopZoneCS350)
 
-**server** - [https://clever-cucurucho-a93faa.netlify.app](https://clever-cucurucho-a93faa.netlify.app)
+**server** -  [https://shopzone-app.netlify.app](https://shopzone-app.netlify.app)
 
 ## Team Members
+
 
 ### [Milestone 1 Assignments](2/1)
 
@@ -17,7 +18,8 @@ CS 350 Project Showcase
 - Alex Hovick - Code
 - Elmore Siahaan - Test
 
-### Milestone 2 Assignments
+
+### [Milestone 2 Assignments](2/2)
 
 - Elmore Siahaan - Requirements
 - Dale Barriga - Design

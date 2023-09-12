@@ -17,7 +17,7 @@ CS 350 Project Showcase
 - Esi Mena - Code
 - Maxwell Seybert - Test
 
-### Milestone 2 Assignments
+### [Milestone 2 Assignments](3/2)
 
 - Maxwell Seybert - Requirements
 - Katie Haney-Osborn -  Design 

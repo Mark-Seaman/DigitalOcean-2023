@@ -6,6 +6,14 @@
 
 **Team Status Website**:  [Project Documents](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents)
 
+**Shrinking World Course**
+
+* [Requirements](https://seamanslog.com/sweng/m2-lesson-Lesson_5.md)
+* [Design](https://seamanslog.com/sweng/m2-lesson-Lesson_6.md)
+* [Code](https://seamanslog.com/sweng/m2-lesson-Lesson_7.md)
+* [Test](https://seamanslog.com/sweng/m2-lesson-Lesson_8.md)
+
+
 ---
 
 ## Milestone 2 Documents

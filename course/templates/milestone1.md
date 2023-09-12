@@ -1,16 +1,17 @@
 # {{ team.name }} - Milestone {{ milestone }} - Project Charter
 
-Description of Project ...   one paragraph
-
-Milestone 1 is the check point for launching a new project with a clear understanding
-of the business proposition, scope and priorities of the project, and the technology
-that will be used to create the desired solution.
-
 **Team Github Repo**:  [{{ team.github }}]({{ team.github }})
 
 **Team Application Server**:  [{{ team.server }}]({{ team.server }})
 
 **Team Status Website**:  [Project Documents]({{ team.github }}/tree/main/Documents)
+
+**Shrinking World Course**
+
+* [Requirements](https://seamanslog.com/sweng/m1-lesson-Lesson_1.md)
+* [Design](https://seamanslog.com/sweng/m1-lesson-Lesson_2.md)
+* [Code](https://seamanslog.com/sweng/m1-lesson-Lesson_3.md)
+* [Test](https://seamanslog.com/sweng/m1-lesson-Lesson_4.md)
 
 ---
 

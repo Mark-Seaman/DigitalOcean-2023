@@ -31,30 +31,6 @@ def get_page(team=None, milestone=None, role=None):
     # return read_page(path)
 
 
-def write_team_page(path, team, milestone=None):
-    path.parent.mkdir(exist_ok=True, parents=True)
-    t = Team.objects.get(pk=team)
-    template = 'team.md'
-    md = render_to_string(template, {'team': t, 'milestone': milestone})
-    if not path.exists():
-        path.write_text(md)
-
-
-def write_page(path, team=None, milestone=None):
-    if not path.exists():
-        path.parent.mkdir(exist_ok=True, parents=True)
-        if path.name == 'TeamProject.md':
-            template = 'team.md'
-        if milestone == '1' and path.name == 'Milestone.md':
-            template = 'milestone1.md'
-        if milestone == '2' and path.name == 'Milestone.md':
-            template = 'milestone2.md'
-        # if milestone == '1' and path.name == 'Feedback.md':
-        #     template = 'feedback1.md'
-        md = render_to_string(template, {'team': team, 'milestone': milestone})
-        path.write_text(md)
-
-
 def read_page(path):
     text = path.read_text()
     t = title(text)
@@ -74,12 +50,6 @@ def page_path(doc=None, team=None, milestone=None, role=None):
     if not role:
         return path/team/milestone/doc
     return path/team/milestone/role/doc
-
-    # t = Team.objects.get(pk=team)
-    # # print(f'create page: {team} {milestone} {role}')
-    # # print(t.pk, t.name, t.github, t.server)
-    # path = Path(f'Documents/shrinking-world.com/cs350/team/{t.pk}')
-    # return path
 
 
 def team_view_data(user, **kwargs):
@@ -146,3 +116,28 @@ def setup_teams():
 
     for t in Team.objects.all():
         print(t.pk, t.name, t.github, t.server)
+
+
+def write_team_page(path, team, milestone=None):
+    path.parent.mkdir(exist_ok=True, parents=True)
+    t = Team.objects.get(pk=team)
+    template = 'team.md'
+    md = render_to_string(template, {'team': t, 'milestone': milestone})
+    if not path.exists():
+        path.write_text(md)
+
+
+def write_page(path, team=None, milestone=None):
+    if not path.exists() or milestone=='2':
+        path.parent.mkdir(exist_ok=True, parents=True)
+        if path.name == 'TeamProject.md':
+            template = 'team.md'
+        if milestone == '1' and path.name == 'Milestone.md':
+            template = 'milestone1.md'
+        if milestone == '2' and path.name == 'Milestone.md':
+            template = 'milestone2.md'
+        # if milestone == '1' and path.name == 'Feedback.md':
+        #     template = 'feedback1.md'
+        md = render_to_string(template, {'team': team, 'milestone': milestone})
+        path.write_text(md)
+

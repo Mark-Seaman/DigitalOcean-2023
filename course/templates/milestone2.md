@@ -10,25 +10,25 @@
 
 ## Milestone {{ milestone }} Documents
 
-* [Requirements]({{ team.github }}/tree/main/Documents/Requirements) 
+* [Requirements]({{ team.github }}/tree/main/Documents/Milestone-2/Requirements) 
     * Product Features for Phase 1 - Minimum Viable Product
     * Product Features for Phase 2 - Future Enhancements
     * AI Prompts
     * Status Report with Video
 
-* [Design]({{ team.github }}/tree/main/Documents/Design)
+* [Design]({{ team.github }}/tree/main/Documents/Milestone-2/Design)
     * Software Architecture
     * Map of Data Types and Views
     * AI Prompts
     * Status Report with Video
 
-* [Code]({{ team.github }}/tree/main/Documents/Code)
+* [Code]({{ team.github }}/tree/main/Documents/Milestone-2/Code)
     * Prototype of most important feature
     * Automated test of the feature
     * AI Prompts
     * Status Report with Video
 
-* [Test]({{ team.github }}/tree/main/Documents/Test)
+* [Test]({{ team.github }}/tree/main/Documents/Milestone-2/Test)
     * One button deploy
     * Automated app test
     * AI Prompts

@@ -1,10 +1,4 @@
-# Ghost Writer - Milestone 2 - Project Charter
-
-Description of Project ...   one paragraph
-
-Milestone 1 is the check point for launching a new project with a clear understanding
-of the business proposition, scope and priorities of the project, and the technology
-that will be used to create the desired solution.
+# Ghost Writer - Milestone 2 - Technical Feasibility
 
 **Team Github Repo**:  [https://github.com/Mark-Seaman/GhostWriter](https://github.com/Mark-Seaman/GhostWriter)
 
@@ -16,27 +10,27 @@ that will be used to create the desired solution.
 
 ## Milestone 2 Documents
 
-* [Requirements](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Requirements) - 
-    * Project Charter
-    * Project Scope and Budget
+* [Requirements](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Milestone-2/Requirements) 
+    * Product Features for Phase 1 - Minimum Viable Product
+    * Product Features for Phase 2 - Future Enhancements
     * AI Prompts
     * Status Report with Video
 
-* [Design](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Design) - 
-    * Technology Selection Report
-    * Tool Chain Setup Guide
+* [Design](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Milestone-2/Design)
+    * Software Architecture
+    * Map of Data Types and Views
     * AI Prompts
     * Status Report with Video
 
-* [Code](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Code) - 
-    * Github Repo
-    * Documentation Guide
+* [Code](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Milestone-2/Code)
+    * Prototype of most important feature
+    * Automated test of the feature
     * AI Prompts
     * Status Report with Video
 
-* [Test](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Test) - 
-    * Application Server URL
-    * App Hosting Guide
+* [Test](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Milestone-2/Test)
+    * One button deploy
+    * Automated app test
     * AI Prompts
     * Status Report with Video
 

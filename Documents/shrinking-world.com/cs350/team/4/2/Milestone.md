@@ -10,25 +10,25 @@
 
 ## Milestone 2 Documents
 
-* [Requirements](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Requirements) 
+* [Requirements](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-2/Requirements) 
     * Product Features for Phase 1 - Minimum Viable Product
     * Product Features for Phase 2 - Future Enhancements
     * AI Prompts
     * Status Report with Video
 
-* [Design](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Design)
+* [Design](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-2/Design)
     * Software Architecture
     * Map of Data Types and Views
     * AI Prompts
     * Status Report with Video
 
-* [Code](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Code)
+* [Code](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-2/Code)
     * Prototype of most important feature
     * Automated test of the feature
     * AI Prompts
     * Status Report with Video
 
-* [Test](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Test)
+* [Test](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-2/Test)
     * One button deploy
     * Automated app test
     * AI Prompts

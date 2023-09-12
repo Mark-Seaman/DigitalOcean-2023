@@ -10,6 +10,7 @@ CS 350 Project Showcase
 
 ## Team Member Assignments
 
+
 ### [Milestone 1 Assignments](1/1)
 
 - Ryan Lunas - Requirements
@@ -17,7 +18,8 @@ CS 350 Project Showcase
 - Josh Flatt - Code
 - Kyle Longaker - Test
 
-### Milestone 2 Assignments
+
+### [Milestone 2 Assignments](1/2)
 
 - Kyle Longaker - Requirements
 - Ryan Lunas - Design

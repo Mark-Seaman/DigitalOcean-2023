@@ -47,6 +47,8 @@ def write_page(path, team=None, milestone=None):
             template = 'team.md'
         if milestone == '1' and path.name == 'Milestone.md':
             template = 'milestone1.md'
+        if milestone == '2' and path.name == 'Milestone.md':
+            template = 'milestone2.md'
         # if milestone == '1' and path.name == 'Feedback.md':
         #     template = 'feedback1.md'
         md = render_to_string(template, {'team': team, 'milestone': milestone})
@@ -107,6 +109,7 @@ def setup_team_pages():
     for t in Team.objects.all():
         get_page(str(t.pk))
         get_page(str(t.pk), '1')
+        get_page(str(t.pk), '2')
 
 
 def setup_teams():
@@ -141,5 +144,5 @@ def setup_teams():
     x.server = 'https://shrinking-world.com/sweng'
     x.save()
 
-    # for t in Team.objects.all():
-    #     print(t.pk, t.name, t.github, t.server)
+    for t in Team.objects.all():
+        print(t.pk, t.name, t.github, t.server)

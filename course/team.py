@@ -128,7 +128,7 @@ def write_team_page(path, team, milestone=None):
 
 
 def write_page(path, team=None, milestone=None):
-    if not path.exists() or milestone=='2':
+    if not path.exists() or milestone == '1' or milestone == '2':
         path.parent.mkdir(exist_ok=True, parents=True)
         if path.name == 'TeamProject.md':
             template = 'team.md'
@@ -140,4 +140,3 @@ def write_page(path, team=None, milestone=None):
         #     template = 'feedback1.md'
         md = render_to_string(template, {'team': team, 'milestone': milestone})
         path.write_text(md)
-

@@ -1,48 +1,41 @@
 # Instagram - Milestone 1 - Project Charter
 
-Description of Project ...   one paragraph
-
-Milestone 1 is the check point for launching a new project with a clear understanding
-of the business proposition, scope and priorities of the project, and the technology
-that will be used to create the desired solution.
-
 **Team Github Repo**:  [https://github.com/Esi-Mena/Instagram](https://github.com/Esi-Mena/Instagram)
 
 **Team Application Server**:  [https://instagram-production.up.railway.app](https://instagram-production.up.railway.app)
 
 **Team Status Website**:  [Project Documents](https://github.com/Esi-Mena/Instagram/tree/main/Documents)
 
+**Shrinking World Course**
+
+* [Requirements](https://seamanslog.com/sweng/m1-lesson-Lesson_1.md)
+* [Design](https://seamanslog.com/sweng/m1-lesson-Lesson_2.md)
+* [Code](https://seamanslog.com/sweng/m1-lesson-Lesson_3.md)
+* [Test](https://seamanslog.com/sweng/m1-lesson-Lesson_4.md)
+
 ---
 
-## Milestone 1 Assignments
+## Milestone 1 Documents
 
-- Katie Haney-Osborn -  Requirements
-- Elfaz Mandefro - Design 
-- Esi Mena - Code
-- Maxwell Seybert - Test
-
-
-## [Milestone 1 Documents](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-1)
-
-* [Requirements](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-1/Requirements) - 
+* [Requirements](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Requirements) - 
     * Project Charter
     * Project Scope and Budget
     * AI Prompts
     * Status Report with Video
 
-* [Design](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-1/Design) - 
+* [Design](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Design) - 
     * Technology Selection Report
     * Tool Chain Setup Guide
     * AI Prompts
     * Status Report with Video
 
-* [Code](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-1/Code) - 
+* [Code](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Code) - 
     * Github Repo
     * Documentation Guide
     * AI Prompts
     * Status Report with Video
 
-* [Test](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-1/Test) - 
+* [Test](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Test) - 
     * Application Server URL
     * App Hosting Guide
     * AI Prompts

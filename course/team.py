@@ -91,7 +91,7 @@ def setup_teams():
 
     x = Team.objects.get(pk=1)
     x.github = 'https://github.com/josh-flatt/cs350'
-    x.server = ''
+    x.server = 'https://plankton-app-5fssv.ondigitalocean.app'
     x.save()
 
     x = Team.objects.get(pk=2)

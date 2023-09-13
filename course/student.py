@@ -19,8 +19,8 @@ def button_html(url, text):
     return f'<a class="btn btn-success" href="{url}">{text}</a>'
 
 
-def link_html(url, text):
-    return f'<a class="text-success" href="{url}">{text}</a>'
+def link_html(url, text, target='page'):
+    return f'<a class="text-success" href="{url}" target="{target}">{text}</a>'
 
 
 def create_student(**kwargs):
@@ -55,11 +55,11 @@ def list_students(course):
             label2 = x.github
             url3 = x.server
             label3 = x.server
-            return dict(url1=link_html(url1, label1),
+            return dict(url1=link_html(url1, label1, 'student'),
                         course=x.course.name,
                         email=x.user.email,
-                        url2=link_html(url2, label2),
-                        url3=link_html(url3, label3))
+                        url2=link_html(url2, label2, 'github'),
+                        url3=link_html(url3, label3, 'server'))
         except:
             print("**** EXCEPTION: x")
 

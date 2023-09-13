@@ -16,7 +16,7 @@
 
 ---
 
-## Milestone {{ milestone }} Documents
+## [Milestone {{ milestone }} Documents]({{ team.github }}/tree/main/Documents/Milestone-2)
 
 * [Requirements]({{ team.github }}/tree/main/Documents/Milestone-2/Requirements) 
     * Product Features for Phase 1 - Minimum Viable Product

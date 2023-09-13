@@ -16,7 +16,7 @@
 
 ---
 
-## Milestone 2 Documents
+## [Milestone 2 Documents](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-2)
 
 * [Requirements](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-2/Requirements) 
     * Product Features for Phase 1 - Minimum Viable Product

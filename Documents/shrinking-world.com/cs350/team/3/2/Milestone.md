@@ -16,7 +16,7 @@
 
 ---
 
-## Milestone 2 Documents
+## [Milestone 2 Documents](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-2)
 
 * [Requirements](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-2/Requirements) 
     * Product Features for Phase 1 - Minimum Viable Product

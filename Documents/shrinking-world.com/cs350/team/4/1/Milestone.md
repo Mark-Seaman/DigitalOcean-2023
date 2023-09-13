@@ -15,27 +15,28 @@
 
 ---
 
-## Milestone 1 Documents
+## [Milestone 1 Documents](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-1)
 
-* [Requirements](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Requirements) - 
+
+* [Requirements](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-1/Requirements)
     * Project Charter
     * Project Scope and Budget
     * AI Prompts
     * Status Report with Video
 
-* [Design](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Design) - 
+* [Design](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-1/Design) 
     * Technology Selection Report
     * Tool Chain Setup Guide
     * AI Prompts
     * Status Report with Video
 
-* [Code](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Code) - 
+* [Code](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-1/Code)
     * Github Repo
     * Documentation Guide
     * AI Prompts
     * Status Report with Video
 
-* [Test](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Test) - 
+* [Test](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-1/Test)
     * Application Server URL
     * App Hosting Guide
     * AI Prompts

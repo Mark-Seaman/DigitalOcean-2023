@@ -15,27 +15,28 @@
 
 ---
 
-## Milestone {{ milestone }} Documents
+## [Milestone {{ milestone }} Documents]({{ team.github }}/tree/main/Documents/Milestone-1)
 
-* [Requirements]({{ team.github }}/tree/main/Documents/Requirements) - 
+
+* [Requirements]({{ team.github }}/tree/main/Documents/Milestone-1/Requirements)
     * Project Charter
     * Project Scope and Budget
     * AI Prompts
     * Status Report with Video
 
-* [Design]({{ team.github }}/tree/main/Documents/Design) - 
+* [Design]({{ team.github }}/tree/main/Documents/Milestone-1/Design) 
     * Technology Selection Report
     * Tool Chain Setup Guide
     * AI Prompts
     * Status Report with Video
 
-* [Code]({{ team.github }}/tree/main/Documents/Code) - 
+* [Code]({{ team.github }}/tree/main/Documents/Milestone-1/Code)
     * Github Repo
     * Documentation Guide
     * AI Prompts
     * Status Report with Video
 
-* [Test]({{ team.github }}/tree/main/Documents/Test) - 
+* [Test]({{ team.github }}/tree/main/Documents/Milestone-1/Test)
     * Application Server URL
     * App Hosting Guide
     * AI Prompts

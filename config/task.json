@@ -94,415 +94,7 @@
 },
 {
     "model": "task.task",
-    "pk": 371,
-    "fields": {
-        "name": "Grow",
-        "activity": 9,
-        "notes": "    walk",
-        "date": "2023-08-26",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 372,
-    "fields": {
-        "name": "Teach",
-        "activity": 4,
-        "notes": "    ideas for Student Project Workspace\n    design for Student Project Workspace\n    URLs (/course/<int:course>/<int:student>/<int:project>/<int:docs>)\n    create workspace code with TDD",
-        "date": "2023-08-26",
-        "hours": 9,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 373,
-    "fields": {
-        "name": "Family",
-        "activity": 1,
-        "notes": "    family celebration with Josiah",
-        "date": "2023-08-26",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 374,
-    "fields": {
-        "name": "Grow",
-        "activity": 9,
-        "notes": "    walk\n    nap",
-        "date": "2023-08-27",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 375,
-    "fields": {
-        "name": "Church",
-        "activity": 2,
-        "notes": "    church service",
-        "date": "2023-08-27",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 376,
-    "fields": {
-        "name": "Family",
-        "activity": 1,
-        "notes": "    visit UNC with Lancasters",
-        "date": "2023-08-27",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 377,
-    "fields": {
-        "name": "Teach",
-        "activity": 4,
-        "notes": "    build email login",
-        "date": "2023-08-27",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 378,
-    "fields": {
-        "name": "Fun",
-        "activity": 8,
-        "notes": "    White Collar",
-        "date": "2023-08-27",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 509,
-    "fields": {
-        "name": "Teach",
-        "activity": 4,
-        "notes": "    Josiah speaks at both classes\n    server builds will not complete\n    problems with class preparation",
-        "date": "2023-08-28",
-        "hours": 10,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 510,
-    "fields": {
-        "name": "Grow",
-        "activity": 9,
-        "notes": "    walk",
-        "date": "2023-08-28",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 511,
-    "fields": {
-        "name": "Fun",
-        "activity": 8,
-        "notes": "    read books\n    buy American Nations",
-        "date": "2023-08-28",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 512,
-    "fields": {
-        "name": "Grow",
-        "activity": 9,
-        "notes": "    walk",
-        "date": "2023-08-29",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 513,
-    "fields": {
-        "name": "Family",
-        "activity": 1,
-        "notes": "    Sol de Jalisco with Lancasters",
-        "date": "2023-08-29",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 514,
-    "fields": {
-        "name": "Innovate",
-        "activity": 3,
-        "notes": "    work on server problem",
-        "date": "2023-08-29",
-        "hours": 10,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 515,
-    "fields": {
-        "name": "Fun",
-        "activity": 8,
-        "notes": "    Games",
-        "date": "2023-08-29",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 516,
-    "fields": {
-        "name": "Grow",
-        "activity": 9,
-        "notes": "    personal crisis\n    ",
-        "date": "2023-08-30",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 517,
-    "fields": {
-        "name": "Teach",
-        "activity": 4,
-        "notes": "    work on server issue at Digital Ocean",
-        "date": "2023-08-30",
-        "hours": 10,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 518,
-    "fields": {
-        "name": "Family",
-        "activity": 1,
-        "notes": "    Stacie has bike tire blowout",
-        "date": "2023-08-30",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 519,
-    "fields": {
-        "name": "Fun",
-        "activity": 8,
-        "notes": "    Ahsoka",
-        "date": "2023-08-30",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 520,
-    "fields": {
-        "name": "Innovate",
-        "activity": 3,
-        "notes": "    resolve server deployment issue\n    change build script \n    write Julio",
-        "date": "2023-08-31",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 521,
-    "fields": {
-        "name": "Family",
-        "activity": 1,
-        "notes": "    trip to Estes Park with Lancasters\n    walk around Lilly Lake",
-        "date": "2023-08-31",
-        "hours": 9,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 522,
-    "fields": {
-        "name": "Grow",
-        "activity": 9,
-        "notes": "    nap",
-        "date": "2023-08-31",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 523,
-    "fields": {
-        "name": "Fun",
-        "activity": 8,
-        "notes": "    watch TV with Stacie",
-        "date": "2023-08-31",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 524,
-    "fields": {
-        "name": "Grow",
-        "activity": 9,
-        "notes": "    \n    record time\n    walk\n    watch balloons launch\n    self awareness and emotional needs",
-        "date": "2023-09-01",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 525,
-    "fields": {
-        "name": "Innovate",
-        "activity": 3,
-        "notes": "    create import view to build pubs, courses, students\n    update code on Digital Ocean\n    fix issue with SHRINKING-WORLD-PUBS var\n    remove Student data model\n    add Student data model\n    iterations on production server\n    exception handling",
-        "date": "2023-09-01",
-        "hours": 6,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 526,
-    "fields": {
-        "name": "Teach",
-        "activity": 4,
-        "notes": "    communicate with students",
-        "date": "2023-09-01",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 527,
-    "fields": {
-        "name": "Family",
-        "activity": 1,
-        "notes": "    visit with Duke and Marie\n    ",
-        "date": "2023-09-01",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 528,
-    "fields": {
-        "name": "Fun",
-        "activity": 8,
-        "notes": "    watch hot air balloon launch",
-        "date": "2023-09-02",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 529,
-    "fields": {
-        "name": "Family",
-        "activity": 1,
-        "notes": "    pick up Stacie's Trike\n    my birthday party",
-        "date": "2023-09-02",
-        "hours": 6,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 530,
-    "fields": {
-        "name": "ProMETA",
-        "activity": 7,
-        "notes": "    user construction design pattern",
-        "date": "2023-09-02",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 531,
-    "fields": {
-        "name": "Church",
-        "activity": 2,
-        "notes": "    church in Greeley\n    talk with Duke  ",
-        "date": "2023-09-03",
-        "hours": 7,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 532,
-    "fields": {
-        "name": "Family",
-        "activity": 1,
-        "notes": "    time with Stacie",
-        "date": "2023-09-03",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 533,
-    "fields": {
-        "name": "Grow",
-        "activity": 9,
-        "notes": "    nap",
-        "date": "2023-09-03",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 534,
-    "fields": {
-        "name": "Fun",
-        "activity": 8,
-        "notes": "    balloon festival\n    Jupiter's Legacy",
-        "date": "2023-09-03",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 609,
+    "pk": 833,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -514,7 +106,7 @@
 },
 {
     "model": "task.task",
-    "pk": 610,
+    "pk": 834,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -526,7 +118,7 @@
 },
 {
     "model": "task.task",
-    "pk": 611,
+    "pk": 835,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -538,7 +130,7 @@
 },
 {
     "model": "task.task",
-    "pk": 612,
+    "pk": 836,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -550,7 +142,7 @@
 },
 {
     "model": "task.task",
-    "pk": 613,
+    "pk": 837,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -562,7 +154,7 @@
 },
 {
     "model": "task.task",
-    "pk": 614,
+    "pk": 838,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -574,7 +166,7 @@
 },
 {
     "model": "task.task",
-    "pk": 615,
+    "pk": 839,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -586,7 +178,7 @@
 },
 {
     "model": "task.task",
-    "pk": 616,
+    "pk": 840,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -598,7 +190,7 @@
 },
 {
     "model": "task.task",
-    "pk": 617,
+    "pk": 841,
     "fields": {
         "name": "Church",
         "activity": 2,
@@ -610,7 +202,7 @@
 },
 {
     "model": "task.task",
-    "pk": 618,
+    "pk": 842,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -622,7 +214,7 @@
 },
 {
     "model": "task.task",
-    "pk": 619,
+    "pk": 843,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -634,7 +226,7 @@
 },
 {
     "model": "task.task",
-    "pk": 620,
+    "pk": 844,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -646,7 +238,7 @@
 },
 {
     "model": "task.task",
-    "pk": 621,
+    "pk": 845,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -658,7 +250,7 @@
 },
 {
     "model": "task.task",
-    "pk": 622,
+    "pk": 846,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -670,7 +262,7 @@
 },
 {
     "model": "task.task",
-    "pk": 623,
+    "pk": 847,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -682,7 +274,7 @@
 },
 {
     "model": "task.task",
-    "pk": 624,
+    "pk": 848,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -694,7 +286,7 @@
 },
 {
     "model": "task.task",
-    "pk": 625,
+    "pk": 849,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -706,7 +298,7 @@
 },
 {
     "model": "task.task",
-    "pk": 626,
+    "pk": 850,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -718,7 +310,7 @@
 },
 {
     "model": "task.task",
-    "pk": 627,
+    "pk": 851,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -730,7 +322,7 @@
 },
 {
     "model": "task.task",
-    "pk": 628,
+    "pk": 852,
     "fields": {
         "name": "Church",
         "activity": 2,
@@ -742,7 +334,7 @@
 },
 {
     "model": "task.task",
-    "pk": 629,
+    "pk": 853,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -754,7 +346,7 @@
 },
 {
     "model": "task.task",
-    "pk": 630,
+    "pk": 854,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -766,7 +358,7 @@
 },
 {
     "model": "task.task",
-    "pk": 631,
+    "pk": 855,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -778,7 +370,7 @@
 },
 {
     "model": "task.task",
-    "pk": 632,
+    "pk": 856,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -790,7 +382,7 @@
 },
 {
     "model": "task.task",
-    "pk": 633,
+    "pk": 857,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -802,7 +394,7 @@
 },
 {
     "model": "task.task",
-    "pk": 634,
+    "pk": 858,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -814,7 +406,7 @@
 },
 {
     "model": "task.task",
-    "pk": 635,
+    "pk": 859,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -826,7 +418,7 @@
 },
 {
     "model": "task.task",
-    "pk": 636,
+    "pk": 860,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -838,7 +430,7 @@
 },
 {
     "model": "task.task",
-    "pk": 637,
+    "pk": 861,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -850,7 +442,7 @@
 },
 {
     "model": "task.task",
-    "pk": 638,
+    "pk": 862,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -862,7 +454,7 @@
 },
 {
     "model": "task.task",
-    "pk": 639,
+    "pk": 863,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -874,7 +466,7 @@
 },
 {
     "model": "task.task",
-    "pk": 640,
+    "pk": 864,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -886,7 +478,7 @@
 },
 {
     "model": "task.task",
-    "pk": 641,
+    "pk": 865,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -898,7 +490,7 @@
 },
 {
     "model": "task.task",
-    "pk": 642,
+    "pk": 866,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -910,7 +502,7 @@
 },
 {
     "model": "task.task",
-    "pk": 643,
+    "pk": 867,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -922,7 +514,7 @@
 },
 {
     "model": "task.task",
-    "pk": 644,
+    "pk": 868,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -934,13 +526,1345 @@
 },
 {
     "model": "task.task",
-    "pk": 645,
+    "pk": 869,
     "fields": {
         "name": "Church",
         "activity": 2,
         "notes": "    Emotionally Healthy Relationships",
         "date": "2023-02-01",
         "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 949,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    stay home from church to work",
+        "date": "2023-08-13",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 950,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    build \"Engineering App\"\n    create content plan for SWENG\n    create assignments for Milestone 1\n    build process of for assignment pages\n    build canvas classes\n    create design for testing student pages",
+        "date": "2023-08-13",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 951,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    extend todo script to show Today.md and Daily directory\n    rename \"courses\" from \"textbooks\"",
+        "date": "2023-08-13",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 952,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    login with email",
+        "date": "2023-08-13",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 953,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Ready Player One",
+        "date": "2023-08-13",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 954,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Stacie visits Dee Dee (eye issue with Steve)",
+        "date": "2023-08-14",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 955,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    create Todo list for release\n    delete obsolete documents\n    fix checkbox display\n    improve user edit view\n    update engineering log (321 hours so far)\n    simplify templates\n    review progress with Stacie\n    import student data into production system\n    import professor data into production system\n    convert to real administrative users\n    build official data load",
+        "date": "2023-08-14",
+        "hours": 11,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 956,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    My Big Fat Greek Wedding",
+        "date": "2023-08-14",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 957,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    Software Engineering Course Repo\n    Documents, Application structure\n    Ghost Writer demonstration docs\n    build showcase example\n    build website for courses\n    create syllabi for CS350 and BACS350\n    work on structure of one lesson\n    install pandoc\n    download contract (can't print)",
+        "date": "2023-08-15",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 958,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Ruby and Valor visit (anniversary dinner)",
+        "date": "2023-08-15",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 959,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    White Collar",
+        "date": "2023-08-15",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 960,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    plan out course content infrastructure and resources\n    lunch with Vish",
+        "date": "2023-08-16",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 961,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    review progress with Stacie\n    fix Professors in section file (long string)\n    clean up section data\n    clean up professor data with emails\n    add tests\n    build enrollment back end",
+        "date": "2023-08-16",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 962,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    loan car to Rachel",
+        "date": "2023-08-17",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 963,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    localization\n    enrollment UI",
+        "date": "2023-08-17",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 964,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    library\n    Heart movie",
+        "date": "2023-08-17",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 965,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Stacie goes to ER\n    EKG and CAT scan\n    admitted to hospital\n    communicate with family",
+        "date": "2023-08-18",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 966,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    develop content for Software Engineering",
+        "date": "2023-08-18",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 967,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Stacie in stress test\n    wait in hospital\n    Stacie goes home",
+        "date": "2023-08-19",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 968,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    \n    create CS350 content\n    build small notes and try to figure out the organization\n    work in hospital room on course",
+        "date": "2023-08-19",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 969,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-08-20",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 970,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    Software Engineering course preparation planning\n    integrate hospital content\n    create lessons & solutions\n    build \"Software Engineering\" @ Shrinking-World.org\n    publish content for Milestone 1\n    update \"Python Web Apps\" @ Shrinking-World.org",
+        "date": "2023-08-20",
+        "hours": 11,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 971,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Murders in the Building\n    Solitaire",
+        "date": "2023-08-20",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 972,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    planning for first day\n    work on student registration\n    login with email\n    student server access\n    first day of class",
+        "date": "2023-08-21",
+        "hours": 11,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 973,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    dinner with Stacie at Lucky Fin's",
+        "date": "2023-08-21",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 974,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Game Night",
+        "date": "2023-08-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 975,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    design for student accounts\n    login with email, password reset, teachable messaging\n    student workspace plan\n    visit library\n    create tests for users and login",
+        "date": "2023-08-22",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 976,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-08-22",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 977,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    house cleaning\n    time with Stacie",
+        "date": "2023-08-22",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 978,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Ahsoka\n    White Collar",
+        "date": "2023-08-22",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 979,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    second day of class\n    create team assignments for CS350",
+        "date": "2023-08-23",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 980,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-08-23",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 981,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Josiah gets a Job and Pivot Bio",
+        "date": "2023-08-23",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 982,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    White Collar",
+        "date": "2023-08-23",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 983,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-08-24",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 984,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    Duke and Maria arrive",
+        "date": "2023-08-24",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 985,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    work on login with email\n    build student import with tests",
+        "date": "2023-08-24",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 986,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    work on accepting student applications and creating new student\n    build student edit form\n    build professor view",
+        "date": "2023-08-24",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 987,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-08-25",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 988,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    build tests for student import\n    import new list of students (27)\n    debug login with email\n    plan Student Project Workspace",
+        "date": "2023-08-25",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 989,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    fix issue with task manager",
+        "date": "2023-08-25",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 990,
+    "fields": {
+        "name": "Write",
+        "activity": 5,
+        "notes": "    talk with Duke about writing with AI",
+        "date": "2023-08-25",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 991,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    time with Duke and Marie",
+        "date": "2023-08-25",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 992,
+    "fields": {
+        "name": "Business",
+        "activity": 6,
+        "notes": "    initiate new withdrawal",
+        "date": "2023-08-25",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 993,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Out-laws",
+        "date": "2023-08-25",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 994,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-08-26",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 995,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    ideas for Student Project Workspace\n    design for Student Project Workspace\n    URLs (/course/<int:course>/<int:student>/<int:project>/<int:docs>)\n    create workspace code with TDD",
+        "date": "2023-08-26",
+        "hours": 9,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 996,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    family celebration with Josiah",
+        "date": "2023-08-26",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 997,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk\n    nap",
+        "date": "2023-08-27",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 998,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    church service",
+        "date": "2023-08-27",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 999,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    visit UNC with Lancasters",
+        "date": "2023-08-27",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1000,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    build email login",
+        "date": "2023-08-27",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1001,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    White Collar",
+        "date": "2023-08-27",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1002,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    Josiah speaks at both classes\n    server builds will not complete\n    problems with class preparation",
+        "date": "2023-08-28",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1003,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-08-28",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1004,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    read books\n    buy American Nations",
+        "date": "2023-08-28",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1005,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-08-29",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1006,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Sol de Jalisco with Lancasters",
+        "date": "2023-08-29",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1007,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    work on server problem",
+        "date": "2023-08-29",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1008,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Games",
+        "date": "2023-08-29",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1009,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    personal crisis\n    ",
+        "date": "2023-08-30",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1010,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    work on server issue at Digital Ocean",
+        "date": "2023-08-30",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1011,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Stacie has bike tire blowout",
+        "date": "2023-08-30",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1012,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Ahsoka",
+        "date": "2023-08-30",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1013,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    resolve server deployment issue\n    change build script \n    write Julio",
+        "date": "2023-08-31",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1014,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    trip to Estes Park with Lancasters\n    walk around Lilly Lake",
+        "date": "2023-08-31",
+        "hours": 9,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1015,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    nap",
+        "date": "2023-08-31",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1016,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    watch TV with Stacie",
+        "date": "2023-08-31",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1017,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    \n    record time\n    walk\n    watch balloons launch\n    self awareness and emotional needs",
+        "date": "2023-09-01",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1018,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    create import view to build pubs, courses, students\n    update code on Digital Ocean\n    fix issue with SHRINKING-WORLD-PUBS var\n    remove Student data model\n    add Student data model\n    iterations on production server\n    exception handling",
+        "date": "2023-09-01",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1019,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    communicate with students",
+        "date": "2023-09-01",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1020,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    visit with Duke and Marie\n    ",
+        "date": "2023-09-01",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1021,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    watch hot air balloon launch",
+        "date": "2023-09-02",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1022,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    pick up Stacie's Trike\n    my birthday party\n    food from Cafe Athens",
+        "date": "2023-09-02",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1023,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    user construction design pattern",
+        "date": "2023-09-02",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1024,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    church in Greeley\n    talk with Duke  \n    discuss medications",
+        "date": "2023-09-03",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1025,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    time with Stacie",
+        "date": "2023-09-03",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1026,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    nap",
+        "date": "2023-09-03",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1027,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    balloon festival\n    Jupiter's Legacy",
+        "date": "2023-09-03",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1028,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-09-04",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1029,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    use TDD to refactor make_user()\n    create User, Students, Professors, Registrars\n    deploy and test and debug",
+        "date": "2023-09-04",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1030,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Rachel and kids and Christine\n    Lancasters day trip to Wyoming",
+        "date": "2023-09-04",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1031,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    3rd day of balloons\n    Portrait of a Spy",
+        "date": "2023-09-04",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1032,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    time with God\n    ",
+        "date": "2023-09-05",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1033,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    post announcements to BACS 350\n    post announcements to CS 350\n    design CS350 Project Website\n    create templates for building CS350 project docs\n    project management guidance for students",
+        "date": "2023-09-05",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1034,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    dinner at Pelican Lakes with Lancasters",
+        "date": "2023-09-05",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1035,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Ahsoka\n    White Collar\n    Portrait of a Spy",
+        "date": "2023-09-05",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1036,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    plan for CS350 course\n    create teaching aliases (ba,cs,sw)\n    create new content for classes\n    classes at UNC\n    setup engineering expectations",
+        "date": "2023-09-06",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1037,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-09-06",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1038,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Rachel finds wedding ring",
+        "date": "2023-09-06",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1039,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    White Collar\n    Murders in the Building",
+        "date": "2023-09-06",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1040,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    time with God",
+        "date": "2023-09-07",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1041,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    breakfast with Stacie at First Watch\n    dinner with Stacie at Peculiars",
+        "date": "2023-09-07",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1042,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    work on complete UX with Stacie",
+        "date": "2023-09-07",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1043,
+    "fields": {
+        "name": "Business",
+        "activity": 6,
+        "notes": "    get windshield in Tesla\n    pick up lost credit card",
+        "date": "2023-09-07",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1044,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    King Richard\n    Big Bang",
+        "date": "2023-09-07",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1045,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    Dr Rhoads\n    personal reflection\n    pick up alpremazul\n    nap",
+        "date": "2023-09-08",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1046,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Doc Hollywood\n    Big Bang",
+        "date": "2023-09-08",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1047,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk\n    time accounting",
+        "date": "2023-09-09",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1048,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    think about partnerships with ProMETA",
+        "date": "2023-09-09",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1049,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    grade BACS350 projects and readings\n    evaluate CS350 projects\n    create instructions for student projects\n    ",
+        "date": "2023-09-09",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1050,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Portrait of a Spy\n    Blue Zones",
+        "date": "2023-09-09",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1051,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    nap",
+        "date": "2023-09-10",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1052,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    church in Greeley\n    Brian and Dianna at Coyotes",
+        "date": "2023-09-10",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1053,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    time with Stacie",
+        "date": "2023-09-10",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1054,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Hobbit 1\n    Portrait of a Spy\n    Founding of Tidewater\n    Blue Zones",
+        "date": "2023-09-10",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1055,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    Duke and Marie return",
+        "date": "2023-09-11",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1056,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    help Bre with tools\n    build plan for Milestone 2\n    work on CS350 and SWENG websites\n    create video for structure of Github repo",
+        "date": "2023-09-11",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1057,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    work login for created users",
+        "date": "2023-09-11",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1058,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    grill salmon",
+        "date": "2023-09-11",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 1059,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Hobbit 2\n    Founding of Deep South & Midlands",
+        "date": "2023-09-11",
+        "hours": 3,
         "done": false
     }
 }

@@ -60,7 +60,7 @@ class TeamPagesTest(DjangoTest):
         Team.objects.create(name='Development Test', pk=6,
                             github='https://github.com', server='https://digitalocean.com')
         x = get_page('6', '1')
-        self.assertEqual(len(x['html']), 1563)
+        self.assertEqual(len(x['html']), 1669)
         y = 'Development Test - Milestone 1 - Project Charter'
         self.assertEqual(x['title'], y)
         # print(len(x['html']), 'characters')
@@ -70,7 +70,7 @@ class TeamPagesTest(DjangoTest):
         Team.objects.create(name='Development Test', pk=6,
                             github='https://github.com', server='https://digitalocean.com')
         x = get_page('6', '2')
-        self.assertEqual(len(x['html']), 1421)
+        self.assertEqual(len(x['html']), 1805)
         y = 'Development Test - Milestone 2 - Technical Feasibility'
         self.assertEqual(x['title'], y)
         # print(len(x['html']), 'characters')

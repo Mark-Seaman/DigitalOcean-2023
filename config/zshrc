@@ -23,6 +23,7 @@ export d=$p/Documents
 export g=$HOME/Github
 export a=$HOME/Archive
 export i=$p/static/images
+export k='./Library/Containers/com.amazon.Kindle/Data/Library/Application Support/Kindle/My Kindle Content'
 export m="$a/rcp/mbw"
 export n=$a/ntsh
 export o=$d/shrinking-world.org

@@ -7,13 +7,13 @@
 **Milestone 1**: [Milestone 1 Documents](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-1)
 
 
-## Project Status - Trello - **COMPLETE**
+## Project Status - <b class="green p-2">MILESTONE 1 COMPLETE</b>
 
 Please complete the assigned work for Milestone 1 and email to reassess.
 
 Milestone 1 Assignments
 
-* Conner Hubbell - Requirements  - **COMPLETE**  - Superstar
+* Conner Hubbell - Requirements  - **COMPLETE**  ...  <b class="green p-2">Superstar</b>
 * Alex Hart      - Design        - **COMPLETE**
 * Shane Loewe    - Code          - **COMPLETE**
 * Joel Lefevre   - Test          - **COMPLETE**

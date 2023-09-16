@@ -1,6 +1,7 @@
 # Client Feedback - Amazon - Milestone 1
 
-## Project Status - Amazon - **COMPLETE**
+## Project Status - <b class="green p-2">MILESTONE 1 COMPLETE</b>
+
 
 Please complete the assigned work for Milestone 1 and email to reassess.
 
@@ -15,7 +16,7 @@ Please complete the assigned work for Milestone 1 and email to reassess.
 
 - Dale Barriga   - Requirements  - **COMPLETE**
 - Seth Hatch     - Design        - **INCOMPLETE**
-- Alex Hovick    - Code          - **COMPLETE**  - Superstar
+- Alex Hovick    - Code          - **COMPLETE** ...  <b class="green p-2">Superstar</b>
 - Elmore Siahaan - Test          - **COMPLETE**
 
 

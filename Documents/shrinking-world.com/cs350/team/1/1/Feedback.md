@@ -7,20 +7,18 @@
 **Milestone 1**: [Milestone 1 Documents](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-1)
 
 
-## Project Status - https://plankton-app-5fssv.ondigitalocean.app - **COMPLETE**
+## Project Status - <b class="green p-2">MILESTONE 1 COMPLETE</b>
 
 Please complete the assigned work for Milestone 1 and email to reassess.
 
 Milestone 1 Assignments
 
 - Ryan Lunas    - Requirements  - **COMPLETE**
-- Evan Duffield - Design        - **COMPLETE** - Superstar
+- Evan Duffield - Design        - **COMPLETE**  ...  <b class="green p-2">Superstar</b>
 - Josh Flatt    - Code          - **COMPLETE**
 - Kyle Longaker - Test          - **INCOMPLETE**
 
 ## Feedback for Engineering Team
-
-* [Milestone 1 Documents](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-1)
 
 * [Requirements](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-1/Requirements) - **COMPLETE**
     * Excellent work - very complete and well documented.

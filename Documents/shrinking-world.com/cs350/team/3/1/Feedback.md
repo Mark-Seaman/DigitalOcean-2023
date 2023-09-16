@@ -7,7 +7,7 @@
 **Milestone 1**: [Milestone 1 Documents](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-1)
 
 
-## Project Status - Instagram - **COMPLETE**
+## Project Status - <b class="green p-2">MILESTONE 1 COMPLETE</b>
 
 Please complete the assigned work for Milestone 1 and email to reassess.
 
@@ -16,7 +16,7 @@ Milestone 1 Assignments
 * Katie Haney-Osborn - Requirements  - **INCOMPLETE**
 * Elfaz Mandefro    - Design        - **COMPLETE**
 * Esi Mena          - Code          - **COMPLETE**
-* Maxwell Seybert   - Test          - **COMPLETE**  - Superstar
+* Maxwell Seybert   - Test          - **COMPLETE**  ...  <b class="green p-2">Superstar</b>
 
 
 ## Feedback for Engineering Team

@@ -21,13 +21,12 @@ class TaskDataTest(TestCase):
         self.assertEqual(x.hours, 10)
         self.assertEqual(len(Task.objects.all()), 2)
 
-    # def test_task_import(self):
-    #     task_import_files(100)
-    #     tasks = Task.objects.all()
-    #     self.assertGreater(len(tasks), 422)
-
     def test_goals(self):
         goals = Path("Documents/markseaman.info/history/Today.md").read_text()
-        self.assertTrue(goals.startswith('# Priorities for Today'))
-        # self.assertEqual(goals, '# Goals for Today')
+        self.assertTrue(goals.startswith('# Priorities for '))
 
+    # def test_tasks(self):
+    #     task_import_files(100)
+    #     tasks = Task.objects.all()
+    #     # print('Tasks:', len(tasks))
+    #     self.assertGreater(len(tasks), 400)

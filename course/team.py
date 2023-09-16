@@ -2,6 +2,7 @@ from pathlib import Path
 from django.template.loader import render_to_string
 
 from publish.document import document_body, document_html, document_title, title
+from publish.files import write_file
 
 from .course import course_settings, read_document
 from .models import Team
@@ -20,8 +21,8 @@ def get_page(team=None, milestone=None, role=None):
     if not role:
         path = page_path('Milestone.md', team, milestone)
         write_page(path, t, milestone)
-        # path = page_path('Feedback.md', team, milestone)
-        # write_page(path, t, milestone)
+        path = page_path('Feedback.md', team, milestone)
+        write_page(path, t, milestone)
         return read_page(path)
 
     # path = page_path(role)
@@ -32,11 +33,14 @@ def get_page(team=None, milestone=None, role=None):
 
 
 def read_page(path):
-    text = path.read_text()
-    t = title(text)
-    markdown = document_body(text)
-    html = document_html(markdown)
-    return dict(title=t, html=html, path=path)
+    if path.exists():
+        text = path.read_text()
+        t = title(text)
+        markdown = document_body(text)
+        html = document_html(markdown)
+        return dict(title=t, html=html, path=path)
+    else:
+        return dict(title='NO FILE', html='<h1>NO FILE FOUND</h2>', path=path)
 
 
 def page_path(doc=None, team=None, milestone=None, role=None):
@@ -91,7 +95,7 @@ def setup_teams():
 
     x = Team.objects.get(pk=1)
     x.github = 'https://github.com/josh-flatt/cs350'
-    x.server = ''
+    x.server = 'https://plankton-app-5fssv.ondigitalocean.app'
     x.save()
 
     x = Team.objects.get(pk=2)
@@ -127,16 +131,19 @@ def write_team_page(path, team, milestone=None):
         path.write_text(md)
 
 
-def write_page(path, team=None, milestone=None):
-    if not path.exists() or milestone == '1' or milestone == '2':
-        path.parent.mkdir(exist_ok=True, parents=True)
-        if path.name == 'TeamProject.md':
-            template = 'team.md'
-        if milestone == '1' and path.name == 'Milestone.md':
-            template = 'milestone1.md'
-        if milestone == '2' and path.name == 'Milestone.md':
-            template = 'milestone2.md'
-        # if milestone == '1' and path.name == 'Feedback.md':
-        #     template = 'feedback1.md'
-        md = render_to_string(template, {'team': team, 'milestone': milestone})
-        path.write_text(md)
+def write_page(path, team=None, milestone=None, overwrite=False):
+    path.parent.mkdir(exist_ok=True, parents=True)
+    if path.name == 'TeamProject.md':
+        template = 'team.md'
+    elif milestone == '1' and path.name == 'Milestone.md':
+        template = 'milestone1.md'
+    elif milestone == '2' and path.name == 'Milestone.md':
+        template = 'milestone2.md'
+    elif milestone == '1' and path.name == 'Feedback.md':
+        template = 'feedback1.md'
+        # if path.exists():
+        #     path.rename(Path(str(path)+'x'))
+    else:
+        return
+    md = render_to_string(template, {'team': team, 'milestone': milestone})
+    write_file(path, md, overwrite=overwrite)

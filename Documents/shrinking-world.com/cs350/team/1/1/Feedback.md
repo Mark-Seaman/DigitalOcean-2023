@@ -1,38 +1,45 @@
 # Client Feedback - LinkedIn - Milestone 1
 
-## Milestone Incomplete
-
 **Team Github Repo**:  [https://github.com/josh-flatt/cs350](https://github.com/josh-flatt/cs350)
 
-**Team Application Server**:  []()
+**Team Application Server**:  [https://plankton-app-5fssv.ondigitalocean.app](https://plankton-app-5fssv.ondigitalocean.app)
 
-**Team Status Website**:  [Project Documents](https://github.com/josh-flatt/cs350/tree/main/Documents)
+**Milestone 1**: [Milestone 1 Documents](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-1)
 
----
 
-## Milestone 1 Documents
+## Project Status - <b class="green p-2">MILESTONE 1 COMPLETE</b>
 
-* [Requirements](https://github.com/josh-flatt/cs350/tree/main/Documents/Requirements) - Ryan Lunas
-    * Project Charter
-    * Project Scope and Budget
-    * AI Prompts
-    * Status Report with Video
+Please complete the assigned work for Milestone 1 and email to reassess.
 
-* [Design](https://github.com/josh-flatt/cs350/tree/main/Documents/Design) - Evan Duffield
-    * Technology Selection Report
-    * Tool Chain Setup Guide
-    * AI Prompts
-    * Status Report with Video
+Milestone 1 Assignments
 
-* [Code](https://github.com/josh-flatt/cs350/tree/main/Documents/Code) - Josh Flatt
-    * Github Repo
-    * Documentation Guide
-    * AI Prompts
-    * Status Report with Video
+- Ryan Lunas    - Requirements  - **COMPLETE**
+- Evan Duffield - Design        - **COMPLETE**  ...  <b class="green p-2">Superstar</b>
+- Josh Flatt    - Code          - **COMPLETE**
+- Kyle Longaker - Test          - **INCOMPLETE**
 
-* [Test](https://github.com/josh-flatt/cs350/tree/main/Documents/Test) - Kyle Longaker
-    * Application Server URL
-    * App Hosting Guide
-    * AI Prompts
-    * Status Report with Video
+## Feedback for Engineering Team
+
+* [Requirements](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-1/Requirements) - **COMPLETE**
+    * Excellent work - very complete and well documented.
+    * Feedback on Budget
+        * Don't use precise numbers because it implies precision.
+        * I believe that your project will end up taking closer to 500 hr than the 200 hr you stated.
+        * Engineers that you pay $30/hr will cost the client $60/hr to pay for the others costs.
+        * Use a fully loaded cost for your engineering time. Eg. $60/hr
+        * Bundle in the server cost since these are miniscule.
+        * This puts your budget at $30k (500 h * $60/h)
+
+* [Design](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-1/Design) - **COMPLETE**
+    * Excellent work - extremely well crafted!
+
+* [Code](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-1/Code) - **COMPLETE**
+    * Great work - Exactly what I wanted.
+
+* [Test](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-1/Test) - **INCOMPLETE**
+    * Application Server URL is live at https://plankton-app-5fssv.ondigitalocean.app
+    * You still need to write up the required documents
+        * App Hosting Guide
+        * AI Prompts
+        * Status Report with Video
 

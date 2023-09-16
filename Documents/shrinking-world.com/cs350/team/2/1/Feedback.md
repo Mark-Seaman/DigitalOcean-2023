@@ -1,38 +1,42 @@
 # Client Feedback - Amazon - Milestone 1
 
-## Milestone Incomplete
+## Project Status - <b class="green p-2">MILESTONE 1 COMPLETE</b>
+
+
+Please complete the assigned work for Milestone 1 and email to reassess.
 
 **Team Github Repo**:  [https://github.com/alexhovick/ShopZoneCS350](https://github.com/alexhovick/ShopZoneCS350)
 
 **Team Application Server**:  [https://shopzone-app.netlify.app](https://shopzone-app.netlify.app)
 
-**Team Status Website**:  [Project Documents](https://github.com/alexhovick/ShopZoneCS350/Documents)
+**Milestone 1**: [Milestone 1 Documents](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-1)
 
----
 
-## Milestone 1 Documents
+## Milestone 1 Assignments
 
-* [Requirements](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Requirements) - 
-    * Project Charter
-    * Project Scope and Budget
-    * AI Prompts
-    * Status Report with Video
+- Dale Barriga   - Requirements  - **COMPLETE**
+- Seth Hatch     - Design        - **INCOMPLETE**
+- Alex Hovick    - Code          - **COMPLETE** ...  <b class="green p-2">Superstar</b>
+- Elmore Siahaan - Test          - **COMPLETE**
 
-* [Design](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Design) - 
-    * Technology Selection Report
-    * Tool Chain Setup Guide
-    * AI Prompts
-    * Status Report with Video
 
-* [Code](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Code) - 
-    * Github Repo
-    * Documentation Guide
-    * AI Prompts
-    * Status Report with Video
+## Feedback for Engineering Team
 
-* [Test](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Test) - 
-    * Application Server URL
-    * App Hosting Guide
-    * AI Prompts
-    * Status Report with Video
+* [Requirements](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-1/Requirements) - **COMPLETE**
+    * Excellent work - this looks good.
+    * Budget Feedback 
+        * Estimate the total cost in hours 
+        * Use past experience of similar projects (I estimate that you will spend 500 hours)
+        * Engineering cost typically runs $60/h
+        * This puts your project budget at about $30,000
+
+* [Design](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-1/Design) - **INCOMPLETE**
+    * This looks great.
+    * I could not find a Video (I'll sign off with the video)
+
+* [Code](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-1/Code) - **COMPLETE**
+    * Great job.  This is exactly what I wanted.
+
+* [Test](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-1/Test) - **COMPLETE**
+    * Excellent work.  
 

@@ -1,12 +1,16 @@
-# Priorities for Today
+# Priorities for Saturday
 
-## 80% Benefit, 20% Effort
+* Teach     6 hrs
+* Fun       6 hrs
+* Write     1 hr
+* ProMETA   1 hr
+* Family    0 hr
+* Church    0 hr
 
-* Shrinking World Project Workspace
-* Milestone 1 Requirements
-* Milestone 2 Requirements
 
+## Teaching To Do
 
-## 20% Benefit, 80% Effort
+* Feedback on Milestone 1
+* Grade Milestone 1
+* Change Password
 
-* Grade BACS350

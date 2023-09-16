@@ -141,8 +141,8 @@ def write_page(path, team=None, milestone=None, overwrite=False):
         template = 'milestone2.md'
     elif milestone == '1' and path.name == 'Feedback.md':
         template = 'feedback1.md'
-        if path.exists():
-            path.rename(Path(str(path)+'x'))
+        # if path.exists():
+        #     path.rename(Path(str(path)+'x'))
     else:
         return
     md = render_to_string(template, {'team': team, 'milestone': milestone})

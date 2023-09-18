@@ -22,20 +22,12 @@ def get_page(team=None, milestone=None, role=None):
         path = page_path('Feedback.md', team, milestone)
         if not path.exists():
             write_page(path, t, milestone)
-            if path.exists():
-                return read_page(path)
+        if path.exists():
+            return read_page(path)
         path = page_path('Milestone.md', team, milestone)
         if not path.exists():
             write_page(path, t, milestone)
-            return read_page(path)
-
         return read_page(path)
-
-    # path = page_path(role)
-    # if role == 1:
-
-    # write_page(path, t)
-    # return read_page(path)
 
 
 def read_page(path):

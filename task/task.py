@@ -140,12 +140,12 @@ def incomplete_days(days, end=None):
 
 def missing_days(days, date):
     text = f'Missing Days: recent {days} days  {date_str(date)}\n\n'
-    bad_dates = recent_dates(days, date)
-    for d in bad_dates:
+    bad_dates = False
+    for d in recent_dates(days, date):
         if not Task.objects.filter(date=d):
             text += f'Missing {d}\n'
-    if bad_dates:
-        return text
+            bad_dates = True
+    return text if bad_dates else ''
 
 
 def monthly_tasks(month):
@@ -465,11 +465,11 @@ def time_table(period, days, date=None):
 
 def show_incomplete_days(days, date):
     text = f'Incomplete Days: recent {days} days {date_str(date)}\n\n'
-    bad_dates = incomplete_days(days, date)
-    for t in bad_dates:
+    bad_dates = False
+    for t in incomplete_days(days, date):
         text += f'{t[0]} - {t[1]} hours\n'
-    if bad_dates:
-        return text
+        bad_dates = True
+    return text if bad_dates else ''
 
 
 def update_tasks(**kwargs):
@@ -489,12 +489,12 @@ def update_tasks(**kwargs):
     missing = missing_days(days, date)
     incomplete = show_incomplete_days(days, date)
     totals = f'Totals: {days} days, {date_str(date)} {time_summary(days, date)}\n'
-    summary = f'Summary:\n\n{show_task_summary(days, date)}\n\n\n'
-    tasks = f'Activities:\n\n{activity(days, date)}\n'
+    summary = f'\n\n{show_task_summary(days, date)}\n\n\n'
+    a = f'Activities:\n\n{activity(days, date)}\n'
 
     text = f'{missing} {incomplete} {summary}'
     if show_activity:
-        text += tasks
+        text += a
     return text
 
 

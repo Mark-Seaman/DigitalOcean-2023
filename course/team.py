@@ -84,6 +84,7 @@ def setup_team_pages():
         get_page(str(t.pk))
         get_page(str(t.pk), '1')
         get_page(str(t.pk), '2')
+        get_page(str(t.pk), '3')
 
 
 def setup_teams():
@@ -135,15 +136,27 @@ def write_page(path, team=None, milestone=None, overwrite=False):
     path.parent.mkdir(exist_ok=True, parents=True)
     if path.name == 'TeamProject.md':
         template = 'team.md'
-    elif milestone == '1' and path.name == 'Milestone.md':
-        template = 'milestone1.md'
-    elif milestone == '2' and path.name == 'Milestone.md':
-        template = 'milestone2.md'
-    elif milestone == '1' and path.name == 'Feedback.md':
-        template = 'feedback1.md'
-        # if path.exists():
-        #     path.rename(Path(str(path)+'x'))
-    else:
-        return
+    elif milestone == '1':
+        if path.name == 'Milestone.md':
+            template = 'milestone1.md'
+        elif path.name == 'Feedback.md':
+            template = 'feedback1.md'
+        else:
+            return
+    elif milestone == '2':
+        if path.name == 'Milestone.md':
+            template = 'milestone2.md'
+        # elif path.name == 'Feedback.md':
+        #     template = 'feedback2.md'
+        else:
+            return
+    elif milestone == '3':
+        if path.name == 'Milestone.md':
+            template = 'milestone3.md'
+        # elif path.name == 'Feedback.md':
+        #     template = 'feedback3.md'
+        else:
+            return
+
     md = render_to_string(template, {'team': team, 'milestone': milestone})
     write_file(path, md, overwrite=overwrite)

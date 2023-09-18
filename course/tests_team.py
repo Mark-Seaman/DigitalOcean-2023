@@ -60,10 +60,9 @@ class TeamPagesTest(DjangoTest):
         Team.objects.create(name='Development Test', pk=6,
                             github='https://github.com', server='https://digitalocean.com')
         x = get_page('6', '1')
-        self.assertEqual(len(x['html']), 1640)
+        self.assertEqual(len(x['html']), 1950)
         y = 'Client Feedback - Development Test - Milestone 1'
         self.assertEqual(x['title'], y)
-        # print(len(x['html']), 'characters')
         x['path'].unlink()
 
     def test_milestone2_page(self):

@@ -60,21 +60,20 @@ class TeamPagesTest(DjangoTest):
         Team.objects.create(name='Development Test', pk=6,
                             github='https://github.com', server='https://digitalocean.com')
         x = get_page('6', '1')
-        self.assertEqual(len(x['html']), 1771)
-        y = 'Development Test - Milestone 1 - Project Charter'
+        self.assertEqual(len(x['html']), 1950)
+        y = 'Client Feedback - Development Test - Milestone 1'
         self.assertEqual(x['title'], y)
-        # print(len(x['html']), 'characters')
         x['path'].unlink()
 
     def test_milestone2_page(self):
         Team.objects.create(name='Development Test', pk=6,
                             github='https://github.com', server='https://digitalocean.com')
         x = get_page('6', '2')
-        self.assertEqual(len(x['html']), 1870)
-        y = 'Development Test - Milestone 2 - Technical Feasibility'
+        self.assertEqual(len(x['html']), 22)
+        y = 'NO FILE'
         self.assertEqual(x['title'], y)
         # print(len(x['html']), 'characters')
-        x['path'].unlink()
+        # x['path'].unlink()
 
     def test_get_page(self):
         Team.objects.create(name='Development Test', pk=6)

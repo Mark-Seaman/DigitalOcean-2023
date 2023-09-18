@@ -23,3 +23,10 @@ CS 350 Project Showcase
 - Conner Hubbell - Design
 - Alex Hart - Code
 - Shane Loewe - Test
+
+### [Milestone 3 Assignments](4/3)
+
+- Shane Loewe - Requirements
+- Joel Lefevre - Design
+- Conner Hubbell - Code
+- Alex Hart - Test

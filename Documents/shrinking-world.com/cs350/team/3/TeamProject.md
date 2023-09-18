@@ -24,3 +24,10 @@ CS 350 Project Showcase
 - Elfaz Mandefro - Code
 - Esi Mena - Test
 
+### [Milestone 3 Assignments](3/3)
+
+- Esi Mena - Requirements
+- Maxwell Seybert -  Design
+- Katie Haney-Osborn - Code 
+- Elfaz Mandefro - Test
+

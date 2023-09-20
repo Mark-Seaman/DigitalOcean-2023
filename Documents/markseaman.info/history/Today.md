@@ -1,28 +1,25 @@
-# Priorities for Saturday
+# Priorities for Wednesday
 
-* ProMETA   4 hr
+* Teach     6 hrs
 * Fun       4 hrs
-* Teach     2 hrs
 * Write     2 hr
 * Grow      2 hr
+* ProMETA   0 hr
 * Family    0 hr
 * Church    0 hr
-
-
-## Prometa To Do
-
-* Release Process
-* Login to Test Server
-* Data Management
-* Work with Stacie
-* SMTP
 
 
 ## Teaching To Do
 
 * Grade BACS 4
-* Clean up documents (Move to Pubs)
-* .Org - Post 12 Lessons, 3 Milestones
+* AI in the classroom
+* Feedback on Milestone 2
 * AI - Web Dev
 * AI - Milestone 3
+* Clean up documents (Move to Pubs)
+* .Org - Post 12 Lessons, 3 Milestones
+
+
+## Prometa To Do
+
 

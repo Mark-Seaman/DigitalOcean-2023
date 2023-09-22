@@ -7,7 +7,7 @@
 **Milestone 2**: [Milestone 2 Documents](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-2)
 
 
-## Project Status - <b class="red p-2">INCOMPLETE</b>
+## Project Status - <b class="red p-2">MILESTONE 2 INCOMPLETE</b>
 
 Please complete the assigned work for Milestone 2 and email to reassess.
 

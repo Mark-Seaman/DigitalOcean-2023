@@ -13,7 +13,6 @@ Business 0
 
 ## Teaching To Do
 
-* Feedback on Milestone 2
 * Clean up documents (Move to Pubs)
 * AI - Milestone 3
 * AI - Web Dev

@@ -2,7 +2,7 @@
 
 **Team Github Repo**:  [https://github.com/josh-flatt/cs350](https://github.com/josh-flatt/cs350)
 
-**Team Application Server**:  []()
+**Team Application Server**:  [https://plankton-app-5fssv.ondigitalocean.app](https://plankton-app-5fssv.ondigitalocean.app)
 
 **Team Status Website**:  [Project Documents](https://github.com/josh-flatt/cs350/tree/main/Documents)
 

@@ -72,7 +72,6 @@ class TeamPagesTest(DjangoTest):
         self.assertEqual(len(x['html']), 1870)
         y = 'Development Test - Milestone 2 - Technical Feasibility'
         self.assertEqual(x['title'], y)
-        # print(len(x['html']), 'characters')
         x['path'].unlink()
 
     def test_get_page(self):

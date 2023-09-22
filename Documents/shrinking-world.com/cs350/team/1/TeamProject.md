@@ -6,7 +6,7 @@ CS 350 Project Showcase
 
 **github** - [https://github.com/josh-flatt/cs350](https://github.com/josh-flatt/cs350)
 
-**server** - []()
+**server** - [https://plankton-app-5fssv.ondigitalocean.app](https://plankton-app-5fssv.ondigitalocean.app)
 
 ## Team Member Assignments
 

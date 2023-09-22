@@ -7,7 +7,7 @@
 **Milestone 2**: [Milestone 2 Documents](https://github.com/JLeFevre559/CS350-Clipboard/tree/main/Documents/Milestone-2)
 
 
-## Project Status - https://clipboard-unco-cs350.vercel.app - **COMPLETE**
+## Project Status -  - <b class="green p-2">MILESTONE 2 COMPLETE</b>
 
 Please complete the assigned work for Milestone 2 and email to reassess.
 

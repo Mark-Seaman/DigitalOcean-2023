@@ -1,25 +1,34 @@
-# Priorities for Wednesday
+# Priorities for Friday
 
-* Teach     6 hrs
-* Fun       4 hrs
-* Write     2 hr
-* Grow      2 hr
-* ProMETA   0 hr
-* Family    0 hr
-* Church    0 hr
+ProMETA 2
+Teach 5
+Fun 4
+Family 1
+Write 1
+Grow 1
+Church 0
+Innovate 0
+Business 0
 
 
 ## Teaching To Do
 
-* Grade BACS 4
-* AI in the classroom
 * Feedback on Milestone 2
-* AI - Web Dev
-* AI - Milestone 3
 * Clean up documents (Move to Pubs)
+* AI - Milestone 3
+* AI - Web Dev
 * .Org - Post 12 Lessons, 3 Milestones
 
 
 ## Prometa To Do
 
+* Update Staging server
+* Release 1.1
+
+
+## Family To Do
+
+* April
+* Ruth 
+* Dad
 

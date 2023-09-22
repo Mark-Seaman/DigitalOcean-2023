@@ -2,7 +2,7 @@
 
 CS 350 Project Showcase
 
-## Team Amazon
+## Team Shop Zone
 
 **github** - [https://github.com/alexhovick/ShopZoneCS350](https://github.com/alexhovick/ShopZoneCS350)
 

@@ -1,12 +1,12 @@
 # Priorities for Friday
 
-ProMETA 2
-Teach 5
-Fun 4
-Family 1
-Write 1
+ProMETA 1
+Family 3
+Write 3
+Church 3
+Fun 3
 Grow 1
-Church 0
+Teach 0
 Innovate 0
 Business 0
 

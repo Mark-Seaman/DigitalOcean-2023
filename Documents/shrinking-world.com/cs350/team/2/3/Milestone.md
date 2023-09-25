@@ -1,4 +1,4 @@
-# Amazon - Milestone 3 - Technical Feasibility
+# ShopZone - Milestone 3 - Technical Feasibility
 
 **Team Github Repo**:  [https://github.com/alexhovick/ShopZoneCS350](https://github.com/alexhovick/ShopZoneCS350)
 

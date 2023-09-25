@@ -31,7 +31,7 @@ class TeamPagesTest(DjangoTest):
     def test_read_page(self):
         path = page_path('TeamProjects.md')
         x = read_page(path)
-        self.assertEqual(len(x['html']), 557)
+        self.assertEqual(len(x['html']), 561)
         self.assertEqual(x['title'], 'Team Projects')
 
     def test_write_page(self):

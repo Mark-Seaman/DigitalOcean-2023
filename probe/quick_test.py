@@ -1,5 +1,6 @@
 from pathlib import Path
 from course.course import initialize_course_data
+from course.models import Team
 from course.team import setup_team_pages, setup_teams
 
 from probe.probe_pub import test_pub_json
@@ -24,6 +25,7 @@ def quick_test():
 
 
 def course():
+    Team.objects.all().delete()
     initialize_course_data(delete=False, verbose=True, sales=True)
     setup_teams()
     setup_team_pages()

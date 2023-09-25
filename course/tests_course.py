@@ -57,7 +57,7 @@ class CourseViewsTest(TestCase):
         self.assertEqual(len(items), 88)
         items = find_artifacts('bacs350')
         # print(text_join(items))
-        self.assertEqual(len(items), 99)
+        self.assertEqual(len(items), 100)
 
     def test_course_list_view(self):
         self.assertEqual(reverse("course_list"), "/course")

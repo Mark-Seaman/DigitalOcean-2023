@@ -1,4 +1,4 @@
-# Client Feedback - Amazon - Milestone 2
+# Client Feedback - ShopZone - Milestone 2
 
 **Team Github Repo**:  [https://github.com/alexhovick/ShopZoneCS350](https://github.com/alexhovick/ShopZoneCS350)
 

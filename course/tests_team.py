@@ -31,7 +31,7 @@ class TeamPagesTest(DjangoTest):
     def test_read_page(self):
         path = page_path('TeamProjects.md')
         x = read_page(path)
-        self.assertEqual(len(x['html']), 223)
+        self.assertEqual(len(x['html']), 557)
         self.assertEqual(x['title'], 'Team Projects')
 
     def test_write_page(self):
@@ -46,7 +46,7 @@ class TeamPagesTest(DjangoTest):
     def test_team_page(self):
         path = page_path('TeamProject.md', '2')
         x = read_page(path)
-        self.assertEqual(len(x['html']), 915)
+        self.assertEqual(len(x['html']), 918)
         self.assertEqual(x['title'], 'Team Project Workspace')
 
     def test_write_team_page(self):
@@ -69,8 +69,8 @@ class TeamPagesTest(DjangoTest):
         Team.objects.create(name='Development Test', pk=6,
                             github='https://github.com', server='https://digitalocean.com')
         x = get_page('6', '2')
-        self.assertEqual(len(x['html']), 1870)
-        y = 'Development Test - Milestone 2 - Technical Feasibility'
+        self.assertEqual(len(x['html']), 2043)
+        y = 'Client Feedback - Development Test - Milestone 2'
         self.assertEqual(x['title'], y)
         x['path'].unlink()
 

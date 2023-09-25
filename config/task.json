@@ -19354,175 +19354,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6565,
-    "fields": {
-        "name": "ProMETA",
-        "activity": 7,
-        "notes": "    course of interest selector\n    build test server\n    show data records for me only\n    create data sets: Users, Courses, Students",
-        "date": "2023-09-15",
-        "hours": 10,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6566,
-    "fields": {
-        "name": "Fun",
-        "activity": 8,
-        "notes": "    nts\n    Murders in the Building\n    White Collar",
-        "date": "2023-09-15",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6567,
-    "fields": {
-        "name": "Grow",
-        "activity": 9,
-        "notes": "    personal planning\n    walk",
-        "date": "2023-09-16",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6568,
-    "fields": {
-        "name": "Write",
-        "activity": 5,
-        "notes": "    A Seaman's Life\n    Stress Cycle\n    Embrace Imperfection",
-        "date": "2023-09-16",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6569,
-    "fields": {
-        "name": "Teach",
-        "activity": 4,
-        "notes": "    grade and give feedback on Milestone 1",
-        "date": "2023-09-16",
-        "hours": 4,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6570,
-    "fields": {
-        "name": "ProMETA",
-        "activity": 7,
-        "notes": "    database corrupt on production server\n    revert change for course_of_interest\n    troubleshoot Student record crash\n    test both servers",
-        "date": "2023-09-16",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6571,
-    "fields": {
-        "name": "Family",
-        "activity": 1,
-        "notes": "    Stacie gets sleep monitor working\n    Stacie brings Cassie home\n    Josiah and Sam come over",
-        "date": "2023-09-16",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6572,
-    "fields": {
-        "name": "Fun",
-        "activity": 8,
-        "notes": "    Red Sonja\n    First Nations books",
-        "date": "2023-09-16",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6573,
-    "fields": {
-        "name": "Grow",
-        "activity": 9,
-        "notes": "    walk",
-        "date": "2023-09-17",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6574,
-    "fields": {
-        "name": "ProMETA",
-        "activity": 7,
-        "notes": "    test both servers\n    update Python version to 3.11.5\n    update Python packages",
-        "date": "2023-09-17",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6575,
-    "fields": {
-        "name": "Church",
-        "activity": 2,
-        "notes": "    watch one kid in church",
-        "date": "2023-09-17",
-        "hours": 3,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6576,
-    "fields": {
-        "name": "Family",
-        "activity": 1,
-        "notes": "    time with Stacie\n    help prepare for Andrew's party\n    Andrew's birthday party\n    setup wind chime\n    pantry shelf collapse",
-        "date": "2023-09-17",
-        "hours": 5,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6577,
-    "fields": {
-        "name": "Write",
-        "activity": 5,
-        "notes": "    organize AI conversations",
-        "date": "2023-09-17",
-        "hours": 2,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6578,
-    "fields": {
-        "name": "Fun",
-        "activity": 8,
-        "notes": "    Install Open Audible\n    Red Sonja",
-        "date": "2023-09-17",
-        "hours": 1,
-        "done": false
-    }
-},
-{
-    "model": "task.task",
-    "pk": 6801,
+    "pk": 6838,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -19534,7 +19366,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6802,
+    "pk": 6839,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -19546,7 +19378,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6803,
+    "pk": 6840,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -19558,7 +19390,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6804,
+    "pk": 6841,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -19570,7 +19402,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6805,
+    "pk": 6842,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -19582,7 +19414,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6806,
+    "pk": 6843,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -19594,7 +19426,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6807,
+    "pk": 6844,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -19606,7 +19438,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6808,
+    "pk": 6845,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -19618,7 +19450,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6809,
+    "pk": 6846,
     "fields": {
         "name": "Church",
         "activity": 2,
@@ -19630,7 +19462,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6810,
+    "pk": 6847,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -19642,7 +19474,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6811,
+    "pk": 6848,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -19654,7 +19486,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6812,
+    "pk": 6849,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -19666,7 +19498,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6813,
+    "pk": 6850,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -19678,7 +19510,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6814,
+    "pk": 6851,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -19690,7 +19522,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6815,
+    "pk": 6852,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -19702,7 +19534,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6816,
+    "pk": 6853,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -19714,7 +19546,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6817,
+    "pk": 6854,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -19726,7 +19558,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6818,
+    "pk": 6855,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -19738,7 +19570,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6819,
+    "pk": 6856,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -19750,7 +19582,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6820,
+    "pk": 6857,
     "fields": {
         "name": "Church",
         "activity": 2,
@@ -19762,7 +19594,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6821,
+    "pk": 6858,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -19774,7 +19606,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6822,
+    "pk": 6859,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -19786,7 +19618,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6823,
+    "pk": 6860,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -19798,7 +19630,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6824,
+    "pk": 6861,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -19810,7 +19642,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6825,
+    "pk": 6862,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -19822,7 +19654,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6826,
+    "pk": 6863,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -19834,7 +19666,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6827,
+    "pk": 6864,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -19846,7 +19678,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6828,
+    "pk": 6865,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -19858,7 +19690,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6829,
+    "pk": 6866,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -19870,7 +19702,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6830,
+    "pk": 6867,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -19882,7 +19714,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6831,
+    "pk": 6868,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -19894,7 +19726,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6832,
+    "pk": 6869,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -19906,7 +19738,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6833,
+    "pk": 6870,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -19918,7 +19750,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6834,
+    "pk": 6871,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -19930,7 +19762,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6835,
+    "pk": 6872,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -19942,7 +19774,7 @@
 },
 {
     "model": "task.task",
-    "pk": 6836,
+    "pk": 6873,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -19954,13 +19786,421 @@
 },
 {
     "model": "task.task",
-    "pk": 6837,
+    "pk": 6874,
     "fields": {
         "name": "Church",
         "activity": 2,
         "notes": "    Emotionally Healthy Relationships",
         "date": "2023-02-01",
         "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6875,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    course of interest selector\n    build test server\n    show data records for me only\n    create data sets: Users, Courses, Students",
+        "date": "2023-09-15",
+        "hours": 10,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6876,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    nts\n    Murders in the Building\n    White Collar",
+        "date": "2023-09-15",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6877,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    personal planning\n    walk",
+        "date": "2023-09-16",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6878,
+    "fields": {
+        "name": "Write",
+        "activity": 5,
+        "notes": "    A Seaman's Life\n    Stress Cycle\n    Embrace Imperfection",
+        "date": "2023-09-16",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6879,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    grade and give feedback on Milestone 1",
+        "date": "2023-09-16",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6880,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    database corrupt on production server\n    revert change for course_of_interest\n    troubleshoot Student record crash\n    test both servers",
+        "date": "2023-09-16",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6881,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Stacie gets sleep monitor working\n    Stacie brings Cassie home\n    Josiah and Sam come over",
+        "date": "2023-09-16",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6882,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Red Sonja\n    First Nations books",
+        "date": "2023-09-16",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6883,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    walk",
+        "date": "2023-09-17",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6884,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    test both servers\n    update Python version to 3.11.5\n    update Python packages",
+        "date": "2023-09-17",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6885,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    watch one kid in church",
+        "date": "2023-09-17",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6886,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    time with Stacie\n    help prepare for Andrew's party\n    Andrew's birthday party\n    setup wind chime\n    pantry shelf collapse",
+        "date": "2023-09-17",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6887,
+    "fields": {
+        "name": "Write",
+        "activity": 5,
+        "notes": "    organize AI conversations",
+        "date": "2023-09-17",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6888,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Install Open Audible\n    Red Sonja",
+        "date": "2023-09-17",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6889,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    personal reflection",
+        "date": "2023-09-18",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6890,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    improve task summary",
+        "date": "2023-09-18",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6891,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    create lessons for Milestone 3\n    class at UNC\n    ",
+        "date": "2023-09-18",
+        "hours": 8,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6892,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Hobbit 3\n    American Nations - expansion west",
+        "date": "2023-09-18",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6893,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    personal reflection",
+        "date": "2023-09-19",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6894,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    clean grill",
+        "date": "2023-09-19",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6895,
+    "fields": {
+        "name": "Write",
+        "activity": 5,
+        "notes": "    American Nations",
+        "date": "2023-09-19",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6896,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    Release notes for 1.0, 1.1\n    create process for Pull Requests\n    staging server banner\n    scripts for production and staging servers\n    work with Stacie\n    translate navbar",
+        "date": "2023-09-19",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6897,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Princess Bride",
+        "date": "2023-09-19",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6898,
+    "fields": {
+        "name": "Write",
+        "activity": 5,
+        "notes": "    Imposter Syndrome & Stress",
+        "date": "2023-09-20",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6899,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    grade BACS350\n    notify failing students\n    plan to rewrite SWENG content\n    30 minutes in CS350\n    10 minutes in BACS350\n    respond to AI\n    lunch at Albertos",
+        "date": "2023-09-20",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6900,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    discuss world with Stacie\n    discuss work and travel\n    talk about repositioning cruise",
+        "date": "2023-09-20",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6901,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Chosen\n    Big Bang\n    American Nations - Left Coast and Far West",
+        "date": "2023-09-20",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6902,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    plan cruise with Stacie",
+        "date": "2023-09-21",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6903,
+    "fields": {
+        "name": "Write",
+        "activity": 5,
+        "notes": "    Myth of Christian Nation",
+        "date": "2023-09-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6904,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    review all code with Stacie\n    extract and recompile translations string\n    update staging server\n    display release notes on staging server\n    translate sections into Spanish\n    update engineering log and release notes",
+        "date": "2023-09-21",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6905,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    think about UNC teaching (pros and cons)",
+        "date": "2023-09-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6906,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    personal growth and health",
+        "date": "2023-09-21",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6907,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    visit with Duke & Marie after Yellowstone",
+        "date": "2023-09-21",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 6908,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Sim City",
+        "date": "2023-09-21",
+        "hours": 2,
         "done": false
     }
 }

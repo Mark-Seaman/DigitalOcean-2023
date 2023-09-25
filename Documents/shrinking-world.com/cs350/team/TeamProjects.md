@@ -1,9 +1,9 @@
 # Team Projects
 
-* [Linked In Team Project](/course/cs350/1)
+* [Bridge Out Team Project](/course/cs350/1)
 * [Shop Zone Team Project](/course/cs350/2)
 * [Instagram Team Project](/course/cs350/3)
-* [Trello Team Project](/course/cs350/4)
+* [Clipboard Team Project](/course/cs350/4)
 
 <!-- 
 

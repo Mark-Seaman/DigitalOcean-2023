@@ -86,10 +86,10 @@ def setup_team_pages():
 
 
 def setup_teams():
-    Team.objects.get_or_create(name='LinkedIn', pk=1)
-    Team.objects.get_or_create(name='Amazon', pk=2)
-    Team.objects.get_or_create(name='Instagram', pk=3)
-    Team.objects.get_or_create(name='Trello', pk=4)
+    Team.objects.get_or_create(name='BridgeOut', pk=1)
+    Team.objects.get_or_create(name='Shop Zone', pk=2)
+    Team.objects.get_or_create(name='PixlPix', pk=3)
+    Team.objects.get_or_create(name='ClipBoard', pk=4)
     Team.objects.get_or_create(name='Ghost Writer', pk=5)
 
     x = Team.objects.get(pk=1)

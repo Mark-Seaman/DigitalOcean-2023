@@ -1,4 +1,4 @@
-# Client Feedback - Amazon - Milestone 1
+# Client Feedback - ShopZone - Milestone 1
 
 ## Project Status - <b class="green p-2">MILESTONE 1 COMPLETE</b>
 

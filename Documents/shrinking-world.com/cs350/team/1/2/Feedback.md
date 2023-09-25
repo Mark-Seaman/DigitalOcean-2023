@@ -16,7 +16,7 @@ Milestone 2 Assignments
 * Kyle Longaker - Requirements  - **INCOMPLETE**
 * Ryan Lunas    - Design        - **COMPLETE**  ...  <b class="green p-2">Superstar</b>
 * Evan Duffield - Code          - **COMPLETE**
-* Josh Flatt    - Test          - **INCOMPLETE**
+* Josh Flatt    - Test          - **COMPLETE**
 
 
 ## Feedback for Engineering Team
@@ -40,12 +40,9 @@ Milestone 2 Assignments
         * Prototype of most important feature
         * Automated test of the feature
         * AI Prompts
-    * I could not find a Status Report with Video
-
-* [Test](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-2/Test) - <b class="red p-2">INCOMPLETE</b>
-    * There was no work posted.  You must complete the following to get credit.
-        * One button deploy
-        * Automated app test
-        * AI Prompts
         * Status Report with Video
+
+* [Test](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-2/Test) - **COMPLETE**
+    * Excellent work.  This is what I wanted.
+      
 

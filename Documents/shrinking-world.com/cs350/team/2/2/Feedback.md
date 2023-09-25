@@ -7,14 +7,14 @@
 **Milestone 2**: [Milestone 2 Documents](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-2)
 
 
-## Project Status - - <b class="red p-2">MILESTONE 2 INCOMPLETE</b>
+## Project Status - <b class="green p-2">MILESTONE 2 COMPLETE</b>
 
 Please complete the assigned work for Milestone 2 and email to reassess.
 
 Milestone 2 Assignments
 
 * Elmore Siahaan    - Requirements  - **COMPLETE**
-* Dale Barriga      - Design        - **INCOMPLETE**
+* Dale Barriga      - Design        - **COMPLETE**
 * Seth Hatch        - Code          - **COMPLETE** ...  <b class="green p-2">Superstar</b>
 * Alex Hovick       - Test          - **COMPLETE**
 
@@ -29,7 +29,7 @@ Milestone 2 Assignments
         * Status Report with Video
     * Please replace the ReadMe.md file at the top of your repo
 
-* [Design](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-2/Design) - <b class="red p-2">INCOMPLETE</b>
+* [Design](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-2/Design) - **COMPLETE**
     * There was no work posted.  You must complete the following to get credit.
         * Software Architecture
         * Map of Data Types and Views

@@ -7,13 +7,13 @@
 **Milestone 2**: [Milestone 2 Documents](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-2)
 
 
-## Project Status - <b class="red p-2">MILESTONE 2 INCOMPLETE</b>
+## Project Status - <b class="red p-2">MILESTONE 2 COMPLETE</b>
 
 Please complete the assigned work for Milestone 2 and email to reassess.
 
 Milestone 2 Assignments
 
-* Kyle Longaker - Requirements  - **INCOMPLETE**
+* Kyle Longaker - Requirements  - **COMPLETE**
 * Ryan Lunas    - Design        - **COMPLETE**  ...  <b class="green p-2">Superstar</b>
 * Evan Duffield - Code          - **COMPLETE**
 * Josh Flatt    - Test          - **COMPLETE**
@@ -22,11 +22,7 @@ Milestone 2 Assignments
 ## Feedback for Engineering Team
 
 * [Requirements](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-2/Requirements) -  <b class="red p-2">INCOMPLETE</b>
-    * There was no work posted.  You must complete the following to get credit.
-        * Product Features for Phase 1 - Minimum Viable Product
-        * Product Features for Phase 2 - Future Enhancements
-        * AI Prompts
-        * Status Report with Video
+    * Create a Status Report with Video
 
 * [Design](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-2/Design) - **COMPLETE**
     * Excellent work.  This is what I wanted.

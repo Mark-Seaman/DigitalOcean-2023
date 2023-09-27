@@ -6,12 +6,6 @@
 
 **Team Status Website**:  [Project Documents](https://github.com/josh-flatt/cs350/tree/main/Documents)
 
-**Shrinking World Course**
-
-* [Requirements](https://seamanslog.com/sweng/m1-lesson-Lesson_1.md)
-* [Design](https://seamanslog.com/sweng/m1-lesson-Lesson_2.md)
-* [Code](https://seamanslog.com/sweng/m1-lesson-Lesson_3.md)
-* [Test](https://seamanslog.com/sweng/m1-lesson-Lesson_4.md)
 
 ---
 

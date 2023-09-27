@@ -1,5 +1,1329 @@
 [
 {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add course",
+        "content_type": 7,
+        "codename": "add_course"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change course",
+        "content_type": 7,
+        "codename": "change_course"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete course",
+        "content_type": 7,
+        "codename": "delete_course"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view course",
+        "content_type": 7,
+        "codename": "view_course"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add student",
+        "content_type": 8,
+        "codename": "add_student"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change student",
+        "content_type": 8,
+        "codename": "change_student"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete student",
+        "content_type": 8,
+        "codename": "delete_student"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view student",
+        "content_type": 8,
+        "codename": "view_student"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add content",
+        "content_type": 9,
+        "codename": "add_content"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change content",
+        "content_type": 9,
+        "codename": "change_content"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete content",
+        "content_type": 9,
+        "codename": "delete_content"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view content",
+        "content_type": 9,
+        "codename": "view_content"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add team",
+        "content_type": 10,
+        "codename": "add_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change team",
+        "content_type": 10,
+        "codename": "change_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete team",
+        "content_type": 10,
+        "codename": "delete_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view team",
+        "content_type": 10,
+        "codename": "view_team"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add pub",
+        "content_type": 11,
+        "codename": "add_pub"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change pub",
+        "content_type": 11,
+        "codename": "change_pub"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete pub",
+        "content_type": 11,
+        "codename": "delete_pub"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view pub",
+        "content_type": 11,
+        "codename": "view_pub"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add content",
+        "content_type": 12,
+        "codename": "add_content"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change content",
+        "content_type": 12,
+        "codename": "change_content"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete content",
+        "content_type": 12,
+        "codename": "delete_content"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view content",
+        "content_type": 12,
+        "codename": "view_content"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add probe",
+        "content_type": 13,
+        "codename": "add_probe"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change probe",
+        "content_type": 13,
+        "codename": "change_probe"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete probe",
+        "content_type": 13,
+        "codename": "delete_probe"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view probe",
+        "content_type": 13,
+        "codename": "view_probe"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add test result",
+        "content_type": 14,
+        "codename": "add_testresult"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change test result",
+        "content_type": 14,
+        "codename": "change_testresult"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete test result",
+        "content_type": 14,
+        "codename": "delete_testresult"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view test result",
+        "content_type": 14,
+        "codename": "view_testresult"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add task",
+        "content_type": 15,
+        "codename": "add_task"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change task",
+        "content_type": 15,
+        "codename": "change_task"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete task",
+        "content_type": 15,
+        "codename": "delete_task"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view task",
+        "content_type": 15,
+        "codename": "view_task"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add task type",
+        "content_type": 16,
+        "codename": "add_tasktype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change task type",
+        "content_type": 16,
+        "codename": "change_tasktype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete task type",
+        "content_type": 16,
+        "codename": "delete_tasktype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view task type",
+        "content_type": 16,
+        "codename": "view_tasktype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add activity",
+        "content_type": 17,
+        "codename": "add_activity"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change activity",
+        "content_type": 17,
+        "codename": "change_activity"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete activity",
+        "content_type": 17,
+        "codename": "delete_activity"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view activity",
+        "content_type": 17,
+        "codename": "view_activity"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$RnfpwheI8oDA7S9EQpgLEU$k9atsnCtIIo0Gen4NUqE7jLvMrKaGu+HROVUxVoWnTk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "MatiasBairu",
+        "first_name": "Matias",
+        "last_name": "Bairu",
+        "email": "seathe34@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:42.741Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$glggipi8aQyoi4MlVsNh4G$skYVFJ7SgluZYeFrFvose04fehHPz1CebR/PcB9P6n4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "DillonBlair",
+        "first_name": "Dillon",
+        "last_name": "Blair",
+        "email": "blai9954@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:42.795Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$oW5ATqTVLMQsLPs21Ogpki$gLf6xu+yEeC6sjhkHAWhScTgfD7v7U5OgvmskpuK30A=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "JohnDale",
+        "first_name": "John",
+        "last_name": "Dale",
+        "email": "barr0137@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:42.848Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$wruRsKrdjIR0ZHDaFVN3AX$FX0kHVAQXSsPMyTWahw2q2R4DsRnv4K5XpcL0GsSaHA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "MayaEaton",
+        "first_name": "Maya",
+        "last_name": "Eaton",
+        "email": "mayaeeee2022@icloud.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:42.901Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$eSEQdxttXQjUeVlziSSrTX$hHbYfDLC8Wl4VVWqG5QpeJeI95YraKzESEnkvScl8ww=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "BreGilliland",
+        "first_name": "Bre",
+        "last_name": "Gilliland",
+        "email": "gill7139@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:42.955Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$tuSkPk8gp2Xoq7VUSVkLru$VtXC0fMNw4fV4APXACOjFUqBHQtjFzx9AyPOGsL4Byc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "EthanGimmestad",
+        "first_name": "Ethan",
+        "last_name": "Gimmestad",
+        "email": "ethan.gimmestad@icloud.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.009Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$XP6XKTpo9Qg9M7IEk5vXJq$3sxGSDONUOwbrB0sEzamb1PMtd387vvChIx6zIM2+Bk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "AndrewHolmes",
+        "first_name": "Andrew",
+        "last_name": "Holmes",
+        "email": "holm2918@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.062Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$tGX4yvMkAwcFyW1uJ81efN$Zy2J5T3hEQhfTsm+jbUw8c5dwKLQMFWGMgazEvZ4odk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "KaitlynLamgo",
+        "first_name": "Kaitlyn",
+        "last_name": "Lamgo",
+        "email": "lamg1462@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.116Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$QfVVH6O3HeS05eCyXib08S$x5SaHcAkFI0+3YBBhXNYpUInnsSBdlBvUrtlvvLijiY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "TylerLee",
+        "first_name": "Tyler",
+        "last_name": "Lee",
+        "email": "lee8326@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.169Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$0ftrTUqb6g7wVOmyEKdauh$8Vx7OEHuRhHlFZu4n8SRc+DwvQnnltUzly94ch7gBA0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "MatthewLessman",
+        "first_name": "Matthew",
+        "last_name": "Lessman",
+        "email": "less2179@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.222Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$HEcBlCn6QRcQvhtj5u00l9$LiqDCHP6aNWlYbFtfffUxGaac/77g29O9a9Dx8/9gIY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "RyanLunas",
+        "first_name": "Ryan",
+        "last_name": "Lunas",
+        "email": "luna0500@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.275Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 12,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$h1FEEucupzB6UT2zFyY7Od$kXpUfqD2XndHoCw4ix9Je4I3NY+wl2yNOW8AzZcqRzM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "DylanMorris",
+        "first_name": "Dylan",
+        "last_name": "Morris",
+        "email": "morr3583@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.328Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 13,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$M4glWcasqFDf8LR26qdOfq$a7xnVP2RSBuiVdZb7NAE5pcyvkb85AC5WHfuHjtz9fY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "DuaaNakshbandi",
+        "first_name": "Duaa",
+        "last_name": "Nakshbandi",
+        "email": "naks0449@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.382Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 14,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$zCvaT5y1hO0vBHZrN5hiNF$iDOqmYb94qZwUfgJtY/bClUict5f/7ihIcORDe9mMNk=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "RyanRonish",
+        "first_name": "Ryan",
+        "last_name": "Ronish",
+        "email": "roni0210@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.435Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 15,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$YmJ1925RkGUt9VSePypXj8$omNy12QQTE0PimtFCIDK8JtapIhStNqDKzMn8c3LmoI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "DiegoSantander",
+        "first_name": "Diego",
+        "last_name": "Santander",
+        "email": "sant8867@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.488Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 16,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$RDWISpiZqqxbyQ8trAGROe$9jv5Lk0abZ2pB5VKwZSnLXVvt+UQNAaOQ0oPNWKbPyU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "MarkSeaman",
+        "first_name": "Mark",
+        "last_name": "Seaman",
+        "email": "mark.seaman@shrinking-world.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.541Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 17,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$qGK4R53dpy0LSfwRUGWgPT$g8NVkt2cYntkOmODGSEVQ+OfRPBV000bJjhAOAYGGiA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "HudsonTurner",
+        "first_name": "Hudson",
+        "last_name": "Turner",
+        "email": "turn4527@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.594Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 18,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$RO4LV3Cp8k8RD04EdZya5E$1z5NJVJGhW5ha0Z6gYRPQhQu2kKZxXSB5tMNtTp1mEw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "EvanTyler",
+        "first_name": "Evan",
+        "last_name": "Tyler",
+        "email": "duff1130@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.647Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 19,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$oFpICSOBKKboZavNkZnK3p$AhkYmygk9mjCa5DueJRYI0YU5j+dFtA0zW5gRDuOQiw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "JoshFlatt",
+        "first_name": "Josh",
+        "last_name": "Flatt",
+        "email": "josh.m.flatt@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.753Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 20,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$rdVmvmN2kXIRZDoOlw0WQl$jvvJxtoSAosrfs86xQExXt03xEg9Fpr+1lpMk6zM1Mo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "KyleGarrett",
+        "first_name": "Kyle",
+        "last_name": "Garrett",
+        "email": "long4324@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.806Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 21,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$sxWIYiZuD0IsVx1hX4s85I$CM7bQbPBKeozYhkTVtxX8dKa+wzwEk58Nwo+cyqTPUc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "KatieHaney-Osborn",
+        "first_name": "Katie",
+        "last_name": "Haney-Osborn",
+        "email": "haneykat2000@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.859Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 22,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$GmtJBDGvk2s6diI2cKLVTS$2TdTbR6qLolNwBk3odPNa9+VtV6W82R8TJmKRAol1xg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "AlexHart",
+        "first_name": "Alex",
+        "last_name": "Hart",
+        "email": "alexhart3000@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.912Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 23,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$UAEYOQbWLxhVnWWWkirH4P$QuHEuYdQbpUEjMQHSMl0LAjo4TlHEbLNb4yBCSEEIFU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "SethHatch",
+        "first_name": "Seth",
+        "last_name": "Hatch",
+        "email": "hatc9004@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:43.968Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 24,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$ALLxfXxJqnAjm0Liqo1iPt$1q4T5TFTqqyIN+BeMAG+vS9FhcSkFN2h2anFv3NVsMs=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "AlexHovick",
+        "first_name": "Alex",
+        "last_name": "Hovick",
+        "email": "hovi8403@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:44.022Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 25,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$8qWYVM2NOCuTpKc0Ecqd71$2m3La7ne5mQuvizMbYMTwTQUAR0mbUyA7CbzadpyIY4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "ConnerHubbell",
+        "first_name": "Conner",
+        "last_name": "Hubbell",
+        "email": "hubb2447@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:44.075Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 26,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$wPRr3JODmfmr9W7lAOLDj6$0DDCGx638t8QtrrtKbAY5Spim27m/0QqiniFmVaj+cM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "ShaneLoewe",
+        "first_name": "Shane",
+        "last_name": "Loewe",
+        "email": "shaneloewe@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:44.130Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 27,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$94a0zrQU6zbS1asWut4NOa$j/vyUj8B3r6HVVF+VUWvHkgXfF8i+Z+kbVkfgHq1PBA=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "KyleLongaker",
+        "first_name": "Kyle",
+        "last_name": "Longaker",
+        "email": "long4324@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:44.183Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 28,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$eozmfvKMmg8UvejCwvT5UP$pS3wTDVHYJtgmr1V7EDGxcWwiB6fd7lanTtk+VMPwGI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "ElfazMandefro",
+        "first_name": "Elfaz",
+        "last_name": "Mandefro",
+        "email": "mand0961@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:44.291Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 29,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$NkdV5uVCofGGV9v8HR2C1O$ioGDFXD3fuLuhV+vIZ3RJFm7HQcjH+zzR6uHL5TEKxc=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "EsmeraldaMena",
+        "first_name": "Esmeralda",
+        "last_name": "Mena",
+        "email": "mena7940@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:44.344Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 30,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$HIqrRPGiMykNVFVO91ko91$6Z/4M8FNlV+1+HbwFP77QkgEzc0wF6M4FEeZdHDiJxE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "JoelNickalaus",
+        "first_name": "Joel",
+        "last_name": "Nickalaus",
+        "email": "lefe2549@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:44.398Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 31,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$s6C6x6dLsENTMFa3HlK4Cm$hSTTXgrnSOYEsB0f4RWx1jK/LeCj8l2B4EKSlJu0ltY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "MaxwellSeybert",
+        "first_name": "Maxwell",
+        "last_name": "Seybert",
+        "email": "maxwellseybert@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:44.504Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 32,
+    "fields": {
+        "password": "pbkdf2_sha256$320000$WuzdCM7T9i1iZeAxbaayoV$TzT6utp0UJTdzynGOS9wDxjnc1ge8CXK6gs6QKh9X6Q=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "ElmoreSiahaan",
+        "first_name": "Elmore",
+        "last_name": "Siahaan",
+        "email": "siah5054@bears.unco.edu",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-09-27T20:00:44.557Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "course",
+        "model": "course"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "course",
+        "model": "student"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "course",
+        "model": "content"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "course",
+        "model": "team"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "publish",
+        "model": "pub"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "publish",
+        "model": "content"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "probe",
+        "model": "probe"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "probe",
+        "model": "testresult"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "task",
+        "model": "task"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "task",
+        "model": "tasktype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "task",
+        "model": "activity"
+    }
+},
+{
     "model": "course.course",
     "pk": 1,
     "fields": {
@@ -1983,6 +3307,474 @@
         "doctype": "skill",
         "path": "Documents/shrinking-world.com/bacs350/skill/42.md",
         "folder": 56
+    }
+},
+{
+    "model": "course.student",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Matias Bairu",
+        "email": "seathe34@gmail.com",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Dillon Blair",
+        "email": "blai9954@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 3,
+    "fields": {
+        "user": 3,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "John Dale",
+        "email": "barr0137@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 4,
+    "fields": {
+        "user": 4,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Maya Eaton",
+        "email": "mayaeeee2022@icloud.com",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 5,
+    "fields": {
+        "user": 5,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Bre Gilliland",
+        "email": "gill7139@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 6,
+    "fields": {
+        "user": 6,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Ethan Gimmestad",
+        "email": "ethan.gimmestad@icloud.com",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 7,
+    "fields": {
+        "user": 7,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Andrew Holmes",
+        "email": "holm2918@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 8,
+    "fields": {
+        "user": 8,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Kaitlyn Lamgo",
+        "email": "lamg1462@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 9,
+    "fields": {
+        "user": 9,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Tyler Lee",
+        "email": "lee8326@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 10,
+    "fields": {
+        "user": 10,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Matthew Lessman",
+        "email": "less2179@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 11,
+    "fields": {
+        "user": 11,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Ryan Lunas",
+        "email": "luna0500@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 12,
+    "fields": {
+        "user": 12,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Dylan Morris",
+        "email": "morr3583@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 13,
+    "fields": {
+        "user": 13,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Duaa Nakshbandi",
+        "email": "naks0449@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 14,
+    "fields": {
+        "user": 14,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Ryan Ronish",
+        "email": "roni0210@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 15,
+    "fields": {
+        "user": 15,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Diego Santander",
+        "email": "sant8867@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 16,
+    "fields": {
+        "user": 16,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Mark Seaman",
+        "email": "mark.seaman@shrinking-world.com",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 17,
+    "fields": {
+        "user": 17,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Hudson Turner",
+        "email": "turn4527@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 18,
+    "fields": {
+        "user": 18,
+        "course": 1,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Evan Tyler",
+        "email": "duff1130@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 19,
+    "fields": {
+        "user": 3,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "John Dale",
+        "email": "barr0137@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 20,
+    "fields": {
+        "user": 19,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Josh Flatt",
+        "email": "josh.m.flatt@gmail.com",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 21,
+    "fields": {
+        "user": 20,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Kyle Garrett",
+        "email": "long4324@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 22,
+    "fields": {
+        "user": 21,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Katie Haney-Osborn",
+        "email": "haneykat2000@gmail.com",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 23,
+    "fields": {
+        "user": 22,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Alex Hart",
+        "email": "alexhart3000@gmail.com",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 24,
+    "fields": {
+        "user": 23,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Seth Hatch",
+        "email": "hatc9004@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 25,
+    "fields": {
+        "user": 24,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Alex Hovick",
+        "email": "hovi8403@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 26,
+    "fields": {
+        "user": 25,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Conner Hubbell",
+        "email": "hubb2447@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 27,
+    "fields": {
+        "user": 26,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Shane Loewe",
+        "email": "shaneloewe@gmail.com",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 28,
+    "fields": {
+        "user": 27,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Kyle Longaker",
+        "email": "long4324@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 29,
+    "fields": {
+        "user": 11,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Ryan Lunas",
+        "email": "luna0500@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 30,
+    "fields": {
+        "user": 28,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Elfaz Mandefro",
+        "email": "mand0961@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 31,
+    "fields": {
+        "user": 29,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Esmeralda Mena",
+        "email": "mena7940@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 32,
+    "fields": {
+        "user": 30,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Joel Nickalaus",
+        "email": "lefe2549@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 33,
+    "fields": {
+        "user": 16,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Mark Seaman",
+        "email": "mark.seaman@shrinking-world.com",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 34,
+    "fields": {
+        "user": 31,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Maxwell Seybert",
+        "email": "maxwellseybert@gmail.com",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 35,
+    "fields": {
+        "user": 32,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Elmore Siahaan",
+        "email": "siah5054@bears.unco.edu",
+        "team": null
+    }
+},
+{
+    "model": "course.student",
+    "pk": 36,
+    "fields": {
+        "user": 18,
+        "course": 2,
+        "github": "https://github.com",
+        "server": "https://digitalocean.com",
+        "name": "Evan Tyler",
+        "email": "duff1130@bears.unco.edu",
+        "team": null
     }
 }
 ]

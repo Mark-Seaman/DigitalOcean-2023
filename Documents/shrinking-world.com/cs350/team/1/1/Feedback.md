@@ -16,7 +16,7 @@ Milestone 1 Assignments
 - Ryan Lunas    - Requirements  - **COMPLETE**
 - Evan Duffield - Design        - **COMPLETE**  ...  <b class="green p-2">Superstar</b>
 - Josh Flatt    - Code          - **COMPLETE**
-- Kyle Longaker - Test          - **INCOMPLETE**
+- Kyle Longaker - Test          - **COMPLETE**
 
 ## Feedback for Engineering Team
 
@@ -36,10 +36,7 @@ Milestone 1 Assignments
 * [Code](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-1/Code) - **COMPLETE**
     * Great work - Exactly what I wanted.
 
-* [Test](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-1/Test) - **INCOMPLETE**
+* [Test](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-1/Test) - **COMPLETE**
     * Application Server URL is live at https://plankton-app-5fssv.ondigitalocean.app
-    * You still need to write up the required documents
-        * App Hosting Guide
-        * AI Prompts
-        * Status Report with Video
+    * Work done
 

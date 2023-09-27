@@ -16,7 +16,7 @@ Milestone 2 Assignments
 * Maxwell Seybert   - Requirements  - **COMPLETE**
 * Katie Haney-Osborn - Design        - **INCOMPLETE**
 * Elfaz Mandefro    - Code          - **COMPLETE** ...  <b class="green p-2">Superstar</b>
-* Esi Mena          - Test          - **INCOMPLETE**
+* Esi Mena          - Test          - **COMPLETE**
 
 
 ## Feedback for Engineering Team
@@ -41,9 +41,9 @@ Milestone 2 Assignments
         * AI Prompts
         * Status Report with Video
 
-* [Test](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-2/Test) - <b class="red p-2">INCOMPLETE</b>
+* [Test](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-2/Test) - **COMPLETE**
     * Automated deploy looks good
     * Automated app test looks good
-    * Demonstrate using AI Prompts to solve problems for the design
+    * AI Prompts for the design looks good
     * Status Report with Video looks good
 

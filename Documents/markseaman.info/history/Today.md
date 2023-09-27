@@ -14,11 +14,8 @@ Business 0
 
 ## Teaching To Do
 
-* Contact Failing Students
-* AI - Web Dev
 * Clean up documents (Move to Pubs)
 * AI - Milestone 3
-* .Org - Post 12 Lessons, 3 Milestones
 
 
 ## Prometa To Do

@@ -10,9 +10,11 @@ from .models import Student
 
 class StudentModelTest(DjangoTest):
 
+    fixtures = ['config/data.json']
+
     @classmethod
     def setUpTestData(cls):
-        create_courses()
+        # create_courses()
         s = workspace_path(course='bacs350', project='_students.csv')
         import_students(s)
 

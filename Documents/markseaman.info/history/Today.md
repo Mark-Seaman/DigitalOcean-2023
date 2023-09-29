@@ -1,4 +1,4 @@
-# Priorities for Wednesday
+# Priorities for Thursday
 
 Teach 6
 Fun 4

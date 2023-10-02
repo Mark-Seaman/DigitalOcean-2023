@@ -1,12 +1,13 @@
+from django.core.management import call_command
+from io import StringIO
 from json import loads
 from os import system
 from pathlib import Path
 from shutil import copyfile
-from django.db import models
 
 
 from .document import get_document
-from .files import read_csv_file, read_json
+from .files import read_csv_file
 from .models import Content, Pub
 from .toc import content_file, write_content_csv
 
@@ -150,3 +151,23 @@ def save_pub_data():
         } 2>/dev/null  > /dev/null 
     '''
     system(command)
+
+
+def save_json_data(file, app=None):
+    output = StringIO()
+    if app:
+        call_command('dumpdata', app, stdout=output, indent=4)
+    else:
+        call_command('dumpdata', stdout=output, indent=4)
+    text = output.getvalue()
+    output.close()
+    Path(file).write_text(text)
+    return text
+
+
+def load_json_data(file):
+    output = StringIO()
+    call_command('loaddata', file, stdout=output)
+    text = output.getvalue()
+    output.close()
+    return text

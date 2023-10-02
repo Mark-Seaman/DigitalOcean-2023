@@ -5,22 +5,11 @@ from django.test import TestCase
 from course.student import import_students
 
 from course.workspace import workspace_path
+from publish.import_export import load_json_data, save_json_data
 
 from .course import bacs350_options, create_course
 from .import_export import import_all_courses
-from .models import Content
-
-
-def save_json_data(file, app=None):
-    output = StringIO()
-    if app:
-        call_command('dumpdata', app, stdout=output, indent=4)
-    else:
-        call_command('dumpdata', stdout=output, indent=4)
-    text = output.getvalue()
-    output.close()
-    Path(file).write_text(text)
-    return text
+from .models import Content, Student
 
 
 class CourseDataTest(TestCase):
@@ -43,12 +32,11 @@ class CourseDataTest(TestCase):
 
         s = workspace_path(course='bacs350', project='_students.csv')
         import_students(s)
-        text = save_json_data('config/course.json')
-        self.assertEqual(len(text), 55458)
+        text = save_json_data('config/data.json')
+        self.assertEqual(len(text), 87046)
 
     def test_load_fixture(self):
-        output = StringIO()
-        call_command('loaddata', 'config/course.json', stdout=output)
+        text = load_json_data('config/data.json')
+        self.assertEqual(text, 'Installed 318 object(s) from 1 fixture(s)\n')
         self.assertEqual(len(Content.objects.all()), 163)
-        self.assertEqual(
-            output.getvalue(), 'Installed 165 object(s) from 1 fixture(s)\n')
+        self.assertEqual(len(Student.objects.all()), 36)

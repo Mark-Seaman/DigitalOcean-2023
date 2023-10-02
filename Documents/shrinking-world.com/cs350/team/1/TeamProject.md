@@ -33,3 +33,11 @@ CS 350 Project Showcase
 - Kyle Longaker - Design
 - Ryan Lunas - Code
 - Evan Duffield - Test
+
+
+### [Milestone 4 Assignments](1/4)
+
+- Evan Duffield - Requirements
+- Josh Flatt - Design
+- Kyle Longaker - Code
+- Ryan Lunas - Test

@@ -31,3 +31,10 @@ CS 350 Project Showcase
 - Katie Haney-Osborn - Code 
 - Elfaz Mandefro - Test
 
+### [Milestone 4 Assignments](3/4)
+
+- Elfaz Mandefro - Requirements
+- Esi Mena -  Design
+- Maxwell Seybert - Code 
+- Katie Haney-Osborn - Test
+

@@ -33,3 +33,11 @@ CS 350 Project Showcase
 - Elmore Siahaan - Design
 - Dale Barriga - Code
 - Seth Hatch - Test
+
+
+### [Milestone 4 Assignments](2/4)
+
+- Seth Hatch - Requirements
+- Alex Hovick - Design
+- Elmore Siahaan - Code
+- Dale Barriga - Test

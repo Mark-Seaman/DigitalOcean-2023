@@ -1,35 +1,34 @@
-# Priorities for Thursday
+# Priorities for Monday
 
-Fun 6
-ProMETA 3
-Teach 2
+Teach 6
+Fun 4
+Write 2
 Grow 1
-Write 1
-Innovate 1
+Family 1
 
-Family 0
+Innovate 0
+ProMETA 0
 Church 0
 Business 0
 
 
-## Prometa To Do
-* Professors, Registrars, Students
-* Work with Stacie
-* Release 1.2
-
 
 ## Writing
+* Publish recent writing
 * Fixtures in Django Tests
 * Word count score
 
 
 ## Teaching To Do
+* Milestone 4
 * Clean up documents (Move to Pubs)
 * AI - Milestone 3
 
 
 ## Family To Do
+* Picnic
 * April
 * Ruth 
 
 
+## Prometa To Do

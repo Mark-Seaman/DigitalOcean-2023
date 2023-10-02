@@ -17,11 +17,11 @@ from .probe_pub import test_show_pubs
 
 def quick_test():
     # print("No quick test defined")
-    # pubs()
+    # course()
+    pubs()
+    # tasks()
     # tests()
     # writer()
-    # tasks()
-    course()
 
 
 def course():
@@ -29,7 +29,6 @@ def course():
     initialize_course_data(delete=False, verbose=True, sales=True)
     setup_teams()
     setup_team_pages()
-
     return 'OK'
 
 

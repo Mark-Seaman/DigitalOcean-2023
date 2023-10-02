@@ -31,6 +31,13 @@ Display an for the Superhero.  Image is given as a URL to an image in the '/stat
 
 Create a template used by all pages that includes Bootstrap for CSS.
 
+## Step 6 - Setup a Database
 
+Explain how to create a development database for my Django application.
+
+## Step 7 - Configure Django Model views
+
+Show how to create views to work with my Superhero Django data model.   
+Support List, Detail, Create, Update, Delete operations.
 
 

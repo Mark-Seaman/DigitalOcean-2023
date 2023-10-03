@@ -18,8 +18,8 @@ class CourseDataTest(TestCase):
         create_course(**self.course2)
         x = Course.objects.get(pk=1)
         self.assertEqual(
-            str(x), "1 - bacs350 - UNC BACS 350 - Web Apps with Python")
-        self.assertEqual(x.title, "UNC BACS 350 - Web Apps with Python")
+            str(x), "1 - cs350 - UNC CS 350 - Software Engineering")
+        self.assertEqual(x.title, "UNC CS 350 - Software Engineering")
         self.assertEqual(len(Course.objects.all()), 2)
 
     def test_course_edit(self):

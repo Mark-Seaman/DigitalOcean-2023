@@ -15,7 +15,6 @@ Business 0
 
 ## Writing
 * Publish recent writing
-* Fixtures in Django Tests (10 s)
 * Word count score
 * Unify pubs (sweng, leverage, webapps)
 * Clean up documents (Move to Pubs)

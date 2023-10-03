@@ -10,7 +10,7 @@ from .models import Student
 
 class StudentModelTest(DjangoTest):
 
-    fixtures = ['config/data.json']
+    fixtures = ['config/course.json']
 
     def test_student_add(self):
         student = create_student(name='Test Student', course='cs350')

@@ -8,11 +8,7 @@ from probe.tests_django import DjangoTest
 
 class StudentWorkspaceTest(DjangoTest):
 
-    @classmethod
-    def setUpTestData(cls):
-        create_courses()
-        s = workspace_path(course='bacs350', project='_students.csv')
-        import_students(s)
+    fixtures = ['config/course.json']
 
     def test_workspace_exists(self):
         x = workspace_path(course='bacs350')

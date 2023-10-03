@@ -20,7 +20,7 @@ class StudentModelTest(DjangoTest):
 
     def test_student_add(self):
         student = create_student(name='Test Student', course='cs350')
-        self.assertEqual(len(students()), 37)
+        self.assertEqual(len(students()), 36)
         self.assertEqual(student.user.username, 'TestStudent')
         self.assertEqual(student.user.first_name, 'Test')
         self.assertEqual(student.user.last_name, 'Student')
@@ -30,7 +30,7 @@ class StudentModelTest(DjangoTest):
         create_student(name='Test Student', email='new_email@me.us',
                        user__last_name="Seaman", course='cs350')
         student = create_student(name='Test Student', course='cs350')
-        self.assertEqual(len(students()), 37)
+        self.assertEqual(len(students()), 36)
         self.assertEqual(student.user.username, 'TestStudent')
         self.assertEqual(student.user.first_name, 'Test')
         self.assertEqual(student.user.last_name, 'Student')
@@ -41,7 +41,7 @@ class StudentModelTest(DjangoTest):
                        email='x1@me.us', course='cs350')
         create_student(name='Test Student2',
                        email='x2@me.us', course='cs350')
-        self.assertEqual(len(students()), 38)
+        self.assertEqual(len(students()), 37)
         student = Student.objects.get(user__email='x2@me.us')
         self.assertEqual(student.user.last_name, 'Student2')
         self.assertEqual(student.user.email, 'x2@me.us')
@@ -56,20 +56,20 @@ class StudentModelTest(DjangoTest):
         export_students(s2)
 
     def test_import_students(self):
-        self.assertEqual(len(students()), 36)
-        self.assertEqual(len(list_students('cs350')), 18)
+        self.assertEqual(len(students()), 35)
+        self.assertEqual(len(list_students('cs350')), 17)
         self.assertEqual(len(list_students('bacs350')), 18)
-        self.assertEqual(len(students(course__name='cs350')), 18)
+        self.assertEqual(len(students(course__name='cs350')), 17)
         self.assertEqual(len(students(course__name='bacs350')), 18)
 
     def test_sales(self):
         sales_to_students()
-        self.assertEqual(len(list_students('cs350')), 18)
+        self.assertEqual(len(list_students('cs350')), 17)
         self.assertEqual(len(list_students('bacs350')), 18)
 
     def test_students(self):
-        self.assertEqual(len(students()), 36)
-        self.assertEqual(len(students(course__name='cs350')), 18)
+        self.assertEqual(len(students()), 35)
+        self.assertEqual(len(students(course__name='cs350')), 17)
         self.assertEqual(len(students(course__name='bacs350')), 18)
 
         s1 = Student.objects.get(

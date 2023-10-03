@@ -33,10 +33,10 @@ class CourseDataTest(TestCase):
         s = workspace_path(course='bacs350', project='_students.csv')
         import_students(s)
         text = save_json_data('config/data.json')
-        self.assertEqual(len(text), 87046)
+        self.assertEqual(len(text), 86210)
 
     def test_load_fixture(self):
         text = load_json_data('config/data.json')
-        self.assertEqual(text, 'Installed 318 object(s) from 1 fixture(s)\n')
+        self.assertEqual(text, 'Installed 316 object(s) from 1 fixture(s)\n')
         self.assertEqual(len(Content.objects.all()), 163)
-        self.assertEqual(len(Student.objects.all()), 36)
+        self.assertEqual(len(Student.objects.all()), 35)

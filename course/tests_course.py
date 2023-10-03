@@ -1,9 +1,7 @@
 from django.test import TestCase
 from django.urls import reverse
 
-
 from .course import create_courses, cs350_options, bacs350_options, create_course, find_artifacts
-from .import_export import import_all_courses
 from .models import Content, Course
 
 
@@ -20,8 +18,8 @@ class CourseDataTest(TestCase):
         create_course(**self.course2)
         x = Course.objects.get(pk=1)
         self.assertEqual(
-            str(x), "1 - bacs350 - UNC BACS 350 - Web Apps with Python")
-        self.assertEqual(x.title, "UNC BACS 350 - Web Apps with Python")
+            str(x), "1 - cs350 - UNC CS 350 - Software Engineering")
+        self.assertEqual(x.title, "UNC CS 350 - Software Engineering")
         self.assertEqual(len(Course.objects.all()), 2)
 
     def test_course_edit(self):
@@ -41,16 +39,6 @@ class CourseDataTest(TestCase):
         create_courses()
         create_courses()
         self.assertEqual(len(Course.objects.all()), 2)  # don't duplicate
-
-
-class CourseViewsTest(TestCase):
-
-    @classmethod
-    def setUpTestData(cls):
-        import_all_courses(verbose=False)
-
-    #   response = self.client.login(username='RyanLunas', password='CS350')
-    #   self.assertEqual(response, True)
 
     def test_course_artifacts(self):
         items = find_artifacts('cs350')

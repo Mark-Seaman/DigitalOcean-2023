@@ -260,6 +260,27 @@ def read_menu(menu, local_host):
         return m["menu"]
 
 
+def save_pub_json(pub=None):
+    if pub:
+        pubs = [pub]
+    else:
+        pubs = all_pubs()
+
+    for pub in pubs:
+        json_path = pub_json_path(pub.name, pub.doc_path)
+        data = {}
+        for field in pub._meta.get_fields():
+            if field.concrete:
+                field_name = field.name
+                data[field_name] = getattr(pub, field_name)
+        write_json(json_path, data)
+        json_path = pub_json_path(pub.name, pub.doc_path)
+        print(f'\n\n{json_path}:\n\n', json_path.read_text())
+        json1 = Path(f'static/js/{pub.name}.json')
+        if json1.exists():
+            json1.unlink()
+
+
 def show_pub_content(pub):
     text = f"PUB CONTENT - {pub.title}\n\n"
     folders = get_pub_contents(pub)
@@ -283,7 +304,7 @@ def show_pub_details(pub):
             output += f'    {d.title} - {d.path} - {words} words\n'
         output += f'    Words in {f.title}: {folder_words} words\n'
         total_words += folder_words
-    output = f'\nTotal Words in {pub.title}: {total_words} words, {int(total_words/250)} pages\n'
+    output += f'\nTotal Words in {pub.title}: {total_words} words, {int(total_words/250)} pages\n'
     pub.words = total_words
     pub.save()
     return output
@@ -314,17 +335,21 @@ def show_pub_words(pub=None):
     return text
 
 
-def show_pubs():
-    output = "PUBLICATIONS:\n\n"
-    for t in ['book', 'blog', 'private']:
-        text = ''
-        words = 0
-        for p in all_pubs(t):
-            text += f'    {p.name:15} -  {p.title:35} - {p.words:5} words\n'
-            words += p.words
-            get_pub(p.name)
-        output += f'\nPubs - {t} - {words} words - {int(words/250)} pages\n{text}\n'
-    return output
+def show_pubs(pub=None):
+    if pub:
+        p = get_pub(pub)
+        return f'{p.name:15} -  {p.title:35} - {p.words:5} words - {int(p.words/250)} pages'
+    else:
+        output = "PUBLICATIONS:\n\n"
+        for t in ['book', 'blog', 'course', 'private']:
+            text = ''
+            words = 0
+            for p in all_pubs(t):
+                text += f'    {p.name:15} -  {p.title:35} - {p.words:5} words\n'
+                words += p.words
+                get_pub(p.name)
+            output += f'\nPubs - {t} - {words} words - {int(words/250)} pages\n{text}\n'
+        return output
 
 
 def verify_pubs(verbose):
@@ -368,24 +393,3 @@ def word_count_file(pub):
     if not path.exists():
         path.write_text('')
     return path
-
-
-def save_pub_json(pub=None):
-    if pub:
-        pubs = [pub]
-    else:
-        pubs = all_pubs()
-
-    for pub in pubs:
-        json_path = pub_json_path(pub.name, pub.doc_path)
-        data = {}
-        for field in pub._meta.get_fields():
-            if field.concrete:
-                field_name = field.name
-                data[field_name] = getattr(pub, field_name)
-        write_json(json_path, data)
-        json_path = pub_json_path(pub.name, pub.doc_path)
-        print(f'\n\n{json_path}:\n\n', json_path.read_text())
-        json1 = Path(f'static/js/{pub.name}.json')
-        if json1.exists():
-            json1.unlink()

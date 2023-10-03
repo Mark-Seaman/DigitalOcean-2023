@@ -4,7 +4,8 @@ from course.models import Team
 from course.team import setup_team_pages, setup_teams
 
 from probe.probe_pub import test_pub_json
-from publish.publication import show_pubs
+from publish.import_export import create_pub
+from publish.publication import get_pub, show_pub_details, show_pubs
 from publish.text import text_join, text_lines
 from task.task import fix_tasks, task_command
 from task.todo import edit_todo_list
@@ -47,11 +48,16 @@ def pubs():
     # create_cover_images(path)
 
     # Build Pubs
+    # create_pub('sweng', 'Documents/Shrinking-World-Pubs/sweng/Pub')
+
     # create_pub('spirituality', 'Documents/Shrinking-World-Pubs/spirituality/Pub', True)
     # pub = get_pub('spirituality')
     # create_pub_index(pub, get_pub_contents(pub))
     # build_pubs(verbose=True, delete=True)
-    print(show_pubs())
+
+    print(show_pubs('sweng'))
+    pub = get_pub('sweng')
+    print(show_pub_details(pub))
 
 
 def tests():

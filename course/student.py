@@ -24,22 +24,20 @@ def link_html(url, text, target='page'):
 
 
 def create_student(**kwargs):
-    if not kwargs.get('name') == 'Stacie Seaman':
-        user = make_user(**kwargs)
-        # print(kwargs)
-        course_name = kwargs.get('course')
-        if course_name:
-            course = Course.objects.get(name=course_name)
-            name = f'{user.first_name} {user.last_name}'
-            email = user.email
-            kwargs = dict(course=course, github='https://github.com',
-                          server='https://digitalocean.com')
-            student, _ = Student.objects.get_or_create(
-                user=user, course=course, defaults=kwargs)
-            student.name = name
-            student.email = email
-            student.save()
-            return student
+    user = make_user(**kwargs)
+    course_name = kwargs.get('course')
+    if course_name:
+        course = Course.objects.get(name=course_name)
+        name = f'{user.first_name} {user.last_name}'
+        email = user.email
+        kwargs = dict(course=course, github='https://github.com',
+                      server='https://digitalocean.com')
+        student, _ = Student.objects.get_or_create(
+            user=user, course=course, defaults=kwargs)
+        student.name = name
+        student.email = email
+        student.save()
+        return student
 
 
 def list_students(course):
@@ -118,7 +116,8 @@ def import_students(path):
             name = row.get('name')
             email = row.get('email')
             course = row.get('course')
-            create_student(name=name, email=email, course=course)
+            if name != 'Stacie Seaman':
+                create_student(name=name, email=email, course=course)
 
 
 def import_sales(path):

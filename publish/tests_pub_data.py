@@ -1,15 +1,18 @@
 from pathlib import Path
 
+from course.models import Content
 from probe.tests_django import DjangoTest
 from publish.files import concatonate
+from publish.import_export import save_json_data
 
 from .days import is_old
 from .models import Content, Pub
-from .publication import all_blogs, all_books, all_privates, all_pubs, build_pubs
+from .publication import all_blogs, all_books, all_privates, all_pubs, build_pubs, show_pubs
 
 
 # -----------------------
 # Pub Data Model
+
 
 class PubDataTest(DjangoTest):
 
@@ -69,17 +72,31 @@ class FixtureTest(DjangoTest):
     def test_images(self):
         self.assertRange(
             len(list(Path('static/images').glob('**'))), 39, 45, 'Images in Static')
-    
+
     def test_pub_info(self):
-        # save_pub_info()
         text = concatonate('publish/*.py')
         self.assertNumLines(text, 3000, 3100)
 
     def test_rebuld_pubs(self):
-        build_pubs(delete=True)
-        self.assertRange(len(Pub.objects.all()), 5, 21)
-        self.assertRange(len(Content.objects.all()), 1200, 1300, "Content Nodes")
+        if is_old("config/publish.json"):
+            print('config/publish is old')
+            build_pubs(delete=True)
+            self.assertRange(len(Pub.objects.all()), 20, 20)
+            self.assertRange(len(Content.objects.all()),
+                             1200, 1300, "Content Nodes")
+            text = save_json_data('config/publish.json')
+            self.assertEqual(len(text), 456548)
 
     def test_data_file(self):
         self.assertFalse(is_old("config/publish.json"),
                          'config/publish.json is old')
+
+    def test_pub_list(self):
+        pubs = ', '.join([p.name for p in all_pubs()])
+        self.assertEqual(len(all_pubs()), 20)
+        names = 'ai, cellbiology, family, ghost, io, journey, leverage, marks, org, poem, private, quest, sampler, spiritual, spirituality, sweng, tech, today, webapps, write'
+        self.assertEqual(pubs, names)
+
+    def test_sweng(self):
+        print(show_pubs('journey'))
+        print(show_pubs('sweng'))

@@ -1,34 +1,39 @@
-# Priorities for Tuesday
+# Priorities for Thursday
 
-Write 8
-ProMETA 3
-Fun 1
+Fun 4
+
+    
+Write 3
+
+    Cruise
+    The Golden Hour
+    Rick Warren
+
+Innovate 3
+
+    publish course material
+        BACS 350 -- Python Web Apps
+        CS 350 -- SWENG
+        leverage
+    refresh word count tools
+    expand tests
+
+ProMETA 2
+
+    add Student - crash
+    add section - sort courses and professors
+
 Grow 1
+
+    walk
+
 Family 1
 
+    time with Stacie
+
+
 Teach 0
-Innovate 0
+
 Church 0
+
 Business 0
-
----
-
-## Writing
-* Publish recent writing
-* Word count score
-* Unify pubs (sweng, leverage, webapps)
-* Clean up documents (Move to Pubs)
-
-
-## Teaching To Do
-* AI - Milestone 1-4
-* Grade BACS 350
-
-
-## Family To Do
-* Hendricksons
-* April
-* Ruth 
-
-
-## Prometa To Do

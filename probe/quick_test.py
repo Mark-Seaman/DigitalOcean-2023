@@ -42,22 +42,21 @@ def pubs():
     # Run pub scripts:
     # print(pub_list())
 
+    # Build Pubs
+    build_pubs(verbose=False, delete=False)
+
+    x = 'leverage'
+    pub = get_pub(x)
+    # pub.delete()
+    # create_pub(x, f'Documents/Shrinking-World-Pubs/{x}/Pub', False)
+    # create_pub_index(pub, get_pub_contents(pub))
+    print(show_pubs(x))
+    print(show_pub_details(pub))
+
     # Create Cover Images
     # path = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/poem/Images/Cover.png'
     # scale_image(path, 1600, 2560)
     # create_cover_images(path)
-
-    # Build Pubs
-    # pub = get_pub('webapps')
-    # pub.delete()
-    # create_pub('webapps', 'Documents/Shrinking-World-Pubs/webapps/Pub', False)
-
-    # create_pub_index(pub, get_pub_contents(pub))
-    build_pubs(verbose=True, delete=True)
-
-    print(show_pubs('webapps'))
-    pub = get_pub('webapps')
-    print(show_pub_details(pub))
 
 
 def tests():

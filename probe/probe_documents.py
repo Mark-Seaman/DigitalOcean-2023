@@ -46,7 +46,7 @@ def test_documents_seamanslog():
 
 
 def test_documents_seamansguide():
-    return check_files(docs / "seamansguide.com", 230, 240)
+    return check_files(docs / "seamansguide.com", 100, 102)
 
 
 def test_documents_spiritual():

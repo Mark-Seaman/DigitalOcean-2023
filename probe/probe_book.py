@@ -10,7 +10,7 @@ book2 = Path("Documents") / "seamansguide.com"
 
 
 def test_book_journey():
-    return check_files(book1 / "journey", 30, 70)
+    return check_files(book1 / "journey", 110, 120)
 
 
 def test_book_poem():
@@ -22,8 +22,8 @@ def test_book_leverage():
 
 
 def test_book_webapps():
-    return check_files(book2 / "webapps", 130, 140)
+    return check_files(book1 / "webapps", 130, 140)
 
 
 def test_book_quest():
-    return check_files(book1 / "quest", 60, 70)
+    return check_files(book1 / "quest", 90, 92)

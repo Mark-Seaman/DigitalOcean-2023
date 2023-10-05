@@ -1,6 +1,0 @@
-# Appendices
-
----
-
-![](img/Pulley.jpg)
-

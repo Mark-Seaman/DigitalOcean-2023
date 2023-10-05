@@ -13,7 +13,7 @@ class PubDocTest(DjangoTest):
         self.assertFiles('Documents', 500, 2600)
 
     def test_doc_directories(self):
-        data = '''Documents/SHRINKING-WORLD-PUBS,700,1025'''
+        data = '''Documents/SHRINKING-WORLD-PUBS,1048,1055'''
         for x in list(reader(data.splitlines())):
             # print(x)
             if x[2:]:

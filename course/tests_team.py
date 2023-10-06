@@ -1,4 +1,4 @@
-from course.team import get_page, page_path, read_page, write_page, write_team_page
+from course.team import get_page, page_path, read_page, setup_team_pages, write_page, write_team_page
 from probe.tests_django import DjangoTest
 
 from .models import Team
@@ -81,6 +81,5 @@ class TeamPagesTest(DjangoTest):
         self.assertEqual(x['title'], 'Team Project Workspace')
         x['path'].unlink()
 
-    # def test_create_team_pages(self):
-    #     for t in Team.objects.all():
-    #         print(t)
+    def test_create_team_pages(self):
+        setup_team_pages()

@@ -2,37 +2,31 @@
 
 Fun 4
 
-    
-Write 3
+Teach 5
 
-    Cruise
+    help Bre
+    Milestone 4
+    grade Milestone 3
+    
+Write 2
+
+    send Cruise info
     The Golden Hour
     Rick Warren
 
-Innovate 3
+Innovate 2
 
-    publish course material
-        BACS 350 -- Python Web Apps
-        CS 350 -- SWENG
-        leverage
+    move Pub content (cs350, bacs350)
     refresh word count tools
     expand tests
-
-ProMETA 2
-
-    add Student - crash
-    add section - sort courses and professors
 
 Grow 1
 
     walk
 
-Family 1
+ProMETA 0
 
-    time with Stacie
-
-
-Teach 0
+Family 0
 
 Church 0
 

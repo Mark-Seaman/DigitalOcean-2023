@@ -83,6 +83,7 @@ def setup_team_pages():
         get_page(str(t.pk), '1')
         get_page(str(t.pk), '2')
         get_page(str(t.pk), '3')
+        get_page(str(t.pk), '4')
 
 
 def setup_teams():
@@ -153,6 +154,14 @@ def write_page(path, team=None, milestone=None, overwrite=False):
             template = 'milestone3.md'
         # elif path.name == 'Feedback.md':
         #     template = 'feedback3.md'
+        else:
+            return
+
+    elif milestone == '4':
+        if path.name == 'Milestone.md':
+            template = 'milestone4.md'
+        # elif path.name == 'Feedback.md':
+        #     template = 'feedback4.md'
         else:
             return
 

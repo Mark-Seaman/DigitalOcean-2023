@@ -6,13 +6,7 @@
 
 **Team Status Website**:  [Project Documents]({{ team.github }}/tree/main/Documents)
 
-**Shrinking World Course**
-
-* [Requirements](https://seamanslog.com/sweng/m2-lesson-Lesson_5.md)
-* [Design](https://seamanslog.com/sweng/m2-lesson-Lesson_6.md)
-* [Code](https://seamanslog.com/sweng/m2-lesson-Lesson_7.md)
-* [Test](https://seamanslog.com/sweng/m2-lesson-Lesson_8.md)
-
+**Shrinking World Course**: [Milestone 2](https://shrinking-world.com/sweng/m2-Index.md)
 
 ---
 

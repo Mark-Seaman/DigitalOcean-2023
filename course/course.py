@@ -159,19 +159,23 @@ def resource_title(x):
     return document_title(x.document)
 
 
+def document_path(course, doctype, doc):
+    return f"Documents/shrinking-world.com/{course.name}/{doctype}/{doc}"
+
+
 def read_document(course, kwargs):
     doctype = kwargs.get("doctype")
     order = kwargs.get("order")
     doc = kwargs.get("doc", "StudentWorkspace.md")
 
     if doctype == "chapter" or doctype == "skill":
-        path = f"Documents/shrinking-world.com/{course.name}/docs/Purchase.md"
+        path = document_path(course, 'docs', 'Purchase.md')
     elif doctype == "docs" and doc:
-        path = f"Documents/shrinking-world.com/{course.name}/docs/{doc}"
+        path = document_path(course, 'docs', doc)
     elif doctype and order:
-        path = f"Documents/shrinking-world.com/{course.name}/{doctype}/{order:02}.md"
+        path = document_path(course, doctype, f"{order:02}.md")
     else:
-        path = f"Documents/shrinking-world.com/{course.name}/docs/StudentWorkspace.md"
+        path = document_path(course, 'docs', "StudentWorkspace.md")
     markdown = document_body(read_file(path))
     html = document_html(markdown)
     return html

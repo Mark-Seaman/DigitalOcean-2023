@@ -18,8 +18,8 @@ from .probe_pub import test_show_pubs
 
 def quick_test():
     # print("No quick test defined")
-    # course()
-    pubs()
+    course()
+    # pubs()
     # tasks()
     # tests()
     # writer()
@@ -79,19 +79,6 @@ def tasks():
 
 def execute_pub_script(text):
     return text_join([pub_script(line.strip().split(' ')) for line in text_lines(text) if line.strip()])
-
-
-# def writer():
-#     command = '''
-#         project ai
-#         chapter ai Tips
-#         chapter ai Mistakes
-#         chapter ai AIPlaybook
-#         chapter ai GettingStarted
-#         chapter ai WriteWithAI
-#         doc ai Tips Blog.md
-#       '''
-#     print(execute_pub_script(command))
 
 
 def todo():

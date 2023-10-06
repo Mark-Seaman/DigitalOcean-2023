@@ -26,7 +26,7 @@
 
 * [Code](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-4/Code)
     * All Features Implemented
-    * Issues Logged for Unimplmented Features
+    * Issues Logged for Unimplemented Features
     * AI Prompts
     * Status Report with Video
 

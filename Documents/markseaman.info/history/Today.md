@@ -1,34 +1,33 @@
-# Priorities for Tuesday
+# Priorities for Thursday
 
-Write 8
-ProMETA 3
-Fun 1
+Fun 4
+
+Teach 5
+
+    help Bre
+    Milestone 4
+    grade Milestone 3
+    
+Write 2
+
+    send Cruise info
+    The Golden Hour
+    Rick Warren
+
+Innovate 2
+
+    move Pub content (cs350, bacs350)
+    refresh word count tools
+    expand tests
+
 Grow 1
-Family 1
 
-Teach 0
-Innovate 0
+    walk
+
+ProMETA 0
+
+Family 0
+
 Church 0
+
 Business 0
-
----
-
-## Writing
-* Publish recent writing
-* Word count score
-* Unify pubs (sweng, leverage, webapps)
-* Clean up documents (Move to Pubs)
-
-
-## Teaching To Do
-* AI - Milestone 1-4
-* Grade BACS 350
-
-
-## Family To Do
-* Hendricksons
-* April
-* Ruth 
-
-
-## Prometa To Do

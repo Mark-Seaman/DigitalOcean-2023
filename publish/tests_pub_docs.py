@@ -38,8 +38,8 @@ class PubDocTest(DjangoTest):
             ('sweng', 21509),
             ('leverage', 83659),
             ('webapps', 49888),
-            ('journey', 66160),
-            ('quest', 56823),
+            ('journey', 67732),
+            ('quest', 57499),
             ('poem', 16876),
         ]
         for p in words:

@@ -88,8 +88,8 @@ def build_pubs(**kwargs):
 def count_pub_words(pub_name):
     f = Path(f'Documents/markseaman.info/words/{pub_name}')
     pub = get_pub(pub_name)
+    words = show_pub_details(pub)
     if is_old(f):
-        words = show_pub_details(pub)
         f.write_text(words)
         print(f'Words file Is old {f}')
         print(words)

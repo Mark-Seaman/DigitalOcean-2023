@@ -5,7 +5,7 @@ from course.team import setup_team_pages, setup_teams
 
 from probe.probe_pub import test_pub_json
 from publish.import_export import create_pub
-from publish.publication import build_pubs, get_pub, show_pub_details, show_pubs
+from publish.publication import build_pubs, count_pub_words, get_pub, show_pub_details, show_pubs
 from publish.text import text_join, text_lines
 from task.task import fix_tasks, task_command
 from task.todo import edit_todo_list
@@ -18,8 +18,8 @@ from .probe_pub import test_show_pubs
 
 def quick_test():
     # print("No quick test defined")
-    course()
-    # pubs()
+    # course()
+    pubs()
     # tasks()
     # tests()
     # writer()
@@ -43,15 +43,18 @@ def pubs():
     # print(pub_list())
 
     # Build Pubs
-    build_pubs(verbose=False, delete=True)
+    # build_pubs(verbose=False, delete=True)
 
-    x = 'leverage'
-    pub = get_pub(x)
-    # pub.delete()
-    # create_pub(x, f'Documents/Shrinking-World-Pubs/{x}/Pub', False)
-    # create_pub_index(pub, get_pub_contents(pub))
-    print(show_pubs(x))
-    print(show_pub_details(pub))
+    x = 'sweng'
+    words = count_pub_words(x)
+    print(words)
+    # pub = get_pub(x)
+    # # pub.delete()
+    # # create_pub(x, f'Documents/Shrinking-World-Pubs/{x}/Pub', False)
+    # # create_pub_index(pub, get_pub_contents(pub))
+    # print(show_pubs(x))
+    # print(show_pub_details(pub))
+    # print(f'Words {pub.name}: {pub.words}')
 
     # Create Cover Images
     # path = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/poem/Images/Cover.png'

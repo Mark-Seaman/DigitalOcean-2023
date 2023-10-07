@@ -1,9 +1,11 @@
 from csv import reader
+from pathlib import Path
 
 from django.forms import model_to_dict
 
 from probe.tests_django import DjangoTest
-from publish.publication import get_pub, list_publications
+from publish.days import is_old
+from publish.publication import count_pub_words, get_pub, list_publications, show_pub_details
 
 
 class PubDocTest(DjangoTest):
@@ -13,7 +15,7 @@ class PubDocTest(DjangoTest):
         self.assertFiles('Documents', 500, 2600)
 
     def test_doc_directories(self):
-        data = '''Documents/SHRINKING-WORLD-PUBS,1048,1055'''
+        data = '''Documents/SHRINKING-WORLD-PUBS,1048,1060'''
         for x in list(reader(data.splitlines())):
             # print(x)
             if x[2:]:
@@ -30,3 +32,17 @@ class PubDocTest(DjangoTest):
         y = {'name': 'journey',
              'doc_path': 'Documents/Shrinking-World-Pubs/journey/Pub'}
         self.assertEqual(x, y)
+
+    def test_pub_words(self):
+        words = [
+            ('sweng', 21509),
+            ('leverage', 83659),
+            ('webapps', 49888),
+            ('journey', 66160),
+            ('quest', 56823),
+            ('poem', 16876),
+        ]
+        for p in words:
+            pub_name = p[0]
+            x = count_pub_words(pub_name)
+            self.assertEqual(x, p[1])

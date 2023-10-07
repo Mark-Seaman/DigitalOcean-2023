@@ -75,7 +75,7 @@ class FixtureTest(DjangoTest):
 
     def test_pub_info(self):
         text = concatonate('publish/*.py')
-        self.assertNumLines(text, 3000, 3100)
+        self.assertNumLines(text, 3000, 3200)
 
     def test_rebuld_pubs(self):
         if is_old("config/publish.json"):
@@ -98,5 +98,9 @@ class FixtureTest(DjangoTest):
         self.assertEqual(pubs, names)
 
     def test_sweng(self):
-        print(show_pubs('journey'))
-        print(show_pubs('sweng'))
+        journey = show_pubs('journey')
+        x = 'journey         -  A Seaman\'s Journey                  - 66160 words - 264 pages'
+        self.assertEqual(journey, x)
+        sweng = show_pubs('sweng')
+        x = 'sweng           -  Software Engineering with AI        -  7526 words - 30 pages'
+        self.assertEqual(sweng, x)

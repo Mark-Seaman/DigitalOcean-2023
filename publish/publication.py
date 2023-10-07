@@ -85,6 +85,19 @@ def build_pubs(**kwargs):
     return verify_all_pubs()
 
 
+def count_pub_words(pub_name):
+    f = Path(f'Documents/markseaman.info/words/{pub_name}')
+    pub = get_pub(pub_name)
+    if is_old(f):
+        words = show_pub_details(pub)
+        f.write_text(words)
+        print(f'Words file Is old {f}')
+        print(words)
+    else:
+        words = f.read_text()
+    return pub.words
+
+
 def doc_view_context(**kwargs):
     path = kwargs.get('path', 'Documents/shrinking-world.com/blog/Index.md')
     json = kwargs.get('json', 'Documents/shrinking-world.com/blog.json')

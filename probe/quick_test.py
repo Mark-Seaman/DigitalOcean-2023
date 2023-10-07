@@ -43,7 +43,7 @@ def pubs():
     # print(pub_list())
 
     # Build Pubs
-    build_pubs(verbose=False, delete=False)
+    build_pubs(verbose=False, delete=True)
 
     x = 'leverage'
     pub = get_pub(x)

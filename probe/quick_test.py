@@ -2,6 +2,7 @@ from pathlib import Path
 from course.course import initialize_course_data
 from course.models import Team
 from course.team import setup_team_pages, setup_teams
+from probe.data import load_json_data, save_json_data
 
 from probe.probe_pub import test_pub_json
 from publish.import_export import create_pub
@@ -48,13 +49,15 @@ def pubs():
     x = 'sweng'
     words = count_pub_words(x)
     print(words)
+    pub = get_pub(x)
+    print(f'Words {pub.name}: {pub.words}')
+
     # pub = get_pub(x)
     # # pub.delete()
     # # create_pub(x, f'Documents/Shrinking-World-Pubs/{x}/Pub', False)
     # # create_pub_index(pub, get_pub_contents(pub))
     # print(show_pubs(x))
     # print(show_pub_details(pub))
-    # print(f'Words {pub.name}: {pub.words}')
 
     # Create Cover Images
     # path = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/poem/Images/Cover.png'
@@ -107,3 +110,31 @@ def write_webapps_contents():
         csv += f"project/{i+1:02}.md,{chapter},{x}\n"
         x += 1
     Path("Documents/seamansguide.com/webapps/_content.csv").write_text(csv)
+
+
+def execute_command(args):
+    if not args:
+        return (f'NO COMMAND GIVEN: {args}')
+    elif args[0] == 'save':
+        save_json_data('config/data.json')
+    elif args[0] == 'load':
+        load_json_data('config/data.json')
+    else:
+        return (f'NO COMMAND FOUND: {args}')
+
+    # elif args[0] == 'deploy':
+    #     push_JSON_data()
+    #     return deploy_to_production('production')
+    # elif args[0] == 'staging':
+    #     push_JSON_data()
+    #     return deploy_to_production('staging')
+    # elif args[0] == 'export':
+    #     return export_data()
+    # elif args[0] == 'import':
+    #     return import_data()
+    # elif args[0] == 'quick':
+    #     return quick_test(args)
+    # elif args[0] == 'show':
+    #     return show_command()
+    # elif args[0] == 'users':
+    #     return create_test_users()

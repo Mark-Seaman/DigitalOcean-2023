@@ -1,6 +1,6 @@
+from probe.data import load_json_data, save_json_data
 from probe.tests_django import DjangoTest
 from publish.days import is_old
-from publish.import_export import load_json_data, save_json_data
 
 from .import_export import import_all_courses
 from .models import Content, Student

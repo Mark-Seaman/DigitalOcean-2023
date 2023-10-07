@@ -153,21 +153,21 @@ def save_pub_data():
     system(command)
 
 
-def save_json_data(file, app=None):
-    output = StringIO()
-    if app:
-        call_command('dumpdata', app, stdout=output, indent=4)
-    else:
-        call_command('dumpdata', stdout=output, indent=4)
-    text = output.getvalue()
-    output.close()
-    Path(file).write_text(text)
-    return text
+# def save_json_data(file, app=None):
+#     output = StringIO()
+#     if app:
+#         call_command('dumpdata', app, stdout=output, indent=4)
+#     else:
+#         call_command('dumpdata', stdout=output, indent=4)
+#     text = output.getvalue()
+#     output.close()
+#     Path(file).write_text(text)
+#     return text
 
 
-def load_json_data(file):
-    output = StringIO()
-    call_command('loaddata', file, stdout=output)
-    text = output.getvalue()
-    output.close()
-    return text
+# def load_json_data(file):
+#     output = StringIO()
+#     call_command('loaddata', file, stdout=output)
+#     text = output.getvalue()
+#     output.close()
+#     return text

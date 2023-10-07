@@ -7,7 +7,7 @@ from .text import line_count, word_count
 
 
 class TextFileTest(DjangoTest):
-    
+
     def test_word_count(self):
         self.assertEqual(word_count("Hello world"), 2)
         self.assertEqual(word_count("  "), 1)
@@ -33,6 +33,5 @@ class TextFileTest(DjangoTest):
 
     def test_concatonate(self):
         text = concatonate('probe/**/*.py')
-        self.assertNumLines(text, 900, 1200, f'lines in Python files for probe file tree')
-
-    
+        self.assertNumLines(
+            text, 900, 1220, f'lines in Python files for probe file tree')

@@ -7,6 +7,27 @@ from probe.tests_django import DjangoTest
 from publish.days import is_old
 from publish.publication import count_pub_words, get_pub, list_publications, show_pub_details
 
+pub_words = [
+    ('leverage', 83659),
+    ('journey',  67732),
+    ('quest',    57499),
+    ('webapps',  49888),
+    ('sweng',    21509),
+    ('poem',     16876),
+]
+
+unpub_words = [
+    ('spiritual',   60709),
+    ('sampler',     58288),
+    ('tech',        22541),
+    ('write',       8231),
+    ('spirituality', 9803),
+    ('ai',          9449),
+    ('today',       717),
+    # ('bacs350', 0),
+    # ('cs350', 0),
+]
+
 
 class PubDocTest(DjangoTest):
     fixtures = ["config/publish.json"]
@@ -34,15 +55,25 @@ class PubDocTest(DjangoTest):
         self.assertEqual(x, y)
 
     def test_pub_words(self):
-        words = [
-            ('sweng', 21509),
-            ('leverage', 83659),
-            ('webapps', 49888),
-            ('journey', 67732),
-            ('quest', 57499),
-            ('poem', 16876),
-        ]
-        for p in words:
+        for p in pub_words:
             pub_name = p[0]
             x = count_pub_words(pub_name)
             self.assertEqual(x, p[1])
+
+    def test_unpub_words(self):
+        for p in unpub_words:
+            pub_name = p[0]
+            x = count_pub_words(pub_name)
+            self.assertEqual(x, p[1])
+
+    def test_pub_pages(self):
+        pages = 0
+        for p in pub_words:
+            pages += p[1]
+        self.assertEqual(int(pages/250), 1188)  # 1188 Pages in Pubs
+
+    def test_unpub_pages(self):
+        pages = 0
+        for p in unpub_words:
+            pages += p[1]
+        self.assertEqual(int(pages/250), 678)  # 678 Pages in UnPubs

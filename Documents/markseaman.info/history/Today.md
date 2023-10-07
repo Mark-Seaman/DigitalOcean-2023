@@ -1,33 +1,30 @@
 # Priorities for Thursday
 
-Fun 4
+Church 4
 
-Teach 5
-
-    help Bre
-    Milestone 4
-    grade Milestone 3
+    time with Robin
     
-Write 2
+Write 4
 
-    send Cruise info
-    The Golden Hour
+    share ideas
     Rick Warren
 
-Innovate 2
+Innovate 3
 
     move Pub content (cs350, bacs350)
     refresh word count tools
     expand tests
 
+Family 2
+
+    Stacie drives home
+
 Grow 1
 
     walk
 
+Teach 0
+
 ProMETA 0
-
-Family 0
-
-Church 0
 
 Business 0

@@ -2,9 +2,7 @@ from django.contrib.auth import authenticate
 
 from probe.tests_django import DjangoTest
 
-from .course import create_courses, sales_to_students
-from .workspace import workspace_path
-from .student import create_student, export_students, import_students, list_students, students
+from .student import create_student, list_students, students
 from .models import Student
 
 

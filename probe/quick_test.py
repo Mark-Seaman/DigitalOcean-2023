@@ -1,7 +1,9 @@
 from pathlib import Path
 from course.course import initialize_course_data
-from course.models import Team
+from course.models import Student, Team
+from course.student import import_students
 from course.team import setup_team_pages, setup_teams
+from course.workspace import workspace_path
 from probe.data import load_json_data, save_json_data
 
 from probe.probe_pub import test_pub_json
@@ -19,18 +21,22 @@ from .probe_pub import test_show_pubs
 
 def quick_test():
     # print("No quick test defined")
-    # course()
-    pubs()
+    course()
+    # pubs()
     # tasks()
     # tests()
     # writer()
 
 
 def course():
-    Team.objects.all().delete()
-    initialize_course_data(delete=False, verbose=True, sales=True)
-    setup_teams()
-    setup_team_pages()
+    Student.objects.all().delete()
+    s = workspace_path(course='bacs350', project='_students.csv')
+    import_students(s)
+    print('students: ', len(Student.objects.all()))
+    # Team.objects.all().delete()
+    # initialize_course_data(delete=False, verbose=True, sales=True)
+    # setup_teams()
+    # setup_team_pages()
     return 'OK'
 
 
@@ -117,8 +123,12 @@ def execute_command(args):
         return (f'NO COMMAND GIVEN: {args}')
     elif args[0] == 'save':
         save_json_data('config/data.json')
+        save_json_data('config/publish.json', 'publish')
+        save_json_data('config/course.json', 'course')
     elif args[0] == 'load':
         load_json_data('config/data.json')
+        load_json_data('config/publish.json')
+        load_json_data('config/course.json')
     else:
         return (f'NO COMMAND FOUND: {args}')
 

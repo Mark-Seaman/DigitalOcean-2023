@@ -10,11 +10,14 @@ def save_json_data(file, app=None):
     if app:
         call_command('dumpdata', app, stdout=output, indent=4)
     else:
-        call_command('dumpdata', stdout=output, indent=4)
+        call_command('dumpdata', '--exclude',
+                     'contenttypes', stdout=output, indent=4)
     text = output.getvalue()
     output.close()
     Path(file).write_text(text)
     return text
+
+# call_command('dumpdata', '--exclude', 'contenttypes', output='data.json')
 
 
 def load_json_data(file):

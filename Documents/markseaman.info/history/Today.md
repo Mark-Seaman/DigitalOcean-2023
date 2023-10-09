@@ -1,19 +1,24 @@
 # Priorities for Monday
 
-Church 0
+Teach 6
+
+    grade Project 7
+    grade Milestone 3
+    video for Django tests
     
-Write 0
+Fun 4
+
+
+Write 3
+
+
+Family 2
+
+    visit with Lucy
+
 
 Innovate 0
-
-Family 0
-
+Church 0
 Grow 0
 
-Teach 0
 
-    bus to UNC
-
-ProMETA 0
-
-Business 0

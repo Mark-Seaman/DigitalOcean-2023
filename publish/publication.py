@@ -10,7 +10,7 @@ from publish.import_export import pub_json_path
 from publish.shell import banner
 
 from .document import document_body, document_html, document_title
-from .files import read_csv_file, read_file, read_json
+from .files import read_csv_file, read_file, read_json, word_count_in_file
 from .import_export import create_pub, pub_json_path, save_pub_data
 from .models import Content, Pub
 from .text import line_count, text_join, word_count
@@ -169,6 +169,16 @@ def get_pub_info(pub_name=None):
 
 def is_local(host):
     return '127.0.0.1' in host or 'localhost' in host
+
+
+def list_ai_docs(pub):
+    output = '\n' + banner(f'AI Docs: {pub}') + '\n'
+    path = Path(pub.doc_path).parent/'AI'
+    for f in path.rglob('*.md'):
+        words = word_count_in_file(f)
+        if words > 100:
+            output += f'{f} {words} words\n'
+    return output
 
 
 def list_publications():
@@ -406,3 +416,11 @@ def word_count_file(pub):
     if not path.exists():
         path.write_text('')
     return path
+
+
+def work_pending():
+    output = 'AI DOCS:\n\n'
+    for pub in all_pubs():
+        output += list_ai_docs(pub)
+    path = Path('Documents/markseaman.info/words/AI-Docs')
+    path.write_text(output)

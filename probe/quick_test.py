@@ -7,8 +7,10 @@ from course.workspace import workspace_path
 from probe.data import load_json_data, save_json_data
 
 from probe.probe_pub import test_pub_json
+from publish.files import word_count_in_file
 from publish.import_export import create_pub
-from publish.publication import build_pubs, count_pub_words, get_pub, show_pub_details, show_pubs
+from publish.publication import all_pubs, build_pubs, count_pub_words, get_pub, show_pub_details, show_pubs, work_pending
+from publish.shell import banner
 from publish.text import text_join, text_lines
 from task.task import fix_tasks, task_command
 from task.todo import edit_todo_list
@@ -21,8 +23,8 @@ from .probe_pub import test_show_pubs
 
 def quick_test():
     # print("No quick test defined")
-    course()
-    # pubs()
+    # course()
+    pubs()
     # tasks()
     # tests()
     # writer()
@@ -45,6 +47,13 @@ def writer():
 
 
 def pubs():
+    work_pending()
+    # def test_ai_docs():
+    #     output = 'AI DOCS:\n\n'
+    #     for pub in all_pubs():
+    #         output += list_ai_docs(pub)
+    #     return output
+    # print(test_ai_docs())
 
     # Run pub scripts:
     # print(pub_list())
@@ -52,17 +61,17 @@ def pubs():
     # Build Pubs
     # build_pubs(verbose=False, delete=True)
 
-    x = 'sweng'
-    words = count_pub_words(x)
-    print(words)
-    pub = get_pub(x)
-    print(f'Words {pub.name}: {pub.words}')
+    # x = 'sweng'
+    # words = count_pub_words(x)
+    # print(words)
+    # pub = get_pub(x)
+    # print(f'Words {pub.name}: {pub.words}')
 
     # pub = get_pub(x)
     # # pub.delete()
     # # create_pub(x, f'Documents/Shrinking-World-Pubs/{x}/Pub', False)
     # # create_pub_index(pub, get_pub_contents(pub))
-    # print(show_pubs(x))
+    # print(show_pubs())
     # print(show_pub_details(pub))
 
     # Create Cover Images

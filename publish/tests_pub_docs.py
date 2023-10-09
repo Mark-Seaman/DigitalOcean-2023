@@ -5,7 +5,7 @@ from django.forms import model_to_dict
 
 from probe.tests_django import DjangoTest
 from publish.days import is_old
-from publish.publication import all_pubs, count_pub_words, get_pub, list_publications, show_pub_details
+from publish.publication import all_pubs, count_pub_words, get_pub, list_publications, show_pub_details, work_pending
 
 pub_words = [
     ('leverage', 83659),
@@ -79,7 +79,4 @@ class PubDocTest(DjangoTest):
             self.assertEqual(x, p[1])
 
     def test_ai_docs(self):
-        for pub in all_pubs():
-            print(pub)
-            for f in (Path(pub.doc_path)/'AI').glob('**/*.md'):
-                print(f)
+        work_pending()

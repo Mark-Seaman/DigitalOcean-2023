@@ -1,29 +1,18 @@
-# Priorities for Thursday
+# Priorities for Monday
 
-Church 4
-
-    time with Robin
+Church 0
     
-Write 4
+Write 0
 
-    share ideas
-    Rick Warren
+Innovate 0
 
-Innovate 3
+Family 0
 
-    move Pub content (cs350, bacs350)
-    refresh word count tools
-    expand tests
-
-Family 2
-
-    Stacie drives home
-
-Grow 1
-
-    walk
+Grow 0
 
 Teach 0
+
+    bus to UNC
 
 ProMETA 0
 

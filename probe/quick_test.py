@@ -48,12 +48,6 @@ def writer():
 
 def pubs():
     work_pending()
-    # def test_ai_docs():
-    #     output = 'AI DOCS:\n\n'
-    #     for pub in all_pubs():
-    #         output += list_ai_docs(pub)
-    #     return output
-    # print(test_ai_docs())
 
     # Run pub scripts:
     # print(pub_list())

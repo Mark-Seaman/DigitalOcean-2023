@@ -1,0 +1,54 @@
+# Client Feedback - Shop Zone - Milestone 3
+
+**Team Github Repo**:  [https://github.com/alexhovick/ShopZoneCS350](https://github.com/alexhovick/ShopZoneCS350)
+
+**Team Application Server**:  [https://shopzone-app.netlify.app](https://shopzone-app.netlify.app)
+
+**Milestone 3**: [Milestone 3 Documents](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-3)
+
+
+## Project Status - <b class="red p-2">MILESTONE 3 INCOMPLETE</b>
+
+Please complete the assigned work for Milestone 3 and email to reassess.
+
+
+Milestone 3 Assignments
+
+*  - Requirements  - **COMPLETE**
+*  - Design        - **COMPLETE**
+*  - Code          - **INCOMPLETE**
+*  - Test          - **INCOMPLETE**
+
+
+## Feedback for Engineering Team
+
+* [Requirements](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-3/Requirements) - **COMPLETE**
+- Alex Hovick
+    * Sprint Planning
+    * Product Backlog
+    * AI Prompts
+    * Status Report with Video
+
+* [Design](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-3/Design) - **COMPLETE**
+- Elmore Siahaan -  <b class="green p-2">Superstar</b>
+    * Development Guide
+    * Code for all Data Types and Views
+    * AI Prompts
+    * Status Report with Video
+
+* [Code](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-3/Code) - -  <b class="red p-2">INCOMPLETE</b>
+    - Dale Barriga
+    * No work completed 
+        * Prototype of core features
+        * Automated test of the core features
+        * AI Prompts
+        * Status Report with Video
+
+* [Test](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-3/Test) - -  <b class="red p-2">INCOMPLETE</b>
+    - Seth Hatch 
+    * No work completed 
+        * TDD Cookbook
+        * Automated tests for all views and data types
+        * AI Prompts
+        * Status Report with Video
+

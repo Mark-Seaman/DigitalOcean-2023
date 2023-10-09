@@ -8,7 +8,7 @@ from probe.tests_django import DjangoTest
 
 class StudentWorkspaceTest(DjangoTest):
 
-    fixtures = ['config/data.json']
+    fixtures = ['config/course.json']
 
     def test_workspace_exists(self):
         x = workspace_path(course='bacs350')

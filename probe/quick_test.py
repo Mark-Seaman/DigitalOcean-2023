@@ -1,16 +1,12 @@
 from pathlib import Path
 from course.course import initialize_course_data
-from course.models import Student, Team
-from course.student import import_students
+from course.models import Team
 from course.team import setup_team_pages, setup_teams
-from course.workspace import workspace_path
 from probe.data import load_json_data, save_json_data
 
 from probe.probe_pub import test_pub_json
-from publish.files import word_count_in_file
 from publish.import_export import create_pub
-from publish.publication import all_pubs, build_pubs, count_pub_words, get_pub, show_pub_details, show_pubs, work_pending
-from publish.shell import banner
+from publish.publication import build_pubs, count_pub_words, get_pub, show_pub_details, show_pubs
 from publish.text import text_join, text_lines
 from task.task import fix_tasks, task_command
 from task.todo import edit_todo_list
@@ -23,22 +19,17 @@ from .probe_pub import test_show_pubs
 
 def quick_test():
     # print("No quick test defined")
-    course()
-    # pubs()
+    # course()
+    pubs()
     # tasks()
     # tests()
     # writer()
 
 
 def course():
-    # Student.objects.all().delete()
-    # s = workspace_path(course='bacs350', project='_students.csv')
-    # import_students(s)
-    # print('students: ', len(Student.objects.all()))
-
-    # Team.objects.all().delete()
-    # initialize_course_data(delete=False, verbose=True, sales=True)
-    # setup_teams()
+    Team.objects.all().delete()
+    initialize_course_data(delete=False, verbose=True, sales=True)
+    setup_teams()
     setup_team_pages()
     return 'OK'
 
@@ -48,7 +39,6 @@ def writer():
 
 
 def pubs():
-    work_pending()
 
     # Run pub scripts:
     # print(pub_list())
@@ -56,17 +46,17 @@ def pubs():
     # Build Pubs
     # build_pubs(verbose=False, delete=True)
 
-    # x = 'sweng'
-    # words = count_pub_words(x)
-    # print(words)
-    # pub = get_pub(x)
-    # print(f'Words {pub.name}: {pub.words}')
+    x = 'sweng'
+    words = count_pub_words(x)
+    print(words)
+    pub = get_pub(x)
+    print(f'Words {pub.name}: {pub.words}')
 
     # pub = get_pub(x)
     # # pub.delete()
     # # create_pub(x, f'Documents/Shrinking-World-Pubs/{x}/Pub', False)
     # # create_pub_index(pub, get_pub_contents(pub))
-    # print(show_pubs())
+    # print(show_pubs(x))
     # print(show_pub_details(pub))
 
     # Create Cover Images
@@ -127,12 +117,8 @@ def execute_command(args):
         return (f'NO COMMAND GIVEN: {args}')
     elif args[0] == 'save':
         save_json_data('config/data.json')
-        save_json_data('config/publish.json', 'publish')
-        save_json_data('config/course.json', 'course')
     elif args[0] == 'load':
         load_json_data('config/data.json')
-        load_json_data('config/publish.json')
-        load_json_data('config/course.json')
     else:
         return (f'NO COMMAND FOUND: {args}')
 

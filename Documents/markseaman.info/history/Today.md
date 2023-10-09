@@ -1,24 +1,30 @@
-# Priorities for Monday
+# Priorities for Thursday
 
-Teach 6
+Church 4
 
-    grade Project 7
-    grade Milestone 3
-    video for Django tests
+    time with Robin
     
-Fun 4
+Write 4
 
+    share ideas
+    Rick Warren
 
-Write 3
+Innovate 3
 
+    move Pub content (cs350, bacs350)
+    refresh word count tools
+    expand tests
 
 Family 2
 
-    visit with Lucy
+    Stacie drives home
 
+Grow 1
 
-Innovate 0
-Church 0
-Grow 0
+    walk
 
+Teach 0
 
+ProMETA 0
+
+Business 0

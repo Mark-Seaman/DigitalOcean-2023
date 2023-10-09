@@ -99,8 +99,8 @@ class FixtureTest(DjangoTest):
 
     def test_sweng(self):
         journey = show_pubs('journey')
-        x = 'journey         -  A Seaman\'s Journey                  - 67732 words - 270 pages'
+        x = 'journey         -  A Seaman\'s Journey                  - 66160 words - 264 pages'
         self.assertEqual(journey, x)
         sweng = show_pubs('sweng')
-        x = 'sweng           -  Software Engineering with AI        - 28592 words - 114 pages'
+        x = 'sweng           -  Software Engineering with AI        -  7526 words - 30 pages'
         self.assertEqual(sweng, x)

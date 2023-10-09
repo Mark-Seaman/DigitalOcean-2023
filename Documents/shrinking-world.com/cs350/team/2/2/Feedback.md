@@ -6,6 +6,7 @@
 
 **Milestone 2**: [Milestone 2 Documents](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-2)
 
+
 ## Project Status - <b class="green p-2">MILESTONE 2 COMPLETE</b>
 
 Please complete the assigned work for Milestone 2 and email to reassess.

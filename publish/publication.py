@@ -91,8 +91,8 @@ def count_pub_words(pub_name):
     words = show_pub_details(pub)
     if is_old(f):
         f.write_text(words)
-        print(f'Words file Is old {f}')
-        print(words)
+        # print(f'Words file Is old {f}')
+        # print(words)
     else:
         words = f.read_text()
     return pub.words

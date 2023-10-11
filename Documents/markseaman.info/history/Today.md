@@ -1,23 +1,25 @@
-# Priorities for Monday
+# Priorities for Tuesday
 
-Teach 6
+Teach 3
 
-    grade Project 7
-    grade Milestone 3
-    video for Django tests
+    TDD video course
+    shrinking-world.org
     
 Fun 4
 
+    hoopla books
 
-Write 3
+Write 4
 
+    daily publishing methods
 
 Family 2
 
     visit with Lucy
 
+Innovate 1
 
-Innovate 0
+
 Church 0
 Grow 0
 

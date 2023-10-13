@@ -1,30 +1,24 @@
 # Priorities for Thursday
 
-Church 4
+Fun 4
 
-    time with Robin
-    
-Write 4
+    books
 
-    share ideas
-    Rick Warren
+Prometa 2
 
-Innovate 3
+    Turn on Managed Database
 
-    move Pub content (cs350, bacs350)
-    refresh word count tools
-    expand tests
+Write 2
 
-Family 2
+    Cruise - Vish, Moe, Robin
 
-    Stacie drives home
+Family 5
 
-Grow 1
+    Cassie's birthday
 
-    walk
-
+Church 0
+Innovate 0
 Teach 0
+Grow 0
 
-ProMETA 0
 
-Business 0

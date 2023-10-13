@@ -1,26 +1,20 @@
-# Priorities for Tuesday
+# Priorities for Thursday
 
-Teach 3
+Prometa 6
 
-    TDD video course
-    shrinking-world.org
-    
 Fun 4
 
-    hoopla books
+    books
 
-Write 4
+Write 2
 
-    daily publishing methods
+    Cruise - Brian, Vish, Moe, Robin
 
 Family 2
 
-    visit with Lucy
-
-Innovate 1
-
-
 Church 0
+Innovate 0
+Teach 0
 Grow 0
 
 

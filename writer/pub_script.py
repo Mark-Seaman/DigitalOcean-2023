@@ -8,11 +8,12 @@ from markdown import markdown
 
 from publish.document import title
 from publish.files import create_directory, read_json
-from publish.publication import build_pubs, get_pub
+from publish.publication import build_pubs
 from publish.text import text_join, text_lines, word_count
 
 from .cover import create_book_cover
 from .outline import create_index, create_outlines
+
 
 def ai_script(args):
     if not args[2:]:
@@ -90,7 +91,6 @@ def create_pub_content(path):
     elif args:
         project_script(args)
         return pub_url(args[0])
-    
 
 
 def doc_ai(pub, chapter, doc):
@@ -180,7 +180,8 @@ def execute_pub_script(args):
     if not script.exists():
         return f'SCRIPT not found: (script)'
     commands = text_lines(script.read_text())
-    commands = [pub_script(c.strip().split(' ')) for c in commands if c.strip()]
+    commands = [pub_script(c.strip().split(' '))
+                for c in commands if c.strip()]
     return text_join(commands)
 
 
@@ -226,8 +227,8 @@ def get_menu(pub, chapter, doc):
         items.append(("Chapters", pub_url(pub)),)
     if chapter:
         items.append(("Docs", pub_url(pub, chapter)),)
-    return  {"title": ('GhostWriter', '/writer/'), 
-             "items":items}
+    return {"title": ('GhostWriter', '/writer/'),
+            "items": items}
 
 
 def project_script(args):
@@ -357,7 +358,6 @@ def pub_url(pub=None, chapter=None, doc=None):
     return f'/writer/'
 
 
-
 def read_pub_doc(pub, chapter, doc):
     path = pub_path(pub, chapter, doc)
     if not path.exists():
@@ -391,6 +391,7 @@ usage:
 
 '''
 
+
 def test_script(args):
     # if args:
     #     return 'usage: test'
@@ -401,6 +402,3 @@ def test_script(args):
     # text += get_pub_info(args[0])
 
     return f'Test all pubs:\n\n{text}'
-
-
-

@@ -1,4 +1,5 @@
-from publish.publication import build_pubs, show_pub_json, show_pubs
+from publish.publication import build_pubs, show_pub_json
+from writer.words import show_pubs
 
 
 def test_pub_import():

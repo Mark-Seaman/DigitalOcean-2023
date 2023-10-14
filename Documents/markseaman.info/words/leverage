@@ -1,35 +1,39 @@
-Pub Contents - leverage - The Leverage Principle
-PART 1 - Dynamics of Software Leverage - Documents/Shrinking-World-Pubs/leverage/Pub/Part1.md - 10 words
-    1 - The Leverage Principle - Documents/Shrinking-World-Pubs/leverage/Pub/01.md - 4865 words
-    2 - Technical Debt - Documents/Shrinking-World-Pubs/leverage/Pub/02.md - 6271 words
-    3 - Best Practices = Leverage - Documents/Shrinking-World-Pubs/leverage/Pub/03.md - 4362 words
-    Words in PART 1 - Dynamics of Software Leverage: 15508 words
 
-PART 2 - Leverage in Development - Documents/Shrinking-World-Pubs/leverage/Pub/Part2.md - 9 words
-    4 - Technology Leverage - Documents/Shrinking-World-Pubs/leverage/Pub/04.md - 5020 words
-    5 - Architectural Leverage - Documents/Shrinking-World-Pubs/leverage/Pub/05.md - 7160 words
-    6 - Code Leverage - Documents/Shrinking-World-Pubs/leverage/Pub/06.md - 6619 words
-    7 - Test Leverage - Documents/Shrinking-World-Pubs/leverage/Pub/07.md - 7135 words
-    Words in PART 2 - Leverage in Development: 25943 words
+--------------------------------------------------------------------------------
+                              leverage
+--------------------------------------------------------------------------------
 
-PART 3 - Leverage in Operations - Documents/Shrinking-World-Pubs/leverage/Pub/Part3.md - 9 words
-    8 - Release Cycles - Documents/Shrinking-World-Pubs/leverage/Pub/08.md - 4187 words
-    9 - Services Architecture - Documents/Shrinking-World-Pubs/leverage/Pub/09.md - 4517 words
-    10 - Application Deployment - Documents/Shrinking-World-Pubs/leverage/Pub/10.md - 4875 words
-    11 - Monitoring Operations - Documents/Shrinking-World-Pubs/leverage/Pub/11.md - 5146 words
-    Words in PART 3 - Leverage in Operations: 18734 words
+PART 1 - Dynamics of Software Leverage                                    10      15508         62 pages
 
-PART 4 - Culture of Leverage - Documents/Shrinking-World-Pubs/leverage/Pub/Part4.md - 9 words
-    12 - Knowledge Management - Documents/Shrinking-World-Pubs/leverage/Pub/12.md - 5969 words
-    13 - Teamwork - Documents/Shrinking-World-Pubs/leverage/Pub/13.md - 4177 words
-    14 - Learning - Documents/Shrinking-World-Pubs/leverage/Pub/14.md - 5737 words
-    15 - Planning for Leverage - Documents/Shrinking-World-Pubs/leverage/Pub/15.md - 4372 words
-    Words in PART 4 - Culture of Leverage: 20264 words
+    1 - The Leverage Principle                                          4865
+    2 - Technical Debt                                                  6271
+    3 - Best Practices = Leverage                                       4362
 
-Appendices - Documents/Shrinking-World-Pubs/leverage/Pub/Part5.md - 4 words
-    Appendix A - Build Your Own Complexity Measurement Tool - Documents/Shrinking-World-Pubs/leverage/Pub/16.md - 1029 words
-    Appendix B - Testing Automation Interfaces - Documents/Shrinking-World-Pubs/leverage/Pub/17.md - 1291 words
-    Appendix C - Component Encapsulation - Documents/Shrinking-World-Pubs/leverage/Pub/18.md - 886 words
-    Words in Appendices: 3210 words
+PART 2 - Leverage in Development                                           9      25943        103 pages
 
-Total Words in The Leverage Principle: 83659 words, 334 pages
+    4 - Technology Leverage                                             5020
+    5 - Architectural Leverage                                          7160
+    6 - Code Leverage                                                   6619
+    7 - Test Leverage                                                   7135
+
+PART 3 - Leverage in Operations                                            9      18734         74 pages
+
+    8 - Release Cycles                                                  4187
+    9 - Services Architecture                                           4517
+    10 - Application Deployment                                         4875
+    11 - Monitoring Operations                                          5146
+
+PART 4 - Culture of Leverage                                               9      20264         81 pages
+
+    12 - Knowledge Management                                           5969
+    13 - Teamwork                                                       4177
+    14 - Learning                                                       5737
+    15 - Planning for Leverage                                          4372
+
+Appendices                                                                 4       3210         12 pages
+
+    Appendix A - Build Your Own Complexity Measurement Tool             1029
+    Appendix B - Testing Automation Interfaces                          1291
+    Appendix C - Component Encapsulation                                 886
+
+Pub Words:                                    83659        334 pages

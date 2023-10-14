@@ -1,21 +1,15 @@
 from pathlib import Path
-from course.course import initialize_course_data
-from course.models import Student, Team
-from course.student import import_students
-from course.team import setup_team_pages, setup_teams
-from course.workspace import workspace_path
+from course.team import setup_team_pages
 from probe.data import load_json_data, save_json_data
 
 from probe.probe_pub import test_pub_json
-from publish.files import word_count_in_file
-from publish.import_export import create_pub
-from publish.publication import all_pubs, build_pubs, count_pub_words, get_pub, show_pub_details, show_pubs, work_pending
-from publish.shell import banner
+from publish.publication import build_pubs
 from publish.text import text_join, text_lines
 from task.task import fix_tasks, task_command
 from task.todo import edit_todo_list
 from writer.outline import create_outlines
 from writer.pub_script import pub_path, pub_script
+from writer.words import measure_pub_words
 
 from .models import Probe, TestResult
 from .probe_pub import test_show_pubs
@@ -23,11 +17,12 @@ from .probe_pub import test_show_pubs
 
 def quick_test():
     # print("No quick test defined")
-    course()
-    # pubs()
+    # course()
+    pub()
     # tasks()
     # tests()
     # writer()
+    return 'OK'
 
 
 def course():
@@ -40,26 +35,18 @@ def course():
     # initialize_course_data(delete=False, verbose=True, sales=True)
     # setup_teams()
     setup_team_pages()
-    return 'OK'
+
+
+def pub():
+    # Build Pubs
+    build_pubs(verbose=False, delete=False)
+    text = measure_pub_words()
+    print(len(text_lines(text)), 'Lines of text in word files')
 
 
 def writer():
     create_outlines(pub_path('spirituality', 'Transformation'))
 
-
-def pubs():
-    work_pending()
-
-    # Run pub scripts:
-    # print(pub_list())
-
-    # Build Pubs
-    # build_pubs(verbose=False, delete=True)
-
-    # x = 'sweng'
-    # words = count_pub_words(x)
-    # print(words)
-    # pub = get_pub(x)
     # print(f'Words {pub.name}: {pub.words}')
 
     # pub = get_pub(x)

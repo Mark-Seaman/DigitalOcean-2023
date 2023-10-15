@@ -14,7 +14,7 @@ from probe.tests_django import DjangoTest
 
 class WordCountTest(DjangoTest):
 
-    fixtures = ["config/publish.json"]
+    fixtures = ["config/data.json"]
 
     def test_words_in_files(self):
         self.assertEqual('Ok', 'Ok')

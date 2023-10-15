@@ -1,5 +1,7 @@
 from pathlib import Path
-from course.team import setup_team_pages
+from course.course import initialize_course_data
+from course.models import Team
+from course.team import setup_team_pages, setup_teams
 from probe.data import load_json_data, save_json_data
 
 from probe.probe_pub import test_pub_json
@@ -17,7 +19,7 @@ from .probe_pub import test_show_pubs
 
 def quick_test():
     # print("No quick test defined")
-    # course()
+    course()
     pub()
     # tasks()
     # tests()

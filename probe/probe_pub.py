@@ -7,7 +7,7 @@ from writer.words import measure_pub_words, show_pubs
 
 def test_build_pubs():
     build_pubs()
-    save_json_data('config/data.json')
+    save_json_data('config/publish.json', 'publish')
     return 'OK'
 
 

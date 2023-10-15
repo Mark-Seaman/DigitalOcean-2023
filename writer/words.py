@@ -19,17 +19,16 @@ def count_nodes():
     return len(pubs), len(contents), words, pages
 
 
-def count_pub_words(pub_name):
-    f = Path(f'Documents/markseaman.info/words/{pub_name}')
-    pub = get_pub(pub_name)
-    # words = show_pub_details(pub)
-    words = measure_pub_words(pub=pub_name)
-    f.write_text(words)
-    # if not f.exists() or is_old(f):
-    #     f.write_text(words)
-    # else:
-    #     words = f.read_text()
-    # return pub.words
+# def count_pub_words(pub_name):
+#     f = Path(f'Documents/markseaman.info/words/{pub_name}')
+#     pub = get_pub(pub_name)
+#     words = measure_pub_words(pub=pub_name)
+#     f.write_text(words)
+#     # if not f.exists() or is_old(f):
+#     #     f.write_text(words)
+#     # else:
+#     #     words = f.read_text()
+#     # return pub.words
 
 
 def measure_pub_words(**kwargs):
@@ -53,8 +52,8 @@ def measure_pub_words(**kwargs):
             words += doc["words"]
         return words
 
-    p = get_pub(kwargs.get('pub'))
-    pubs = [p] if p else all_pubs()
+    p = kwargs.get('pub')
+    pubs = [get_pub(p)] if p else all_pubs()
     text = ''
     for pub in pubs:
         path = Path("Documents/markseaman.info/words") / pub.name
@@ -97,20 +96,20 @@ def show_pubs(pub=None):
         return output
 
 
-def show_pub_details(pub):
-    content = pub.content_set.all()
-    output = f'Pub Contents - {pub.name} - {pub.title}'
-    total_words = 0
-    for f in content.filter(folder=0):
-        folder_words = word_count(read_file(f.path))
-        output += f'\n{f.title} - {f.path} - {folder_words} words\n'
-        for d in content.filter(folder=f.order):
-            words = word_count(read_file(d.path))
-            folder_words += words
-            output += f'    {d.title} - {d.path} - {words} words\n'
-        output += f'    Words in {f.title}: {folder_words} words\n'
-        total_words += folder_words
-    output += f'\nTotal Words in {pub.title}: {total_words} words, {int(total_words/250)} pages\n'
-    pub.words = total_words
-    pub.save()
-    return output
+# def show_pub_details(pub):
+#     content = pub.content_set.all()
+#     output = f'Pub Contents - {pub.name} - {pub.title}'
+#     total_words = 0
+#     for f in content.filter(folder=0):
+#         folder_words = word_count(read_file(f.path))
+#         output += f'\n{f.title} - {f.path} - {folder_words} words\n'
+#         for d in content.filter(folder=f.order):
+#             words = word_count(read_file(d.path))
+#             folder_words += words
+#             output += f'    {d.title} - {d.path} - {words} words\n'
+#         output += f'    Words in {f.title}: {folder_words} words\n'
+#         total_words += folder_words
+#     output += f'\nTotal Words in {pub.title}: {total_words} words, {int(total_words/250)} pages\n'
+#     pub.words = total_words
+#     pub.save()
+#     return output

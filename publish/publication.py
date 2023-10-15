@@ -105,12 +105,13 @@ def doc_view_context(**kwargs):
 
 
 def get_pub(name):
-    try:
-        # print('get_pub: ', name)
-        return Pub.objects.get(name=name)
-    except:
-        print(f'**** Exception in get_pub ({name})')
-        return
+    return Pub.objects.get(name=name)
+    # try:
+    #     # print('get_pub: ', name)
+    #     return Pub.objects.get(name=name)
+    # except:
+    #     print(f'**** Exception in get_pub ({name})')
+    #     return
 
 
 def get_pub_info(pub_name=None):

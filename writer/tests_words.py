@@ -4,7 +4,8 @@ from publish.models import Content
 from probe.tests_django import DjangoTest
 from publish.files import concatonate
 from probe.data import save_json_data
-from writer.words import count_nodes, show_pubs
+from publish.text import text_lines
+from writer.words import count_nodes, measure_pub_words
 
 from publish.models import Content, Pub
 
@@ -19,7 +20,9 @@ class WordCountTest(DjangoTest):
         self.assertEqual('Ok', 'Ok')
 
     def test_words_in_content_nodes(self):
-        self.assertEqual('Ok', 'Ok')
+        text = measure_pub_words()
+        # print(len(text_lines(text)), 'Lines of text in word files')
+        self.assertEqual(len(text_lines(text)), 1745)
 
     def test_word_count_files(self):
         self.assertEqual('Ok', 'Ok')

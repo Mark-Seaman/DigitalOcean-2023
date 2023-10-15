@@ -4,7 +4,6 @@ from course.models import Content
 from probe.tests_django import DjangoTest
 from publish.files import concatonate
 from probe.data import save_json_data
-from writer.words import show_pubs
 
 from .days import is_old
 from .models import Content, Pub

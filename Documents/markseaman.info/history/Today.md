@@ -1,20 +1,16 @@
 # Priorities for Friday
 
-Fun 4
+Fun 0
 
     books
 
-Prometa 2
+Prometa 0
 
     Turn on Managed Database
 
-Teach 3
+Teach 0
 
-    Cruise - Vish, Moe, Robin
-
-Family 5
-
-    Cassie's birthday
+Family 0
 
 Church 0
 Innovate 0

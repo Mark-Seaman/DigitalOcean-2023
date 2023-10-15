@@ -153,6 +153,32 @@ def save_pub_data():
     system(command)
 
 
+def get_pub_contents(pub):
+    def doc_objects(pub, folder):
+        return (
+            Content.objects.filter(blog=pub, doctype="chapter", folder=folder)
+            .order_by("order")
+            .values()
+        )
+
+    def docs_in_folder(pub, folder):
+        return [d for d in doc_objects(pub, folder)]
+
+    def folder_objects(pub):
+        return (
+            Content.objects.filter(blog=pub, doctype="folder")
+            .order_by("order")
+            .values()
+        )
+
+    folders = []
+    for folder in folder_objects(pub):
+        docs = docs_in_folder(pub, folder.get("order"))
+        folder.update(dict(documents=docs))
+        folders.append(folder)
+    return folders
+
+
 # def save_json_data(file, app=None):
 #     output = StringIO()
 #     if app:

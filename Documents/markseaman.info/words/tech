@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Pub Contents - tech - Tech Notes
 Shrinking World - Documents/shrinking-world.com/blog/shrinkingworld/Index.md - 102 words
     Shrinking World Solutions - Documents/shrinking-world.com/blog/shrinkingworld/ShrinkingWorld.md - 113 words
@@ -49,5 +50,62 @@ AI and Content Creation - Documents/shrinking-world.com/blog/ai/Index.md - 5 wor
     Genetics Textbook Project - Documents/shrinking-world.com/blog/ai/GeneticsBook.md - 364 words
     4 Keys to Effective AI - Documents/shrinking-world.com/blog/ai/AI_Playbook.md - 677 words
     Words in AI and Content Creation: 5818 words
+=======
 
-Total Words in Tech Notes: 22541 words, 90 pages
+--------------------------------------------------------------------------------
+                              tech
+--------------------------------------------------------------------------------
+
+Shrinking World                                                          102       1372          5 pages
+
+    Shrinking World Solutions                                            113
+    Our History                                                          413
+    Our Services                                                         180
+    Our Vision                                                           498
+    Contact Info                                                          66
+
+Shrinking World Training                                                  49       3222         12 pages
+>>>>>>> main
+
+    Building Python Web Apps                                            1014
+    Shrinking World Training Courses                                     105
+    Web Development Video Courses                                        143
+    Tutorial - Building Web Apps   (1/2 day tutorial)                    852
+    Tutorial - Course Creation  (1/2 day tutorial)                       922
+    Independent Study                                                     79
+    Speaker Bio                                                           58
+
+Micropublishing                                                          181       5340         21 pages
+
+    Riding the Mastodon                                                  843
+    Micropub Product Deliverables                                        293
+    Message Payload                                                      490
+    Post Payload                                                         684
+    Article Payload                                                      523
+    Seminar Payload                                                       67
+    Minicourse Payload                                                    85
+    Course Payload                                                        90
+    Info Content Math                                                    245
+    The Lesson                                                           727
+    4 Essential Skills for a Content Creator                            1112
+
+Tech Notes                                                                38       6789         27 pages
+
+    The Internet (1990s)                                                1627
+    The Personal Computer (1980s)                                       1580
+    When will you Retire?                                                909
+    Discovering Teaching                                                1416
+    Technology Innovations                                               358
+    Shaped by Technology                                                 536
+    Communication Channels                                               239
+    The Healthy Mastodon                                                  86
+
+AI and Content Creation                                                    5       5818         23 pages
+
+    My Android Assistant                                                 379
+    AI For Writers                                                      1252
+    Prompting chat-GPT                                                  3141
+    Genetics Textbook Project                                            364
+    4 Keys to Effective AI                                               677
+
+Pub Words:                                    22541         90 pages

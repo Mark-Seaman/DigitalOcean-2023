@@ -1,21 +1,40 @@
 from csv import reader
-from pathlib import Path
 
 from django.forms import model_to_dict
 
 from probe.tests_django import DjangoTest
-from publish.days import is_old
-from publish.publication import count_pub_words, get_pub, list_publications, show_pub_details
+from publish.publication import get_pub, list_publications, work_pending
+
+pub_words = [
+    ('leverage', 83659),
+    ('journey',  67732),
+    ('quest',    57499),
+    ('webapps',  49888),
+    ('sweng',    28592),
+    ('poem',     16876),
+]
+
+unpub_words = [
+    ('spiritual',   60709),
+    ('sampler',     58288),
+    ('tech',        22541),
+    ('write',       8231),
+    ('spirituality', 9803),
+    ('ai',          9449),
+    ('today',       717),
+    # ('bacs350', 0),
+    # ('cs350', 0),
+]
 
 
 class PubDocTest(DjangoTest):
     fixtures = ["config/publish.json"]
 
     def test_all_docs(self):
-        self.assertFiles('Documents', 500, 2600)
+        self.assertFiles('Documents', 2500, 2600)
 
     def test_doc_directories(self):
-        data = '''Documents/SHRINKING-WORLD-PUBS,1048,1060'''
+        data = '''Documents/SHRINKING-WORLD-PUBS,1060,1070'''
         for x in list(reader(data.splitlines())):
             # print(x)
             if x[2:]:
@@ -33,16 +52,17 @@ class PubDocTest(DjangoTest):
              'doc_path': 'Documents/Shrinking-World-Pubs/journey/Pub'}
         self.assertEqual(x, y)
 
-    def test_pub_words(self):
-        words = [
-            ('sweng', 21509),
-            ('leverage', 83659),
-            ('webapps', 49888),
-            ('journey', 67732),
-            ('quest', 57499),
-            ('poem', 16876),
-        ]
-        for p in words:
-            pub_name = p[0]
-            x = count_pub_words(pub_name)
-            self.assertEqual(x, p[1])
+    # def test_pub_words(self):
+    #     for p in pub_words:
+    #         pub_name = p[0]
+    #         x = count_pub_words(pub_name)
+    #         self.assertEqual(x, p[1])
+
+    # def test_unpub_words(self):
+    #     for p in unpub_words:
+    #         pub_name = p[0]
+    #         x = count_pub_words(pub_name)
+    #         self.assertEqual(x, p[1])
+
+    def test_ai_docs(self):
+        work_pending()

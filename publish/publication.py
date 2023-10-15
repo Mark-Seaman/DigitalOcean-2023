@@ -5,15 +5,17 @@ from shutil import copyfile
 from django.forms import model_to_dict
 from publish.days import is_old
 from publish.files import write_json
-from publish.import_export import pub_json_path
+from publish.import_export import get_pub_contents, pub_json_path
 
 from publish.shell import banner
+# from writer.words import show_pub_details
+
 
 from .document import document_body, document_html, document_title
 from .files import read_csv_file, read_file, read_json
 from .import_export import create_pub, pub_json_path, save_pub_data
 from .models import Content, Pub
-from .text import line_count, text_join, word_count
+from .text import line_count, text_join
 from .toc import create_pub_index
 
 
@@ -85,19 +87,6 @@ def build_pubs(**kwargs):
     return verify_all_pubs()
 
 
-def count_pub_words(pub_name):
-    f = Path(f'Documents/markseaman.info/words/{pub_name}')
-    pub = get_pub(pub_name)
-    words = show_pub_details(pub)
-    if is_old(f):
-        f.write_text(words)
-        # print(f'Words file Is old {f}')
-        # print(words)
-    else:
-        words = f.read_text()
-    return pub.words
-
-
 def doc_view_context(**kwargs):
     path = kwargs.get('path', 'Documents/shrinking-world.com/blog/Index.md')
     json = kwargs.get('json', 'Documents/shrinking-world.com/blog.json')
@@ -116,38 +105,13 @@ def doc_view_context(**kwargs):
 
 
 def get_pub(name):
-    try:
-        # print('get_pub: ', name)
-        return Pub.objects.get(name=name)
-    except:
-        print(f'**** Exception in get_pub ({name})')
-        return
-
-
-def get_pub_contents(pub):
-    def doc_objects(pub, folder):
-        return (
-            Content.objects.filter(blog=pub, doctype="chapter", folder=folder)
-            .order_by("order")
-            .values()
-        )
-
-    def docs_in_folder(pub, folder):
-        return [d for d in doc_objects(pub, folder)]
-
-    def folder_objects(pub):
-        return (
-            Content.objects.filter(blog=pub, doctype="folder")
-            .order_by("order")
-            .values()
-        )
-
-    folders = []
-    for folder in folder_objects(pub):
-        docs = docs_in_folder(pub, folder.get("order"))
-        folder.update(dict(documents=docs))
-        folders.append(folder)
-    return folders
+    return Pub.objects.get(name=name)
+    # try:
+    #     # print('get_pub: ', name)
+    #     return Pub.objects.get(name=name)
+    # except:
+    #     print(f'**** Exception in get_pub ({name})')
+    #     return
 
 
 def get_pub_info(pub_name=None):
@@ -161,9 +125,9 @@ def get_pub_info(pub_name=None):
         text += f'Title: {pub.title}\n\n'
         text += f'Tag Line: {pub.subtitle}\n\n'
         text += f'Document Path: {pub.doc_path}\n\n'
-        text += f'Details: \n{show_pub_details(pub)}\n\n'
+        # text += f'Details: \n{show_pub_details(pub)}\n\n'
         text += f'Summary: \n{show_pub_content(pub)}\n\n'
-        text += f'Words: \n{show_pub_words(pub)}\n\n'
+        # text += f'Words: \n{show_pub_words(pub)}\n\n'
     return text
 
 
@@ -304,25 +268,6 @@ def show_pub_content(pub):
     return text
 
 
-def show_pub_details(pub):
-    content = pub.content_set.all()
-    output = f'Pub Contents - {pub.name} - {pub.title}'
-    total_words = 0
-    for f in content.filter(folder=0):
-        folder_words = word_count(read_file(f.path))
-        output += f'\n{f.title} - {f.path} - {folder_words} words\n'
-        for d in content.filter(folder=f.order):
-            words = word_count(read_file(d.path))
-            folder_words += words
-            output += f'    {d.title} - {d.path} - {words} words\n'
-        output += f'    Words in {f.title}: {folder_words} words\n'
-        total_words += folder_words
-    output += f'\nTotal Words in {pub.title}: {total_words} words, {int(total_words/250)} pages\n'
-    pub.words = total_words
-    pub.save()
-    return output
-
-
 def show_pub_json(pub=None):
     if pub:
         pubs = [get_pub(pub)]
@@ -336,33 +281,6 @@ def show_pub_json(pub=None):
     #     text += f"\n\n---\n\n{js}\n\n---\n\n"
     #     text += js.read_text()
     # return text
-
-
-def show_pub_words(pub=None):
-    text = "PUB WORDS\n\n"
-    pubs = [pub] if pub else all_pubs()
-    for pub in pubs:
-        path = word_count_file(pub)
-        text += f"\n\n---\n\n{path}\n\n---\n\n"
-        text += path.read_text()
-    return text
-
-
-def show_pubs(pub=None):
-    if pub:
-        p = get_pub(pub)
-        return f'{p.name:15} -  {p.title:35} - {p.words:5} words - {int(p.words/250)} pages'
-    else:
-        output = "PUBLICATIONS:\n\n"
-        for t in ['book', 'blog', 'course', 'private']:
-            text = ''
-            words = 0
-            for p in all_pubs(t):
-                text += f'    {p.name:15} -  {p.title:35} - {p.words:5} words\n'
-                words += p.words
-                get_pub(p.name)
-            output += f'\nPubs - {t} - {words} words - {int(words/250)} pages\n{text}\n'
-        return output
 
 
 def verify_pubs(verbose):
@@ -395,14 +313,15 @@ def verify_pubs(verbose):
             print(text)
         else:
             return text
-    else:
-        print(f'** Pub Info: {info} Lines **')
-        assert info > min_lines
-        assert info < max_lines
+    # else:
+    #     print(f'** Pub Info: {info} Lines **')
+    #     assert info > min_lines
+    #     assert info < max_lines
 
 
-def word_count_file(pub):
-    path = Path("Documents/markseaman.info") / "words" / pub.name
-    if not path.exists():
-        path.write_text('')
-    return path
+def work_pending():
+    output = 'AI DOCS:\n\n'
+    for pub in all_pubs():
+        output += list_ai_docs(pub)
+    path = Path('Documents/markseaman.info/words/AI-Docs')
+    path.write_text(output)

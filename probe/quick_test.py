@@ -1,17 +1,15 @@
 from pathlib import Path
-from course.course import initialize_course_data
-from course.models import Team
-from course.team import setup_team_pages, setup_teams
+from course.team import setup_team_pages
 from probe.data import load_json_data, save_json_data
 
 from probe.probe_pub import test_pub_json
-from publish.import_export import create_pub
-from publish.publication import build_pubs, count_pub_words, get_pub, show_pub_details, show_pubs
+from publish.publication import build_pubs
 from publish.text import text_join, text_lines
 from task.task import fix_tasks, task_command
 from task.todo import edit_todo_list
 from writer.outline import create_outlines
 from writer.pub_script import pub_path, pub_script
+from writer.words import measure_pub_words
 
 from .models import Probe, TestResult
 from .probe_pub import test_show_pubs
@@ -20,10 +18,11 @@ from .probe_pub import test_show_pubs
 def quick_test():
     # print("No quick test defined")
     # course()
-    pubs()
+    pub()
     # tasks()
     # tests()
     # writer()
+    return 'OK'
 
 
 def course():
@@ -31,32 +30,25 @@ def course():
     initialize_course_data(delete=False, verbose=True, sales=True)
     setup_teams()
     setup_team_pages()
-    return 'OK'
+
+
+def pub():
+    # Build Pubs
+    build_pubs(verbose=False, delete=False)
+    text = measure_pub_words()
+    print(len(text_lines(text)), 'Lines of text in word files')
 
 
 def writer():
     create_outlines(pub_path('spirituality', 'Transformation'))
 
-
-def pubs():
-
-    # Run pub scripts:
-    # print(pub_list())
-
-    # Build Pubs
-    # build_pubs(verbose=False, delete=True)
-
-    x = 'sweng'
-    words = count_pub_words(x)
-    print(words)
-    pub = get_pub(x)
-    print(f'Words {pub.name}: {pub.words}')
+    # print(f'Words {pub.name}: {pub.words}')
 
     # pub = get_pub(x)
     # # pub.delete()
     # # create_pub(x, f'Documents/Shrinking-World-Pubs/{x}/Pub', False)
     # # create_pub_index(pub, get_pub_contents(pub))
-    # print(show_pubs(x))
+    # print(show_pubs())
     # print(show_pub_details(pub))
 
     # Create Cover Images

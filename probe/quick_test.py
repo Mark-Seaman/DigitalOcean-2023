@@ -3,13 +3,13 @@ from course.team import setup_team_pages
 from probe.data import load_json_data, save_json_data
 
 from probe.probe_pub import test_pub_json
-from publish.publication import build_pubs
+from publish.publication import all_pubs, build_pubs, get_pub
 from publish.text import text_join, text_lines
 from task.task import fix_tasks, task_command
 from task.todo import edit_todo_list
 from writer.outline import create_outlines
 from writer.pub_script import pub_path, pub_script
-from writer.words import measure_pub_words
+from writer.words import measure_pub_words, show_pubs
 
 from .models import Probe, TestResult
 from .probe_pub import test_show_pubs
@@ -35,8 +35,9 @@ def course():
 def pub():
     # Build Pubs
     build_pubs(verbose=False, delete=False)
-    text = measure_pub_words()
-    print(len(text_lines(text)), 'Lines of text in word files')
+    # text = measure_pub_words()
+    # print(len(text_lines(text)), 'Lines of text in word files')
+    print(show_pubs())
 
 
 def writer():
@@ -48,7 +49,7 @@ def writer():
     # # pub.delete()
     # # create_pub(x, f'Documents/Shrinking-World-Pubs/{x}/Pub', False)
     # # create_pub_index(pub, get_pub_contents(pub))
-    # print(show_pubs())
+    #
     # print(show_pub_details(pub))
 
     # Create Cover Images

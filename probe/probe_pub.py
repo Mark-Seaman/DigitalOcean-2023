@@ -4,7 +4,7 @@ from publish.publication import all_pubs, build_pubs, show_pub_json
 from writer.words import measure_pub_words, show_pubs
 
 
-def test_pub_import():
+def test_build_pubs():
     return build_pubs()
 
 

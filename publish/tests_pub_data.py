@@ -93,8 +93,8 @@ class FixtureTest(DjangoTest):
 
     def test_pub_list(self):
         pubs = ', '.join([p.name for p in all_pubs()])
-        self.assertEqual(len(all_pubs()), 20)
-        names = 'ai, cellbiology, family, ghost, io, journey, leverage, marks, org, poem, private, quest, sampler, spiritual, spirituality, sweng, tech, today, webapps, write'
+        self.assertEqual(len(all_pubs()), 19)
+        names = 'ai, family, ghost, io, journey, leverage, marks, org, poem, private, quest, sampler, spiritual, spirituality, sweng, tech, today, webapps, write'
         self.assertEqual(pubs, names)
 
     # def test_sweng(self):

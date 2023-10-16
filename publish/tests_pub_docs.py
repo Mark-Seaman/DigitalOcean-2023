@@ -64,5 +64,5 @@ class PubDocTest(DjangoTest):
     #         x = count_pub_words(pub_name)
     #         self.assertEqual(x, p[1])
 
-    def test_ai_docs(self):
-        work_pending()
+    # def test_ai_docs(self):
+    #     work_pending()

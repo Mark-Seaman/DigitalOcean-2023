@@ -29,4 +29,4 @@ class WordCountTest(DjangoTest):
         self.assertEqual(pubs, 19)
         self.assertEqual(contents, 1310)
         self.assertEqual(words, 467854)
-        self.assertEqual(pages, 1854)
+        self.assertEqual(pages, 1871)

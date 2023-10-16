@@ -17,7 +17,7 @@ def test_documents_bacs350():
 
 
 def test_documents_cs350():
-    return check_files(docs / "shrinking-world.com" / "cs350", 190, 210)
+    return check_files(docs / "shrinking-world.com" / "cs350", 210, 230)
 
 
 def test_documents_info():
@@ -54,7 +54,7 @@ def test_documents_spiritual():
 
 
 def test_documents_shrinking_world():
-    return check_files(docs / "shrinking-world.com", 580, 670)
+    return check_files(docs / "shrinking-world.com", 580, 690)
 
 
 def test_documents_mark():

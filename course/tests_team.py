@@ -46,7 +46,7 @@ class TeamPagesTest(DjangoTest):
     def test_team_page(self):
         path = page_path('TeamProject.md', '2')
         x = read_page(path)
-        self.assertEqual(len(x['html']), 1105)
+        self.assertEqual(len(x['html']), 1292)
         self.assertEqual(x['title'], 'Team Project Workspace')
 
     def test_write_team_page(self):

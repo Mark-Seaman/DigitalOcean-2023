@@ -120,6 +120,10 @@ def doc_link(pub, chapter, doc):
 
 def doc_list(pub, chapter):
     path = pub_path(pub, chapter)
+    for ai in path.glob('*.ai'):
+        md = Path(str(ai).replace('.ai', '.md'))
+        if not md.exists():
+            copyfile(ai, md)
     return [doc_link(pub, chapter, doc.name) for doc in sorted(path.glob('*.md')) if doc.is_file()]
 
 

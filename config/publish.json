@@ -18725,5 +18725,131 @@
         "words": 1046,
         "retain_object": false
     }
+},
+{
+    "model": "publish.content",
+    "pk": 2750,
+    "fields": {
+        "blog": 35,
+        "order": 5,
+        "title": "Milestone 5 - Code Complete",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m5/Index.md",
+        "folder": 0,
+        "words": 572,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2755,
+    "fields": {
+        "blog": 35,
+        "order": 8,
+        "title": "Document not found",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m5/Requirements.md",
+        "folder": 5,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2756,
+    "fields": {
+        "blog": 35,
+        "order": 9,
+        "title": "Document not found",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m5/Design.md",
+        "folder": 5,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2757,
+    "fields": {
+        "blog": 35,
+        "order": 10,
+        "title": "Document not found",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m5/Code.md",
+        "folder": 5,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2758,
+    "fields": {
+        "blog": 35,
+        "order": 11,
+        "title": "Document not found",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m5/Test.md",
+        "folder": 5,
+        "words": 0,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2759,
+    "fields": {
+        "blog": 35,
+        "order": 2,
+        "title": "Lesson 17 - Milestone 5 - Requirements",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m5/Lesson_17.md",
+        "folder": 5,
+        "words": 1372,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2760,
+    "fields": {
+        "blog": 35,
+        "order": 3,
+        "title": "Lesson 18 - Milestone 5 - Design",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m5/Lesson_18.md",
+        "folder": 5,
+        "words": 766,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2761,
+    "fields": {
+        "blog": 35,
+        "order": 4,
+        "title": "Lesson 19 - Milestone 5 - Code",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m5/Lesson_19.md",
+        "folder": 5,
+        "words": 940,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2762,
+    "fields": {
+        "blog": 35,
+        "order": 5,
+        "title": "Lesson 20 - Milestone 5 - Test",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m5/Lesson_20.md",
+        "folder": 5,
+        "words": 537,
+        "retain_object": false
+    }
 }
 ]

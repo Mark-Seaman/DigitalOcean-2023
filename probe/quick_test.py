@@ -20,7 +20,7 @@ from .probe_pub import test_show_pubs
 def quick_test():
     # print("No quick test defined")
     course()
-    pub()
+    # pub()
     # tasks()
     # tests()
     # writer()

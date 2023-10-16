@@ -1,0 +1,39 @@
+# Ghost Writer - Milestone 5 - Technical Feasibility
+
+**Team Github Repo**:  [https://github.com/Mark-Seaman/GhostWriter](https://github.com/Mark-Seaman/GhostWriter)
+
+**Team Application Server**:  [https://shrinking-world.com/sweng](https://shrinking-world.com/sweng)
+
+**Team Status Website**:  [Project Documents](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents)
+
+**Shrinking World Course**: [Milestone 5](https://shrinking-world.com/sweng/m5-Index.md)
+
+---
+
+## [Milestone 5 Documents](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Milestone-5)
+
+* [Requirements](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Milestone-5/Requirements) 
+    * Burn-down Graph
+    * Customer Acceptance Meeting
+    * Usability Tests
+    * AI Prompts
+    * Status Report with Video
+
+* [Design](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Milestone-5/Design)
+    * Catalog of Design Patterns
+    * Refactoring Report (before and after design)
+    * AI Prompts
+    * Status Report with Video
+
+* [Code](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Milestone-5/Code)
+    * All Features Complete
+    * Test-Driven Log (features, iterations, pass/fail, time)
+    * AI Prompts
+    * Status Report with Video
+
+* [Test](https://github.com/Mark-Seaman/GhostWriter/tree/main/Documents/Milestone-5/Test)
+    * 90% Test Coverage, 50% Test Code
+    * Perform usability testing for another team
+    * AI Prompts
+    * Status Report with Video
+

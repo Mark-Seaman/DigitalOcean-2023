@@ -29,7 +29,7 @@ def quick_test():
 
 def course():
     Team.objects.all().delete()
-    initialize_course_data(delete=False, verbose=True, sales=True)
+    initialize_course_data(delete=False, verbose=True, sales=False)
     setup_teams()
     setup_team_pages()
 

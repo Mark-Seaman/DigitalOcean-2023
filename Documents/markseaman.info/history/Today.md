@@ -1,23 +1,27 @@
 # Priorities for Friday
 
-Fun 0
-
-    books
-
-Prometa 0
+Prometa 3
 
     Turn on Managed Database
+    work with Stacie on top issues
 
-Teach 0
+Teach 3
 
-    test Milestone 5 lessons
-    create team pages 
-    grade BACS 350
+    grade Milestone 4
+    grade Project 8
+
+Write 1
+
+    Publications Word Count
+
+Fun 4
 
 Family 0
 
 Church 0
+
 Innovate 0
+
 Grow 0
 
 

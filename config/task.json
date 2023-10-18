@@ -20146,7 +20146,403 @@
 },
 {
     "model": "task.task",
-    "pk": 7482,
+    "pk": 9032,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    church with Lucy",
+        "date": "2023-10-08",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9033,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    family dinner with Lucy\n    cook salmon",
+        "date": "2023-10-08",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9034,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    nap",
+        "date": "2023-10-08",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9035,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    count words for published and unpublished writing",
+        "date": "2023-10-08",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9036,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Sim City",
+        "date": "2023-10-08",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9037,
+    "fields": {
+        "name": "Write",
+        "activity": 5,
+        "notes": "    word count\n    Hour of Bliss\n    Publishing Content\n    Taste of Philly",
+        "date": "2023-10-09",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9038,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "     All My Knotted up life\n     Red Sonja\n     Last Kingdom\n     Sim City",
+        "date": "2023-10-09",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9039,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    bus to UNC\n    beautiful day for a walk",
+        "date": "2023-10-09",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9040,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    grade Week 7\n    grade Milestone 3",
+        "date": "2023-10-09",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9041,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    visit with Lucy",
+        "date": "2023-10-09",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9042,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    build problem with Digital Ocean",
+        "date": "2023-10-09",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9043,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    meet with Min Cao\n    create video for TDD class\n    kicked out of my office",
+        "date": "2023-10-10",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9044,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    fix Digital Ocean",
+        "date": "2023-10-10",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9045,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    visit with Lucy",
+        "date": "2023-10-10",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9046,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    Myth of Christian Nation audible",
+        "date": "2023-10-10",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9047,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    restless night\n    anger management \n    decide on career path pivot\n    Beth Moore\n    Christian Nation",
+        "date": "2023-10-11",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9048,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    change office hours\n    setup cal.com for office hours\n    1st day to not go to UNC\n    grade Milestone 1\n    create course for TDD on Shrinking-World.org\n    create free access for UNC students",
+        "date": "2023-10-11",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9049,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    dinner with Lucy ",
+        "date": "2023-10-11",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9050,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Red Sonja\n    Sim City",
+        "date": "2023-10-11",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9051,
+    "fields": {
+        "name": "Write",
+        "activity": 5,
+        "notes": "    Shrinking World Seminar - Creating Course Content",
+        "date": "2023-10-12",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9052,
+    "fields": {
+        "name": "ProMETA",
+        "activity": 7,
+        "notes": "    update plan for Prometa App\n    restructure student edit view\n    improve section enrollment view\n    investigate SSH and backup capabilities\n    work with Stacie on issues list\n    ChatGPT for support query to Digital Ocean",
+        "date": "2023-10-12",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9053,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    missed meeting with Andrew Holmes\n    Jodie Novak message\n    create explanation of teaching for CS 350",
+        "date": "2023-10-12",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9054,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Sim City\n    Red Sonja\n    Last Kingdom",
+        "date": "2023-10-12",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9055,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    visit with Lucy",
+        "date": "2023-10-12",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9056,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    emotional capacity and margin\n    enemy mode and conflict\n    thoughts about sustainable career path",
+        "date": "2023-10-13",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9057,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Cassie's birthday\n    Stacie is sick (probable kidney stone)",
+        "date": "2023-10-13",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9058,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    Software Engineering Preface\n    reply to Jodie Kovak\n    ",
+        "date": "2023-10-13",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9059,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Sim City\n    Solitaire",
+        "date": "2023-10-13",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9060,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    Chosen ",
+        "date": "2023-10-13",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9061,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    Chosen - season 3 finale",
+        "date": "2023-10-14",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9062,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    order Chosen books for Lucy\n    Stacie is sick (probable kidney stone)",
+        "date": "2023-10-14",
+        "hours": 6,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9063,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    create tools for word counts and pub tests",
+        "date": "2023-10-14",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9064,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    go to library",
+        "date": "2023-10-14",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 9694,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -20158,7 +20554,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7483,
+    "pk": 9695,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -20170,7 +20566,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7484,
+    "pk": 9696,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -20182,7 +20578,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7485,
+    "pk": 9697,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -20194,7 +20590,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7486,
+    "pk": 9698,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -20206,7 +20602,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7487,
+    "pk": 9699,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -20218,7 +20614,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7488,
+    "pk": 9700,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -20230,7 +20626,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7489,
+    "pk": 9701,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -20242,7 +20638,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7490,
+    "pk": 9702,
     "fields": {
         "name": "Church",
         "activity": 2,
@@ -20254,7 +20650,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7491,
+    "pk": 9703,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -20266,7 +20662,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7492,
+    "pk": 9704,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -20278,7 +20674,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7493,
+    "pk": 9705,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -20290,7 +20686,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7494,
+    "pk": 9706,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -20302,7 +20698,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7495,
+    "pk": 9707,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -20314,7 +20710,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7496,
+    "pk": 9708,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -20326,7 +20722,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7497,
+    "pk": 9709,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -20338,7 +20734,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7498,
+    "pk": 9710,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -20350,7 +20746,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7499,
+    "pk": 9711,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -20362,7 +20758,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7500,
+    "pk": 9712,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -20374,7 +20770,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7501,
+    "pk": 9713,
     "fields": {
         "name": "Church",
         "activity": 2,
@@ -20386,7 +20782,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7502,
+    "pk": 9714,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -20398,7 +20794,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7503,
+    "pk": 9715,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -20410,7 +20806,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7504,
+    "pk": 9716,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -20422,7 +20818,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7505,
+    "pk": 9717,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -20434,7 +20830,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7506,
+    "pk": 9718,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -20446,7 +20842,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7507,
+    "pk": 9719,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -20458,7 +20854,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7508,
+    "pk": 9720,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -20470,7 +20866,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7509,
+    "pk": 9721,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -20482,7 +20878,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7510,
+    "pk": 9722,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -20494,7 +20890,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7511,
+    "pk": 9723,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -20506,7 +20902,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7512,
+    "pk": 9724,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -20518,7 +20914,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7513,
+    "pk": 9725,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -20530,7 +20926,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7514,
+    "pk": 9726,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -20542,7 +20938,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7515,
+    "pk": 9727,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -20554,7 +20950,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7516,
+    "pk": 9728,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -20566,7 +20962,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7517,
+    "pk": 9729,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -20578,7 +20974,7 @@
 },
 {
     "model": "task.task",
-    "pk": 7518,
+    "pk": 9730,
     "fields": {
         "name": "Church",
         "activity": 2,

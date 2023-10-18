@@ -21,5 +21,5 @@ class WordCountTest(DjangoTest):
         pubs, contents, words, pages = count_nodes()
         self.assertEqual(pubs, 19)
         self.assertEqual(contents, 1310)
-        self.assertEqual(words, 468618)
-        self.assertEqual(pages, 1874)
+        self.assertEqual(words, 469021)
+        self.assertEqual(pages, 1876)

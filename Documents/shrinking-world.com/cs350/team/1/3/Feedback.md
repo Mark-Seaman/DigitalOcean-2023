@@ -6,28 +6,28 @@
 
 **Milestone 3**: [Milestone 3 Documents](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-3)
 
-## Project Status -  <b class="red p-2">MILESTONE 3 INCOMPLETE</b>
+## Project Status -  <b class="green p-2">MILESTONE 3 COMPLETE</b>
 
 Please complete the assigned work for Milestone 3 and email to reassess.
 
 
 Milestone 3 Assignments
 
-*  - Requirements  - **INCOMPLETE**
-*  - Design        - **COMPLETE**
-*  - Code          - **COMPLETE**
-*  - Test          - **INCOMPLETE**
+*  Josh Flatt - Requirements  - **INCOMPLETE**
+*  Kyle Longaker - Design     - **COMPLETE**
+*  Ryan Lunas - Code          - **COMPLETE**
+*  Evan Duffield - Test       - **COMPLETE**
 
 
 ## Feedback for Engineering Team
 
 * [Requirements](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-3/Requirements) -  <b class="red p-2">INCOMPLETE</b>
 - Josh Flatt - Requirements -- none
-* No work completed 
-    * Sprint Planning
-    * Product Backlog
-    * AI Prompts
-    * Status Report with Video
+    * Work completed
+        * Sprint Planning
+        * Product Backlog
+        * AI Prompts
+    * Still need Status Report with Video
 
 * [Design](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-3/Design) - **COMPLETE**  -  <b class="green p-2">Superstar</b>
     - Kyle Longaker
@@ -37,9 +37,9 @@ Milestone 3 Assignments
 * [Code](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-3/Code) - **COMPLETE**
     - Ryan Lunas -- excellent
     
-* [Test](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-3/Test) -  <b class="red p-2">INCOMPLETE</b>
+* [Test](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-3/Test) -  **COMPLETE**
     - Evan Duffield
-    * No work completed 
+    * Work completed 
         * TDD Cookbook
         * Automated tests for all views and data types
         * AI Prompts

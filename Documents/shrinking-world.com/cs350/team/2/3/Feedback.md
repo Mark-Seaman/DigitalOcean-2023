@@ -7,7 +7,7 @@
 **Milestone 3**: [Milestone 3 Documents](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-3)
 
 
-## Project Status - <b class="red p-2">MILESTONE 3 INCOMPLETE</b>
+## Project Status - <b class="green p-2">MILESTONE 3 COMPLETE</b>
 
 Please complete the assigned work for Milestone 3 and email to reassess.
 
@@ -36,9 +36,9 @@ Milestone 3 Assignments
     * AI Prompts
     * Status Report with Video
 
-* [Code](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-3/Code) - -  <b class="red p-2">INCOMPLETE</b>
+* [Code](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-3/Code) -  **COMPLETE**
     - Dale Barriga
-    * No work completed 
+    * Work completed 
         * Prototype of core features
         * Automated test of the core features
         * AI Prompts
@@ -46,9 +46,9 @@ Milestone 3 Assignments
 
 * [Test](https://github.com/alexhovick/ShopZoneCS350/tree/main/Documents/Milestone-3/Test) - -  <b class="red p-2">INCOMPLETE</b>
     - Seth Hatch 
-    * No work completed 
+    * Work completed 
         * TDD Cookbook
         * Automated tests for all views and data types
         * AI Prompts
-        * Status Report with Video
+    * Still need Status Report with Video
 

@@ -8,13 +8,13 @@
 * [A Seaman's Quest](/quest)               57499 words   229 pages
 
 
-## Pubs - blog                            159012 words   636 pages
+## Pubs - blog                            160272 words   641 pages
 
 * [Seaman Family News](/family)                0 words     0 pages
 * [Mark Seaman](/marks)                     1187 words     4 pages
 * [Seaman's Log](/sampler)                 56679 words   226 pages
 * [Daily Meditations](/spiritual)          58437 words   233 pages
-* [Life with God](/spirituality)           11220 words    44 pages
+* [Life with God](/spirituality)           12480 words    49 pages
 * [Tech Notes](/tech)                      22541 words    90 pages
 * [Mark Today Blogcast](/today)              717 words     2 pages
 * [Writer's Block](/write)                  8231 words    32 pages
@@ -37,4 +37,4 @@
 
 
 
-## Grand Total   466314 words  1865 pages
+## Grand Total   467574 words  1870 pages

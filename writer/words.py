@@ -40,10 +40,12 @@ def measure_pub_words(**kwargs):
         for content in pub_content:
             w = chapter_words(content)
             words += w
-            output += f'\n{content["title"]:65} {content["words"]:10} {w:10} {int(w/250):10} pages\n\n'
+            output += f'\n{content["title"]:45} {content["words"]:5},{w:5} words {int(w/250):10} pages\n\n'
             for doc in content["documents"]:
-                output += f'    {doc["title"]:60}  {doc["words"]:10}\n'
+                output += f'    {doc["title"]:40}  {doc["words"]:5} words\n'
         output += f'\nPub Words: {words:40} {int(words/250):10} pages'
+        pub.words = words
+        pub.save()
         return output
 
     def chapter_words(content):
@@ -52,6 +54,13 @@ def measure_pub_words(**kwargs):
             words += doc["words"]
         return words
 
+    # def save_published_words():
+    #     text = '# Published Words\n\n'
+    #     for pub in all_pubs():
+    #         text += f'* [{pub.title}](/{pub.name}) - {pub.words} words\n'
+    #     path = Path("Documents/markseaman.info/words/Published.md")
+    #     path.write_text(text)
+
     p = kwargs.get('pub')
     pubs = [get_pub(p)] if p else all_pubs()
     text = ''
@@ -59,41 +68,60 @@ def measure_pub_words(**kwargs):
         path = Path("Documents/markseaman.info/words") / pub.name
         path.write_text(pub_words(pub))
         text += path.read_text() + '\n\n'
+    save_published_words()
     return text
 
 
-def show_pub_words(pub=None):
-    text = "PUB WORDS\n\n"
-    pubs = [pub] if pub else all_pubs()
-    for pub in pubs:
-        path = word_count_file(pub)
-        text += f"\n\n---\n\n{path}\n\n---\n\n"
-        text += path.read_text()
-    return text
+# def show_pub_words(pub=None):
+#     text = "PUB WORDS\n\n"
+#     pubs = [pub] if pub else all_pubs()
+#     for pub in pubs:
+#         path = word_count_file(pub)
+#         text += f"\n\n---\n\n{path}\n\n---\n\n"
+#         text += path.read_text()
+#     return text
 
 
-def word_count_file(pub):
-    path = Path("Documents/markseaman.info") / "words" / pub.name
-    if not path.exists():
-        path.write_text('')
-    return path
+# def word_count_file(pub):
+#     path = Path("Documents/markseaman.info") / "words" / pub.name
+#     if not path.exists():
+#         path.write_text('')
+#     return path
 
 
-def show_pubs(pub=None):
-    if pub:
-        p = get_pub(pub)
-        return f'{p.name:15} -  {p.title:35} - {p.words:5} words - {int(p.words/250)} pages'
-    else:
-        output = "PUBLICATIONS:\n\n"
-        for t in ['book', 'blog', 'course', 'private']:
-            text = ''
-            words = 0
-            for p in all_pubs(t):
-                text += f'    {p.name:15} -  {p.title:35} - {p.words:5} words\n'
-                words += p.words
-                get_pub(p.name)
-            output += f'\nPubs - {t} - {words} words - {int(words/250)} pages\n{text}\n'
-        return output
+def save_published_words():
+    text = '# Published Words\n\n'
+    total = 0
+    for t in ['book', 'blog', 'course', 'private']:
+        words = 0
+        text2 = ''
+        for pub in all_pubs(t):
+            link = f'[{pub.title}](/{pub.name})'
+            text2 += f'* {link:40} {pub.words:5} words {int(pub.words/250):5} pages\n'
+            words += pub.words
+            total += pub.words
+        text += f'\n## Pubs - {t:30} {words:7} words {int(words/250):5} pages\n\n{text2}\n'
+    text += f'\n\n## Grand Total  {total:7} words {int(total/250):5} pages'
+
+    path = Path("Documents/markseaman.info/words/Published.md")
+    path.write_text(text)
+
+
+# def show_pubs(pub=None):
+#     if pub:
+#         p = get_pub(pub)
+#         return f'{p.name:15} -  {p.title:35} - {p.words:5} words - {int(p.words/250)} pages'
+#     else:
+#         output = "PUBLICATIONS:\n\n"
+#         for t in ['book', 'blog', 'course', 'private']:
+#             text = ''
+#             words = 0
+#             for p in all_pubs(t):
+#                 text += f'    {p.name:15} -  {p.title:35} - {p.words:5} words\n'
+#                 words += p.words
+#                 get_pub(p.name)
+#             output += f'\nPubs - {t} - {words} words - {int(words/250)} pages\n{text}\n'
+#         return output
 
 
 # def show_pub_details(pub):

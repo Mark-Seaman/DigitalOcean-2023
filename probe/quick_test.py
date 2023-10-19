@@ -11,16 +11,15 @@ from task.task import fix_tasks, task_command
 from task.todo import edit_todo_list
 from writer.outline import create_outlines
 from writer.pub_script import pub_path, pub_script
-from writer.words import measure_pub_words, show_pubs
+from writer.words import measure_pub_words
 
 from .models import Probe, TestResult
-from .probe_pub import test_show_pubs
 
 
 def quick_test():
     # print("No quick test defined")
-    course()
-    # pub()
+    # course()
+    pub()
     # tasks()
     # tests()
     # writer()
@@ -37,9 +36,9 @@ def course():
 def pub():
     # Build Pubs
     build_pubs(verbose=False, delete=False)
-    # text = measure_pub_words()
+    text = measure_pub_words()
     # print(len(text_lines(text)), 'Lines of text in word files')
-    print(show_pubs())
+    print(text)
 
 
 def writer():

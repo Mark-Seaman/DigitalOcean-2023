@@ -2,7 +2,7 @@ from pathlib import Path
 from probe.data import save_json_data
 from publish.days import is_old
 from publish.publication import all_pubs, build_pubs, show_pub_json
-from writer.words import measure_pub_words, show_pubs
+from writer.words import measure_pub_words
 
 
 def test_build_pubs():
@@ -13,17 +13,6 @@ def test_build_pubs():
 
 def test_pub_json():
     return show_pub_json()
-
-
-def test_pub_info():
-    return 'OK'
-#     save_pub_info()
-#     text = concatonate('probe/pubs/*')
-#     return f'All Pub Info: {line_count(text)}'
-
-
-def test_show_pubs():
-    return show_pubs()
 
 
 def test_pub_content():

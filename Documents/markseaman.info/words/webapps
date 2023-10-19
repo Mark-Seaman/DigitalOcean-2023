@@ -3,116 +3,116 @@
                               webapps
 --------------------------------------------------------------------------------
 
-Chapter 1 - Development Tools                                           1390       3757         15 pages
+Chapter 1 - Development Tools                  1390, 3757 words         15 pages
 
-     Skill 1 - Visual Studio Code & Github                               653
-     Skill 2 - Setup Python Environment                                  383
-     Skill 3 - Running a Django Application                              318
-     Demo 1 - Profile App                                                468
-     Project 1 - Setup Development Tools                                 545
+     Skill 1 - Visual Studio Code & Github      653 words
+     Skill 2 - Setup Python Environment         383 words
+     Skill 3 - Running a Django Application     318 words
+     Demo 1 - Profile App                       468 words
+     Project 1 - Setup Development Tools        545 words
 
-Chapter 2 - Application Hosting                                         1974       5206         20 pages
+Chapter 2 - Application Hosting                1974, 5206 words         20 pages
 
-     Skill 4 - Deploy a Static Web Server                                180
-     Skill 5 - Deploy to Development Server                              817
-     Skill 6 - Deploy to Production Server                              1275
-     Demo 2 - App Platform Deployment                                    636
-     Project 2 - Web App Hosting                                         324
+     Skill 4 - Deploy a Static Web Server       180 words
+     Skill 5 - Deploy to Development Server     817 words
+     Skill 6 - Deploy to Production Server     1275 words
+     Demo 2 - App Platform Deployment           636 words
+     Project 2 - Web App Hosting                324 words
 
-Chapter 3 - Basic Application                                            905       3183         12 pages
+Chapter 3 - Basic Application                   905, 3183 words         12 pages
 
-      Skill 7 - Create a Django App                                      407
-      Skill 8 - View with Variables                                      456
-      Skill 9 - Add Variables to View                                    343
-     Demo 3 - Debugging with Visual Studio                               606
-     Project 3 - Superhero Pages                                         466
+      Skill 7 - Create a Django App             407 words
+      Skill 8 - View with Variables             456 words
+      Skill 9 - Add Variables to View           343 words
+     Demo 3 - Debugging with Visual Studio      606 words
+     Project 3 - Superhero Pages                466 words
 
-Chapter 4 - Views                                                        834       3912         15 pages
+Chapter 4 - Views                               834, 3912 words         15 pages
 
-     Skill 10 - View Inheritance                                         391
-     Skill 11 - Templates                                                511
-     Skill 12 - Complex Variables in Views                               683
-     Demo 4 - Visual Inheritance                                         895
-     Project 4 - Superhero Profiles                                      598
+     Skill 10 - View Inheritance                391 words
+     Skill 11 - Templates                       511 words
+     Skill 12 - Complex Variables in Views      683 words
+     Demo 4 - Visual Inheritance                895 words
+     Project 4 - Superhero Profiles             598 words
 
-Chapter 5 - Data                                                        1148       3625         14 pages
+Chapter 5 - Data                               1148, 3625 words         14 pages
 
-     Skill 13 - Build Data Models                                        258
-     Skill 14 - List and Detail Views                                    414
-     Skill 15 - Admin Views                                              440
-     Demo 5 - Working with Data                                          609
-     Project 5 - Superhero Database                                      756
+     Skill 13 - Build Data Models               258 words
+     Skill 14 - List and Detail Views           414 words
+     Skill 15 - Admin Views                     440 words
+     Demo 5 - Working with Data                 609 words
+     Project 5 - Superhero Database             756 words
 
-Chapter 6 - Data views                                                  1108       3975         15 pages
+Chapter 6 - Data views                         1108, 3975 words         15 pages
 
-     Skill 16 - Data CRUD views                                          601
-     Skill 17 - Development Database                                     402
-     Skill 18 - Production Database                                      351
-     Demo 6 - Blog                                                       801
-     Project 6 - Superhero Data Views                                    712
+     Skill 16 - Data CRUD views                 601 words
+     Skill 17 - Development Database            402 words
+     Skill 18 - Production Database             351 words
+     Demo 6 - Blog                              801 words
+     Project 6 - Superhero Data Views           712 words
 
-Chapter 7 - Users                                                        763       2569         10 pages
+Chapter 7 - Users                               763, 2569 words         10 pages
 
-     Skill 19 - User Registration                                        192
-     Skill 20 - User Login                                               299
-     Skill 21 - User Status                                              248
-     Demo 7 - Blog Authors                                               647
-     Project 7 - User Authentication                                     420
+     Skill 19 - User Registration               192 words
+     Skill 20 - User Login                      299 words
+     Skill 21 - User Status                     248 words
+     Demo 7 - Blog Authors                      647 words
+     Project 7 - User Authentication            420 words
 
-Chapter 8 - Testing                                                     1748       3551         14 pages
+Chapter 8 - Testing                            1748, 3551 words         14 pages
 
-     Skill 22 - Writing Data Tests                                       284
-     Skill 23 - Writing View Tests                                       441
-     Skill 24 - Writing Page Tests                                       336
-     Demo 8 - Automated Testing                                          575
-     Project 8 - Superhero Articles                                      167
+     Skill 22 - Writing Data Tests              284 words
+     Skill 23 - Writing View Tests              441 words
+     Skill 24 - Writing Page Tests              336 words
+     Demo 8 - Automated Testing                 575 words
+     Project 8 - Superhero Articles             167 words
 
-Chapter 9 - Complex Views                                                551       2777         11 pages
+Chapter 9 - Complex Views                       551, 2777 words         11 pages
 
-     Skill 25 - Create a Theme Template                                  358
-     Skill 26 - Simple Views                                             780
-     Skill 27 - Complex Views                                            719
-     Demo 9 - Views Workshop                                             295
-     Project 9 - Production Database                                      74
+     Skill 25 - Create a Theme Template         358 words
+     Skill 26 - Simple Views                    780 words
+     Skill 27 - Complex Views                   719 words
+     Demo 9 - Views Workshop                    295 words
+     Project 9 - Production Database             74 words
 
-Chapter 10 - Images                                                      446       2519         10 pages
+Chapter 10 - Images                             446, 2519 words         10 pages
 
-     Skill 28 - Photo upload                                             165
-     Skill 29 - Media Hosting                                            502
-     Skill 30 - Image carousel                                           298
-     Demo 10 - Photo Albums                                              675
-     Project 9 - Superhero Website                                       433
+     Skill 28 - Photo upload                    165 words
+     Skill 29 - Media Hosting                   502 words
+     Skill 30 - Image carousel                  298 words
+     Demo 10 - Photo Albums                     675 words
+     Project 9 - Superhero Website              433 words
 
-Chapter 11 - Files and Documents                                        1215       2704         10 pages
+Chapter 11 - Files and Documents               1215, 2704 words         10 pages
 
-     Skill 31 - Reading and Writing Tables                               315
-     Skill 32 - Markdown Documents                                       284
-     Skill 33 - Save and Restore Objects                                 383
-     Demo 11 - Book Builder                                              459
-     Project 11 - Superhero Documents                                     48
+     Skill 31 - Reading and Writing Tables      315 words
+     Skill 32 - Markdown Documents              284 words
+     Skill 33 - Save and Restore Objects        383 words
+     Demo 11 - Book Builder                     459 words
+     Project 11 - Superhero Documents            48 words
 
-Chapter 12 - Development Process                                        1439       3538         14 pages
+Chapter 12 - Development Process               1439, 3538 words         14 pages
 
-     Skill 34 - Discover Requirements                                    573
-     Skill 35 - Design & Coding Process                                  200
-     Skill 36 - Test Driven-development                                  271
-     Demo 12 - Static Website Generator                                  837
-     Project 12 - Superhero Image Gallery                                218
+     Skill 34 - Discover Requirements           573 words
+     Skill 35 - Design & Coding Process         200 words
+     Skill 36 - Test Driven-development         271 words
+     Demo 12 - Static Website Generator         837 words
+     Project 12 - Superhero Image Gallery       218 words
 
-Chapter 13 - Software Release                                           1127       3566         14 pages
+Chapter 13 - Software Release                  1127, 3566 words         14 pages
 
-     Skill 37 - Code Generator                                           586
-     Skill 38 - Continuous Integration                                   334
-     Skill 39 - DevOps Practices                                         399
-     Demo 13 - Code Builder                                              752
-     Project 13 - Website Builder                                        368
+     Skill 37 - Code Generator                  586 words
+     Skill 38 - Continuous Integration          334 words
+     Skill 39 - DevOps Practices                399 words
+     Demo 13 - Code Builder                     752 words
+     Project 13 - Website Builder               368 words
 
-Chapter 14 - Software Engineering                                       1626       5006         20 pages
+Chapter 14 - Software Engineering              1626, 5006 words         20 pages
 
-     Skill 40 - Software Lifecycle                                       945
-     Skill 41 - Planning Grid                                            366
-     Skill 42 - Client Communication                                     772
-     Demo 14 - Software Engineering Notebook                            1065
-     Project 14 - Software Planner                                       232
+     Skill 40 - Software Lifecycle              945 words
+     Skill 41 - Planning Grid                   366 words
+     Skill 42 - Client Communication            772 words
+     Demo 14 - Software Engineering Notebook   1065 words
+     Project 14 - Software Planner              232 words
 
 Pub Words:                                    49888        199 pages

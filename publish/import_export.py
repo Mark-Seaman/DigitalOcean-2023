@@ -111,7 +111,7 @@ def pub_json_path(name, doc_path):
     if json3.exists():
         return json3
     if json1.exists():
-        print("COPY FILE", json1, json2)
+        # print("COPY FILE", json1, json2)
         copyfile(json1, json2)
         return json1
     return json2

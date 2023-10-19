@@ -1,15 +1,11 @@
 from pathlib import Path
 from random import choice
-from shutil import copyfile
 
 from django.forms import model_to_dict
 from publish.days import is_old
 from publish.files import write_json
 from publish.import_export import get_pub_contents, pub_json_path
-
 from publish.shell import banner
-# from writer.words import show_pub_details
-
 
 from .document import document_body, document_html, document_title
 from .files import read_csv_file, read_file, read_json
@@ -97,21 +93,8 @@ def doc_view_context(**kwargs):
     return kwargs
 
 
-# def get_host(request):
-#     host = request.get_host()
-#     # if not host or host.startswith("127.0.0.1") or host.startswith("localhost"):
-#     #     host = "seamanslog.com"
-#     return host
-
-
 def get_pub(name):
     return Pub.objects.get(name=name)
-    # try:
-    #     # print('get_pub: ', name)
-    #     return Pub.objects.get(name=name)
-    # except:
-    #     print(f'**** Exception in get_pub ({name})')
-    #     return
 
 
 def get_pub_info(pub_name=None):
@@ -125,9 +108,7 @@ def get_pub_info(pub_name=None):
         text += f'Title: {pub.title}\n\n'
         text += f'Tag Line: {pub.subtitle}\n\n'
         text += f'Document Path: {pub.doc_path}\n\n'
-        # text += f'Details: \n{show_pub_details(pub)}\n\n'
         text += f'Summary: \n{show_pub_content(pub)}\n\n'
-        # text += f'Words: \n{show_pub_words(pub)}\n\n'
     return text
 
 
@@ -186,13 +167,10 @@ def select_blog_doc(pub, doc, local_host=False):
         return Pub.objects.filter(pk=pub.pk).values()[0]
 
     def load_document(pub):
-        # Find doc path - Use the markdown file extension
         path = pub.doc_path
         path = Path(path) / doc.replace("-", "/")
         if not Path(path).exists() and Path(f"{path}.md").exists():
             path = Path(f"{path}.md")
-
-        # Load the correct document
         if path.exists():
             markdown = document_body(read_file(path), pub.image_path)
             github = 'https://github.com/Mark-Seaman/SoftwareEngineering'
@@ -211,12 +189,8 @@ def select_blog_doc(pub, doc, local_host=False):
             title=title, html=html, site_title=pub.title, site_subtitle=pub.subtitle
         )
 
-    # if doc=='contact':
-    #     return
-
     p = get_pub(pub)
     if p:
-        # kwargs = load_object(p)
         kwargs = model_to_dict(p)
         kwargs.update(load_document(p))
         kwargs["menu"] = read_menu(kwargs.get("menu"), local_host)
@@ -273,14 +247,7 @@ def show_pub_json(pub=None):
         pubs = [get_pub(pub)]
     else:
         pubs = all_pubs()
-    # print('PUBS: ', pubs)
     return text_join([read_file(pub_json_path(pub.name, pub.doc_path)) for pub in pubs])
-
-    # text = "PUB JSON\n\n"
-    # for js in Path("static/js").iterdir():
-    #     text += f"\n\n---\n\n{js}\n\n---\n\n"
-    #     text += js.read_text()
-    # return text
 
 
 def verify_pubs(verbose):
@@ -293,12 +260,8 @@ def verify_pubs(verbose):
             else:
                 print("NO OBJECT", p)
                 assert False
-        # if not Path(pub.doc_path).exists():
-        #     print(f'   {pub.name} -- {pub.doc_path} -- NOT FOUND')
         assert Path(pub.doc_path).exists()
         json = pub_json_path(pub.name, pub.doc_path)
-        # if json.exists():
-        #     print(f'   JSON {json} NOT FOUND')
         assert json.exists()
 
     pubs = list(Pub.objects.all())
@@ -313,10 +276,6 @@ def verify_pubs(verbose):
             print(text)
         else:
             return text
-    # else:
-    #     print(f'** Pub Info: {info} Lines **')
-    #     assert info > min_lines
-    #     assert info < max_lines
 
 
 def work_pending():

@@ -161,8 +161,8 @@ def write_page(path, team=None, milestone=None, overwrite=False):
     elif milestone == '4':
         if path.name == 'Milestone.md':
             template = 'milestone4.md'
-        # elif path.name == 'Feedback.md':
-        #     template = 'feedback4.md'
+        elif path.name == 'Feedback.md':
+            template = 'feedback4.md'
         else:
             return
 

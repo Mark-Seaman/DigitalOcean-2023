@@ -1,14 +1,11 @@
 # Priorities for Friday
 
-Prometa 3
-
-    Turn on Managed Database
-    work with Stacie on top issues
-
-Teach 3
+Teach 8
 
     grade Milestone 4
     grade Project 8
+    lunch with Robin and Vish
+    class at UNC
 
 Write 1
 
@@ -17,6 +14,10 @@ Write 1
 Fun 4
 
 Family 0
+
+Prometa 0
+
+    refactor all user code
 
 Church 0
 

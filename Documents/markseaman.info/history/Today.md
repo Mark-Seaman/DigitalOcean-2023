@@ -1,28 +1,28 @@
-# Priorities for Friday
+# Priorities for Thursday
 
-Teach 8
-
-    grade Milestone 4
-    grade Project 8
-    lunch with Robin and Vish
-    class at UNC
-
-Write 1
+Write 3
 
     Publications Word Count
 
 Fun 4
 
-Family 0
+Family 3
 
-Prometa 0
+    time with Stacie
+
+Grow 2
+
+    walk
+
+Prometa 2
 
     refactor all user code
+
+Teach 0
 
 Church 0
 
 Innovate 0
 
-Grow 0
 
 

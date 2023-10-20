@@ -4,16 +4,13 @@ from course.models import Team
 from course.team import setup_team_pages, setup_teams
 from probe.data import load_json_data, save_json_data
 
-from probe.probe_pub import test_pub_json
-from publish.publication import all_pubs, build_pubs, get_pub
+from publish.publication import build_pubs
 from publish.text import text_join, text_lines
 from task.task import fix_tasks, task_command
 from task.todo import edit_todo_list
 from writer.outline import create_outlines
 from writer.pub_script import pub_path, pub_script
 from writer.words import measure_pub_words
-
-from .models import Probe, TestResult
 
 
 def quick_test():
@@ -37,7 +34,6 @@ def pub():
     # Build Pubs
     build_pubs(verbose=False, delete=False)
     text = measure_pub_words()
-    # print(len(text_lines(text)), 'Lines of text in word files')
     print(text)
 
 
@@ -57,19 +53,6 @@ def writer():
     # path = '/Users/seaman/Hammer/Documents/Shrinking-World-Pubs/poem/Images/Cover.png'
     # scale_image(path, 1600, 2560)
     # create_cover_images(path)
-
-
-def tests():
-    # pub = get_pub('marks')
-    # print(show_pub_details(pub))
-    # print(get_pub_info(pub.name))
-
-    # test_website_pages()
-
-    print(f'{len(Probe.objects.all())} Tests available')
-    print(f'{len(TestResult.objects.all())} Test Results available')
-    test_pub_json()
-    test_show_pubs()
 
 
 def tasks():
@@ -115,20 +98,3 @@ def execute_command(args):
         load_json_data('config/data.json')
     else:
         return (f'NO COMMAND FOUND: {args}')
-
-    # elif args[0] == 'deploy':
-    #     push_JSON_data()
-    #     return deploy_to_production('production')
-    # elif args[0] == 'staging':
-    #     push_JSON_data()
-    #     return deploy_to_production('staging')
-    # elif args[0] == 'export':
-    #     return export_data()
-    # elif args[0] == 'import':
-    #     return import_data()
-    # elif args[0] == 'quick':
-    #     return quick_test(args)
-    # elif args[0] == 'show':
-    #     return show_command()
-    # elif args[0] == 'users':
-    #     return create_test_users()

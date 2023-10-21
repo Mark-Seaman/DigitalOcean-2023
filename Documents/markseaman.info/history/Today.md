@@ -1,22 +1,17 @@
-# Priorities for Thursday
+# Priorities for Saturday
 
-Write 3
+Write 0
 
-    Publications Word Count
+    ideation
+    red state/blue state
 
-Fun 4
+Fun 0
 
-Family 3
+Family 0
 
-    time with Stacie
+Grow 0
 
-Grow 2
-
-    walk
-
-Prometa 2
-
-    refactor all user code
+Prometa 0
 
 Teach 0
 

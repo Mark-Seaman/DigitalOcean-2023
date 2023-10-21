@@ -8,17 +8,20 @@ Grow 1
 
     walk
 
-ProMETA 3
+ProMETA 5
 
     redesign Student create, edit, list views
     build tests for Student and User models
 
+Family 4
 
+    family photo shoot
+    Barb picks up Lucy for lunch
+    dinner with Stacie and Lucy
+    give Lucy Chosen books
 
-Church 0
-Family 0
-Write 0
-Teach 0
-Business 0
-Fun 0
+Fun 2
+
+    Red Sonja
+    Sim City
 

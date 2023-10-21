@@ -18851,5 +18851,61 @@
         "words": 537,
         "retain_object": false
     }
+},
+{
+    "model": "publish.content",
+    "pk": 2763,
+    "fields": {
+        "blog": 34,
+        "order": 1,
+        "title": "Experience God Daily",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Experience.md",
+        "folder": 1,
+        "words": 373,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2764,
+    "fields": {
+        "blog": 34,
+        "order": 2,
+        "title": "Spiritual Relationships",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Relationships.md",
+        "folder": 1,
+        "words": 306,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2765,
+    "fields": {
+        "blog": 34,
+        "order": 3,
+        "title": "Embracing Truth",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Truth.md",
+        "folder": 1,
+        "words": 284,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2766,
+    "fields": {
+        "blog": 34,
+        "order": 4,
+        "title": "Personal Growth",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Growth.md",
+        "folder": 1,
+        "words": 297,
+        "retain_object": false
+    }
 }
 ]

@@ -1,20 +1,20 @@
 # Priorities for Today
 
-Write 0
+Write
 
-Fun 0
+Fun
 
-Family 0
+Family
 
-Grow 0
+Grow
 
-Prometa 0
+Prometa
 
-Teach 0
+Teach
 
-Church 0
+Church
 
-Innovate 0
+Innovate
 
 
 

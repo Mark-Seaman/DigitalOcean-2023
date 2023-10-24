@@ -1,9 +1,6 @@
-# Priorities for Saturday
+# Priorities for Today
 
 Write 0
-
-    ideation
-    red state/blue state
 
 Fun 0
 

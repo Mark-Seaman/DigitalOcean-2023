@@ -11,11 +11,11 @@ class WordCountTest(DjangoTest):
 
     def test_words_in_content_nodes(self):
         text = measure_pub_words()
-        self.assertNumLines(text, 1726, 1730, 'Lines in word count files')
+        self.assertNumLines(text, 1726, 1740, 'Lines in word count files')
 
     def test_content_nodes(self):
         pubs, contents, words, pages = count_nodes()
         self.assertRange(pubs, 19, 19)
-        self.assertRange(contents, 1314, 1318)
-        self.assertRange(pages, 1881, 1885)
-        self.assertRange(words, 470281, 471400)
+        self.assertRange(contents, 1314, 1323)
+        self.assertRange(pages, 1881, 1890)
+        self.assertRange(words, 471000, 472000)

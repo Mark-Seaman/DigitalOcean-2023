@@ -13,15 +13,16 @@ def create_index(path):
     text = outline.read_text()
     pattern = r'\n## ([^\n]*)?'
     matches = findall(pattern, text)
-    links = [(match,match) for match in matches]
-    text = render_to_string('pub/index.md', {'title': title(text), 'links': links})
+    links = [(match, match) for match in matches]
+    text = render_to_string(
+        'pub/index.md', {'title': title(text), 'links': links})
     if not index.exists():
         index.write_text(text)
 
 
 def show_links(path):
     links = extract_links(path)
-    for url,title in links:
+    for url, title in links:
         print('Title:', title)
         print('URL:', url)
         print()
@@ -39,7 +40,8 @@ def create_ai_file(path, text):
 def create_outlines(path):
     outline = path/'Outline.md'
     index = path/'Index.md'
-    o = split_outline(outline.read_text())[1:]
+    text = outline.read_text()
+    o = split_outline(text)[1:]
     i = extract_links(index)
     for link, topics in zip(i, o):
         f = link[0].replace('.md', '.ai')
@@ -78,5 +80,3 @@ def show_outlines(path):
     for outline in outlines:
         print('Outline:', outline)
         print()
-
-    

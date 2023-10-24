@@ -16,10 +16,10 @@ from writer.words import measure_pub_words
 def quick_test():
     # print("No quick test defined")
     # course()
-    pub()
+    # pub()
     # tasks()
     # tests()
-    # writer()
+    writer()
     return 'OK'
 
 
@@ -38,7 +38,10 @@ def pub():
 
 
 def writer():
-    create_outlines(pub_path('spirituality', 'Transformation'))
+    # text = pub_script(
+    #         'outline', ['ghost', 'Micropublishing', 'C-Outline.md'])
+    # print(text)
+    create_outlines(pub_path('sweng', 'Milestone-6'))
 
     # print(f'Words {pub.name}: {pub.words}')
 

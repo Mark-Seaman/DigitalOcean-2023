@@ -1,17 +1,16 @@
 from csv import reader
-
 from django.forms import model_to_dict
 
 from probe.tests_django import DjangoTest
 from publish.publication import get_pub, list_publications, work_pending
 
 pub_words = [
-    ('leverage', 83659),
-    ('journey',  67732),
-    ('quest',    57499),
-    ('webapps',  49888),
-    ('sweng',    28592),
-    ('poem',     16876),
+    ('leverage', 83659, 83659),
+    ('journey',  66160, 67732),
+    ('quest',    56823, 57499),
+    ('webapps',  49888, 49888),
+    ('sweng',    7526, 28592),
+    ('poem',     16876, 16876),
 ]
 
 unpub_words = [
@@ -34,13 +33,19 @@ class PubDocTest(DjangoTest):
         self.assertFiles('Documents', 2500, 2600)
 
     def test_doc_directories(self):
-        data = '''Documents/SHRINKING-WORLD-PUBS,1060,1080'''
+        data = '''Documents/SHRINKING-WORLD-PUBS,1080,1090
+            Documents/SHRINKING-WORLD-PUBS/journey,65,65
+            Documents/SHRINKING-WORLD-PUBS/quest,73,73
+            Documents/SHRINKING-WORLD-PUBS/poem,92,92
+            Documents/SHRINKING-WORLD-PUBS/leverage,24,24
+            Documents/SHRINKING-WORLD-PUBS/sweng,142,142
+            Documents/SHRINKING-WORLD-PUBS/webapps,88,88'''
         for x in list(reader(data.splitlines())):
-            # print(x)
+            d = x[0].strip()
             if x[2:]:
-                self.assertFiles(x[0], int(x[1]), int(x[2]))
+                self.assertFiles(d, int(x[1]), int(x[2]))
             else:
-                self.assertFiles(x[0], int(x[1]), int(x[1]))
+                self.assertFiles(d, int(x[1]), int(x[1]))
 
     def test_pub_list(self):
         self.assertRange(len(list_publications()), 4, 20)
@@ -52,11 +57,10 @@ class PubDocTest(DjangoTest):
              'doc_path': 'Documents/Shrinking-World-Pubs/journey/Pub'}
         self.assertEqual(x, y)
 
-    # def test_pub_words(self):
-    #     for p in pub_words:
-    #         pub_name = p[0]
-    #         x = count_pub_words(pub_name)
-    #         self.assertEqual(x, p[1])
+    def test_pub_words(self):
+        for p in pub_words:
+            pub = get_pub(p[0])
+            self.assertRange(pub.words, p[1], p[2], f'Words in {pub.name}')
 
     # def test_unpub_words(self):
     #     for p in unpub_words:

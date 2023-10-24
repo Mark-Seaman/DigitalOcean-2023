@@ -49,11 +49,11 @@ class PubScriptTest(DjangoTest):
         # print(prompt)
         self.assertEqual(len(str(prompt)), 398)
 
-    # def test_outline(self):
-    #     text = pub_script_command(
-    #         'outline', ['ghost', 'Micropublishing', 'C-Outline.md'])
-    #     self.assertNumLines(text, 6, 6)
-    #     # print(text)
+    def test_outline(self):
+        text = pub_script(
+            'outline', ['ghost', 'Micropublishing', 'C-Outline.md'])
+        self.assertNumLines(text, 6, 6)
+        print(text)
 
     # def test_chatter(self):
     #     output = 'ghost/AI/Pub/Outline.md'

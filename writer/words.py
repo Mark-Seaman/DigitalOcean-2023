@@ -20,9 +20,10 @@ def count_nodes():
 
 
 # def count_pub_words(pub_name):
-#     f = Path(f'Documents/markseaman.info/words/{pub_name}')
-#     pub = get_pub(pub_name)
+#     #     f = Path(f'Documents/markseaman.info/words/{pub_name}')
+#     #     pub = get_pub(pub_name)
 #     words = measure_pub_words(pub=pub_name)
+#     return words
 #     f.write_text(words)
 #     # if not f.exists() or is_old(f):
 #     #     f.write_text(words)

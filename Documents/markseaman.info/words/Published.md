@@ -8,13 +8,13 @@
 * [A Seaman's Quest](/quest)               57499 words   229 pages
 
 
-## Pubs - blog                            182608 words   730 pages
+## Pubs - blog                            182664 words   730 pages
 
 * [AI Playbook](/ai)                        9449 words    37 pages
 * [The Shrinking World I/O](/io)           13686 words    54 pages
 * [Seaman's Log](/sampler)                 56679 words   226 pages
 * [Daily Meditations](/spiritual)          58437 words   233 pages
-* [Life with God](/spirituality)           13585 words    54 pages
+* [Life with God](/spirituality)           13641 words    54 pages
 * [Tech Notes](/tech)                      22541 words    90 pages
 * [Writer's Block](/write)                  8231 words    32 pages
 
@@ -37,4 +37,4 @@
 
 
 
-## Grand Total   470692 words  1882 pages
+## Grand Total   470748 words  1882 pages

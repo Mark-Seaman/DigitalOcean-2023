@@ -18694,7 +18694,7 @@
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Kingdoms.md",
         "folder": 0,
-        "words": 1046,
+        "words": 308,
         "retain_object": false
     }
 },
@@ -19031,6 +19031,62 @@
         "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m6/Lesson_24.md",
         "folder": 6,
         "words": 367,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 13619,
+    "fields": {
+        "blog": 198,
+        "order": 1,
+        "title": "God's Way Humility",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Humility.md",
+        "folder": 9,
+        "words": 183,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 13620,
+    "fields": {
+        "blog": 198,
+        "order": 2,
+        "title": "Faith: Trusting in God",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Faith.md",
+        "folder": 9,
+        "words": 233,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 13621,
+    "fields": {
+        "blog": 198,
+        "order": 3,
+        "title": "Hope: Believing in a Better Life",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Hope.md",
+        "folder": 9,
+        "words": 179,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 13622,
+    "fields": {
+        "blog": 198,
+        "order": 4,
+        "title": " Love: Building Connection",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/spirituality/Pub/Compassion.md",
+        "folder": 9,
+        "words": 199,
         "retain_object": false
     }
 }

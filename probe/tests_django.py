@@ -6,6 +6,9 @@ from requests import get
 from publish.files import read_file
 from publish.text import line_count, text_lines
 
+INTERNET_DISABLED = False
+
+
 class DjangoTest(TestCase):
 
     def assertFiles(self, directory, min, max):
@@ -19,6 +22,8 @@ class DjangoTest(TestCase):
             response = self.client.get(page)
             text = response.content.decode('utf-8')
         else:
+            if INTERNET_DISABLED:
+                return
             response = get(page)
             text = response.text
         self.assertEqual(response.status_code, 200)
@@ -37,7 +42,6 @@ class DjangoTest(TestCase):
     def assertNumLines(self, text, min, max=1000, label='Lines of Text'):
         lines = line_count(text)
         self.assertRange(lines, min, max, label)
-
 
     def assertFileLines(self, path, min, max):
         self.assertNumLines(read_file(path), min, max)

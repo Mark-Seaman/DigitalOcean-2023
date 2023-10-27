@@ -4,64 +4,63 @@ from writer.models import Author
 
 
 def authors(**kwargs):
-    return Author.objects.filter(**kwargs).order_by('name')
+    return Author.objects.filter(**kwargs).order_by('user__last_name', 'user__first_name')
 
 
-def get_user(username):
-    return get_user_model().objects.filter(username=username).first()
+def create_author(**kwargs):
+    # Create user
+    user = create_user(**kwargs)
+    name = f"{user.first_name} {user.last_name}"
+
+    # Object exists
+    author = Author.objects.filter(user=user).first()
+    if author:
+        author.name = name
+        author.save()
+        return author
+
+    # Create author
+    author = Author.objects.create(user=user, name=name)
+    return author
 
 
 def create_user(**kwargs):
-
-    username = kwargs.get('username')
+    # Name in kwargs
+    first = kwargs.get('first_name')
+    last = kwargs.get('last_name')
+    username = f"{first}{last}".lower() if first and last else None
+    username = kwargs.get('username', username)
     assert username
-    email = kwargs.get('email', f"{username}@shrinking-world.com")
+
+    # Email in kwargs
+    email = f"{username}@shrinking-world.com"
+    email = kwargs.get('email', email)
+    assert email
+
+    # Object exists
     user = get_user(username)
     if user:
+        user.first_name = kwargs.get('first_name', user.first_name)
+        user.last_name = kwargs.get('last_name', user.last_name)
+        user.email = kwargs.get('email', user.email)
+        user.password = kwargs.get('password', user.password)
+        user.save()
         return user
+
+    # Create user
     user = get_user_model().objects.create_user(
         username=username,
         email=email,
         first_name=kwargs.get('first_name', 'First name'),
-        last_name=kwargs.get('last_name', 'last name'),
+        last_name=kwargs.get('last_name', 'Last name'),
         password=kwargs.get('password', 'password'),
     )
     return user
 
 
-def create_author(**kwargs):
-    create_user(**kwargs)
-    user = get_user(kwargs.get('username'))
-    assert user
+def get_author(name):
+    return Author.objects.filter(name=name).first()
 
-    # Check for required kwargs
-    assert kwargs.get('first_name')
-    assert kwargs.get('last_name')
-    assert kwargs.get('email')
-    assert kwargs.get('username')
-    assert kwargs.get('password')
 
-    #     # Create user with kwargs
-    #     user = User.objects.create_user(
-    #         username=kwargs['username'],
-    #         email=kwargs['email'],
-    #         password=kwargs['password'],
-    #         first_name=kwargs['first_name'],
-    #         last_name=kwargs['last_name']
-    #     )
-
-    # Setup defaults for user
-
-    # Use get_or_create instead of create_user
-    #     user = User.objects.get_or_create(
-    #         username=kwargs['username'],
-    #         email=kwargs['email'],
-    #         password=kwargs['password'],
-    #         first_name=kwargs['first_name'],
-    #         last_name=kwargs['last_name']
-    #     )
-
-    # create author with user and remaining kwargs
-    author = Author.objects.create(user=user, **kwargs)
-
-    return author
+def get_user(username):
+    return get_user_model().objects.filter(username=username).first()

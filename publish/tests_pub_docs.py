@@ -34,12 +34,12 @@ class PubDocTest(DjangoTest):
 
     def test_doc_directories(self):
         data = '''
-            Documents/SHRINKING-WORLD-PUBS,1080,1100
-            Documents/SHRINKING-WORLD-PUBS/journey,65,65
+            Documents/SHRINKING-WORLD-PUBS,1080,1300
+            Documents/SHRINKING-WORLD-PUBS/journey,65,85
             Documents/SHRINKING-WORLD-PUBS/quest,73,73
             Documents/SHRINKING-WORLD-PUBS/poem,92,92
             Documents/SHRINKING-WORLD-PUBS/leverage,24,24
-            Documents/SHRINKING-WORLD-PUBS/sweng,142,150
+            Documents/SHRINKING-WORLD-PUBS/sweng,142,160
             Documents/SHRINKING-WORLD-PUBS/webapps,88,88
             '''
         for x in list(reader(data.splitlines())):

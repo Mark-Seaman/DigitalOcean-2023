@@ -2180,20 +2180,6 @@
 },
 {
     "model": "publish.content",
-    "pk": 1549,
-    "fields": {
-        "blog": 25,
-        "order": 70,
-        "title": "Discovering Teaching",
-        "doctype": "chapter",
-        "path": "Documents/Shrinking-World-Pubs/journey/Pub/Teaching.md",
-        "folder": 7,
-        "words": 1423,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
     "pk": 1550,
     "fields": {
         "blog": 25,
@@ -2273,20 +2259,6 @@
         "path": "Documents/Shrinking-World-Pubs/journey/Pub/Part8.md",
         "folder": 0,
         "words": 25,
-        "retain_object": false
-    }
-},
-{
-    "model": "publish.content",
-    "pk": 1556,
-    "fields": {
-        "blog": 25,
-        "order": 78,
-        "title": "My Unfolding Career",
-        "doctype": "chapter",
-        "path": "Documents/Shrinking-World-Pubs/journey/Pub/Career.md",
-        "folder": 8,
-        "words": 473,
         "retain_object": false
     }
 },
@@ -19087,6 +19059,48 @@
         "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m6/Lesson_24.md",
         "folder": 6,
         "words": 367,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2780,
+    "fields": {
+        "blog": 25,
+        "order": 68,
+        "title": "My Unfolding Career",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/journey/Pub/Career.md",
+        "folder": 7,
+        "words": 473,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2781,
+    "fields": {
+        "blog": 25,
+        "order": 69,
+        "title": "Discovering Teaching",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/journey/Pub/Teaching.md",
+        "folder": 7,
+        "words": 1423,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2782,
+    "fields": {
+        "blog": 25,
+        "order": 70,
+        "title": "Is Higher Education in Crisis?",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/journey/Pub/HigherEd.md",
+        "folder": 7,
+        "words": 1210,
         "retain_object": false
     }
 }

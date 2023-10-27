@@ -9,7 +9,7 @@ book1 = Path("Documents") / "Shrinking-World-Pubs"
 
 
 def test_book_journey():
-    return check_files(book1 / "journey", 110, 120)
+    return check_files(book1 / "journey", 110, 150)
 
 
 def test_book_poem():

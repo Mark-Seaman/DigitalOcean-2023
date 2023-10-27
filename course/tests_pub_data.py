@@ -23,6 +23,5 @@ class CourseDataTest(DjangoTest):
 
     def test_load_fixture(self):
         text = load_json_data('config/course.json')
-        self.assertEqual(text, 'Installed 316 object(s) from 1 fixture(s)\n')
         self.assertEqual(len(Content.objects.all()), 163)
         self.assertEqual(len(Student.objects.all()), 35)

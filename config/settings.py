@@ -54,6 +54,7 @@ INSTALLED_APPS = [
 
     # Third-party
     "crispy_forms",
+    "django_extensions",
 
     # My Apps
     "course",

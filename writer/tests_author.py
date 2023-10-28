@@ -41,7 +41,7 @@ class UserTestCase(TestCase):
             create_user()
 
 
-class AuthorTestCase(TestCase):
+class AuthorModelTestCase(TestCase):
 
     def test_create_author(self):
         author = create_author(first_name="John", last_name="Doe")
@@ -122,3 +122,14 @@ class AuthorTestCase(TestCase):
         author.bio = "This is my bio"
         author.save()
         self.assertEqual(author.bio, "This is my bio")
+
+
+class AuthorViewTestCase(TestCase):
+    def setUp(self):
+        create_author(first_name="John", last_name="Doe")
+
+    def test_author_list_view(self):
+        response = self.client.get('/writer/author/')
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "John Doe")
+        self.assertTemplateUsed(response, 'pub_script/author_list.html')

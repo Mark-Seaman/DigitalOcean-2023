@@ -8,13 +8,11 @@
             "name": "Run Server",
             "type": "python",
             "request": "launch",
-            "program": "manage.py",
-            "cwd": "${workspaceFolder}",
+            "module": "manage",
             "args": [
-                "runserver"
+                "runserver",
             ],
-            "django": true,
-            "justMyCode": true
+            "django": true
         },
         {
             "name": "Full Test",

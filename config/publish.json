@@ -18946,7 +18946,7 @@
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m6/Index.md",
         "folder": 0,
-        "words": 492,
+        "words": 495,
         "retain_object": false
     }
 },
@@ -19101,6 +19101,62 @@
         "path": "Documents/Shrinking-World-Pubs/journey/Pub/HigherEd.md",
         "folder": 7,
         "words": 1210,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 13626,
+    "fields": {
+        "blog": 199,
+        "order": 5,
+        "title": "Project - Requirements Role",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m6/Requirements.md",
+        "folder": 6,
+        "words": 87,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 13627,
+    "fields": {
+        "blog": 199,
+        "order": 6,
+        "title": "Project - Design Role",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m6/Design.md",
+        "folder": 6,
+        "words": 69,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 13628,
+    "fields": {
+        "blog": 199,
+        "order": 7,
+        "title": "Project - Code Role",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m6/Code.md",
+        "folder": 6,
+        "words": 65,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 13629,
+    "fields": {
+        "blog": 199,
+        "order": 8,
+        "title": "Project - Test Role",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m6/Test.md",
+        "folder": 6,
+        "words": 86,
         "retain_object": false
     }
 }

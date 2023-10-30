@@ -10,8 +10,10 @@ from probe.models import Probe
 class TestDataTest(TestCase):
 
     def setUp(self):
-        self.test1 = dict(name='Files list', expected='Initial output 1', source='test.test_system.test_system_source')
-        self.test2 = dict(name='Python code', expected='Initial output 2', source='test.test_system.test_python_source')
+        self.test1 = dict(name='Files list', expected='Initial output 1',
+                          source='test.test_system.test_system_source')
+        self.test2 = dict(name='Python code', expected='Initial output 2',
+                          source='test.test_system.test_python_source')
 
     def test_add_test(self):
         self.assertEqual(len(Probe.objects.all()), 0)
@@ -34,7 +36,7 @@ class TestDataTest(TestCase):
         b.delete()
         self.assertEqual(len(Probe.objects.all()), 0)
 
-    
+
 class PythonEnvironmentTest(TestCase):
     def test_python_environment(self):
         requirements = '''aiohttp==3.8.4
@@ -52,6 +54,7 @@ dj-database-url==0.5.0
 Django==4.0.5
 django-countries==7.5.1
 django-crispy-forms==1.14.0
+django-extensions==3.2.3
 Faker==18.11.2
 frozenlist==1.3.3
 gunicorn==20.1.0
@@ -90,7 +93,7 @@ whitenoise==6.2.0
 yarl==1.9.2
 zipp==3.12.0
 '''
-        self.assertEqual(Path('requirements.txt').read_text(),requirements)
+        self.assertEqual(Path('requirements.txt').read_text(), requirements)
 
     def test_python_packages(self):
         expected_packages = [

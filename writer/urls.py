@@ -4,6 +4,13 @@ from writer.views import (ApplyAiView, AuthorCreateView, AuthorDeleteView, Autho
                           DocumentEditView, DocumentView, DocumentPublishView)
 
 urlpatterns = [
+    # Author views
+    path('author/', AuthorListView.as_view(), name='author_list'),
+    path('author/<int:pk>', AuthorDetailView.as_view(), name='author_detail'),
+    path('author/add', AuthorCreateView.as_view(), name='author_add'),
+    path('author/<int:pk>/', AuthorUpdateView.as_view(), name='author_edit'),
+    path('author/<int:pk>/delete',
+         AuthorDeleteView.as_view(), name='author_delete'),
 
     # Pub Writer Document Add
     path("add", DocumentAddView.as_view()),
@@ -20,11 +27,4 @@ urlpatterns = [
          DocumentPublishView.as_view()),
     path('<str:pub>/<str:chapter>/<str:doc>/ai', ApplyAiView.as_view()),
 
-    # Author views
-    path('author/', AuthorListView.as_view(), name='author_list'),
-    path('author/<int:pk>', AuthorDetailView.as_view(), name='author_detail'),
-    path('author/add', AuthorCreateView.as_view(), name='author_create'),
-    path('author/<int:pk>/', AuthorUpdateView.as_view(), name='author_update'),
-    path('author/<int:pk>/delete',
-         AuthorDeleteView.as_view(), name='author_delete'),
 ]

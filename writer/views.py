@@ -1,4 +1,5 @@
 from django import forms
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import redirect
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView, RedirectView, TemplateView
@@ -70,14 +71,6 @@ class ApplyAiView(RedirectView):
     def get_redirect_url(self, **kwargs):
         return pub_ai(**kwargs)
 
-# Create Author views here based on ListView, DetailView, CreateView, UpdateView, DeleteView
-
-
-class AuthorListView(ListView):
-    model = Author
-    template_name = 'list.html'
-    context_object_name = 'authors'
-
 
 class AuthorListView(ListView):
     model = Author
@@ -86,29 +79,49 @@ class AuthorListView(ListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['model_name'] = self.model.__name__.lower()
-        context['model_name_plural'] = self.model.__name__.lower() + 's'
+        context['add'] = ('/writer/author/add', 'Add Author')
         return context
 
 
 class AuthorDetailView(DetailView):
     model = Author
-    template_name = 'pub_script/author_detail.html'
+    template_name = 'detail.html'
     context_object_name = 'author'
+
+    def get_context_data(self, **kwargs):
+        kwargs = super().get_context_data(**kwargs)
+        x = self.get_object()
+        model_name = x._meta.model_name
+        data = {
+            'title': f'{model_name} details',
+            'edit': (f'{x.pk}/', f'Edit {model_name}'),
+            'list': ('./', f'List of {model_name}'),
+        }
+        kwargs.update(data)
+        return kwargs
 
 
 class AuthorCreateView(CreateView):
     model = Author
-    template_name = 'pub_script/author_form.html'
+    template_name = 'edit.html'
     fields = '__all__'
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['model_name'] = self.model.__name__.lower()
+        return context
 
-class AuthorUpdateView(UpdateView):
+
+class AuthorUpdateView(LoginRequiredMixin, UpdateView):
     model = Author
-    template_name = 'pub_script/author_form.html'
+    template_name = 'edit.html'
     fields = '__all__'
+
+    def get_success_url(self):
+        return reverse_lazy('author_detail', kwargs={'pk': self.object.pk})
 
 
 class AuthorDeleteView(DeleteView):
     model = Author
-    template_name = 'pub_script/author_confirm_delete.html'
-    success_url = reverse_lazy('author-list')
+    template_name = 'delete.html'
+    success_url = reverse_lazy('author_list')

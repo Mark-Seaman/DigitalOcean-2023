@@ -118,7 +118,7 @@ class AuthorModelTestCase(TestCase):
 
     def test_author_bio(self):
         author = create_author(first_name="John", last_name="Doe")
-        self.assertEqual(author.bio, "")
+        self.assertEqual(author.bio, None)
         author.bio = "This is my bio"
         author.save()
         self.assertEqual(author.bio, "This is my bio")
@@ -126,10 +126,50 @@ class AuthorModelTestCase(TestCase):
 
 class AuthorViewTestCase(TestCase):
     def setUp(self):
-        create_author(first_name="John", last_name="Doe")
+        self.author = create_author(first_name="John", last_name="Doe")
 
     def test_author_list_view(self):
         response = self.client.get('/writer/author/')
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "John Doe")
-        self.assertTemplateUsed(response, 'pub_script/author_list.html')
+        self.assertTemplateUsed(response, 'list.html')
+        self.assertTemplateUsed(response, 'publish_theme.html')
+
+    def test_author_detail_view(self):
+        response = self.client.get('/writer/author/1')
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "John Doe")
+        self.assertTemplateUsed(response, 'detail.html')
+
+    def test_author_add_view(self):
+        response = self.client.get('/writer/author/add')
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "Save Record")
+        self.assertTemplateUsed(response, 'edit.html')
+
+    def test_author_edit_view(self):
+        self.assertTrue(self.client.login(
+            username='johndoe', password='password'))
+        response = self.client.get('/writer/author/1/')
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "Save Record")
+        self.assertTemplateUsed(response, 'edit.html')
+        # Test post of form
+        response = self.client.post('/writer/author/1/', {
+            'user': self.author.user,
+            'name': 'John Doe',
+            'bio': 'This is my bio',
+        })
+        self.assertEqual(response.status_code, 302)
+        self.assertRedirects(response, '/writer/author/')
+
+    def test_author_delete_view(self):
+        response = self.client.get('/writer/author/1/delete')
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "Are you sure ")
+        self.assertTemplateUsed(response, 'delete.html')
+
+    def test_edit_without_login(self):
+        response = self.client.get('/writer/author/1/')
+        self.assertEqual(response.status_code, 302)
+        self.assertRedirects(response, '/login/?next=/writer/author/1/')

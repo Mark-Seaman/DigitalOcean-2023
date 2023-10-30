@@ -5,15 +5,6 @@ from django.contrib.auth.models import User
 
 # --------------------
 # Course
-#
-# name - identity of course
-# title - short description
-# description - summary of course content
-# doc_path - lookup for lesson and project documents
-# num_projects - weekly projects
-# num_lessons - total number of lessons
-# github_repo - directory of Github repo to pull
-
 
 class Course(models.Model):
     name = models.CharField(max_length=20, default="XXX")
@@ -47,14 +38,6 @@ class Course(models.Model):
 
 # --------------------
 # Content
-#
-# course - points to course object
-# order - lesson number order
-# title - title text of chapter
-# week - week of class
-# document - path to markdown file
-# url - page to load
-
 
 class Content(models.Model):
     course = models.ForeignKey(

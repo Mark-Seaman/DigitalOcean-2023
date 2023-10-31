@@ -125,3 +125,6 @@ class AuthorDeleteView(DeleteView):
     model = Author
     template_name = 'delete.html'
     success_url = reverse_lazy('author_list')
+
+
+# FILEPATH: /path/to/your/tests.py

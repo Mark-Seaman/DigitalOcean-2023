@@ -101,7 +101,7 @@ class AuthorDetailView(DetailView):
         return kwargs
 
 
-class AuthorCreateView(CreateView):
+class AuthorCreateView(LoginRequiredMixin, CreateView):
     model = Author
     template_name = 'edit.html'
     fields = '__all__'

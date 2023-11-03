@@ -182,11 +182,23 @@ class AuthorViewTestCase(TestCase):
         self.assertContains(response, "John Doe")
         self.assertTemplateUsed(response, 'detail.html')
 
+    def test_add_without_login(self):
+        response = self.client.get('/writer/author/add')
+        self.assertEqual(response.status_code, 302)
+        self.assertRedirects(response, '/login/?next=/writer/author/add')
+
     def test_author_add_view(self):
+        self.assertTrue(self.client.login(
+            username='johndoe', password='password'))
         response = self.client.get('/writer/author/add')
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "Save Record")
         self.assertTemplateUsed(response, 'edit.html')
+
+    def test_edit_without_login(self):
+        response = self.client.get('/writer/author/1/')
+        self.assertEqual(response.status_code, 302)
+        self.assertRedirects(response, '/login/?next=/writer/author/1/')
 
     def test_author_edit_view(self):
         self.assertTrue(self.client.login(
@@ -201,6 +213,7 @@ class AuthorViewTestCase(TestCase):
             'name': 'John Doe',
             'bio': 'This is my bio',
         })
+        # Should redirect:  code $g/PythonWebApps/ClassroomDemos/08
         self.assertEqual(response.status_code, 302)
         self.assertRedirects(response, '/writer/author/')
 
@@ -209,8 +222,3 @@ class AuthorViewTestCase(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertContains(response, "Are you sure ")
         self.assertTemplateUsed(response, 'delete.html')
-
-    def test_edit_without_login(self):
-        response = self.client.get('/writer/author/1/')
-        self.assertEqual(response.status_code, 302)
-        self.assertRedirects(response, '/login/?next=/writer/author/1/')

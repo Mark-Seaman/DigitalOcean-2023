@@ -21442,7 +21442,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12916,
+    "pk": 13258,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -21454,7 +21454,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12917,
+    "pk": 13259,
     "fields": {
         "name": "Church",
         "activity": 2,
@@ -21466,7 +21466,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12918,
+    "pk": 13260,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -21478,19 +21478,19 @@
 },
 {
     "model": "task.task",
-    "pk": 12919,
+    "pk": 13261,
     "fields": {
         "name": "Innovate",
         "activity": 3,
         "notes": "    explore AI tools",
         "date": "2023-10-22",
-        "hours": 1,
+        "hours": 0,
         "done": false
     }
 },
 {
     "model": "task.task",
-    "pk": 12920,
+    "pk": 13262,
     "fields": {
         "name": "ProMETA",
         "activity": 7,
@@ -21502,7 +21502,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12921,
+    "pk": 13263,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -21514,7 +21514,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12922,
+    "pk": 13264,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -21526,7 +21526,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12923,
+    "pk": 13265,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -21538,7 +21538,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12924,
+    "pk": 13266,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -21550,7 +21550,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12925,
+    "pk": 13267,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -21562,7 +21562,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12926,
+    "pk": 13268,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -21574,7 +21574,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12927,
+    "pk": 13269,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -21586,7 +21586,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12928,
+    "pk": 13270,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -21598,7 +21598,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12929,
+    "pk": 13271,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -21610,7 +21610,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12930,
+    "pk": 13272,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -21622,7 +21622,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12931,
+    "pk": 13273,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -21634,7 +21634,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12932,
+    "pk": 13274,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -21646,7 +21646,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12933,
+    "pk": 13275,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -21658,7 +21658,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12934,
+    "pk": 13276,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -21670,7 +21670,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12935,
+    "pk": 13277,
     "fields": {
         "name": "ProMETA",
         "activity": 7,
@@ -21682,7 +21682,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12936,
+    "pk": 13278,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -21694,11 +21694,11 @@
 },
 {
     "model": "task.task",
-    "pk": 12937,
+    "pk": 13279,
     "fields": {
         "name": "Family",
         "activity": 1,
-        "notes": "    dinner with Lucy and Stacie",
+        "notes": "    dinner with Lucy, Cassie, Josiah, Christine, and Stacie ",
         "date": "2023-10-26",
         "hours": 1,
         "done": false
@@ -21706,7 +21706,7 @@
 },
 {
     "model": "task.task",
-    "pk": 12938,
+    "pk": 13280,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -21718,7 +21718,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13124,
+    "pk": 13437,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -21730,7 +21730,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13125,
+    "pk": 13438,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -21742,7 +21742,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13126,
+    "pk": 13439,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -21754,7 +21754,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13127,
+    "pk": 13440,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -21766,7 +21766,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13128,
+    "pk": 13441,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -21778,7 +21778,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13129,
+    "pk": 13442,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -21790,7 +21790,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13130,
+    "pk": 13443,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -21802,7 +21802,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13131,
+    "pk": 13444,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -21814,7 +21814,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13132,
+    "pk": 13445,
     "fields": {
         "name": "Church",
         "activity": 2,
@@ -21826,7 +21826,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13133,
+    "pk": 13446,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -21838,7 +21838,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13134,
+    "pk": 13447,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -21850,7 +21850,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13135,
+    "pk": 13448,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -21862,7 +21862,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13136,
+    "pk": 13449,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -21874,7 +21874,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13137,
+    "pk": 13450,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -21886,7 +21886,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13138,
+    "pk": 13451,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -21898,7 +21898,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13139,
+    "pk": 13452,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -21910,7 +21910,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13140,
+    "pk": 13453,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -21922,7 +21922,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13141,
+    "pk": 13454,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -21934,7 +21934,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13142,
+    "pk": 13455,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -21946,7 +21946,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13143,
+    "pk": 13456,
     "fields": {
         "name": "Church",
         "activity": 2,
@@ -21958,7 +21958,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13144,
+    "pk": 13457,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -21970,7 +21970,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13145,
+    "pk": 13458,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -21982,7 +21982,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13146,
+    "pk": 13459,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -21994,7 +21994,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13147,
+    "pk": 13460,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -22006,7 +22006,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13148,
+    "pk": 13461,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -22018,7 +22018,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13149,
+    "pk": 13462,
     "fields": {
         "name": "Business",
         "activity": 6,
@@ -22030,7 +22030,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13150,
+    "pk": 13463,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -22042,7 +22042,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13151,
+    "pk": 13464,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -22054,7 +22054,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13152,
+    "pk": 13465,
     "fields": {
         "name": "Grow",
         "activity": 9,
@@ -22066,7 +22066,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13153,
+    "pk": 13466,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -22078,7 +22078,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13154,
+    "pk": 13467,
     "fields": {
         "name": "Teach",
         "activity": 4,
@@ -22090,7 +22090,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13155,
+    "pk": 13468,
     "fields": {
         "name": "Family",
         "activity": 1,
@@ -22102,7 +22102,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13156,
+    "pk": 13469,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -22114,7 +22114,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13157,
+    "pk": 13470,
     "fields": {
         "name": "Fun",
         "activity": 8,
@@ -22126,7 +22126,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13158,
+    "pk": 13471,
     "fields": {
         "name": "Write",
         "activity": 5,
@@ -22138,7 +22138,7 @@
 },
 {
     "model": "task.task",
-    "pk": 13159,
+    "pk": 13472,
     "fields": {
         "name": "Innovate",
         "activity": 3,
@@ -22150,13 +22150,313 @@
 },
 {
     "model": "task.task",
-    "pk": 13160,
+    "pk": 13473,
     "fields": {
         "name": "Church",
         "activity": 2,
         "notes": "    Emotionally Healthy Relationships",
         "date": "2023-02-01",
         "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13474,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    personal reflection",
+        "date": "2023-10-27",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13475,
+    "fields": {
+        "name": "Write",
+        "activity": 5,
+        "notes": "    Crisis in Higher Education\n    Ghost Writer process",
+        "date": "2023-10-27",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13476,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    workbook creator design\n    go to library\n    experiment with Copilot\n    build User and Author records",
+        "date": "2023-10-27",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13477,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    Leslie arives from SD\n    first snow\n    fix toilet seat",
+        "date": "2023-10-27",
+        "hours": 4,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13478,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Frasier",
+        "date": "2023-10-27",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13479,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    snow sticks\n    pick up Cassie\n    Leslie visits\n    trip over recliner\n    Cassie and I go to library\n    Garcias for pizza night",
+        "date": "2023-10-28",
+        "hours": 9,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13480,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    experiment with Copilot\n    test Author views",
+        "date": "2023-10-28",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13481,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Last Kingdom\n    Solitaire\n    Sim City",
+        "date": "2023-10-28",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13482,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    skip church\n    God's Strategy in Human History",
+        "date": "2023-10-29",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13483,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    breakfast with Leslie\n    Leslie has lunch with DeeDee and Steve\n    visit the Leslie and Lucy",
+        "date": "2023-10-29",
+        "hours": 9,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13484,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    nap",
+        "date": "2023-10-29",
+        "hours": 1,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13485,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Last Kingdom\n    Solitaire\n    Sim City",
+        "date": "2023-10-29",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13486,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    trouble sleeping",
+        "date": "2023-10-30",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13487,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    visit with Leslie and Lucy\n    drive to Faith",
+        "date": "2023-10-30",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13488,
+    "fields": {
+        "name": "Teach",
+        "activity": 4,
+        "notes": "    update week 11\n    drive to UNC\n    Milestone 6\n    help Bre\n    grade Project 10",
+        "date": "2023-10-30",
+        "hours": 7,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13489,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Loki\n    Last Kingdom",
+        "date": "2023-10-30",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13490,
+    "fields": {
+        "name": "Grow",
+        "activity": 9,
+        "notes": "    Christian Thinkers\n    Tim Keller - Walking through Suffering",
+        "date": "2023-10-31",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13491,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    blood test and ERCP\n    tumors detected on liver\n    notify family of diagnosis",
+        "date": "2023-10-31",
+        "hours": 5,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13492,
+    "fields": {
+        "name": "Write",
+        "activity": 5,
+        "notes": "    Thoughts to Live By\n    University Goals",
+        "date": "2023-10-31",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13493,
+    "fields": {
+        "name": "Innovate",
+        "activity": 3,
+        "notes": "    learn about search and AI\n    knowledge escalation path\n    work on test for views",
+        "date": "2023-10-31",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13494,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Last Kingdom\n    Sim City\n    Thor Love and Thunder\n    Hoopla",
+        "date": "2023-10-31",
+        "hours": 3,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13495,
+    "fields": {
+        "name": "Church",
+        "activity": 2,
+        "notes": "    prayers and encouragement from family and church",
+        "date": "2023-11-01",
+        "hours": 2,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13496,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    communicate with Dr Rhoads\n    referral to Dr Nosler\n    pick up imaging CD\n    drive Stacie to PVH\n    check in at PVH\n    MRCP - test results\n    Dr Birks",
+        "date": "2023-11-01",
+        "hours": 12,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13497,
+    "fields": {
+        "name": "Fun",
+        "activity": 8,
+        "notes": "    Sim City\n    Lost Kingdom\n    Confederacy of Dunces",
+        "date": "2023-11-01",
+        "hours": 0,
+        "done": false
+    }
+},
+{
+    "model": "task.task",
+    "pk": 13498,
+    "fields": {
+        "name": "Family",
+        "activity": 1,
+        "notes": "    go to hospital\n    consult with Dr Birks\n    wait for Stacie to get the ERCP\n    go home for nap\n    Stacie gets successful ERCP at 3:00\n    talk with Dr Nosler\n    Josiah visits",
+        "date": "2023-11-02",
+        "hours": 14,
         "done": false
     }
 }

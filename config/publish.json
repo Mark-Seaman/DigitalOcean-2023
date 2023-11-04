@@ -19159,5 +19159,19 @@
         "words": 86,
         "retain_object": false
     }
+},
+{
+    "model": "publish.content",
+    "pk": 2787,
+    "fields": {
+        "blog": 25,
+        "order": 27,
+        "title": "Whitewater Rafting",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/journey/Pub/Whitewater.md",
+        "folder": 4,
+        "words": 910,
+        "retain_object": false
+    }
 }
 ]

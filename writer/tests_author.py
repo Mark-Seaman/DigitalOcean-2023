@@ -26,7 +26,6 @@ class AuthorUpdateViewTest(TestCase):
         self.assertRedirects(response, '/login/?next=/writer/author/1/')
 
     def test_edit_get(self):
-        # login the user
         self.client.login(username='testuser', password='password')
         response = self.client.get(self.update_url)
         self.assertEqual(response.status_code, 200)

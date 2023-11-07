@@ -18,11 +18,11 @@ from .data import load_json_data, save_json_data
 
 def quick_test():
     # print("No quick test defined")
-    # course()
+    course()
     # pub()
     # tasks()
     # tests()
-    writer()
+    # writer()
     return 'OK'
 
 

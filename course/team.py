@@ -85,6 +85,7 @@ def setup_team_pages():
         get_page(str(t.pk), '3')
         get_page(str(t.pk), '4')
         get_page(str(t.pk), '5')
+        get_page(str(t.pk), '6')
 
 
 def setup_teams():
@@ -92,7 +93,6 @@ def setup_teams():
     Team.objects.get_or_create(name='Shop Zone', pk=2)
     Team.objects.get_or_create(name='PixlPix', pk=3)
     Team.objects.get_or_create(name='ClipBoard', pk=4)
-    Team.objects.get_or_create(name='Ghost Writer', pk=5)
 
     x = Team.objects.get(pk=1)
     x.github = 'https://github.com/josh-flatt/cs350'
@@ -112,11 +112,6 @@ def setup_teams():
     x = Team.objects.get(pk=4)
     x.github = 'https://github.com/JLeFevre559/CS350-Clipboard'
     x.server = 'https://clipboard-unco-cs350.vercel.app'
-    x.save()
-
-    x = Team.objects.get(pk=5)
-    x.github = 'https://github.com/Mark-Seaman/GhostWriter'
-    x.server = 'https://shrinking-world.com/sweng'
     x.save()
 
     for t in Team.objects.all():
@@ -153,8 +148,8 @@ def write_page(path, team=None, milestone=None, overwrite=False):
     elif milestone == '3':
         if path.name == 'Milestone.md':
             template = 'milestone3.md'
-        # elif path.name == 'Feedback.md':
-        #     template = 'feedback3.md'
+        elif path.name == 'Feedback.md':
+            template = 'feedback3.md'
         else:
             return
 
@@ -169,8 +164,16 @@ def write_page(path, team=None, milestone=None, overwrite=False):
     elif milestone == '5':
         if path.name == 'Milestone.md':
             template = 'milestone5.md'
+        elif path.name == 'Feedback.md':
+            template = 'feedback5.md'
+        else:
+            return
+
+    elif milestone == '6':
+        if path.name == 'Milestone.md':
+            template = 'milestone6.md'
         # elif path.name == 'Feedback.md':
-        #     template = 'feedback5.md'
+        #     template = 'feedback6.md'
         else:
             return
 

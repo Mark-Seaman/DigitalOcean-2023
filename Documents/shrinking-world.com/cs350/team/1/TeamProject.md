@@ -50,3 +50,19 @@ CS 350 Project Showcase
 - Josh Flatt - Code
 - Kyle Longaker - Test
 
+
+### [Milestone 6 Assignments](1/6)
+
+- Kyle Longaker - Requirements
+- Ryan Lunas - Design
+- Evan Duffield - Code
+- Josh Flatt - Test
+
+
+### [Milestone 7 Assignments](1/7)
+
+- Josh Flatt - Requirements
+- Kyle Longaker - Design
+- Ryan Lunas - Code
+- Evan Duffield - Test
+

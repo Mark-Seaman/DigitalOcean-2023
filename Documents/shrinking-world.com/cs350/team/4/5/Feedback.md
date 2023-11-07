@@ -13,10 +13,10 @@ Please complete the assigned work for Milestone 5 and email to reassess.
 
 Milestone 5 Assignments
 
-*  - Requirements  - **INCOMPLETE**
-*  - Design        - **INCOMPLETE**
-*  - Code          - **INCOMPLETE**
-*  - Test          - **INCOMPLETE**
+- Conner Hubbell - Requirements
+- Alex Hart - Design
+- Shane Loewe - Code
+- Joel Lefevre - Test
 
 
 ## Feedback for Engineering Team

@@ -46,3 +46,19 @@ CS 350 Project Showcase
 - Esi Mena - Code
 - Maxwell Seybert - Test
 
+
+### [Milestone 6 Assignments](3/6)
+
+- Maxwell Seybert - Requirements
+- Katie Haney-Osborn -  Design 
+- Elfaz Mandefro - Code
+- Esi Mena - Test
+
+
+### [Milestone 7 Assignments](3/7)
+
+- Esi Mena - Requirements
+- Maxwell Seybert -  Design
+- Katie Haney-Osborn - Code 
+- Elfaz Mandefro - Test
+

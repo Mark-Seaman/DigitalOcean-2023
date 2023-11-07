@@ -13,10 +13,10 @@ Please complete the assigned work for Milestone 5 and email to reassess.
 
 Milestone 5 Assignments
 
-*  - Requirements  - **INCOMPLETE**
-*  - Design        - **INCOMPLETE**
-*  - Code          - **INCOMPLETE**
-*  - Test          - **INCOMPLETE**
+- Katie Haney-Osborn -  Requirements
+- Elfaz Mandefro - Design 
+- Esi Mena - Code
+- Maxwell Seybert - Test
 
 
 ## Feedback for Engineering Team

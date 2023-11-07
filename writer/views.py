@@ -1,5 +1,6 @@
 from django import forms
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.models import User
 from django.shortcuts import redirect
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView, RedirectView, TemplateView
@@ -45,13 +46,6 @@ class DocumentAddView(FormView):
         path = form.cleaned_data['content']
         url = create_pub_content(path)
         return redirect(url)
-        # try:
-        #     url = create_pub_content(path)
-        #     message = f"Pub '{path}' created successfully!"
-        # except OSError as e:
-        #     message = f"Failed to create directory: {str(e)}"
-        # form.add_error(None, message)
-        # return self.render_to_response(self.get_context_data(form=form))
 
 
 class DocumentEditView(RedirectView):
@@ -104,18 +98,39 @@ class AuthorDetailView(DetailView):
 class AuthorCreateView(LoginRequiredMixin, CreateView):
     model = Author
     template_name = 'edit.html'
-    fields = '__all__'
+    fields = ['name', 'bio']
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context['model_name'] = self.model.__name__.lower()
-        return context
+    # def get_context_data(self, **kwargs):
+    #     kwargs = super().get_context_data(**kwargs)
+    #     kwargs['model_name'] = self.model.__name__.lower()
+    #     return kwargs
+
+    def form_valid(self, form):
+        username = self.request.POST.get('username')
+        if username:
+            user = User.objects.get(username=username)
+        else:
+            user = self.request.user
+        form.instance.user = user
+        return super().form_valid(form)
+
+    def get_success_url(self):
+        return reverse_lazy('author_detail', kwargs={'pk': self.object.pk})
 
 
 class AuthorUpdateView(LoginRequiredMixin, UpdateView):
     model = Author
     template_name = 'edit.html'
-    fields = '__all__'
+    fields = ['name', 'bio']
+
+    def form_valid(self, form):
+        username = self.request.POST.get('username')
+        if username:
+            user = User.objects.get(username=username)
+        else:
+            user = self.request.user
+        form.instance.user = user
+        return super().form_valid(form)
 
     def get_success_url(self):
         return reverse_lazy('author_detail', kwargs={'pk': self.object.pk})

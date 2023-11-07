@@ -126,9 +126,15 @@ class AuthorViewTest(TestCase):
         user = create_user(username="mds", email="mark.seaman@shrinking-world.com",
                            first_name="Mark", last_name="Seaman")
         self.assertTrue(self.client.login(username="mds", password="password"))
-        data = dict(user=user, name='Mark Seaman')
+        data = dict(username=user.username, name='Mark Seaman')
         response = self.client.post('/writer/author/add', data)
         self.assertEqual(response.status_code, 302)
+        self.assertRedirects(response, '/writer/author/2')
+        self.assertEqual(len(authors()), 2)
+        a = authors(pk=2).first()
+        self.assertEqual(a.name, "Mark Seaman")
+        self.assertEqual(a.user.username, "mds")
+        self.assertEqual(a.bio, "")
 
     def test_edit_without_login(self):
         response = self.client.get('/writer/author/1/')
@@ -147,13 +153,16 @@ class AuthorViewTest(TestCase):
         self.assertTrue(self.client.login(
             username='johndoe', password='password'))
         response = self.client.post('/writer/author/1/', {
-            'user': self.author.user,
             'name': 'John Doe',
             'bio': 'This is my bio',
         })
-        # Should redirect:  code $g/PythonWebApps/ClassroomDemos/08
-        # self.assertEqual(response.status_code, 302)
-        # self.assertRedirects(response, '/writer/author/')
+        self.assertEqual(response.status_code, 302)
+        self.assertRedirects(response, '/writer/author/1')
+        self.assertEqual(len(authors()), 1)
+        a = authors(pk=1).first()
+        self.assertEqual(a.name, "John Doe")
+        self.assertEqual(a.user.username, "johndoe")
+        self.assertEqual(a.bio, "This is my bio")
 
     def test_author_delete_view(self):
         response = self.client.get('/writer/author/1/delete')

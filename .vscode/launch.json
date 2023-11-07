@@ -48,7 +48,7 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "test",
-                "publish.tests_pub_data"
+                "writer.tests_author"
             ],
             "django": true,
             "justMyCode": true

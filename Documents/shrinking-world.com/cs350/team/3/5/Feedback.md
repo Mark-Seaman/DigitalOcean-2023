@@ -7,39 +7,33 @@
 **Milestone 5**: [Milestone 5 Documents](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-5)
 
 
-## Project Status - https://instagram-production.up.railway.app - **COMPLETE**
+## Project Status - <b class="green p-2">COMPLETE</b>
 
 Please complete the assigned work for Milestone 5 and email to reassess.
-
-Milestone 5 Assignments
-
-- Katie Haney-Osborn -  Requirements
-- Elfaz Mandefro - Design 
-- Esi Mena - Code
-- Maxwell Seybert - Test
 
 
 ## Feedback for Engineering Team
 
-* [Requirements](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-5/Requirements) - **INCOMPLETE**
+* [Requirements](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-5/Requirements) - Katie Haney-Osborn - **COMPLETE**  - <b class="green p-2">Superstar</b>
     * Burn-down Graph
     * Customer Acceptance Meeting
     * Usability Tests
     * AI Prompts
 
-* [Design](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-5/Design) - **INCOMPLETE**
-    * Catalog of Design Patterns
-    * Refactoring Report (before and after design)
-    * AI Prompts
-    * Status Report with Video
+* [Design](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-5/Design) - Elfaz Mandefro - <b class="red p-2">INCOMPLETE</b>
+    * There was no work posted.  You must complete the following to get credit.    
+        * Catalog of Design Patterns
+        * Refactoring Report (before and after design)
+        * AI Prompts
+        * Status Report with Video
 
-* [Code](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-5/Code) - **INCOMPLETE**
+* [Code](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-5/Code) - Esi Mena - **COMPLETE**
     * All Features Complete
     * Test-Driven Log (features, iterations, pass/fail, time)
     * AI Prompts
     * Status Report with Video
 
-* [Test](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-5/Test) - **INCOMPLETE**
+* [Test](https://github.com/Esi-Mena/Instagram/tree/main/Documents/Milestone-5/Test) - Maxwell Seybert - **COMPLETE**
     * 90% Test Coverage, 50% Test Code
     * Perform usability testing for another team
     * AI Prompts

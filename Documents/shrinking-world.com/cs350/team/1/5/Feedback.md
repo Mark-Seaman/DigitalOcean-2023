@@ -7,7 +7,7 @@
 **Milestone 5**: [Milestone 5 Documents](https://github.com/josh-flatt/cs350/tree/main/Documents/Milestone-5)
 
 
-## Project Status - <b class="green p-2">COMPLETE</b>
+## Project Status - <b class="red p-2">MILESTONE INCOMPLETE</b>
 
 Please complete the assigned work for Milestone 5 and email to reassess.
 

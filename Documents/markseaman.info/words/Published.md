@@ -1,9 +1,9 @@
 # Published Words
 
 
-## Pubs - book                            124177 words   496 pages
+## Pubs - book                            124653 words   498 pages
 
-* [A Seaman's Journey](/journey)           50302 words   201 pages
+* [A Seaman's Journey](/journey)           50778 words   203 pages
 * [A Seaman's Poems](/poem)                16376 words    65 pages
 * [A Seaman's Quest](/quest)               57499 words   229 pages
 
@@ -37,4 +37,4 @@
 
 
 
-## Grand Total   473178 words  1892 pages
+## Grand Total   473654 words  1894 pages

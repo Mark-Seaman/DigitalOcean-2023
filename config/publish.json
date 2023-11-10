@@ -19173,5 +19173,19 @@
         "words": 910,
         "retain_object": false
     }
+},
+{
+    "model": "publish.content",
+    "pk": 2788,
+    "fields": {
+        "blog": 25,
+        "order": 90,
+        "title": "UNC Retirement",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/journey/Pub/UNCRetirement.md",
+        "folder": 8,
+        "words": 476,
+        "retain_object": false
+    }
 }
 ]

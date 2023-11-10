@@ -1,6 +1,9 @@
 # Priorities for Today
 
-Prometa User Code
+Cash Withdrawal
+Debt Forgiveness
+Retirement from UNC
+Prometa 1.7 & User Code
 Organize office - 1 hour
-Milestone 6-7
 Pub Workbook - Splitter
+

@@ -6,8 +6,7 @@ from publish.days import tomorrow, yesterday
 from publish.files import fix_chars
 from publish.management.commands.edit import edit_file
 from publish.seamanslog import (create_history_file, create_sampler_file,
-                                create_spirit_file, create_toot_file,
-                                extract_message, random_article)
+                                create_spirit_file)
 
 
 def create_files(path, start_day, num_days, path_name, set_text):
@@ -55,7 +54,9 @@ def edit_task_files():
 
     path = Path("Documents/markseaman.info/history")
     edit_file([path/'Today.md', path/localdate().strftime("%Y/%m")])
+    edit_file([path/'Goals.md'])
     open_files(path, 0, 3, path_name, create_history_file)
+
 
 def edit_spirit_files():
     def path_name(path, date):

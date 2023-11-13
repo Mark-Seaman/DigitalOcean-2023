@@ -88,6 +88,15 @@ alias treed='tree -d -L 3'
 alias m='e Documents/mastodon'
 alias a='open https://chat.openai.com/'
 
+# Websites
+alias hoopla='https://www.hoopladigital.com/my/hoopla'
+alias gmail='https://mail.google.com/mail/u/0/?shva=1&pli=1#inbox'
+alias github='https://github.com/Mark-Seaman?page=1&tab=repositories'
+alias tella='https://auth.tella.tv/u/login/identifier?state=hKFo2SBtbUdFWEpmNl9qOWRRWFFSV3dYVk9DSVZCN3BGT1poTKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGNOOGs2R2JFQ0RyWE1nVzBGY0tlS09MOEdEOHFxcDlNo2NpZNkgeTdQM0tPOGQ5QzhsWGw0NmVLalFLVFh6VUY3UnhxbWs'
+alias uncmail='https://outlook.office.com'
+alias maps='https://www.google.com/maps/place/404+Crystal+Beach+Dr,+Windsor,+CO+80550/@40.461123,-104.902838,17z/data=!3m1!4b1!4m2!3m1!1s0x876eae2fe3eaa51b:0xdf4f905a65d54401'
+alias chat='https://mail.google.com/chat'
+
 # Linux command context
 alias g='grep --color=auto'
 alias l='ls -al'

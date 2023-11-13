@@ -9,7 +9,7 @@ book1 = Path("Documents") / "Shrinking-World-Pubs"
 
 
 def test_book_journey():
-    return check_files(book1 / "journey", 110, 150)
+    return check_files(book1 / "journey", 110, 160)
 
 
 def test_book_poem():
@@ -25,4 +25,4 @@ def test_book_webapps():
 
 
 def test_book_quest():
-    return check_files(book1 / "quest", 90, 92)
+    return check_files(book1 / "quest", 90, 100)

@@ -19114,7 +19114,7 @@
         "doctype": "chapter",
         "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m6/Requirements.md",
         "folder": 6,
-        "words": 87,
+        "words": 83,
         "retain_object": false
     }
 },
@@ -19128,7 +19128,7 @@
         "doctype": "chapter",
         "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m6/Design.md",
         "folder": 6,
-        "words": 69,
+        "words": 65,
         "retain_object": false
     }
 },
@@ -19185,6 +19185,76 @@
         "path": "Documents/Shrinking-World-Pubs/journey/Pub/UNCRetirement.md",
         "folder": 8,
         "words": 767,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2789,
+    "fields": {
+        "blog": 35,
+        "order": 7,
+        "title": "Milestone 7 - Product Upgrade",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m7/Index.md",
+        "folder": 0,
+        "words": 431,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2790,
+    "fields": {
+        "blog": 35,
+        "order": 2,
+        "title": "Lesson 21 - Planning a Product Upgrade",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m7/Lesson_25.md",
+        "folder": 7,
+        "words": 577,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2791,
+    "fields": {
+        "blog": 35,
+        "order": 3,
+        "title": "Lesson 26 - DevOps and Data Management",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m7/Lesson_26.md",
+        "folder": 7,
+        "words": 221,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2792,
+    "fields": {
+        "blog": 35,
+        "order": 4,
+        "title": "Lesson 27 - User Guide and Release Notes",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m7/Lesson_27.md",
+        "folder": 7,
+        "words": 586,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2793,
+    "fields": {
+        "blog": 35,
+        "order": 5,
+        "title": "Lesson 28 - Security Review Checklist",
+        "doctype": "chapter",
+        "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m7/Lesson_28.md",
+        "folder": 7,
+        "words": 298,
         "retain_object": false
     }
 }

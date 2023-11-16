@@ -5,6 +5,7 @@ Personal Goals
             Emotional
             Medical
             Personal
+            Communications
         Household
             Food
             Laundry

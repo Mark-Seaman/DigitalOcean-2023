@@ -19,10 +19,10 @@
 * [Writer's Block](/write)                  8231 words    32 pages
 
 
-## Pubs - course                          160983 words   643 pages
+## Pubs - course                          163088 words   652 pages
 
 * [The Leverage Principle](/leverage)      83659 words   334 pages
-* [Software Engineering with AI](/sweng)   27436 words   109 pages
+* [Software Engineering with AI](/sweng)   29541 words   118 pages
 * [Python Web Apps](/webapps)              49888 words   199 pages
 
 
@@ -37,4 +37,4 @@
 
 
 
-## Grand Total   473945 words  1895 pages
+## Grand Total   476050 words  1904 pages

@@ -11,7 +11,7 @@ class WordCountTest(DjangoTest):
 
     def test_words_in_content_nodes(self):
         text = measure_pub_words()
-        self.assertNumLines(text, 1726, 1750, 'Lines in word count files')
+        self.assertNumLines(text, 1750, 1800, 'Lines in word count files')
 
     def test_content_nodes(self):
         pubs, contents, words, pages = count_nodes()

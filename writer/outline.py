@@ -1,10 +1,18 @@
+from django.template.loader import render_to_string
 from pathlib import Path
 from re import DOTALL, findall, split
 from shutil import copyfile
 
-from django.template.loader import render_to_string
-
 from publish.document import title
+
+
+def create_ai_file(path, text):
+    outline = '# '+text.replace('###', '*')
+    text = render_to_string('pub_script/draft.ai', {'outline': outline})
+    path.write_text(text)
+    md = Path(str(path).replace('.ai', '.md'))
+    if not md.exists():
+        copyfile(path, md)
 
 
 def create_index(path):
@@ -20,23 +28,6 @@ def create_index(path):
         index.write_text(text)
 
 
-def show_links(path):
-    links = extract_links(path)
-    for url, title in links:
-        print('Title:', title)
-        print('URL:', url)
-        print()
-
-
-def create_ai_file(path, text):
-    outline = '# '+text.replace('###', '*')
-    text = render_to_string('pub_script/draft.ai', {'outline': outline})
-    path.write_text(text)
-    md = Path(str(path).replace('.ai', '.md'))
-    if not md.exists():
-        copyfile(path, md)
-
-
 def create_outlines(path):
     outline = path/'Outline.md'
     index = path/'Index.md'
@@ -46,10 +37,6 @@ def create_outlines(path):
     for link, topics in zip(i, o):
         f = link[0].replace('.md', '.ai')
         create_ai_file(path/f, topics['outline'])
-
-
-def split_outline(outline):
-    return [dict(title=title('# '+x), outline=x) for x in split(r'\n## ', outline)]
 
 
 def extract_urls(file_path):
@@ -75,8 +62,25 @@ def extract_outlines(file_path):
     return [match for match in matches]
 
 
+def read_outline(path):
+    text = path.read_text()
+    return text
+
+
 def show_outlines(path):
     outlines = extract_outlines(path)
     for outline in outlines:
         print('Outline:', outline)
         print()
+
+
+def show_links(path):
+    links = extract_links(path)
+    for url, title in links:
+        print('Title:', title)
+        print('URL:', url)
+        print()
+
+
+def split_outline(outline):
+    return [dict(title=title('# '+x), outline=x) for x in split(r'\n## ', outline)]

@@ -1,6 +1,6 @@
 from probe.tests_django import DjangoTest
 from writer.outline import (create_index, extract_links,
-                            extract_urls, create_outlines, read_outline)
+                            extract_urls, create_outlines, read_outline, split_outline)
 
 from .pub_script import pub_path
 
@@ -30,4 +30,19 @@ class OutlineTest(DjangoTest):
 
     def test_read_outline(self):
         path = pub_path('spirituality', 'Worship', 'Outline.md')
-        print(read_outline(path))
+        text = read_outline(path)
+        o = split_outline(text)[1:]
+        for i in o:
+            # print(i['title'])
+            print(i['outline'])
+            print()
+
+    def test_read_outline2(self):
+        path = pub_path('writer', 'CreativeLifecycle', 'Outline.md')
+        text = read_outline(path)
+        # print(text)
+        o = split_outline(text)[1:]
+        for i in o:
+            # print(i['title'])
+            print(i['outline'])
+            print()

@@ -651,7 +651,7 @@
     "model": "auth.user",
     "pk": 1,
     "fields": {
-        "password": "pbkdf2_sha256$600000$Q6evH8NjGkmknFaLU7JMGv$GjVrcXCt0MOV9DWivhmiVtsPdBu5rIdujFcobGIzqn4=",
+        "password": "pbkdf2_sha256$600000$raiYuEMLG3O1iiODzv483j$yQn3g9/CQ4yzh4Ggj6nVlt5JYBGHRFs70M0KDu9vx40=",
         "last_login": null,
         "is_superuser": false,
         "username": "MatiasBairu",
@@ -660,7 +660,7 @@
         "email": "seathe34@gmail.com",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:07.603Z",
+        "date_joined": "2023-11-19T17:41:50.923Z",
         "groups": [],
         "user_permissions": []
     }
@@ -669,7 +669,7 @@
     "model": "auth.user",
     "pk": 2,
     "fields": {
-        "password": "pbkdf2_sha256$600000$ExZIiZHbfNMjOOKfBzvIJM$Z2L9f++Sgzzxq2Bskn4Rgdu+DB07LLBH4ItoDW6P09c=",
+        "password": "pbkdf2_sha256$600000$K3k2AI6Ld0J2yO20KQpYyQ$aHDWa54nyrtZQY5kJwc/T3ThGBw6p85FrR4Yz2fDWFM=",
         "last_login": null,
         "is_superuser": false,
         "username": "DillonBlair",
@@ -678,7 +678,7 @@
         "email": "blai9954@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:07.706Z",
+        "date_joined": "2023-11-19T17:41:51.027Z",
         "groups": [],
         "user_permissions": []
     }
@@ -687,7 +687,7 @@
     "model": "auth.user",
     "pk": 3,
     "fields": {
-        "password": "pbkdf2_sha256$600000$L6XiMvbth94iukAjHzZXJK$7ITU7dL4fjRk+xVyatm+y+cRYGLEg2PzMPbJuwE21Mk=",
+        "password": "pbkdf2_sha256$600000$GNKxIJE34lWCAJUyDdNmSW$xG/5dB8GixN6Bep3cHZ0NC8AtEmW8kZ6rBaO0QiF6OQ=",
         "last_login": null,
         "is_superuser": false,
         "username": "JohnDale",
@@ -696,7 +696,7 @@
         "email": "barr0137@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:07.804Z",
+        "date_joined": "2023-11-19T17:41:51.125Z",
         "groups": [],
         "user_permissions": []
     }
@@ -705,7 +705,7 @@
     "model": "auth.user",
     "pk": 4,
     "fields": {
-        "password": "pbkdf2_sha256$600000$g4Hk9pk4mRdqLxNWeUZePe$eXsyN1XCNfHNXyfFzf7pZ0Nu7Ec3soui8ylIsHCu8jA=",
+        "password": "pbkdf2_sha256$600000$QFtQPheSgeQfIzMjxzpzBw$zPFls615Hz6d7yzwAXgoYKwzhP5JeBepvaUTM2pdTWc=",
         "last_login": null,
         "is_superuser": false,
         "username": "MayaEaton",
@@ -714,7 +714,7 @@
         "email": "mayaeeee2022@icloud.com",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:07.901Z",
+        "date_joined": "2023-11-19T17:41:51.223Z",
         "groups": [],
         "user_permissions": []
     }
@@ -723,7 +723,7 @@
     "model": "auth.user",
     "pk": 5,
     "fields": {
-        "password": "pbkdf2_sha256$600000$Wd02XvroKEw3XDXyyKP0cz$Wy15NH41eXcrx7f4Z4/uGE2GmgJRyisIlJSkBPWSH1k=",
+        "password": "pbkdf2_sha256$600000$qUxt769ML3IV2sbyOesWNt$TkmdYFolymSOnCjVyXEXWAUcJ+jhOu5HjyQ0DMA8R0k=",
         "last_login": null,
         "is_superuser": false,
         "username": "BreGilliland",
@@ -732,7 +732,7 @@
         "email": "gill7139@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:07.999Z",
+        "date_joined": "2023-11-19T17:41:51.321Z",
         "groups": [],
         "user_permissions": []
     }
@@ -741,7 +741,7 @@
     "model": "auth.user",
     "pk": 6,
     "fields": {
-        "password": "pbkdf2_sha256$600000$CedmemxcWD82pyEBftgPed$FK0ixfMSAyo+rzq1cEv5nYAoKhxqIdwhaHceBUV3aoU=",
+        "password": "pbkdf2_sha256$600000$GqOzKKT4H8BaFSAigxEIBX$K2tgdb7+n90bzdRADJRINcoqfHOdaSnWK4I7vPzC8l8=",
         "last_login": null,
         "is_superuser": false,
         "username": "EthanGimmestad",
@@ -750,7 +750,7 @@
         "email": "ethan.gimmestad@icloud.com",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:08.097Z",
+        "date_joined": "2023-11-19T17:41:51.419Z",
         "groups": [],
         "user_permissions": []
     }
@@ -759,7 +759,7 @@
     "model": "auth.user",
     "pk": 7,
     "fields": {
-        "password": "pbkdf2_sha256$600000$Ba7Aw7ME2mzml28QMJgmCC$5gw3xSPo4aG8foqZ2+M074l7Ch8dOt+73LbWH1CzWfM=",
+        "password": "pbkdf2_sha256$600000$EbqlczMdSbcBGYpguDMryC$vrMPHMER//GUbBB73mwGgVVXUQd0tzoc13uzcooyY7Q=",
         "last_login": null,
         "is_superuser": false,
         "username": "AndrewHolmes",
@@ -768,7 +768,7 @@
         "email": "holm2918@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:08.196Z",
+        "date_joined": "2023-11-19T17:41:51.517Z",
         "groups": [],
         "user_permissions": []
     }
@@ -777,7 +777,7 @@
     "model": "auth.user",
     "pk": 8,
     "fields": {
-        "password": "pbkdf2_sha256$600000$rrQajzlt9VPI8ShCT8YqBG$/6/xyCXWsPNFd9K9eS378D+EdKqmsn9Lg3/Wzvpoyh4=",
+        "password": "pbkdf2_sha256$600000$WX8Jqw9qJH1D16pBDVgTht$kbGzn3hE8i+UGm0LBAY4m7uGitn8KSnYojeCX2xwNyY=",
         "last_login": null,
         "is_superuser": false,
         "username": "KaitlynLamgo",
@@ -786,7 +786,7 @@
         "email": "lamg1462@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:08.293Z",
+        "date_joined": "2023-11-19T17:41:51.615Z",
         "groups": [],
         "user_permissions": []
     }
@@ -795,7 +795,7 @@
     "model": "auth.user",
     "pk": 9,
     "fields": {
-        "password": "pbkdf2_sha256$600000$abxkP7Jy7kDvcJueUaczFm$R5ibpCy9Gsdhr1PpbqTNyb0InBcT7m2avf1Go/FLb68=",
+        "password": "pbkdf2_sha256$600000$Hn4ZgiJhzltycoFlhkCiic$EdDeA7d4H8uYTci+z2leZQfSjsJ1crSGYBxAtli3cXw=",
         "last_login": null,
         "is_superuser": false,
         "username": "TylerLee",
@@ -804,7 +804,7 @@
         "email": "lee8326@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:08.391Z",
+        "date_joined": "2023-11-19T17:41:51.713Z",
         "groups": [],
         "user_permissions": []
     }
@@ -813,7 +813,7 @@
     "model": "auth.user",
     "pk": 10,
     "fields": {
-        "password": "pbkdf2_sha256$600000$gc3vDmmh7ZPL0IVDZWBMvK$IV62Ecfl6Q9MzI5X0Lg0cAM45nzCnvs30bbI2eQA7YQ=",
+        "password": "pbkdf2_sha256$600000$f8VayFZDXEye7Nxx3i1Fgf$f0cWBjpo7oYWppo4jUFKDwi2BzTw7n0h5pIqjqlZvqA=",
         "last_login": null,
         "is_superuser": false,
         "username": "MatthewLessman",
@@ -822,7 +822,7 @@
         "email": "less2179@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:08.489Z",
+        "date_joined": "2023-11-19T17:41:51.810Z",
         "groups": [],
         "user_permissions": []
     }
@@ -831,7 +831,7 @@
     "model": "auth.user",
     "pk": 11,
     "fields": {
-        "password": "pbkdf2_sha256$600000$2lMiQBeGaB7PKWewnlTdYZ$vA3laktyY7EsETX4L5ItF6gX+uEDew1Mm3/sY/HWSAQ=",
+        "password": "pbkdf2_sha256$600000$euVXyKxM6rKyj6OVBeNjcS$uAanhg9PtGI59aNRgJzK7jzNarZdI/uWlPNSRgBr4UM=",
         "last_login": null,
         "is_superuser": false,
         "username": "RyanLunas",
@@ -840,7 +840,7 @@
         "email": "luna0500@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:08.587Z",
+        "date_joined": "2023-11-19T17:41:51.908Z",
         "groups": [],
         "user_permissions": []
     }
@@ -849,7 +849,7 @@
     "model": "auth.user",
     "pk": 12,
     "fields": {
-        "password": "pbkdf2_sha256$600000$2hv5tiLsSjbuKz6ODMw96y$kYhz5UzIJEXvAip6/HYdqwvOwNqrDN7uypYwRPPRN3c=",
+        "password": "pbkdf2_sha256$600000$emepSx5xSoEURbyUyQwKzz$QH5ftVIRFDjTIhwQiN1O/oBd3H0V3uM3U0zZhJPZ1XE=",
         "last_login": null,
         "is_superuser": false,
         "username": "DylanMorris",
@@ -858,7 +858,7 @@
         "email": "morr3583@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:08.685Z",
+        "date_joined": "2023-11-19T17:41:52.006Z",
         "groups": [],
         "user_permissions": []
     }
@@ -867,7 +867,7 @@
     "model": "auth.user",
     "pk": 13,
     "fields": {
-        "password": "pbkdf2_sha256$600000$KjozxFgw2rR4hEUmtgieXT$DxZFCE41RMRvqfttUNr0hNkulsV9ldkNzeo1BVIptns=",
+        "password": "pbkdf2_sha256$600000$kcsTxVLS4Vs0fYIaVBvlIY$Gkc02S5okcvYQKbEDJooQKOGo6zWDLqA+6tuUnHYcTY=",
         "last_login": null,
         "is_superuser": false,
         "username": "DuaaNakshbandi",
@@ -876,7 +876,7 @@
         "email": "naks0449@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:08.782Z",
+        "date_joined": "2023-11-19T17:41:52.103Z",
         "groups": [],
         "user_permissions": []
     }
@@ -885,7 +885,7 @@
     "model": "auth.user",
     "pk": 14,
     "fields": {
-        "password": "pbkdf2_sha256$600000$6lYQ7cF3aXII73jKjHVXpU$wQfWPiP246my3NLCbTu14JYYi39+hL+CzdEjuMGR8Go=",
+        "password": "pbkdf2_sha256$600000$XohPCHx4SE2AuskuEIUvaq$GMBkEWH1lvKYpyF0s0TGr0oMsPAE7Y+ezLbsbf/QLlQ=",
         "last_login": null,
         "is_superuser": false,
         "username": "RyanRonish",
@@ -894,7 +894,7 @@
         "email": "roni0210@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:08.880Z",
+        "date_joined": "2023-11-19T17:41:52.201Z",
         "groups": [],
         "user_permissions": []
     }
@@ -903,7 +903,7 @@
     "model": "auth.user",
     "pk": 15,
     "fields": {
-        "password": "pbkdf2_sha256$600000$EMC3B2bm2IBt5qn87HQFuq$1fK1M3D7e2YA+h4aqNcv7BtKehc6ie7UrUOM5vluAus=",
+        "password": "pbkdf2_sha256$600000$dt0CfKJzHJFDrVkaltVbxW$4JnL0Ss3u6I6SyU0x8THbtj8t5X0w9ZM1EEJZGzLhr8=",
         "last_login": null,
         "is_superuser": false,
         "username": "DiegoSantander",
@@ -912,7 +912,7 @@
         "email": "sant8867@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:08.977Z",
+        "date_joined": "2023-11-19T17:41:52.299Z",
         "groups": [],
         "user_permissions": []
     }
@@ -921,7 +921,7 @@
     "model": "auth.user",
     "pk": 16,
     "fields": {
-        "password": "pbkdf2_sha256$600000$Js8KqRoGd9ekHzQRSU26Lg$qboewrTB13S+aScDRXL03uisHfTzVX3I+66QnwHkbmA=",
+        "password": "pbkdf2_sha256$600000$FIUeyAhvMQJAVcvsHzp77Y$ExqNmDKbyCzqezAl93viZXXAXvoLRVryemk7295CeHw=",
         "last_login": null,
         "is_superuser": false,
         "username": "MarkSeaman",
@@ -930,7 +930,7 @@
         "email": "mark.seaman@shrinking-world.com",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:09.075Z",
+        "date_joined": "2023-11-19T17:41:52.396Z",
         "groups": [],
         "user_permissions": []
     }
@@ -939,7 +939,7 @@
     "model": "auth.user",
     "pk": 17,
     "fields": {
-        "password": "pbkdf2_sha256$600000$gkxeGSCOq0jUnYPkd5u3KO$KzD9s8pbsqZFvKTqiSPn+wZFw7dcgLvJXCClK2V0yPg=",
+        "password": "pbkdf2_sha256$600000$qDZeEg3ksa9TOVuXCcIIBQ$2BgekaJiIf//I5uZi9szkyUHwYznqOi6PL7L8uLjdqI=",
         "last_login": null,
         "is_superuser": false,
         "username": "HudsonTurner",
@@ -948,7 +948,7 @@
         "email": "turn4527@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:09.173Z",
+        "date_joined": "2023-11-19T17:41:52.494Z",
         "groups": [],
         "user_permissions": []
     }
@@ -957,7 +957,7 @@
     "model": "auth.user",
     "pk": 18,
     "fields": {
-        "password": "pbkdf2_sha256$600000$1fzgap4PtVGT6U8NO58lgg$J/Rpjk+X7Uj0Shah59Kx8eWeFX8kh16rLbtKVmG89Ts=",
+        "password": "pbkdf2_sha256$600000$jny8LjDXmJmXLxylICyVpJ$AZSVS4gkDLN9wYs9x8mzjatgSPsWUsAPEFIi55Al3J4=",
         "last_login": null,
         "is_superuser": false,
         "username": "EvanTyler",
@@ -966,7 +966,7 @@
         "email": "duff1130@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:09.271Z",
+        "date_joined": "2023-11-19T17:41:52.591Z",
         "groups": [],
         "user_permissions": []
     }
@@ -975,7 +975,7 @@
     "model": "auth.user",
     "pk": 19,
     "fields": {
-        "password": "pbkdf2_sha256$600000$EhuOiwmTWK2xFn83RH2aRt$eo8TM86k4+x8mF4NaoEIZfcxWEMwWpRSdC5ROFH0dgI=",
+        "password": "pbkdf2_sha256$600000$zCzxlZM95RJnmUJHwkcx8y$brWuBlCI8JYTKvgcEbVaUMK7LDetU2q4aSJNkrXhIsw=",
         "last_login": null,
         "is_superuser": false,
         "username": "JoshFlatt",
@@ -984,7 +984,7 @@
         "email": "josh.m.flatt@gmail.com",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:09.466Z",
+        "date_joined": "2023-11-19T17:41:52.787Z",
         "groups": [],
         "user_permissions": []
     }
@@ -993,7 +993,7 @@
     "model": "auth.user",
     "pk": 20,
     "fields": {
-        "password": "pbkdf2_sha256$600000$Qr0M8ArEk9KuBYeLM1R2Yk$i9h4ZG2o8QIGXzyxQAcovGTe6BAGxfb5ZYs1LBXbdlM=",
+        "password": "pbkdf2_sha256$600000$gYULJv999t7yPxoOHEQGWd$pwQNuImdp+dVl/vg6ij/n1RM+JyrsoSE1h7HOlhK8pE=",
         "last_login": null,
         "is_superuser": false,
         "username": "KatieHaney-Osborn",
@@ -1002,7 +1002,7 @@
         "email": "haneykat2000@gmail.com",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:09.564Z",
+        "date_joined": "2023-11-19T17:41:52.885Z",
         "groups": [],
         "user_permissions": []
     }
@@ -1011,7 +1011,7 @@
     "model": "auth.user",
     "pk": 21,
     "fields": {
-        "password": "pbkdf2_sha256$600000$PCiJusQVk1KFvaYQ7sYEGK$zoAsg2XzH3xW7BH0jsLnEX/2tcVVNW+K12iyLDSHdJI=",
+        "password": "pbkdf2_sha256$600000$5rntdHDvtLqGor9qJam1ni$SR6tCcrSJx2X9YBSnmg0TACti29ryl0vugo1wJ66fBg=",
         "last_login": null,
         "is_superuser": false,
         "username": "AlexHart",
@@ -1020,7 +1020,7 @@
         "email": "alexhart3000@gmail.com",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:09.662Z",
+        "date_joined": "2023-11-19T17:41:52.983Z",
         "groups": [],
         "user_permissions": []
     }
@@ -1029,7 +1029,7 @@
     "model": "auth.user",
     "pk": 22,
     "fields": {
-        "password": "pbkdf2_sha256$600000$z2xmpGVRD60QTVnlzdYdnE$cgIAAefO427vaMtdG+UQtdG1kN3vf9STTUNFxUJ5m+o=",
+        "password": "pbkdf2_sha256$600000$ZuFoeQI5mu0yYyusUQMwxZ$Ioym3oJJY4fn7VGomnnUNqTpBxIDIzezUwgmdInNxGE=",
         "last_login": null,
         "is_superuser": false,
         "username": "SethHatch",
@@ -1038,7 +1038,7 @@
         "email": "hatc9004@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:09.759Z",
+        "date_joined": "2023-11-19T17:41:53.080Z",
         "groups": [],
         "user_permissions": []
     }
@@ -1047,7 +1047,7 @@
     "model": "auth.user",
     "pk": 23,
     "fields": {
-        "password": "pbkdf2_sha256$600000$WiuLw2DqYpSA8NbZJJ05o9$8EDbgUfRTLaqKRPUYaTn0ZrriohlZw4Lthbon+yYxVc=",
+        "password": "pbkdf2_sha256$600000$lgAfmBLz61MRlNlLQ1cs9B$tEuw+zGkWROZ/N5Tcsk44gB21Ylf9qWqWgCbQ9eb5d0=",
         "last_login": null,
         "is_superuser": false,
         "username": "AlexHovick",
@@ -1056,7 +1056,7 @@
         "email": "hovi8403@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:09.857Z",
+        "date_joined": "2023-11-19T17:41:53.178Z",
         "groups": [],
         "user_permissions": []
     }
@@ -1065,7 +1065,7 @@
     "model": "auth.user",
     "pk": 24,
     "fields": {
-        "password": "pbkdf2_sha256$600000$sBoeBrRAD3eG3kWpvSWtMF$UzqZMFr9M8N1JBawY3olI236ZVGaIkpudEeU9R4VVZ0=",
+        "password": "pbkdf2_sha256$600000$1RCTmJ6jBrlFYMRT2xalj5$u4vvM7JtLqiUBhYSlAVfwun1Ldm/WnJT3uCaXK67ecA=",
         "last_login": null,
         "is_superuser": false,
         "username": "ConnerHubbell",
@@ -1074,7 +1074,7 @@
         "email": "hubb2447@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:09.954Z",
+        "date_joined": "2023-11-19T17:41:53.276Z",
         "groups": [],
         "user_permissions": []
     }
@@ -1083,7 +1083,7 @@
     "model": "auth.user",
     "pk": 25,
     "fields": {
-        "password": "pbkdf2_sha256$600000$c3tVpOVgnd8fkinveEyBsn$HT5FuFEQhcxKwKTgJsOrEMQH4n6XEVPv35ouWkQ7Lmo=",
+        "password": "pbkdf2_sha256$600000$hk6hfNYqp0G0UhvXHFx1oF$WjRxrNu3NO/SBFTyynrFrOZWD74CqxWj9baZWJqIFIc=",
         "last_login": null,
         "is_superuser": false,
         "username": "ShaneLoewe",
@@ -1092,7 +1092,7 @@
         "email": "shaneloewe@gmail.com",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:10.052Z",
+        "date_joined": "2023-11-19T17:41:53.374Z",
         "groups": [],
         "user_permissions": []
     }
@@ -1101,7 +1101,7 @@
     "model": "auth.user",
     "pk": 26,
     "fields": {
-        "password": "pbkdf2_sha256$600000$FceBj6tQopwGUVc7WRank3$cqtqi1sr2EBgCNk8hbqk7JalkQGrIa6Cpt4vXh9XhC0=",
+        "password": "pbkdf2_sha256$600000$k59xuonskpt4zYzp7edS44$GUZykXPSugx3gMeL6g71VaYShXcxqE4EaNF5GODvu6g=",
         "last_login": null,
         "is_superuser": false,
         "username": "KyleLongaker",
@@ -1110,7 +1110,7 @@
         "email": "long4324@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:10.150Z",
+        "date_joined": "2023-11-19T17:41:53.471Z",
         "groups": [],
         "user_permissions": []
     }
@@ -1119,7 +1119,7 @@
     "model": "auth.user",
     "pk": 27,
     "fields": {
-        "password": "pbkdf2_sha256$600000$kTVMduSEbde11CZVHAX4VY$9xu2qeKosRQZ5nnxL6Mt3tI4LfaQudn2fs+KK51PU5s=",
+        "password": "pbkdf2_sha256$600000$m8wYOvDYjV1fAKVQrwFrEr$faaAJD+ju1aIKHfhU2dl5z40BvQquvwnMN2onl2rE8s=",
         "last_login": null,
         "is_superuser": false,
         "username": "ElfazMandefro",
@@ -1128,7 +1128,7 @@
         "email": "mand0961@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:10.345Z",
+        "date_joined": "2023-11-19T17:41:53.667Z",
         "groups": [],
         "user_permissions": []
     }
@@ -1137,7 +1137,7 @@
     "model": "auth.user",
     "pk": 28,
     "fields": {
-        "password": "pbkdf2_sha256$600000$hSLEhjp0CxL5RfF5JzwOhU$2pS9HmQxOOA+WiUdINKnxUAyDi8hAhg1URRboxytbh0=",
+        "password": "pbkdf2_sha256$600000$Kl941YOFJMIx6wxOA2QvSp$55pphOILBMOu8ESB5NDdrMLAqtwZBJ+I79b7IgDjyi0=",
         "last_login": null,
         "is_superuser": false,
         "username": "EsmeraldaMena",
@@ -1146,7 +1146,7 @@
         "email": "mena7940@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:10.442Z",
+        "date_joined": "2023-11-19T17:41:53.765Z",
         "groups": [],
         "user_permissions": []
     }
@@ -1155,7 +1155,7 @@
     "model": "auth.user",
     "pk": 29,
     "fields": {
-        "password": "pbkdf2_sha256$600000$si1VPSjuBTnJZGnPfVWAGv$Kn3T2GnwWaNfuJEv3mt6UjxNXz9NFoOznUKb4mwTaro=",
+        "password": "pbkdf2_sha256$600000$i3bRg2zzDK9AHEYTbpOoao$tLtkXYO1Btiyw8e1WL1JHKJyOf2ke3ufk0RxoXHUdoo=",
         "last_login": null,
         "is_superuser": false,
         "username": "JoelNickalaus",
@@ -1164,7 +1164,7 @@
         "email": "lefe2549@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:10.540Z",
+        "date_joined": "2023-11-19T17:41:53.862Z",
         "groups": [],
         "user_permissions": []
     }
@@ -1173,7 +1173,7 @@
     "model": "auth.user",
     "pk": 30,
     "fields": {
-        "password": "pbkdf2_sha256$600000$oNep206i0sIaq9T0yvQKSe$Yfd4HdQEiQBTSEgXUzxxgAfyBMpGFetBHV4ss/HeE6c=",
+        "password": "pbkdf2_sha256$600000$OI8vMPdy8vRFxMxqjPCcVB$fCMXhYRs3Lssyfu7ek5wi2rzLaM27sz4h3Xag8EXOGc=",
         "last_login": null,
         "is_superuser": false,
         "username": "MaxwellSeybert",
@@ -1182,7 +1182,7 @@
         "email": "maxwellseybert@gmail.com",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:10.736Z",
+        "date_joined": "2023-11-19T17:41:54.057Z",
         "groups": [],
         "user_permissions": []
     }
@@ -1191,7 +1191,7 @@
     "model": "auth.user",
     "pk": 31,
     "fields": {
-        "password": "pbkdf2_sha256$600000$RnanyWeBoEZvcRFkJLUs1Q$5eGISGQj95S+YoX8tTnLa1Yb8rSakXBLAbSdkJJcUQ8=",
+        "password": "pbkdf2_sha256$600000$e5KSj4tS2Rc5UbD3efpQI6$+BmntDLCbq5tYAYR0vwnNhovVhmdx9vpwQiJScD7NvA=",
         "last_login": null,
         "is_superuser": false,
         "username": "ElmoreSiahaan",
@@ -1200,7 +1200,7 @@
         "email": "siah5054@bears.unco.edu",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2023-11-19T17:41:10.833Z",
+        "date_joined": "2023-11-19T17:41:54.155Z",
         "groups": [],
         "user_permissions": []
     }

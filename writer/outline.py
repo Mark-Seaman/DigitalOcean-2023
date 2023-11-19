@@ -63,8 +63,14 @@ def extract_outlines(file_path):
 
 
 def read_outline(path):
+    def header_format(text):
+        text = text.replace('\n            ', '\n    * ')
+        text = text.replace('\n        ', '\n* ')
+        text = text.replace('\n    ', '\n## ')
+        return text
+
     text = path.read_text()
-    return text
+    return header_format(text)
 
 
 def show_outlines(path):

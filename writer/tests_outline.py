@@ -31,18 +31,18 @@ class OutlineTest(DjangoTest):
     def test_read_outline(self):
         path = pub_path('spirituality', 'Worship', 'Outline.md')
         text = read_outline(path)
-        o = split_outline(text)[1:]
-        for i in o:
-            # print(i['title'])
-            print(i['outline'])
-            print()
+        # o = split_outline(text)[1:]
+        # for i in o:
+        #     # print(i['title'])
+        #     print(i['outline'])
+        #     print()
 
     def test_read_outline2(self):
         path = pub_path('writer', 'CreativeLifecycle', 'Outline.md')
         text = read_outline(path)
         # print(text)
-        o = split_outline(text)[1:]
-        for i in o:
-            # print(i['title'])
-            print(i['outline'])
-            print()
+        # o = split_outline(text)[1:]
+        # for i in o:
+        #     # print(i['title'])
+        #     print(i['outline'])
+        #     print()

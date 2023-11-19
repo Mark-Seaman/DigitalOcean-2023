@@ -12,14 +12,12 @@ from .models import Content
 class CourseDataTest(DjangoTest):
 
     def test_create_fixture(self):
-        if is_old("config/course.json"):
-            print('data.json is old')
-            import_all_courses()
-            self.assertEqual(len(Content.objects.all()), 163)
-            s = workspace_path(course='bacs350', project='_students.csv')
-            import_students(s)
-            text = save_json_data('config/course.json')
-            self.assertEqual(len(text), 86210)
+        import_all_courses()
+        self.assertEqual(len(Content.objects.all()), 163)
+        s = workspace_path(course='bacs350', project='_students.csv')
+        import_students(s)
+        text = save_json_data('config/course.json')
+        self.assertEqual(len(text), 87038)
 
     def test_load_fixture(self):
         text = load_json_data('config/course.json')

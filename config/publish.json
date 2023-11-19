@@ -19190,15 +19190,9 @@
 },
 {
     "model": "publish.content",
-<<<<<<< HEAD
     "pk": 13632,
     "fields": {
         "blog": 199,
-=======
-    "pk": 2789,
-    "fields": {
-        "blog": 35,
->>>>>>> 487307846e15382a648dbaa0779a60bb66d019e9
         "order": 7,
         "title": "Milestone 7 - Product Upgrade",
         "doctype": "folder",
@@ -19210,15 +19204,9 @@
 },
 {
     "model": "publish.content",
-<<<<<<< HEAD
     "pk": 13633,
     "fields": {
         "blog": 199,
-=======
-    "pk": 2790,
-    "fields": {
-        "blog": 35,
->>>>>>> 487307846e15382a648dbaa0779a60bb66d019e9
         "order": 2,
         "title": "Lesson 21 - Planning a Product Upgrade",
         "doctype": "chapter",
@@ -19230,15 +19218,9 @@
 },
 {
     "model": "publish.content",
-<<<<<<< HEAD
     "pk": 13634,
     "fields": {
         "blog": 199,
-=======
-    "pk": 2791,
-    "fields": {
-        "blog": 35,
->>>>>>> 487307846e15382a648dbaa0779a60bb66d019e9
         "order": 3,
         "title": "Lesson 26 - DevOps and Data Management",
         "doctype": "chapter",
@@ -19250,15 +19232,9 @@
 },
 {
     "model": "publish.content",
-<<<<<<< HEAD
     "pk": 13635,
     "fields": {
         "blog": 199,
-=======
-    "pk": 2792,
-    "fields": {
-        "blog": 35,
->>>>>>> 487307846e15382a648dbaa0779a60bb66d019e9
         "order": 4,
         "title": "Lesson 27 - User Guide and Release Notes",
         "doctype": "chapter",
@@ -19270,15 +19246,9 @@
 },
 {
     "model": "publish.content",
-<<<<<<< HEAD
     "pk": 13636,
     "fields": {
         "blog": 199,
-=======
-    "pk": 2793,
-    "fields": {
-        "blog": 35,
->>>>>>> 487307846e15382a648dbaa0779a60bb66d019e9
         "order": 5,
         "title": "Lesson 28 - Security Review Checklist",
         "doctype": "chapter",

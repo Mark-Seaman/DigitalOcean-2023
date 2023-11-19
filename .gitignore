@@ -21,7 +21,7 @@ DigitalOcean-static/
 
 # Django Database
 config/hammer.db
-config/data.json
+config/*.json
 
 # Settings
 hammer/secret_settings.py

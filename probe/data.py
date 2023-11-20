@@ -6,15 +6,16 @@ from publish.models import Pub
 
 
 def save_json_data(file, app=None):
-    output = StringIO()
+    # output = StringIO()
     if app:
-        call_command('dumpdata', app, stdout=output, indent=4)
+        call_command('dumpdata', app, indent=4, output=file)
     else:
-        call_command('dumpdata', stdout=output, indent=4)
-    text = output.getvalue()
-    output.close()
-    Path(file).write_text(text)
-    return text
+        call_command('dumpdata', indent=4, output=file,
+                     exclude=['contenttypes'])
+    # text = output.getvalue()
+    # output.close()
+    # Path(file).write_text(text)
+    return Path(file).read_text()
 
 
 def load_json_data(file):

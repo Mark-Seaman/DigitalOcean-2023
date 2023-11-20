@@ -20,7 +20,7 @@ def test_data_json():
         import_all_courses()
         s = workspace_path(course='bacs350', project='_students.csv')
         import_students(s)
-        text = save_json_data('config/course.json')
+        text = save_json_data('config/course.json', 'course')
         status += f'    config/course.json  {len(text)} characters\n'
 
     # Tasks

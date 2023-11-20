@@ -2,7 +2,7 @@ from django.test import TestCase
 from django.urls import reverse
 
 from .course import create_courses, cs350_options, bacs350_options, create_course, find_artifacts
-from .models import Content, Course
+from .models import Content, Course, Student
 
 
 class CourseDataTest(TestCase):
@@ -11,6 +11,11 @@ class CourseDataTest(TestCase):
     def setUp(self):
         self.course1 = cs350_options()
         self.course2 = bacs350_options()
+
+    def test_load_fixture(self):
+        self.assertEqual(len(Course.objects.all()), 2)
+        self.assertEqual(len(Content.objects.all()), 163)
+        self.assertEqual(len(Student.objects.all()), 35)
 
     def test_add_course(self):
         self.assertEqual(len(Course.objects.all()), 2)

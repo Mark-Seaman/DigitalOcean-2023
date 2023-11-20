@@ -3,7 +3,6 @@ from pathlib import Path
 from sys import version_info
 
 from django.test import TestCase
-
 from probe.models import Probe
 
 

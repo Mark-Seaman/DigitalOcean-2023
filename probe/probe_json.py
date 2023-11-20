@@ -1,11 +1,9 @@
-from pathlib import Path
 from course.import_export import import_all_courses
 from course.student import import_students
 from course.workspace import workspace_path
 from probe.data import save_json_data
 from publish.days import is_old
-from publish.publication import all_pubs, build_pubs, show_pub_json
-from writer.words import measure_pub_words
+from publish.publication import build_pubs
 
 
 def test_data_json():

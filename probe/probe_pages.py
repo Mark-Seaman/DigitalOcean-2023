@@ -1,11 +1,8 @@
 from pathlib import Path
 
-from requests import get
-
 from publish.files import read_csv_file
-from publish.text import text_join
 
-from .probe import check_webpage, check_line_count, save_page
+from .probe import check_line_count, save_page
 
 
 # def test_web_pages():
@@ -42,11 +39,12 @@ def test_pages_web():
     d = Path('probe/pages')
     d.mkdir(exist_ok=True)
     output = 'Page Tester:\n'
-    for i,p in enumerate(pages):
+    for i, p in enumerate(pages):
         if p[2:]:
             path = d / f'web-{i}.html'
             text = save_page(path, p[0])
-            text = check_line_count(f'Lines in {p[0]}', text, int(p[1]), int(p[2]))
+            text = check_line_count(
+                f'Lines in {p[0]}', text, int(p[1]), int(p[2]))
             output += f'{path} -- {text}\n'
     return output
 

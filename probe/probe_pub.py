@@ -1,14 +1,7 @@
 from pathlib import Path
-from probe.data import save_json_data
 from publish.days import is_old
-from publish.publication import all_pubs, build_pubs, show_pub_json
+from publish.publication import all_pubs, show_pub_json
 from writer.words import measure_pub_words
-
-
-def test_build_pubs():
-    build_pubs()
-    save_json_data('config/publish.json', 'publish')
-    return 'OK'
 
 
 def test_pub_json():

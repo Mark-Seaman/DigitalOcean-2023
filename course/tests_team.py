@@ -6,12 +6,6 @@ from .models import Team
 
 class TeamPagesTest(DjangoTest):
 
-    # @classmethod
-    # def setUpTestData(cls):
-    #     create_courses()
-    #     s = workspace_path(course='bacs350', project='_students.csv')
-    #     import_students(s)
-
     def test_page_path(self):
         # print(page_path())
         y = 'Documents/shrinking-world.com/cs350/team'

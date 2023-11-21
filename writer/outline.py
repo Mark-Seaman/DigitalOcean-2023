@@ -4,6 +4,7 @@ from re import DOTALL, findall, split
 from shutil import copyfile
 
 from publish.document import title
+from publish.text import text_join
 
 
 def create_ai_file(path, text):
@@ -39,6 +40,12 @@ def create_outlines(path):
         create_ai_file(path/f, topics['outline'])
 
 
+def create_slides_text(path):
+    text = read_outline(path)
+    o = split_outline(text)[1:]
+    return text_join([f"## {i['outline']}" for i in o])
+
+
 def extract_urls(file_path):
     text = Path(file_path).read_text()
     url_pattern = r'\[(.*?)\]\((.*?)\)'
@@ -62,15 +69,15 @@ def extract_outlines(file_path):
     return [match for match in matches]
 
 
-def read_outline(path):
-    def header_format(text):
-        text = text.replace('\n            ', '\n    * ')
-        text = text.replace('\n        ', '\n* ')
-        text = text.replace('\n    ', '\n## ')
-        return text
+def headings_format(text):
+    text = text.replace('\n            ', '\n#### ')
+    text = text.replace('\n        ', '\n### ')
+    text = text.replace('\n    ', '\n## ')
+    return "# " + text
 
-    text = path.read_text()
-    return header_format(text)
+
+def read_outline(path):
+    return path.read_text()
 
 
 def show_outlines(path):
@@ -86,6 +93,15 @@ def show_links(path):
         print('Title:', title)
         print('URL:', url)
         print()
+
+
+def slides_format(text):
+    text = text.replace('\n            ', '\n    * ')
+    text = text.replace('\n        ', '\n* ')
+    text = text.replace('\n    ', '\n## ')
+    text = text.replace('\n#### ', '\n    * ')
+    text = text.replace('\n### ', '\n* ')
+    return text
 
 
 def split_outline(outline):

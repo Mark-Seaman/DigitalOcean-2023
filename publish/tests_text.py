@@ -2,6 +2,7 @@ from pathlib import Path
 
 from probe.tests_django import DjangoTest
 from publish.shell import shell
+from writer.pub_script import pub_path
 
 from .files import concatonate, read_file, recursive_files, write_file
 from .text import line_count, text_join, text_lines, word_count

@@ -1,6 +1,7 @@
 from probe.tests_django import DjangoTest
-from writer.outline import (create_index, extract_links,
-                            extract_urls, create_outlines, read_outline, split_outline)
+from publish.files import concatonate
+from writer.outline import (create_index, create_slides_text, extract_links,
+                            extract_urls, create_outlines, headings_format, read_outline, slides_format, split_outline)
 
 from .pub_script import pub_path
 
@@ -21,28 +22,34 @@ class OutlineTest(DjangoTest):
         path = pub_path('spirituality', 'Worship')
         create_index(path)
 
-    def test_outlines(self):
+    def test_ai_prompts(self):
         path = pub_path('spirituality', 'Worship')
-        print(create_outlines(path))
+        create_outlines(path)
+        # path = pub_path('spirituality', 'Worship')
+        path = 'Documents/Shrinking-World-Pubs/spirituality/AI/Worship/*.ai'
+        text = concatonate(path)
+        self.assertNumLines(text, 53, 53, f'lines AI Prompt')
 
-        # x = '\n'.join([x for x in x])
-        # self.assertEqual(len(x), 1047)
-
-    def test_read_outline(self):
+    def test_split_outline(self):
         path = pub_path('spirituality', 'Worship', 'Outline.md')
-        text = read_outline(path)
-        # o = split_outline(text)[1:]
-        # for i in o:
-        #     # print(i['title'])
-        #     print(i['outline'])
-        #     print()
+        text = create_slides_text(path)
+        # print(text)
+        self.assertNumLines(text, 23, 23, f'lines in Slides')
 
-    def test_read_outline2(self):
+    def test_slides(self):
         path = pub_path('writer', 'CreativeLifecycle', 'Outline.md')
         text = read_outline(path)
+        text = slides_format(text)
         # print(text)
-        # o = split_outline(text)[1:]
-        # for i in o:
-        #     # print(i['title'])
-        #     print(i['outline'])
-        #     print()
+        self.assertNumLines(text, 27, 27, f'lines in Slides')
+
+    def test_headings(self):
+        path = pub_path('writer', 'CreativeLifecycle', 'Outline.md')
+        text = read_outline(path)
+        text = headings_format(text)
+        # print(text)
+        o = split_outline(text)[1:]
+        for i in o:
+            #     # print(i['title'])
+            print('##', slides_format(i['outline']))
+            print('\n---\n')

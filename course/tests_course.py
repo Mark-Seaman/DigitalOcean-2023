@@ -6,7 +6,7 @@ from .models import Content, Course, Student
 
 
 class CourseDataTest(TestCase):
-    fixtures = ['config/course.json']
+    fixtures = ['config/data.json']
 
     def setUp(self):
         self.course1 = cs350_options()
@@ -15,7 +15,7 @@ class CourseDataTest(TestCase):
     def test_load_fixture(self):
         self.assertEqual(len(Course.objects.all()), 2)
         self.assertEqual(len(Content.objects.all()), 163)
-        self.assertEqual(len(Student.objects.all()), 35)
+        self.assertEqual(len(Student.objects.all()), 36)
 
     def test_add_course(self):
         self.assertEqual(len(Course.objects.all()), 2)

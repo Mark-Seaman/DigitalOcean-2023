@@ -45,11 +45,20 @@ class OutlineTest(DjangoTest):
 
     def test_headings(self):
         path = pub_path('writer', 'CreativeLifecycle', 'Outline.md')
-        text = read_outline(path)
-        text = headings_format(text)
+        outline = read_outline(path)
+        text = headings_format(outline)
         # print(text)
-        o = split_outline(text)[1:]
-        for i in o:
-            #     # print(i['title'])
-            print('##', slides_format(i['outline']))
-            print('\n---\n')
+        # o = split_outline(text)[1:]
+        # for i in o:
+        #     #     # print(i['title'])
+        #     print('##', slides_format(i['outline']))
+        #     print('\n---\n')
+
+    def test_prompt_files(self):
+        path = pub_path('writer', 'CreativeLifecycle', 'Outline.md')
+        outline = read_outline(path)
+        text = headings_format(outline)
+        outlines = split_outline(text)[1:]
+        for i, o in enumerate(outlines):
+            f = f'{i}.ai'
+            print(i, o['title'], '\n', o['outline'], '\n---\n')

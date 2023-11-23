@@ -54,5 +54,12 @@ class DjangoTest(TestCase):
         self.assertGreaterEqual(num, min, error)
         self.assertLessEqual(num, max, error)
 
+    def assertText(self, text, pattern):
+        self.assertIn(pattern, text)
+
+    def print_test_name(self):
+        print(f'\nTest: \n{self._testMethodName}\n')
+        # print(self.id().split('.')[-1])
+
     # def test_django_test(self):
     #     self.assertTrue(True)

@@ -61,4 +61,6 @@ class OutlineTest(DjangoTest):
         outlines = split_outline(text)[1:]
         for i, o in enumerate(outlines):
             f = f'{i}.ai'
-            print(i, o['title'], '\n', o['outline'], '\n---\n')
+            # print(i, o['title'], '\n', o['outline'], '\n---\n')
+
+        self.print_test_name()

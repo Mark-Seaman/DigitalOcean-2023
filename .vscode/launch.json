@@ -61,9 +61,8 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "pub",
-                "outline",
-                "spirituality",
-                "Discipleship"
+                "project",
+                "stacie"
             ],
             "django": true,
             "justMyCode": true

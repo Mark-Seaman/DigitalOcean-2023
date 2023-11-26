@@ -15,7 +15,7 @@ class WordCountTest(DjangoTest):
 
     def test_content_nodes(self):
         pubs, contents, words, pages = count_nodes()
-        self.assertRange(pubs, 19, 19)
+        self.assertRange(pubs, 19, 20)
         self.assertRange(contents, 1320, 1340)
         self.assertRange(pages, 1800, 2000)
         self.assertRange(words, 470000, 480000)

@@ -1,7 +1,6 @@
 from django.urls import path
 
-from publish.views_note import NoteListView
-
+from .views_note import NoteCreateView, NoteDeleteView, NoteDetailView, NoteListView, NoteUpdateView
 from .views import BouncerRedirectView, ContactView, PubDetailView, PubLibraryView, PubListView, PubRedirectView, PubView
 
 urlpatterns = [
@@ -14,11 +13,18 @@ urlpatterns = [
     path("pubs/<str:pub_type>", PubListView.as_view(), name="pub_list"),
     path("<int:id>", BouncerRedirectView.as_view()),
 
+    # Notes
+    path('note/', NoteListView.as_view(), name='note_list'),
+    path('note/<int:pk>', NoteDetailView.as_view(), name='note_detail'),
+    path('note/<int:pk>/', NoteUpdateView.as_view(), name='note_edit'),
+    path('note/add', NoteCreateView.as_view(), name='note_add'),
+    path('note/<int:pk>/delete',  NoteDeleteView.as_view(), name='note_delete'),
+
+
     # Display a pub document
     path("<str:pub>", PubDetailView.as_view(), name="pub_detail"),
     path("<str:pub>/contact", ContactView.as_view()),
     path("<str:pub>/<str:doc>", PubView.as_view(), name="pub"),
 
-    # Notes
-    path('note/', NoteListView.as_view(), name='note_list'),
+
 ]

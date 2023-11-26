@@ -18,7 +18,7 @@ class PubDataTest(DjangoTest):
         blog1 = Pub.objects.create(
             name="Write", title="Authoring Tips", url="write")
         blog2 = Pub.objects.create(name="Tech", title="Pro Pub", url="tech")
-        self.assertEqual(len(Pub.objects.all()), 21)
+        self.assertEqual(len(Pub.objects.all()), 22)
 
     def test_blog_detail(self):
         Pub.objects.create(name="Write", title="Authoring Tips", url="write")
@@ -62,10 +62,10 @@ class PubDataTest(DjangoTest):
 
     def test_pub_info(self):
         text = concatonate('publish/*.py')
-        self.assertNumLines(text, 3000, 3200)
+        self.assertNumLines(text, 3200, 3300)
 
     def test_pub_list(self):
         pubs = ', '.join([p.name for p in all_pubs()])
-        self.assertEqual(len(all_pubs()), 19)
-        names = 'ai, family, ghost, io, journey, leverage, marks, org, poem, private, quest, sampler, spiritual, spirituality, sweng, tech, today, webapps, write'
+        self.assertEqual(len(all_pubs()), 20)
+        names = 'ai, family, ghost, io, journey, leverage, marks, org, poem, private, quest, sampler, spiritual, spirituality, sweng, tech, today, webapps, write, stacie'
         self.assertEqual(pubs, names)

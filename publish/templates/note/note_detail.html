@@ -1,0 +1,12 @@
+
+<!-- FILEPATH: /Users/seaman/Hammer/publish/templates/note/note_detail.html -->
+
+{% extends 'publish_theme.html' %}
+
+{% block content %}
+    <div>
+        <h2>{{ note.title }}</h2>
+        <p>by {{ note.author }}</p>
+        <p>{{ note.text }}</p>
+    </div>
+{% endblock %}

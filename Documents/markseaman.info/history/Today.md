@@ -3,15 +3,16 @@
 
 ## Priorities
 
+Love
 Stacie's Place
-Clean Kitchen
+Laundry
 
 
 ## Tasks
 
 Publish and review Stacie's Place
 Setup Stacie@ck
-Train Rachel and Elen
+Meet with Rachel and Elen
 Learning Lecture
 Milestone 7 Assignments
 Organize office - 15 minutes game session

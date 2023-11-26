@@ -8,7 +8,7 @@
 * [A Seaman's Quest](/quest)               57499 words   229 pages
 
 
-## Pubs - blog                            182664 words   730 pages
+## Pubs - blog                            182784 words   731 pages
 
 * [AI Playbook](/ai)                        9449 words    37 pages
 * [The Shrinking World I/O](/io)           13686 words    54 pages
@@ -17,6 +17,7 @@
 * [Life with God](/spirituality)           13641 words    54 pages
 * [Tech Notes](/tech)                      22541 words    90 pages
 * [Writer's Block](/write)                  8231 words    32 pages
+* [Stacie's Place](/stacie)                  120 words     0 pages
 
 
 ## Pubs - course                          163088 words   652 pages
@@ -37,4 +38,4 @@
 
 
 
-## Grand Total   476050 words  1904 pages
+## Grand Total   476170 words  1904 pages

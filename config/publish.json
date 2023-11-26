@@ -513,6 +513,33 @@
     }
 },
 {
+    "model": "publish.pub",
+    "pk": 41,
+    "fields": {
+        "name": "stacie",
+        "title": "Stacie's Place",
+        "subtitle": "News from Stacie Seaman",
+        "author": "Mark Seaman",
+        "description": "News and updates from Stacie Seaman.",
+        "doc_path": "Documents/Shrinking-World-Pubs/stacie/Pub",
+        "image_path": null,
+        "css": null,
+        "domain": null,
+        "url": "/stacie",
+        "logo": null,
+        "words": 0,
+        "cover_image": null,
+        "menu": null,
+        "pub_type": "blog",
+        "auto_remove": false,
+        "auto_contents": false,
+        "auto_index": false,
+        "index_folders": false,
+        "index_months": false,
+        "simple_index": false
+    }
+},
+{
     "model": "publish.content",
     "pk": 1430,
     "fields": {
@@ -19255,6 +19282,20 @@
         "path": "Documents/Shrinking-World-Pubs/sweng/Pub/m7/Lesson_28.md",
         "folder": 7,
         "words": 298,
+        "retain_object": false
+    }
+},
+{
+    "model": "publish.content",
+    "pk": 2794,
+    "fields": {
+        "blog": 41,
+        "order": 1,
+        "title": "Stacie's Place",
+        "doctype": "folder",
+        "path": "Documents/Shrinking-World-Pubs/stacie/Pub/Index.md",
+        "folder": 0,
+        "words": 120,
         "retain_object": false
     }
 }

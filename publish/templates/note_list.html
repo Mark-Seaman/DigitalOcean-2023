@@ -1,0 +1,32 @@
+{% extends 'publish_theme.html' %}
+
+
+{% block content %}
+
+<div class="row">
+
+    <h1>Notes to Review</h1>
+    <p>
+        This is the list of the current notes to edit.
+    </p>
+
+    {% if notes %}
+    <ul>
+        {% for note in notes %}
+        <li>
+            {% autoescape off%}
+            {{ note.title }} - {{ note.author }} 
+            {% endautoescape %}
+        </li>
+        {% endfor %}
+    </ul>
+
+    {% else %}
+    <p>
+        There are no notes to edit.
+    </p>
+    {% endif %}
+
+</div>
+
+{% endblock content %}

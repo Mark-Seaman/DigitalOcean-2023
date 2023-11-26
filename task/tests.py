@@ -23,7 +23,7 @@ class TaskDataTest(TestCase):
 
     def test_goals(self):
         goals = Path("Documents/markseaman.info/history/Today.md").read_text()
-        self.assertTrue(goals.startswith('# Priorities for '))
+        self.assertTrue(goals.startswith('# Today'))
 
     # def test_tasks(self):
     #     task_import_files(100)

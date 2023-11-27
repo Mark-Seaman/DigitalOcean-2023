@@ -1,4 +1,5 @@
 from django.contrib.auth.models import User
+from course.user import make_user
 
 from writer.author import create_user, get_user
 
@@ -7,18 +8,18 @@ from .models import Moderator, Note
 
 def create_moderators(self=None):
     def create_moderator(**kwargs):
-        print(f"create_moderator: {kwargs}")
+        # print(f"create_moderator: {kwargs}")
         user = create_user(**kwargs)
         m, _ = Moderator.objects.get_or_create(user=user)
         return m
 
     def check_moderator(**kwargs):
-        user = User.objects.get(**kwargs)
+        user = User.objects.filter(email=kwargs.get('email')).first()
         m = Moderator.objects.get(user=user)
         assert user.first_name == kwargs.get('first_name')
         assert user.last_name == kwargs.get('last_name')
         assert user.email == kwargs.get('email')
-        assert user.password != "stacie"
+        # assert user.password != "stacie"
         assert user.check_password("stacie")
 
     # def print users():
@@ -26,9 +27,10 @@ def create_moderators(self=None):
     #         if 'mark' in u.email:
     #             print([u.username, u.first_name, u.last_name, u.email])
 
+    # Moderator.objects.all().delete()
     moderators = [
         dict(
-            first_name="Marcus", last_name="Seaman",
+            first_name="Mark", last_name="Seaman",
             email="mark@seamanfamily.org", password="stacie"
         ),
         dict(

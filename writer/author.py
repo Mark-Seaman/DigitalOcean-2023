@@ -43,7 +43,9 @@ def create_user(**kwargs):
         user.first_name = kwargs.get('first_name', user.first_name)
         user.last_name = kwargs.get('last_name', user.last_name)
         user.email = kwargs.get('email', user.email)
-        user.password = kwargs.get('password', user.password)
+        password = kwargs.get('password', user.password)
+        if password:
+            user.set_password(password)
         user.save()
         return user
 

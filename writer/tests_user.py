@@ -1,6 +1,8 @@
 from django.contrib.auth import get_user_model
 from django.test import TestCase
 
+from publish.note import create_moderators
+
 from .author import create_user, get_user
 
 
@@ -37,3 +39,6 @@ class UserDataTest(TestCase):
     def test_no_username(self):
         with self.assertRaises(AssertionError):
             create_user()
+
+    def test_moderator(self):
+        create_moderators(self)

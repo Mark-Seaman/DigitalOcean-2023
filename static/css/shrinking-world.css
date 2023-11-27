@@ -107,6 +107,11 @@ img {
     max-width: 100%;
 }
 
+label.checkbox input.checkboxinput {
+    width: 30px;
+    margin-top: 2em;
+}
+
 /*.card-header a {*/
 /*    color: white;*/
 /*}*/

@@ -3,29 +3,46 @@
 
 {% block content %}
 
-<div class="row">
+<div class="bg-light text-dark m-5 p-5">
 
-    <h1>Notes to Review</h1>
-    <p>
-        This is the list of the current notes to edit.
-    </p>
+    <h2 class="text-center">Messages for Stacie</h2>
 
     {% if notes %}
-    <ul>
-        {% for note in notes %}
-        <li>
-            {% autoescape off%}
-            {{ note.title }} - {{ note.author }} 
-            {% endautoescape %}
-        </li>
-        {% endfor %}
-    </ul>
+    
 
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Published</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for note in notes %}
+            {% if not user.is_anonymous or note.published %}
+    
+                <tr>
+                    <td>
+                        <a href="/note/{{ note.pk }}">{{ note.title }}</a>
+                    </td>
+                    <td>{{ note.author }}</td>
+                    <td>{{ note.published }}</td>
+                </tr>
+
+            {% endif %}
+
+            {% endfor %}
+        </tbody>
+    </table>
     {% else %}
     <p>
         There are no notes to edit.
     </p>
     {% endif %}
+
+    <a class="btn btn-primary" href="/note/add">New Message</a>
 
 </div>
 

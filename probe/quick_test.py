@@ -1,4 +1,5 @@
 from pathlib import Path
+from django.contrib.auth.models import User
 
 import webbrowser
 
@@ -12,13 +13,15 @@ from task.todo import edit_todo_list
 from writer.outline import create_outlines
 from writer.pub_script import pub_path, pub_script
 from writer.words import measure_pub_words
+from publish.note import create_moderators
 
 from .data import load_json_data, save_json_data
 
 
 def quick_test():
     # print("No quick test defined")
-    course()
+    # course()
+    create_moderators()
     # pub()
     # tasks()
     # tests()

@@ -62,7 +62,7 @@ class PubDataTest(DjangoTest):
 
     def test_pub_info(self):
         text = concatonate('publish/*.py')
-        self.assertNumLines(text, 3200, 3300)
+        self.assertNumLines(text, 3200, 3400)
 
     def test_pub_list(self):
         pubs = ', '.join([p.name for p in all_pubs()])

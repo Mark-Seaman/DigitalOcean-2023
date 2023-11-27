@@ -50,11 +50,11 @@ class NoteViewTest(TestCase):
         self.assertContains(response, 'There are no notes to edit.')
 
         # with notes
-        create_note(title='first note')
-        create_note(title='second note')
+        create_note(title='first note', published=True)
+        create_note(title='second note', published=True)
         response = self.client.get('/note/')
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, '<li>', 2)
+        self.assertContains(response, '<tr>', 3)
         self.assertContains(response, 'first note')
         self.assertContains(response, 'Mark Seaman')
         self.assertTemplateUsed(response, 'note/note_list.html')

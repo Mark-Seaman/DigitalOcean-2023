@@ -1,12 +1,18 @@
-
-<!-- FILEPATH: /Users/seaman/Hammer/publish/templates/note/note_detail.html -->
-
 {% extends 'publish_theme.html' %}
 
 {% block content %}
-    <div>
-        <h2>{{ note.title }}</h2>
-        <p>by {{ note.author }}</p>
-        <p>{{ note.text }}</p>
-    </div>
+
+  <div class="bg-light text-dark m-5 p-5">
+
+    <h2>{{ note.title }}</h2>
+    <p>by {{ note.author }}</p>
+    <p>{{ note.text }}</p>
+
+    {% if not user.is_anonymous or note.published %}
+      <a class="btn btn-primary" href="/note/{{ note.id }}/">Edit Message</a>
+    {% endif %}
+    <a class="btn btn-primary" href="/note/">Show All Messages</a>
+
+  </div>
+  
 {% endblock %}

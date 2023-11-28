@@ -61,7 +61,7 @@
             "cwd": "${workspaceFolder}",
             "args": [
                 "pub",
-                "project",
+                "publish",
                 "stacie"
             ],
             "django": true,

@@ -1,9 +1,11 @@
 {% extends 'publish_theme.html' %}
 
+{% block navbar %}
+
+{% endblock %}
+
 {% block content %}
-
   <div class="bg-light text-dark m-5 p-5">
-
     <h2>{{ note.title }}</h2>
     <p>by {{ note.author }}</p>
     <p>{{ note.text }}</p>
@@ -12,7 +14,5 @@
       <a class="btn btn-primary" href="/note/{{ note.id }}/">Edit Message</a>
     {% endif %}
     <a class="btn btn-primary" href="/note/">Show All Messages</a>
-
   </div>
-  
 {% endblock %}

@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views_note import NoteCreateView, NoteDeleteView, NoteDetailView, NoteListView, NoteUpdateView
+from .views_note import NoteCreateView, NoteDeleteView, NoteDetailView, NoteListView, NoteUpdateView, StacieView
 from .views import BouncerRedirectView, ContactView, PubDetailView, PubLibraryView, PubListView, PubRedirectView, PubView
 
 urlpatterns = [
@@ -19,6 +19,10 @@ urlpatterns = [
     path('note/<int:pk>/', NoteUpdateView.as_view(), name='note_edit'),
     path('note/add', NoteCreateView.as_view(), name='note_add'),
     path('note/<int:pk>/delete',  NoteDeleteView.as_view(), name='note_delete'),
+
+    # Stacie
+    path('stacie', StacieView.as_view()),
+    path('stacie/<str:doc>', StacieView.as_view()),
 
 
     # Display a pub document

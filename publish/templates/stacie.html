@@ -1,0 +1,45 @@
+{% extends 'publish_theme.html' %}
+
+
+{% block navbar %}
+{% endblock %}
+
+
+{% block content %}
+
+{% if html %}
+<div class="card bg-light text-dark p-sm-2 m-md-5 p-md-5">
+    {% autoescape off %}
+        {{ html }}
+    {% endautoescape %}
+</div>
+{% endif %}
+
+
+{% comment %} {% if message %}
+<div class="m-5 p-5">
+<h2 class="text-center">Post Message</h2>
+{% load crispy_forms_tags %}
+<form action="" method="post">{% csrf_token %}
+{{ form|crispy }}
+<button class="btn btn-success m-5" type="submit">Send Message</button>
+</form>
+</div>
+{% endif %}
+ {% endcomment %}
+
+
+
+{% if notes %}
+<div class="card bg-light text-dark p-sm-2 m-md-5 p-md-5">
+    <h2 class="text-center">Messages for Stacie</h2>
+    {% autoescape off %}
+        {{ notes }}
+    {% endautoescape %}
+
+</div>
+{% endif %}
+
+
+
+{% endblock %}

@@ -1,23 +1,22 @@
 {% extends 'publish_theme.html' %}
 
+{% block navbar %}
+
+{% endblock %}
 
 {% block content %}
-
-<div class="bg-light text-dark m-5 p-5">
-
+  <div class="bg-light text-dark m-5 p-5">
     <h2 class="text-center">Post Message</h2>
-    
+
     {% load crispy_forms_tags %}
 
-    <form action="" method="post">{% csrf_token %}
+    <form action="" method="post">
+      {% csrf_token %}
 
-        {{ form|crispy }}
+      {{ form|crispy }}
 
-        <button class="btn btn-success m-5" type="submit">Send Message</button>
-        <a class="btn btn-success m-5" href="delete">Delete Record</a>
-
+      <button class="btn btn-success m-5" type="submit">Send Message</button>
+      <a class="btn btn-success m-5" href="delete">Delete Record</a>
     </form>
-
-</div>
-
-{% endblock content %}
+  </div>
+{% endblock %}

@@ -7,6 +7,7 @@ from writer.outline import extract_links
 
 from .pub_script import edit_files, pub_path, pub_url
 
+
 def pub_publish(**kwargs):
     pub = kwargs.get('pub')
     chapter = kwargs.get('chapter')
@@ -15,28 +16,30 @@ def pub_publish(**kwargs):
     url = pub_url(pub, chapter, doc)
     return url
 
+
 def publish_script(args):
+    text = 'publish script:\n'
     if not args:
         return 'usage: publish pub-name chapter doc'
     pub_name = args[0]
     source = pub_path('apps')
     dest = pub_path()/'apps'/'Pub'
-    # print('SOURCE:', source, ', DEST:', dest)
+    text += f'SOURCE: {source}, DEST: {dest}\n'
     dest.mkdir(exist_ok=True)
     copyfile(source/'Index'/'_content.csv', dest/'_content.csv')
     copyfile(source/'Index'/'Index.md', dest/'Index.md')
 
-    # print('publish apps')
+    pub = get_pub(pub_name)
+    text += copy_image_files(pub)
+
     if args[2:]:
-        pub = get_pub(pub_name)
         chapter = args[1]
-        text = copy_image_file(pub)
         edit_files([copy_doc_files(pub, chapter)])
         return text
     return 'OK'
 
 
-def copy_image_file(pub):
+def copy_image_files(pub):
     text = f'\nCopy Image Files:\n'
     images = Path(pub.doc_path).parent/'Images'
     if images.exists():
@@ -60,5 +63,3 @@ def copy_doc_files(pub, chapter):
             if (source_dir/x).exists():
                 copyfile(source_dir/x, dest_dir/x)
     return str(dest_dir)
-
- 

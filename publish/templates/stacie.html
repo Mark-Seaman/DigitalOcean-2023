@@ -1,11 +1,21 @@
 {% extends 'publish_theme.html' %}
 
 
-{% block navbar %}
-{% endblock %}
-
-
 {% block content %}
+
+{% if subscribe %}
+<div class="card bg-light text-dark p-sm-2 m-md-5 p-md-5">
+    <h1>Subscribe to Email Updates</h1>
+    <p>
+        Join our weekly email list to stay informed and receive the latest news and updates about Stacie's Cancer Detour.
+        You can unsubscribe at any time.
+    </p>
+    <p>
+        <a class="btn btn-success" href="https://shrinking-world.ck.page/bcf3f39efc" target="subscribe">Subscribe Now</a>
+    </p>
+
+</div>
+{% endif %}
 
 {% if html %}
 <div class="card bg-light text-dark p-sm-2 m-md-5 p-md-5">
@@ -14,20 +24,6 @@
     {% endautoescape %}
 </div>
 {% endif %}
-
-
-{% comment %} {% if message %}
-<div class="m-5 p-5">
-<h2 class="text-center">Post Message</h2>
-{% load crispy_forms_tags %}
-<form action="" method="post">{% csrf_token %}
-{{ form|crispy }}
-<button class="btn btn-success m-5" type="submit">Send Message</button>
-</form>
-</div>
-{% endif %}
- {% endcomment %}
-
 
 
 {% if notes %}

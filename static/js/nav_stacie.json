@@ -1,0 +1,26 @@
+{
+    "menu": {
+        "title": [
+            "Stacie's Detour",
+            "/"
+        ],
+        "items": [
+            [
+                "Home",
+                "/stacie/Index.md"
+            ],
+            [
+                "News",
+                "/stacie/News.md"
+            ],
+            [
+                "Encouragement",
+                "/stacie/Encouragement.md"
+            ],
+            [
+                "How To Help",
+                "/stacie/Help.md"
+            ]
+        ]
+    }
+}

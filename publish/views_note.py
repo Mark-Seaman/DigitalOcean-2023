@@ -73,6 +73,7 @@ class StacieView(TemplateView):
         kwargs = select_blog_doc(pub, doc)
         kwargs = self.add_notes(
             not self.request.user.is_anonymous, doc, **kwargs)
+        kwargs = self.add_subscribe(doc, **kwargs)
         return kwargs
 
     def add_notes(self, moderator, doc, **kwargs):
@@ -84,4 +85,9 @@ class StacieView(TemplateView):
                     text += f'* {link}  by **{note.author}**\n'
             kwargs['notes'] = markdown(text)
             kwargs['message'] = True
+        return kwargs
+
+    def add_subscribe(self, doc, **kwargs):
+        if doc == 'News.md':
+            kwargs['subscribe'] = True
         return kwargs

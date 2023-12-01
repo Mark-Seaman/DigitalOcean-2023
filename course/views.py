@@ -6,6 +6,7 @@ from django.views.generic.edit import UpdateView
 from pathlib import Path
 
 from publish.files import read_json
+from publish.models import Moderator
 from publish.publication import build_pubs
 
 from .course import get_course_content, initialize_course_data
@@ -111,6 +112,8 @@ def login_email_view(request):
         user = get_user_model().objects.filter(email=email).first()
         if user and user.check_password(password):
             login(request, user)
+            if Moderator.objects.filter(user=user):
+                return redirect('/note/')
             if Student.objects.filter(email=email, course__name='cs350'):
                 return redirect('/course/cs350')
             elif Student.objects.filter(email=email, course__name='bacs350'):

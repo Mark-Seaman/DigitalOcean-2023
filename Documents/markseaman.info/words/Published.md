@@ -8,7 +8,7 @@
 * [A Seaman's Quest](/quest)               57499 words   229 pages
 
 
-## Pubs - blog                            182784 words   731 pages
+## Pubs - blog                            182832 words   731 pages
 
 * [AI Playbook](/ai)                        9449 words    37 pages
 * [The Shrinking World I/O](/io)           13686 words    54 pages
@@ -17,13 +17,13 @@
 * [Life with God](/spirituality)           13641 words    54 pages
 * [Tech Notes](/tech)                      22541 words    90 pages
 * [Writer's Block](/write)                  8231 words    32 pages
-* [Stacie's Place](/stacie)                  120 words     0 pages
+* [Stacie's Cancer Detour](/stacie)          168 words     0 pages
 
 
-## Pubs - course                          163088 words   652 pages
+## Pubs - course                          164091 words   656 pages
 
 * [The Leverage Principle](/leverage)      83659 words   334 pages
-* [Software Engineering with AI](/sweng)   29541 words   118 pages
+* [Software Engineering with AI](/sweng)   30544 words   122 pages
 * [Python Web Apps](/webapps)              49888 words   199 pages
 
 
@@ -38,4 +38,4 @@
 
 
 
-## Grand Total   476170 words  1904 pages
+## Grand Total   477221 words  1908 pages

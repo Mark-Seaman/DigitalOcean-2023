@@ -20,8 +20,8 @@ from .data import load_json_data, save_json_data
 
 def quick_test():
     # print("No quick test defined")
-    # course()
-    create_moderators()
+    course()
+    # create_moderators()
     # pub()
     # tasks()
     # tests()

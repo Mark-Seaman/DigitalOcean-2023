@@ -47,7 +47,7 @@ class NoteUpdateView(LoginRequiredMixin, UpdateView):
     success_url = '/note/'
 
 
-class NoteDeleteView(DeleteView):
+class NoteDeleteView(LoginRequiredMixin, DeleteView):
     model = Note
     template_name = 'note/note_delete.html'
     success_url = '/note/'

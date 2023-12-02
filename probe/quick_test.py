@@ -20,9 +20,9 @@ from .data import load_json_data, save_json_data
 
 def quick_test():
     # print("No quick test defined")
-    course()
+    # course()
     # create_moderators()
-    # pub()
+    pub()
     # tasks()
     # tests()
     # writer()
@@ -38,7 +38,7 @@ def course():
 
 def pub():
     # Build Pubs
-    build_pubs(verbose=False, delete=False)
+    build_pubs(verbose=False, delete=True)
     text = measure_pub_words()
     print(text)
 

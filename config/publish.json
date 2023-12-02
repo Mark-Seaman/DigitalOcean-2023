@@ -517,8 +517,8 @@
     "pk": 204,
     "fields": {
         "name": "stacie",
-        "title": "Stacie's Place",
-        "subtitle": "News from Stacie Seaman",
+        "title": "Stacie's Cancer Detour",
+        "subtitle": "Health News from Stacie Seaman",
         "author": "Mark Seaman",
         "description": "News and updates from Stacie Seaman.",
         "doc_path": "Documents/Shrinking-World-Pubs/stacie/Pub",
@@ -527,9 +527,9 @@
         "domain": null,
         "url": "/stacie",
         "logo": "/static/images/Shrinking-World-Pubs/stacie/Stacie.jpg",
-        "words": 0,
+        "words": 168,
         "cover_image": "/static/images/Shrinking-World-Pubs/stacie/Stacie.jpg",
-        "menu": "static/js/nav_blog.json",
+        "menu": "static/js/nav_stacie.json",
         "pub_type": "blog",
         "auto_remove": false,
         "auto_contents": false,
@@ -19295,7 +19295,7 @@
         "doctype": "folder",
         "path": "Documents/Shrinking-World-Pubs/stacie/Pub/Index.md",
         "folder": 0,
-        "words": 180,
+        "words": 168,
         "retain_object": false
     }
 },
@@ -19314,33 +19314,24 @@
     }
 },
 {
-    "model": "publish.note",
+    "model": "publish.moderator",
     "pk": 1,
     "fields": {
-        "author": "Mark Seaman",
-        "title": "Get Well Soon",
-        "text": "None",
-        "published": true
+        "user": 93
     }
 },
 {
-    "model": "publish.note",
+    "model": "publish.moderator",
     "pk": 2,
     "fields": {
-        "author": "Mark Seaman",
-        "title": "No title",
-        "text": "None",
-        "published": false
+        "user": 94
     }
 },
 {
-    "model": "publish.note",
+    "model": "publish.moderator",
     "pk": 3,
     "fields": {
-        "author": "Mark Seaman",
-        "title": "No title",
-        "text": "None",
-        "published": false
+        "user": 95
     }
 }
 ]

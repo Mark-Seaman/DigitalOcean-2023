@@ -85,7 +85,7 @@ textarea {
 }
 
 header {
-    background-image: url(/static/images/Shrinking-World-Pubs/stacie/sunset_banner.jpg);
+    background-image: url(/static/images/Shrinking-World-Pubs/stacie/Family.jpg);
     background-size: cover;
 }
 
@@ -114,8 +114,9 @@ label.checkbox input.checkboxinput {
 }
 
 .logo {
-    width: 100px;
+    width: 200px;
     border-radius: 20px;
+    border: 5px solid white;
 }
 
 /*.card-header a {*/

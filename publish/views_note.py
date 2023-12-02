@@ -12,6 +12,13 @@ class NoteListView(ListView):
     template_name = 'note/note_list.html'
     context_object_name = 'notes'
 
+    def get_context_data(self, **kwargs):
+        kwargs = super().get_context_data(**kwargs)
+        pub = kwargs.get("pub", "stacie")
+        doc = kwargs.get("doc", "Index.md")
+        kwargs = select_blog_doc(pub, doc)
+        return kwargs
+
 
 class NoteDetailView(DetailView):
     model = Note
@@ -46,12 +53,25 @@ class NoteUpdateView(LoginRequiredMixin, UpdateView):
     fields = ['title', 'text', 'author', 'published']
     success_url = '/note/'
 
+    def get_context_data(self, **kwargs):
+        kwargs = super().get_context_data(**kwargs)
+        pub = kwargs.get("pub", "stacie")
+        doc = kwargs.get("doc", "Index.md")
+        kwargs = select_blog_doc(pub, doc)
+        return kwargs
+
 
 class NoteDeleteView(LoginRequiredMixin, DeleteView):
     model = Note
     template_name = 'note/note_delete.html'
     success_url = '/note/'
 
+    def get_context_data(self, **kwargs):
+        kwargs = super().get_context_data(**kwargs)
+        pub = kwargs.get("pub", "stacie")
+        doc = kwargs.get("doc", "Index.md")
+        kwargs = select_blog_doc(pub, doc)
+        return kwargs
 
 # class NoteRedirectView(RedirectView):
 #     permanent = False
@@ -60,6 +80,7 @@ class NoteDeleteView(LoginRequiredMixin, DeleteView):
 
 #     def get_redirect_url(self, *args, **kwargs):
 #         return super().get_redirect_url(*args, **kwargs)
+
 
 class StacieView(TemplateView):
     model = Note

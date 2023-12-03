@@ -1,4 +1,5 @@
 /*  C O L O R S  */
+
 /*
 --primary: #007bff;
 --secondary: #6c757d;
@@ -8,6 +9,8 @@
 --danger: #dc3545;
 --light: #f8f9fa;
 --dark: #343a40;
+--brown: #162f55;
+--charcoal: #961c1f;
 */
 
 .blue {
@@ -30,6 +33,11 @@
     color: black;
 }
 
+.brown {
+    background-color: #961c1f;
+    color: white;
+}
+
 input,
 textarea {
     width: 100%;
@@ -46,24 +54,28 @@ textarea {
     color: rgb(33, 37, 41);
 }
 
+/* C L A S S E S */
 
-/*  C A R D S   */
-
-.card-week {
-    background-color: rgb(33, 37, 41);
-    color: rgb(248, 249, 250);
-    box-shadow: 2px 2px 5px black;
-    margin: 1em;
-
+.logo {
+    width: 200px;
+    border-radius: 20px;
+    border: 5px solid white;
 }
 
-.card-lesson {
-    margin: .5em;
+.card {
+    border: 1px solid gray;
     box-shadow: 2px 2px 5px gray;
+    border-radius: 20px;
 }
 
 .photo {
     margin: 3em;
+}
+
+/* E L E M E N T S */
+
+a {
+    color: green;
 }
 
 header {
@@ -82,8 +94,16 @@ header a:hover {
     color: white;
 }
 
+a.btn:hover {
+    color: yellow;
+}
+
 h1 {
-    color: dodgerblue;
+    color: #961c1f;
+}
+
+h2 {
+    color: #162f55;
 }
 
 img {
@@ -93,18 +113,6 @@ img {
 label.checkbox input.checkboxinput {
     width: 30px;
     margin-top: 2em;
-}
-
-.logo {
-    width: 200px;
-    border-radius: 20px;
-    border: 5px solid white;
-}
-
-.card {
-    border: 1px solid gray;
-    box-shadow: 2px 2px 5px gray;
-    border-radius: 20px;
 }
 
 pre {

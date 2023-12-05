@@ -94,6 +94,7 @@ def fix_tasks(**kwargs):
         # delete_activity('Network')
         # delete_activity('Tools')
 
+        define_activity('Stacie', 'Public')
         define_activity('Family', 'Public')
         define_activity('Church', 'Public')
         define_activity('Innovate', 'Work')

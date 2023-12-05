@@ -22,8 +22,8 @@ def quick_test():
     # print("No quick test defined")
     # course()
     # create_moderators()
-    pub()
-    # tasks()
+    # pub()
+    tasks()
     # tests()
     # writer()
     return 'OK'

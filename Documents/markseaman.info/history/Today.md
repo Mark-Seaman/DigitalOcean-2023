@@ -9,9 +9,16 @@ Grading
 
 ## Tasks
 
-Marco Polo for care team
+Elen
+Contact Beilmans
+Sedera Authorization
+Self-pay form
+Rocket
+Well-being plan
+Polo for Stacie's Place
+Polo for diversions team
 Hawaii Condo
 Cruise
 Writing about Emotional Journey
-Fix Sublime Grammarly
+Downwinder Claim
 

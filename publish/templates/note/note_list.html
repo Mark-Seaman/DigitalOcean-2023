@@ -1,49 +1,37 @@
 {% extends 'publish_theme.html' %}
 
-
 {% block content %}
-
-<div class="bg-light text-dark m-5 p-5">
-
+  <div class="bg-light text-dark m-5 p-5">
     <h2 class="text-center">Messages for Stacie</h2>
 
     {% if notes %}
-    
-
-    <table class="table table-hover">
+      <table class="table table-hover">
         <thead>
-            <tr>
-                <th>Title</th>
-                <th>Author</th>
-                <th>Published</th>
-            </tr>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Published</th>
+          </tr>
         </thead>
 
         <tbody>
-            {% for note in notes %}
+          {% for note in notes %}
             {% if not user.is_anonymous or note.published %}
-    
-                <tr>
-                    <td>
-                        <a href="/note/{{ note.pk }}">{{ note.title }}</a>
-                    </td>
-                    <td>{{ note.author }}</td>
-                    <td>{{ note.published }}</td>
-                </tr>
-
+              <tr>
+                <td>
+                  <a href="/note/{{ note.pk }}">{{ note.title }}</a>
+                </td>
+                <td>{{ note.author }}</td>
+                <td>{{ note.published }}</td>
+              </tr>
             {% endif %}
-
-            {% endfor %}
+          {% endfor %}
         </tbody>
-    </table>
+      </table>
     {% else %}
-    <p>
-        There are no notes to edit.
-    </p>
+      <p>There are no notes to edit.</p>
     {% endif %}
 
-    <a class="btn btn-primary" href="/note/add">New Message</a>
-
-</div>
-
-{% endblock content %}
+    <a class="btn brown m-5" href="/note/add">New Message</a>
+  </div>
+{% endblock %}

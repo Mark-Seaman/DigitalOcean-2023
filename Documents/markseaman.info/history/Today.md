@@ -3,8 +3,9 @@
 
 ## Priorities
 
-Medical financing
-Grading
+Medical billing spreadsheet
+Medical info notebook
+Final Grades
 
 
 ## Tasks
@@ -15,7 +16,6 @@ Sedera Authorization
 Self-pay form
 Rocket
 Well-being plan
-Polo for Stacie's Place
 Polo for diversions team
 Hawaii Condo
 Cruise

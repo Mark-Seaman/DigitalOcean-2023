@@ -27,6 +27,7 @@ class NoteDetailView(DetailView):
 
     def get_context_data(self, **kwargs):
         kwargs = super().get_context_data(**kwargs)
+        kwargs['text'] = markdown(kwargs.get("note").text)
         pub = kwargs.get("pub", "stacie")
         doc = kwargs.get("doc", "Index.md")
         kwargs.update(select_blog_doc(pub, doc))

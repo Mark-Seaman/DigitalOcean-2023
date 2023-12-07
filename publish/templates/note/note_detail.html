@@ -8,7 +8,11 @@
   <div class="bg-light text-dark m-5 p-5">
     <h2>{{ note.title }}</h2>
     <p>by {{ note.author }}</p>
-    <p>{{ note.text }}</p>
+    <p>
+      {% autoescape off %}
+        {{ text }}
+      {% endautoescape %}
+    </p>
 
     {% if not user.is_anonymous or note.published %}
       <a class="btn btn-primary" href="/note/{{ note.id }}/">Edit Message</a>

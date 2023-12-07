@@ -3,15 +3,11 @@
 
 ## Priorities
 
-Medical financing
-Grading
+Dietician
 
 
 ## Tasks
 
-Elen
-Contact Beilmans
-Sedera Authorization
 Self-pay form
 Rocket
 Well-being plan

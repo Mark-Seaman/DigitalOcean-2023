@@ -3,13 +3,10 @@
 
 ## Priorities
 
-Medical billing spreadsheet
-Medical info notebook
-Final Grades
-
 
 ## Tasks
 
+Balls, Fonkens, Potters, Moras, Swains
 Learning about nutrition
 Self-pay form
 Rocket
@@ -18,5 +15,5 @@ Hawaii Condo
 Cruise
 Writing about Emotional Journey
 Downwinder Claim
-Balls, Fonkens, Potters, Moras, Swains
+Tour of website
 

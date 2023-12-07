@@ -101,9 +101,9 @@ class StacieView(TemplateView):
         if doc == 'Encouragement.md':
             text = ''
             for note in notes():
-                if moderator or note.published:
-                    link = f'[{note.title}](/note/{note.pk})'
-                    text += f'* {link}  by **{note.author}**\n'
+                # if moderator or note.published:
+                link = f'[{note.title}](/note/{note.pk})'
+                text += f'* {link}  by **{note.author}**\n'
             kwargs['notes'] = markdown(text)
             kwargs['message'] = True
         return kwargs

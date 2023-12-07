@@ -57,7 +57,7 @@ class NoteUpdateView(LoginRequiredMixin, UpdateView):
         kwargs = super().get_context_data(**kwargs)
         pub = kwargs.get("pub", "stacie")
         doc = kwargs.get("doc", "Index.md")
-        kwargs = select_blog_doc(pub, doc)
+        kwargs.update(select_blog_doc(pub, doc))
         return kwargs
 
 

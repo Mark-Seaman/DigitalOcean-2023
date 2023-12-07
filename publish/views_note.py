@@ -50,8 +50,8 @@ class NoteCreateView(CreateView):
 class NoteUpdateView(LoginRequiredMixin, UpdateView):
     model = Note
     template_name = 'note/note_form.html'
-    fields = ['title', 'text', 'author', 'published']
-    success_url = '/note/'
+    fields = ['title', 'text', 'author']
+    success_url = '/stacie/Encouragement.md'
 
     def get_context_data(self, **kwargs):
         kwargs = super().get_context_data(**kwargs)
@@ -64,7 +64,7 @@ class NoteUpdateView(LoginRequiredMixin, UpdateView):
 class NoteDeleteView(LoginRequiredMixin, DeleteView):
     model = Note
     template_name = 'note/note_delete.html'
-    success_url = '/note/'
+    success_url = '/stacie/Encouragement.md'
 
     def get_context_data(self, **kwargs):
         kwargs = super().get_context_data(**kwargs)

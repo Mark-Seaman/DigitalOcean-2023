@@ -6,7 +6,7 @@
 
 {% block content %}
   <div class="bg-light text-dark m-5 p-5">
-    <h2 class="text-center">Post Message</h2>
+    <h2 class="text-center">Edit Message</h2>
 
     {% load crispy_forms_tags %}
 
@@ -15,7 +15,7 @@
 
       {{ form|crispy }}
 
-      <button class="btn btn-success m-5" type="submit">Send Message</button>
+      <button class="btn btn-success m-5" type="submit">Post Message</button>
       <a class="btn btn-success m-5" href="delete">Delete Record</a>
     </form>
   </div>

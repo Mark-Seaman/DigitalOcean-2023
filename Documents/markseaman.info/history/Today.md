@@ -10,7 +10,6 @@ Final Grades
 
 ## Tasks
 
-Eddie Hyatt
 Learning about nutrition
 Self-pay form
 Rocket

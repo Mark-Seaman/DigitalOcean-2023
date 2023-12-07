@@ -3,16 +3,17 @@
 
 ## Priorities
 
+<<<<<<< HEAD
 Medical billing spreadsheet
 Medical info notebook
 Final Grades
+=======
+Dietician
+>>>>>>> origin
 
 
 ## Tasks
 
-Elen
-Contact Beilmans
-Sedera Authorization
 Self-pay form
 Rocket
 Well-being plan

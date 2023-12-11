@@ -9,11 +9,25 @@ Week 8 News
 
 ## Tasks
 
-Tour of website
-Rocket
-Well-being plan
-Hawaii Condo
-Cruise
-Writing about Emotional Journey
-Downwinder Claim
+Care
+
+    send report to Dr Rhoads
+
+Business
+
+    set up password management
+    billing spreadsheet
+    Stacie's calendar
+
+Household
+
+    cancel house cleaning
+    dishes
+    laundry
+    shopping
+    food
+
+Communication
+
+Grow
 

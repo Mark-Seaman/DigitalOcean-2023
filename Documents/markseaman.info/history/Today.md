@@ -11,13 +11,15 @@ Week 8 News
 
 Care
 
-    send report to Dr Rhoads
+    CT Scan
 
 Business
 
     set up password management
     billing spreadsheet
     Stacie's calendar
+    Sedera
+    pick up medicine
 
 Household
 

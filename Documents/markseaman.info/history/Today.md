@@ -3,8 +3,6 @@
 
 ## Priorities
 
-Billing Spreadsheet
-Week 8 News
 
 
 ## Tasks
@@ -17,17 +15,15 @@ Business
 
     set up password management
     billing spreadsheet
-    Stacie's calendar
     Sedera
     pick up medicine
+    good RX
 
 Household
 
-    cancel house cleaning
+    house cleaning service
     dishes
     laundry
-    shopping
-    food
 
 Communication
 

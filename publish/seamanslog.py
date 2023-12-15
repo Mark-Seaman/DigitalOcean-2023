@@ -1,10 +1,9 @@
+from django.template.loader import render_to_string
+from django.utils.timezone import localdate
 from os import system
 from pathlib import Path
 from random import choice
 from re import split
-
-from django.template.loader import render_to_string
-from django.utils.timezone import localdate
 
 from publish.days import yesterday
 from publish.document import document_body, document_title, title

@@ -1,31 +1,32 @@
 # Today
 
+Grief
 
-## Priorities
-
-
-
-## Tasks
-
-Care
-
-    CT Scan
+    Stacie's last battle
 
 Business
 
     set up password management
+        import User ID.xlsx into Strong Box
+        new password on phone
+        instant access on phone
     billing spreadsheet
     Sedera
-    pick up medicine
-    good RX
-
+    house cleaning
+    Rocket
+    Credit Card
+    
 Household
 
-    house cleaning service
     dishes
     laundry
+    food
 
 Communication
 
+    update website news history
+
 Grow
+
+    health log
 

@@ -6,37 +6,37 @@ Grief
 
 Family
 
-    Christmas tree
 
 Business
 
-    set up password management
-        import User ID.xlsx into Strong Box
-        new password on phone
+    import User ID.xlsx into Strong Box
     billing spreadsheet
-    Sedera
-    Rocket
-    Credit Card
-    UCHealth App
+    Sedera payments and bills
     Toyota Registration
-    
+
 Household
 
+    give away perishable food
     dishes
     laundry
     food
+    cleaning
 
 Communication
 
-    update website news history
+    Lunch with Mark
+    Office Hours by Video
+    review subscribers
     Downwinders
-    Condo Hawaii
-    UCHealth Flowers. (palliative, Sears, Müeller)
     contact 
+        Eric Williams
         Karen Fields
         Erin Fonken
+        Kucera
+    Memorial Videos
 
 Grow
 
     health log
+    shopping list for weekly recipes
 

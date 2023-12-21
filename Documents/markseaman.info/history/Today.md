@@ -1,7 +1,22 @@
 # Today
 
+Communication
+
+    Video with Mark
+    short list meet up
+        Karen Fields
+        Miga
+        Barb
+        Elen
+    Memorial Videos
+    review subscribers
+    Downwinders
+    contact 
+        Kucera
+
 Grief
 
+    pick up remains
     Stacie's last battle
 
 Family
@@ -12,7 +27,6 @@ Business
     import User ID.xlsx into Strong Box
     billing spreadsheet
     Sedera payments and bills
-    Toyota Registration
 
 Household
 
@@ -22,6 +36,7 @@ Household
     food
     cleaning
 
+<<<<<<< HEAD
 Communication
 
     Lunch with Mark
@@ -37,8 +52,9 @@ Communication
         Polaseks
     Memorial Videos
 
+=======
+>>>>>>> a41379a704d140bba63b9991a19530582b45dfb1
 Grow
 
-    health log
     shopping list for weekly recipes
 

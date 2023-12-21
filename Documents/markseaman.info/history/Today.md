@@ -3,16 +3,13 @@
 Communication
 
     Video with Mark
-    short list meet up
-        Karen Fields
-        Miga
-        Barb
-        Elen
+    email speakers: Miga, Karen, Elen, Rachel, Barb, Kelli
     Memorial Videos
     review subscribers
     Downwinders
-    contact 
-        Kucera
+    contact: Kucera, 
+        Karen. (909) 292-7661. 1145 Coronado St. Upland CA 91786
+
 
 Grief
 
@@ -24,6 +21,7 @@ Family
 
 Business
 
+    Stacie's Calendar
     import User ID.xlsx into Strong Box
     billing spreadsheet
     Sedera payments and bills
@@ -36,11 +34,9 @@ Household
     food
     cleaning
 
-<<<<<<< HEAD
 Communication
 
-    Lunch with Mark
-    Office Hours by Video
+    Video appointments
     review subscribers
     Downwinders
     contact 
@@ -52,8 +48,6 @@ Communication
         Polaseks
     Memorial Videos
 
-=======
->>>>>>> a41379a704d140bba63b9991a19530582b45dfb1
 Grow
 
     shopping list for weekly recipes

@@ -1,25 +1,29 @@
 {
     "menu": {
         "title": [
-            "Stacie's Detour",
+            "Stacie Seaman's Life",
             "/stacie"
         ],
         "items": [
             [
-                "Home",
-                "/stacie/Index.md"
+                "Memorial",
+                "/stacie/Memorial.md"
             ],
             [
-                "News",
-                "/stacie/News.md"
+                "Memories",
+                "/stacie/Memories.md"
             ],
             [
-                "Encouragement",
-                "/stacie/Encouragement.md"
+                "Tell Your Story",
+                "/stacie/TellStory.md"
             ],
             [
-                "How To Help",
-                "/stacie/Help.md"
+                "Donations",
+                "/stacie/Donate.md"
+            ],
+            [
+                "Connect",
+                "/stacie/Connect.md"
             ]
         ]
     }

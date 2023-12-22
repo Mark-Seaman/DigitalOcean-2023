@@ -2,13 +2,9 @@
 
 Communication
 
-    Video with Mark
-    email speakers: Miga, Karen, Elen, Rachel, Barb, Kelli
-    Memorial Videos
     review subscribers
     Downwinders
-    contact: Kucera, 
-        Karen. (909) 292-7661. 1145 Coronado St. Upland CA 91786
+    contact: Kucera, Megan Lunstrom
 
 
 Grief

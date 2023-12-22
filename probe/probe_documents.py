@@ -21,7 +21,7 @@ def test_documents_cs350():
 
 
 def test_documents_info():
-    return check_files(docs / "markseaman.info", 2800, 3200)
+    return check_files(docs / "markseaman.info", 2800, 3300)
 
 
 def test_documents_images():

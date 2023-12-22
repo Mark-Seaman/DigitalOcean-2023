@@ -15,9 +15,9 @@
 * [Seaman's Log](/sampler)                 56679 words   226 pages
 * [Daily Meditations](/spiritual)          58437 words   233 pages
 * [Life with God](/spirituality)           13641 words    54 pages
+* [Stacie's Cancer Detour](/stacie)          139 words     0 pages
 * [Tech Notes](/tech)                      22541 words    90 pages
 * [Writer's Block](/write)                  8231 words    32 pages
-* [Stacie's Cancer Detour](/stacie)          139 words     0 pages
 
 
 ## Pubs - course                          164091 words   656 pages

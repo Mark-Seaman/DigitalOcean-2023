@@ -99,7 +99,7 @@ class StacieView(TemplateView):
         return kwargs
 
     def add_notes(self, moderator, doc, **kwargs):
-        if doc == 'Encouragement.md':
+        if doc == 'Memories.md':
             text = ''
             for note in notes():
                 # if moderator or note.published:

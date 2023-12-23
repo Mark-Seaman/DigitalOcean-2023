@@ -4,27 +4,32 @@ Communication
 
     review subscribers
     Downwinders
-    contact: Kucera, Megan Lunstrom
+    contact: 
+        Kucera, 
+        Megan Lunstrom, 
+        Brian Christianson
+    kids
+        memorial plan
+        writing
 
 
 Grief
 
-    pick up remains
     Stacie's last battle
+    The Final Days
+    Stacie's Place Email
 
 Family
 
 
 Business
 
-    Stacie's Calendar
     import User ID.xlsx into Strong Box
     billing spreadsheet
     Sedera payments and bills
 
 Household
 
-    give away perishable food
     dishes
     laundry
     food

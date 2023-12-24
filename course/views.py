@@ -113,7 +113,7 @@ def login_email_view(request):
         if user and user.check_password(password):
             login(request, user)
             if Moderator.objects.filter(user=user):
-                return redirect('/stacie/Encouragement.md')
+                return redirect('/stacie/Memories.md')
             if Student.objects.filter(email=email, course__name='cs350'):
                 return redirect('/course/cs350')
             elif Student.objects.filter(email=email, course__name='bacs350'):

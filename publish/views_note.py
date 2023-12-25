@@ -110,6 +110,6 @@ class StacieView(TemplateView):
         return kwargs
 
     def add_subscribe(self, doc, **kwargs):
-        if doc == 'News.md':
+        if doc == 'Index.md':
             kwargs['subscribe'] = True
         return kwargs

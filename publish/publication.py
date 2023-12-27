@@ -171,6 +171,8 @@ def select_blog_doc(pub, doc, local_host=False):
         path = Path(path) / doc.replace("-", "/")
         if not Path(path).exists() and Path(f"{path}.md").exists():
             path = Path(f"{path}.md")
+        if not Path(path).exists():
+            path = Path(str(path).replace("/Pub", "/Pub/stories"))
         if path.exists():
             markdown = document_body(read_file(path), pub.image_path)
             github = 'https://github.com/Mark-Seaman/SoftwareEngineering'

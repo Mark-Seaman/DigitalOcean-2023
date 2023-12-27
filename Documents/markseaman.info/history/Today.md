@@ -1,16 +1,18 @@
 # Today
 
+Memorial
+
+    Memorial Videos
+    Memorial Text
+    Post Stories (video, text)
+    invite kids to write
+
 Communication
 
     review subscribers
+    email contacts
     Downwinders
     contact: 
-        Kucera, 
-        Megan Lunstrom, 
-        Brian Christianson
-    kids
-        memorial plan
-        writing
 
 
 Grief
@@ -47,7 +49,6 @@ Communication
         Kucera
         Megan Lundstrom
         Polaseks
-    Memorial Videos
 
 Grow
 

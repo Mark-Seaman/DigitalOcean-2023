@@ -2,18 +2,6 @@
 
 Memorial
 
-    Memorial Videos
-    Memorial Text
-    Post Stories (video, text)
-    invite kids to write
-
-Communication
-
-    review subscribers
-    email contacts
-    Downwinders
-    contact: 
-
 
 Grief
 
@@ -23,6 +11,7 @@ Grief
 
 Family
 
+    out of towners
 
 Business
 
@@ -39,16 +28,9 @@ Household
 
 Communication
 
-    Video appointments
     review subscribers
+    email contacts
     Downwinders
-    contact 
-        Eric Williams
-        Karen Fields
-        Erin Fonken
-        Kucera
-        Megan Lundstrom
-        Polaseks
 
 Grow
 

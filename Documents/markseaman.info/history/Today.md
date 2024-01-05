@@ -9,8 +9,6 @@ Connect
 
     Memorial List Message
     meet with Todd
-    Meals & Lunch dates
-    Eric W
     UNC Email
 
 Learn

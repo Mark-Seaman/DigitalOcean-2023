@@ -2,14 +2,12 @@
 
 Create
 
-    Day 4-5
+    Day 4-7
     Life After Death Handbook
 
 Connect
 
-    Memorial List Message
-    meet with Todd
-    UNC Email
+    Remember Stacie Message
 
 Learn
 
@@ -22,7 +20,6 @@ Business
 
     Medical Bills
     Sedera
-    Coffee Maker
     Camry Registration
-    change sheets
+    Weekly Reflection
 

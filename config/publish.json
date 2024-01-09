@@ -527,7 +527,7 @@
         "domain": null,
         "url": "/stacie",
         "logo": "/static/images/Shrinking-World-Pubs/stacie/Stacie.jpg",
-        "words": 139,
+        "words": 98,
         "cover_image": null,
         "menu": "static/js/nav_stacie.json",
         "pub_type": "blog",

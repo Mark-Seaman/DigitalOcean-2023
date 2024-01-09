@@ -2,12 +2,14 @@
 
 Create
 
-    Day 4-7
-    Life After Death Handbook
+    Pub: Life After Death Handbook
+    Day 4-9
+    New Documents repo
 
 Connect
 
-    Remember Stacie Message
+    Duke - Macro Polo, using my superpower, friend
+    Tim - relationship
 
 Learn
 
@@ -16,11 +18,15 @@ Enjoy
 
     Apple Music
 
-Business
+Money
 
-    Medical Bills
-    Sedera
+    Upload Medical Bills
     Camry Registration
-    Weekly Reflection
 
-    
+Health
+
+Household
+
+Organize
+
+
